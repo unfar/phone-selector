@@ -15,16 +15,13 @@
 
 直接访问 GitHub Pages 链接：[https://你的用户名.github.io/phone-selector/](https://你的用户名.github.io/phone-selector/)
 
-## 本地使用
 
-1. 下载 `index.html` 文件
-2. 用浏览器打开即可使用
-3. 无需安装任何依赖，纯前端实现
 
 ## 数据来源
 
 - 苹果官网 (apple.com.cn)
-- 华为官网 (huawei.com) / 荣耀商城 (vmall.com)
+- 华为官网 (huawei.com) 
+- 荣耀商城 (vmall.com)
 - 小米官网 (mi.com)
 - OPPO官网 (oppo.com)
 - vivo官网 (vivo.com.cn)
@@ -47,3 +44,5 @@
 ## License
 
 MIT License
+## 合作及反馈
+wechat：Greg__ge
