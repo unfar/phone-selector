@@ -425,6 +425,7 @@ function setupEventListeners() {
         selectedScreen = null;
         selectedCpu.clear();
         selectedTags.clear();
+        compareList = [];
         updateHash();
         refresh();
     });
