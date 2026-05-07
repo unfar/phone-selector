@@ -5017,7 +5017,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "USB3.0"
+      "USB3.0",
+      "NFC"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
@@ -5046,7 +5047,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "USB3.0"
+      "USB3.0",
+      "NFC"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",

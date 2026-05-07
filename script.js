@@ -69,7 +69,19 @@ function matchesFilters(p) {
     if (selectedBrands.size > 0 && !selectedBrands.has(p.brand)) return false;
     if (selectedScreen && p.screen_form !== selectedScreen) return false;
     if (selectedCpu.size > 0) { let has = false; for (let c of selectedCpu) if (p.tags.includes(c)) { has = true; break; } if (!has) return false; }
-    for (let t of selectedTags) if (!p.tags.includes(t)) return false;
+    // 特性标签匹配：同时检查 tags 和 features
+    const tagsRequireBoth = new Set(['NFC', '红外', 'USB3.0', '无线充电', '防水', '潜望长焦', '6500mAh+', '≤200g', '散热风扇']);
+    for (let t of selectedTags) {
+        if (tagsRequireBoth.has(t)) {
+            // 特殊标签：tags 或 features 中有即可
+            const inTags = p.tags.includes(t);
+            const inFeatures = (p.features || []).some(f => f.includes(t));
+            if (!inTags && !inFeatures) return false;
+        } else {
+            // 其他标签：只匹配 tags
+            if (!p.tags.includes(t)) return false;
+        }
+    }
     // 搜索匹配
     if (searchQuery) {
         const q = searchQuery.toLowerCase();
