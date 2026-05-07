@@ -1834,7 +1834,7 @@
     "id": 60,
     "brand": "REDMI",
     "model": "Redmi K90 Pro Max",
-    "processor": "骁龙8 Elite 1",
+    "processor": "骁龙8 Elite 5",
     "screen_size": 6.67,
     "refresh_hz": 120,
     "screen_type": "OLED",
@@ -1853,7 +1853,7 @@
       "5G"
     ],
     "tags": [
-      "骁龙8 Elite 1",
+      "骁龙8 Elite 5",
       "红外",
       "大电池",
       "USB3.0",
@@ -6638,7 +6638,7 @@
   },
   {
     "model": "Galaxy S24 Ultra",
-    "processor": "骁龙8 Gen 3 for Galaxy",
+    "processor": "骁龙8 Gen3 for Galaxy",
     "screen_size": 6.8,
     "screen_type": "Dynamic AMOLED 2X",
     "screen_form": "直屏",
@@ -6706,7 +6706,7 @@
   },
   {
     "model": "Galaxy Z Fold6",
-    "processor": "骁龙8 Gen 3 for Galaxy",
+    "processor": "骁龙8 Gen3 for Galaxy",
     "screen_size": 7.6,
     "screen_type": "Dynamic AMOLED 2X",
     "screen_form": "折叠屏",
@@ -6841,7 +6841,7 @@
   },
   {
     "model": "Galaxy Z Flip6",
-    "processor": "骁龙8 Gen 3 for Galaxy",
+    "processor": "骁龙8 Gen3 for Galaxy",
     "screen_size": 6.7,
     "screen_type": "Dynamic AMOLED 2X",
     "screen_form": "折叠屏",
@@ -6875,7 +6875,7 @@
   },
   {
     "model": "Galaxy A57 5G",
-    "processor": "骁龙7s Gen 3",
+    "processor": "骁龙7s Gen3",
     "screen_size": 6.7,
     "screen_type": "Super AMOLED+",
     "screen_form": "直屏",
@@ -6905,7 +6905,7 @@
   },
   {
     "model": "Galaxy A56 5G",
-    "processor": "骁龙7s Gen 3",
+    "processor": "骁龙7s Gen3",
     "screen_size": 6.7,
     "screen_type": "Super AMOLED",
     "screen_form": "直屏",
@@ -6934,7 +6934,7 @@
   },
   {
     "model": "Galaxy A55 5G",
-    "processor": "骁龙7 Gen 1",
+    "processor": "骁龙7 Gen1",
     "screen_size": 6.6,
     "screen_type": "Super AMOLED",
     "screen_form": "直屏",
@@ -6962,7 +6962,7 @@
   },
   {
     "model": "Galaxy C55 5G",
-    "processor": "骁龙7 Gen 1",
+    "processor": "骁龙7 Gen1",
     "screen_size": 6.7,
     "screen_type": "Super AMOLED+",
     "screen_form": "直屏",
