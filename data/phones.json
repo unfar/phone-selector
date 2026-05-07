@@ -97,8 +97,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2800×1264",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5650,
     "charging_w": 100,
     "weight_g": 199,
@@ -128,8 +128,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2800×1264",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5850,
     "charging_w": 100,
     "weight_g": 213,
@@ -159,8 +159,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2800×1264",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5850,
     "charging_w": 100,
     "weight_g": 215,
@@ -191,8 +191,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "2156×1984",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5150,
     "charging_w": 66,
     "weight_g": 226,
@@ -221,8 +221,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "2156×1984",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5000,
     "charging_w": 66,
     "weight_g": 231,
@@ -2619,8 +2619,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 231,
@@ -2657,8 +2657,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 214,
@@ -2695,8 +2695,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6500,
     "charging_w": 66,
     "weight_g": 210,
@@ -2733,8 +2733,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 239,
@@ -2771,8 +2771,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5750,
     "charging_w": 100,
     "weight_g": 219,
@@ -2809,8 +2809,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5750,
     "charging_w": 66,
     "weight_g": 217,
@@ -2846,8 +2846,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 249,
@@ -2884,8 +2884,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 5600,
     "charging_w": 66,
     "weight_g": 236,
@@ -2920,8 +2920,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "512GB/1TB",
     "battery_mah": 5110,
     "charging_w": 66,
     "weight_g": 239,
@@ -2953,8 +2953,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "512GB/1TB",
     "battery_mah": 6500,
     "charging_w": 100,
     "weight_g": 209,
@@ -2988,8 +2988,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6500,
     "charging_w": 100,
     "weight_g": 202,
@@ -3023,8 +3023,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 66,
     "weight_g": 196,
@@ -3057,8 +3057,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "512GB/1TB",
     "battery_mah": 5500,
     "charging_w": 100,
     "weight_g": 204,
@@ -3092,8 +3092,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5500,
     "charging_w": 100,
     "weight_g": 207,
@@ -3127,8 +3127,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5500,
     "charging_w": 66,
     "weight_g": 192,
@@ -3161,8 +3161,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 229,
@@ -3197,8 +3197,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5500,
     "charging_w": 100,
     "weight_g": 203,
@@ -3228,8 +3228,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5800,
     "charging_w": 100,
     "weight_g": 221,
@@ -3259,8 +3259,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 5600,
     "charging_w": 100,
     "weight_g": 202,
@@ -3289,8 +3289,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 236,
@@ -3321,8 +3321,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 6200,
     "charging_w": 90,
     "weight_g": 203,
@@ -3352,8 +3352,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5500,
     "charging_w": 80,
     "weight_g": 179,
@@ -3386,8 +3386,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 199,
@@ -3420,8 +3420,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5500,
     "charging_w": 80,
     "weight_g": 179,
@@ -3454,8 +3454,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 199,
@@ -3484,8 +3484,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5000,
     "charging_w": 80,
     "weight_g": 192,
@@ -3519,8 +3519,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5500,
     "charging_w": 80,
     "weight_g": 186,
@@ -3549,8 +3549,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5000,
     "charging_w": 44,
     "weight_g": 190,
@@ -3583,8 +3583,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5500,
     "charging_w": 80,
     "weight_g": 194,
@@ -3617,8 +3617,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB",
+    "storage": "128GB/256GB",
     "battery_mah": 5500,
     "charging_w": 80,
     "weight_g": 194,
@@ -3651,8 +3651,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB/24GB",
+    "storage": "512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 120,
     "weight_g": 228,
@@ -3690,8 +3690,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 6100,
     "charging_w": 120,
     "weight_g": 212,
@@ -3727,8 +3727,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 6100,
     "charging_w": 120,
     "weight_g": 211,
@@ -3764,8 +3764,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5500,
     "charging_w": 120,
     "weight_g": 212,
@@ -3797,8 +3797,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 209,
@@ -3832,8 +3832,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 207,
@@ -3866,8 +3866,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6400,
     "charging_w": 80,
     "weight_g": 212,
@@ -3901,8 +3901,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 209,
@@ -3933,8 +3933,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 207,
@@ -3965,8 +3965,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 207,
@@ -3998,8 +3998,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 225,
@@ -4034,8 +4034,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5600,
     "charging_w": 80,
     "weight_g": 229,
@@ -4070,8 +4070,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 7050,
     "charging_w": 100,
     "weight_g": 235,
@@ -4107,8 +4107,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 7025,
     "charging_w": 80,
     "weight_g": 198,
@@ -4145,8 +4145,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 7500,
     "charging_w": 80,
     "weight_g": 224,
@@ -4182,8 +4182,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 7025,
     "charging_w": 80,
     "weight_g": 203,
@@ -4219,8 +4219,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 6200,
     "charging_w": 80,
     "weight_g": 207,
@@ -4252,8 +4252,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5700,
     "charging_w": 80,
     "weight_g": 193,
@@ -4286,8 +4286,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6500,
     "charging_w": 80,
     "weight_g": 205,
@@ -4319,8 +4319,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6200,
     "charging_w": 80,
     "weight_g": 187,
@@ -4352,8 +4352,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6500,
     "charging_w": 80,
     "weight_g": 197,
@@ -4386,8 +4386,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6200,
     "charging_w": 80,
     "weight_g": 201,
@@ -4418,8 +4418,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 187,
@@ -4451,8 +4451,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 8000,
     "charging_w": 100,
     "weight_g": 213,
@@ -4485,8 +4485,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "battery_mah": 7500,
     "charging_w": 80,
     "weight_g": 200,
@@ -4519,8 +4519,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "battery_mah": 7000,
     "charging_w": 80,
     "weight_g": 209,
@@ -4551,8 +4551,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 7000,
     "charging_w": 80,
     "weight_g": 208,
@@ -4584,8 +4584,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 7000,
     "charging_w": 80,
     "weight_g": 194,
@@ -4631,7 +4631,9 @@
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 | 超广角: 5000万 | 长焦: 潜望 5000万 3x光学",
     "charging_w": 80,
     "release_date": "2024-01",
-    "price": 4299
+    "price": 4299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "一加",
@@ -4658,7 +4660,9 @@
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 1/1.4英寸 | 超广角: 索尼IMX355 f/2.2 | 长焦: 索尼LYT-600 f/2.6 3x光学",
     "charging_w": 100,
     "release_date": "2024-01",
-    "price": 4699
+    "price": 4699,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "一加",
@@ -4683,7 +4687,9 @@
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2024-01",
-    "price": 3499
+    "price": 3499,
+    "ram": "16GB/24GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "一加",
@@ -4707,7 +4713,9 @@
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2024-01",
-    "price": 3399
+    "price": 3399,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "一加",
@@ -4731,7 +4739,9 @@
     "detailed_camera": "",
     "charging_w": 80,
     "release_date": "2024-01",
-    "price": 2999
+    "price": 2999,
+    "ram": "12GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "一加",
@@ -4756,7 +4766,9 @@
     "detailed_camera": "",
     "charging_w": 80,
     "release_date": "2024-01",
-    "price": 2499
+    "price": 2499,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "一加",
@@ -4781,7 +4793,9 @@
     "detailed_camera": "",
     "charging_w": 80,
     "release_date": "2024-01",
-    "price": 1999
+    "price": 1999,
+    "ram": "12GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "一加",
@@ -4804,7 +4818,9 @@
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2025-04",
-    "price": 2299
+    "price": 2299,
+    "ram": "16GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "一加",
@@ -4826,7 +4842,9 @@
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2025-04",
-    "price": 2499
+    "price": 2499,
+    "ram": "12GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "真我",
@@ -4855,7 +4873,9 @@
     "detailed_camera": "",
     "charging_w": 120,
     "release_date": "2024-01",
-    "price": 2299
+    "price": 2299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "真我",
@@ -4879,7 +4899,9 @@
     "detailed_camera": "",
     "charging_w": 80,
     "release_date": "2025-06",
-    "price": 2799
+    "price": 2799,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "真我",
@@ -4909,7 +4931,9 @@
     "detailed_camera": "",
     "charging_w": 120,
     "release_date": "2024-01",
-    "price": 3999
+    "price": 3999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "真我",
@@ -4939,7 +4963,9 @@
     "detailed_camera": "",
     "charging_w": 120,
     "release_date": "2024-01",
-    "price": 2999
+    "price": 2999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "真我",
@@ -4964,7 +4990,9 @@
     "detailed_camera": "",
     "charging_w": 120,
     "release_date": "2025-02",
-    "price": 2499
+    "price": 2499,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "真我",
@@ -4988,7 +5016,9 @@
     "detailed_camera": "",
     "charging_w": 45,
     "release_date": "2024-01",
-    "price": 1399
+    "price": 1399,
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "真我",
@@ -5012,7 +5042,9 @@
     "detailed_camera": "",
     "charging_w": 80,
     "release_date": "2024-01",
-    "price": 1199
+    "price": 1199,
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "真我",
@@ -5035,7 +5067,9 @@
     "detailed_camera": "",
     "charging_w": 33,
     "release_date": "2024-01",
-    "price": 1299
+    "price": 1299,
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB"
   },
   {
     "brand": "真我",
@@ -5058,7 +5092,9 @@
     "detailed_camera": "",
     "charging_w": 33,
     "release_date": "2024-01",
-    "price": 1099
+    "price": 1099,
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB"
   },
   {
     "brand": "HONOR",
@@ -5088,7 +5124,9 @@
     "detailed_camera": "主摄: 5000万 f/1.6 1/1.3英寸 | 长焦: 2亿潜望 1/1.4英寸 3.7x光学",
     "charging_w": 120,
     "release_date": "2025-10",
-    "price": 5699
+    "price": 5699,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "HONOR",
@@ -5118,7 +5156,9 @@
     "detailed_camera": "主摄: 5000万 f/1.9 | 长焦: 6400万潜望 3x光学",
     "charging_w": 100,
     "release_date": "2025-10",
-    "price": 4999
+    "price": 4999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "HONOR",
@@ -5269,7 +5309,9 @@
     "detailed_camera": "主摄: 索尼IMX903 f/1.78 1/1.14英寸 | 超广角: 4800万 f/2.2 | 长焦: 潜望 f/2.8 4800万 5x光学",
     "charging_w": 40,
     "release_date": "2026-09",
-    "price": 9999
+    "price": 9999,
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB/2TB"
   },
   {
     "brand": "苹果",
@@ -5300,7 +5342,9 @@
     "detailed_camera": "主摄: 索尼IMX903 f/1.78 1/1.14英寸 | 超广角: 4800万 f/2.2 | 长焦: 潜望 f/2.8 4800万 5x光学",
     "charging_w": 35,
     "release_date": "2026-09",
-    "price": 8999
+    "price": 8999,
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB/2TB"
   },
   {
     "brand": "苹果",
@@ -5329,7 +5373,9 @@
     "detailed_camera": "主摄: 4800万 f/1.6",
     "charging_w": 30,
     "release_date": "2024-01",
-    "price": 7999
+    "price": 7999,
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "苹果",
@@ -5359,7 +5405,9 @@
     "detailed_camera": "主摄: 4800万 f/1.6 | 超广角: 1200万 f/2.2",
     "charging_w": 30,
     "release_date": "2026-09",
-    "price": 5999
+    "price": 5999,
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB/2TB"
   },
   {
     "brand": "苹果",
@@ -5388,7 +5436,9 @@
     "detailed_camera": "主摄: 4800万 f/1.6",
     "charging_w": 27,
     "release_date": "2026-09",
-    "price": 4499
+    "price": 4499,
+    "ram": "8GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "苹果",
@@ -5417,7 +5467,9 @@
     "detailed_camera": "主摄: 4800万 f/1.6 | 超广角: 1200万 f/2.2",
     "charging_w": 27,
     "release_date": "2024-09",
-    "price": 5399
+    "price": 5399,
+    "ram": "8GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "苹果",
@@ -5446,7 +5498,9 @@
     "detailed_camera": "主摄: 4800万 f/1.6 | 超广角: 1200万 f/2.2",
     "charging_w": 27,
     "release_date": "2024-09",
-    "price": 5999
+    "price": 5999,
+    "ram": "8GB",
+    "storage": "128GB/256GB/512GB"
   },
   {
     "brand": "苹果",
@@ -5478,7 +5532,9 @@
     "detailed_camera": "主摄: 索尼IMX903 f/1.78 | 超广角: 4800万 f/2.2 | 长焦: 潜望 4800万 5x光学",
     "charging_w": 27,
     "release_date": "2024-09",
-    "price": 7999
+    "price": 7999,
+    "ram": "8GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "苹果",
@@ -5509,7 +5565,9 @@
     "detailed_camera": "主摄: 索尼IMX903 f/1.78 | 超广角: 4800万 f/2.2 | 长焦: 潜望 4800万 5x光学",
     "charging_w": 27,
     "release_date": "2024-09",
-    "price": 9999
+    "price": 9999,
+    "ram": "8GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "红魔",
@@ -5533,7 +5591,9 @@
     "wireless_charging_w": 0,
     "charging_w": 80,
     "release_date": "2025-07",
-    "price": 3699
+    "price": 3699,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "红魔",
@@ -5557,7 +5617,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2025-07",
-    "price": 4999
+    "price": 4999,
+    "ram": "16GB/24GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "红魔",
@@ -5581,7 +5643,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2025-07",
-    "price": 5699
+    "price": 5699,
+    "ram": "16GB/24GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "红魔",
@@ -5605,7 +5669,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2024-07",
-    "price": 4299
+    "price": 4299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "红魔",
@@ -5629,7 +5695,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2024-07",
-    "price": 5499
+    "price": 5499,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "红魔",
@@ -5652,7 +5720,9 @@
     "wireless_charging_w": 0,
     "charging_w": 80,
     "release_date": "2024-07",
-    "price": 2699
+    "price": 2699,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "红魔",
@@ -5676,7 +5746,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2024-07",
-    "price": 4199
+    "price": 4199,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "红魔",
@@ -5700,7 +5772,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2024-07",
-    "price": 4499
+    "price": 4499,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "红魔",
@@ -5722,7 +5796,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2023-07",
-    "price": 3599
+    "price": 3599,
+    "ram": "16GB/24GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "红魔",
@@ -5745,7 +5821,9 @@
     "wireless_charging_w": 0,
     "charging_w": 120,
     "release_date": "2023-07",
-    "price": 4199
+    "price": 4199,
+    "ram": "16GB/24GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "HONOR",
@@ -5771,7 +5849,9 @@
       "NFC"
     ],
     "release_date": "2025-10",
-    "price": 4999
+    "price": 4999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "HONOR",
@@ -5798,7 +5878,9 @@
       "NFC"
     ],
     "release_date": "2025-10",
-    "price": 7999
+    "price": 7999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "HONOR",
@@ -5825,7 +5907,9 @@
       "NFC"
     ],
     "release_date": "2025-07",
-    "price": 8999
+    "price": 8999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "HONOR",
@@ -6021,7 +6105,9 @@
       "天玑9400"
     ],
     "release_date": "2024-11",
-    "price": 2599
+    "price": 2599,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "REDMI",
@@ -6049,7 +6135,9 @@
       "潜望长焦"
     ],
     "release_date": "2024-11",
-    "price": 3299
+    "price": 3299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "REDMI",
@@ -6075,7 +6163,9 @@
       "6500mAh+"
     ],
     "release_date": "2024-11",
-    "price": 2299
+    "price": 2299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "REDMI",
@@ -6101,7 +6191,9 @@
       "天玑9400"
     ],
     "release_date": "2025-08",
-    "price": 2499
+    "price": 2499,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "REDMI",
@@ -6127,7 +6219,9 @@
       "6500mAh+"
     ],
     "release_date": "2025-08",
-    "price": 2299
+    "price": 2299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "REDMI",
@@ -6153,7 +6247,9 @@
       "6500mAh+"
     ],
     "release_date": "2024-08",
-    "price": 2299
+    "price": 2299,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "REDMI",
@@ -6276,7 +6372,9 @@
       "防水"
     ],
     "release_date": "2025-11",
-    "price": 8499
+    "price": 8499,
+    "ram": "16GB",
+    "storage": "1TB"
   },
   {
     "brand": "华为",
@@ -6299,7 +6397,9 @@
       "轻薄"
     ],
     "release_date": "2025-06",
-    "price": 1599
+    "price": 1599,
+    "ram": "8GB",
+    "storage": "128GB/256GB"
   },
   {
     "brand": "华为",
@@ -6323,7 +6423,9 @@
       "轻薄"
     ],
     "release_date": "2025-06",
-    "price": 1799
+    "price": 1799,
+    "ram": "8GB",
+    "storage": "128GB/256GB"
   },
   {
     "brand": "华为",
@@ -6346,7 +6448,9 @@
       "中低端芯片"
     ],
     "release_date": "2025-06",
-    "price": 1999
+    "price": 1999,
+    "ram": "8GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "华为",
@@ -6372,7 +6476,9 @@
       "NFC"
     ],
     "release_date": "2025-03",
-    "price": 7999
+    "price": 7999,
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB"
   },
   {
     "brand": "华为",
@@ -6398,7 +6504,9 @@
       "NFC"
     ],
     "release_date": "2025-03",
-    "price": 10999
+    "price": 10999,
+    "ram": "16GB",
+    "storage": "512GB/1TB"
   },
   {
     "brand": "华为",
@@ -6428,7 +6536,9 @@
       "防水"
     ],
     "release_date": "2024-11",
-    "price": 5099
+    "price": 5099,
+    "ram": "12GB",
+    "storage": "256GB/512GB"
   },
   {
     "brand": "华为",
@@ -6452,7 +6562,9 @@
       "NFC"
     ],
     "release_date": "2024-01",
-    "price": 2999
+    "price": 2999,
+    "ram": "12GB",
+    "storage": "256GB/512GB"
   },
   {
     "id": 93,
@@ -6464,7 +6576,7 @@
     "screen_type": "OLED",
     "resolution": "",
     "ram": "12GB",
-    "storage": "",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5750,
     "charging_w": 100,
     "weight_g": 219,
@@ -6521,8 +6633,8 @@
       "无线充电"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2026-01",
     "price": 11599
@@ -6557,8 +6669,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2026-01",
     "price": 9599
@@ -6593,8 +6705,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2026-01",
     "price": 6999
@@ -6629,8 +6741,8 @@
       "无线充电"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 9699
@@ -6663,8 +6775,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 6999
@@ -6697,8 +6809,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 5999
@@ -6730,8 +6842,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "128GB/256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 7999
@@ -6764,8 +6876,8 @@
       "无线充电"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2024-01",
     "price": 9699
@@ -6798,8 +6910,8 @@
       "无线充电"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 15599
@@ -6832,8 +6944,8 @@
       "无线充电"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 12999
@@ -6866,8 +6978,8 @@
       "无线充电"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 19999
@@ -6900,8 +7012,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 9599
@@ -6933,8 +7045,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 5999
@@ -6967,8 +7079,8 @@
       "轻薄"
     ],
     "brand": "三星",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 7999
@@ -7215,6 +7327,8 @@
       "红外"
     ],
     "release_date": "2026-04",
-    "price": 1599
+    "price": 1599,
+    "ram": "8GB",
+    "storage": "128GB/256GB"
   }
 ]
