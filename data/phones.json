@@ -1189,14 +1189,19 @@
     "charging_w": 120,
     "weight_g": 222,
     "camera_desc": "5000万索尼IMX906主摄",
-    "has_tele": false,
+    "has_tele": true,
     "os": "realme UI 6.0",
-    "features": [],
+    "features": [
+      "IP68防水",
+      "IP69防水"
+    ],
     "tags": [
       "USB3.0",
       "骁龙8 Elite 1",
       "6500mAh+",
-      "无线充电"
+      "无线充电",
+      "潜望长焦",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -4774,14 +4779,17 @@
     "weight_g": 215,
     "camera_desc": "5000万主摄 | 5000万3.5倍长焦",
     "has_tele": true,
-    "features": [],
+    "features": [
+      "IP68防水"
+    ],
     "screen_form": "直屏",
     "id": 156,
     "tags": [
       "USB3.0",
       "骁龙8 Elite 5",
       "6500mAh+",
-      "潜望长焦"
+      "潜望长焦",
+      "防水"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 3.0",
@@ -4822,7 +4830,9 @@
     "weight_g": 214,
     "camera_desc": "5000万主摄 | 2亿长焦",
     "has_tele": true,
-    "features": [],
+    "features": [
+      "IP68防水"
+    ],
     "screen_form": "直屏",
     "id": 158,
     "tags": [
@@ -4830,7 +4840,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "USB3.0"
+      "USB3.0",
+      "防水"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
@@ -4848,7 +4859,9 @@
     "weight_g": 214,
     "camera_desc": "5000万主摄 | 5000万3.5倍长焦",
     "has_tele": true,
-    "features": [],
+    "features": [
+      "IP68防水"
+    ],
     "screen_form": "直屏",
     "id": 159,
     "tags": [
@@ -4856,7 +4869,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "USB3.0"
+      "USB3.0",
+      "防水"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
