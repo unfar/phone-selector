@@ -299,8 +299,8 @@ function toggleCompare(id) {
     if (idx >= 0) {
         compareList.splice(idx, 1);
     } else {
-        if (compareList.length >= 3) {
-            alert('最多只能对比 3 款机型哦～');
+        if (compareList.length >= 4) {
+            alert('最多只能对比 4 款机型哦～');
             return;
         }
         compareList.push(id);
@@ -332,7 +332,7 @@ function renderComparePanel() {
     const fields = [
         { l: '价格', v: p => p.price ? '¥' + p.price : '—' },
         { l: '处理器', v: p => p.processor || '—' },
-        { l: '屏幕', v: p => (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') },
+        { l: '屏幕', v: p => (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
         { l: '分辨率', v: p => p.resolution || '—' },
         { l: '刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
         { l: '电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—' },
@@ -342,6 +342,25 @@ function renderComparePanel() {
         { l: '重量', v: p => p.weight_g ? p.weight_g + 'g' : '—' },
         { l: '系统', v: p => p.os || '—' },
         { l: '屏幕形态', v: p => p.screen_form || '—' },
+        { l: '防水', v: p => {
+            const tags = p.tags || [];
+            const feats = p.features || [];
+            if (tags.includes('防水') || feats.some(f => f.includes('IP68') || f.includes('IP69'))) return '✅';
+            return '—';
+        }},
+        { l: 'NFC', v: p => {
+            const tags = p.tags || [];
+            const feats = p.features || [];
+            if (tags.includes('NFC') || feats.some(f => f.includes('NFC'))) return '✅';
+            return '—';
+        }},
+        { l: '红外', v: p => {
+            const tags = p.tags || [];
+            const feats = p.features || [];
+            if (tags.includes('红外') || feats.some(f => f.includes('红外'))) return '✅';
+            return '—';
+        }},
+        { l: '潜望长焦', v: p => p.has_tele ? '✅' : '—' },
         { l: '发布日期', v: p => p.release_date || '—' },
     ];
 
