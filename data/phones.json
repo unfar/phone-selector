@@ -1165,7 +1165,8 @@
     "tags": [
       "中低端芯片",
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -1201,7 +1202,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1229,7 +1231,8 @@
     "os": "realme UI 5.0",
     "features": [],
     "tags": [
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4789,7 +4792,8 @@
       "骁龙8 Elite 5",
       "6500mAh+",
       "潜望长焦",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 3.0",
@@ -4812,7 +4816,8 @@
     "id": 157,
     "tags": [
       "6500mAh+",
-      "天玑9400"
+      "天玑9400",
+      "NFC"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -4841,7 +4846,8 @@
       "无线充电",
       "潜望长焦",
       "USB3.0",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
@@ -4870,7 +4876,8 @@
       "无线充电",
       "潜望长焦",
       "USB3.0",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
@@ -4894,7 +4901,8 @@
     "tags": [
       "6500mAh+",
       "天玑9400",
-      "无线充电"
+      "无线充电",
+      "NFC"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
