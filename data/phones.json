@@ -48,7 +48,8 @@
     "features": [],
     "tags": [
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -77,7 +78,8 @@
     "features": [],
     "tags": [
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -107,7 +109,8 @@
     "tags": [
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -137,7 +140,8 @@
     "tags": [
       "USB3.0",
       "潜望长焦",
-      "无线充电"
+      "无线充电",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -168,7 +172,8 @@
       "USB3.0",
       "骁龙8 Elite 1",
       "潜望长焦",
-      "无线充电"
+      "无线充电",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -197,7 +202,8 @@
     "features": [],
     "tags": [
       "USB3.0",
-      "无线充电"
+      "无线充电",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -224,7 +230,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "NFC"
+    ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -5129,7 +5137,8 @@
       "USB3.0",
       "6500mAh+",
       "潜望长焦",
-      "无线充电"
+      "无线充电",
+      "NFC"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
@@ -5701,7 +5710,8 @@
       "天玑9500",
       "轻薄",
       "无线充电",
-      "潜望长焦"
+      "潜望长焦",
+      "NFC"
     ],
     "release_date": "2025-10",
     "price": 4999
@@ -5727,7 +5737,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "骁龙8 Elite 5"
+      "骁龙8 Elite 5",
+      "NFC"
     ],
     "release_date": "2025-10",
     "price": 7999
@@ -5753,7 +5764,8 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "骁龙8 Elite 5"
+      "骁龙8 Elite 5",
+      "NFC"
     ],
     "release_date": "2025-07",
     "price": 8999
@@ -5777,7 +5789,8 @@
     "tags": [
       "无线充电",
       "6500mAh+",
-      "骁龙8 Elite 5"
+      "骁龙8 Elite 5",
+      "NFC"
     ],
     "release_date": "2025-08",
     "price": 3999
@@ -5823,7 +5836,8 @@
     "tags": [
       "骁龙8 Elite 1",
       "6500mAh+",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "release_date": "2025-11",
     "price": 2599
@@ -5895,7 +5909,8 @@
       "6500mAh+",
       "无线充电",
       "骁龙8 Elite 1",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "release_date": "2025-01",
     "price": 3699
@@ -5919,7 +5934,8 @@
     "tags": [
       "骁龙8 Elite 1",
       "6500mAh+",
-      "轻薄"
+      "轻薄",
+      "NFC"
     ],
     "release_date": "2025-01",
     "price": 2899
