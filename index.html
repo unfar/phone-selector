@@ -25,6 +25,8 @@
         .tag.active:hover{background:var(--primary-dark)}
         .tag.cpu{background:#fef3c7;color:#92400e;border-color:#fde68a}
         .tag.cpu.active{background:#d97706;color:#fff;border-color:#d97706}
+        .tag.screen{background:#fdf2f8;color:#db2777;border-color:#fbcfe8}
+        .tag.screen.active{background:#db2777;color:#fff;border-color:#db2777}
         .active-bar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:var(--primary-light);border-radius:var(--radius-sm);margin-bottom:20px;min-height:44px}
         .active-bar .label{font-size:.8rem;font-weight:600;color:var(--primary)}
         .active-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background:var(--card-bg);border-radius:var(--radius-full);font-size:.8rem;font-weight:500;box-shadow:var(--shadow)}
@@ -73,7 +75,7 @@
     </div>
     <div class="filter-panel">
         <div class="filter-section"><div class="filter-label">🏢 品牌</div><div class="filter-tags" id="brandTags"></div></div>
-        <div class="filter-section"><div class="filter-label">📱 屏幕形态</div><div class="filter-tags" id="screenTags"></div></div>
+        <div class="filter-section"><div class="filter-label">📱 屏幕形态 <span style="font-weight:400;text-transform:none;color:#94a3b8">（单选）</span></div><div class="filter-tags" id="screenTags"></div></div>
         <div class="filter-section"><div class="filter-label">⚡ 处理器</div><div class="filter-tags" id="cpuTags"></div></div>
         <div class="filter-section"><div class="filter-label">🏷️ 特性标签 <span style="font-weight:400;text-transform:none;color:#94a3b8">（可多选叠加）</span></div><div class="filter-tags" id="featureTags"></div></div>
     </div>
@@ -98,10 +100,10 @@ const cpuTags=["\u9a81\u9f998 Elite 5", "\u9a81\u9f998 Elite 1", "\u5929\u739195
 const featureTags=["\u6f5c\u671b\u957f\u7126", "\u5927\u7535\u6c60", "\u8f7b\u8584", "\u9632\u6c34", "NFC", "\u7ea2\u5916", "USB3.0", "\u65e0\u7ebf\u5145\u7535", "\u6563\u70ed\u98ce\u6247"];
 const screenTypes=['直屏','折叠屏'];
 const brandList=["\u82f9\u679c", "\u534e\u4e3a", "\u5c0f\u7c73", "OPPO", "vivo", "\u4e09\u661f", "HONOR", "REDMI", "iQOO", "\u4e00\u52a0", "\u771f\u6211", "\u7ea2\u9b54"];
-let selectedBrands=new Set(),selectedScreen=new Set(),selectedCpu=new Set(),selectedTags=new Set(),currentSort='newest';
+let selectedBrands=new Set(),selectedScreen=null,selectedCpu=new Set(),selectedTags=new Set(),currentSort='newest';
 function matchesFilters(p){
     if(selectedBrands.size>0&&!selectedBrands.has(p.brand))return false;
-    if(selectedScreen.size>0&&!selectedScreen.has(p.screen_form))return false;
+    if(selectedScreen&&p.screen_form!==selectedScreen)return false;
     if(selectedCpu.size>0){let hasCpu=false;for(let c of selectedCpu)if(p.tags.includes(c)){hasCpu=true;break}if(!hasCpu)return false}
     for(let t of selectedTags)if(!p.tags.includes(t))return false;
     return true;
@@ -109,15 +111,15 @@ function matchesFilters(p){
 function getFiltered(){return phones.filter(matchesFilters)}
 function sortPhones(l){const s=[...l];switch(currentSort){case'newest':s.sort((a,b)=>(b.release_date||'').localeCompare(a.release_date||''));break;case'battery_desc':s.sort((a,b)=>b.battery_mah-a.battery_mah);break;case'weight_asc':s.sort((a,b)=>(a.weight_g||9999)-(b.weight_g||9999));break;case'screen_desc':s.sort((a,b)=>b.screen_size-a.screen_size);break;case'charging_desc':s.sort((a,b)=>b.charging_w-a.charging_w);break;case'brand_asc':s.sort((a,b)=>a.brand.localeCompare(b.brand)||a.model.localeCompare(b.model));break;}return s}
 function renderBrandTags(){const c=document.getElementById('brandTags');c.innerHTML='';brandList.forEach(b=>{const el=document.createElement('span');el.className='tag'+(selectedBrands.has(b)?' active':'');el.textContent=b;el.onclick=()=>{selectedBrands.has(b)?selectedBrands.delete(b):selectedBrands.add(b);refresh()};c.appendChild(el)})}
-function renderScreenTags(){const c=document.getElementById('screenTags');c.innerHTML='';screenTypes.forEach(s=>{const el=document.createElement('span');el.className='tag'+(selectedScreen.has(s)?' active':'');el.textContent=s;el.onclick=()=>{selectedScreen.has(s)?selectedScreen.delete(s):selectedScreen.add(s);refresh()};c.appendChild(el)})}
+function renderScreenTags(){const c=document.getElementById('screenTags');c.innerHTML='';screenTypes.forEach(s=>{const el=document.createElement('span');el.className='tag screen'+(selectedScreen===s?' active':'');el.textContent=s;el.onclick=()=>{selectedScreen=selectedScreen===s?null:s;refresh()};c.appendChild(el)})}
 function renderCpuTags(){const c=document.getElementById('cpuTags');c.innerHTML='';cpuTags.forEach(t=>{const el=document.createElement('span');el.className='tag cpu'+(selectedCpu.has(t)?' active':'');el.textContent=t;el.onclick=()=>{selectedCpu.has(t)?selectedCpu.delete(t):selectedCpu.add(t);refresh()};c.appendChild(el)})}
 function renderFeatureTags(){const c=document.getElementById('featureTags');c.innerHTML='';featureTags.forEach(t=>{const el=document.createElement('span');el.className='tag'+(selectedTags.has(t)?' active':'');el.textContent=t;el.onclick=()=>{selectedTags.has(t)?selectedTags.delete(t):selectedTags.add(t);refresh()};c.appendChild(el)})}
-function renderActiveBar(){const bar=document.getElementById('activeBar'),badges=document.getElementById('activeBadges'),total=selectedBrands.size+selectedScreen.size+selectedCpu.size+selectedTags.size;if(total===0){bar.style.display='none';return}bar.style.display='flex';badges.innerHTML='';selectedBrands.forEach(b=>addBadge(badges,b,()=>{selectedBrands.delete(b);refresh()}));selectedScreen.forEach(s=>addBadge(badges,s,()=>{selectedScreen.delete(s);refresh()}));selectedCpu.forEach(c=>addBadge(badges,c,()=>{selectedCpu.delete(c);refresh()}));selectedTags.forEach(t=>addBadge(badges,t,()=>{selectedTags.delete(t);refresh()}))}
+function renderActiveBar(){const bar=document.getElementById('activeBar'),badges=document.getElementById('activeBadges'),total=selectedBrands.size+(selectedScreen?1:0)+selectedCpu.size+selectedTags.size;if(total===0){bar.style.display='none';return}bar.style.display='flex';badges.innerHTML='';selectedBrands.forEach(b=>addBadge(badges,b,()=>{selectedBrands.delete(b);refresh()}));if(selectedScreen)addBadge(badges,selectedScreen,()=>{selectedScreen=null;refresh()});selectedCpu.forEach(c=>addBadge(badges,c,()=>{selectedCpu.delete(c);refresh()}));selectedTags.forEach(t=>addBadge(badges,t,()=>{selectedTags.delete(t);refresh()}))}
 function addBadge(c,t,r){const el=document.createElement('span');el.className='active-badge';el.innerHTML=t+' <span class="x">✕</span>';el.querySelector('.x').onclick=r;c.appendChild(el)}
 function renderPhones(){const filtered=sortPhones(getFiltered()),grid=document.getElementById('phoneGrid');document.getElementById('resultCount').textContent=filtered.length;if(filtered.length===0){grid.innerHTML='<div class="no-results"><div class="emoji">😢</div><p>没有找到符合条件的手机，试试调整筛选条件吧～</p></div>';return}grid.innerHTML=filtered.map(p=>{const sc=[{l:'处理器',v:p.processor||'—'},{l:'屏幕',v:(p.screen_size?p.screen_size+'英寸':'')+(p.screen_type?' '+p.screen_type:'')||'—'},{l:'电池',v:p.battery_mah?p.battery_mah+'mAh':'—'},{l:'有线充电',v:p.charging_w?p.charging_w+'W':'—'},{l:'无线充电',v:p.wireless_charging_w?p.wireless_charging_w+'W':'不支持'},{l:'USB',v:p.usb_version||'—'},{l:'重量',v:p.weight_g?p.weight_g+'g':'—'},{l:'系统',v:p.os||'—'}];let detailHtml='';if(p.detailed_camera){detailHtml+='<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">'+p.detailed_camera+'</div></div>';}let ch='';if(!p.detailed_camera&&p.camera_desc){ch='<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">'+p.camera_desc+'</div></div>';}const ft=[];if(p.has_tele)ft.push({t:'🔭 潜望长焦',c:'purple'});if(p.screen_form==='折叠屏')ft.push({t:'📱 折叠屏',c:'fold'});if(p.tags.includes('无线充电'))ft.push({t:'🔋 无线充电',c:'green'});if(p.tags.includes('散热风扇'))ft.push({t:'🌀 散热风扇',c:'red'});(p.features||[]).forEach(f=>{if(f.includes('IP68')||f.includes('IP69'))ft.push({t:'💧 '+f,c:'blue'});else if(f.includes('NFC'))ft.push({t:'📡 NFC',c:''});else if(f.includes('红外'))ft.push({t:'🔴 红外',c:'amber'});else ft.push({t:f,c:''})});p.tags.forEach(t=>{if(cpuTags.includes(t))ft.push({t:'⚡ '+t,c:'cpu'})});let fh=ft.length>0?'<div class="card-footer">'+ft.map(f=>'<span class="feature-tag '+f.c+'">'+f.t+'</span>').join('')+'</div>':'';return'<div class="phone-card"><div class="card-header"><div class="phone-name">'+p.model+'</div><span class="brand-badge">'+p.brand+'</span></div><div class="card-body"><div class="spec-grid">'+sc.map(s=>'<div class="spec-cell"><div class="label">'+s.l+'</div><div class="value">'+s.v+'</div></div>').join('')+'</div></div>'+detailHtml+ch+fh+'</div>'}).join('')}
 function refresh(){renderBrandTags();renderScreenTags();renderCpuTags();renderFeatureTags();renderActiveBar();renderPhones()}
 document.getElementById('sortSelect').addEventListener('change',e=>{currentSort=e.target.value;refresh()});
-document.getElementById('clearAll').addEventListener('click',()=>{selectedBrands.clear();selectedScreen.clear();selectedCpu.clear();selectedTags.clear();refresh()});
+document.getElementById('clearAll').addEventListener('click',()=>{selectedBrands.clear();selectedScreen=null;selectedCpu.clear();selectedTags.clear();refresh()});
 refresh();
 </script>
 </body>
