@@ -5360,7 +5360,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 168,
+    "id": 318,
     "tags": [
       "USB3.0",
       "A19",
@@ -5393,7 +5393,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 169,
+    "id": 319,
     "tags": [
       "USB3.0",
       "A19",
@@ -5425,7 +5425,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 170,
+    "id": 320,
     "tags": [
       "轻薄",
       "A19",
@@ -5457,7 +5457,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 171,
+    "id": 321,
     "tags": [
       "轻薄",
       "A19",
@@ -6640,7 +6640,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 93,
+    "id": 322,
     "brand": "华为",
     "model": "HUAWEI Mate 80 Pro (12GB)",
     "processor": "麒麟9030",
@@ -6710,7 +6710,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2026-01",
-    "price": 11599
+    "price": 11599,
+    "id": 217
   },
   {
     "model": "Galaxy S26+",
@@ -6746,7 +6747,8 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2026-01",
-    "price": 9599
+    "price": 9599,
+    "id": 218
   },
   {
     "model": "Galaxy S26",
@@ -6782,7 +6784,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2026-01",
-    "price": 6999
+    "price": 6999,
+    "id": 219
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -6818,7 +6821,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-01",
-    "price": 9699
+    "price": 9699,
+    "id": 220
   },
   {
     "model": "Galaxy S25+",
@@ -6852,7 +6856,8 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-01",
-    "price": 6999
+    "price": 6999,
+    "id": 221
   },
   {
     "model": "Galaxy S25",
@@ -6886,7 +6891,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-01",
-    "price": 5999
+    "price": 5999,
+    "id": 222
   },
   {
     "model": "Galaxy S25 Edge",
@@ -6919,7 +6925,8 @@
     "storage": "128GB/256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-01",
-    "price": 7999
+    "price": 7999,
+    "id": 223
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -6953,7 +6960,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2024-01",
-    "price": 9699
+    "price": 9699,
+    "id": 224
   },
   {
     "model": "Galaxy Z Fold7",
@@ -6987,7 +6995,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-07",
-    "price": 15599
+    "price": 15599,
+    "id": 225
   },
   {
     "model": "Galaxy Z Fold6",
@@ -7021,7 +7030,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2024-07",
-    "price": 12999
+    "price": 12999,
+    "id": 226
   },
   {
     "model": "Galaxy Z TriFold",
@@ -7055,7 +7065,8 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2025-07",
-    "price": 19999
+    "price": 19999,
+    "id": 227
   },
   {
     "model": "Galaxy Z Flip7",
@@ -7089,7 +7100,8 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-07",
-    "price": 9599
+    "price": 9599,
+    "id": 228
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -7122,7 +7134,8 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-07",
-    "price": 5999
+    "price": 5999,
+    "id": 229
   },
   {
     "model": "Galaxy Z Flip6",
@@ -7156,7 +7169,8 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2024-07",
-    "price": 7999
+    "price": 7999,
+    "id": 230
   },
   {
     "model": "Galaxy A57 5G",
@@ -7186,7 +7200,8 @@
     "storage": "",
     "detailed_camera": "",
     "release_date": "2026-03",
-    "price": 3699
+    "price": 3699,
+    "id": 231
   },
   {
     "model": "Galaxy A56 5G",
@@ -7215,7 +7230,8 @@
     "storage": "",
     "detailed_camera": "",
     "release_date": "2025-03",
-    "price": 2999
+    "price": 2999,
+    "id": 232
   },
   {
     "model": "Galaxy A55 5G",
@@ -7243,7 +7259,8 @@
     "storage": "",
     "detailed_camera": "",
     "release_date": "2024-03",
-    "price": 2499
+    "price": 2499,
+    "id": 233
   },
   {
     "model": "Galaxy C55 5G",
@@ -7271,7 +7288,8 @@
     "storage": "",
     "detailed_camera": "",
     "release_date": "2024-05",
-    "price": 1999
+    "price": 1999,
+    "id": 234
   },
   {
     "model": "HONOR 500",
@@ -7303,7 +7321,8 @@
       "轻薄"
     ],
     "release_date": "2025-12",
-    "price": 2999
+    "price": 2999,
+    "id": 235
   },
   {
     "model": "HONOR 500 Pro",
@@ -7337,7 +7356,8 @@
       "无线充电"
     ],
     "release_date": "2025-12",
-    "price": 3599
+    "price": 3599,
+    "id": 236
   },
   {
     "model": "HONOR WIN RT",
@@ -7370,7 +7390,8 @@
       "散热风扇"
     ],
     "release_date": "2025-08",
-    "price": 3399
+    "price": 3399,
+    "id": 237
   },
   {
     "model": "vivo Y6 5G",
@@ -7402,6 +7423,7 @@
     "release_date": "2026-04",
     "price": 1599,
     "ram": "8GB",
-    "storage": "128GB/256GB"
+    "storage": "128GB/256GB",
+    "id": 238
   }
 ]
