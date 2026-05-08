@@ -215,13 +215,13 @@ function renderPhones() {
 
         const sc = [
             { l: '处理器', v: p.processor || '—' },
+            { l: '内存/存储', v: (p.ram && p.storage) ? p.ram + ' + ' + p.storage : (p.ram || p.storage || '—') },
             { l: '屏幕', v: (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
             { l: '电池', v: p.battery_mah ? p.battery_mah + 'mAh' : '—' },
             { l: '有线充电', v: p.charging_w ? p.charging_w + 'W' : '—' },
             { l: '无线充电', v: p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持' },
             { l: 'USB', v: p.usb_version || '—' },
-            { l: '重量', v: p.weight_g ? p.weight_g + 'g' : '—' },
-            { l: '系统', v: p.os || '—' }
+            { l: '重量', v: p.weight_g ? p.weight_g + 'g' : '—' }
         ];
 
         // 详细信息（可折叠）
@@ -332,6 +332,8 @@ function renderComparePanel() {
     const fields = [
         { l: '价格', v: p => p.price ? '¥' + p.price : '—' },
         { l: '处理器', v: p => p.processor || '—' },
+        { l: '内存', v: p => p.ram || '—' },
+        { l: '存储', v: p => p.storage || '—' },
         { l: '屏幕', v: p => (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
         { l: '分辨率', v: p => p.resolution || '—' },
         { l: '刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
