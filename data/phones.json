@@ -965,7 +965,7 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-04",
     "price": 3399
@@ -1026,7 +1026,7 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
-    "usb_version": "USB 2.0",
+    "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-10",
     "price": 3999
@@ -4131,7 +4131,7 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.2 Gen 1",
+    "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 哈苏2亿 f/1.5 | 超广角: 5000万 f/2.0 123° | 长焦: 2亿 f/2.2 3x光学 | 超长焦: 5000万 f/3.5 10x光学",
     "release_date": "2026-03",
     "price": 8499
@@ -4508,7 +4508,7 @@
       "NFC"
     ],
     "tags": [
-      "USB3.0",
+      "USB2.0",
       "NFC",
       "6500mAh+",
       "天玑9500s",
@@ -4517,7 +4517,7 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.2 Gen 1",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-06",
     "price": 3799
@@ -4676,7 +4676,7 @@
       "红外"
     ],
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.2 Gen 1",
+    "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 | 超广角: 5000万 | 长焦: 潜望 5000万 3x光学",
     "charging_w": 80,
     "release_date": "2024-01",
@@ -4706,7 +4706,7 @@
       "红外"
     ],
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.2 Gen 1",
+    "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 1/1.4英寸 | 超广角: 索尼IMX355 f/2.2 | 长焦: 索尼LYT-600 f/2.6 3x光学",
     "charging_w": 100,
     "release_date": "2024-01",
@@ -4734,7 +4734,7 @@
       "红外"
     ],
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2024-01",
@@ -4761,7 +4761,7 @@
       "红外"
     ],
     "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
+    "usb_version": "USB 3.0",
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2024-01",
@@ -4927,7 +4927,7 @@
       "红外"
     ],
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 120,
     "release_date": "2024-01",
@@ -5048,7 +5048,7 @@
       "红外"
     ],
     "wireless_charging_w": 50,
-    "usb_version": "USB 2.0",
+    "usb_version": "USB 3.0",
     "detailed_camera": "",
     "charging_w": 120,
     "release_date": "2025-02",
