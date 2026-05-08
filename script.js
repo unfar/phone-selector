@@ -315,12 +315,14 @@ function updateCompareUI() {
     const count = compareList.length;
 
     document.getElementById('compareCount').textContent = count;
-    btn.style.display = count > 0 ? '' : 'none';
-
+    
+    // 只有选择了至少 2 个产品才显示对比按钮和面板
     if (count >= 2) {
+        btn.style.display = '';
         panel.style.display = 'block';
         renderComparePanel();
     } else {
+        btn.style.display = count > 0 ? '' : 'none';
         panel.style.display = 'none';
     }
 }
