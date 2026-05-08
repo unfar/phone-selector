@@ -76,13 +76,32 @@
         <div class="loading"><div class="spinner">⏳</div><p>加载数据中...</p></div>
     </div>
 
-    <!-- 对比面板 -->
-    <div class="compare-panel" id="comparePanel" style="display:none">
-        <div class="compare-header">
-            <h3>📊 机型对比 <span id="comparePanelCount">0</span>/4</h3>
-            <button class="compare-close" id="compareClose">✕</button>
+    <!-- 对比选择栏（固定在底部，选中机型时显示） -->
+    <div class="compare-bar" id="compareBar" style="display:none">
+        <div class="compare-bar-inner">
+            <div class="compare-bar-info">
+                <span>📊 对比模式</span>
+                <span class="compare-bar-count">已选 <strong id="compareBarCount">0</strong>/4 款</span>
+            </div>
+            <div class="compare-bar-selected" id="compareBarSelected"></div>
+            <div class="compare-bar-actions">
+                <button class="compare-bar-start" id="compareBarStart" disabled>开始对比</button>
+                <button class="compare-bar-clear" id="compareBarClear">清空</button>
+                <button class="compare-bar-close" id="compareBarClose">✕</button>
+            </div>
         </div>
-        <div class="compare-body" id="compareBody"></div>
+    </div>
+
+    <!-- 对比结果面板（全屏弹窗） -->
+    <div class="compare-panel" id="comparePanel" style="display:none">
+        <div class="compare-panel-overlay" id="comparePanelOverlay"></div>
+        <div class="compare-panel-content">
+            <div class="compare-panel-header">
+                <h3>📊 机型对比</h3>
+                <button class="compare-panel-close" id="comparePanelClose">✕</button>
+            </div>
+            <div class="compare-panel-body" id="comparePanelBody"></div>
+        </div>
     </div>
 
     <!-- 回到顶部 -->
