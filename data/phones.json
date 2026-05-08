@@ -3707,14 +3707,14 @@
       "红外",
       "骁龙8 Elite 5",
       "潜望长焦",
-      "USB3.0",
       "NFC",
-      "无线充电"
+      "无线充电",
+      "USB3.0+"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 50,
+    "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-818 f/1.57 | 超广角: 三星JN1 | 长焦: 三星HP9 2亿 3.7x光学",
+    "detailed_camera": "主摄: 5000万 索尼IMX921 f/1.88 1/1.56英寸 | 超广角: 5000万 f/2.05 | 潜望长焦: 5000万 索尼LYT-882 f/2.65 1/1.95英寸",
     "release_date": "2025-10",
     "price": 5999
   },
@@ -3744,14 +3744,14 @@
       "防水",
       "骁龙8 Elite 5",
       "红外",
-      "USB3.0",
       "NFC",
-      "潜望长焦"
+      "潜望长焦",
+      "USB3.0+"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "wireless_charging_w": 40,
+    "usb_version": "USB 3.2 Gen 1",
+    "detailed_camera": "主摄: 5000万 索尼IMX921 f/1.88 1/1.56英寸 | 超广角: 5000万 f/2.05 | 潜望长焦: 5000万 索尼LYT-882 f/2.65 1/1.95英寸",
     "release_date": "2025-10",
     "price": 4299
   },
