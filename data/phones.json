@@ -1834,7 +1834,7 @@
     "id": 59,
     "brand": "REDMI",
     "model": "Redmi K90 Max",
-    "processor": "骁龙8 Elite 1",
+    "processor": "天玑9500",
     "screen_size": 6.67,
     "refresh_hz": 120,
     "screen_type": "OLED",
@@ -1855,7 +1855,7 @@
     "tags": [
       "散热风扇",
       "红外",
-      "骁龙8 Elite 1",
+      "天玑9500",
       "6500mAh+",
       "USB3.0",
       "NFC",
