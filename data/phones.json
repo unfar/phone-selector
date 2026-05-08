@@ -1372,7 +1372,7 @@
       "NFC"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼IMX921 f/1.68 | 超广角: 5000万 | 长焦: 5000万 3x光学",
     "release_date": "2023-10",
@@ -3243,7 +3243,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "",
     "release_date": "2024-10",
@@ -3275,7 +3275,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "",
     "release_date": "2024-10",
@@ -3296,7 +3296,7 @@
     "charging_w": 100,
     "weight_g": 202,
     "camera_desc": "5000万主摄 | 5000万超广角",
-    "has_tele": false,
+    "has_tele": true,
     "os": "",
     "features": [],
     "tags": [
@@ -3306,7 +3306,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "",
     "release_date": "2024-10",
@@ -3462,7 +3462,7 @@
     "charging_w": 80,
     "weight_g": 179,
     "camera_desc": "5000万主摄 | 5000万超广角",
-    "has_tele": false,
+    "has_tele": true,
     "os": "",
     "features": [
       "IP68",
@@ -3807,7 +3807,7 @@
     "charging_w": 120,
     "weight_g": 212,
     "camera_desc": "5000万主摄 | 5000万超广角",
-    "has_tele": false,
+    "has_tele": true,
     "os": "",
     "features": [
       "NFC",
