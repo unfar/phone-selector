@@ -58,9 +58,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .toolbar-right{display:flex;align-items:center;gap:12px}
 .sort-select{padding:8px 16px;border:1.5px solid var(--border);border-radius:var(--radius-full);font-size:.85rem;background:var(--card-bg);cursor:pointer;outline:none}.sort-select:focus{border-color:var(--primary)}
 
-/* ===== Compare Button ===== */
-.compare-btn{padding:8px 16px;border:1.5px solid var(--primary);border-radius:var(--radius-full);font-size:.85rem;background:var(--primary);color:#fff;cursor:pointer;transition:all .15s}
-.compare-btn:hover{background:var(--primary-dark)}
+/* ===== Compare Mode ===== */
+.compare-mode-btn{padding:8px 16px;border:1.5px solid var(--primary);border-radius:var(--radius-full);font-size:.85rem;background:transparent;color:var(--primary);cursor:pointer;transition:all .15s}
+.compare-mode-btn:hover{background:var(--primary-light)}
+.compare-mode-btn.active{background:var(--primary);color:#fff}
+.compare-actions{display:flex;align-items:center;gap:12px;margin-left:8px}
+.compare-hint{font-size:.8rem;color:var(--text-muted)}
+.compare-selected-count{font-size:.85rem;font-weight:600;color:var(--primary)}
+.compare-start-btn{padding:6px 14px;border:1.5px solid var(--primary);border-radius:var(--radius-full);font-size:.8rem;background:var(--primary);color:#fff;cursor:pointer;transition:all .15s}
+.compare-start-btn:disabled{opacity:.4;cursor:not-allowed}
+.compare-start-btn:not(:disabled):hover{background:var(--primary-dark)}
+.compare-clear-btn{padding:6px 14px;border:1.5px solid var(--border);border-radius:var(--radius-full);font-size:.8rem;background:transparent;color:var(--text-secondary);cursor:pointer}
+.compare-clear-btn:hover{border-color:var(--text-muted);color:var(--text-muted)}
 
 /* ===== Phone Grid ===== */
 .phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}

@@ -9,7 +9,6 @@ let selectedCpu = new Set();
 let selectedTags = new Set();
 let currentSort = 'newest';
 let searchQuery = '';
-let compareList = [];
 let expandedCards = new Set();
 
 // ===== 配置 =====
@@ -249,7 +248,6 @@ function renderPhones() {
                 '<div class="phone-name">' + displayName + '</div>' +
                 '<div class="card-header-right">' +
                     priceHtml +
-                    '<span class="compare-check ' + (isCompareSelected ? 'checked' : '') + '" data-id="' + p.id + '">' + (isCompareSelected ? '✓ 已选' : '+ 对比') + '</span>' +
                     '<span class="brand-badge">' + p.brand + '</span>' +
                 '</div>' +
             '</div>' +
@@ -270,14 +268,19 @@ function renderPhones() {
 
 // ===== 卡片事件绑定 =====
 function bindCardEvents() {
-    // 对比按钮
-    document.querySelectorAll('.compare-check').forEach(btn => {
-        btn.onclick = (e) => {
-            e.stopPropagation();
-            const id = parseInt(btn.dataset.id);
-            toggleCompare(id);
+    // 卡片点击 - 对比模式下选中/取消选中
+    document.querySelectorAll('.phone-card').forEach(card => {
+        card.onclick = (e) => {
+            // 如果点击的是展开按钮，不触发对比选择
+            if (e.target.closest('.expand-btn')) return;
+            
+            if (compareMode) {
+                const id = parseInt(card.dataset.id);
+                toggleCompareSelection(id);
+            }
         };
     });
+    
     // 展开/收起
     document.querySelectorAll('.expand-btn').forEach(btn => {
         btn.onclick = (e) => {
@@ -294,7 +297,33 @@ function bindCardEvents() {
 }
 
 // ===== 对比功能 =====
-function toggleCompare(id) {
+let compareMode = false;  // 是否处于对比模式
+let compareList = [];     // 选中的机型 ID
+
+function toggleCompareMode() {
+    compareMode = !compareMode;
+    const btn = document.getElementById('compareModeBtn');
+    const actions = document.getElementById('compareActions');
+    
+    if (compareMode) {
+        btn.classList.add('active');
+        btn.textContent = '📊 退出对比';
+        actions.style.display = 'flex';
+    } else {
+        btn.classList.remove('active');
+        btn.textContent = '📊 对比模式';
+        actions.style.display = 'none';
+        compareList = [];
+        document.getElementById('compareSelectedCount').textContent = '0';
+        document.getElementById('compareStartBtn').disabled = true;
+        document.getElementById('comparePanel').style.display = 'none';
+    }
+    refresh();
+}
+
+function toggleCompareSelection(id) {
+    if (!compareMode) return;
+    
     const idx = compareList.indexOf(id);
     if (idx >= 0) {
         compareList.splice(idx, 1);
@@ -305,26 +334,24 @@ function toggleCompare(id) {
         }
         compareList.push(id);
     }
-    updateCompareUI();
+    
+    document.getElementById('compareSelectedCount').textContent = compareList.length;
+    document.getElementById('compareStartBtn').disabled = compareList.length < 2;
     refresh();
 }
 
-function updateCompareUI() {
-    const btn = document.getElementById('compareBtn');
-    const panel = document.getElementById('comparePanel');
-    const count = compareList.length;
+function startCompare() {
+    if (compareList.length < 2) return;
+    renderComparePanel();
+    document.getElementById('comparePanel').style.display = 'block';
+}
 
-    document.getElementById('compareCount').textContent = count;
-    
-    // 只有选择了至少 2 个产品才显示对比按钮和面板
-    if (count >= 2) {
-        btn.style.display = '';
-        panel.style.display = 'block';
-        renderComparePanel();
-    } else {
-        btn.style.display = count > 0 ? '' : 'none';
-        panel.style.display = 'none';
-    }
+function clearCompareSelection() {
+    compareList = [];
+    document.getElementById('compareSelectedCount').textContent = '0';
+    document.getElementById('compareStartBtn').disabled = true;
+    document.getElementById('comparePanel').style.display = 'none';
+    refresh();
 }
 
 function renderComparePanel() {
@@ -430,9 +457,23 @@ function setupEventListeners() {
         selectedCpu.clear();
         selectedTags.clear();
         compareList = [];
+        compareMode = false;
+        document.getElementById('compareModeBtn').classList.remove('active');
+        document.getElementById('compareModeBtn').textContent = '📊 对比模式';
+        document.getElementById('compareActions').style.display = 'none';
+        document.getElementById('comparePanel').style.display = 'none';
         updateHash();
         refresh();
     });
+
+    // 对比模式按钮
+    document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
+    
+    // 开始对比按钮
+    document.getElementById('compareStartBtn').addEventListener('click', startCompare);
+    
+    // 清空对比选择按钮
+    document.getElementById('compareClearBtn').addEventListener('click', clearCompareSelection);
 
     // 搜索
     document.getElementById('searchInput').addEventListener('input', handleSearch);
@@ -447,7 +488,7 @@ function setupEventListeners() {
     // 关闭对比面板
     document.getElementById('compareClose').addEventListener('click', () => {
         compareList = [];
-        updateCompareUI();
+        document.getElementById('comparePanel').style.display = 'none';
         refresh();
     });
 
