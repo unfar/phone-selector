@@ -16,12 +16,6 @@
         <div class="date-note">📅 数据来源截止到 2026年5月7日 · 价格来自各品牌官网</div>
     </div>
 
-    <!-- 搜索框 -->
-    <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="🔍 搜索机型名称... (快捷键 Cmd+K)" autocomplete="off">
-        <button class="search-clear" id="searchClear" style="display:none">✕</button>
-    </div>
-
     <div class="filter-panel">
         <div class="filter-section">
             <div class="filter-label">🏢 品牌 <span class="filter-count" id="brandCount"></span></div>
@@ -53,12 +47,6 @@
             <button class="compare-mode-btn" id="compareModeBtn" data-active="false">
                 📊 对比模式
             </button>
-            <div class="compare-actions" id="compareActions" style="display:none">
-                <span class="compare-hint">点击卡片选择机型（2-4款）</span>
-                <span class="compare-selected-count">已选 <span id="compareSelectedCount">0</span> 款</span>
-                <button class="compare-start-btn" id="compareStartBtn" disabled>开始对比</button>
-                <button class="compare-clear-btn" id="compareClearBtn">清空</button>
-            </div>
             <select class="sort-select" id="sortSelect">
                 <option value="newest">🆕 最新发布</option>
                 <option value="price_asc">💰 价格低 ↑</option>
