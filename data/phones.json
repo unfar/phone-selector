@@ -60,12 +60,11 @@
       "麒麟9030",
       "无线充电",
       "潜望长焦",
-      "USB3.0",
       "NFC"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 80,
-    "usb_version": "USB 3.1 Gen 1",
+    "wireless_charging_w": 50,
+    "usb_version": "USB 2.0",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望 2亿 4x光学",
     "release_date": "2026-03",
     "price": 5499
@@ -98,12 +97,11 @@
       "麒麟9030",
       "无线充电",
       "潜望长焦",
-      "USB3.0",
       "NFC"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 80,
-    "usb_version": "USB 3.1 Gen 1",
+    "wireless_charging_w": 50,
+    "usb_version": "USB 2.0",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望微距 5000万 4x光学",
     "release_date": "2026-03",
     "price": 5499
@@ -135,13 +133,12 @@
       "红外",
       "6500mAh+",
       "潜望长焦",
-      "USB3.0",
       "NFC",
       "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "主摄: f/1.8 5000万 | 长焦: 潜望 5000万 3.7x光学",
     "release_date": "2026-03",
     "price": 4699
