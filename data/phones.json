@@ -208,14 +208,13 @@
       "无线充电",
       "潜望长焦",
       "天玑9500",
-      "USB3.0",
       "NFC",
       "轻薄",
       "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 2亿 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.6 2.8x光学 | 丹霞色彩还原",
     "release_date": "2026-03",
     "price": 5299
