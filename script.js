@@ -97,6 +97,53 @@ function sortPhones(list) {
     return s;
 }
 
+// ===== 折叠屏屏幕显示 =====
+function getFoldableScreenDisplay(phone) {
+    // 检查是否是折叠屏
+    if (phone.screen_unfolded && phone.screen_folded) {
+        const unfolded = phone.screen_unfolded;
+        const folded = phone.screen_folded;
+        const foldType = phone.fold_type || '折叠屏';
+        
+        let display = '';
+        
+        if (foldType === '三折叠') {
+            display = `三折叠 ${unfolded.size}英寸/${folded.size}英寸`;
+        } else if (foldType === '横向折叠') {
+            display = `横折 ${unfolded.size}英寸/${folded.size}英寸`;
+        } else if (foldType === '纵向折叠') {
+            display = `竖折 ${unfolded.size}英寸/${folded.size}英寸`;
+        } else {
+            display = `${unfolded.size}英寸/${folded.size}英寸`;
+        }
+        
+        return display;
+    }
+    
+    // 非折叠屏，使用原有逻辑
+    return (phone.screen_size ? phone.screen_size + '英寸' : '') + (phone.screen_type ? ' ' + phone.screen_type : '') || '—';
+}
+
+// ===== 折叠屏分辨率显示 =====
+function getFoldableResolutionDisplay(phone) {
+    if (phone.screen_unfolded && phone.screen_folded) {
+        const unfolded = phone.screen_unfolded;
+        const folded = phone.screen_folded;
+        return `${unfolded.resolution || '—'} / ${folded.resolution || '—'}`;
+    }
+    return phone.resolution || '—';
+}
+
+// ===== 折叠屏刷新率显示 =====
+function getFoldableRefreshDisplay(phone) {
+    if (phone.screen_unfolded && phone.screen_folded) {
+        const unfolded = phone.screen_unfolded;
+        const folded = phone.screen_folded;
+        return `${unfolded.refresh_hz || '—'}Hz / ${folded.refresh_hz || '—'}Hz`;
+    }
+    return phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—';
+}
+
 // ===== 渲染统计 =====
 function renderStats() {
     const total = phones.length;
@@ -199,7 +246,7 @@ function renderPhones() {
         const sc = [
             { l: '处理器', v: p.processor || '—' },
             { l: '内存/存储', v: (p.ram && p.storage) ? p.ram + ' + ' + p.storage : (p.ram || p.storage || '—') },
-            { l: '屏幕', v: (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
+            { l: '屏幕', v: getFoldableScreenDisplay(p) || '—' },
             { l: '电池', v: p.battery_mah ? p.battery_mah + 'mAh' : '—' },
             { l: '有线充电', v: p.charging_w ? p.charging_w + 'W' : '—' },
             { l: '无线充电', v: p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持' },
@@ -355,9 +402,9 @@ function renderComparePanel() {
         { l: '⚡ 处理器', v: p => p.processor || '—' },
         { l: '🧠 内存', v: p => p.ram || '—' },
         { l: '💾 存储', v: p => p.storage || '—' },
-        { l: '📺 屏幕', v: p => (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
-        { l: '🎨 分辨率', v: p => p.resolution || '—' },
-        { l: '🔄 刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—', best: 'max' },
+        { l: '📺 屏幕', v: p => getFoldableScreenDisplay(p) || '—' },
+        { l: '🎨 分辨率', v: p => getFoldableResolutionDisplay(p) || '—' },
+        { l: '🔄 刷新率', v: p => getFoldableRefreshDisplay(p) || '—', best: 'max' },
         { l: '🔋 电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—', best: 'max' },
         { l: '🔌 有线充电', v: p => p.charging_w ? p.charging_w + 'W' : '—', best: 'max' },
         { l: '📶 无线充电', v: p => p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持', best: 'max' },
@@ -519,8 +566,15 @@ function drawRadarChart(phones) {
         }
         
         // 屏幕分数（基于刷新率和分辨率）
-        const refreshRate = phone.refresh_hz || 60;
-        const hasHighRes = phone.resolution && (phone.resolution.includes('2K') || phone.resolution.includes('1440'));
+        let refreshRate = phone.refresh_hz || 60;
+        let hasHighRes = phone.resolution && (phone.resolution.includes('2K') || phone.resolution.includes('1440'));
+        
+        // 如果是折叠屏，使用展开时的参数
+        if (phone.screen_unfolded) {
+            refreshRate = phone.screen_unfolded.refresh_hz || 60;
+            hasHighRes = phone.screen_unfolded.resolution && (phone.screen_unfolded.resolution.includes('2K') || phone.screen_unfolded.resolution.includes('1440'));
+        }
+        
         scores.screen = Math.min(100, (refreshRate / 144) * 60 + (hasHighRes ? 40 : 30));
         
         // 拍照分数（基于摄像头描述）

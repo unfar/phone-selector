@@ -1127,7 +1127,18 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-11",
-    "price": 17999
+    "price": 17999,
+    "screen_unfolded": {
+      "size": 10.2,
+      "resolution": "2400×2244",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.4,
+      "resolution": "2504×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "三折叠"
   },
   {
     "id": 104,
@@ -2641,7 +2652,18 @@
     "price": 8999,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "screen_type": "折叠屏"
+    "screen_type": "折叠屏",
+    "screen_unfolded": {
+      "size": 7.95,
+      "resolution": "2344×2156",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.43,
+      "resolution": "2376×1060",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -2676,7 +2698,18 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 12999,
-    "id": 225
+    "id": 225,
+    "screen_unfolded": {
+      "size": 7.6,
+      "resolution": "2176×1812",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.3,
+      "resolution": "2376×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -2711,7 +2744,18 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 19999,
-    "id": 227
+    "id": 227,
+    "screen_unfolded": {
+      "size": 10.0,
+      "resolution": "2480×2200",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.5,
+      "resolution": "2520×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "三折叠"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -2746,7 +2790,18 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 6999,
-    "id": 228
+    "id": 228,
+    "screen_unfolded": {
+      "size": 6.7,
+      "resolution": "2640×1080",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 3.4,
+      "resolution": "720×748",
+      "refresh_hz": 60
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -2780,7 +2835,18 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 6999,
-    "id": 229
+    "id": 229,
+    "screen_unfolded": {
+      "size": 6.7,
+      "resolution": "2640×1080",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 3.4,
+      "resolution": "720×748",
+      "refresh_hz": 60
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "id": 17,
@@ -2949,7 +3015,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-06",
-    "price": 8999
+    "price": 8999,
+    "screen_unfolded": {
+      "size": 8.03,
+      "resolution": "2480×2200",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.53,
+      "resolution": "2552×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 142,
@@ -3475,7 +3552,18 @@
     "ram": "16GB",
     "storage": "512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "折叠屏"
+    "screen_type": "折叠屏",
+    "screen_unfolded": {
+      "size": 7.0,
+      "resolution": "2496×2224",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.5,
+      "resolution": "2504×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 53,
@@ -3618,7 +3706,18 @@
     "release_date": "2025-03",
     "price": 7999,
     "ram": "12GB",
-    "storage": "256GB/512GB/1TB"
+    "storage": "256GB/512GB/1TB",
+    "screen_unfolded": {
+      "size": 6.5,
+      "resolution": "2504×1080",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 3.2,
+      "resolution": "720×748",
+      "refresh_hz": 60
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "model": "Galaxy A56 5G",
@@ -3684,7 +3783,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 2亿 f/1.8 | 超广角: 5000万 f/2.0 | 长焦: 5000万 f/2.7 | 丹霞色彩还原",
     "release_date": "2025-02",
-    "price": 10999
+    "price": 10999,
+    "screen_unfolded": {
+      "size": 8.12,
+      "resolution": "2480×2200",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.42,
+      "resolution": "2552×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 130,
@@ -3720,7 +3830,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-02",
-    "price": 9999
+    "price": 9999,
+    "screen_unfolded": {
+      "size": 8.12,
+      "resolution": "2480×2200",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.42,
+      "resolution": "2552×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 110,
@@ -4399,7 +4520,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-12",
-    "price": 12999
+    "price": 12999,
+    "screen_unfolded": {
+      "size": 8.0,
+      "resolution": "2480×2200",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.5,
+      "resolution": "2504×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 101,
@@ -4957,7 +5089,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-11",
-    "price": 12999
+    "price": 12999,
+    "screen_unfolded": {
+      "size": 7.93,
+      "resolution": "2480×2200",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.5,
+      "resolution": "2504×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "brand": "HONOR",
@@ -6256,7 +6399,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-07",
-    "price": 8999
+    "price": 8999,
+    "screen_unfolded": {
+      "size": 7.92,
+      "resolution": "2156×1984",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.43,
+      "resolution": "2376×1060",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 77,
@@ -6290,7 +6444,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-07",
-    "price": 5999
+    "price": 5999,
+    "screen_unfolded": {
+      "size": 6.86,
+      "resolution": "2912×1224",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 4.0,
+      "resolution": "1392×1208",
+      "refresh_hz": 120
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "id": 78,
@@ -6327,7 +6492,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-07",
-    "price": 4999
+    "price": 4999,
+    "screen_unfolded": {
+      "size": 6.86,
+      "resolution": "2912×1224",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 4.0,
+      "resolution": "1392×1208",
+      "refresh_hz": 120
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "id": 79,
@@ -6363,7 +6539,18 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-07",
-    "price": 8999
+    "price": 8999,
+    "screen_unfolded": {
+      "size": 7.98,
+      "resolution": "2488×2224",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.56,
+      "resolution": "2552×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "brand": "红魔",
@@ -6527,7 +6714,18 @@
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 12999,
-    "id": 226
+    "id": 226,
+    "screen_unfolded": {
+      "size": 7.6,
+      "resolution": "2176×1812",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.3,
+      "resolution": "2376×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -6562,7 +6760,18 @@
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 7999,
-    "id": 230
+    "id": 230,
+    "screen_unfolded": {
+      "size": 6.7,
+      "resolution": "2640×1080",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 3.4,
+      "resolution": "720×748",
+      "refresh_hz": 60
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "id": 40,
@@ -6650,7 +6859,18 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-05",
-    "price": 6999
+    "price": 6999,
+    "screen_unfolded": {
+      "size": 7.92,
+      "resolution": "2156×1984",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.43,
+      "resolution": "2376×1060",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 76,
@@ -7208,7 +7428,18 @@
     "release_date": "2024-01",
     "price": 2999,
     "ram": "12GB",
-    "storage": "256GB/512GB"
+    "storage": "256GB/512GB",
+    "screen_unfolded": {
+      "size": 6.5,
+      "resolution": "2504×1080",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 3.2,
+      "resolution": "720×748",
+      "refresh_hz": 60
+    },
+    "fold_type": "纵向折叠"
   },
   {
     "model": "Galaxy S24 Ultra",
