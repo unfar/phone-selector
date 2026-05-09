@@ -278,7 +278,7 @@ function toggleCompareMode() {
         btn.textContent = '📊 退出对比';
     } else {
         btn.classList.remove('active');
-        btn.textContent = '📊 对比模式';
+        btn.textContent = '📊 机型对比';
         compareList = [];
         updateCompareBar();
         document.getElementById('comparePanel').style.display = 'none';
@@ -351,50 +351,85 @@ function renderComparePanel() {
     if (selected.length < 2) return;
 
     const fields = [
-        { l: '价格', v: p => p.price ? '¥' + p.price : '—' },
-        { l: '处理器', v: p => p.processor || '—' },
-        { l: '内存', v: p => p.ram || '—' },
-        { l: '存储', v: p => p.storage || '—' },
-        { l: '屏幕', v: p => (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
-        { l: '分辨率', v: p => p.resolution || '—' },
-        { l: '刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
-        { l: '电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—' },
-        { l: '有线充电', v: p => p.charging_w ? p.charging_w + 'W' : '—' },
-        { l: '无线充电', v: p => p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持' },
-        { l: 'USB', v: p => p.usb_version || '—' },
-        { l: '重量', v: p => p.weight_g ? p.weight_g + 'g' : '—' },
-        { l: '系统', v: p => p.os || '—' },
-        { l: '屏幕形态', v: p => p.screen_form || '—' },
-        { l: '防水', v: p => {
+        { l: '💰 价格', v: p => p.price ? '¥' + p.price : '—', best: 'min' },
+        { l: '⚡ 处理器', v: p => p.processor || '—' },
+        { l: '🧠 内存', v: p => p.ram || '—' },
+        { l: '💾 存储', v: p => p.storage || '—' },
+        { l: '📺 屏幕', v: p => (p.screen_size ? p.screen_size + '英寸' : '') + (p.screen_type ? ' ' + p.screen_type : '') || '—' },
+        { l: '🎨 分辨率', v: p => p.resolution || '—' },
+        { l: '🔄 刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—', best: 'max' },
+        { l: '🔋 电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—', best: 'max' },
+        { l: '🔌 有线充电', v: p => p.charging_w ? p.charging_w + 'W' : '—', best: 'max' },
+        { l: '📶 无线充电', v: p => p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持', best: 'max' },
+        { l: '🔗 USB', v: p => p.usb_version || '—' },
+        { l: '⚖️ 重量', v: p => p.weight_g ? p.weight_g + 'g' : '—', best: 'min' },
+        { l: '📱 系统', v: p => p.os || '—' },
+        { l: '📐 屏幕形态', v: p => p.screen_form || '—' },
+        { l: '💧 防水', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('防水') || feats.some(f => f.includes('IP68') || f.includes('IP69'))) return '✅';
+            if (tags.includes('防水') || feats.some(f => f.includes('IP68') || f.includes('IP69'))) return '✅ 支持';
             return '—';
         }},
-        { l: 'NFC', v: p => {
+        { l: '📡 NFC', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('NFC') || feats.some(f => f.includes('NFC'))) return '✅';
+            if (tags.includes('NFC') || feats.some(f => f.includes('NFC'))) return '✅ 支持';
             return '—';
         }},
-        { l: '红外', v: p => {
+        { l: '🔴 红外', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('红外') || feats.some(f => f.includes('红外'))) return '✅';
+            if (tags.includes('红外') || feats.some(f => f.includes('红外'))) return '✅ 支持';
             return '—';
         }},
-        { l: '潜望长焦', v: p => p.has_tele ? '✅' : '—' },
-        { l: '发布日期', v: p => p.release_date || '—' },
+        { l: '📷 潜望长焦', v: p => p.has_tele ? '✅ 支持' : '—' },
+        { l: '📅 发布日期', v: p => p.release_date || '—' },
     ];
+
+    // 找出每个参数的最佳值
+    const bestValues = {};
+    fields.forEach(f => {
+        if (f.best) {
+            const values = selected.map(p => {
+                const val = f.v(p);
+                // 提取数字进行比较
+                const numMatch = val.match(/(\d+)/);
+                return numMatch ? parseInt(numMatch[1]) : 0;
+            });
+            
+            if (f.best === 'min') {
+                bestValues[f.l] = Math.min(...values);
+            } else if (f.best === 'max') {
+                bestValues[f.l] = Math.max(...values);
+            }
+        }
+    });
 
     let html = '<table class="compare-table"><thead><tr><th>参数</th>';
     selected.forEach(p => {
-        html += '<th>' + p.model + '<br><small>' + p.brand + '</small><br><button class="compare-remove" data-id="' + p.id + '">✕</button></th>';
+        html += '<th>' + p.model + '<br><small style="opacity:0.8">' + p.brand + '</small><br><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
     });
     html += '</tr></thead><tbody>';
     fields.forEach(f => {
         html += '<tr><th>' + f.l + '</th>';
-        selected.forEach(p => html += '<td>' + f.v(p) + '</td>');
+        selected.forEach(p => {
+            const value = f.v(p);
+            let displayValue = value;
+            
+            // 检查是否是最佳值
+            if (f.best && bestValues[f.l]) {
+                const numMatch = value.match(/(\d+)/);
+                if (numMatch) {
+                    const numValue = parseInt(numMatch[1]);
+                    if (numValue === bestValues[f.l]) {
+                        displayValue = '<span class="best">' + value + '</span> 🏆';
+                    }
+                }
+            }
+            
+            html += '<td>' + displayValue + '</td>';
+        });
         html += '</tr>';
     });
     html += '</tbody></table>';
@@ -439,7 +474,7 @@ function setupEventListeners() {
         compareList = [];
         compareMode = false;
         document.getElementById('compareModeBtn').classList.remove('active');
-        document.getElementById('compareModeBtn').textContent = '📊 对比模式';
+        document.getElementById('compareModeBtn').textContent = '📊 机型对比';
         document.getElementById('comparePanel').style.display = 'none';
         updateHash();
         refresh();
@@ -463,7 +498,7 @@ function setupEventListeners() {
         compareList = [];
         compareMode = false;
         document.getElementById('compareModeBtn').classList.remove('active');
-        document.getElementById('compareModeBtn').textContent = '📊 对比模式';
+        document.getElementById('compareModeBtn').textContent = '📊 机型对比';
         updateCompareBar();
         document.getElementById('comparePanel').style.display = 'none';
         refresh();
