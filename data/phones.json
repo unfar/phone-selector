@@ -682,7 +682,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "",
-    "release_date": "2023-12",
+    "release_date": "2024-10",
     "price": 2699
   },
   {
@@ -714,7 +714,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "",
-    "release_date": "2023-12",
+    "release_date": "2024-10",
     "price": 3699
   },
   {
@@ -747,7 +747,7 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "detailed_camera": "",
-    "release_date": "2023-12",
+    "release_date": "2024-10",
     "price": 4499
   },
   {
@@ -2686,7 +2686,7 @@
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "battery_mah": 6000,
-    "charging_w": 100,
+    "charging_w": 66,
     "weight_g": 214,
     "camera_desc": "5000万主摄 | 5000万长焦",
     "has_tele": true,
@@ -2706,7 +2706,7 @@
       "NFC"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 80,
+    "wireless_charging_w": 50,
     "usb_version": "USB 3.1 Gen 1",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望微距 5000万 4x光学",
     "release_date": "2026-03",
@@ -2724,7 +2724,7 @@
     "ram": "12GB",
     "storage": "256GB/512GB",
     "battery_mah": 6500,
-    "charging_w": 66,
+    "charging_w": 100,
     "weight_g": 210,
     "camera_desc": "5000万主摄 | 5000万潜望长焦",
     "has_tele": true,
@@ -4679,7 +4679,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 | 超广角: 5000万 | 长焦: 潜望 5000万 3x光学",
     "charging_w": 80,
-    "release_date": "",
+    "release_date": "2025-10",
     "price": 4299,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB"
@@ -4709,7 +4709,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 1/1.4英寸 | 超广角: 索尼IMX355 f/2.2 | 长焦: 索尼LYT-600 f/2.6 3x光学",
     "charging_w": 100,
-    "release_date": "",
+    "release_date": "2025-09",
     "price": 4699,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB"
@@ -4737,7 +4737,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 100,
-    "release_date": "",
+    "release_date": "2025-08",
     "price": 3499,
     "ram": "16GB/24GB",
     "storage": "512GB/1TB"
@@ -4764,7 +4764,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "charging_w": 100,
-    "release_date": "",
+    "release_date": "2025-08",
     "price": 3399,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB"
@@ -4791,7 +4791,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 80,
-    "release_date": "",
+    "release_date": "2025-07",
     "price": 2999,
     "ram": "12GB",
     "storage": "256GB/512GB"
@@ -4819,7 +4819,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 80,
-    "release_date": "",
+    "release_date": "2025-07",
     "price": 2499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB"
@@ -4847,7 +4847,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 80,
-    "release_date": "",
+    "release_date": "2025-06",
     "price": 1999,
     "ram": "12GB",
     "storage": "256GB/512GB"
@@ -4990,7 +4990,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "charging_w": 120,
-    "release_date": "",
+    "release_date": "2025-09",
     "price": 3999,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB"
@@ -5023,7 +5023,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "charging_w": 120,
-    "release_date": "",
+    "release_date": "2025-08",
     "price": 2999,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB"
@@ -5078,7 +5078,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 45,
-    "release_date": "",
+    "release_date": "2025-10",
     "price": 1399,
     "ram": "8GB/12GB",
     "storage": "256GB/512GB"
@@ -5105,7 +5105,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 80,
-    "release_date": "",
+    "release_date": "2025-09",
     "price": 1199,
     "ram": "8GB/12GB",
     "storage": "256GB/512GB"
