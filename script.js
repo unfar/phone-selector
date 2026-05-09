@@ -19,7 +19,7 @@ const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","天玑9500","麒麟9030","
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const screenTypes = ['直屏','折叠屏'];
-const brandList = ["苹果","华为","小米","OPPO","vivo","三星","HONOR","REDMI","iQOO","一加","真我","红魔","ROG","realme","索尼","荣耀"];
+const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","REDMI","iQOO","一加","真我","红魔","ROG","索尼"];
 
 // ===== 数据加载 =====
 async function loadData() {

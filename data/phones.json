@@ -578,7 +578,7 @@
   },
   {
     "model": "HONOR 500",
-    "brand": "HONOR",
+    "brand": "荣耀",
     "processor": "骁龙8s Gen4",
     "screen_size": 6.7,
     "screen_type": "OLED",
@@ -612,7 +612,7 @@
   },
   {
     "model": "HONOR 500 Pro",
-    "brand": "HONOR",
+    "brand": "荣耀",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
     "screen_type": "OLED",
@@ -975,7 +975,7 @@
     "price": 2599
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR X70",
     "processor": "骁龙6 Gen4",
     "screen_size": 6.7,
@@ -1001,7 +1001,7 @@
     "screen_type": "LCD"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR X70 GT",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.7,
@@ -1412,7 +1412,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic8 Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.71,
@@ -1446,7 +1446,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic8",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.58,
@@ -1480,7 +1480,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic8 Pro Air",
     "processor": "天玑9500",
     "screen_size": 6.71,
@@ -1511,7 +1511,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic8 RSR保时捷",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.58,
@@ -1544,7 +1544,7 @@
   },
   {
     "id": 325,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "Magic8 RSR 保时捷设计",
     "processor": "骁龙8 Gen4",
     "screen_size": 6.58,
@@ -1938,7 +1938,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Play 10",
     "processor": "天玑7300",
     "screen_size": 6.78,
@@ -2250,7 +2250,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR WIN",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.83,
@@ -2332,7 +2332,7 @@
   },
   {
     "model": "HONOR WIN RT",
-    "brand": "HONOR",
+    "brand": "荣耀",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.83,
     "screen_type": "OLED",
@@ -2366,7 +2366,7 @@
   },
   {
     "id": 326,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "X80i",
     "processor": "天玑6080",
     "screen_size": 6.7,
@@ -2627,7 +2627,7 @@
     "storage": "512GB/1TB"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic V6",
     "processor": "骁龙8 Elite 5",
     "screen_size": 7.95,
@@ -3223,7 +3223,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR 400",
     "processor": "骁龙7 Gen4",
     "screen_size": 6.55,
@@ -3247,7 +3247,7 @@
     "price": 2699
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR 400 Pro",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.55,
@@ -3505,7 +3505,7 @@
     "price": 1599
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Power2",
     "processor": "天玑8500 Elite",
     "screen_size": 6.79,
@@ -3660,7 +3660,7 @@
     "price": 1799
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR 畅玩70 Plus",
     "processor": "天玑6300",
     "screen_size": 6.74,
@@ -4089,7 +4089,7 @@
     "price": 2999
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR GT Pro",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.78,
@@ -4117,7 +4117,7 @@
     "price": 3699
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR GT",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
@@ -4285,7 +4285,7 @@
   },
   {
     "id": 1,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR 300",
     "processor": "骁龙7 Gen3",
     "screen_size": 6.67,
@@ -4314,7 +4314,7 @@
   },
   {
     "id": 2,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR 300 Pro",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.78,
@@ -4344,7 +4344,7 @@
   },
   {
     "id": 3,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR 300 Ultra",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.78,
@@ -4726,7 +4726,7 @@
   },
   {
     "id": 10,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR X60",
     "processor": "骁龙6 Gen1",
     "screen_size": 6.8,
@@ -4755,7 +4755,7 @@
   },
   {
     "id": 11,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR X60 GT",
     "processor": "骁龙8 Gen2",
     "screen_size": 6.78,
@@ -4783,7 +4783,7 @@
   },
   {
     "id": 12,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR X60 Pro",
     "processor": "骁龙6 Gen1",
     "screen_size": 6.78,
@@ -5111,7 +5111,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR X60i",
     "processor": "天玑6080",
     "screen_size": 6.7,
@@ -5259,7 +5259,7 @@
   },
   {
     "id": 4,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic7",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.78,
@@ -5291,7 +5291,7 @@
   },
   {
     "id": 5,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic7 Pro",
     "processor": "骁龙8 Gen3",
     "screen_size": 6.8,
@@ -5323,7 +5323,7 @@
   },
   {
     "id": 6,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic7 至臻版",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -5947,7 +5947,7 @@
   },
   {
     "id": 9,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Play 9T",
     "processor": "骁龙680",
     "screen_size": 6.77,
@@ -6044,7 +6044,7 @@
     "price": 1499
   },
   {
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Play 9T Pro",
     "processor": "天玑6080",
     "screen_size": 6.7,
@@ -6380,7 +6380,7 @@
   },
   {
     "id": 7,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic V3",
     "processor": "骁龙8 Gen3",
     "screen_size": 7.92,
@@ -6842,7 +6842,7 @@
   },
   {
     "id": 8,
-    "brand": "HONOR",
+    "brand": "荣耀",
     "model": "HONOR Magic Vs3",
     "processor": "骁龙8 Gen2",
     "screen_size": 7.92,
@@ -8640,7 +8640,7 @@
   },
   {
     "id": 356,
-    "brand": "realme",
+    "brand": "真我",
     "model": "真我GT7 Pro",
     "price": null,
     "processor": "骁龙8至尊版",
@@ -8668,7 +8668,7 @@
   },
   {
     "id": 357,
-    "brand": "realme",
+    "brand": "真我",
     "model": "真我GT6",
     "price": null,
     "processor": "骁龙8 Gen3",
@@ -8696,7 +8696,7 @@
   },
   {
     "id": 358,
-    "brand": "realme",
+    "brand": "真我",
     "model": "真我Neo7",
     "price": null,
     "processor": "天玑9300+",
@@ -8724,7 +8724,7 @@
   },
   {
     "id": 359,
-    "brand": "realme",
+    "brand": "真我",
     "model": "真我14 Pro+",
     "price": null,
     "processor": "骁龙7 Gen3",
@@ -8752,7 +8752,7 @@
   },
   {
     "id": 360,
-    "brand": "realme",
+    "brand": "真我",
     "model": "真我14",
     "price": null,
     "processor": "天玑7025",
