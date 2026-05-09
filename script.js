@@ -439,6 +439,9 @@ function renderComparePanel() {
     document.querySelectorAll('.compare-remove').forEach(btn => {
         btn.onclick = () => { toggleCompareSelection(parseInt(btn.dataset.id)); };
     });
+    
+    // 绘制雷达图
+    drawRadarChart(selected);
 }
 
 // ===== 刷新 =====
@@ -449,6 +452,215 @@ function refresh() {
     renderFeatureTags();
     renderActiveBar();
     renderPhones();
+}
+
+// ===== 暗色模式切换 =====
+function toggleDarkMode() {
+    const body = document.body;
+    const toggle = document.getElementById('darkModeToggle');
+    
+    body.classList.toggle('dark-mode');
+    
+    if (body.classList.contains('dark-mode')) {
+        toggle.textContent = '☀️';
+        localStorage.setItem('darkMode', 'true');
+    } else {
+        toggle.textContent = '🌙';
+        localStorage.setItem('darkMode', 'false');
+    }
+}
+
+// ===== 雷达图绘制 =====
+function drawRadarChart(phones) {
+    const canvas = document.getElementById('radarChart');
+    const container = document.getElementById('radarChartContainer');
+    
+    if (!canvas || phones.length < 2) {
+        container.style.display = 'none';
+        return;
+    }
+    
+    container.style.display = 'flex';
+    
+    const ctx = canvas.getContext('2d');
+    const width = canvas.width;
+    const height = canvas.height;
+    const centerX = width / 2;
+    const centerY = height / 2;
+    const radius = Math.min(width, height) / 2 - 60;
+    
+    // 清空画布
+    ctx.clearRect(0, 0, width, height);
+    
+    // 定义参数维度
+    const dimensions = [
+        { name: '性能', key: 'performance', max: 100 },
+        { name: '屏幕', key: 'screen', max: 100 },
+        { name: '拍照', key: 'camera', max: 100 },
+        { name: '电池', key: 'battery', max: 100 },
+        { name: '充电', key: 'charging', max: 100 },
+        { name: '性价比', key: 'value', max: 100 }
+    ];
+    
+    // 计算每款手机的参数分数
+    const phoneScores = phones.map(phone => {
+        const scores = {};
+        
+        // 性能分数（基于处理器）
+        const processor = phone.processor || '';
+        if (processor.includes('Elite') || processor.includes('天玑9500') || processor.includes('麒麟9030')) {
+            scores.performance = 95;
+        } else if (processor.includes('天玑9400') || processor.includes('麒麟9020') || processor.includes('A19')) {
+            scores.performance = 90;
+        } else if (processor.includes('8 Gen') || processor.includes('天玑8')) {
+            scores.performance = 80;
+        } else {
+            scores.performance = 70;
+        }
+        
+        // 屏幕分数（基于刷新率和分辨率）
+        const refreshRate = phone.refresh_hz || 60;
+        const hasHighRes = phone.resolution && (phone.resolution.includes('2K') || phone.resolution.includes('1440'));
+        scores.screen = Math.min(100, (refreshRate / 144) * 60 + (hasHighRes ? 40 : 30));
+        
+        // 拍照分数（基于摄像头描述）
+        const cameraDesc = phone.camera_desc || '';
+        if (cameraDesc.includes('潜望') || cameraDesc.includes('长焦')) {
+            scores.camera = 90;
+        } else if (cameraDesc.includes('主摄') && cameraDesc.includes('超广角')) {
+            scores.camera = 80;
+        } else {
+            scores.camera = 70;
+        }
+        
+        // 电池分数（基于电池容量）
+        const battery = phone.battery_mah || 4000;
+        scores.battery = Math.min(100, (battery / 6000) * 100);
+        
+        // 充电分数（基于充电功率）
+        const charging = phone.charging_w || 18;
+        scores.charging = Math.min(100, (charging / 120) * 100);
+        
+        // 性价比分数（基于价格和配置）
+        const price = phone.price || 5000;
+        const overallScore = (scores.performance + scores.screen + scores.camera + scores.battery + scores.charging) / 5;
+        scores.value = Math.min(100, overallScore * (5000 / Math.max(price, 1000)));
+        
+        return {
+            name: phone.model,
+            brand: phone.brand,
+            scores: scores
+        };
+    });
+    
+    // 颜色配置
+    const colors = [
+        'rgba(37, 99, 235, 0.6)',
+        'rgba(239, 68, 68, 0.6)',
+        'rgba(34, 197, 94, 0.6)',
+        'rgba(249, 115, 22, 0.6)'
+    ];
+    
+    const borderColors = [
+        'rgba(37, 99, 235, 1)',
+        'rgba(239, 68, 68, 1)',
+        'rgba(34, 197, 94, 1)',
+        'rgba(249, 115, 22, 1)'
+    ];
+    
+    // 绘制背景网格
+    const numSides = dimensions.length;
+    const angleStep = (Math.PI * 2) / numSides;
+    
+    // 绘制同心多边形
+    for (let level = 5; level >= 1; level--) {
+        const levelRadius = (radius / 5) * level;
+        ctx.beginPath();
+        for (let i = 0; i <= numSides; i++) {
+            const angle = angleStep * i - Math.PI / 2;
+            const x = centerX + levelRadius * Math.cos(angle);
+            const y = centerY + levelRadius * Math.sin(angle);
+            if (i === 0) {
+                ctx.moveTo(x, y);
+            } else {
+                ctx.lineTo(x, y);
+            }
+        }
+        ctx.closePath();
+        ctx.strokeStyle = document.body.classList.contains('dark-mode') ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
+        ctx.stroke();
+    }
+    
+    // 绘制轴线和标签
+    for (let i = 0; i < numSides; i++) {
+        const angle = angleStep * i - Math.PI / 2;
+        const x = centerX + radius * Math.cos(angle);
+        const y = centerY + radius * Math.sin(angle);
+        
+        // 轴线
+        ctx.beginPath();
+        ctx.moveTo(centerX, centerY);
+        ctx.lineTo(x, y);
+        ctx.strokeStyle = document.body.classList.contains('dark-mode') ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.2)';
+        ctx.stroke();
+        
+        // 标签
+        const labelX = centerX + (radius + 25) * Math.cos(angle);
+        const labelY = centerY + (radius + 25) * Math.sin(angle);
+        ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#f1f5f9' : '#0f172a';
+        ctx.font = 'bold 12px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(dimensions[i].name, labelX, labelY);
+    }
+    
+    // 绘制每款手机的数据区域
+    phoneScores.forEach((phoneData, index) => {
+        if (index >= colors.length) return;
+        
+        ctx.beginPath();
+        for (let i = 0; i <= numSides; i++) {
+            const dimension = dimensions[i % numSides];
+            const score = phoneData.scores[dimension.key] || 50;
+            const normalizedScore = score / dimension.max;
+            const angle = angleStep * (i % numSides) - Math.PI / 2;
+            const x = centerX + radius * normalizedScore * Math.cos(angle);
+            const y = centerY + radius * normalizedScore * Math.sin(angle);
+            
+            if (i === 0) {
+                ctx.moveTo(x, y);
+            } else {
+                ctx.lineTo(x, y);
+            }
+        }
+        ctx.closePath();
+        ctx.fillStyle = colors[index];
+        ctx.fill();
+        ctx.strokeStyle = borderColors[index];
+        ctx.lineWidth = 2;
+        ctx.stroke();
+    });
+    
+    // 绘制图例
+    const legendX = 20;
+    const legendY = height - 30;
+    
+    phoneScores.forEach((phoneData, index) => {
+        if (index >= colors.length) return;
+        
+        const legendItemX = legendX + index * 100;
+        
+        // 颜色块
+        ctx.fillStyle = colors[index];
+        ctx.fillRect(legendItemX, legendY, 15, 15);
+        
+        // 文字
+        ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#f1f5f9' : '#0f172a';
+        ctx.font = '11px sans-serif';
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(phoneData.name, legendItemX + 20, legendY + 7);
+    });
 }
 
 // ===== 初始化 =====
@@ -484,6 +696,16 @@ function setupEventListeners() {
     document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
     document.getElementById('compareBarStart').addEventListener('click', startCompare);
     document.getElementById('compareBarClear').addEventListener('click', clearCompareSelection);
+
+    // 暗色模式切换
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('click', toggleDarkMode);
+    
+    // 从本地存储加载暗色模式设置
+    if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+        darkModeToggle.textContent = '☀️';
+    }
 
     // 关闭对比面板
     document.getElementById('comparePanelClose').addEventListener('click', () => {

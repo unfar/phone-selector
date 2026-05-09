@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<button class="dark-mode-toggle" id="darkModeToggle" title="切换暗色模式">🌙</button>
 <div class="container">
     <div class="header">
         <h1>📱 智能手机选购助手</h1>
@@ -88,7 +89,11 @@
                 <h3>📊 机型对比</h3>
                 <button class="compare-panel-close" id="comparePanelClose">✕</button>
             </div>
-            <div class="compare-panel-body" id="comparePanelBody"></div>
+            <div class="compare-panel-body" id="comparePanelBody">
+                <div id="radarChartContainer" style="display:none; margin-bottom:20px;">
+                    <canvas id="radarChart" width="400" height="400"></canvas>
+                </div>
+            </div>
         </div>
     </div>
 
