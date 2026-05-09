@@ -1112,19 +1112,24 @@
     "refresh_hz": 120,
     "screen_type": "折叠屏",
     "resolution": "2400×1080",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5600,
     "charging_w": 66,
     "weight_g": 200,
     "camera_desc": "50MP主摄 + 13MP超广角 + 12MP长焦(5.5x)",
-    "has_tele": false,
+    "has_tele": true,
     "os": "Android",
     "features": [],
-    "tags": [],
+    "tags": [
+      "NFC",
+      "红外",
+      "潜望长焦",
+      "USB3.0"
+    ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
-    "usb_version": "USB 2.0",
+    "usb_version": "USB 3.1 Gen1",
     "detailed_camera": "",
     "release_date": "2025-11",
     "price": 17999,
@@ -1138,7 +1143,9 @@
       "resolution": "2504×1080",
       "refresh_hz": 120
     },
-    "fold_type": "三折叠"
+    "fold_type": "三折叠",
+    "has_nfc": true,
+    "has_ir": true
   },
   {
     "id": 104,
