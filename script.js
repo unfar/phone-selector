@@ -103,7 +103,7 @@ function renderStats() {
     const withPrice = phones.filter(p => p.price).length;
     const brands = new Set(phones.map(p => p.brand)).size;
     document.getElementById('statsBar').innerHTML =
-        `覆盖 <span>${brands}</span> 个品牌 · 共 <span>${total}</span> 款机型 · 已收录 <span>${withPrice}</span> 款价格`;
+        `覆盖 <span>${brands}</span> 个品牌 · 共 <span>${total}</span> 款机型`;
 }
 
 // ===== 渲染筛选标签 =====
