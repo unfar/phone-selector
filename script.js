@@ -381,9 +381,20 @@ function updateCompareBar() {
 }
 
 function startCompare() {
-    if (compareList.length < 2) return;
+    console.log('开始对比，当前对比列表长度:', compareList.length);
+    if (compareList.length < 2) {
+        console.log('对比机型数量不足，需要至少2款');
+        return;
+    }
+    console.log('开始渲染对比面板');
     renderComparePanel();
-    document.getElementById('comparePanel').style.display = 'block';
+    const panel = document.getElementById('comparePanel');
+    if (panel) {
+        panel.style.display = 'block';
+        console.log('对比面板已显示');
+    } else {
+        console.error('未找到对比面板元素');
+    }
 }
 
 function clearCompareSelection() {
