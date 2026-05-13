@@ -7,6 +7,8 @@ let selectedBrands = new Set();
 let selectedScreen = null;
 let selectedCpu = new Set();
 let selectedTags = new Set();
+let selectedPriceRange = null;
+let selectedScreenSize = null;
 let currentSort = 'newest';
 let expandedCards = new Set();
 
@@ -18,6 +20,22 @@ let compareList = [];
 const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","天玑9500","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"];
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
+const priceRanges = [
+    { name: "2k左右", min: 1700, max: 2300 },
+    { name: "3k左右", min: 2700, max: 3300 },
+    { name: "4k左右", min: 3700, max: 4300 },
+    { name: "5k左右", min: 4700, max: 5300 },
+    { name: "6k左右", min: 5700, max: 6300 },
+    { name: "7k左右", min: 6700, max: 7300 },
+    { name: "8k左右", min: 7700, max: 8300 },
+    { name: "9k左右", min: 8700, max: 9300 },
+    { name: "1万左右", min: 9700, max: 10300 }
+];
+const screenSizeRanges = [
+    { name: "6英寸", min: 5.7, max: 6.3 },
+    { name: "6.5英寸", min: 6.2, max: 6.8 },
+    { name: "7英寸", min: 6.7, max: 7.5 }
+];
 const screenTypes = ['直屏','折叠屏'];
 const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","REDMI","iQOO","一加","真我","红魔","ROG","索尼"];
 
@@ -42,6 +60,8 @@ function updateHash() {
     if (selectedScreen) params.set('screen', selectedScreen);
     if (selectedCpu.size > 0) params.set('cpu', [...selectedCpu].join(','));
     if (selectedTags.size > 0) params.set('tags', [...selectedTags].join(','));
+    if (selectedPriceRange) params.set('priceRange', selectedPriceRange);
+    if (selectedScreenSize) params.set('screenSize', selectedScreenSize);
     if (currentSort !== 'newest') params.set('sort', currentSort);
     const hash = params.toString();
     history.replaceState(null, '', hash ? `#${hash}` : location.pathname);
@@ -58,6 +78,8 @@ function restoreStateFromHash() {
     if (cpu) cpu.split(',').forEach(c => selectedCpu.add(c));
     const tags = params.get('tags');
     if (tags) tags.split(',').forEach(t => selectedTags.add(t));
+    selectedPriceRange = params.get('priceRange') || null;
+    selectedScreenSize = params.get('screenSize') || null;
     currentSort = params.get('sort') || 'newest';
     const sortSelect = document.getElementById('sortSelect');
     if (sortSelect) sortSelect.value = currentSort;
@@ -77,6 +99,16 @@ function matchesFilters(p) {
         } else {
             if (!p.tags.includes(t)) return false;
         }
+    }
+    // 价格范围筛选
+    if (selectedPriceRange) {
+        const range = priceRanges.find(r => r.name === selectedPriceRange);
+        if (range && (p.price < range.min || p.price > range.max)) return false;
+    }
+    // 屏幕尺寸筛选
+    if (selectedScreenSize) {
+        const range = screenSizeRanges.find(r => r.name === selectedScreenSize);
+        if (range && (p.screen_size < range.min || p.screen_size > range.max)) return false;
     }
     return true;
 }
@@ -195,9 +227,52 @@ function renderCpuTags() {
 }
 
 function renderFeatureTags() {
-    const c = document.getElementById('featureTags'); c.innerHTML = '';
+    const c = document.getElementById('featureTags'); 
+    c.innerHTML = '';
     featureTags.forEach(t => {
         const el = document.createElement('span');
+        el.className = 'tag' + (selectedTags.has(t) ? ' active' : '');
+        el.textContent = getTagDisplayName(t);
+        el.onclick = () => { 
+            selectedTags.has(t) ? selectedTags.delete(t) : selectedTags.add(t); 
+            updateHash(); 
+            refresh(); 
+        };
+        c.appendChild(el);
+    });
+}
+
+function renderPriceRangeTags() {
+    const container = document.getElementById('priceRangeTags');
+    container.innerHTML = '';
+    priceRanges.forEach(range => {
+        const el = document.createElement('span');
+        el.className = 'tag' + (selectedPriceRange === range.name ? ' active' : '');
+        el.textContent = range.name;
+        el.onclick = () => {
+            selectedPriceRange = selectedPriceRange === range.name ? null : range.name;
+            updateHash();
+            refresh();
+        };
+        container.appendChild(el);
+    });
+}
+
+function renderScreenSizeTags() {
+    const container = document.getElementById('screenSizeTags');
+    container.innerHTML = '';
+    screenSizeRanges.forEach(range => {
+        const el = document.createElement('span');
+        el.className = 'tag' + (selectedScreenSize === range.name ? ' active' : '');
+        el.textContent = range.name;
+        el.onclick = () => {
+            selectedScreenSize = selectedScreenSize === range.name ? null : range.name;
+            updateHash();
+            refresh();
+        };
+        container.appendChild(el);
+    });
+}
         el.className = 'tag' + (selectedTags.has(t) ? ' active' : '');
         el.textContent = getTagDisplayName(t);
         el.onclick = () => { selectedTags.has(t) ? selectedTags.delete(t) : selectedTags.add(t); updateHash(); refresh(); };
@@ -208,13 +283,15 @@ function renderFeatureTags() {
 // ===== 当前筛选栏 =====
 function renderActiveBar() {
     const bar = document.getElementById('activeBar'), badges = document.getElementById('activeBadges');
-    const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size;
+    const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size + (selectedPriceRange ? 1 : 0) + (selectedScreenSize ? 1 : 0);
     if (total === 0) { bar.style.display = 'none'; return; }
     bar.style.display = 'flex'; badges.innerHTML = '';
     selectedBrands.forEach(b => addBadge(badges, b, () => { selectedBrands.delete(b); updateHash(); refresh(); }));
     if (selectedScreen) addBadge(badges, selectedScreen, () => { selectedScreen = null; updateHash(); refresh(); });
     selectedCpu.forEach(c => addBadge(badges, c, () => { selectedCpu.delete(c); updateHash(); refresh(); }));
     selectedTags.forEach(t => addBadge(badges, getTagDisplayName(t), () => { selectedTags.delete(t); updateHash(); refresh(); }));
+    if (selectedPriceRange) addBadge(badges, selectedPriceRange, () => { selectedPriceRange = null; updateHash(); refresh(); });
+    if (selectedScreenSize) addBadge(badges, selectedScreenSize, () => { selectedScreenSize = null; updateHash(); refresh(); });
 }
 
 function addBadge(c, t, r) {
@@ -508,6 +585,8 @@ function refresh() {
     renderScreenTags();
     renderCpuTags();
     renderFeatureTags();
+    renderPriceRangeTags();
+    renderScreenSizeTags();
     renderActiveBar();
     renderPhones();
 }
@@ -742,22 +821,24 @@ function setupEventListeners() {
         updateHash();
         refresh();
     });
-
+// 清空全部筛选
     document.getElementById('clearAll').addEventListener('click', () => {
         selectedBrands.clear();
         selectedScreen = null;
         selectedCpu.clear();
         selectedTags.clear();
+        selectedPriceRange = null;
+        selectedScreenSize = null;
         compareList = [];
         compareMode = false;
         document.getElementById('compareModeBtn').classList.remove('active');
         document.getElementById('compareModeBtn').textContent = '📊 机型对比';
-        document.getElementById('comparePanel').style.display = 'none';
         updateHash();
         refresh();
     });
 
     // 对比模式按钮
+    document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
     document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
     document.getElementById('compareBarStart').addEventListener('click', startCompare);
     document.getElementById('compareBarClear').addEventListener('click', clearCompareSelection);
