@@ -29,7 +29,7 @@ const priceRanges = [
     { name: "7k左右", min: 6700, max: 7300 },
     { name: "8k左右", min: 7700, max: 8300 },
     { name: "9k左右", min: 8700, max: 9300 },
-    { name: "1万左右", min: 9700, max: 10300 }
+    { name: "1万+", min: 10000, max: 999999 }
 ];
 const screenSizeRanges = [
     { name: "6英寸", min: 5.7, max: 6.3 },
