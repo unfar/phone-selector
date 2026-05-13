@@ -856,7 +856,6 @@ function setupEventListeners() {
 
     // 对比模式按钮
     document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
-    document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
     document.getElementById('compareBarStart').addEventListener('click', startCompare);
     document.getElementById('compareBarClear').addEventListener('click', clearCompareSelection);
 
