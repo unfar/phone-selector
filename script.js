@@ -326,7 +326,7 @@ function renderPhones() {
     document.getElementById('resultCount').textContent = filtered.length;
 
     if (filtered.length === 0) {
-        grid.innerHTML = '<div class="no-results"><div class="emoji">😢</div><p>没有找到符合条件的手机，试试调整筛选条件吧～</p></div>';
+        grid.innerHTML = '<div class="no-results"><div class="emoji">🔍</div><p>没有找到符合条件的手机</p><p style="margin-top:8px;font-size:.85rem;color:var(--text-muted)">试试减少筛选条件、更换品牌或调整价格范围～</p></div>';
         return;
     }
 
@@ -368,7 +368,7 @@ function renderPhones() {
         return '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
             '<div class="card-header">' +
                 '<div class="phone-name">' + displayName + '</div>' +
-                '<div class="card-header-right">' + priceHtml + '<span class="brand-badge">' + p.brand + '</span></div>' +
+                '<div class="card-header-right">' + priceHtml + '<span class="brand-badge brand-' + p.brand + '">' + p.brand + '</span></div>' +
             '</div>' +
             '<div class="card-body">' +
                 '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value">' + s.v + '</div></div>').join('') + '</div>' +
@@ -838,7 +838,13 @@ function setupEventListeners() {
         updateHash();
         refresh();
     });
-// 清空全部筛选
+    // 筛选区折叠
+    document.querySelectorAll('.filter-label').forEach(label => {
+        label.addEventListener('click', () => {
+            const section = label.parentElement;
+            section.classList.toggle('collapsed');
+        });
+    });
     document.getElementById('clearAll').addEventListener('click', () => {
         selectedBrands.clear();
         selectedScreen = null;
