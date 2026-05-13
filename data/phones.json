@@ -3,6 +3,35 @@
     "id": 1,
     "brand": "华为",
     "model": "华为 Mate 80 RS",
-    "release_date": "2025-11"
+    "release_date": "2025-11",
+    "processor": "麒麟9000S",
+    "screen_size": 6.7,
+    "screen_type": "OLED",
+    "screen_form": "直屏",
+    "battery_mah": 5000,
+    "charging_w": 66,
+    "wireless_charging_w": 50,
+    "weight_g": 220,
+    "camera_desc": "50MP主摄 + 12MP超广角 + 50MP长焦",
+    "has_tele": true,
+    "os": "HarmonyOS 4.0",
+    "features": [
+      "IP68防水",
+      "NFC",
+      "红外"
+    ],
+    "tags": [
+      "防水",
+      "NFC",
+      "红外",
+      "麒麟9000S",
+      "无线充电",
+      "潜望长焦"
+    ],
+    "price": 6999,
+    "ram": "12GB",
+    "storage": "256GB/512GB/1TB",
+    "detailed_camera": "主摄: 5000万 f/1.4 | 超广角: 1200万 f/2.0 | 长焦: 5000万 f/1.6",
+    "refresh_hz": 120
   }
 ]
