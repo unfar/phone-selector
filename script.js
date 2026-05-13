@@ -21,14 +21,14 @@ const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","天玑9500","麒麟9030","
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const priceRanges = [
-    { name: "2k左右", min: 1700, max: 2300 },
-    { name: "3k左右", min: 2700, max: 3300 },
-    { name: "4k左右", min: 3700, max: 4300 },
-    { name: "5k左右", min: 4700, max: 5300 },
-    { name: "6k左右", min: 5700, max: 6300 },
-    { name: "7k左右", min: 6700, max: 7300 },
-    { name: "8k左右", min: 7700, max: 8300 },
-    { name: "9k左右", min: 8700, max: 9300 },
+    { name: "2k+", min: 2000, max: 2999 },
+    { name: "3k+", min: 3000, max: 3999 },
+    { name: "4k+", min: 4000, max: 4999 },
+    { name: "5k+", min: 5000, max: 5999 },
+    { name: "6k+", min: 6000, max: 6999 },
+    { name: "7k+", min: 7000, max: 7999 },
+    { name: "8k+", min: 8000, max: 8999 },
+    { name: "9k+", min: 9000, max: 9999 },
     { name: "1万+", min: 10000, max: 999999 }
 ];
 const screenSizeRanges = [
