@@ -580,7 +580,7 @@
     "thickness_mm": 7.2
   },
   {
-    "model": "HONOR 500",
+    "model": "荣耀 500",
     "brand": "荣耀",
     "processor": "骁龙8s Gen4",
     "screen_size": 6.7,
@@ -614,7 +614,7 @@
     "refresh_hz": 120
   },
   {
-    "model": "HONOR 500 Pro",
+    "model": "荣耀 500 Pro",
     "brand": "荣耀",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
@@ -982,7 +982,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR X70",
+    "model": "荣耀 X70",
     "processor": "骁龙6 Gen4",
     "screen_size": 6.7,
     "battery_mah": 8300,
@@ -1008,7 +1008,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR X70 GT",
+    "model": "荣耀 X70 GT",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.7,
     "battery_mah": 8300,
@@ -1392,7 +1392,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 15T",
+    "model": "15T",
     "processor": "天玑6400 Max",
     "screen_size": 6.57,
     "battery_mah": 7000,
@@ -1419,7 +1419,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Magic8 Pro",
+    "model": "荣耀 Magic8 Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.71,
     "battery_mah": 7200,
@@ -1453,7 +1453,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Magic8",
+    "model": "荣耀 Magic8",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.58,
     "battery_mah": 7000,
@@ -1487,7 +1487,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Magic8 Pro Air",
+    "model": "荣耀 Magic8 Pro Air",
     "processor": "天玑9500",
     "screen_size": 6.71,
     "battery_mah": 7200,
@@ -1518,7 +1518,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Magic8 RSR保时捷",
+    "model": "荣耀 Magic8 RSR保时捷",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.58,
     "battery_mah": 7000,
@@ -1883,7 +1883,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 GT8 Pro",
+    "model": "GT8 Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.7,
     "battery_mah": 5500,
@@ -1918,7 +1918,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 15",
+    "model": "15",
     "processor": "天玑7300+",
     "screen_size": 6.77,
     "battery_mah": 7000,
@@ -1945,7 +1945,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Play 10",
+    "model": "荣耀 Play 10",
     "processor": "天玑7300",
     "screen_size": 6.78,
     "battery_mah": 6000,
@@ -2222,7 +2222,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 GT8",
+    "model": "GT8",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.7,
     "battery_mah": 5500,
@@ -2257,7 +2257,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR WIN",
+    "model": "荣耀 WIN",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.83,
     "battery_mah": 7500,
@@ -2337,7 +2337,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "model": "HONOR WIN RT",
+    "model": "荣耀 WIN RT",
     "brand": "荣耀",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.83,
@@ -2634,7 +2634,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Magic V6",
+    "model": "荣耀 Magic V6",
     "processor": "骁龙8 Elite 5",
     "screen_size": 7.95,
     "battery_mah": 6850,
@@ -3203,7 +3203,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 Neo7 Turbo",
+    "model": "Neo7 Turbo",
     "processor": "天玑9400e",
     "screen_size": 6.8,
     "battery_mah": 7200,
@@ -3230,7 +3230,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR 400",
+    "model": "荣耀 400",
     "processor": "骁龙7 Gen4",
     "screen_size": 6.55,
     "battery_mah": 7200,
@@ -3254,7 +3254,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR 400 Pro",
+    "model": "荣耀 400 Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.55,
     "battery_mah": 7200,
@@ -3512,7 +3512,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Power2",
+    "model": "荣耀 Power2",
     "processor": "天玑8500 Elite",
     "screen_size": 6.79,
     "battery_mah": 8000,
@@ -3667,7 +3667,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR 畅玩70 Plus",
+    "model": "荣耀 畅玩70 Plus",
     "processor": "天玑6300",
     "screen_size": 6.74,
     "battery_mah": 6000,
@@ -4096,7 +4096,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR GT Pro",
+    "model": "荣耀 GT Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
     "battery_mah": 7000,
@@ -4124,7 +4124,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR GT",
+    "model": "荣耀 GT",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
     "battery_mah": 6500,
@@ -4292,7 +4292,7 @@
   {
     "id": 1,
     "brand": "荣耀",
-    "model": "HONOR 300",
+    "model": "荣耀 300",
     "processor": "骁龙7 Gen3",
     "screen_size": 6.67,
     "refresh_hz": 120,
@@ -4321,7 +4321,7 @@
   {
     "id": 2,
     "brand": "荣耀",
-    "model": "HONOR 300 Pro",
+    "model": "荣耀 300 Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -4351,7 +4351,7 @@
   {
     "id": 3,
     "brand": "荣耀",
-    "model": "HONOR 300 Ultra",
+    "model": "荣耀 300 Ultra",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -4705,7 +4705,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 GT7",
+    "model": "GT7",
     "processor": "天玑9400+",
     "screen_size": 6.8,
     "battery_mah": 7200,
@@ -4734,7 +4734,7 @@
   {
     "id": 10,
     "brand": "荣耀",
-    "model": "HONOR X60",
+    "model": "荣耀 X60",
     "processor": "骁龙6 Gen1",
     "screen_size": 6.8,
     "refresh_hz": 120,
@@ -4763,7 +4763,7 @@
   {
     "id": 11,
     "brand": "荣耀",
-    "model": "HONOR X60 GT",
+    "model": "荣耀 X60 GT",
     "processor": "骁龙8 Gen 2",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -4791,7 +4791,7 @@
   {
     "id": 12,
     "brand": "荣耀",
-    "model": "HONOR X60 Pro",
+    "model": "荣耀 X60 Pro",
     "processor": "骁龙6 Gen1",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -5039,7 +5039,7 @@
   {
     "id": 39,
     "brand": "真我",
-    "model": "真我 GT7 Pro",
+    "model": "GT7 Pro",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -5122,7 +5122,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR X60i",
+    "model": "荣耀 X60i",
     "processor": "天玑6080",
     "screen_size": 6.7,
     "battery_mah": 5000,
@@ -5270,7 +5270,7 @@
   {
     "id": 4,
     "brand": "荣耀",
-    "model": "HONOR Magic7",
+    "model": "荣耀 Magic7",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -5302,7 +5302,7 @@
   {
     "id": 5,
     "brand": "荣耀",
-    "model": "HONOR Magic7 Pro",
+    "model": "荣耀 Magic7 Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.8,
     "refresh_hz": 120,
@@ -5334,7 +5334,7 @@
   {
     "id": 6,
     "brand": "荣耀",
-    "model": "HONOR Magic7 至臻版",
+    "model": "荣耀 Magic7 至臻版",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
     "refresh_hz": 120,
@@ -5958,7 +5958,7 @@
   {
     "id": 9,
     "brand": "荣耀",
-    "model": "HONOR Play 9T",
+    "model": "荣耀 Play 9T",
     "processor": "骁龙680",
     "screen_size": 6.77,
     "refresh_hz": 90,
@@ -6055,7 +6055,7 @@
   },
   {
     "brand": "荣耀",
-    "model": "HONOR Play 9T Pro",
+    "model": "荣耀 Play 9T Pro",
     "processor": "天玑6080",
     "screen_size": 6.7,
     "battery_mah": 5000,
@@ -6391,7 +6391,7 @@
   {
     "id": 7,
     "brand": "荣耀",
-    "model": "HONOR Magic V3",
+    "model": "荣耀 Magic V3",
     "processor": "骁龙8 Gen 3",
     "screen_size": 7.92,
     "refresh_hz": 120,
@@ -6794,7 +6794,7 @@
   {
     "id": 40,
     "brand": "真我",
-    "model": "真我 GT Neo6",
+    "model": "GT Neo6",
     "processor": "骁龙8s Gen3",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -6823,7 +6823,7 @@
   {
     "id": 41,
     "brand": "真我",
-    "model": "真我 GT Neo6 SE",
+    "model": "GT Neo6 SE",
     "processor": "骁龙7+ Gen3",
     "screen_size": 6.78,
     "refresh_hz": 120,
@@ -6853,7 +6853,7 @@
   {
     "id": 8,
     "brand": "荣耀",
-    "model": "HONOR Magic Vs3",
+    "model": "荣耀 Magic Vs3",
     "processor": "骁龙8 Gen 2",
     "screen_size": 7.92,
     "refresh_hz": 120,
@@ -7069,7 +7069,7 @@
   {
     "id": 38,
     "brand": "真我",
-    "model": "真我 13 Pro+",
+    "model": "13 Pro+",
     "processor": "骁龙7s Gen2",
     "screen_size": 6.7,
     "refresh_hz": 120,
@@ -7101,7 +7101,7 @@
   {
     "id": 42,
     "brand": "真我",
-    "model": "真我 V60s",
+    "model": "V60s",
     "processor": "天玑6300",
     "screen_size": 6.67,
     "refresh_hz": 90,
@@ -7293,7 +7293,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 Neo8",
+    "model": "Neo8",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.6,
     "battery_mah": 5000,
@@ -7327,7 +7327,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 V70s",
+    "model": "V70s",
     "processor": "天玑6300",
     "screen_size": 6.67,
     "battery_mah": 5000,
@@ -7352,7 +7352,7 @@
   },
   {
     "brand": "真我",
-    "model": "真我 V70",
+    "model": "V70",
     "processor": "天玑6300",
     "screen_size": 6.67,
     "battery_mah": 5000,
@@ -8625,7 +8625,7 @@
   {
     "id": 356,
     "brand": "真我",
-    "model": "真我GT7 Pro",
+    "model": "GT7 Pro",
     "price": null,
     "processor": "骁龙8 Elite 1",
     "ram": null,
@@ -8653,7 +8653,7 @@
   {
     "id": 357,
     "brand": "真我",
-    "model": "真我GT6",
+    "model": "GT6",
     "price": null,
     "processor": "骁龙8 Gen 3",
     "ram": null,
@@ -8681,7 +8681,7 @@
   {
     "id": 358,
     "brand": "真我",
-    "model": "真我Neo7",
+    "model": "Neo7",
     "price": null,
     "processor": "天玑9400",
     "ram": null,
@@ -8709,7 +8709,7 @@
   {
     "id": 359,
     "brand": "真我",
-    "model": "真我14 Pro+",
+    "model": "14 Pro+",
     "price": null,
     "processor": "骁龙7 Gen3",
     "ram": "512",
@@ -8737,7 +8737,7 @@
   {
     "id": 360,
     "brand": "真我",
-    "model": "真我14",
+    "model": "14",
     "price": null,
     "processor": "天玑7025",
     "ram": "12+256",
