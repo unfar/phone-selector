@@ -77,7 +77,7 @@ function updateHash() {
     if (selectedScreenSize) params.set('screenSize', selectedScreenSize);
     if (currentSort !== 'newest') params.set('sort', currentSort);
     const hash = params.toString();
-    history.replaceState(null, '', hash ? `#${hash}` : location.pathname);
+    history.replaceState(null, '', `#${hash}`);
 }
 
 function restoreStateFromHash() {
@@ -284,12 +284,6 @@ function renderScreenSizeTags() {
             refresh();
         };
         container.appendChild(el);
-    });
-}
-        el.className = 'tag' + (selectedTags.has(t) ? ' active' : '');
-        el.textContent = getTagDisplayName(t);
-        el.onclick = () => { selectedTags.has(t) ? selectedTags.delete(t) : selectedTags.add(t); updateHash(); refresh(); };
-        c.appendChild(el);
     });
 }
 
