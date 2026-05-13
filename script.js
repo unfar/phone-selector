@@ -32,9 +32,9 @@ const priceRanges = [
     { name: "1万+", min: 10000, max: 999999 }
 ];
 const screenSizeRanges = [
-    { name: "6英寸", min: 5.7, max: 6.3 },
-    { name: "6.5英寸", min: 6.2, max: 6.8 },
-    { name: "7英寸", min: 6.7, max: 7.5 }
+    { name: "6英寸左右", min: 5.7, max: 6.3 },
+    { name: "6.5英寸左右", min: 6.2, max: 6.8 },
+    { name: "7英寸左右", min: 6.7, max: 7.5 }
 ];
 const screenTypes = ['直屏','折叠屏'];
 const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","REDMI","iQOO","一加","真我","红魔","ROG","索尼"];
