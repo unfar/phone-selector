@@ -42,15 +42,28 @@ const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","R
 // ===== 数据加载 =====
 async function loadData() {
     try {
+        showLoading();
         const resp = await fetch('data/phones.json');
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         phones = await resp.json();
+        hideLoading();
         restoreStateFromHash();
         init();
     } catch (err) {
+        hideLoading();
         document.getElementById('phoneGrid').innerHTML =
             `<div class="error-msg"><div class="emoji">😢</div><p>数据加载失败：${err.message}</p><p style="margin-top:8px;font-size:.85rem">请检查网络连接或刷新页面重试</p></div>`;
     }
+}
+
+function showLoading() {
+    const grid = document.getElementById('phoneGrid');
+    grid.innerHTML = '<div class="loading"><div class="spinner">⏳</div><p>加载数据中...</p></div>';
+}
+
+function hideLoading() {
+    const grid = document.getElementById('phoneGrid');
+    grid.innerHTML = grid.innerHTML.replace('<div class="loading"><div class="spinner">⏳</div><p>加载数据中...</p></div>', '');
 }
 
 // ===== URL Hash 状态管理 =====
