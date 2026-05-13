@@ -8934,7 +8934,7 @@
     "id": 369,
     "brand": "索尼",
     "model": "Xperia 1 VIII",
-    "price": null,
+    "price": 10499,
     "processor": "骁龙8 Elite Gen 5",
     "ram": null,
     "storage": null,
@@ -8953,10 +8953,12 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "骁龙8 Elite 5"
+    ],
     "features": [],
-    "screen_form": null,
-    "release_date": null
+    "screen_form": "直屏",
+    "release_date": "2026-05"
   },
   {
     "id": 370,
