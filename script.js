@@ -893,12 +893,14 @@ function setupEventListeners() {
 
     // 回到顶部
     const backTop = document.getElementById('backTop');
-    window.addEventListener('scroll', () => {
-        backTop.style.display = window.scrollY > 500 ? '' : 'none';
-    }, { passive: true });
-    backTop.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+    if (backTop) {
+        window.addEventListener('scroll', () => {
+            backTop.style.display = window.scrollY > 500 ? '' : 'none';
+        }, { passive: true });
+        backTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
 }
 
 // 启动
