@@ -2013,7 +2013,7 @@
       "无线充电",
       "防水"
     ],
-    "wireless_charging_w": 15,
+    "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼IMX903 f/1.78 1/1.14英寸 | 超广角: 4800万 f/2.2 | 长焦: 潜望 f/2.8 4800万 5x光学",
     "charging_w": 45,
@@ -8537,34 +8537,6 @@
     "release_date": null
   },
   {
-    "id": 352,
-    "brand": "苹果",
-    "model": "iPhone 17 Air",
-    "price": null,
-    "processor": "A19",
-    "ram": null,
-    "storage": null,
-    "screen_size": 6.9,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": null,
-    "battery_mah": 5000,
-    "charging_w": 40,
-    "wireless_charging_w": null,
-    "usb_version": null,
-    "weight_g": null,
-    "os": null,
-    "camera_desc": "4800万单摄",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [],
-    "features": [],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
     "id": 353,
     "brand": "苹果",
     "model": "iPhone SE4",
@@ -8578,7 +8550,7 @@
     "refresh_hz": null,
     "battery_mah": 3279,
     "charging_w": 40,
-    "wireless_charging_w": null,
+    "wireless_charging_w": 25,
     "usb_version": null,
     "weight_g": null,
     "os": null,
@@ -8587,7 +8559,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "无线充电"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
