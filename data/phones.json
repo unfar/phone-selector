@@ -7426,7 +7426,7 @@
     "model": "HUAWEI nova Flip S",
     "processor": "麒麟8000",
     "screen_size": 6.5,
-    "battery_mah": 4500,
+    "battery_mah": 4400,
     "weight_g": 195,
     "camera_desc": "5000万主摄",
     "has_tele": false,
@@ -7444,9 +7444,9 @@
       "红外"
     ],
     "release_date": "2024-01",
-    "price": 2999,
+    "price": 3388,
     "ram": "12GB",
-    "storage": "256GB/512GB",
+    "storage": "256GB",
     "screen_unfolded": {
       "size": 6.5,
       "resolution": "2504×1080",
