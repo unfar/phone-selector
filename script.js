@@ -7,8 +7,8 @@ let selectedBrands = new Set();
 let selectedScreen = null;
 let selectedCpu = new Set();
 let selectedTags = new Set();
-let selectedPriceRange = null;
-let selectedScreenSize = null;
+let selectedPriceRanges = new Set();
+let selectedScreenSizes = new Set();
 let currentSort = 'newest';
 let expandedCards = new Set();
 
@@ -73,8 +73,8 @@ function updateHash() {
     if (selectedScreen) params.set('screen', selectedScreen);
     if (selectedCpu.size > 0) params.set('cpu', [...selectedCpu].join(','));
     if (selectedTags.size > 0) params.set('tags', [...selectedTags].join(','));
-    if (selectedPriceRange) params.set('priceRange', selectedPriceRange);
-    if (selectedScreenSize) params.set('screenSize', selectedScreenSize);
+    if (selectedPriceRanges.size > 0) params.set('priceRange', [...selectedPriceRanges].join(','));
+    if (selectedScreenSizes.size > 0) params.set('screenSize', [...selectedScreenSizes].join(','));
     if (currentSort !== 'newest') params.set('sort', currentSort);
     const hash = params.toString();
     history.replaceState(null, '', `#${hash}`);
@@ -91,8 +91,10 @@ function restoreStateFromHash() {
     if (cpu) cpu.split(',').forEach(c => selectedCpu.add(c));
     const tags = params.get('tags');
     if (tags) tags.split(',').forEach(t => selectedTags.add(t));
-    selectedPriceRange = params.get('priceRange') || null;
-    selectedScreenSize = params.get('screenSize') || null;
+    const priceRanges = params.get('priceRange');
+    if (priceRanges) priceRanges.split(',').forEach(r => selectedPriceRanges.add(r));
+    const screenSizes = params.get('screenSize');
+    if (screenSizes) screenSizes.split(',').forEach(s => selectedScreenSizes.add(s));
     currentSort = params.get('sort') || 'newest';
     const sortSelect = document.getElementById('sortSelect');
     if (sortSelect) sortSelect.value = currentSort;
@@ -113,15 +115,23 @@ function matchesFilters(p) {
             if (!p.tags.includes(t)) return false;
         }
     }
-    // 价格范围筛选
-    if (selectedPriceRange) {
-        const range = priceRanges.find(r => r.name === selectedPriceRange);
-        if (range && (p.price < range.min || p.price > range.max)) return false;
+    // 价格范围筛选（多选，任一匹配即可）
+    if (selectedPriceRanges.size > 0) {
+        let inRange = false;
+        for (let r of selectedPriceRanges) {
+            const range = priceRanges.find(pr => pr.name === r);
+            if (range && p.price >= range.min && p.price <= range.max) { inRange = true; break; }
+        }
+        if (!inRange) return false;
     }
-    // 屏幕尺寸筛选
-    if (selectedScreenSize) {
-        const range = screenSizeRanges.find(r => r.name === selectedScreenSize);
-        if (range && (p.screen_size < range.min || p.screen_size > range.max)) return false;
+    // 屏幕尺寸筛选（多选，任一匹配即可）
+    if (selectedScreenSizes.size > 0) {
+        let inSize = false;
+        for (let s of selectedScreenSizes) {
+            const range = screenSizeRanges.find(sr => sr.name === s);
+            if (range && p.screen_size >= range.min && p.screen_size <= range.max) { inSize = true; break; }
+        }
+        if (!inSize) return false;
     }
     return true;
 }
@@ -260,10 +270,10 @@ function renderPriceRangeTags() {
     container.innerHTML = '';
     priceRanges.forEach(range => {
         const el = document.createElement('span');
-        el.className = 'tag' + (selectedPriceRange === range.name ? ' active' : '');
+        el.className = 'tag' + (selectedPriceRanges.has(range.name) ? ' active' : '');
         el.textContent = range.name;
         el.onclick = () => {
-            selectedPriceRange = selectedPriceRange === range.name ? null : range.name;
+            selectedPriceRanges.has(range.name) ? selectedPriceRanges.delete(range.name) : selectedPriceRanges.add(range.name);
             updateHash();
             refresh();
         };
@@ -276,10 +286,10 @@ function renderScreenSizeTags() {
     container.innerHTML = '';
     screenSizeRanges.forEach(range => {
         const el = document.createElement('span');
-        el.className = 'tag' + (selectedScreenSize === range.name ? ' active' : '');
+        el.className = 'tag' + (selectedScreenSizes.has(range.name) ? ' active' : '');
         el.textContent = range.name;
         el.onclick = () => {
-            selectedScreenSize = selectedScreenSize === range.name ? null : range.name;
+            selectedScreenSizes.has(range.name) ? selectedScreenSizes.delete(range.name) : selectedScreenSizes.add(range.name);
             updateHash();
             refresh();
         };
@@ -290,15 +300,15 @@ function renderScreenSizeTags() {
 // ===== 当前筛选栏 =====
 function renderActiveBar() {
     const bar = document.getElementById('activeBar'), badges = document.getElementById('activeBadges');
-    const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size + (selectedPriceRange ? 1 : 0) + (selectedScreenSize ? 1 : 0);
+    const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size + selectedPriceRanges.size + selectedScreenSizes.size;
     if (total === 0) { bar.style.display = 'none'; return; }
     bar.style.display = 'flex'; badges.innerHTML = '';
     selectedBrands.forEach(b => addBadge(badges, b, () => { selectedBrands.delete(b); updateHash(); refresh(); }));
     if (selectedScreen) addBadge(badges, selectedScreen, () => { selectedScreen = null; updateHash(); refresh(); });
     selectedCpu.forEach(c => addBadge(badges, c, () => { selectedCpu.delete(c); updateHash(); refresh(); }));
     selectedTags.forEach(t => addBadge(badges, getTagDisplayName(t), () => { selectedTags.delete(t); updateHash(); refresh(); }));
-    if (selectedPriceRange) addBadge(badges, selectedPriceRange, () => { selectedPriceRange = null; updateHash(); refresh(); });
-    if (selectedScreenSize) addBadge(badges, selectedScreenSize, () => { selectedScreenSize = null; updateHash(); refresh(); });
+    selectedPriceRanges.forEach(r => addBadge(badges, r, () => { selectedPriceRanges.delete(r); updateHash(); refresh(); }));
+    selectedScreenSizes.forEach(s => addBadge(badges, s, () => { selectedScreenSizes.delete(s); updateHash(); refresh(); }));
 }
 
 function addBadge(c, t, r) {
@@ -834,8 +844,8 @@ function setupEventListeners() {
         selectedScreen = null;
         selectedCpu.clear();
         selectedTags.clear();
-        selectedPriceRange = null;
-        selectedScreenSize = null;
+        selectedPriceRanges.clear();
+        selectedScreenSizes.clear();
         compareList = [];
         compareMode = false;
         document.getElementById('compareModeBtn').classList.remove('active');
