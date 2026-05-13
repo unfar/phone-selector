@@ -19,27 +19,27 @@
 
     <div class="filter-panel">
         <div class="filter-section">
-            <div class="filter-label">🏢 品牌 <span class="filter-count" id="brandCount"></span></div>
+            <div class="filter-label">🏢 品牌 <span class="arrow">▼</span> <span class="filter-count" id="brandCount"></span></div>
             <div class="filter-tags" id="brandTags"></div>
         </div>
         <div class="filter-section">
-            <div class="filter-label">📱 屏幕形态 <span style="font-weight:400;text-transform:none;color:#94a3b8">（单选）</span></div>
+            <div class="filter-label">📱 屏幕形态 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（单选）</span></div>
             <div class="filter-tags" id="screenTags"></div>
         </div>
-        <div class="filter-section">
-            <div class="filter-label">⚡ 处理器</div>
+        <div class="filter-section collapsed">
+            <div class="filter-label">⚡ 处理器 <span class="arrow">▼</span></div>
             <div class="filter-tags" id="cpuTags"></div>
         </div>
-        <div class="filter-section">
-            <div class="filter-label">🏷️ 特性标签 <span style="font-weight:400;text-transform:none;color:#94a3b8">（可多选叠加）</span></div>
+        <div class="filter-section collapsed">
+            <div class="filter-label">🏷️ 特性标签 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（可多选叠加）</span></div>
             <div class="filter-tags" id="featureTags"></div>
         </div>
-        <div class="filter-section">
-            <div class="filter-label">💰 价格范围</div>
+        <div class="filter-section collapsed">
+            <div class="filter-label">💰 价格范围 <span class="arrow">▼</span></div>
             <div class="filter-tags" id="priceRangeTags"></div>
         </div>
-        <div class="filter-section">
-            <div class="filter-label">📐 屏幕尺寸</div>
+        <div class="filter-section collapsed">
+            <div class="filter-label">📐 屏幕尺寸 <span class="arrow">▼</span></div>
             <div class="filter-tags" id="screenSizeTags"></div>
         </div>
     </div>
@@ -108,7 +108,9 @@
     <footer>💡 数据来源：各品牌官网 · 参数仅供参考，实际以官方为准<br>Made with ❤️ by Lumi</footer>
 </div>
 
-<script src="script.js?v=12"></script>
+<button class="back-top" id="backTop" style="display:none">↑</button>
+
+<script src="script.js?v=3"></script>
 </body>
 </html>
 </content>
