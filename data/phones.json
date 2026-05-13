@@ -210,7 +210,8 @@
       "天玑9500",
       "NFC",
       "轻薄",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -315,7 +316,8 @@
       "轻薄",
       "A19",
       "无线充电",
-      "防水"
+      "防水",
+      "≤200g"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -349,7 +351,8 @@
     "tags": [
       "防水",
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "",
@@ -423,7 +426,8 @@
       "红外",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -461,7 +465,8 @@
       "红外",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB/16GB",
@@ -569,7 +574,8 @@
       "NFC",
       "潜望长焦",
       "红外",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": null,
@@ -602,11 +608,11 @@
       "红外"
     ],
     "tags": [
-      "6500mAh+",
       "防水",
       "NFC",
       "红外",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2025-12",
     "price": 2999,
@@ -971,7 +977,8 @@
       "NFC",
       "中低端芯片",
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -995,7 +1002,9 @@
     "tags": [
       "中低端芯片",
       "大电池",
-      "轻薄"
+      "轻薄",
+      "6500mAh+",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -1027,7 +1036,8 @@
       "6500mAh+",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "release_date": "2025-11",
     "price": 1699,
@@ -1127,7 +1137,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "USB3.0"
+      "USB3.0",
+      "≤200g"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -1177,7 +1188,8 @@
       "防水",
       "骁龙8 Elite 5",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -1209,7 +1221,8 @@
       "USB3.0",
       "天玑9500",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -1241,7 +1254,8 @@
       "USB3.0",
       "天玑9500",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -1371,13 +1385,13 @@
     "id": 147,
     "tags": [
       "骁龙8 Elite 5",
-      "6500mAh+",
       "无线充电",
       "潜望长焦",
       "USB3.0",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
@@ -1406,7 +1420,8 @@
       "轻薄",
       "中低端芯片",
       "6500mAh+",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -1507,7 +1522,9 @@
       "无线充电",
       "潜望长焦",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+",
+      "≤200g"
     ],
     "release_date": "2025-10",
     "price": 5699,
@@ -1566,7 +1583,10 @@
     "has_tele": false,
     "os": "Android",
     "features": [],
-    "tags": [],
+    "tags": [
+      "6500mAh+",
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -1597,7 +1617,6 @@
       "5G"
     ],
     "tags": [
-      "6500mAh+",
       "NFC",
       "中低端芯片",
       "红外"
@@ -1632,7 +1651,6 @@
       "5G"
     ],
     "tags": [
-      "6500mAh+",
       "NFC",
       "中低端芯片",
       "红外"
@@ -1677,7 +1695,8 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1718,7 +1737,8 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1863,7 +1883,6 @@
     "id": 148,
     "tags": [
       "骁龙8 Elite 5",
-      "6500mAh+",
       "无线充电",
       "潜望长焦",
       "USB3.0",
@@ -1897,7 +1916,6 @@
     "id": 158,
     "tags": [
       "骁龙8 Elite 5",
-      "6500mAh+",
       "无线充电",
       "潜望长焦",
       "USB3.0",
@@ -1932,7 +1950,8 @@
       "轻薄",
       "中低端芯片",
       "6500mAh+",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -1961,7 +1980,8 @@
     "id": 195,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2025-09",
     "price": 1399
@@ -1984,7 +2004,8 @@
     "id": 206,
     "tags": [
       "轻薄",
-      "中低端芯片"
+      "中低端芯片",
+      "≤200g"
     ],
     "release_date": "2025-09",
     "price": 1099
@@ -2079,7 +2100,8 @@
       "轻薄",
       "A19",
       "无线充电",
-      "防水"
+      "防水",
+      "≤200g"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -2111,7 +2133,8 @@
       "轻薄",
       "A19",
       "无线充电",
-      "防水"
+      "防水",
+      "≤200g"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -2175,7 +2198,6 @@
     "id": 149,
     "tags": [
       "USB3.0",
-      "6500mAh+",
       "天玑9500",
       "NFC",
       "红外"
@@ -2204,7 +2226,6 @@
     "screen_form": "直屏",
     "id": 150,
     "tags": [
-      "6500mAh+",
       "天玑9400",
       "NFC",
       "红外"
@@ -2236,7 +2257,6 @@
     "id": 159,
     "tags": [
       "骁龙8 Elite 1",
-      "6500mAh+",
       "无线充电",
       "潜望长焦",
       "USB3.0",
@@ -2388,7 +2408,10 @@
     "has_tele": false,
     "os": "Android",
     "features": [],
-    "tags": [],
+    "tags": [
+      "6500mAh+",
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -2417,7 +2440,6 @@
       "NFC"
     ],
     "tags": [
-      "6500mAh+",
       "NFC",
       "中低端芯片",
       "潜望长焦",
@@ -2454,7 +2476,8 @@
       "NFC",
       "中低端芯片",
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2488,7 +2511,8 @@
       "NFC",
       "中低端芯片",
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2511,7 +2535,6 @@
     "id": 151,
     "tags": [
       "中低端芯片",
-      "6500mAh+",
       "NFC",
       "红外"
     ],
@@ -2543,7 +2566,8 @@
       "6500mAh+",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -2791,7 +2815,8 @@
       "NFC",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -2836,7 +2861,8 @@
       "防水",
       "NFC",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -2881,7 +2907,8 @@
       "麒麟9010s",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3060,7 +3087,6 @@
     "tags": [
       "USB2.0",
       "NFC",
-      "6500mAh+",
       "天玑9500s",
       "散热风扇",
       "红外"
@@ -3095,10 +3121,10 @@
     "tags": [
       "NFC",
       "中低端芯片",
-      "6500mAh+",
       "散热风扇",
       "轻薄",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3190,7 +3216,8 @@
       "6500mAh+",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -3243,7 +3270,8 @@
     "tags": [
       "中低端芯片",
       "6500mAh+",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -3296,7 +3324,8 @@
     "id": 210,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2025-06",
     "price": 1599,
@@ -3322,7 +3351,8 @@
     "tags": [
       "6500mAh+",
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2025-06",
     "price": 1799,
@@ -3372,7 +3402,9 @@
     "has_tele": false,
     "os": "Android",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -3404,7 +3436,8 @@
       "骁龙8 Elite 1",
       "无线充电",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3436,7 +3469,8 @@
     ],
     "tags": [
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3468,7 +3502,8 @@
     ],
     "tags": [
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3501,7 +3536,8 @@
     "tags": [
       "NFC",
       "中低端芯片",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3595,7 +3631,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3625,7 +3662,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3656,7 +3694,8 @@
       "中低端芯片",
       "6500mAh+",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3683,7 +3722,8 @@
     "id": 196,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2025-03",
     "price": 1799
@@ -3748,7 +3788,8 @@
     ],
     "tags": [
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "",
@@ -3878,7 +3919,8 @@
       "潜望长焦",
       "防水",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3913,7 +3955,8 @@
       "防水",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3947,7 +3990,8 @@
       "轻薄",
       "中低端芯片",
       "防水",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3977,7 +4021,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4012,7 +4057,8 @@
       "防水",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4049,7 +4095,9 @@
       "防水",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4085,7 +4133,8 @@
       "中低端芯片",
       "防水",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4117,7 +4166,8 @@
       "骁龙8 Elite 1",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "release_date": "2025-01",
     "price": 3699
@@ -4143,7 +4193,8 @@
       "6500mAh+",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "release_date": "2025-01",
     "price": 2899
@@ -4210,7 +4261,8 @@
       "NFC",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -4245,7 +4297,8 @@
       "NFC",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -4279,7 +4332,8 @@
       "NFC",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -4309,7 +4363,8 @@
     "features": [],
     "tags": [
       "轻薄",
-      "中低端芯片"
+      "中低端芯片",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4339,7 +4394,8 @@
     "tags": [
       "潜望长焦",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4369,7 +4425,8 @@
     "tags": [
       "潜望长焦",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4459,7 +4516,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4490,7 +4548,8 @@
       "潜望长焦",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4643,7 +4702,8 @@
       "NFC",
       "潜望长焦",
       "红外",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4751,7 +4811,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4779,7 +4840,8 @@
     "os": "MagicOS",
     "features": [],
     "tags": [
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4809,7 +4871,8 @@
     "tags": [
       "中低端芯片",
       "6500mAh+",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4997,7 +5060,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5027,7 +5091,8 @@
     "tags": [
       "中低端芯片",
       "潜望长焦",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5134,7 +5199,8 @@
     "id": 170,
     "tags": [
       "轻薄",
-      "中低端芯片"
+      "中低端芯片",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -5163,7 +5229,6 @@
     "screen_form": "直屏",
     "id": 199,
     "tags": [
-      "6500mAh+",
       "天玑9400"
     ],
     "release_date": "2024-11",
@@ -5225,8 +5290,7 @@
     "screen_form": "直屏",
     "id": 201,
     "tags": [
-      "骁龙8 Elite 1",
-      "6500mAh+"
+      "骁龙8 Elite 1"
     ],
     "release_date": "2024-11",
     "price": 2299,
@@ -5290,7 +5354,8 @@
       "无线充电",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -5386,7 +5451,8 @@
       "中低端芯片",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5418,7 +5484,8 @@
       "潜望长焦",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5451,7 +5518,8 @@
       "无线充电",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5521,7 +5589,8 @@
       "天玑9400",
       "无线充电",
       "轻薄",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5693,7 +5762,8 @@
       "无线充电",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -5767,7 +5837,8 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5946,7 +6017,8 @@
       "天玑9400",
       "无线充电",
       "轻薄",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5975,7 +6047,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6044,7 +6117,8 @@
       "NFC",
       "中低端芯片",
       "红外",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6067,7 +6141,8 @@
     "id": 171,
     "tags": [
       "轻薄",
-      "中低端芯片"
+      "中低端芯片",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -6096,7 +6171,8 @@
       "轻薄",
       "A18",
       "无线充电",
-      "防水"
+      "防水",
+      "≤200g"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -6129,7 +6205,8 @@
       "A18",
       "无线充电",
       "防水",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -6164,7 +6241,8 @@
       "A18",
       "无线充电",
       "防水",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -6230,7 +6308,8 @@
     "id": 207,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2024-09",
     "price": 999
@@ -6254,7 +6333,8 @@
     "os": "OriginOS 5",
     "features": [],
     "tags": [
-      "天玑9400"
+      "天玑9400",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6283,7 +6363,8 @@
     "features": [],
     "tags": [
       "潜望长焦",
-      "天玑9400"
+      "天玑9400",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6351,7 +6432,8 @@
     "tags": [
       "USB3.0",
       "NFC",
-      "红外"
+      "红外",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6455,7 +6537,8 @@
       "USB3.0",
       "NFC",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -6503,7 +6586,8 @@
       "无线充电",
       "USB3.0",
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -6770,7 +6854,8 @@
       "NFC",
       "USB3.0",
       "无线充电",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "12GB",
@@ -6811,7 +6896,8 @@
     "features": [],
     "tags": [
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6841,7 +6927,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6913,7 +7000,8 @@
     ],
     "tags": [
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6941,7 +7029,8 @@
     ],
     "tags": [
       "NFC",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "brand": "三星",
     "ram": "",
@@ -6971,7 +7060,8 @@
     "features": [],
     "tags": [
       "轻薄",
-      "中低端芯片"
+      "中低端芯片",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7000,7 +7090,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7028,7 +7119,8 @@
     "os": "OriginOS 4",
     "features": [],
     "tags": [
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7089,7 +7181,8 @@
       "潜望长焦",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7118,7 +7211,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7148,7 +7242,8 @@
       "4G"
     ],
     "tags": [
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7282,7 +7377,8 @@
     "tags": [
       "中低端芯片",
       "6500mAh+",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7308,7 +7404,6 @@
     "tags": [
       "USB3.0",
       "骁龙8 Elite 5",
-      "6500mAh+",
       "潜望长焦",
       "防水",
       "NFC",
@@ -7339,7 +7434,8 @@
     "id": 163,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -7364,7 +7460,8 @@
     "id": 164,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -7393,7 +7490,8 @@
     "id": 205,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2024-01",
     "price": 1199
@@ -7416,7 +7514,8 @@
     "id": 208,
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "release_date": "2024-01",
     "price": 899
@@ -7441,7 +7540,8 @@
       "中低端芯片",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "release_date": "2024-01",
     "price": 3388,
@@ -7520,7 +7620,8 @@
       "潜望长焦",
       "防水",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7550,7 +7651,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7579,7 +7681,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7608,7 +7711,8 @@
     "features": [],
     "tags": [
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7712,7 +7816,8 @@
     "tags": [
       "NFC",
       "中低端芯片",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7747,7 +7852,8 @@
       "NFC",
       "中低端芯片",
       "红外",
-      "轻薄"
+      "轻薄",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7827,7 +7933,8 @@
       "中低端芯片",
       "轻薄",
       "NFC",
-      "红外"
+      "红外",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8223,7 +8330,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8307,7 +8416,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8363,7 +8474,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8645,7 +8758,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8701,7 +8816,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8841,7 +8958,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8957,7 +9076,8 @@
       "防水",
       "潜望长焦",
       "无线充电",
-      "骁龙8 Elite 5"
+      "骁龙8 Elite 5",
+      "≤200g"
     ],
     "features": [
       "IP68",
