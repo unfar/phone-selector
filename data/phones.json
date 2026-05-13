@@ -4947,7 +4947,7 @@
     "screen_type": "OLED",
     "resolution": "2848×1312",
     "ram": "16GB",
-    "storage": "512GB/1TB",
+    "storage": "1TB",
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 228,
@@ -4975,7 +4975,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-11",
-    "price": 11999
+    "price": 9999
   },
   {
     "id": 36,
