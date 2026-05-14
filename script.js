@@ -599,7 +599,7 @@ function renderComparePanel() {
     html += '</tbody></table>';
 
     // 保留雷达图容器
-    html += '<div id="radarChartContainer" style="display:none; margin-bottom:20px;"><canvas id="radarChart" width="400" height="400"></canvas></div>';
+    html += '<div id="radarChartContainer" style="display:none; margin-bottom:20px;"><canvas id="radarChart" width="400" height="450"></canvas></div>';
 
     document.getElementById('comparePanelBody').innerHTML = html;
 
@@ -819,7 +819,7 @@ function drawRadarChart(phones) {
     
     // 绘制图例（2行排列，避免名字重叠）
     const legendX = 20;
-    const legendY = height - 50;
+    const legendY = height - 70;
     const itemsPerRow = Math.ceil(phoneScores.length / 2);
     
     phoneScores.forEach((phoneData, index) => {
@@ -827,16 +827,16 @@ function drawRadarChart(phones) {
         
         const row = Math.floor(index / itemsPerRow);
         const col = index % itemsPerRow;
-        const legendItemX = legendX + col * 160;
-        const legendItemY = legendY + row * 20;
+        const legendItemX = legendX + col * Math.min(180, (width - 40) / itemsPerRow);
+        const legendItemY = legendY + row * 22;
         
         // 颜色块
         ctx.fillStyle = colors[index];
         ctx.fillRect(legendItemX, legendItemY, 12, 12);
         
-        // 文字（截断过长名字避免重叠）
+        // 文字
         let name = phoneData.name;
-        if (name.length > 10) name = name.substring(0, 8) + '…';
+        if (name.length > 12) name = name.substring(0, 10) + '…';
         ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#f1f5f9' : '#0f172a';
         ctx.font = '11px sans-serif';
         ctx.textAlign = 'left';
