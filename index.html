@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <title>📱 智能手机选购助手</title>
-    <link rel="stylesheet" href="style.css?v=10">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <button class="dark-mode-toggle" id="darkModeToggle" title="切换暗色模式">🌙</button>
 <div class="container">
     <div class="header">
         <h1>📱 智能手机选购助手</h1>
-        <p>基于官方数据 · 多维度筛选 · 找到最适合你的手机</p>
-        <div class="stats" id="statsBar">加载中...</div>
+        <div class="subtitle">
+            <span>基于官方数据</span>
+            <span class="sep">·</span>
+            <span>多维度筛选</span>
+            <span class="sep">·</span>
+            <span>找到最适合你的手机</span>
+        </div>
+        <div class="stats" id="statsBar">
+            <span class="stat-item"><span class="stat-num" id="statBrands">0</span><span class="stat-label">个品牌</span></span>
+            <span class="stat-item"><span class="stat-num" id="statPhones">0</span><span class="stat-label">款机型</span></span>
+        </div>
         <div class="date-note">📅 数据来源截止到 2026年5月13日 · 价格来自各品牌官网</div>
     </div>
 
@@ -111,7 +120,7 @@
 
 <button class="back-top" id="backTop" style="display:none">↑</button>
 
-<script src="script.js?v=25"></script>
+<script src="script.js?v=22"></script>
 </body>
 </html>
 </content>
