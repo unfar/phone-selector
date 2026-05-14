@@ -572,7 +572,7 @@ function renderComparePanel() {
 
     let html = '<table class="compare-table"><thead><tr><th>参数</th>';
     selected.forEach(p => {
-        html += '<th>' + p.model + '<br><small style="opacity:0.8">' + p.brand + '</small><br><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
+        html += '<th><div class="phone-name-badge">' + p.model + '</div><small style="opacity:.8;display:block;margin-top:4px">' + p.brand + '</small><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
     });
     html += '</tr></thead><tbody>';
     fields.forEach(f => {
@@ -824,18 +824,20 @@ function drawRadarChart(phones) {
     phoneScores.forEach((phoneData, index) => {
         if (index >= colors.length) return;
         
-        const legendItemX = legendX + index * 100;
+        const legendItemX = legendX + index * 140;
         
         // 颜色块
         ctx.fillStyle = colors[index];
         ctx.fillRect(legendItemX, legendY, 15, 15);
         
-        // 文字
+        // 文字（截断过长名字避免重叠）
+        let name = phoneData.name;
+        if (name.length > 12) name = name.substring(0, 10) + '…';
         ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#f1f5f9' : '#0f172a';
         ctx.font = '11px sans-serif';
         ctx.textAlign = 'left';
         ctx.textBaseline = 'middle';
-        ctx.fillText(phoneData.name, legendItemX + 20, legendY + 7);
+        ctx.fillText(name, legendItemX + 20, legendY + 7);
     });
 }
 
