@@ -358,7 +358,7 @@ function renderPhones() {
         if (p.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' });
         if (p.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' });
         (p.features || []).forEach(f => { if (f.includes('IP68') || f.includes('IP69')) ft.push({ t: '💧 ' + f, c: 'blue' }); else if (f.includes('NFC')) ft.push({ t: '📡 NFC', c: '' }); else if (f.includes('红外')) ft.push({ t: '🔴 红外', c: 'amber' }); else ft.push({ t: f, c: '' }); });
-        p.tags.forEach(t => { if (cpuTags.includes(t)) ft.push({ t: '⚡ ' + t, c: 'cpu' }); });
+        p.tags.forEach(t => { if (cpuTags.includes(t)) ft.push({ t: '⚡ ' + t, c: 'cpu' }); else if (t === '红外') ft.push({ t: '🔴 红外', c: 'amber' }); });
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
         const cardClass = ['phone-card'];
