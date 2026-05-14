@@ -496,7 +496,7 @@ function startCompare() {
     renderComparePanel();
     const panel = document.getElementById('comparePanel');
     if (panel) {
-        panel.style.display = 'block';
+        panel.style.display = 'flex';
         console.log('对比面板已显示');
     } else {
         console.error('未找到对比面板元素');
