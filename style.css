@@ -94,8 +94,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-stripe-一加{background:linear-gradient(90deg,#a16207,#ca8a04)}
 .brand-stripe-真我{background:linear-gradient(90deg,#6d28d9,#8b5cf6)}
 .brand-stripe-红魔{background:linear-gradient(90deg,#b91c1c,#ef4444)}
-.brand-stripe-ROG{background:linear-gradient(90deg,#475569,#64748b)}
-.brand-stripe-索尼{background:linear-gradient(90deg,#0284c7,#38bdf8)}
 .phone-name{font-size:1.1rem;font-weight:700;color:var(--text);line-height:1.3}
 .card-header-right{display:flex;gap:8px;align-items:center;flex-shrink:0}
 .brand-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.7rem;font-weight:600;background:var(--primary-light);color:var(--primary);white-space:nowrap}
@@ -112,8 +110,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-一加{background:#fefce8;color:#a16207;border:1px solid #fef08a}
 .brand-真我{background:#f5f3ff;color:#6d28d9;border:1px solid #ddd6fe}
 .brand-红魔{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
-.brand-ROG{background:#f8fafc;color:#475569;border:1px solid #e2e8f0}
-.brand-索尼{background:#f0f9ff;color:#0284c7;border:1px solid #bae6fd}
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
