@@ -202,10 +202,9 @@ function getFoldableRefreshDisplay(phone) {
 // ===== 渲染统计 =====
 function renderStats() {
     const total = phones.length;
-    const withPrice = phones.filter(p => p.price).length;
     const brands = new Set(phones.map(p => p.brand)).size;
-    document.getElementById('statsBar').innerHTML =
-        `覆盖 <span>${brands}</span> 个品牌 · 共 <span>${total}</span> 款机型`;
+    document.getElementById('statBrands').textContent = brands;
+    document.getElementById('statPhones').textContent = total;
 }
 
 // ===== 渲染筛选标签 =====
