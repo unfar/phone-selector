@@ -598,6 +598,9 @@ function renderComparePanel() {
     });
     html += '</tbody></table>';
 
+    // 保留雷达图容器
+    html += '<div id="radarChartContainer" style="display:none; margin-bottom:20px;"><canvas id="radarChart" width="400" height="400"></canvas></div>';
+
     document.getElementById('comparePanelBody').innerHTML = html;
 
     document.querySelectorAll('.compare-remove').forEach(btn => {
@@ -641,8 +644,8 @@ function drawRadarChart(phones) {
     const canvas = document.getElementById('radarChart');
     const container = document.getElementById('radarChartContainer');
     
-    if (!canvas || phones.length < 2) {
-        container.style.display = 'none';
+    if (!canvas || !container || phones.length < 2) {
+        if (container) container.style.display = 'none';
         return;
     }
     
