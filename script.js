@@ -353,12 +353,23 @@ function renderPhones() {
         if (!p.detailed_camera && p.camera_desc) detailHtml += '<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">' + p.camera_desc + '</div></div>';
 
         const ft = [];
-        if (p.has_tele) ft.push({ t: '🔭 潜望长焦', c: 'purple' });
-        if (p.screen_form === '折叠屏') ft.push({ t: '📱 折叠屏', c: 'fold' });
-        if (p.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' });
-        if (p.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' });
-        (p.features || []).forEach(f => { if (f.includes('IP68') || f.includes('IP69')) ft.push({ t: '💧 ' + f, c: 'blue' }); else if (f.includes('NFC')) ft.push({ t: '📡 NFC', c: '' }); else if (f.includes('红外')) ft.push({ t: '🔴 红外', c: 'amber' }); else ft.push({ t: f, c: '' }); });
-        p.tags.forEach(t => { if (cpuTags.includes(t)) ft.push({ t: '⚡ ' + t, c: 'cpu' }); else if (t === '红外') ft.push({ t: '🔴 红外', c: 'amber' }); });
+        const addedTags = new Set();
+        if (p.has_tele) { ft.push({ t: '🔭 潜望长焦', c: 'purple' }); addedTags.add('🔭 潜望长焦'); }
+        if (p.screen_form === '折叠屏') { ft.push({ t: '📱 折叠屏', c: 'fold' }); addedTags.add('📱 折叠屏'); }
+        if (p.tags.includes('无线充电')) { ft.push({ t: '🔋 无线充电', c: 'green' }); addedTags.add('🔋 无线充电'); }
+        if (p.tags.includes('散热风扇')) { ft.push({ t: '🌀 散热风扇', c: 'red' }); addedTags.add('🌀 散热风扇'); }
+        (p.features || []).forEach(f => {
+            let tag = null;
+            if (f.includes('IP68') || f.includes('IP69')) tag = { t: '💧 ' + f, c: 'blue' };
+            else if (f.includes('NFC')) tag = { t: '📡 NFC', c: '' };
+            else if (f.includes('红外')) tag = { t: '🔴 红外', c: 'amber' };
+            else tag = { t: f, c: '' };
+            if (tag && !addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); }
+        });
+        p.tags.forEach(t => {
+            if (cpuTags.includes(t)) { const tag = { t: '⚡ ' + t, c: 'cpu' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+            else if (t === '红外') { const tag = { t: '🔴 红外', c: 'amber' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+        });
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
         const cardClass = ['phone-card'];
