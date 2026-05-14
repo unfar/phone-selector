@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <title>📱 智能手机选购助手</title>
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <button class="dark-mode-toggle" id="darkModeToggle" title="切换暗色模式">🌙</button>
@@ -26,19 +26,19 @@
             <div class="filter-label">📱 屏幕形态 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（单选）</span></div>
             <div class="filter-tags" id="screenTags"></div>
         </div>
-        <div class="filter-section collapsed">
+        <div class="filter-section">
             <div class="filter-label">⚡ 处理器 <span class="arrow">▼</span></div>
             <div class="filter-tags" id="cpuTags"></div>
         </div>
-        <div class="filter-section collapsed">
+        <div class="filter-section">
             <div class="filter-label">🏷️ 特性标签 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（可多选叠加）</span></div>
             <div class="filter-tags" id="featureTags"></div>
         </div>
-        <div class="filter-section collapsed">
+        <div class="filter-section">
             <div class="filter-label">💰 价格范围 <span class="arrow">▼</span></div>
             <div class="filter-tags" id="priceRangeTags"></div>
         </div>
-        <div class="filter-section collapsed">
+        <div class="filter-section">
             <div class="filter-label">📐 屏幕尺寸 <span class="arrow">▼</span></div>
             <div class="filter-tags" id="screenSizeTags"></div>
         </div>
@@ -97,10 +97,10 @@
                 <h3>📊 机型对比</h3>
                 <button class="compare-panel-close" id="comparePanelClose">✕</button>
             </div>
-        </div>
-        <div class="compare-panel-body" id="comparePanelBody">
-            <div id="radarChartContainer" style="display:none; margin-bottom:20px;">
-                <canvas id="radarChart" width="400" height="400"></canvas>
+            <div class="compare-panel-body" id="comparePanelBody">
+                <div id="radarChartContainer" style="display:none; margin-bottom:20px;">
+                    <canvas id="radarChart" width="400" height="400"></canvas>
+                </div>
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
 
 <button class="back-top" id="backTop" style="display:none">↑</button>
 
-<script src="script.js?v=21"></script>
+<script src="script.js?v=3"></script>
 </body>
 </html>
 </content>
