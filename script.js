@@ -599,7 +599,7 @@ function renderComparePanel() {
     html += '</tbody></table>';
 
     // 保留雷达图容器
-    html += '<div id="radarChartContainer" style="display:none; margin-bottom:20px;"><canvas id="radarChart" width="400" height="450"></canvas></div>';
+    html += '<div id="radarChartContainer" style="display:none; margin-bottom:20px;"><canvas id="radarChart" width="400" height="400"></canvas><div id="radarLegend" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:12px;padding:0 16px"></div></div>';
 
     document.getElementById('comparePanelBody').innerHTML = html;
 
@@ -817,32 +817,18 @@ function drawRadarChart(phones) {
         ctx.stroke();
     });
     
-    // 绘制图例（2行排列，避免名字重叠）
-    const legendX = 20;
-    const legendY = height - 70;
-    const itemsPerRow = Math.ceil(phoneScores.length / 2);
-    
-    phoneScores.forEach((phoneData, index) => {
-        if (index >= colors.length) return;
-        
-        const row = Math.floor(index / itemsPerRow);
-        const col = index % itemsPerRow;
-        const legendItemX = legendX + col * Math.min(180, (width - 40) / itemsPerRow);
-        const legendItemY = legendY + row * 22;
-        
-        // 颜色块
-        ctx.fillStyle = colors[index];
-        ctx.fillRect(legendItemX, legendItemY, 12, 12);
-        
-        // 文字
-        let name = phoneData.name;
-        if (name.length > 12) name = name.substring(0, 10) + '…';
-        ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#f1f5f9' : '#0f172a';
-        ctx.font = '11px sans-serif';
-        ctx.textAlign = 'left';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(name, legendItemX + 16, legendItemY + 6);
-    });
+    // 绘制图例（HTML方式，可靠显示机型名称）
+    const legendEl = document.getElementById('radarLegend');
+    if (legendEl) {
+        legendEl.innerHTML = phoneScores.map((pd, i) => {
+            const color = colors[i % colors.length];
+            const borderColor = borderColors[i % borderColors.length];
+            return '<span style="display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background:var(--bg);border-radius:20px;font-size:.8rem;border:1px solid ' + borderColor + '">' +
+                '<span style="width:10px;height:10px;border-radius:2px;background:' + color + ';display:inline-block"></span>' +
+                '<span style="color:var(--text);font-weight:600">' + pd.name + '</span>' +
+                '</span>';
+        }).join('');
+    }
 }
 
 // ===== 初始化 =====
