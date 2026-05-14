@@ -570,7 +570,7 @@ function renderComparePanel() {
         }
     });
 
-    let html = '<table class="compare-table"><thead><tr><th>参数</th>';
+    let html = '<table class="compare-table"><thead><tr><th><span class="param-label">参数</span></th>';
     selected.forEach(p => {
         html += '<th><div class="phone-name-badge">' + p.model + '</div><small style="opacity:.8;display:block;margin-top:4px">' + p.brand + '</small><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
     });
@@ -817,27 +817,31 @@ function drawRadarChart(phones) {
         ctx.stroke();
     });
     
-    // 绘制图例
+    // 绘制图例（2行排列，避免名字重叠）
     const legendX = 20;
-    const legendY = height - 30;
+    const legendY = height - 50;
+    const itemsPerRow = Math.ceil(phoneScores.length / 2);
     
     phoneScores.forEach((phoneData, index) => {
         if (index >= colors.length) return;
         
-        const legendItemX = legendX + index * 140;
+        const row = Math.floor(index / itemsPerRow);
+        const col = index % itemsPerRow;
+        const legendItemX = legendX + col * 160;
+        const legendItemY = legendY + row * 20;
         
         // 颜色块
         ctx.fillStyle = colors[index];
-        ctx.fillRect(legendItemX, legendY, 15, 15);
+        ctx.fillRect(legendItemX, legendItemY, 12, 12);
         
         // 文字（截断过长名字避免重叠）
         let name = phoneData.name;
-        if (name.length > 12) name = name.substring(0, 10) + '…';
+        if (name.length > 10) name = name.substring(0, 8) + '…';
         ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#f1f5f9' : '#0f172a';
         ctx.font = '11px sans-serif';
         ctx.textAlign = 'left';
         ctx.textBaseline = 'middle';
-        ctx.fillText(name, legendItemX + 20, legendY + 7);
+        ctx.fillText(name, legendItemX + 16, legendItemY + 6);
     });
 }
 
