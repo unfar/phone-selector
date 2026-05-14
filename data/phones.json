@@ -48,7 +48,7 @@
     "weight_g": 230.5,
     "camera_desc": "50MP可变光圈主摄 + 50MP超广角",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -85,7 +85,7 @@
     "weight_g": 213.5,
     "camera_desc": "50MP可变光圈主摄 + 50MP超广角",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -122,7 +122,7 @@
     "weight_g": 210,
     "camera_desc": "5000万主摄 | 5000万潜望长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -493,7 +493,7 @@
     "weight_g": 209,
     "camera_desc": "50MP 1英寸主摄(f/1.63) + 50MP超广角(14mm) + 200MP潜望(100mm) + 50MP直立长焦(70mm)",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
       "红外"
@@ -529,7 +529,7 @@
     "weight_g": 202,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
       "红外"
@@ -565,7 +565,7 @@
     "weight_g": 196,
     "camera_desc": "5000万主摄 | 1200万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
       "红外"
@@ -782,7 +782,7 @@
     "weight_g": 239,
     "camera_desc": "5000万主摄 | 5000万长焦+5000万超长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -821,7 +821,7 @@
     "weight_g": 219,
     "camera_desc": "5000万主摄 | 4800万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -860,7 +860,7 @@
     "weight_g": 217,
     "camera_desc": "5000万主摄 | 1200万潜望长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -897,7 +897,7 @@
     "weight_g": 249,
     "camera_desc": "5000万主摄 | 5000万长焦+5000万超长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -1093,7 +1093,7 @@
     "weight_g": 219,
     "camera_desc": "5000万主摄 | 4800万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC",
@@ -4574,7 +4574,7 @@
     "weight_g": 217,
     "camera_desc": "5000万主摄 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "IP68防水",
       "NFC"
@@ -4623,7 +4623,7 @@
     "weight_g": 204,
     "camera_desc": "5000万主摄 | 5000万潜望长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
       "红外"
@@ -4658,7 +4658,7 @@
     "weight_g": 207,
     "camera_desc": "5000万主摄 | 1200万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
       "红外"
@@ -4693,7 +4693,7 @@
     "weight_g": 192,
     "camera_desc": "5000万主摄 | 1200万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
       "红外"
@@ -5155,7 +5155,7 @@
     "weight_g": 219,
     "camera_desc": "5000万主摄 | 4800万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "HarmonyOS 6.1",
     "features": [
       "NFC"
     ],
@@ -7960,7 +7960,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万+4000万+4800万",
     "detailed_camera": null,
     "has_tele": false,
@@ -7988,7 +7988,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万(RYYB)",
     "detailed_camera": null,
     "has_tele": false,
@@ -8016,7 +8016,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万(RYYB)",
     "detailed_camera": null,
     "has_tele": false,
@@ -8044,7 +8044,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万",
     "detailed_camera": null,
     "has_tele": false,
@@ -8072,7 +8072,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万",
     "detailed_camera": null,
     "has_tele": false,
@@ -8100,7 +8100,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万",
     "detailed_camera": null,
     "has_tele": false,
@@ -8128,7 +8128,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万",
     "detailed_camera": null,
     "has_tele": false,
@@ -8156,7 +8156,7 @@
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": null,
-    "os": null,
+    "os": "HarmonyOS 6.1",
     "camera_desc": "5000万(RYYB)",
     "detailed_camera": null,
     "has_tele": false,
