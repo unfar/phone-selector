@@ -5286,7 +5286,9 @@
     "weight_g": 181,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "IP69防水"
+    ],
     "screen_form": "直屏",
     "id": 161,
     "tags": [
@@ -5294,7 +5296,8 @@
       "中低端芯片",
       "6500mAh+",
       "红外",
-      "≤200g"
+      "≤200g",
+      "防水"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
