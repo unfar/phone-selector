@@ -4588,14 +4588,16 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "IP69防水"
     ],
     "tags": [
       "NFC",
       "中低端芯片",
       "潜望长焦",
       "红外",
-      "无线充电"
+      "无线充电",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -4622,14 +4624,16 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "IP69防水"
     ],
     "tags": [
       "NFC",
       "中低端芯片",
       "潜望长焦",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4656,7 +4660,8 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "IP69防水"
     ],
     "tags": [
       "6500mAh+",
@@ -4664,7 +4669,8 @@
       "中低端芯片",
       "潜望长焦",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8307,8 +8313,12 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
-    "features": [],
+    "tags": [
+      "防水"
+    ],
+    "features": [
+      "IP69防水"
+    ],
     "screen_form": null,
     "release_date": null
   },
