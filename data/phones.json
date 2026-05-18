@@ -998,7 +998,6 @@
     "os": "ColorOS 15",
     "features": [],
     "tags": [
-      "USB3.0",
       "骁龙8 Elite 1",
       "NFC",
       "红外"
@@ -3181,8 +3180,7 @@
       "红外",
       "6500mAh+",
       "潜望长焦",
-      "NFC",
-      "无线充电"
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": null,
@@ -5005,7 +5003,6 @@
     "screen_form": "直屏",
     "id": 149,
     "tags": [
-      "USB3.0",
       "天玑9500",
       "NFC",
       "红外"
@@ -5202,7 +5199,6 @@
     "screen_form": "直屏",
     "id": 156,
     "tags": [
-      "USB3.0",
       "骁龙8 Elite 5",
       "潜望长焦",
       "防水",
@@ -7967,7 +7963,6 @@
       "红外",
       "潜望长焦",
       "USB3.0",
-      "≤200g",
       "无线充电"
     ],
     "screen_form": "折叠屏",
@@ -8214,7 +8209,8 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "6500mAh+"
+      "6500mAh+",
+      "≤200g"
     ],
     "features": [],
     "screen_form": null,
@@ -8243,7 +8239,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8271,7 +8269,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8299,7 +8299,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -9180,7 +9182,6 @@
       "潜望长焦",
       "防水",
       "麒麟9020",
-      "≤200g",
       "6500mAh+"
     ],
     "screen_form": "直屏",
