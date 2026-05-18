@@ -1915,7 +1915,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-11",
-    "price": 2499
+    "price": 2549
   },
   {
     "id": 59,
@@ -1953,7 +1953,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-11",
-    "price": 2999
+    "price": 3199
   },
   {
     "id": 60,
@@ -6435,7 +6435,7 @@
       "红外"
     ],
     "release_date": "2025-08",
-    "price": 2499,
+    "price": 2299,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB"
   },
