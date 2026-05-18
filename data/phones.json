@@ -3369,7 +3369,10 @@
     "camera_desc": "200MP主摄(1/1.4英寸 f/1.68) + 50MP超广角 + 50MP长焦(3x)",
     "has_tele": true,
     "os": "",
-    "features": [],
+    "features": [
+      "IP68防水",
+      "IP69防水"
+    ],
     "tags": [
       "潜望长焦",
       "USB3.0",
@@ -3377,7 +3380,8 @@
       "NFC",
       "红外",
       "6500mAh+",
-      "无线充电"
+      "无线充电",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
