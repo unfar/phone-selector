@@ -561,7 +561,7 @@
     "resolution": "2700×1224",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "battery_mah": 5300,
+    "battery_mah": 5600,
     "charging_w": 66,
     "weight_g": 195,
     "camera_desc": "5000万主摄",
@@ -582,7 +582,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-06",
-    "price": 4799
+    "price": 4699
   },
   {
     "id": 18,
@@ -595,7 +595,7 @@
     "resolution": "2848×1276",
     "ram": "16GB",
     "storage": "512GB/1TB",
-    "battery_mah": 5170,
+    "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 215,
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
@@ -615,7 +615,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-06",
-    "price": 6499
+    "price": 7999
   },
   {
     "id": 19,
@@ -628,7 +628,7 @@
     "resolution": "2848×1276",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "battery_mah": 5170,
+    "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 210,
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
@@ -685,7 +685,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2025-06",
-    "price": 7999
+    "price": 9999
   },
   {
     "id": 21,
@@ -3271,7 +3271,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-12",
-    "price": 3999
+    "price": 3499
   },
   {
     "id": 103,
@@ -6580,7 +6580,7 @@
     "model": "华为畅享 90",
     "processor": "麒麟8000",
     "screen_size": 6.75,
-    "battery_mah": 6000,
+    "battery_mah": 6620,
     "weight_g": 195,
     "camera_desc": "5000万主摄",
     "has_tele": false,
@@ -6597,7 +6597,7 @@
       "≤200g"
     ],
     "release_date": "2025-06",
-    "price": 1599,
+    "price": 1299,
     "ram": "8GB",
     "storage": "128GB/256GB"
   },
@@ -6606,7 +6606,7 @@
     "model": "华为畅享 90 Plus",
     "processor": "麒麟8000",
     "screen_size": 6.78,
-    "battery_mah": 6500,
+    "battery_mah": 6620,
     "weight_g": 200,
     "camera_desc": "5000万主摄",
     "has_tele": false,
@@ -6624,7 +6624,7 @@
       "≤200g"
     ],
     "release_date": "2025-06",
-    "price": 1799,
+    "price": 1499,
     "ram": "8GB",
     "storage": "128GB/256GB"
   },
@@ -6649,7 +6649,7 @@
       "中低端芯片"
     ],
     "release_date": "2025-06",
-    "price": 1999,
+    "price": 1699,
     "ram": "8GB",
     "storage": "256GB/512GB"
   },
@@ -6658,7 +6658,7 @@
     "model": "HUAWEI Pura X",
     "processor": "麒麟9100",
     "screen_size": 6.5,
-    "battery_mah": 5500,
+    "battery_mah": 4720,
     "weight_g": 230,
     "camera_desc": "5000万主摄 | 5000万长焦",
     "has_tele": true,
@@ -6678,7 +6678,7 @@
       "红外"
     ],
     "release_date": "2025-03",
-    "price": 7999,
+    "price": 7499,
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "screen_unfolded": {
@@ -6698,7 +6698,7 @@
     "model": "HUAWEI Pura X Max",
     "processor": "麒麟9100",
     "screen_size": 7.0,
-    "battery_mah": 6000,
+    "battery_mah": 5300,
     "weight_g": 245,
     "camera_desc": "50MP主摄 + 40MP超广角 + 潜望长焦",
     "has_tele": true,
@@ -6791,7 +6791,7 @@
       "≤200g"
     ],
     "release_date": "2024-01",
-    "price": 3388,
+    "price": 3488,
     "ram": "12GB",
     "storage": "256GB",
     "screen_unfolded": {
@@ -7883,7 +7883,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-06",
-    "price": 1299
+    "price": 1199
   },
   {
     "id": 325,
@@ -8031,7 +8031,7 @@
     "id": 330,
     "brand": "华为",
     "model": "畅享 90 Pro Max",
-    "price": 1999,
+    "price": 1699,
     "processor": "麒麟7010",
     "ram": "8",
     "storage": "256",
@@ -8039,7 +8039,7 @@
     "screen_type": null,
     "resolution": null,
     "refresh_hz": 90,
-    "battery_mah": 6000,
+    "battery_mah": 8500,
     "charging_w": 100,
     "wireless_charging_w": null,
     "usb_version": null,
@@ -8059,7 +8059,7 @@
     "id": 331,
     "brand": "华为",
     "model": "畅享 90",
-    "price": 1599,
+    "price": 1299,
     "processor": "麒麟7010",
     "ram": "8",
     "storage": "128",
@@ -8067,7 +8067,7 @@
     "screen_type": null,
     "resolution": null,
     "refresh_hz": 90,
-    "battery_mah": 6000,
+    "battery_mah": 6620,
     "charging_w": 100,
     "wireless_charging_w": null,
     "usb_version": null,
