@@ -4413,7 +4413,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 5000万 f/1.5 1/1.28英寸 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.1 3x光学 | 丹霞色彩还原",
     "release_date": "2026-03",
-    "price": 5299
+    "price": 5999
   },
   {
     "id": 134,
@@ -4589,7 +4589,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-07",
-    "price": 3799
+    "price": 3699
   },
   {
     "id": 139,
@@ -4919,7 +4919,7 @@
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 1/1.4英寸 | 超广角: 索尼IMX355 f/2.2 | 长焦: 索尼LYT-600 f/2.6 3x光学",
     "charging_w": 100,
     "release_date": "2025-09",
-    "price": 4699,
+    "price": 5099,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
