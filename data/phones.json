@@ -5402,7 +5402,8 @@
       "无线充电",
       "潜望长焦",
       "USB3.0",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
@@ -5436,7 +5437,8 @@
       "无线充电",
       "潜望长焦",
       "USB3.0",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
@@ -5597,7 +5599,8 @@
       "A19",
       "无线充电",
       "防水",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -5631,7 +5634,8 @@
       "A18",
       "无线充电",
       "防水",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -5665,7 +5669,8 @@
       "无线充电",
       "防水",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "wireless_charging_w": 15,
     "usb_version": "USB 2.0",
@@ -5701,7 +5706,8 @@
       "无线充电",
       "防水",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -5736,7 +5742,8 @@
       "潜望长焦",
       "A18",
       "无线充电",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -6322,7 +6329,9 @@
     "screen_form": "直屏",
     "id": 199,
     "tags": [
-      "天玑9400"
+      "天玑9400",
+      "NFC",
+      "红外"
     ],
     "release_date": "2024-11",
     "price": 2599,
@@ -6354,7 +6363,9 @@
       "无线充电",
       "骁龙8 Elite 1",
       "USB3.0",
-      "潜望长焦"
+      "潜望长焦",
+      "NFC",
+      "红外"
     ],
     "release_date": "2024-11",
     "price": 3299,
@@ -6383,7 +6394,9 @@
     "screen_form": "直屏",
     "id": 201,
     "tags": [
-      "骁龙8 Elite 1"
+      "骁龙8 Elite 1",
+      "NFC",
+      "红外"
     ],
     "release_date": "2024-11",
     "price": 2299,
@@ -6413,7 +6426,9 @@
     "id": 202,
     "tags": [
       "6500mAh+",
-      "天玑9400"
+      "天玑9400",
+      "NFC",
+      "红外"
     ],
     "release_date": "2025-08",
     "price": 2499,
@@ -6441,7 +6456,9 @@
     "id": 203,
     "tags": [
       "天玑8系",
-      "6500mAh+"
+      "6500mAh+",
+      "NFC",
+      "红外"
     ],
     "release_date": "2025-08",
     "price": 2299,
@@ -6469,7 +6486,9 @@
     "id": 204,
     "tags": [
       "天玑8系",
-      "6500mAh+"
+      "6500mAh+",
+      "NFC",
+      "红外"
     ],
     "release_date": "2024-08",
     "price": 2299,
@@ -6598,7 +6617,9 @@
       "无线充电",
       "潜望长焦",
       "USB3.0",
-      "防水"
+      "防水",
+      "NFC",
+      "红外"
     ],
     "release_date": "2025-11",
     "price": 8499,
@@ -6624,7 +6645,8 @@
     "tags": [
       "中低端芯片",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "6500mAh+"
     ],
     "release_date": "2025-06",
     "price": 1299,
@@ -6790,7 +6812,9 @@
       "潜望长焦",
       "USB3.0",
       "麒麟9020",
-      "防水"
+      "防水",
+      "NFC",
+      "红外"
     ],
     "release_date": "2024-11",
     "price": 6199,
@@ -7689,7 +7713,8 @@
       "A19",
       "潜望长焦",
       "无线充电",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -7724,7 +7749,8 @@
       "A19",
       "潜望长焦",
       "无线充电",
-      "防水"
+      "防水",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -7758,7 +7784,8 @@
       "A19",
       "无线充电",
       "防水",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -7791,7 +7818,8 @@
       "A19",
       "无线充电",
       "防水",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -8081,7 +8109,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8109,7 +8139,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8249,7 +8281,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8277,7 +8311,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8305,7 +8341,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8333,7 +8371,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8391,7 +8431,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8419,7 +8461,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8448,7 +8492,8 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "6500mAh+"
+      "6500mAh+",
+      "≤200g"
     ],
     "features": [],
     "screen_form": null,
@@ -8477,7 +8522,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8563,7 +8610,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8591,7 +8640,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8619,7 +8670,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8647,7 +8700,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8675,7 +8730,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8704,7 +8761,8 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "无线充电"
+      "无线充电",
+      "≤200g"
     ],
     "features": [],
     "screen_form": null,
@@ -8818,7 +8876,8 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "6500mAh+"
+      "6500mAh+",
+      "≤200g"
     ],
     "features": [],
     "screen_form": null,
@@ -8847,7 +8906,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8875,7 +8936,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -8931,7 +8994,9 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
@@ -9033,7 +9098,8 @@
       "潜望长焦",
       "防水",
       "麒麟9020",
-      "≤200g"
+      "≤200g",
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
