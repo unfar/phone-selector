@@ -6900,7 +6900,7 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2026-01",
-    "price": 9699,
+    "price": 11599,
     "id": 217,
     "refresh_hz": 120
   },
@@ -6939,7 +6939,7 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2026-01",
-    "price": 9699,
+    "price": 9599,
     "id": 218,
     "refresh_hz": 120
   },
@@ -6978,7 +6978,7 @@
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
     "release_date": "2026-01",
-    "price": 9699,
+    "price": 6999,
     "id": 219,
     "refresh_hz": 120
   },
@@ -7332,7 +7332,7 @@
     "storage": "256GB/512GB",
     "detailed_camera": "",
     "release_date": "2025-07",
-    "price": 6999,
+    "price": 7999,
     "id": 228,
     "screen_unfolded": {
       "size": 6.7,
