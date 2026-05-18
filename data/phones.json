@@ -1671,7 +1671,10 @@
     "camera_desc": "5000万索尼LYT-818主摄 | 5000万长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "IP68防水",
+      "IP69防水"
+    ],
     "tags": [
       "潜望长焦",
       "天玑9400",
@@ -1680,7 +1683,8 @@
       "轻薄",
       "NFC",
       "红外",
-      "≤200g"
+      "≤200g",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
