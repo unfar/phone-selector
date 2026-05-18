@@ -1057,7 +1057,11 @@
     "camera_desc": "5000万索尼LYT-808主摄 | 5000万3X长焦",
     "has_tele": true,
     "os": "ColorOS 15",
-    "features": [],
+    "features": [
+      "IP66防水",
+      "IP68防水",
+      "IP69防水"
+    ],
     "tags": [
       "潜望长焦",
       "天玑9400",
@@ -1065,7 +1069,8 @@
       "轻薄",
       "红外",
       "≤200g",
-      "USB3.0"
+      "USB3.0",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1091,13 +1096,18 @@
     "camera_desc": "5000万索尼LYT-808主摄 | 5000万3X+6X双长焦",
     "has_tele": true,
     "os": "ColorOS 15",
-    "features": [],
+    "features": [
+      "IP66防水",
+      "IP68防水",
+      "IP69防水"
+    ],
     "tags": [
       "USB3.0",
       "潜望长焦",
       "天玑9400",
       "无线充电",
-      "红外"
+      "红外",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1123,13 +1133,18 @@
     "camera_desc": "5000万索尼LYT-900一英寸主摄 | 5000万潜望长焦",
     "has_tele": true,
     "os": "ColorOS 15",
-    "features": [],
+    "features": [
+      "IP66防水",
+      "IP68防水",
+      "IP69防水"
+    ],
     "tags": [
       "USB3.0",
       "骁龙8 Elite 1",
       "潜望长焦",
       "无线充电",
-      "红外"
+      "红外",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -4487,14 +4502,18 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "IP66防水",
+      "IP68防水",
+      "IP69防水"
     ],
     "tags": [
       "NFC",
       "潜望长焦",
       "天玑9400",
       "无线充电",
-      "红外"
+      "红外",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -4521,7 +4540,10 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "IP66防水",
+      "IP68防水",
+      "IP69防水"
     ],
     "tags": [
       "NFC",
@@ -4530,7 +4552,8 @@
       "无线充电",
       "轻薄",
       "红外",
-      "≤200g"
+      "≤200g",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
