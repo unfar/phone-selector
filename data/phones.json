@@ -3858,16 +3858,17 @@
     "resolution": "3200×1440",
     "ram": "16GB/24GB",
     "storage": "512GB/1TB",
-    "battery_mah": 6000,
-    "charging_w": 90,
-    "weight_g": 228,
+    "battery_mah": 7400,
+    "charging_w": 100,
+    "weight_g": 227,
     "camera_desc": "50MP 1英寸主摄(f/1.63) + 50MP超广角(14mm) + 200MP潜望(100mm) + 50MP直立长焦(70mm)",
     "has_tele": true,
     "os": "",
     "features": [
       "IP68防水",
       "NFC",
-      "红外"
+      "红外",
+      "自研电竞芯片 Q3"
     ],
     "tags": [
       "散热风扇",
@@ -3877,11 +3878,10 @@
       "潜望长焦",
       "NFC",
       "无线充电",
-      "USB3.0+",
       "USB3.0"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 80,
+    "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 5000万 索尼IMX921 f/1.88 1/1.56英寸 | 超广角: 5000万 f/2.05 | 潜望长焦: 5000万 索尼LYT-882 f/2.65 1/1.95英寸",
     "release_date": "2025-10",
