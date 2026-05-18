@@ -1064,7 +1064,8 @@
       "无线充电",
       "轻薄",
       "红外",
-      "≤200g"
+      "≤200g",
+      "USB3.0"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1418,7 +1419,8 @@
       "红外",
       "潜望长焦",
       "USB3.0",
-      "NFC"
+      "NFC",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -2155,7 +2157,8 @@
     "tags": [
       "NFC",
       "中低端芯片",
-      "红外"
+      "红外",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -2189,7 +2192,8 @@
     "tags": [
       "NFC",
       "中低端芯片",
-      "红外"
+      "红外",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3028,7 +3032,8 @@
       "NFC",
       "红外",
       "麒麟9030 Pro",
-      "折叠屏"
+      "折叠屏",
+      "无线充电"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -3121,7 +3126,8 @@
       "6500mAh+",
       "潜望长焦",
       "NFC",
-      "无线充电"
+      "无线充电",
+      "USB3.0"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3370,7 +3376,8 @@
       "天玑9500",
       "NFC",
       "红外",
-      "6500mAh+"
+      "6500mAh+",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -3403,7 +3410,8 @@
       "天玑9500",
       "NFC",
       "红外",
-      "6500mAh+"
+      "6500mAh+",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -3434,7 +3442,9 @@
       "USB3.0",
       "天玑9500",
       "NFC",
-      "红外"
+      "红外",
+      "无线充电",
+      "潜望长焦"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -3617,7 +3627,8 @@
       "中低端芯片",
       "防水",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "潜望长焦"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3866,7 +3877,8 @@
       "潜望长焦",
       "NFC",
       "无线充电",
-      "USB3.0+"
+      "USB3.0+",
+      "USB3.0"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3903,7 +3915,9 @@
       "红外",
       "NFC",
       "潜望长焦",
-      "USB3.0+"
+      "USB3.0+",
+      "无线充电",
+      "USB3.0"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -3974,7 +3988,8 @@
       "USB3.0",
       "NFC",
       "红外",
-      "6500mAh+"
+      "6500mAh+",
+      "潜望长焦"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4528,7 +4543,8 @@
       "NFC",
       "中低端芯片",
       "潜望长焦",
-      "红外"
+      "红外",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -4698,7 +4714,8 @@
       "NFC",
       "天玑9500s",
       "散热风扇",
-      "红外"
+      "红外",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -4733,7 +4750,8 @@
       "散热风扇",
       "轻薄",
       "红外",
-      "≤200g"
+      "≤200g",
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -4947,7 +4965,8 @@
     "tags": [
       "天玑9400",
       "NFC",
-      "红外"
+      "红外",
+      "USB3.0"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 3.0",
@@ -5242,7 +5261,8 @@
       "天玑9400",
       "无线充电",
       "NFC",
-      "红外"
+      "红外",
+      "USB3.0"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
@@ -5745,7 +5765,8 @@
       "骁龙8 Elite 1",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5771,7 +5792,8 @@
       "骁龙8 Elite 5",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5797,7 +5819,8 @@
       "骁龙8 Elite 5",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5823,7 +5846,8 @@
       "骁龙8 Elite 1",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5849,7 +5873,8 @@
       "骁龙8 Elite 1",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5874,7 +5899,8 @@
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5900,7 +5926,8 @@
       "骁龙8 Elite 1",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5926,7 +5953,8 @@
       "骁龙8 Elite 1",
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5950,7 +5978,8 @@
     "id": 185,
     "tags": [
       "散热风扇",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5975,7 +6004,8 @@
     "tags": [
       "散热风扇",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "USB3.0"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -7835,7 +7865,8 @@
       "红外",
       "潜望长焦",
       "USB3.0",
-      "≤200g"
+      "≤200g",
+      "无线充电"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
