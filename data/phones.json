@@ -9375,5 +9375,42 @@
     "release_date": "2026-02",
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-19"
+  },
+  {
+    "id": 398,
+    "brand": "联想",
+    "model": "拯救者 Y70",
+    "processor": "骁龙8 Gen 5",
+    "screen_size": 6.82,
+    "refresh_hz": 144,
+    "screen_type": "LTPO直屏",
+    "resolution": "3168×1440",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
+    "battery_mah": 8000,
+    "charging_w": 90,
+    "weight_g": null,
+    "camera_desc": "后置50MP索尼LYT-710主摄+8MP超广角微距 | 前置32MP",
+    "has_tele": false,
+    "os": "天禧AI 4.0 / Legion Zone",
+    "features": [
+      "IP66/IP68/IP69防水",
+      "NFC",
+      "双实体卡+双eSIM",
+      "凝胶+液金+VC散热"
+    ],
+    "tags": [
+      "NFC",
+      "防水",
+      "6500mAh+"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 3.0",
+    "detailed_camera": "后置: 50MP索尼LYT-710主摄(f/1.8) + 8MP超广角微距 | 前置: 32MP(f/2.2)",
+    "release_date": "2026-05",
+    "price": 2599,
+    "source_url": "https://shop.lenovo.com.cn/",
+    "verified_at": "2026-05-19"
   }
 ]
