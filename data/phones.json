@@ -7850,5 +7850,94 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0"
+  },
+  {
+    "id": 403,
+    "brand": "摩托罗拉",
+    "model": "moto Razr 70 Ultra",
+    "processor": "",
+    "screen_size": 0,
+    "refresh_hz": 0,
+    "screen_type": "",
+    "resolution": "",
+    "ram": "",
+    "storage": "",
+    "battery_mah": 0,
+    "charging_w": 0,
+    "weight_g": 0,
+    "camera_desc": "",
+    "has_tele": false,
+    "os": "",
+    "features": [
+      "NFC",
+      "5G"
+    ],
+    "tags": [
+      "折叠屏",
+      "无线充电"
+    ],
+    "screen_form": "折叠屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "",
+    "release_date": "2026-05",
+    "price": 7499,
+    "fold_type": "纵向折叠",
+    "screen_unfolded": {
+      "size": 0,
+      "resolution": "",
+      "refresh_hz": 0
+    },
+    "screen_folded": {
+      "size": 0,
+      "resolution": "",
+      "refresh_hz": 0
+    },
+    "source_url": "https://shop.lenovo.com.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 404,
+    "brand": "摩托罗拉",
+    "model": "moto Razr Fold",
+    "processor": "",
+    "screen_size": 0,
+    "refresh_hz": 0,
+    "screen_type": "",
+    "resolution": "",
+    "ram": "",
+    "storage": "",
+    "battery_mah": 0,
+    "charging_w": 0,
+    "weight_g": 0,
+    "camera_desc": "",
+    "has_tele": false,
+    "os": "",
+    "features": [
+      "NFC",
+      "5G"
+    ],
+    "tags": [
+      "折叠屏"
+    ],
+    "screen_form": "折叠屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "",
+    "release_date": "2026-05",
+    "price": 9999,
+    "fold_type": "横向折叠",
+    "screen_unfolded": {
+      "size": 0,
+      "resolution": "",
+      "refresh_hz": 0
+    },
+    "screen_folded": {
+      "size": 0,
+      "resolution": "",
+      "refresh_hz": 0
+    },
+    "source_url": "https://shop.lenovo.com.cn/",
+    "verified_at": "2026-05-19"
   }
 ]
