@@ -923,40 +923,6 @@
     "price": 3099
   },
   {
-    "id": 28,
-    "brand": "一加",
-    "model": "一加 Ace 3V",
-    "processor": "骁龙7+ Gen3",
-    "screen_size": 6.74,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2772×1240",
-    "ram": "12GB/16GB LPDDR5X",
-    "storage": "256GB/512GB UFS4.0",
-    "battery_mah": 5500,
-    "charging_w": 100,
-    "weight_g": 195,
-    "camera_desc": "5000万索尼IMX882主摄",
-    "has_tele": false,
-    "os": "ColorOS 14",
-    "features": [
-      "红外遥控"
-    ],
-    "tags": [
-      "中低端芯片",
-      "轻薄",
-      "NFC",
-      "红外",
-      "≤200g"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
-    "release_date": "2023-04",
-    "price": 1999
-  },
-  {
     "id": 29,
     "brand": "一加",
     "model": "一加 Ace 5",
@@ -1025,36 +991,6 @@
     "detailed_camera": "",
     "release_date": "2024-12",
     "price": 3399
-  },
-  {
-    "id": 31,
-    "brand": "OPPO",
-    "model": "OPPO A3 Pro",
-    "processor": "天玑7050",
-    "screen_size": 6.7,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2412×1080",
-    "ram": "8GB/12GB LPDDR4X",
-    "storage": "256GB UFS2.2",
-    "battery_mah": 5000,
-    "charging_w": 67,
-    "weight_g": 182,
-    "camera_desc": "6400万主摄",
-    "has_tele": false,
-    "os": "ColorOS 14",
-    "features": [],
-    "tags": [
-      "轻薄",
-      "中低端芯片",
-      "≤200g"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
-    "release_date": "2024-04",
-    "price": 1799
   },
   {
     "id": 32,
@@ -1168,97 +1104,6 @@
     "detailed_camera": "主摄: 索尼LYT-900 1英寸 f/1.8 | 超广角: 5000万 | 长焦: 5000万 f/2.6 3x | 超长焦: 5000万 6x",
     "release_date": "2024-10",
     "price": 6999
-  },
-  {
-    "id": 35,
-    "brand": "OPPO",
-    "model": "OPPO K12",
-    "processor": "骁龙7 Gen3",
-    "screen_size": 6.7,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2412×1080",
-    "ram": "8GB/12GB/16GB LPDDR5",
-    "storage": "256GB/512GB UFS3.1",
-    "battery_mah": 5500,
-    "charging_w": 100,
-    "weight_g": 186,
-    "camera_desc": "5000万索尼IMX890主摄",
-    "has_tele": false,
-    "os": "ColorOS 14",
-    "features": [],
-    "tags": [
-      "中低端芯片",
-      "轻薄",
-      "≤200g"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
-    "release_date": "2024-04",
-    "price": 1799
-  },
-  {
-    "id": 36,
-    "brand": "OPPO",
-    "model": "OPPO Reno 13",
-    "processor": "天玑8350",
-    "screen_size": 6.59,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2760×1256",
-    "ram": "12GB/16GB LPDDR5X",
-    "storage": "256GB/512GB UFS3.1",
-    "battery_mah": 5600,
-    "charging_w": 80,
-    "weight_g": 187,
-    "camera_desc": "5000万索尼IMX890主摄",
-    "has_tele": false,
-    "os": "ColorOS 15",
-    "features": [],
-    "tags": [
-      "中低端芯片",
-      "轻薄",
-      "≤200g"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
-    "release_date": "2024-11",
-    "price": 2699
-  },
-  {
-    "id": 37,
-    "brand": "OPPO",
-    "model": "OPPO Reno 13 Pro",
-    "processor": "天玑8350",
-    "screen_size": 6.78,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2780×1264",
-    "ram": "12GB/16GB LPDDR5X",
-    "storage": "256GB/512GB UFS3.1",
-    "battery_mah": 5800,
-    "charging_w": 80,
-    "weight_g": 192,
-    "camera_desc": "5000万索尼IMX890主摄 | 5000万长焦",
-    "has_tele": true,
-    "os": "ColorOS 15",
-    "features": [],
-    "tags": [
-      "中低端芯片",
-      "潜望长焦",
-      "轻薄",
-      "≤200g"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
-    "release_date": "2024-11",
-    "price": 3399
   },
   {
     "id": 38,
@@ -4384,7 +4229,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 哈苏2亿 f/1.5 | 超广角: 5000万 f/2.0 123° | 长焦: 2亿 f/2.2 3x光学 | 超长焦: 5000万 f/3.5 10x光学",
     "release_date": "2026-03",
-    "price": 7499
+    "price": 8499
   },
   {
     "id": 132,
@@ -4425,7 +4270,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 2亿 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.6 2.8x光学 | 丹霞色彩还原",
     "release_date": "2026-03",
-    "price": 5299
+    "price": 5999
   },
   {
     "id": 133,
@@ -4465,7 +4310,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 5000万 f/1.5 1/1.28英寸 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.1 3x光学 | 丹霞色彩还原",
     "release_date": "2026-03",
-    "price": 5999
+    "price": 5299
   },
   {
     "id": 134,
@@ -4505,7 +4350,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 5000万 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 5000万 f/2.6 3x光学 | 丹霞色彩还原",
     "release_date": "2026-03",
-    "price": 4399
+    "price": 4599
   },
   {
     "id": 135,
@@ -5227,36 +5072,6 @@
     "price": 2299,
     "ram": "16GB",
     "storage": "512GB/1TB"
-  },
-  {
-    "brand": "一加",
-    "model": "一加 Ace 5 竞速版",
-    "processor": "骁龙8 Gen 3",
-    "screen_size": 6.78,
-    "battery_mah": 6400,
-    "weight_g": 207,
-    "camera_desc": "5000万主摄",
-    "has_tele": false,
-    "features": [
-      "IP65防水",
-      "NFC",
-      "红外遥控"
-    ],
-    "screen_form": "直屏",
-    "id": 155,
-    "tags": [
-      "NFC",
-      "红外",
-      "6500mAh+"
-    ],
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
-    "charging_w": 100,
-    "release_date": "2024-12",
-    "price": 2499,
-    "ram": "12GB",
-    "storage": "256GB/512GB"
   },
   {
     "brand": "真我",
@@ -8393,132 +8208,6 @@
     "release_date": null
   },
   {
-    "id": 335,
-    "brand": "OPPO",
-    "model": "Reno15 Ultra",
-    "price": 4299,
-    "processor": "天玑9400+",
-    "ram": null,
-    "storage": null,
-    "screen_size": 6.8,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": 120,
-    "battery_mah": 6200,
-    "charging_w": 100,
-    "wireless_charging_w": null,
-    "usb_version": null,
-    "weight_g": 205,
-    "os": null,
-    "camera_desc": "2亿像素",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [
-      "防水",
-      "NFC",
-      "红外"
-    ],
-    "features": [
-      "IP69防水",
-      "NFC",
-      "红外"
-    ],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
-    "id": 336,
-    "brand": "OPPO",
-    "model": "Reno13 Pro",
-    "price": 3499,
-    "processor": "天玑8300",
-    "ram": null,
-    "storage": null,
-    "screen_size": 6.7,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": 120,
-    "battery_mah": 4800,
-    "charging_w": 80,
-    "wireless_charging_w": null,
-    "usb_version": null,
-    "weight_g": 190,
-    "os": null,
-    "camera_desc": "5000万像素",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [
-      "≤200g"
-    ],
-    "features": [],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
-    "id": 337,
-    "brand": "OPPO",
-    "model": "K13 Ultra",
-    "price": 2599,
-    "processor": "骁龙8S Gen3",
-    "ram": null,
-    "storage": null,
-    "screen_size": 6.78,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": 120,
-    "battery_mah": 5500,
-    "charging_w": 80,
-    "wireless_charging_w": null,
-    "usb_version": null,
-    "weight_g": 195,
-    "os": null,
-    "camera_desc": "5000万像素",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [
-      "≤200g"
-    ],
-    "features": [],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
-    "id": 338,
-    "brand": "OPPO",
-    "model": "K13",
-    "price": 1799,
-    "processor": "骁龙8S Gen3",
-    "ram": "12+256",
-    "storage": "8",
-    "screen_size": 6.67,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": 120,
-    "battery_mah": 5000,
-    "charging_w": 67,
-    "wireless_charging_w": null,
-    "usb_version": null,
-    "weight_g": 190,
-    "os": null,
-    "camera_desc": "5000万像素",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [
-      "≤200g"
-    ],
-    "features": [],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
     "id": 339,
     "brand": "OPPO",
     "model": "Reno16",
@@ -8935,77 +8624,6 @@
       "≤200g"
     ],
     "features": [],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
-    "id": 354,
-    "brand": "一加",
-    "model": "Ace5 Pro",
-    "price": 3499,
-    "processor": "骁龙8 Elite 1",
-    "ram": null,
-    "storage": null,
-    "screen_size": 6.78,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": null,
-    "battery_mah": 6400,
-    "charging_w": 100,
-    "wireless_charging_w": 0,
-    "usb_version": null,
-    "weight_g": 210,
-    "os": null,
-    "camera_desc": "5000万像素",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [
-      "骁龙8 Elite 1",
-      "NFC",
-      "红外",
-      "6500mAh+"
-    ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
-    "screen_form": null,
-    "release_date": null
-  },
-  {
-    "id": 355,
-    "brand": "一加",
-    "model": "Ace5",
-    "price": 2699,
-    "processor": "骁龙8 Gen 3",
-    "ram": null,
-    "storage": null,
-    "screen_size": 6.78,
-    "screen_type": null,
-    "resolution": null,
-    "refresh_hz": null,
-    "battery_mah": 6400,
-    "charging_w": 80,
-    "wireless_charging_w": null,
-    "usb_version": null,
-    "weight_g": 205,
-    "os": null,
-    "camera_desc": "5000万像素",
-    "detailed_camera": null,
-    "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
-    "tags": [
-      "NFC",
-      "红外",
-      "6500mAh+"
-    ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
     "screen_form": null,
     "release_date": null
   },
@@ -9638,6 +9256,124 @@
     "release_date": "2025-10",
     "price": null,
     "source_url": "https://item.lenovo.com.cn/product/1050680.html",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 385,
+    "brand": "OPPO",
+    "model": "OPPO Reno16 Pro",
+    "price": null,
+    "release_date": "2026-05",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19",
+    "status": "敬请期待"
+  },
+  {
+    "id": 386,
+    "brand": "OPPO",
+    "model": "OPPO K13s",
+    "price": 1799,
+    "release_date": "2026-01",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 387,
+    "brand": "OPPO",
+    "model": "OPPO K13x",
+    "price": 1399,
+    "release_date": "2026-01",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 388,
+    "brand": "OPPO",
+    "model": "OPPO K12s",
+    "price": 1649,
+    "release_date": "2026-03",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 389,
+    "brand": "OPPO",
+    "model": "OPPO A6i+",
+    "price": 1899,
+    "release_date": "2026-02",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 390,
+    "brand": "OPPO",
+    "model": "OPPO A6v",
+    "price": 1499,
+    "release_date": "2026-03",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 391,
+    "brand": "OPPO",
+    "model": "OPPO A6c",
+    "price": 899,
+    "release_date": "2026-03",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 392,
+    "brand": "OPPO",
+    "model": "OPPO A6 Pro",
+    "price": 1999,
+    "release_date": "2026-02",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 393,
+    "brand": "OPPO",
+    "model": "OPPO A6 GT",
+    "price": 1999,
+    "release_date": "2026-02",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 394,
+    "brand": "OPPO",
+    "model": "OPPO A6i",
+    "price": 1099,
+    "release_date": "2026-03",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 395,
+    "brand": "OPPO",
+    "model": "OPPO A6",
+    "price": 1699,
+    "release_date": "2026-03",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 396,
+    "brand": "OPPO",
+    "model": "OPPO A5 活力版",
+    "price": 1799,
+    "release_date": "2026-03",
+    "source_url": "https://www.opposhop.cn/",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 397,
+    "brand": "OPPO",
+    "model": "OPPO A3i",
+    "price": 1599,
+    "release_date": "2026-02",
+    "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-19"
   }
 ]
