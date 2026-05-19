@@ -9259,5 +9259,118 @@
     "storage": "256GB/512GB/1TB",
     "source_url": "https://www.ithome.com/0/951/889.htm",
     "verified_at": "2026-05-18"
+  },
+  {
+    "id": 370,
+    "brand": "摩托罗拉",
+    "model": "moto Razr 60",
+    "processor": "天玑7400X",
+    "screen_size": 6.9,
+    "refresh_hz": 120,
+    "screen_type": "pOLED",
+    "resolution": "1080×2640",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "battery_mah": 4500,
+    "charging_w": 33,
+    "weight_g": 188,
+    "camera_desc": "后置5000万像素 | 前置3200万像素",
+    "has_tele": false,
+    "os": "Android",
+    "features": [],
+    "tags": [
+      "折叠屏",
+      "无线充电",
+      "≤200g"
+    ],
+    "screen_form": "折叠屏",
+    "wireless_charging_w": 15,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "后置: 5000万像素 | 前置: 3200万像素",
+    "release_date": "2025-04",
+    "price": 3199,
+    "fold_type": "纵向折叠",
+    "screen_unfolded": {
+      "size": 6.9,
+      "resolution": "1080×2640",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 3.63,
+      "resolution": "1056×1066",
+      "refresh_hz": 90
+    },
+    "source_url": "https://item.lenovo.com.cn/product/1045227.html",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 371,
+    "brand": "摩托罗拉",
+    "model": "moto g100",
+    "processor": "第二代骁龙7s",
+    "screen_size": 6.72,
+    "refresh_hz": 120,
+    "screen_type": "LCD",
+    "resolution": "2400×1080",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
+    "battery_mah": 7000,
+    "charging_w": 30,
+    "weight_g": 210,
+    "camera_desc": "后置5000万像素 | 前置3200万像素",
+    "has_tele": false,
+    "os": "Android 15",
+    "features": [
+      "NFC",
+      "5G",
+      "IP64"
+    ],
+    "tags": [
+      "NFC",
+      "6500mAh+"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "后置: 5000万像素 | 前置: 3200万像素",
+    "release_date": "2025-10",
+    "price": 1399,
+    "source_url": "https://item.lenovo.com.cn/product/1049835.html",
+    "verified_at": "2026-05-19"
+  },
+  {
+    "id": 372,
+    "brand": "摩托罗拉",
+    "model": "moto g100s",
+    "processor": "第四代骁龙6s",
+    "screen_size": 6.72,
+    "refresh_hz": 120,
+    "screen_type": "LCD",
+    "resolution": "2400×1080",
+    "ram": "8GB",
+    "storage": "256GB",
+    "battery_mah": 7000,
+    "charging_w": 30,
+    "weight_g": 210,
+    "camera_desc": "后置5000万像素 | 前置800万像素",
+    "has_tele": false,
+    "os": "Android",
+    "features": [
+      "NFC",
+      "5G",
+      "IP64"
+    ],
+    "tags": [
+      "NFC",
+      "6500mAh+"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "后置: 5000万像素 | 前置: 800万像素",
+    "release_date": "2025-11",
+    "price": 1199,
+    "source_url": "https://item.lenovo.com.cn/product/1050596.html",
+    "verified_at": "2026-05-19"
   }
 ]
