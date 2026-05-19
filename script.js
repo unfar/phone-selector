@@ -37,7 +37,7 @@ const screenSizeRanges = [
     { name: "7英寸左右", min: 6.7, max: 7.5 }
 ];
 const screenTypes = ['直屏','折叠屏'];
-const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","REDMI","iQOO","一加","真我","红魔","摩托罗拉"];
+const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","REDMI","iQOO","一加","真我","红魔","摩托罗拉","联想"];
 
 // ===== 数据加载 =====
 async function loadData() {
