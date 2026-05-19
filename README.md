@@ -8,7 +8,7 @@
 
 ## 功能特点
 
-- **232 款机型**：覆盖苹果、华为、小米、OPPO、vivo、三星等 12 个品牌
+- **284 款机型**：覆盖苹果、华为、小米、OPPO、vivo、三星等 14 个品牌
 - **100% 价格覆盖**：所有机型均收录官方起售价
 - **多维度筛选**：品牌、屏幕形态、处理器、特性标签（可多选叠加）
 - **丰富标签**：潜望长焦、大电池 6500mAh+、轻薄 ≤200g、防水、NFC、红外、USB3.0、无线充电、散热风扇等
@@ -20,11 +20,12 @@
 ```
 phone-selector/
 ├── index.html          # 主入口（GitHub Pages 读取此文件）
-├── phone-selector.html # 桌面版本
 ├── data/
 │   └── phones.json     # 手机数据（JSON 格式，便于维护）
+├── style.css           # 样式表
+├── script.js           # 前端逻辑
 ├── README.md
-└── upload-to-github.sh # 上传脚本
+└── data_validator.py   # 数据校验工具
 ```
 
 数据存储在 `data/phones.json` 中，页面通过 fetch 异步加载，便于后续更新数据时无需修改页面逻辑。
@@ -35,7 +36,7 @@ phone-selector/
 - 华为官网 (huawei.com)
 - 荣耀官网 (honor.com)
 - 小米官网 (mi.com)
-- OPPO 官网 (oppo.com)
+- OPPO 官网 (oppo.com) / OPPO 商城 (opposhop.cn)
 - vivo 官网 (vivo.com.cn)
 - 三星官网 (samsung.com.cn)
 - 一加官网 (oneplus.com)
@@ -43,14 +44,47 @@ phone-selector/
 - iQOO 官网 (iqoo.com)
 - 红魔官网 (nubia.com)
 - REDMI 官网 (redmi.com)
+- 联想商城 (shop.lenovo.com.cn)
+- 联想 (拯救者) 官网 (oneplus.com)
 
 ## 更新日志
+
+### 2026-05-19
+- 新增 **摩托罗拉** 品牌（moto Razr 60/Ultra/Pro、g100/s/Pro、X70 Air）共 7 款
+- 新增 **联想** 品牌 + 拯救者 Y70（骁龙8 Gen5、8000mAh、90W）
+- 一加系列大规模数据修正：15/15T/13/13T/Ace6/Ace6T/Ace5/Turbo6 全系列（电池、充电、USB、屏幕刷新率等）
+- 真我 GT8/GT8 Pro 参数修正（电池 5500→7000mAh、充电/屏幕/摄像头等）
+- OPPO 商城同步：新增 13 款在售机型，移除 12 款已下架机型
+- 更新 README，新增数据来源说明
+
+### 2026-05-18
+- 全品牌官网逐款核实：vivo、iQOO、OPPO、一加、真我、红魔
+- 修复批量价格错误（Reno15 系列价格串号问题）
+- 修正品牌命名规范（华为畅享系列补全品牌字段）
+- 补充大量 IP 防水等级数据
+- 新增 Tags 自动校验逻辑
+
+### 2026-05-13
+- UI 全面优化：品牌色带、折叠筛选区、多选价格/尺寸
+- 对比弹窗重构：修复布局、雷达图、手机端适配
+- 新增 华为 Mate 80 系列 / Pura 90 系列 / nova 15 系列 等新机
+- 华为全系官网批量爬取验证
+- 处理器命名标准化（骁龙8 Elite 5/1 等）
+
+### 2026-05-09
+- 新增 iQOO 15/15 Ultra、vivo X300 系列 等新机
+- 参数校验系统上线
+- 修复 Word 文档抽取参数格式问题
+
+### 2026-05-08
+- 新增折叠屏支持
+- 批量补全 NFC/红外/防水标签
+- 修复 USB 版本、无线充电等字段错误
 
 ### 2026-05-07
 - 数据抽离：phones 数组从 HTML 迁移到 `data/phones.json`
 - 增加加载状态和错误处理
 - 修复部分机型 os 字段换行符问题
-- 更新 README 文档
 - 全部 232 款机型价格覆盖
 
 ### 2026-05-06
