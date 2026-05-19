@@ -45,7 +45,6 @@ phone-selector/
 - 红魔官网 (nubia.com)
 - REDMI 官网 (redmi.com)
 - 联想商城 (shop.lenovo.com.cn)
-- 联想 (拯救者) 官网 (oneplus.com)
 
 ## 更新日志
 
