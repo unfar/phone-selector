@@ -7939,5 +7939,36 @@
     },
     "source_url": "https://shop.lenovo.com.cn/",
     "verified_at": "2026-05-19"
+  },
+  {
+    "id": 405,
+    "brand": "iQOO",
+    "model": "iQOO 15T",
+    "price": 3299,
+    "processor": "天玑9500 Monster",
+    "ram": "12GB",
+    "storage": "256GB",
+    "screen_size": 6.82,
+    "screen_type": "OLED 珠峰屏",
+    "resolution": "3186×1440",
+    "refresh_hz": 144,
+    "battery_mah": 8000,
+    "charging_w": 100,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 216,
+    "os": "OriginOS 6",
+    "camera_desc": "2亿像素大底主摄（CIPA 4.5防抖）+ 5000万超广角",
+    "detailed_camera": "主摄: 2亿像素 大底传感器 CIPA 4.5专业级防抖 4倍无损变焦 | 超广角: 5000万像素 支持微距 | 前置: 1600万像素",
+    "has_tele": false,
+    "tags": [
+      "天玑9500",
+      "6500mAh+"
+    ],
+    "features": [
+      "NFC"
+    ],
+    "screen_form": "直屏",
+    "release_date": "2026-05-20"
   }
 ]
