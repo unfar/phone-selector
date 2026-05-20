@@ -7963,10 +7963,13 @@
     "has_tele": false,
     "tags": [
       "天玑9500",
-      "6500mAh+"
+      "6500mAh+",
+      "防水"
     ],
     "features": [
-      "NFC"
+      "NFC",
+      "IP68",
+      "IP69"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-20"
