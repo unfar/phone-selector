@@ -3,6 +3,7 @@
 // ============================================
 
 let phones = [];
+let brandList = [];
 let selectedBrands = new Set();
 let selectedScreen = null;
 let selectedCpu = new Set();
@@ -63,6 +64,8 @@ async function loadData() {
         const resp = await fetch('data/phones.json');
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         phones = await resp.json();
+        // 初始化品牌列表，确保后续渲染时有数据
+        brandList = [...new Set(phones.map(p => p.brand))];
         hideLoading();
         restoreStateFromHash();
         init();
