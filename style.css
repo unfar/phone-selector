@@ -77,7 +77,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
 
 /* ===== Phone Card ===== */
-.phone-card{background:var(--card-bg);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:all .25s ease;border:1px solid var(--border);display:flex;flex-direction:column}
+.phone-card{background:var(--card-bg);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:all .25s ease;display:flex;flex-direction:column}
 .phone-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:#cbd5e1}
 .phone-card.compare-selected{box-shadow:0 0 0 2px #7c3aed,var(--shadow-lg);border-color:#7c3aed}
 .phone-card.compare-clickable{cursor:pointer;border:1.5px solid rgba(124,58,237,.25)}
@@ -107,7 +107,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-apple{background:#1C1C1C;color:#fff;border:1px solid #333}
 .brand-华为{background:#BC2D32;color:#fff;border:1px solid #fff}
 .brand-小米{background:#FF4800;color:#fff;border:1px solid #fff}
-.brand-OPPO{background:#6DFB73;color:#000;border:1px solid #000}
+.brand-OPPO{background:#6DFB73;color:#000;border:none}
 .brand-vivo{background:#7C3AED;color:#fff;border:1px solid #fff}
 .brand-三星{background:#2563eb;color:#fff;border:1px solid #fff}
 .brand-荣耀{background:#FFFFFF;color:#000;border:1px solid #000}
