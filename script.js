@@ -37,7 +37,24 @@ const screenSizeRanges = [
     { name: "7英寸左右", min: 6.7, max: 7.5 }
 ];
 const screenTypes = ['直屏','折叠屏'];
-const brandList = ["苹果","华为","小米","OPPO","vivo","三星","荣耀","REDMI","iQOO","一加","真我","红魔","摩托罗拉","联想"];
+const brandEnglishMap = {
+    "苹果": "Apple",
+    "华为": "Huawei",
+    "小米": "Xiaomi",
+    "OPPO": "OPPO",
+    "vivo": "vivo",
+    "三星": "Samsung",
+    "荣耀": "Honor",
+    "REDMI": "Redmi",
+    "iQOO": "iQOO",
+    "一加": "OnePlus",
+    "真我": "Realme",
+    "红魔": "RedMagic",
+    "摩托罗拉": "Motorola",
+    "联想": "Lenovo"
+};
+function getEnglishBrand(zh) { return brandEnglishMap[zh] || zh; }
+
 
 // ===== 数据加载 =====
 async function loadData() {
@@ -217,7 +234,7 @@ function renderBrandTags() {
         const count = brandCount(b);
         const el = document.createElement('span');
         el.className = 'tag' + (selectedBrands.has(b) ? ' active' : '');
-        el.textContent = b;
+        el.textContent = getEnglishBrand(b);
         el.dataset.count = count;
         el.onclick = () => { selectedBrands.has(b) ? selectedBrands.delete(b) : selectedBrands.add(b); updateHash(); refresh(); };
         c.appendChild(el);
@@ -302,7 +319,7 @@ function renderActiveBar() {
     const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size + selectedPriceRanges.size + selectedScreenSizes.size;
     if (total === 0) { bar.style.display = 'none'; return; }
     bar.style.display = 'flex'; badges.innerHTML = '';
-    selectedBrands.forEach(b => addBadge(badges, b, () => { selectedBrands.delete(b); updateHash(); refresh(); }));
+    selectedBrands.forEach(b => addBadge(badges, getEnglishBrand(b), () => { selectedBrands.delete(b); updateHash(); refresh(); }));
     if (selectedScreen) addBadge(badges, selectedScreen, () => { selectedScreen = null; updateHash(); refresh(); });
     selectedCpu.forEach(c => addBadge(badges, c, () => { selectedCpu.delete(c); updateHash(); refresh(); }));
     selectedTags.forEach(t => addBadge(badges, getTagDisplayName(t), () => { selectedTags.delete(t); updateHash(); refresh(); }));
@@ -571,7 +588,7 @@ function renderComparePanel() {
 
     let html = '<table class="compare-table"><thead><tr><th><span class="param-label">参数</span></th>';
     selected.forEach(p => {
-        html += '<th><div class="phone-name-badge">' + p.model + '</div><small style="opacity:.8;display:block;margin-top:4px">' + p.brand + '</small><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
+        html += '<th><div class="phone-name-badge">' + p.model + '</div><small style="opacity:.8;display:block;margin-top:4px">' + getEnglishBrand(p.brand) + '</small><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
     });
     html += '</tr></thead><tbody>';
     fields.forEach(f => {
