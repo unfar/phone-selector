@@ -8,8 +8,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2400×1080",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5300,
     "charging_w": 100,
     "weight_g": 183,
@@ -38,8 +38,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2700×1224",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "battery_mah": 5300,
     "charging_w": 100,
     "weight_g": 195,
@@ -69,8 +69,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2700×1224",
-    "ram": "",
-    "storage": "",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 5300,
     "charging_w": 100,
     "weight_g": 199,
@@ -4599,7 +4599,9 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "resolution": "2800×1280",
+    "os": "MagicOS"
   },
   {
     "brand": "HONOR",
@@ -4634,7 +4636,9 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "resolution": "2800×1280",
+    "os": "MagicOS"
   },
   {
     "brand": "HONOR",
@@ -4659,7 +4663,11 @@
     "detailed_camera": "",
     "charging_w": 66,
     "release_date": "2025-06",
-    "price": 2699
+    "price": 2699,
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "resolution": "2664×1200",
+    "os": "MagicOS"
   },
   {
     "brand": "HONOR",
@@ -4685,7 +4693,11 @@
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2025-06",
-    "price": 3399
+    "price": 3399,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2800×1264",
+    "os": "MagicOS"
   },
   {
     "brand": "Apple",
@@ -5162,7 +5174,8 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "resolution": "2800×1280"
   },
   {
     "brand": "HONOR",
@@ -5194,7 +5207,8 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "resolution": "2800×1280"
   },
   {
     "brand": "HONOR",
@@ -5236,7 +5250,8 @@
       "resolution": "2376×1060",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "resolution": "2376×1060"
   },
   {
     "brand": "HONOR",
@@ -5261,7 +5276,10 @@
       "NFC"
     ],
     "release_date": "2025-08",
-    "price": 3999
+    "price": 3999,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2800×1264"
   },
   {
     "brand": "HONOR",
@@ -5283,7 +5301,10 @@
       "6500mAh+"
     ],
     "release_date": "2025-04",
-    "price": 3299
+    "price": 3299,
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "resolution": "2412×1080"
   },
   {
     "brand": "HONOR",
@@ -5312,7 +5333,10 @@
       "≤200g"
     ],
     "release_date": "2025-01",
-    "price": 3699
+    "price": 3699,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2800×1264"
   },
   {
     "brand": "HONOR",
@@ -5339,7 +5363,10 @@
       "≤200g"
     ],
     "release_date": "2025-01",
-    "price": 2899
+    "price": 2899,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2664×1200"
   },
   {
     "brand": "REDMI",
@@ -6442,7 +6469,10 @@
     "release_date": "2025-12",
     "price": 2999,
     "id": 235,
-    "refresh_hz": 120
+    "refresh_hz": 120,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2800×1264"
   },
   {
     "model": "荣耀 500 Pro",
@@ -6478,7 +6508,10 @@
     "release_date": "2025-12",
     "price": 2999,
     "id": 236,
-    "refresh_hz": 120
+    "refresh_hz": 120,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2800×1264"
   },
   {
     "model": "荣耀 WIN RT",
@@ -6512,7 +6545,10 @@
     ],
     "release_date": "2025-08",
     "price": 3399,
-    "id": 237
+    "id": 237,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "resolution": "2800×1264"
   },
   {
     "brand": "Apple",
@@ -6747,8 +6783,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2400×1080",
-    "ram": "",
-    "storage": "",
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "battery_mah": 7000,
     "charging_w": 80,
     "weight_g": 200,
@@ -6776,8 +6812,8 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2400×1080",
-    "ram": "",
-    "storage": "",
+    "ram": "8GB/12GB",
+    "storage": "256GB",
     "battery_mah": 7000,
     "charging_w": 35,
     "weight_g": 200,
@@ -7036,18 +7072,18 @@
     "model": "Magic8 Ultra",
     "price": 6999,
     "processor": "骁龙8 Elite 1",
-    "ram": null,
-    "storage": null,
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "screen_size": 6.8,
     "screen_type": null,
-    "resolution": null,
+    "resolution": "2800×1280",
     "refresh_hz": 144,
     "battery_mah": 6800,
     "charging_w": 100,
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": 235,
-    "os": null,
+    "os": "MagicOS",
     "camera_desc": "2亿像素",
     "detailed_camera": null,
     "has_tele": false,
@@ -7066,18 +7102,18 @@
     "model": "Magic7 Ultra",
     "price": 5999,
     "processor": "骁龙8 Gen4",
-    "ram": null,
-    "storage": null,
+    "ram": "16GB",
+    "storage": "512GB/1TB",
     "screen_size": 6.8,
     "screen_type": null,
-    "resolution": null,
+    "resolution": "2800×1280",
     "refresh_hz": 120,
     "battery_mah": 6200,
     "charging_w": 100,
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": 230,
-    "os": null,
+    "os": "MagicOS",
     "camera_desc": "5000万像素",
     "detailed_camera": null,
     "has_tele": false,
@@ -7098,14 +7134,14 @@
     "storage": "12+256",
     "screen_size": 6.78,
     "screen_type": null,
-    "resolution": null,
+    "resolution": "2700×1224",
     "refresh_hz": 120,
     "battery_mah": 5800,
     "charging_w": 100,
     "wireless_charging_w": null,
     "usb_version": null,
     "weight_g": 195,
-    "os": null,
+    "os": "MagicOS",
     "camera_desc": "5000万(RYYB)",
     "detailed_camera": null,
     "has_tele": false,
