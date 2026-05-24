@@ -2383,10 +2383,11 @@
       "NFC",
       "潜望长焦",
       "红外",
-      "折叠屏"
+      "折叠屏",
+      "无线充电"
     ],
     "screen_form": "折叠屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "",
     "release_date": "2025-12",
