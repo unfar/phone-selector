@@ -87,34 +87,34 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .card-header{padding:20px 20px 0;display:flex;justify-content:center;align-items:center;position:relative}
 /* ===== Brand Color Stripe ===== */
 .card-stripe{height:4px;border-radius:var(--radius) var(--radius) 0 0}
-.brand-stripe-苹果{background:#1C1C1C}
+.brand-stripe-Apple{background:#1C1C1C}
 .brand-stripe-华为{background:#BC2D32}
 .brand-stripe-小米{background:#FF4800}
 .brand-stripe-OPPO{background:#6DFB73}
 .brand-stripe-vivo{background:#7C3AED}
-.brand-stripe-三星{background:#2563eb}
+.brand-stripe-Samsung{background:#2563eb}
 .brand-stripe-荣耀{background:#FFFFFF}
 .brand-stripe-REDMI{background:#D97706}
 .brand-stripe-iQOO{background:#FFD700}
 .brand-stripe-一加{background:#FFFFFF}
 .brand-stripe-真我{background:#EAB51D}
 .brand-stripe-红魔{background:#b91c1c}
-.brand-stripe-摩托罗拉{background:#D43D2D}
+.brand-stripe-Motorola{background:#D43D2D}
 .brand-stripe-联想{background:#D43D2D}
 /* ===== Brand Colors ===== */
-.brand-apple{background:#1C1C1C;color:#fff;border:1px solid #333}
+.brand-Apple{background:#1C1C1C;color:#fff;border:1px solid #333}
 .brand-华为{background:#BC2D32;color:#fff;border:1px solid #fff}
 .brand-小米{background:#F27418;color:#FFFFFF;border:1px solid #fff}
 .brand-OPPO{background:#6DFB73;color:#000;border:1px solid var(--border)}
 .brand-vivo{background:#7C3AED;color:#fff;border:1px solid #fff}
-.brand-三星{background:#2563eb;color:#fff;border:1px solid #fff}
+.brand-Samsung{background:#2563eb;color:#fff;border:1px solid #fff}
 .brand-荣耀{background:#FFFFFF;color:#000;border:1px solid #000}
 .brand-REDMI{background:#FFFFFF;color:#D82F44;border:1px solid #fff}
 .brand-iQOO{background:#FFD700;color:#333;border:1px solid #ffc700}
 .brand-一加{background:#FFFFFF;color:#E73421;border:1px solid #E73421}
 .brand-真我{background:#EAB51D;color:#000;border:1px solid #000}
 .brand-红魔{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
-.brand-摩托罗拉{background:#D43D2D;color:#fff;border:1px solid var(--border)}
+.brand-Motorola{background:#D43D2D;color:#fff;border:1px solid var(--border)}
 .brand-联想{background:#D43D2D;color:#fff;border:1px solid #fff}
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}

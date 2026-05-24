@@ -4687,7 +4687,7 @@
     "price": 3399
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 17e",
     "processor": "A19",
     "screen_size": 6.2,
@@ -4722,7 +4722,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 16",
     "processor": "A18",
     "screen_size": 6.9,
@@ -4757,7 +4757,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 16 Plus",
     "processor": "A18",
     "screen_size": 6.7,
@@ -4791,7 +4791,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 16 Pro",
     "processor": "A18 Pro",
     "screen_size": 6.9,
@@ -4829,7 +4829,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 16 Pro Max",
     "processor": "A18 Pro",
     "screen_size": 6.9,
@@ -5744,7 +5744,7 @@
       "USB3.0",
       "无线充电"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -5783,7 +5783,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
     "detailed_camera": "",
@@ -5822,7 +5822,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -5860,7 +5860,7 @@
       "USB3.0",
       "无线充电"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -5896,7 +5896,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
     "detailed_camera": "",
@@ -5932,7 +5932,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -5967,7 +5967,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "128GB/256GB/512GB",
     "detailed_camera": "",
@@ -6002,7 +6002,7 @@
       "USB3.0",
       "无线充电"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -6037,7 +6037,7 @@
       "USB3.0",
       "无线充电"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -6083,7 +6083,7 @@
       "USB3.0",
       "无线充电"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -6129,7 +6129,7 @@
       "USB3.0",
       "无线充电"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
     "detailed_camera": "",
@@ -6176,7 +6176,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
     "detailed_camera": "",
@@ -6222,7 +6222,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
     "detailed_camera": "",
@@ -6269,7 +6269,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
     "detailed_camera": "",
@@ -6312,7 +6312,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "",
     "storage": "",
     "detailed_camera": "",
@@ -6343,7 +6343,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "",
     "storage": "",
     "detailed_camera": "",
@@ -6372,7 +6372,7 @@
     "tags": [
       "NFC"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "",
     "storage": "",
     "detailed_camera": "",
@@ -6402,7 +6402,7 @@
       "轻薄",
       "≤200g"
     ],
-    "brand": "三星",
+    "brand": "Samsung",
     "ram": "",
     "storage": "",
     "detailed_camera": "",
@@ -6515,7 +6515,7 @@
     "id": 237
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 17 Pro Max",
     "processor": "A19 Pro",
     "screen_size": 6.9,
@@ -6551,7 +6551,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 17 Pro",
     "processor": "A19 Pro",
     "screen_size": 6.9,
@@ -6587,7 +6587,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone Air",
     "processor": "A19",
     "screen_size": 6.7,
@@ -6620,7 +6620,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone 17",
     "processor": "A19",
     "screen_size": 6.9,
@@ -7120,7 +7120,7 @@
   },
   {
     "id": 350,
-    "brand": "三星",
+    "brand": "Samsung",
     "model": "Galaxy A56",
     "price": 2999,
     "processor": "Exynos 1580",
@@ -7150,7 +7150,7 @@
   },
   {
     "id": 351,
-    "brand": "三星",
+    "brand": "Samsung",
     "model": "Galaxy A55",
     "price": 2599,
     "processor": "Exynos 1480",
@@ -7180,7 +7180,7 @@
   },
   {
     "id": 353,
-    "brand": "苹果",
+    "brand": "Apple",
     "model": "iPhone SE4",
     "price": 3499,
     "processor": "A18",
@@ -7503,7 +7503,7 @@
   },
   {
     "id": 370,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto Razr 60",
     "processor": "天玑7400X",
     "screen_size": 6.9,
@@ -7546,7 +7546,7 @@
   },
   {
     "id": 373,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto Razr 60 Ultra",
     "processor": "骁龙8至尊版",
     "screen_size": 6.96,
@@ -7594,7 +7594,7 @@
   },
   {
     "id": 374,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto Razr 60 Pro",
     "processor": "骁龙8sGen3",
     "screen_size": 6.9,
@@ -7642,7 +7642,7 @@
   },
   {
     "id": 381,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto g100 Pro",
     "processor": "天玑7300",
     "screen_size": 6.7,
@@ -7675,7 +7675,7 @@
   },
   {
     "id": 384,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto X70 Air",
     "processor": "第四代骁龙7",
     "screen_size": 6.7,
@@ -7865,7 +7865,7 @@
   },
   {
     "id": 403,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto Razr 70 Ultra",
     "processor": "",
     "screen_size": 0,
@@ -7911,7 +7911,7 @@
   },
   {
     "id": 404,
-    "brand": "摩托罗拉",
+    "brand": "Motorola",
     "model": "moto Razr Fold",
     "processor": "",
     "screen_size": 0,
