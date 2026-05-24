@@ -77,9 +77,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
 
 /* ----- 卡片布局调整 ----- */
-.phone-card{position:relative;}
+.phone-card{position:relative;background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:box-shadow .2s ease,border-color .2s ease}
+.phone-card:hover{box-shadow:var(--shadow-lg);border-color:#cbd5e1}
 .price-badge{position:absolute;top:8px;right:8px;z-index:1;}
-.brand-badge{position:absolute;top:8px;left:8px;z-index:1;border:1.5px solid var(--border);border-radius:var(--radius-full);}
+.brand-badge{position:absolute;top:8px;left:8px;z-index:1;border:1.5px solid var(--border);border-radius:var(--radius-sm);}
 .card-header .phone-name{font-size:1.1rem;font-weight:700;color:var(--text);line-height:1.3;text-align:center;width:100%;margin-top:30px;}
 .card-body .spec-grid{margin-top:40px;}
 .card-footer{margin-top:12px;}
@@ -104,7 +105,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-apple{background:#1C1C1C;color:#fff;border:1px solid #333}
 .brand-华为{background:#BC2D32;color:#fff;border:1px solid #fff}
 .brand-小米{background:#F27418;color:#FFFFFF;border:1px solid #fff}
-.brand-OPPO{background:#6DFB73;color:#000;border:none}
+.brand-OPPO{background:#6DFB73;color:#000;border:1px solid var(--border)}
 .brand-vivo{background:#7C3AED;color:#fff;border:1px solid #fff}
 .brand-三星{background:#2563eb;color:#fff;border:1px solid #fff}
 .brand-荣耀{background:#FFFFFF;color:#000;border:1px solid #000}
@@ -113,7 +114,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-一加{background:#FFFFFF;color:#E73421;border:1px solid #E73421}
 .brand-真我{background:#EAB51D;color:#000;border:1px solid #000}
 .brand-红魔{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
-.brand-摩托罗拉{background:#D43D2D;color:#fff;border:none}
+.brand-摩托罗拉{background:#D43D2D;color:#fff;border:1px solid var(--border)}
 .brand-联想{background:#D43D2D;color:#fff;border:1px solid #fff}
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
