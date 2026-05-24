@@ -37,7 +37,7 @@ const screenSizeRanges = [
     { name: "6.5英寸左右", min: 6.2, max: 6.8 },
     { name: "7英寸左右", min: 6.7, max: 7.5 }
 ];
-const screenTypes = ['直屏','折叠屏'];
+const screenTypes = ['📱 直屏','🔄 折叠屏'];
 const brandEnglishMap = {
     "苹果": "Apple",
     "三星": "Samsung",
@@ -371,12 +371,21 @@ function renderPhones() {
             if (f.includes('IP68') || f.includes('IP69')) tag = { t: '💧 ' + f, c: 'blue' };
             else if (f.includes('NFC')) tag = { t: '📡 NFC', c: '' };
             else if (f.includes('红外')) tag = { t: '🔴 红外', c: 'amber' };
+            else if (f === 'USB3.0') tag = { t: '🔌 USB 3.0', c: '' };
+            else if (f === '6500mAh+') tag = { t: '🔋 6500mAh+', c: 'green' };
+            else if (f === '≤200g') tag = { t: '🪶 ≤200g', c: 'green' };
+            else if (f.includes('防水')) tag = { t: '💧 防水', c: 'blue' };
             else tag = { t: f, c: '' };
             if (tag && !addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); }
         });
         p.tags.forEach(t => {
             if (cpuTags.includes(t)) { const tag = { t: '⚡ ' + t, c: 'cpu' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
             else if (t === '红外') { const tag = { t: '🔴 红外', c: 'amber' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+            else if (t === 'NFC') { const tag = { t: '📡 NFC', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+            else if (t === 'USB3.0') { const tag = { t: '🔌 USB 3.0', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+            else if (t === '6500mAh+') { const tag = { t: '🔋 6500mAh+', c: 'green' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+            else if (t === '≤200g') { const tag = { t: '🪶 ≤200g', c: 'green' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
+            else if (t === '防水') { const tag = { t: '💧 防水', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
         });
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
