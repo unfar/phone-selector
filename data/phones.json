@@ -6786,7 +6786,7 @@
     "ram": "16GB",
     "storage": "512GB/1TB",
     "battery_mah": 7000,
-    "charging_w": 80,
+    "charging_w": 120,
     "weight_g": 200,
     "camera_desc": "50MP主摄",
     "has_tele": false,
@@ -6794,10 +6794,12 @@
     "features": [],
     "tags": [
       "6500mAh+",
-      "≤200g"
+      "≤200g",
+      "USB3.0",
+      "无线充电"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-10",
@@ -7079,9 +7081,9 @@
     "resolution": "2800×1280",
     "refresh_hz": 144,
     "battery_mah": 6800,
-    "charging_w": 100,
-    "wireless_charging_w": null,
-    "usb_version": null,
+    "charging_w": 120,
+    "wireless_charging_w": 80,
+    "usb_version": "USB 3.2 Gen 1",
     "weight_g": 235,
     "os": "MagicOS",
     "camera_desc": "2亿像素",
@@ -7090,7 +7092,9 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "6500mAh+"
+      "6500mAh+",
+      "USB3.0",
+      "无线充电"
     ],
     "features": [],
     "screen_form": null,
@@ -7109,9 +7113,9 @@
     "resolution": "2800×1280",
     "refresh_hz": 120,
     "battery_mah": 6200,
-    "charging_w": 100,
-    "wireless_charging_w": null,
-    "usb_version": null,
+    "charging_w": 120,
+    "wireless_charging_w": 80,
+    "usb_version": "USB 3.2 Gen 1",
     "weight_g": 230,
     "os": "MagicOS",
     "camera_desc": "5000万像素",
@@ -7119,7 +7123,10 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
+    "tags": [
+      "USB3.0",
+      "无线充电"
+    ],
     "features": [],
     "screen_form": null,
     "release_date": null
