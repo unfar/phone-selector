@@ -50,6 +50,35 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .tag:hover{border-color:#cbd5e1;background:#f1f5f9;transform:translateY(-1px)}
 .tag.active{background:var(--primary);color:#fff;border-color:var(--primary);box-shadow:0 2px 8px rgba(37,99,235,.25)}
 .tag.active:hover{background:var(--primary-dark)}
+/* ===== Brand Active Tags ===== */
+.tag.active.brand-active-Apple{background:#1C1C1C;border-color:#1C1C1C;box-shadow:0 2px 8px rgba(28,28,28,.3)}
+.tag.active.brand-active-Huawei{background:#BC2D32;border-color:#BC2D32;box-shadow:0 2px 8px rgba(188,45,50,.3)}
+.tag.active.brand-active-Xiaomi{background:#FF4800;border-color:#FF4800;box-shadow:0 2px 8px rgba(255,72,0,.3)}
+.tag.active.brand-active-OPPO{background:#6DFB73;color:#000;border-color:#6DFB73;box-shadow:0 2px 8px rgba(109,251,115,.3)}
+.tag.active.brand-active-vivo{background:#7C3AED;border-color:#7C3AED;box-shadow:0 2px 8px rgba(124,58,237,.3)}
+.tag.active.brand-active-Samsung{background:#2563eb;border-color:#2563eb;box-shadow:0 2px 8px rgba(37,99,235,.3)}
+.tag.active.brand-active-HONOR{background:#222222;border-color:#222222;box-shadow:0 2px 8px rgba(34,34,34,.3)}
+.tag.active.brand-active-REDMI{background:#D97706;border-color:#D97706;box-shadow:0 2px 8px rgba(217,119,6,.3)}
+.tag.active.brand-active-iQOO{background:#FFD700;color:#333;border-color:#FFD700;box-shadow:0 2px 8px rgba(255,215,0,.3)}
+.tag.active.brand-active-OnePlus{background:#E73421;border-color:#E73421;box-shadow:0 2px 8px rgba(231,52,33,.3)}
+.tag.active.brand-active-realme{background:#EAB51D;color:#000;border-color:#EAB51D;box-shadow:0 2px 8px rgba(234,181,29,.3)}
+.tag.active.brand-active-RedMagic{background:#b91c1c;border-color:#b91c1c;box-shadow:0 2px 8px rgba(185,28,28,.3)}
+.tag.active.brand-active-Motorola{background:#D43D2D;border-color:#D43D2D;box-shadow:0 2px 8px rgba(212,61,45,.3)}
+.tag.active.brand-active-Lenovo{background:#D43D2D;border-color:#D43D2D;box-shadow:0 2px 8px rgba(212,61,45,.3)}
+.tag.active.brand-active-Apple:hover,
+.tag.active.brand-active-Huawei:hover,
+.tag.active.brand-active-Xiaomi:hover,
+.tag.active.brand-active-OPPO:hover,
+.tag.active.brand-active-vivo:hover,
+.tag.active.brand-active-Samsung:hover,
+.tag.active.brand-active-HONOR:hover,
+.tag.active.brand-active-REDMI:hover,
+.tag.active.brand-active-iQOO:hover,
+.tag.active.brand-active-OnePlus:hover,
+.tag.active.brand-active-realme:hover,
+.tag.active.brand-active-RedMagic:hover,
+.tag.active.brand-active-Motorola:hover,
+.tag.active.brand-active-Lenovo:hover{filter:brightness(.9)}
 .tag.cpu{background:#fef3c7;color:#92400e;border-color:#fde68a}
 .tag.cpu.active{background:#d97706;color:#fff;border-color:#d97706}
 .tag.screen{background:#fdf2f8;color:#db2777;border-color:#fbcfe8}

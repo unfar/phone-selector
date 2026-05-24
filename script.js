@@ -225,7 +225,7 @@ function renderBrandTags() {
     brandList.forEach(b => {
         const count = brandCount(b);
         const el = document.createElement('span');
-        el.className = 'tag' + (selectedBrands.has(b) ? ' active' : '');
+        el.className = 'tag' + (selectedBrands.has(b) ? ' active brand-active-' + b : '');
         el.textContent = getEnglishBrand(b);
         el.dataset.count = count;
         el.onclick = () => { selectedBrands.has(b) ? selectedBrands.delete(b) : selectedBrands.add(b); updateHash(); refresh(); };
