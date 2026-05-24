@@ -93,10 +93,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-stripe-OPPO{background:#6DFB73}
 .brand-stripe-vivo{background:#7C3AED}
 .brand-stripe-Samsung{background:#2563eb}
-.brand-stripe-HONOR{background:#FFFFFF}
+.brand-stripe-HONOR{background:#222222}
 .brand-stripe-REDMI{background:#D97706}
 .brand-stripe-iQOO{background:#FFD700}
-.brand-stripe-OnePlus{background:#FFFFFF}
+.brand-stripe-OnePlus{background:#E73421}
 .brand-stripe-realme{background:#EAB51D}
 .brand-stripe-RedMagic{background:#b91c1c}
 .brand-stripe-Motorola{background:#D43D2D}
@@ -104,18 +104,33 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 /* ===== Brand Colors ===== */
 .brand-Apple{background:#1C1C1C;color:#fff;border:1px solid #333}
 .brand-Huawei{background:#BC2D32;color:#fff;border:1px solid #fff}
-.brand-Xiaomi{background:#F27418;color:#FFFFFF;border:1px solid #fff}
-.brand-OPPO{background:#6DFB73;color:#000;border:1px solid var(--border)}
-.brand-vivo{background:#7C3AED;color:#fff;border:1px solid #fff}
-.brand-Samsung{background:#2563eb;color:#fff;border:1px solid #fff}
-.brand-HONOR{background:#FFFFFF;color:#000;border:1px solid #000}
-.brand-REDMI{background:#FFFFFF;color:#D82F44;border:1px solid #fff}
+.brand-Xiaomi{background:#FF4800;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.brand-OPPO{background:#6DFB73;color:#000;border:1px solid rgba(0,0,0,.15)}
+.brand-vivo{background:#7C3AED;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.brand-Samsung{background:#2563eb;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.brand-HONOR{background:#222222;color:#fff;border:1px solid #444}
+.brand-REDMI{background:#D97706;color:#fff;border:1px solid rgba(255,255,255,.3)}
 .brand-iQOO{background:#FFD700;color:#333;border:1px solid #ffc700}
-.brand-OnePlus{background:#FFFFFF;color:#E73421;border:1px solid #E73421}
-.brand-realme{background:#EAB51D;color:#000;border:1px solid #000}
-.brand-RedMagic{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
-.brand-Motorola{background:#D43D2D;color:#fff;border:1px solid var(--border)}
-.brand-Lenovo{background:#D43D2D;color:#fff;border:1px solid #fff}
+.brand-OnePlus{background:#E73421;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.brand-realme{background:#EAB51D;color:#000;border:1px solid rgba(0,0,0,.15)}
+.brand-RedMagic{background:#b91c1c;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.brand-Motorola{background:#D43D2D;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.brand-Lenovo{background:#D43D2D;color:#fff;border:1px solid rgba(255,255,255,.3)}
+/* ===== Brand Borders ===== */
+.phone-card.brand-border-Apple{border-color:#1C1C1C}
+.phone-card.brand-border-Huawei{border-color:#BC2D32}
+.phone-card.brand-border-Xiaomi{border-color:#FF4800}
+.phone-card.brand-border-OPPO{border-color:#6DFB73}
+.phone-card.brand-border-vivo{border-color:#7C3AED}
+.phone-card.brand-border-Samsung{border-color:#2563eb}
+.phone-card.brand-border-HONOR{border-color:#222222}
+.phone-card.brand-border-REDMI{border-color:#D97706}
+.phone-card.brand-border-iQOO{border-color:#FFD700}
+.phone-card.brand-border-OnePlus{border-color:#E73421}
+.phone-card.brand-border-realme{border-color:#EAB51D}
+.phone-card.brand-border-RedMagic{border-color:#b91c1c}
+.phone-card.brand-border-Motorola{border-color:#D43D2D}
+.phone-card.brand-border-Lenovo{border-color:#D43D2D}
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}

@@ -381,6 +381,7 @@ function renderPhones() {
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
         const cardClass = ['phone-card'];
+        cardClass.push('brand-border-' + p.brand);
         if (isCompareSelected) cardClass.push('compare-selected');
         if (compareMode) cardClass.push('compare-clickable');
 
