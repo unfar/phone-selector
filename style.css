@@ -25,7 +25,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 
 /* ===== Header ===== */
 .header{text-align:center;padding:48px 0 36px;position:relative}
-.header::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:80%;height:100%;background:radial-gradient(ellipse at top,var(--primary-light),transparent 70%);opacity:.5;pointer-events:none}
+.header::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:70%;height:100%;background:radial-gradient(ellipse at top,var(--primary),transparent 70%);opacity:.08;pointer-events:none}
 .header h1{font-size:2.4rem;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,#1e40af,#7c3aed,#db2777);-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;display:inline-block}
 .header .subtitle{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--text-secondary);margin-top:10px;font-size:.95rem;flex-wrap:wrap}
 .header .subtitle .sep{color:var(--text-muted);font-size:.5rem}
@@ -115,8 +115,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .dark-mode .sort-select{background:rgba(30,41,59,.5);backdrop-filter:blur(12px);border-color:rgba(255,255,255,.06)}
 .dark-mode .tag{background:rgba(30,41,59,.4);backdrop-filter:blur(8px);border-color:rgba(255,255,255,.06);color:var(--text-secondary)}
 .dark-mode .tag:hover{background:rgba(30,41,59,.6);border-color:rgba(255,255,255,.12)}
-.dark-mode .spec-cell{background:rgba(30,41,59,.3)}
+.dark-mode .spec-cell{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.06)}
 .dark-mode .compare-bar{background:rgba(30,41,59,.65);backdrop-filter:blur(20px);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-panel-content{background:rgba(20,28,45,.85);backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-panel-header{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-table{background:rgba(255,255,255,.03);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .card-body .spec-grid{margin-top:40px;}
 .card-footer{margin-top:12px;}
 
@@ -163,7 +166,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.spec-cell{padding:8px 10px;background:var(--bg);border-radius:var(--radius-sm)}
+.spec-cell{padding:8px 10px;background:rgba(0,0,0,.03);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);border:1px solid rgba(0,0,0,.04)}
 .spec-cell .label{font-size:.7rem;color:var(--text-muted);margin-bottom:2px}
 .spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text)}
 
@@ -174,21 +177,21 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .card-details{display:none;margin-top:12px}
 .card-details.open{display:block}
 
-.detail-section{padding:12px;background:var(--bg);border-radius:var(--radius-sm);margin-bottom:8px}
+.detail-section{padding:12px;background:rgba(0,0,0,.025);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);margin-bottom:8px;border:1px solid rgba(0,0,0,.04)}
 .detail-title{font-size:.75rem;font-weight:600;color:var(--primary);margin-bottom:8px;display:flex;align-items:center;gap:4px}
 .detail-row{font-size:.75rem;color:var(--text-secondary);margin-bottom:4px;line-height:1.4}
 .detail-row strong{color:var(--text);font-weight:600}
 
 /* ===== Card Footer ===== */
 .card-footer{padding:14px 20px;display:flex;flex-wrap:wrap;gap:6px}
-.feature-tag{padding:3px 10px;border-radius:var(--radius-full);font-size:.72rem;font-weight:500;background:#f0fdf4;color:#16a34a;border:1px solid #bbf7d0}
-.feature-tag.purple{background:#faf5ff;color:#7c3aed;border-color:#e9d5ff}
-.feature-tag.amber{background:#fffbeb;color:#d97706;border-color:#fde68a}
-.feature-tag.blue{background:#eff6ff;color:#2563eb;border-color:#bfdbfe}
-.feature-tag.fold{background:#fdf2f8;color:#db2777;border-color:#fbcfe8}
-.feature-tag.cpu{background:#fef3c7;color:#92400e;border-color:#fde68a}
-.feature-tag.green{background:#ecfdf5;color:#059669;border-color:#a7f3d0}
-.feature-tag.red{background:#fef2f2;color:#dc2626;border-color:#fecaca}
+.feature-tag{padding:3px 12px;border-radius:var(--radius-full);font-size:.72rem;font-weight:500;background:rgba(22,163,74,.08);color:#16a34a;border:1px solid rgba(22,163,74,.15)}
+.feature-tag.purple{background:rgba(124,58,237,.08);color:#7c3aed;border-color:rgba(124,58,237,.15)}
+.feature-tag.amber{background:rgba(217,119,6,.08);color:#d97706;border-color:rgba(217,119,6,.15)}
+.feature-tag.blue{background:rgba(37,99,235,.08);color:#2563eb;border-color:rgba(37,99,235,.15)}
+.feature-tag.fold{background:rgba(219,39,119,.08);color:#db2777;border-color:rgba(219,39,119,.15)}
+.feature-tag.cpu{background:rgba(146,64,14,.08);color:#92400e;border-color:rgba(146,64,14,.15)}
+.feature-tag.green{background:rgba(5,150,105,.08);color:#059669;border-color:rgba(5,150,105,.15)}
+.feature-tag.red{background:rgba(220,38,38,.08);color:#dc2626;border-color:rgba(220,38,38,.15)}
 
 /* ===== Compare Bar (底部固定选择栏) ===== */
 .compare-bar{position:fixed;bottom:0;left:0;right:0;background:var(--card-bg);box-shadow:0 -4px 20px rgba(0,0,0,.15);border-top:1px solid var(--border);z-index:100;animation:slideUp .3s ease}
@@ -211,14 +214,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 
 /* ===== Compare Panel (全屏弹窗) ===== */
 .compare-panel{position:fixed;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;align-items:center;justify-content:center}
-.compare-panel-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
-.compare-panel-content{position:relative;width:95%;max-width:1400px;background:var(--card-bg);border-radius:20px;box-shadow:0 25px 80px rgba(0,0,0,.4);overflow:hidden}
-.compare-panel-header{display:flex;align-items:center;justify-content:center;padding:20px 28px;border-bottom:2px solid var(--border);background:linear-gradient(135deg,var(--primary-light),#fff);border-radius:20px 20px 0 0;position:relative}
+.compare-panel-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.compare-panel-content{position:relative;width:95%;max-width:1400px;background:rgba(255,255,255,.85);backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);border-radius:20px;box-shadow:0 25px 80px rgba(0,0,0,.3);overflow:hidden;border:1px solid rgba(255,255,255,.3)}
+.compare-panel-header{display:flex;align-items:center;justify-content:center;padding:20px 28px;border-bottom:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.3);border-radius:20px 20px 0 0;position:relative}
 .compare-panel-header h3{font-size:1.3rem;font-weight:800;background:linear-gradient(135deg,var(--primary),#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .compare-panel-close{position:absolute;right:20px;top:50%;transform:translateY(-50%);padding:10px 14px;border:none;background:var(--bg);font-size:1.4rem;cursor:pointer;color:var(--text-muted);border-radius:12px;transition:all .2s}
 .compare-panel-close:hover{background:var(--primary);color:#fff;transform:translateY(-50%) rotate(90deg)}
-.compare-panel-body{overflow:auto;max-height:calc(90vh - 80px);padding:0 28px 20px;background:var(--bg);border-radius:0 0 20px 20px}
-.compare-table{width:100%;min-width:600px;border-collapse:collapse;font-size:.9rem;background:var(--card-bg);border-radius:12px;box-shadow:var(--shadow)}
+.compare-panel-body{overflow:auto;max-height:calc(90vh - 80px);padding:0 28px 20px;background:transparent;border-radius:0 0 20px 20px}
+.compare-table{width:100%;min-width:600px;border-collapse:collapse;font-size:.9rem;background:rgba(255,255,255,.4);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
 .compare-table thead{background:linear-gradient(135deg,#3b82f6,#60a5fa);position:sticky;top:0;z-index:10}
 .compare-table th{padding:14px 16px;text-align:center;color:#fff;font-weight:700;vertical-align:middle}
 .compare-table thead th:first-child{text-align:center;background:#3b82f6;min-width:100px;border-radius:12px 0 0 0}
