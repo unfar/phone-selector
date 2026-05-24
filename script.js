@@ -343,7 +343,18 @@ function renderPhones() {
         const isCompareSelected = compareList.includes(p.id);
         const isExpanded = expandedCards.has(p.id);
 
-        const displayName = p.model;
+        const displayName = (() => {
+            const m = p.model, b = p.brand;
+            // Case-insensitive brand prefix check
+            if (m.toLowerCase().startsWith(b.toLowerCase())) return m;
+            // Known brand prefixes already in model name
+            if (m.startsWith('iPhone') || m.startsWith('Galaxy') || m.startsWith('moto') || m.startsWith('Moto')) return m;
+            // Chinese brand name already in model
+            if ((b === 'Huawei' || b === 'HONOR' || b === 'OnePlus' || b === 'RedMagic' || b === 'Lenovo') && /^[一荣耀华红拯]/.test(m)) return m;
+            if (b === 'OPPO' || b === 'REDMI') return m; // models already include brand
+            // Prepend brand for bare model names (e.g. GT8, 13 Pro, S21)
+            return b + ' ' + m;
+        })();
 
         const sc = [
             { l: '处理器', v: p.processor || '—' },
