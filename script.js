@@ -385,7 +385,6 @@ function renderPhones() {
             else if (f === 'USB3.0') tag = { t: '🔌 USB 3.0', c: '' };
             else if (f === '6500mAh+') tag = { t: '🔋 6500mAh+', c: 'green' };
             else if (f === '≤200g') tag = { t: '🪶 ≤200g', c: 'green' };
-            else if (f.includes('防水')) tag = { t: '💧 防水', c: 'blue' };
             else tag = { t: f, c: '' };
             if (tag && !addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); }
         });
@@ -396,7 +395,6 @@ function renderPhones() {
             else if (t === 'USB3.0') { const tag = { t: '🔌 USB 3.0', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
             else if (t === '6500mAh+') { const tag = { t: '🔋 6500mAh+', c: 'green' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
             else if (t === '≤200g') { const tag = { t: '🪶 ≤200g', c: 'green' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-            else if (t === '防水') { const tag = { t: '💧 防水', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
         });
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
