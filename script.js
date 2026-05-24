@@ -54,7 +54,7 @@ async function loadData() {
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         phones = await resp.json();
         // 初始化品牌列表，确保后续渲染时有数据
-        brandList = [...new Set(phones.map(p => p.brand))];
+        brandList = [...new Set(phones.map(p => p.brand))].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
         hideLoading();
         restoreStateFromHash();
         init();
