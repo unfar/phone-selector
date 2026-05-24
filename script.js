@@ -40,19 +40,8 @@ const screenSizeRanges = [
 const screenTypes = ['直屏','折叠屏'];
 const brandEnglishMap = {
     "苹果": "Apple",
-    "华为": "Huawei",
-    "小米": "Xiaomi",
-    "OPPO": "OPPO",
-    "vivo": "vivo",
     "三星": "Samsung",
-    "荣耀": "Honor",
-    "REDMI": "Redmi",
-    "iQOO": "iQOO",
-    "一加": "OnePlus",
-    "真我": "Realme",
-    "红魔": "RedMagic",
-    "摩托罗拉": "Motorola",
-    "联想": "Lenovo"
+    "摩托罗拉": "Motorola"
 };
 function getEnglishBrand(zh) { return brandEnglishMap[zh] || zh; }
 

@@ -79,7 +79,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 /* ----- 卡片布局调整 ----- */
 .phone-card{position:relative;}
 .price-badge{position:absolute;top:8px;right:8px;z-index:1;}
-.brand-badge{position:absolute;top:8px;left:8px;z-index:1;}
+.brand-badge{position:absolute;top:8px;left:8px;z-index:1;border:1.5px solid var(--border);border-radius:var(--radius-full);}
 .card-header .phone-name{font-size:1.1rem;font-weight:700;color:var(--text);line-height:1.3;text-align:center;width:100%;margin-top:30px;}
 .card-body .spec-grid{margin-top:40px;}
 .card-footer{margin-top:12px;}
