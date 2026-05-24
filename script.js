@@ -386,10 +386,10 @@ function renderPhones() {
         if (compareMode) cardClass.push('compare-clickable');
 
         return '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
-            '<div class="card-stripe brand-stripe-' + p.brand + '"></div>' +
-            '<div class="card-header">' +
+            '<div class="card-header brand-header-' + p.brand + '">' +
+                '<span class="brand-badge brand-' + p.brand + '">' + p.brand + '</span>' +
+                priceHtml +
                 '<div class="phone-name">' + displayName + '</div>' +
-                '<div class="card-header-right">' + priceHtml + '<span class="brand-badge brand-' + p.brand + '">' + p.brand + '</span></div>' +
             '</div>' +
             '<div class="card-body">' +
                 '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value">' + s.v + '</div></div>').join('') + '</div>' +
