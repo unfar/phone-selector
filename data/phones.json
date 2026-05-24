@@ -5604,10 +5604,10 @@
   {
     "brand": "Huawei",
     "model": "HUAWEI Pura X Max",
-    "processor": "麒麟9100",
-    "screen_size": 7.0,
+    "processor": "麒麟9030Pro",
+    "screen_size": 7.7,
     "battery_mah": 5300,
-    "weight_g": 245,
+    "weight_g": 229,
     "camera_desc": "50MP主摄 + 40MP超广角 + 潜望长焦",
     "has_tele": true,
     "charging_w": 66,
@@ -5621,7 +5621,6 @@
       "无线充电",
       "潜望长焦",
       "USB3.0",
-      "骁龙8 Elite 1",
       "NFC",
       "红外"
     ],
@@ -5632,12 +5631,12 @@
     "refresh_hz": 120,
     "screen_type": "折叠屏",
     "screen_unfolded": {
-      "size": 7.0,
+      "size": 7.7,
       "resolution": "2496×2224",
       "refresh_hz": 120
     },
     "screen_folded": {
-      "size": 6.5,
+      "size": 5.4,
       "resolution": "2504×1080",
       "refresh_hz": 120
     },
