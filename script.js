@@ -22,6 +22,7 @@ const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","天玑9500","麒麟9030Pro
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const priceRanges = [
+    { name: "1000+", min: 1000, max: 1999 },
     { name: "2k+", min: 2000, max: 2999 },
     { name: "3k+", min: 3000, max: 3999 },
     { name: "4k+", min: 4000, max: 4999 },
