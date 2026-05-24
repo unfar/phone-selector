@@ -10,20 +10,24 @@
 <body>
 <button class="dark-mode-toggle" id="darkModeToggle" title="切换暗色模式">🌙</button>
 <div class="container">
-    <div class="header">
-        <h1>📱 智能手机选购助手</h1>
-        <div class="subtitle">
-            <span>基于官方数据</span>
-            <span class="sep">·</span>
-            <span>多维度筛选</span>
-            <span class="sep">·</span>
-            <span>找到最适合你的手机</span>
+    <div class="hero-panel">
+        <div class="hero-icon">📱</div>
+        <h1>智能手机选购助手</h1>
+        <div class="hero-subtitle">基于官方数据 · 多维度筛选 · 找到最适合你的手机</div>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <span class="hero-stat-num" id="statPhones">0</span>
+                <span class="hero-stat-label">款机型</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num" id="statBrands">0</span>
+                <span class="hero-stat-label">个品牌</span>
+            </div>
+            <div class="hero-stat hero-stat-date">
+                <span>📅</span>
+                <span>数据截至 2026年5月21日</span>
+            </div>
         </div>
-        <div class="stats" id="statsBar">
-            <span class="stat-item"><span class="stat-num" id="statBrands">0</span><span class="stat-label">个品牌</span></span>
-            <span class="stat-item"><span class="stat-num" id="statPhones">0</span><span class="stat-label">款机型</span></span>
-        </div>
-        <div class="date-note">📅 数据来源截止到 2026年5月21日 · 价格来自各品牌官网</div>
     </div>
 
     <div class="filter-panel">
