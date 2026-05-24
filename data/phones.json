@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 300",
     "processor": "骁龙7 Gen3",
     "screen_size": 6.67,
@@ -31,7 +31,7 @@
   },
   {
     "id": 2,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 300 Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
@@ -62,7 +62,7 @@
   },
   {
     "id": 3,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 300 Ultra",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
@@ -93,7 +93,7 @@
   },
   {
     "id": 4,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic7",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
@@ -126,7 +126,7 @@
   },
   {
     "id": 5,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic7 Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.8,
@@ -158,7 +158,7 @@
   },
   {
     "id": 6,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic7 至臻版",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -191,7 +191,7 @@
   },
   {
     "id": 7,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic V3",
     "processor": "骁龙8 Gen 3",
     "screen_size": 7.92,
@@ -233,7 +233,7 @@
   },
   {
     "id": 8,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic Vs3",
     "processor": "骁龙8 Gen 2",
     "screen_size": 7.92,
@@ -273,7 +273,7 @@
   },
   {
     "id": 13,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Mate 70",
     "processor": "麒麟9020",
     "screen_size": 6.7,
@@ -312,7 +312,7 @@
   },
   {
     "id": 14,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Mate 70 Pro+",
     "processor": "麒麟9020",
     "screen_size": 6.82,
@@ -352,7 +352,7 @@
   },
   {
     "id": 15,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Mate 70 Pro",
     "processor": "麒麟9020",
     "screen_size": 6.9,
@@ -392,7 +392,7 @@
   },
   {
     "id": 16,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Mate 70 RS 非凡大师",
     "processor": "麒麟9020",
     "screen_size": 6.82,
@@ -432,7 +432,7 @@
   },
   {
     "id": 17,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Pura 80",
     "processor": "麒麟9010s",
     "screen_size": 6.6,
@@ -466,7 +466,7 @@
   },
   {
     "id": 18,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Pura 80 Pro+",
     "processor": "麒麟9020",
     "screen_size": 6.8,
@@ -499,7 +499,7 @@
   },
   {
     "id": 19,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Pura 80 Pro",
     "processor": "麒麟9020",
     "screen_size": 6.8,
@@ -532,7 +532,7 @@
   },
   {
     "id": 20,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Pura 80 Ultra",
     "processor": "麒麟9020",
     "screen_size": 6.8,
@@ -569,7 +569,7 @@
   },
   {
     "id": 21,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 nova 13",
     "processor": "骁龙778G",
     "screen_size": 6.7,
@@ -601,7 +601,7 @@
   },
   {
     "id": 22,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 nova 13 Pro",
     "processor": "骁龙778G",
     "screen_size": 6.78,
@@ -634,7 +634,7 @@
   },
   {
     "id": 23,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 nova 13 Ultra",
     "processor": "麒麟9010",
     "screen_size": 6.78,
@@ -668,7 +668,7 @@
   },
   {
     "id": 26,
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 13",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.82,
@@ -707,7 +707,7 @@
   },
   {
     "id": 27,
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 13T",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.32,
@@ -746,7 +746,7 @@
   },
   {
     "id": 29,
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Ace 5",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
@@ -782,7 +782,7 @@
   },
   {
     "id": 30,
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Ace 5 Pro",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
@@ -892,7 +892,7 @@
   },
   {
     "id": 38,
-    "brand": "真我",
+    "brand": "realme",
     "model": "13 Pro+",
     "processor": "骁龙7s Gen2",
     "screen_size": 6.7,
@@ -925,7 +925,7 @@
   },
   {
     "id": 39,
-    "brand": "真我",
+    "brand": "realme",
     "model": "GT7 Pro",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
@@ -963,7 +963,7 @@
   },
   {
     "id": 40,
-    "brand": "真我",
+    "brand": "realme",
     "model": "GT Neo6",
     "processor": "骁龙8s Gen3",
     "screen_size": 6.78,
@@ -1543,7 +1543,7 @@
   },
   {
     "id": 68,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 15",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.36,
@@ -1585,7 +1585,7 @@
   },
   {
     "id": 69,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 15 Pro",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.73,
@@ -1624,7 +1624,7 @@
   },
   {
     "id": 70,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 15 Ultra",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.73,
@@ -1663,7 +1663,7 @@
   },
   {
     "id": 71,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 17",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.3,
@@ -1706,7 +1706,7 @@
   },
   {
     "id": 72,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.3,
@@ -1748,7 +1748,7 @@
   },
   {
     "id": 73,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro Max",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.9,
@@ -1789,7 +1789,7 @@
   },
   {
     "id": 74,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.73,
@@ -1829,7 +1829,7 @@
   },
   {
     "id": 75,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra 徕卡版",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.73,
@@ -1870,7 +1870,7 @@
   },
   {
     "id": 76,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi Civi 4 Pro",
     "processor": "骁龙8s Gen3",
     "screen_size": 6.55,
@@ -1903,7 +1903,7 @@
   },
   {
     "id": 77,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.86,
@@ -1949,7 +1949,7 @@
   },
   {
     "id": 78,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip 2",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.86,
@@ -1998,7 +1998,7 @@
   },
   {
     "id": 79,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi MIX Fold 4",
     "processor": "骁龙8 Gen 3",
     "screen_size": 7.98,
@@ -2045,7 +2045,7 @@
   },
   {
     "id": 89,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro Max",
     "processor": "麒麟9030S",
     "screen_size": 6.9,
@@ -2082,7 +2082,7 @@
   },
   {
     "id": 90,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro",
     "processor": "麒麟9030S",
     "screen_size": 6.6,
@@ -2119,7 +2119,7 @@
   },
   {
     "id": 91,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Pura 90",
     "processor": "麒麟9010S",
     "screen_size": 6.8,
@@ -2156,7 +2156,7 @@
   },
   {
     "id": 92,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro Max",
     "processor": "麒麟9030 Pro",
     "screen_size": 6.9,
@@ -2195,7 +2195,7 @@
   },
   {
     "id": 93,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (16GB)",
     "processor": "麒麟9030 Pro",
     "screen_size": 6.75,
@@ -2234,7 +2234,7 @@
   },
   {
     "id": 94,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 80",
     "processor": "麒麟9020",
     "screen_size": 6.75,
@@ -2271,7 +2271,7 @@
   },
   {
     "id": 95,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 80 RS 非凡大师",
     "processor": "麒麟9030 Pro",
     "screen_size": 6.9,
@@ -2310,7 +2310,7 @@
   },
   {
     "id": 96,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate X7",
     "processor": "麒麟9030 Pro",
     "screen_size": 6.75,
@@ -2360,7 +2360,7 @@
   },
   {
     "id": 97,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate X6",
     "processor": "麒麟9030 Pro/麒麟9030",
     "screen_size": 6.75,
@@ -2406,7 +2406,7 @@
   },
   {
     "id": 98,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova 15 Ultra",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
@@ -2443,7 +2443,7 @@
   },
   {
     "id": 99,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova 15 Pro",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
@@ -2478,7 +2478,7 @@
   },
   {
     "id": 100,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova 15",
     "processor": "麒麟8020",
     "screen_size": 6.7,
@@ -2514,7 +2514,7 @@
   },
   {
     "id": 101,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova 14 Ultra",
     "processor": "麒麟9010",
     "screen_size": 6.81,
@@ -2549,7 +2549,7 @@
   },
   {
     "id": 102,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova 14 Pro",
     "processor": "麒麟9010",
     "screen_size": 6.78,
@@ -2584,7 +2584,7 @@
   },
   {
     "id": 103,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova 14",
     "processor": "麒麟8000",
     "screen_size": 6.7,
@@ -4108,7 +4108,7 @@
     "price": 1999
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 15T",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.32,
@@ -4149,7 +4149,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 15",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.7,
@@ -4186,7 +4186,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Ace 6 至尊版",
     "processor": "天玑9500",
     "screen_size": 6.74,
@@ -4220,7 +4220,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Ace 6",
     "processor": "骁龙8至尊版",
     "screen_size": 6.83,
@@ -4257,7 +4257,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Ace 6T",
     "processor": "第五代骁龙8",
     "screen_size": 6.83,
@@ -4294,7 +4294,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Turbo 6",
     "processor": "第四代骁龙8s",
     "screen_size": 6.78,
@@ -4332,7 +4332,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Turbo 6V",
     "processor": "天玑7300",
     "screen_size": 6.78,
@@ -4365,7 +4365,7 @@
     "refresh_hz": 120
   },
   {
-    "brand": "一加",
+    "brand": "OnePlus",
     "model": "一加 Ace 5 至尊版",
     "processor": "天玑9400",
     "screen_size": 6.78,
@@ -4397,7 +4397,7 @@
     "storage": "512GB/1TB"
   },
   {
-    "brand": "真我",
+    "brand": "realme",
     "model": "Neo8",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.6,
@@ -4429,7 +4429,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "真我",
+    "brand": "realme",
     "model": "Neo7 Turbo",
     "processor": "天玑9400e",
     "screen_size": 6.8,
@@ -4456,7 +4456,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "brand": "真我",
+    "brand": "realme",
     "model": "GT8 Pro",
     "processor": "第五代骁龙8至尊版",
     "screen_size": 6.79,
@@ -4497,7 +4497,7 @@
     "os": "realme UI 7.0"
   },
   {
-    "brand": "真我",
+    "brand": "realme",
     "model": "GT8",
     "processor": "骁龙8至尊版",
     "screen_size": 6.79,
@@ -4537,7 +4537,7 @@
     "os": "realme UI 7.0"
   },
   {
-    "brand": "真我",
+    "brand": "realme",
     "model": "GT7",
     "processor": "天玑9400+",
     "screen_size": 6.8,
@@ -4566,7 +4566,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic8 Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.71,
@@ -4601,7 +4601,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic8",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.58,
@@ -4636,7 +4636,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 400",
     "processor": "骁龙7 Gen4",
     "screen_size": 6.55,
@@ -4661,7 +4661,7 @@
     "price": 2699
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 400 Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.55,
@@ -4865,7 +4865,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 11 Air",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.85,
@@ -4892,7 +4892,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 11 Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.85,
@@ -4919,7 +4919,7 @@
     "storage": "512GB/1TB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 11 Pro+",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.85,
@@ -4946,7 +4946,7 @@
     "storage": "512GB/1TB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 10S Pro",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -4973,7 +4973,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 10S Pro+",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -5000,7 +5000,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 10 Air",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -5026,7 +5026,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 10 Pro",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -5053,7 +5053,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 10 Pro+",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.8,
@@ -5080,7 +5080,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 9S Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.8,
@@ -5105,7 +5105,7 @@
     "storage": "512GB/1TB"
   },
   {
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 9S Pro+",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.8,
@@ -5131,7 +5131,7 @@
     "storage": "512GB/1TB"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic8 Pro Air",
     "processor": "天玑9500",
     "screen_size": 6.71,
@@ -5164,7 +5164,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic8 RSR保时捷",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.58,
@@ -5196,7 +5196,7 @@
     "screen_type": "OLED"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Magic V6",
     "processor": "骁龙8 Elite 5",
     "screen_size": 7.95,
@@ -5238,7 +5238,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 WIN",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.83,
@@ -5263,7 +5263,7 @@
     "price": 3999
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 Power2",
     "processor": "天玑8500 Elite",
     "screen_size": 6.79,
@@ -5285,7 +5285,7 @@
     "price": 3299
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 GT Pro",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.78,
@@ -5314,7 +5314,7 @@
     "price": 3699
   },
   {
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "荣耀 GT",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
@@ -5527,7 +5527,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro Max 风驰版",
     "processor": "麒麟9030 Pro",
     "screen_size": 6.9,
@@ -5562,7 +5562,7 @@
     "storage": "1TB"
   },
   {
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Pura X",
     "processor": "麒麟9100",
     "screen_size": 6.5,
@@ -5602,7 +5602,7 @@
     "fold_type": "纵向折叠"
   },
   {
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Pura X Max",
     "processor": "麒麟9100",
     "screen_size": 7.0,
@@ -5644,7 +5644,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 70 Pro 优享版",
     "processor": "麒麟9020",
     "screen_size": 6.82,
@@ -5678,7 +5678,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI nova Flip S",
     "processor": "麒麟8000",
     "screen_size": 6.5,
@@ -6412,7 +6412,7 @@
   },
   {
     "model": "荣耀 500",
-    "brand": "荣耀",
+    "brand": "HONOR",
     "processor": "骁龙8s Gen4",
     "screen_size": 6.7,
     "screen_type": "OLED",
@@ -6446,7 +6446,7 @@
   },
   {
     "model": "荣耀 500 Pro",
-    "brand": "荣耀",
+    "brand": "HONOR",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.78,
     "screen_type": "OLED",
@@ -6482,7 +6482,7 @@
   },
   {
     "model": "荣耀 WIN RT",
-    "brand": "荣耀",
+    "brand": "HONOR",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.83,
     "screen_type": "OLED",
@@ -6657,7 +6657,7 @@
   },
   {
     "id": 322,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (12GB)",
     "processor": "麒麟9030",
     "screen_size": 6.75,
@@ -6695,7 +6695,7 @@
   },
   {
     "id": 323,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Mate XTs 非凡大师",
     "processor": "麒麟9020",
     "screen_size": 7.9,
@@ -6740,7 +6740,7 @@
   },
   {
     "id": 325,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "Magic8 RSR 保时捷设计",
     "processor": "骁龙8 Gen4",
     "screen_size": 6.58,
@@ -6769,7 +6769,7 @@
   },
   {
     "id": 326,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "X80i",
     "processor": "天玑6080",
     "screen_size": 6.7,
@@ -6798,7 +6798,7 @@
   },
   {
     "id": 327,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "Mate 70 Pro+",
     "price": 8999,
     "processor": "麒麟9010",
@@ -6826,7 +6826,7 @@
   },
   {
     "id": 328,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "Mate 70 Pro",
     "price": 6999,
     "processor": "麒麟9010",
@@ -6854,7 +6854,7 @@
   },
   {
     "id": 329,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "Mate 70",
     "price": 5499,
     "processor": "麒麟9010",
@@ -6882,7 +6882,7 @@
   },
   {
     "id": 334,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "Pocket 70 Pro",
     "price": 6999,
     "processor": "麒麟9010",
@@ -7032,7 +7032,7 @@
   },
   {
     "id": 345,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "Magic8 Ultra",
     "price": 6999,
     "processor": "骁龙8 Elite 1",
@@ -7062,7 +7062,7 @@
   },
   {
     "id": 346,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "Magic7 Ultra",
     "price": 5999,
     "processor": "骁龙8 Gen4",
@@ -7090,7 +7090,7 @@
   },
   {
     "id": 347,
-    "brand": "荣耀",
+    "brand": "HONOR",
     "model": "X70 Pro",
     "price": 2599,
     "processor": "麒麟9010",
@@ -7211,7 +7211,7 @@
   },
   {
     "id": 357,
-    "brand": "真我",
+    "brand": "realme",
     "model": "GT6",
     "price": 2799,
     "processor": "骁龙8 Gen 3",
@@ -7239,7 +7239,7 @@
   },
   {
     "id": 358,
-    "brand": "真我",
+    "brand": "realme",
     "model": "Neo7",
     "price": 2099,
     "processor": "天玑9400",
@@ -7270,7 +7270,7 @@
   },
   {
     "id": 359,
-    "brand": "真我",
+    "brand": "realme",
     "model": "14 Pro+",
     "price": 2399,
     "processor": "骁龙7 Gen3",
@@ -7328,7 +7328,7 @@
   },
   {
     "id": 365,
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 10",
     "price": 2999,
     "processor": "骁龙8 Gen5",
@@ -7358,7 +7358,7 @@
   },
   {
     "id": 366,
-    "brand": "小米",
+    "brand": "Xiaomi",
     "model": "Xiaomi 17 Max",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.9,
@@ -7401,7 +7401,7 @@
   },
   {
     "id": 367,
-    "brand": "华为",
+    "brand": "Huawei",
     "model": "华为 Mate 70 Air",
     "processor": "麒麟9020A/9020B",
     "screen_size": 7.0,
@@ -7434,7 +7434,7 @@
   },
   {
     "id": 368,
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 11S Pro",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.85,
@@ -7468,7 +7468,7 @@
   },
   {
     "id": 369,
-    "brand": "红魔",
+    "brand": "RedMagic",
     "model": "红魔 11S Pro+",
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.85,
@@ -7771,7 +7771,7 @@
   },
   {
     "id": 398,
-    "brand": "联想",
+    "brand": "Lenovo",
     "model": "拯救者 Y70",
     "processor": "骁龙8 Gen 5",
     "screen_size": 6.82,

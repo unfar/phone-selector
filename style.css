@@ -80,7 +80,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .phone-card{position:relative;background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:box-shadow .2s ease,border-color .2s ease}
 .phone-card:hover{box-shadow:var(--shadow-lg);border-color:#cbd5e1}
 .price-badge{position:absolute;top:8px;right:8px;z-index:1;}
-.brand-badge{position:absolute;top:8px;left:8px;z-index:1;border:1.5px solid var(--border);border-radius:var(--radius-sm);}
+.brand-badge{position:absolute;top:8px;left:8px;z-index:1;border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:4px 12px;font-size:.78rem;font-weight:600;line-height:1.2}
 .card-header .phone-name{font-size:1.1rem;font-weight:700;color:var(--text);line-height:1.3;text-align:center;width:100%;margin-top:30px;}
 .card-body .spec-grid{margin-top:40px;}
 .card-footer{margin-top:12px;}
@@ -88,34 +88,34 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 /* ===== Brand Color Stripe ===== */
 .card-stripe{height:4px;border-radius:var(--radius) var(--radius) 0 0}
 .brand-stripe-Apple{background:#1C1C1C}
-.brand-stripe-华为{background:#BC2D32}
-.brand-stripe-小米{background:#FF4800}
+.brand-stripe-Huawei{background:#BC2D32}
+.brand-stripe-Xiaomi{background:#FF4800}
 .brand-stripe-OPPO{background:#6DFB73}
 .brand-stripe-vivo{background:#7C3AED}
 .brand-stripe-Samsung{background:#2563eb}
-.brand-stripe-荣耀{background:#FFFFFF}
+.brand-stripe-HONOR{background:#FFFFFF}
 .brand-stripe-REDMI{background:#D97706}
 .brand-stripe-iQOO{background:#FFD700}
-.brand-stripe-一加{background:#FFFFFF}
-.brand-stripe-真我{background:#EAB51D}
-.brand-stripe-红魔{background:#b91c1c}
+.brand-stripe-OnePlus{background:#FFFFFF}
+.brand-stripe-realme{background:#EAB51D}
+.brand-stripe-RedMagic{background:#b91c1c}
 .brand-stripe-Motorola{background:#D43D2D}
-.brand-stripe-联想{background:#D43D2D}
+.brand-stripe-Lenovo{background:#D43D2D}
 /* ===== Brand Colors ===== */
 .brand-Apple{background:#1C1C1C;color:#fff;border:1px solid #333}
-.brand-华为{background:#BC2D32;color:#fff;border:1px solid #fff}
-.brand-小米{background:#F27418;color:#FFFFFF;border:1px solid #fff}
+.brand-Huawei{background:#BC2D32;color:#fff;border:1px solid #fff}
+.brand-Xiaomi{background:#F27418;color:#FFFFFF;border:1px solid #fff}
 .brand-OPPO{background:#6DFB73;color:#000;border:1px solid var(--border)}
 .brand-vivo{background:#7C3AED;color:#fff;border:1px solid #fff}
 .brand-Samsung{background:#2563eb;color:#fff;border:1px solid #fff}
-.brand-荣耀{background:#FFFFFF;color:#000;border:1px solid #000}
+.brand-HONOR{background:#FFFFFF;color:#000;border:1px solid #000}
 .brand-REDMI{background:#FFFFFF;color:#D82F44;border:1px solid #fff}
 .brand-iQOO{background:#FFD700;color:#333;border:1px solid #ffc700}
-.brand-一加{background:#FFFFFF;color:#E73421;border:1px solid #E73421}
-.brand-真我{background:#EAB51D;color:#000;border:1px solid #000}
-.brand-红魔{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
+.brand-OnePlus{background:#FFFFFF;color:#E73421;border:1px solid #E73421}
+.brand-realme{background:#EAB51D;color:#000;border:1px solid #000}
+.brand-RedMagic{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
 .brand-Motorola{background:#D43D2D;color:#fff;border:1px solid var(--border)}
-.brand-联想{background:#D43D2D;color:#fff;border:1px solid #fff}
+.brand-Lenovo{background:#D43D2D;color:#fff;border:1px solid #fff}
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
