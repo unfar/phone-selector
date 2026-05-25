@@ -8497,5 +8497,82 @@
     "price": 1399,
     "source_url": "https://www.honor.com/cn/shop/",
     "verified_at": "2026-05-24"
+  },
+  {
+    "id": 422,
+    "brand": "HONOR",
+    "model": "荣耀600 超级版",
+    "price": 3299,
+    "processor": "第四代骁龙7",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
+    "screen_size": 6.57,
+    "screen_type": "AMOLED",
+    "resolution": "2728×1264",
+    "refresh_hz": 120,
+    "battery_mah": 8600,
+    "charging_w": 80,
+    "wireless_charging_w": null,
+    "usb_version": "USB 2.0",
+    "weight_g": 201,
+    "os": "MagicOS 10 (Android 16)",
+    "camera_desc": "2亿像素+1200万超广角微距+5000万前置",
+    "detailed_camera": "2亿像素广角(OIS)+1200万超广角微距+5000万前置",
+    "has_tele": false,
+    "has_nfc": true,
+    "has_ir": true,
+    "tags": [
+      "6500mAh+",
+      "≤200g",
+      "防水"
+    ],
+    "features": [
+      "4K闪光微单Live",
+      "IP68/IP69/IP69K",
+      "青海湖大电池",
+      "3840Hz PWM调光"
+    ],
+    "screen_form": "直屏",
+    "release_date": "2026-05"
+  },
+  {
+    "id": 423,
+    "brand": "HONOR",
+    "model": "荣耀600 Pro",
+    "price": 3899,
+    "processor": "天玑8550 Elite",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "screen_size": 6.57,
+    "screen_type": "AMOLED",
+    "resolution": "2728×1264",
+    "refresh_hz": 120,
+    "battery_mah": 8000,
+    "charging_w": 80,
+    "wireless_charging_w": 50,
+    "usb_version": "USB 2.0",
+    "weight_g": 202,
+    "os": "MagicOS 10 (Android 16)",
+    "camera_desc": "2亿像素+5000万潜望长焦+1200万超广角微距+5000万前置",
+    "detailed_camera": "2亿像素广角(OIS)+5000万潜望长焦(OIS)+1200万超广角微距+5000万前置",
+    "has_tele": true,
+    "has_nfc": true,
+    "has_ir": true,
+    "tags": [
+      "6500mAh+",
+      "潜望长焦",
+      "防水",
+      "无线充电"
+    ],
+    "features": [
+      "4K闪光微单Live",
+      "2亿微云台主摄",
+      "IP68/IP69/IP69K",
+      "青海湖大电池",
+      "3840Hz PWM调光",
+      "三重星光幻彩设计"
+    ],
+    "screen_form": "直屏",
+    "release_date": "2026-05"
   }
 ]
