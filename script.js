@@ -114,7 +114,10 @@ function restoreStateFromHash() {
 // ===== 筛选逻辑 =====
 function matchesFilters(p) {
     if (selectedBrands.size > 0 && !selectedBrands.has(p.brand)) return false;
-    if (selectedScreen && p.screen_form !== selectedScreen) return false;
+    if (selectedScreen) {
+        const screenVal = selectedScreen.replace(/^\S+\s*/, '');
+        if (p.screen_form !== screenVal) return false;
+    }
     if (selectedCpu.size > 0) { let has = false; for (let c of selectedCpu) if (p.tags.includes(c)) { has = true; break; } if (!has) return false; }
     const tagsRequireBoth = new Set(['NFC', '红外', 'USB3.0', '无线充电', '防水', '潜望长焦', '6500mAh+', '≤200g', '散热风扇']);
     for (let t of selectedTags) {
