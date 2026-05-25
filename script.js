@@ -155,8 +155,8 @@ function cmpDateDesc(a, b) {
     if (!a && !b) return 0;
     if (!a) return 1;
     if (!b) return -1;
-    if (a.startsWith(b)) return -1;  // b是a的前缀 → a更具体但更早，b（月份）更新
-    if (b.startsWith(a)) return 1;   // a是b的前缀 → b更具体但更早，a（月份）更新
+    if (a.startsWith(b)) return 1;   // b是a的前缀 → a更具体但更早，b（月份）应优先
+    if (b.startsWith(a)) return -1;  // a是b的前缀 → b更具体但更早，a（月份）应优先
     return b.localeCompare(a);
 }
 function sortPhones(list) {
