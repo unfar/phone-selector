@@ -151,18 +151,15 @@ function matchesFilters(p) {
 }
 
 // ===== 排序逻辑 =====
-function cmpDateDesc(a, b) {
-    if (!a && !b) return 0;
-    if (!a) return 1;
-    if (!b) return -1;
-    if (a.startsWith(b)) return 1;   // b是a的前缀 → a更具体但更早，b（月份）应优先
-    if (b.startsWith(a)) return -1;  // a是b的前缀 → b更具体但更早，a（月份）应优先
-    return b.localeCompare(a);
+function normDate(d) {
+    if (!d) return '';
+    if (d.length === 7) return d + '-01';  // YYYY-MM → YYYY-MM-01（月初）
+    return d;
 }
 function sortPhones(list) {
     const s = [...list];
     switch (currentSort) {
-        case 'newest': s.sort((a, b) => cmpDateDesc(a.release_date, b.release_date) || a.model.localeCompare(b.model)); break;
+        case 'newest': s.sort((a, b) => normDate(b.release_date).localeCompare(normDate(a.release_date)) || a.model.localeCompare(b.model)); break;
         case 'price_asc': s.sort((a, b) => (a.price || 99999) - (b.price || 99999)); break;
         case 'price_desc': s.sort((a, b) => (b.price || 0) - (a.price || 0)); break;
         case 'battery_desc': s.sort((a, b) => b.battery_mah - a.battery_mah); break;
