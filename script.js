@@ -18,7 +18,7 @@ let compareMode = false;
 let compareList = [];
 
 // ===== 配置 =====
-const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","天玑9500","天玑9500s","天玑8550","麒麟9030Pro","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"];
+const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","天玑9500","天玑9500s","天玑8550","天玑8550 Elite","第四代骁龙7","麒麟9030Pro","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"];
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const priceRanges = [
