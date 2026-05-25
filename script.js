@@ -154,7 +154,7 @@ function matchesFilters(p) {
 function sortPhones(list) {
     const s = [...list];
     switch (currentSort) {
-        case 'newest': s.sort((a, b) => (b.release_date || '').localeCompare(a.release_date || '')); break;
+        case 'newest': s.sort((a, b) => (b.release_date || '').localeCompare(a.release_date || '') || a.model.localeCompare(b.model)); break;
         case 'price_asc': s.sort((a, b) => (a.price || 99999) - (b.price || 99999)); break;
         case 'price_desc': s.sort((a, b) => (b.price || 0) - (a.price || 0)); break;
         case 'battery_desc': s.sort((a, b) => b.battery_mah - a.battery_mah); break;

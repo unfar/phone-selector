@@ -8578,5 +8578,42 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05"
+  },
+  {
+    "id": 424,
+    "brand": "HONOR",
+    "model": "荣耀600 元气版",
+    "price": 2699,
+    "processor": "第四代骁龙7",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "screen_size": 6.57,
+    "screen_type": "AMOLED",
+    "resolution": "2728×1264",
+    "refresh_hz": 120,
+    "battery_mah": 7000,
+    "charging_w": 80,
+    "wireless_charging_w": null,
+    "usb_version": "USB 2.0",
+    "weight_g": 190,
+    "os": "MagicOS 10 (Android 16)",
+    "camera_desc": "5000万像素索尼超清主摄",
+    "detailed_camera": "5000万像素广角+5000万前置",
+    "has_tele": false,
+    "has_nfc": true,
+    "has_ir": false,
+    "tags": [
+      "6500mAh+",
+      "≤200g",
+      "第四代骁龙7"
+    ],
+    "features": [
+      "4K闪光微单Live",
+      "0.98mm极窄四等边"
+    ],
+    "screen_form": "直屏",
+    "release_date": "2026-05",
+    "source_url": "https://www.honor.com/cn/phones/",
+    "verified_at": "2026-05-25"
   }
 ]
