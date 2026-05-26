@@ -674,7 +674,6 @@
       "红外",
       "防水",
       "无线充电",
-      "6500mAh+",
       "USB3.0"
     ],
     "screen_form": "直屏",
@@ -749,7 +748,6 @@
     "tags": [
       "NFC",
       "红外",
-      "6500mAh+",
       "防水"
     ],
     "screen_form": "直屏",
@@ -785,7 +783,6 @@
       "骁龙8 Elite 1",
       "NFC",
       "红外",
-      "6500mAh+",
       "防水"
     ],
     "screen_form": "直屏",
@@ -4364,7 +4361,6 @@
       "天玑9400",
       "NFC",
       "红外",
-      "6500mAh+",
       "防水"
     ],
     "wireless_charging_w": 0,
@@ -4552,9 +4548,12 @@
     "screen_size": 6.71,
     "battery_mah": 7200,
     "weight_g": 219,
-    "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
+    "camera_desc": "50MP主摄+50MP超广角+200MP潜望长焦3.7x/200x",
     "has_tele": true,
     "features": [
+      "IP68防水",
+      "IP69防水",
+      "IP69K防水",
       "NFC",
       "红外"
     ],
@@ -4567,20 +4566,22 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "红外"
+      "红外",
+      "防水"
     ],
     "wireless_charging_w": 80,
-    "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 5000万 f/1.6 1/1.3英寸 | 长焦: 2亿潜望 1/1.4英寸 3.7x光学",
-    "charging_w": 100,
+    "usb_version": "USB 3.2 Gen 1",
+    "detailed_camera": "后置: 5000万超夜神主摄 1/1.3\" F1.6 OIS + 5000万超广角122° F2.0 + 2亿超夜神潜望长焦 1/1.4\" F2.6 OIS 3.7x/200x | 前置: 5000万广角+3D深感",
+    "charging_w": 120,
     "release_date": "2025-10",
     "price": 4499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
     "screen_type": "OLED",
-    "resolution": "2800×1280",
-    "os": "MagicOS"
+    "resolution": "1256×2808",
+    "os": "MagicOS 10",
+    "source_url": "https://www.honor.com/cn/phones/honor-magic8-pro/spec/"
   },
   {
     "brand": "HONOR",
@@ -4589,9 +4590,12 @@
     "screen_size": 6.58,
     "battery_mah": 7000,
     "weight_g": 205,
-    "camera_desc": "5000万主摄 | 6400万潜望长焦",
+    "camera_desc": "50MP主摄+50MP超广角+64MP潜望长焦3x/120x",
     "has_tele": true,
     "features": [
+      "IP68防水",
+      "IP69防水",
+      "IP69K防水",
       "NFC",
       "红外"
     ],
@@ -4602,22 +4606,23 @@
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "USB3.0",
       "NFC",
-      "红外"
+      "红外",
+      "防水"
     ],
     "wireless_charging_w": 80,
-    "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 5000万 f/1.9 | 长焦: 6400万潜望 3x光学",
-    "charging_w": 80,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "后置: 5000万主摄 1/1.56\" F1.9 OIS + 5000万超广角122° F2.0 + 6400万超夜神潜望长焦 F2.5 OIS 3x/120x | 前置: 5000万广角",
+    "charging_w": 90,
     "release_date": "2025-10",
     "price": 4499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
     "screen_type": "OLED",
-    "resolution": "2800×1280",
-    "os": "MagicOS"
+    "resolution": "1256×2760",
+    "os": "MagicOS 10",
+    "source_url": "https://www.honor.com/cn/phones/honor-magic8/spec/"
   },
   {
     "brand": "HONOR",
@@ -5126,26 +5131,30 @@
     "brand": "HONOR",
     "model": "荣耀 Magic8 Pro Air",
     "processor": "天玑9500",
-    "screen_size": 6.71,
-    "battery_mah": 7200,
-    "weight_g": 175,
-    "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
+    "screen_size": 6.31,
+    "battery_mah": 5500,
+    "weight_g": 155,
+    "camera_desc": "50MP主摄+50MP超广角+64MP潜望长焦3.2x/100x",
     "has_tele": true,
-    "charging_w": 100,
+    "charging_w": 80,
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "os": "MagicOS",
-    "features": [],
+    "os": "MagicOS 10",
+    "features": [
+      "IP68防水",
+      "IP69防水",
+      "NFC",
+      "红外"
+    ],
     "screen_form": "直屏",
     "id": 187,
     "tags": [
       "天玑9500",
-      "轻薄",
       "无线充电",
       "潜望长焦",
       "NFC",
       "红外",
-      "6500mAh+",
+      "防水",
       "≤200g"
     ],
     "release_date": "2025-10",
@@ -5154,7 +5163,9 @@
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
     "screen_type": "OLED",
-    "resolution": "2800×1280"
+    "resolution": "2640×1216",
+    "detailed_camera": "后置: 5000万主摄 1/1.3\" F1.6 OIS + 5000万超广角112° F2.2 + 6400万潜望长焦 F2.6 OIS 3.2x/100x | 前置: 5000万",
+    "source_url": "https://www.honor.com/cn/phones/honor-magic8-pro-air/spec/"
   },
   {
     "brand": "HONOR",
@@ -5167,19 +5178,26 @@
     "has_tele": true,
     "charging_w": 80,
     "wireless_charging_w": 80,
-    "usb_version": "USB 3.2",
+    "usb_version": "USB 3.2 Gen 1",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "IP68防水",
+      "IP69防水",
+      "IP69K防水",
+      "NFC",
+      "红外"
+    ],
     "screen_form": "直屏",
     "id": 188,
     "tags": [
-      "USB3.0",
+      "骁龙8 Elite 5",
       "6500mAh+",
       "无线充电",
       "潜望长焦",
-      "骁龙8 Elite 5",
+      "USB3.0",
       "NFC",
-      "红外"
+      "红外",
+      "防水"
     ],
     "release_date": "2025-10",
     "price": 4499,
@@ -5187,7 +5205,8 @@
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
     "screen_type": "OLED",
-    "resolution": "2800×1280"
+    "resolution": "2800×1280",
+    "source_url": "https://www.honor.com/cn/phones/honor-magic8-rsr-porsche-design/spec/"
   },
   {
     "brand": "HONOR",
@@ -6757,32 +6776,43 @@
     "id": 325,
     "brand": "HONOR",
     "model": "Magic8 RSR 保时捷设计",
-    "processor": "骁龙8 Gen4",
-    "screen_size": 6.58,
+    "processor": "骁龙8 Elite 5",
+    "screen_size": 6.71,
     "refresh_hz": 120,
     "screen_type": "OLED",
-    "resolution": "2400×1080",
-    "ram": "16GB",
+    "resolution": "1256×2808",
+    "ram": "16GB/24GB",
     "storage": "512GB/1TB",
-    "battery_mah": 7000,
+    "battery_mah": 7200,
     "charging_w": 120,
-    "weight_g": 200,
-    "camera_desc": "50MP主摄",
-    "has_tele": false,
-    "os": "Android",
-    "features": [],
+    "weight_g": 239,
+    "camera_desc": "50MP主摄(1/1.3\")+50MP超广角+200MP潜望长焦3.7x/200x",
+    "has_tele": true,
+    "os": "MagicOS 10",
+    "features": [
+      "IP68防水",
+      "IP69防水",
+      "IP69K防水",
+      "NFC",
+      "红外"
+    ],
     "tags": [
+      "骁龙8 Elite 5",
       "6500mAh+",
-      "≤200g",
+      "无线充电",
+      "潜望长焦",
       "USB3.0",
-      "无线充电"
+      "NFC",
+      "红外",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "usb_version": "USB 3.2 Gen 1",
+    "detailed_camera": "后置: 5000万超夜神主摄 1/1.3\" F1.6 OIS + 5000万超广角122° F2.0 + 2亿超夜神潜望长焦 1/1.4\" F2.6 OIS 3.7x/200x | 前置: 5000万广角+3D深感",
     "release_date": "2025-10",
-    "price": 7999
+    "price": 7999,
+    "source_url": "https://www.honor.com/cn/phones/honor-magic8-rsr-porsche-design/spec/"
   },
   {
     "id": 326,
@@ -7779,7 +7809,9 @@
       "NFC",
       "USB3.0",
       "防水",
-      "红外"
+      "红外",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7849,7 +7881,9 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7881,7 +7915,9 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8034,7 +8070,9 @@
     "features": [
       "IP64防水"
     ],
-    "tags": [],
+    "tags": [
+      "6500mAh+"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8062,7 +8100,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8093,7 +8133,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8122,7 +8163,10 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "6500mAh+",
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8153,7 +8197,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8185,7 +8230,9 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8214,7 +8261,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8245,7 +8294,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8274,7 +8324,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8302,7 +8354,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8333,7 +8387,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8362,7 +8417,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8393,7 +8450,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8491,7 +8549,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8525,7 +8585,6 @@
     "has_ir": true,
     "tags": [
       "6500mAh+",
-      "≤200g",
       "防水",
       "第四代骁龙7"
     ],
