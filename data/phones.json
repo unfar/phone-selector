@@ -8642,5 +8642,44 @@
     "release_date": "2026-05-25",
     "source_url": "https://www.honor.com/cn/phones/",
     "verified_at": "2026-05-25"
+  },
+  {
+    "id": 243,
+    "brand": "Motorola",
+    "model": "moto X70 Air Pro",
+    "processor": "骁龙8 Gen5",
+    "screen_size": 6.78,
+    "refresh_hz": 120,
+    "screen_type": "OLED微曲屏",
+    "resolution": "1264×2780",
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
+    "battery_mah": 5200,
+    "charging_w": 90,
+    "wireless_charging_w": 30,
+    "weight_g": 186,
+    "camera_desc": "50MP+50MP超广角双主摄 | 50MP前置",
+    "detailed_camera": "后置: 5000万主摄 + 5000万超广角 双8K AI影像 3.5°云台级防抖 | 前置: 5000万",
+    "has_tele": false,
+    "os": "Android 16",
+    "features": [
+      "NFC",
+      "5G",
+      "IP68防水",
+      "IP69防水"
+    ],
+    "tags": [
+      "骁龙8 Gen5",
+      "无线充电",
+      "NFC",
+      "防水",
+      "≤200g"
+    ],
+    "screen_form": "微曲屏",
+    "usb_version": "USB 2.0",
+    "release_date": "2026-01",
+    "price": 4499,
+    "source_url": "https://item.lenovo.com.cn/product/1051918.html",
+    "verified_at": "2026-05-26"
   }
 ]
