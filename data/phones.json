@@ -7935,7 +7935,7 @@
     "id": 222,
     "brand": "Motorola",
     "model": "moto Razr Fold",
-    "processor": "骁龙8 Elite 5",
+    "processor": "骁龙8 Gen5",
     "screen_size": 8.1,
     "refresh_hz": 120,
     "screen_type": "pOLED折叠屏",
@@ -7960,7 +7960,7 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "骁龙8 Elite 5"
+      "骁龙8 Gen5"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
