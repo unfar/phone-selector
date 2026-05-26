@@ -383,26 +383,21 @@ function renderPhones() {
 
         const ft = [];
         const addedTags = new Set();
-        // 仅展示特性标签（featureTags）中的标签
         const addFT = (tag, cls) => { if (!addedTags.has(tag)) { ft.push({ t: tag, c: cls }); addedTags.add(tag); } };
-        // 潜望长焦
+        // 屏幕形态
+        if (p.screen_form === '折叠屏') addFT('📱 折叠屏', 'fold');
+        // 处理器标签
+        p.tags.forEach(t => { if (cpuTags.includes(t) && !addedTags.has('⚡ ' + t)) addFT('⚡ ' + t, 'cpu'); });
+        // 特性标签
         if (p.has_tele) addFT('🔭 潜望长焦', 'purple');
-        // 无线充电
         if (p.tags.includes('无线充电')) addFT('🔋 无线充电', 'green');
-        // 散热风扇
         if (p.tags.includes('散热风扇')) addFT('🌀 散热风扇', 'red');
-        // 防水（显示具体 IP 等级）
         const ipRating = (p.features || []).find(f => f.includes('IP68') || f.includes('IP69'));
         if (ipRating) addFT('💧 ' + ipRating, 'blue');
-        // NFC
         if (p.tags.includes('NFC') || (p.features || []).some(f => f.includes('NFC'))) addFT('📡 NFC', '');
-        // 红外
         if (p.tags.includes('红外') || (p.features || []).some(f => f.includes('红外'))) addFT('🔴 红外', 'amber');
-        // USB 3.0
         if (p.tags.includes('USB3.0') || (p.features || []).includes('USB3.0')) addFT('🔌 USB 3.0', '');
-        // 6500mAh+
         if (p.tags.includes('6500mAh+') || (p.features || []).includes('6500mAh+')) addFT('🔋 6500mAh+', 'green');
-        // ≤200g
         if (p.tags.includes('≤200g') || (p.features || []).includes('≤200g')) addFT('🪶 ≤200g', 'green');
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
