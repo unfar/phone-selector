@@ -6962,36 +6962,6 @@
 "release_date": "2026-05-25"
 },
 {
-"id": 340,
-"brand": "vivo",
-"model": "X Fold6",
-"price": 8999,
-"processor": "骁龙8 Gen5",
-"ram": "512",
-"storage": "12+256",
-"screen_size": 7.9,
-"screen_type": null,
-"resolution": null,
-"refresh_hz": 120,
-"battery_mah": 7000,
-"charging_w": 120,
-"wireless_charging_w": null,
-"usb_version": null,
-"weight_g": 290,
-"os": null,
-"camera_desc": "2亿像素",
-"detailed_camera": null,
-"has_tele": false,
-"has_nfc": false,
-"has_ir": false,
-"tags": [
-"6500mAh+"
-],
-"features": [],
-"screen_form": null,
-"release_date": "2026-01"
-},
-{
 "id": 341,
 "brand": "vivo",
 "model": "S21 Pro",
