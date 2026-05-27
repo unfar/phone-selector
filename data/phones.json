@@ -7827,92 +7827,104 @@
 "id": 403,
 "brand": "Motorola",
 "model": "moto Razr 70 Ultra",
-"processor": "",
-"screen_size": 0,
-"refresh_hz": 0,
-"screen_type": "",
-"resolution": "",
-"ram": "",
-"storage": "",
-"battery_mah": 0,
-"charging_w": 0,
-"weight_g": 0,
-"camera_desc": "",
+"processor": "骁龙8 Elite 1",
+"screen_size": 6.96,
+"refresh_hz": 165,
+"screen_type": "OLED折叠屏",
+"resolution": "2992×1224",
+"ram": "12GB/16GB",
+"storage": "256GB/512GB/1TB",
+"battery_mah": 5000,
+"charging_w": 68,
+"weight_g": 199,
+"camera_desc": "后置50MP主摄(LOFIC)+50MP超广角微距 | 前置50MP",
 "has_tele": false,
-"os": "",
+"os": "Android 16 (Moto AI)",
 "features": [
+"IP48",
 "NFC",
-"5G"
+"5G",
+"双扬声器"
 ],
 "tags": [
 "折叠屏",
 "无线充电",
-"NFC"
+"NFC",
+"防水",
+"≤200g"
 ],
 "screen_form": "折叠屏",
-"wireless_charging_w": 0,
+"wireless_charging_w": 30,
 "usb_version": "USB 2.0",
-"detailed_camera": "",
+"detailed_camera": "主摄: 50MP LOFIC 1/1.55\" 单帧HDR | 超广角: 50MP 微距",
 "release_date": "2026-05",
 "price": 7499,
 "fold_type": "纵向折叠",
 "screen_unfolded": {
-"size": 0,
-"resolution": "",
-"refresh_hz": 0
+"size": 6.96,
+"resolution": "2992×1224",
+"refresh_hz": 165
 },
 "screen_folded": {
-"size": 0,
-"resolution": "",
-"refresh_hz": 0
+"size": 4.0,
+"resolution": "1272×1080",
+"refresh_hz": 165
 },
-"source_url": "https://shop.lenovo.com.cn/",
-"verified_at": "2026-05-19"
+"source_url": "https://item.lenovo.com.cn/product/1053466.html",
+"verified_at": "2026-05-27"
 },
 {
 "id": 404,
 "brand": "Motorola",
 "model": "moto Razr Fold",
-"processor": "",
-"screen_size": 0,
-"refresh_hz": 0,
-"screen_type": "",
-"resolution": "",
-"ram": "",
-"storage": "",
-"battery_mah": 0,
-"charging_w": 0,
-"weight_g": 0,
-"camera_desc": "",
-"has_tele": false,
-"os": "",
+"processor": "骁龙8 Gen5",
+"screen_size": 8.1,
+"refresh_hz": 120,
+"screen_type": "pOLED折叠屏",
+"resolution": "2484×2232",
+"ram": "12GB/16GB",
+"storage": "256GB/512GB/1TB",
+"battery_mah": 6000,
+"charging_w": 80,
+"weight_g": 244,
+"camera_desc": "后置50MP主摄(OIS)+50MP超广角+50MP潜望长焦3x | 外屏32MP+内屏20MP",
+"has_tele": true,
+"os": "Android 16 (MyUI)",
 "features": [
+"IP48",
+"IP49",
 "NFC",
-"5G"
+"5G",
+"双扬声器",
+"手写笔支持",
+"AI按键"
 ],
 "tags": [
 "折叠屏",
-"NFC"
+"潜望长焦",
+"无线充电",
+"NFC",
+"防水"
 ],
 "screen_form": "折叠屏",
-"wireless_charging_w": 0,
-"usb_version": "USB 2.0",
-"detailed_camera": "",
+"wireless_charging_w": 50,
+"usb_version": "USB 3.2 Gen 2",
+"detailed_camera": "主摄: 50MP SONY LYTIA 828 1/1.28\" OIS | 超广角: 50MP Samsung S5KJNS | 潜望长焦: 50MP SONY LYTIA 600 OIS 3x",
 "release_date": "2026-05",
 "price": 9999,
 "fold_type": "横向折叠",
 "screen_unfolded": {
-"size": 0,
-"resolution": "",
-"refresh_hz": 0
+"size": 8.1,
+"resolution": "2484×2232",
+"refresh_hz": 120
 },
 "screen_folded": {
-"size": 0,
-"resolution": "",
-"refresh_hz": 0
+"size": 6.6,
+"resolution": "2520×1080",
+"refresh_hz": 165
 },
 "source_url": "https://shop.lenovo.com.cn/",
-"verified_at": "2026-05-19"
+"verified_at": "2026-05-27"
 },
 {
 "id": 405,
