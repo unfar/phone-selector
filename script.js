@@ -415,7 +415,7 @@ function renderPhones() {
 
         return '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
             '<div class="card-header brand-header-' + p.brand + '">' +
-                '<span class="brand-badge brand-' + p.brand + '">' + p.brand + '</span>' +
+                '<span class="brand-badge"><img class="brand-logo" src="assets/logos/' + p.brand.toLowerCase() + '.svg" alt="' + p.brand + '"></span>' +
                 priceHtml +
                 '<div class="phone-name">' + displayName + '</div>' +
             '</div>' +
