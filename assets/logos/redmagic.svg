@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 24" width="140" height="24">
-  <rect width="140" height="24" fill="none"/>
-  <!-- RedMagic stylized diamond emblem -->
-  <path fill="#fff" d="M10 2l8 0 8 10-8 10-8-10 8-10z" fill="#fff" opacity="0.85"/>
-  <path fill="#fff" d="M12 4l6 0 6 8-6 8-6-8 6-8z" fill="#fff"/>
-  <text x="32" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="17" fill="#fff" letter-spacing="3">REDMAGIC</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 24">
+  <rect width="98" height="24" fill="none"/>
+  <path fill="#fff" d="M10 4l6-2 6 2 6 8-6 8-6 2-6-2-6-8 6-8z" opacity="0.9"/>
+  <path fill="#fff" d="M12 6l4-1 4 1 4 6-4 6-4 1-4-1-4-6 4-6z"/>
+  <text x="32" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="14" fill="#fff" letter-spacing="2">REDMAGIC</text>
 </svg>
