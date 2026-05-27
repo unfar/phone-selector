@@ -38,6 +38,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .dark-mode .hero-stat{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
 .dark-mode .brand-header-HONOR{background:linear-gradient(135deg,#2a2a2a,#3a3a3a)}
 .dark-mode .brand-header-HONOR .phone-name{color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.15)}
+.dark-mode .brand-header-HONOR .brand-logo{filter:invert(1)}
 .dark-mode .brand-HONOR{color:#fff}
 
 /* ===== Filter Panel ===== */
