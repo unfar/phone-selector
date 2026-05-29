@@ -8596,8 +8596,47 @@
       "NFC",
       "红外"
     ],
-    "release_date": "2026-05",
+    "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/param/s60",
+    "verified_at": "2026-05-29"
+  },
+  {
+    "id": 426,
+    "brand": "vivo",
+    "model": "vivo S60 元气版",
+    "price": 2899,
+    "processor": "天玑7500",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "screen_size": 6.59,
+    "screen_type": "AMOLED",
+    "resolution": "2750×1260",
+    "refresh_hz": 144,
+    "battery_mah": 7200,
+    "charging_w": 90,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 199,
+    "os": "OriginOS 6 (Android 16)",
+    "camera_desc": "5000万索尼LYT700V主摄+800万超广角",
+    "detailed_camera": "5000万像素索尼LYT700V(1/1.56\")主摄+800万像素超广角+5000万前置",
+    "has_tele": false,
+    "screen_form": "直屏",
+    "features": [
+      "IP68",
+      "IP69",
+      "立体声双扬声器",
+      "超声波指纹2.0"
+    ],
+    "tags": [
+      "6500mAh+",
+      "NFC",
+      "红外",
+      "防水",
+      "≤200g"
+    ],
+    "release_date": "2026-05-29",
+    "source_url": "https://www.vivo.com.cn/vivo/s60",
     "verified_at": "2026-05-29"
   }
 ]
