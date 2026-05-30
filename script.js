@@ -405,30 +405,23 @@ function renderPhones() {
         if (!p.detailed_camera && p.camera_desc) detailHtml += '<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">' + p.camera_desc + '</div></div>';
 
         const ft = [];
-        const addedTags = new Set();
-        if (p.has_tele) { ft.push({ t: '🔭 潜望长焦', c: 'purple' }); addedTags.add('🔭 潜望长焦'); }
-        if (p.screen_form === '折叠屏') { ft.push({ t: '📱 折叠屏', c: 'fold' }); addedTags.add('📱 折叠屏'); }
-        if (p.tags.includes('无线充电')) { ft.push({ t: '🔋 无线充电', c: 'green' }); addedTags.add('🔋 无线充电'); }
-        if (p.tags.includes('散热风扇')) { ft.push({ t: '🌀 散热风扇', c: 'red' }); addedTags.add('🌀 散热风扇'); }
-        (p.features || []).forEach(f => {
-            let tag = null;
-            if (f.includes('IP68') || f.includes('IP69')) tag = { t: '💧 ' + f, c: 'blue' };
-            else if (f.includes('NFC')) tag = { t: '📡 NFC', c: '' };
-            else if (f.includes('红外')) tag = { t: '🔴 红外', c: 'amber' };
-            else if (f === 'USB3.0') tag = { t: '🔌 USB 3.0', c: '' };
-            else if (f === '6500mAh+') tag = { t: '🔋 6500mAh+', c: 'green' };
-            else if (f === '≤200g') tag = { t: '🪶 ≤200g', c: 'green' };
-            else tag = { t: f, c: '' };
-            if (tag && !addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); }
-        });
-        p.tags.forEach(t => {
-            if (cpuTags.includes(t)) { const tag = { t: '⚡ ' + t, c: 'cpu' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-            else if (t === '红外') { const tag = { t: '🔴 红外', c: 'amber' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-            else if (t === 'NFC') { const tag = { t: '📡 NFC', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-            else if (t === 'USB3.0') { const tag = { t: '🔌 USB 3.0', c: 'blue' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-            else if (t === '6500mAh+') { const tag = { t: '🔋 6500mAh+', c: 'green' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-            else if (t === '≤200g') { const tag = { t: '🪶 ≤200g', c: 'green' }; if (!addedTags.has(tag.t)) { ft.push(tag); addedTags.add(tag.t); } }
-        });
+        // 仅展示特性标签中的标签（潜望长焦/6500mAh+/≤200g/防水/NFC/红外/USB3.0/无线充电/散热风扇）
+        if (p.has_tele) ft.push({ t: '🔭 潜望长焦', c: 'purple' });
+        if (p.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' });
+        if (p.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' });
+        // 防水（显示具体 IP 等级）
+        const ipRating = (p.features || []).find(f => f.includes('IP68') || f.includes('IP69'));
+        if (ipRating) ft.push({ t: '💧 ' + ipRating, c: 'blue' });
+        // NFC
+        if (p.tags.includes('NFC') || (p.features || []).some(f => f.includes('NFC'))) ft.push({ t: '📡 NFC', c: '' });
+        // 红外
+        if (p.tags.includes('红外') || (p.features || []).some(f => f.includes('红外'))) ft.push({ t: '🔴 红外', c: 'amber' });
+        // USB 3.0
+        if (p.tags.includes('USB3.0') || (p.features || []).includes('USB3.0')) ft.push({ t: '🔌 USB 3.0', c: '' });
+        // 6500mAh+
+        if (p.tags.includes('6500mAh+') || (p.features || []).includes('6500mAh+')) ft.push({ t: '🔋 6500mAh+', c: 'green' });
+        // ≤200g
+        if (p.tags.includes('≤200g') || (p.features || []).includes('≤200g')) ft.push({ t: '🪶 ≤200g', c: 'green' });
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
         const cardClass = ['phone-card'];
