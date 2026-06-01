@@ -8774,7 +8774,7 @@
     "id": 431,
     "brand": "Huawei",
     "model": "HUAWEI nova 16z",
-    "processor": "麒麟9010S",
+    "processor": "麒麟8020",
     "screen_size": 6.7,
     "refresh_hz": 120,
     "screen_type": "OLED",
@@ -8798,7 +8798,7 @@
       "立体声双扬声器"
     ],
     "tags": [
-      "麒麟9010S",
+      "麒麟8020",
       "NFC",
       "≤200g"
     ],
