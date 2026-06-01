@@ -6296,7 +6296,7 @@
   },
   {
     "model": "Galaxy A57 5G",
-    "processor": "骁龙7s Gen3",
+    "processor": "Exynos 1680",
     "screen_size": 6.7,
     "screen_type": "Super AMOLED+",
     "screen_form": "直屏",
@@ -6304,7 +6304,7 @@
     "charging_w": 45,
     "wireless_charging_w": 0,
     "weight_g": 179,
-    "os": "One UI 7 / Android 15",
+    "os": "One UI 8.5 / Android 16",
     "camera_desc": "后置 5000万(F1.8 OIS)+1200万(F2.2超广角)+500万(F2.4微距) | 前置 1200万(F2.2)",
     "has_tele": false,
     "usb_version": "USB 2.0",
