@@ -149,7 +149,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-badge{position:absolute;top:12px;left:12px;z-index:1;border-radius:12px;padding:6px 14px;display:flex;align-items:center;background:rgba(255,255,255,.2);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 .brand-logo{height:22px;width:auto;display:block}
 .brand-text-logo{font-size:14px;font-weight:700;color:#fff;letter-spacing:1px;white-space:nowrap}
-.unsupported{color:rgba(255,255,255,.35)!important;font-size:.78rem;text-decoration:line-through;font-style:italic}
+.unsupported{color:#ef4444!important;font-size:.78rem;text-decoration:line-through;font-style:italic}
 /* ===== Price Badge (glass on header) ===== */
 .price-badge{position:absolute;top:12px;right:12px;z-index:1;border-radius:var(--radius-full);padding:3px 12px;font-size:.78rem;font-weight:700;white-space:nowrap;background:rgba(255,255,255,.2);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(255,255,255,.25)}
 
