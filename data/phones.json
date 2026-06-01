@@ -8814,5 +8814,43 @@
     "price": 4699,
     "source_url": "https://consumer.huawei.com/cn/phones/nova16-ultra/",
     "verified_at": "2026-06-01"
+  },
+  {
+    "id": 431,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16z",
+    "processor": "麒麟9010S",
+    "screen_size": 6.7,
+    "refresh_hz": 120,
+    "screen_type": "OLED",
+    "resolution": "2412×1084",
+    "ram": "8GB / 12GB",
+    "storage": "256GB",
+    "battery_mah": 7000,
+    "charging_w": 100,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 195,
+    "camera_desc": "5000万超高清主摄 | 红枫原色镜头",
+    "detailed_camera": "主摄: 5000万 | 前置: 5000万",
+    "has_tele": false,
+    "has_ultrawide": false,
+    "os": "HarmonyOS 6.1",
+    "screen_form": "直屏",
+    "features": [
+      "NFC",
+      "侧边指纹",
+      "立体声双扬声器"
+    ],
+    "tags": [
+      "麒麟9010S",
+      "NFC",
+      "6500mAh+",
+      "≤200g"
+    ],
+    "release_date": "2026-06",
+    "price": 2699,
+    "source_url": "https://consumer.huawei.com/cn/phones/nova16z/",
+    "verified_at": "2026-06-01"
   }
 ]
