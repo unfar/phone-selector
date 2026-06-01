@@ -441,7 +441,7 @@ function renderPhones() {
                 '<div class="phone-name">' + displayName + '</div>' +
             '</div>' +
             '<div class="card-body">' +
-                '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value">' + s.v + '</div></div>').join('') + '</div>' +
+                '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value' + (s.v === '不支持' || s.v === '—' ? ' unsupported' : '') + '">' + s.v + '</div></div>').join('') + '</div>' +
                 '<div class="card-expand"><button class="expand-btn" data-id="' + p.id + '">' + (isExpanded ? '收起 ▲' : '展开详情 ▼') + '</button></div>' +
                 '<div class="card-details ' + (isExpanded ? 'open' : '') + '">' + detailHtml + '</div>' +
             '</div>' + fh +
@@ -656,7 +656,7 @@ function renderComparePanel() {
                 }
             }
             
-            html += '<td>' + displayValue + '</td>';
+            html += '<td class="' + (value === '不支持' || value === '—' ? 'unsupported' : '') + '">' + displayValue + '</td>';
         });
         html += '</tr>';
     });
