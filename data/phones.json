@@ -8781,7 +8781,7 @@
     "resolution": "2412×1084",
     "ram": "8GB / 12GB",
     "storage": "256GB",
-    "battery_mah": 7000,
+    "battery_mah": 6000,
     "charging_w": 100,
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8800,7 +8800,6 @@
     "tags": [
       "麒麟9010S",
       "NFC",
-      "6500mAh+",
       "≤200g"
     ],
     "release_date": "2026-06-01",
