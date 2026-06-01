@@ -43,7 +43,7 @@ const textLogoBrands = new Set(['Samsung','OPPO','REDMI','iQOO','HONOR','vivo','
 function getLogoStyle(brand) {
     return largeLogoBrands.has(brand) ? 'height:32px;width:auto' : 'height:22px;width:auto';
 }
-const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇"];
+const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const priceRanges = [
     { name: "<1k", min: 0, max: 999 },
@@ -143,7 +143,7 @@ function matchesFilters(p) {
         if (p.screen_form !== screenVal) return false;
     }
     if (selectedCpu.size > 0) { let has = false; for (let c of selectedCpu) if (p.tags.includes(c)) { has = true; break; } if (!has) return false; }
-    const tagsRequireBoth = new Set(['NFC', '红外', 'USB3.0', '无线充电', '防水', '潜望长焦', '6500mAh+', '≤200g', '散热风扇']);
+    const tagsRequireBoth = new Set(['NFC', '红外', 'USB3.0', '无线充电', '防水', '潜望长焦', '6500mAh+', '≤200g', '散热风扇', '有线投屏']);
     for (let t of selectedTags) {
         if (tagsRequireBoth.has(t)) {
             const inTags = p.tags.includes(t);
@@ -406,7 +406,7 @@ function renderPhones() {
         if (!p.detailed_camera && p.camera_desc) detailHtml += '<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">' + p.camera_desc + '</div></div>';
 
         const ft = [];
-        // 仅展示特性标签中的标签（潜望长焦/6500mAh+/≤200g/防水/NFC/红外/USB3.0/无线充电/散热风扇）
+        // 仅展示特性标签中的标签（潜望长焦/6500mAh+/≤200g/防水/NFC/红外/USB3.0/无线充电/散热风扇/有线投屏）
         if (p.has_tele) ft.push({ t: '🔭 潜望长焦', c: 'purple' });
         if (p.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' });
         if (p.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' });
@@ -419,6 +419,8 @@ function renderPhones() {
         if (p.tags.includes('红外') || (p.features || []).some(f => f.includes('红外'))) ft.push({ t: '🔴 红外', c: 'amber' });
         // USB 3.0
         if (p.tags.includes('USB3.0') || (p.features || []).includes('USB3.0')) ft.push({ t: '🔌 USB 3.0', c: '' });
+        // 有线投屏
+        if (p.tags.includes('有线投屏') || (p.features || []).includes('有线投屏')) ft.push({ t: '🖥️ 有线投屏', c: '' });
         // 6500mAh+
         if (p.tags.includes('6500mAh+') || (p.features || []).includes('6500mAh+')) ft.push({ t: '🔋 6500mAh+', c: 'green' });
         // ≤200g
@@ -604,6 +606,12 @@ function renderComparePanel() {
             return '—';
         }},
         { l: '📷 潜望长焦', v: p => p.has_tele ? '✅ 支持' : '—' },
+        { l: '🖥️ 有线投屏', v: p => {
+            const tags = p.tags || [];
+            const feats = p.features || [];
+            if (tags.includes('有线投屏') || feats.some(f => f.includes('有线投屏'))) return '✅ 支持';
+            return '—';
+        }},
         { l: '📅 发布日期', v: p => p.release_date || '—' },
     ];
 
