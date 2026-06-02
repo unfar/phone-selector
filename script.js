@@ -180,6 +180,38 @@ function normDate(d) {
     if (d.length === 7) return d + '-01';  // YYYY-MM → YYYY-MM-01（月初）
     return d;
 }
+
+/** 从机型名提取系列名（如一加 Ace 5 Pro → 一加 Ace 5）*/
+function getSeriesName(model) {
+    let s = model.trim();
+
+    // 中文特殊后缀
+    s = s.replace(/ (RS 非凡大师|RSR保时捷|风驰版|徕卡版|至尊版|元气版|保时捷设计|保时捷)$/, '');
+    s = s.replace(/ 优享版$/, '');
+
+    // 内存版本如 (16GB)、(12GB)
+    s = s.replace(/ \(\d+GB\)$/, '');
+
+    // 英文后缀（带空格，最长优先匹配）
+    const engSuffixes = [
+        ' Pro Max', ' Pro mini', ' Pro+', ' Ultra', ' Pro',
+        ' Plus', ' Max', ' Mini', ' Lite', ' SE', ' FE', ' Note', ' Turbo'
+    ];
+    for (const suff of engSuffixes) {
+        if (s.endsWith(suff)) {
+            s = s.slice(0, -suff.length).trim();
+            break;
+        }
+    }
+
+    // 单字母后缀（数字后接 z/T/s/c/+ 等，如 nova16z → nova16）
+    while (/[0-9][zTs+c]$/.test(s)) {
+        s = s.slice(0, -1);
+    }
+
+    return s.trim();
+}
+
 function sortPhones(list) {
     const s = [...list];
     switch (currentSort) {
@@ -191,6 +223,23 @@ function sortPhones(list) {
         case 'screen_desc': s.sort((a, b) => b.screen_size - a.screen_size); break;
         case 'charging_desc': s.sort((a, b) => b.charging_w - a.charging_w); break;
         case 'brand_asc': s.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model)); break;
+        case 'series_price_asc':
+            // 按品牌分组 → 同品牌按系列分组 → 同系列按价格递增
+            const seriesMap = {};
+            s.forEach(p => {
+                const key = p.brand + '||' + getSeriesName(p.model);
+                if (!seriesMap[key]) seriesMap[key] = [];
+                seriesMap[key].push(p);
+            });
+            // 每个系列内按价格递增排
+            Object.values(seriesMap).forEach(group => {
+                group.sort((a, b) => (a.price || 99999) - (b.price || 99999));
+            });
+            // 所有系列按品牌+系列名排序
+            const sortedKeys = Object.keys(seriesMap).sort();
+            const result = [];
+            sortedKeys.forEach(k => result.push(...seriesMap[k]));
+            return result;
     }
     return s;
 }
