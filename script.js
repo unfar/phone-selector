@@ -468,12 +468,12 @@ function renderPhones() {
         if (p.tags.includes('红外') || (p.features || []).some(f => f.includes('红外'))) ft.push({ t: '🔴 红外', c: 'amber' });
         // USB 3.0
         if (p.tags.includes('USB3.0') || (p.features || []).includes('USB3.0')) ft.push({ t: '🔌 USB 3.0', c: '' });
-        // 有线投屏
-        if (p.tags.includes('有线投屏') || (p.features || []).includes('有线投屏')) ft.push({ t: '🖥️ 有线投屏', c: '' });
         // 6500mAh+
         if (p.tags.includes('6500mAh+') || (p.features || []).includes('6500mAh+')) ft.push({ t: '🔋 6500mAh+', c: 'green' });
         // ≤200g
         if (p.tags.includes('≤200g') || (p.features || []).includes('≤200g')) ft.push({ t: '🪶 ≤200g', c: 'green' });
+        // 有线投屏
+        if (p.tags.includes('有线投屏') || (p.features || []).includes('有线投屏')) ft.push({ t: '🖥️ 有线投屏', c: '' });
         const fh = ft.length > 0 ? '<div class="card-footer">' + ft.map(f => '<span class="feature-tag ' + f.c + '">' + f.t + '</span>').join('') + '</div>' : '';
 
         const cardClass = ['phone-card'];
