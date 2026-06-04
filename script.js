@@ -340,7 +340,11 @@ function renderScreenTags() {
         const el = document.createElement('span');
         el.className = 'tag screen' + (selectedScreen === s ? ' active' : '');
         el.textContent = s;
-        el.onclick = () => { selectedScreen = selectedScreen === s ? null : s; updateHash(); refresh(); };
+        el.onclick = () => { 
+            selectedScreen = selectedScreen === s ? null : s; 
+            if (selectedScreen === '🔄 折叠屏') selectedScreenSizes.clear();
+            updateHash(); refresh(); 
+        };
         c.appendChild(el);
     });
 }
@@ -397,6 +401,7 @@ function renderScreenSizeTags() {
         el.textContent = range.name;
         el.onclick = () => {
             selectedScreenSizes.has(range.name) ? selectedScreenSizes.delete(range.name) : selectedScreenSizes.add(range.name);
+            if (selectedScreen === '🔄 折叠屏') selectedScreen = null;
             updateHash();
             refresh();
         };
