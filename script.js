@@ -10,7 +10,7 @@ let selectedCpu = new Set();
 let selectedTags = new Set();
 let selectedPriceRanges = new Set();
 let selectedScreenSizes = new Set();
-let currentSort = 'newest';
+let currentSort = 'series_price_asc';
 let expandedCards = new Set();
 
 // ===== 对比功能变量 =====
@@ -110,7 +110,7 @@ function updateHash() {
     if (selectedTags.size > 0) params.set('tags', [...selectedTags].join(','));
     if (selectedPriceRanges.size > 0) params.set('priceRange', [...selectedPriceRanges].join(','));
     if (selectedScreenSizes.size > 0) params.set('screenSize', [...selectedScreenSizes].join(','));
-    if (currentSort !== 'newest') params.set('sort', currentSort);
+    if (currentSort !== 'series_price_asc') params.set('sort', currentSort);
     const hash = params.toString();
     history.replaceState(null, '', `#${hash}`);
 }
@@ -130,7 +130,7 @@ function restoreStateFromHash() {
     if (priceRanges) priceRanges.split(',').forEach(r => selectedPriceRanges.add(r));
     const screenSizes = params.get('screenSize');
     if (screenSizes) screenSizes.split(',').forEach(s => selectedScreenSizes.add(s));
-    currentSort = params.get('sort') || 'newest';
+    currentSort = params.get('sort') || 'series_price_asc';
     const sortSelect = document.getElementById('sortSelect');
     if (sortSelect) sortSelect.value = currentSort;
 }
