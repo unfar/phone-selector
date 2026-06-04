@@ -109,7 +109,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .compare-mode-btn.active{background:var(--primary);color:#fff}
 
 /* ===== Phone Grid ===== */
-.phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
+.phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
 
 /* ----- Glass Card ----- */
 .phone-card{position:relative;background:rgba(255,255,255,.68);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);box-shadow:0 4px 20px rgba(0,0,0,.04),0 1px 3px rgba(0,0,0,.03);overflow:hidden;transition:box-shadow .2s ease,border-color .2s ease,transform .2s ease}
