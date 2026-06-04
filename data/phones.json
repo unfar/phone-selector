@@ -121,7 +121,8 @@
       "NFC",
       "红外",
       "≤200g",
-      "骁龙8 Elite 1"
+      "骁龙8 Elite 1",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -160,7 +161,8 @@
       "NFC",
       "红外",
       "骁龙8 Elite 1",
-      "有线投屏"
+      "有线投屏",
+      "防水"
     ],
     "screen_form": "微曲屏",
     "wireless_charging_w": 80,
@@ -7824,7 +7826,9 @@
       "NFC",
       "USB3.0",
       "防水",
-      "红外"
+      "红外",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7895,7 +7899,9 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7927,7 +7933,9 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8015,7 +8023,8 @@
       "无线充电",
       "NFC",
       "防水",
-      "有线投屏"
+      "有线投屏",
+      "USB3.0"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -8093,7 +8102,10 @@
     "features": [
       "IP64防水"
     ],
-    "tags": [],
+    "tags": [
+      "6500mAh+",
+      "防水"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8121,7 +8133,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8152,7 +8166,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8181,7 +8196,10 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "6500mAh+",
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8212,7 +8230,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8244,7 +8263,9 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "6500mAh+",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8273,7 +8294,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8304,7 +8327,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8333,7 +8357,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8361,7 +8387,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8392,7 +8420,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8421,7 +8450,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -8452,7 +8483,8 @@
       "NFC"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8551,7 +8583,9 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
-    "tags": [],
+    "tags": [
+      "≤200g"
+    ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
