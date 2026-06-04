@@ -314,45 +314,28 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     /* 手机网格：2列 -> 一屏2×2共4卡 */
     .phone-grid{grid-template-columns:repeat(2,1fr);gap:10px}
     
-    /* 紧凑卡片头部：flex行代替渐变区块，品牌色左竖线 */
-    .card-header{display:flex;align-items:center;padding:10px 12px;min-height:44px;border-radius:var(--radius) var(--radius) 0 0;border-left:4px solid var(--primary);background:var(--card-bg)!important}
-    .dark-mode .card-header{background:rgba(30,41,59,.55)!important}
-    .card-header .brand-badge{position:static;padding:2px 6px;background:rgba(0,0,0,.04);backdrop-filter:none}
-    .card-header .phone-name{position:static;flex:1;text-align:left;font-size:.8rem;margin:0;color:var(--text)!important;text-shadow:none!important;max-width:none}
-    .card-header .price-badge{position:static;flex-shrink:0;font-size:.72rem;padding:2px 8px;margin-left:auto}
+    /* 卡片 — 保持PC风格，等比缩小 */
+    .card-header{padding:24px 10px 8px;min-height:50px}
+    .card-header .phone-name{font-size:.82rem}
+    .brand-badge{top:6px;left:6px;padding:3px 8px}
     .brand-logo{height:16px}
     .brand-text-logo{font-size:12px}
+    .price-badge{top:6px;right:6px;font-size:.7rem;padding:2px 6px}
     
-    /* 规格：2列4行，紧凑展示 */
-    .spec-grid{grid-template-columns:1fr 1fr;gap:2px 6px}
-    .card-body{padding:6px 12px 2px}
-    .spec-cell{padding:2px 4px;text-align:left;border:none;background:none;display:flex;flex-direction:row;gap:3px}
-    .spec-cell .label{font-size:.55rem;margin-bottom:0;color:var(--text-muted);white-space:nowrap}
-    .spec-cell .value{font-size:.62rem;flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+    .spec-grid{grid-template-columns:1fr 1fr;gap:4px}
+    .card-body{padding:8px 10px 4px}
+    .spec-cell{padding:4px 6px;border-radius:8px}
+    .spec-cell .label{font-size:.6rem;margin-bottom:1px}
+    .spec-cell .value{font-size:.68rem}
     
-    /* 标签 */
-    .card-footer{padding:2px 12px 8px;gap:2px}
-    .feature-tag{padding:1px 6px;font-size:.52rem;border-radius:8px}
+    .card-footer{padding:4px 10px 8px;gap:3px}
+    .feature-tag{padding:2px 7px;font-size:.58rem}
     
-    /* 展开按钮 */
-    .card-expand{margin-top:0}
-    .expand-btn{padding:1px 8px;font-size:.58rem}
+    .card-expand{margin-top:4px}
+    .expand-btn{padding:1px 8px;font-size:.6rem}
     
-    /* 品牌左色条 */
-    .card-header.brand-header-Apple{border-left-color:#1a1a2e!important}
-    .card-header.brand-header-Huawei{border-left-color:#BC2D32!important}
-    .card-header.brand-header-Xiaomi{border-left-color:#FF4800!important}
-    .card-header.brand-header-OPPO{border-left-color:#6DFB73!important}
-    .card-header.brand-header-vivo{border-left-color:#7C3AED!important}
-    .card-header.brand-header-Samsung{border-left-color:#2563eb!important}
-    .card-header.brand-header-HONOR{border-left-color:#222222!important}
-    .card-header.brand-header-REDMI{border-left-color:#D82F44!important}
-    .card-header.brand-header-iQOO{border-left-color:#FFD700!important}
-    .card-header.brand-header-OnePlus{border-left-color:#E73421!important}
-    .card-header.brand-header-realme{border-left-color:#EAB51D!important}
-    .card-header.brand-header-RedMagic{border-left-color:#b91c1c!important}
-    .card-header.brand-header-Motorola{border-left-color:#D43D2D!important}
-    .card-header.brand-header-Lenovo{border-left-color:#D43D2D!important}
+    .card-details{padding:6px 10px}
+    .detail-section{padding:8px;font-size:.72rem}
     
     /* 工具栏移动端紧凑 */
     .toolbar{flex-direction:column;align-items:stretch;gap:8px;margin-bottom:14px}
@@ -408,19 +391,23 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .filter-panel{padding:10px 12px}
     .tag{padding:6px 10px;font-size:.75rem;min-height:32px}
     .filter-label{font-size:.7rem}
-    .card-header{padding:6px 8px;min-height:36px}
-    .card-header .phone-name{font-size:.72rem}
-    .card-header .price-badge{font-size:.65rem;padding:1px 6px}
+    .card-header{padding:18px 8px 6px;min-height:40px}
+    .card-header .phone-name{font-size:.75rem}
+    .brand-badge{top:4px;left:4px;padding:2px 6px}
     .brand-logo{height:14px}
     .brand-text-logo{font-size:10px}
-    .spec-grid{gap:1px 4px}
-    .card-body{padding:4px 8px 0}
-    .spec-cell{padding:1px 2px;gap:2px}
-    .spec-cell .label{font-size:.48rem}
-    .spec-cell .value{font-size:.55rem}
-    .card-footer{padding:1px 8px 6px;gap:1px}
-    .feature-tag{padding:0 4px;font-size:.45rem;border-radius:6px}
-    .expand-btn{padding:0 6px;font-size:.52rem}
+    .price-badge{top:4px;right:4px;font-size:.62rem;padding:1px 5px}
+    .spec-grid{gap:3px}
+    .card-body{padding:6px 8px 2px}
+    .spec-cell{padding:3px 4px;border-radius:6px}
+    .spec-cell .label{font-size:.54rem}
+    .spec-cell .value{font-size:.6rem}
+    .card-footer{padding:2px 8px 6px;gap:2px}
+    .feature-tag{padding:1px 5px;font-size:.5rem}
+    .card-expand{margin-top:2px}
+    .expand-btn{padding:0 6px;font-size:.54rem}
+    .card-details{padding:4px 8px}
+    .detail-section{padding:6px;font-size:.65rem}
     .toolbar{gap:6px}
     .sort-select{font-size:.75rem;padding:5px 8px;min-height:32px}
     .compare-mode-btn{font-size:.75rem;padding:5px 10px;min-height:32px}
