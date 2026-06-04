@@ -17,6 +17,9 @@ let expandedCards = new Set();
 let compareMode = false;
 let compareList = [];
 
+// ===== 品牌导航 =====
+let brandObserver = null;
+
 // ===== 配置 =====
 const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen5","天玑9500","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"];
 
@@ -442,7 +445,29 @@ function renderPhones() {
         return;
     }
 
-    grid.innerHTML = filtered.map(p => {
+    // 品牌分区颜色映射
+    const brandAccentColors = {
+        'Apple':'#1a1a2e','Huawei':'#BC2D32','Xiaomi':'#FF4800',
+        'OPPO':'#6DFB73','vivo':'#7C3AED','Samsung':'#2563eb',
+        'HONOR':'#222222','REDMI':'#D82F44','iQOO':'#FFD700',
+        'OnePlus':'#E73421','realme':'#EAB51D','RedMagic':'#b91c1c',
+        'Motorola':'#D43D2D','Lenovo':'#D43D2D'
+    };
+
+    let lastBrand = '';
+    let cardsHtml = '';
+    filtered.forEach(p => {
+        // 品牌分区标题
+        if (p.brand !== lastBrand) {
+            lastBrand = p.brand;
+            const count = filtered.filter(x => x.brand === p.brand).length;
+            const color = brandAccentColors[p.brand] || 'var(--primary)';
+            cardsHtml += '<div class="brand-section-header" id="brand-section-' + p.brand + '" data-brand="' + p.brand + '" style="border-left-color:' + color + '">'
+                + '<span class="brand-section-name">' + getEnglishBrand(p.brand) + '</span>'
+                + '<span class="brand-section-count">' + count + '款</span>'
+                + '</div>';
+        }
+
         const priceHtml = p.price ? '<span class="price-badge">¥' + p.price + '</span>' : '';
         const isCompareSelected = compareList.includes(p.id);
         const isExpanded = expandedCards.has(p.id);
@@ -502,7 +527,7 @@ function renderPhones() {
         if (isCompareSelected) cardClass.push('compare-selected');
         if (compareMode) cardClass.push('compare-clickable');
 
-        return '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
+        cardsHtml += '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
             '<div class="card-header brand-header-' + p.brand + '">' +
                 '<span class="brand-badge">' + (textLogoBrands.has(p.brand)
                     ? '<span class="brand-text-logo">' + p.brand + '</span>'
@@ -516,7 +541,8 @@ function renderPhones() {
                 '<div class="card-details ' + (isExpanded ? 'open' : '') + '">' + detailHtml + '</div>' +
             '</div>' + fh +
         '</div>';
-    }).join('');
+    });
+    grid.innerHTML = cardsHtml;
 
     bindCardEvents();
 }
@@ -745,6 +771,73 @@ function renderComparePanel() {
     drawRadarChart(selected);
 }
 
+// ===== 品牌导航 =====
+function renderBrandNav() {
+    const filtered = phones.filter(matchesFilters);
+    const nav = document.getElementById('brandNav');
+    if (!nav) return;
+
+    // 从已排序的结果中提取品牌列表
+    const brands = [];
+    const seen = new Set();
+    sortPhones(filtered).forEach(p => {
+        if (!seen.has(p.brand)) {
+            seen.add(p.brand);
+            brands.push(p.brand);
+        }
+    });
+
+    if (brands.length <= 1) {
+        nav.style.display = 'none';
+        return;
+    }
+
+    nav.style.display = 'flex';
+    nav.innerHTML = brands.map(b =>
+        '<span class="brand-nav-item" data-brand="' + b + '">' + getEnglishBrand(b) + '</span>'
+    ).join('');
+
+    // 点击跳转
+    nav.querySelectorAll('.brand-nav-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const header = document.getElementById('brand-section-' + item.dataset.brand);
+            if (header) header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+
+    setupBrandObserver();
+}
+
+function setupBrandObserver() {
+    // 断开旧的 observer
+    if (brandObserver) brandObserver.disconnect();
+
+    const headers = document.querySelectorAll('.brand-section-header');
+    if (headers.length === 0) return;
+
+    brandObserver = new IntersectionObserver((entries) => {
+        let topmost = null;
+        let topmostTop = Infinity;
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // 找到离顶部最近的那个
+                const rect = entry.boundingClientRect;
+                if (rect.top < topmostTop) {
+                    topmostTop = rect.top;
+                    topmost = entry.target.dataset.brand;
+                }
+            }
+        });
+        if (topmost) {
+            document.querySelectorAll('.brand-nav-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.brand === topmost);
+            });
+        }
+    }, { rootMargin: '-50px 0px -60% 0px', threshold: 0 });
+
+    headers.forEach(el => brandObserver.observe(el));
+}
+
 // ===== 刷新 =====
 function refresh() {
     renderBrandTags();
@@ -754,6 +847,7 @@ function refresh() {
     renderPriceRangeTags();
     renderScreenSizeTags();
     renderActiveBar();
+    renderBrandNav();
     renderPhones();
 }
 

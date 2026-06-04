@@ -259,6 +259,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .no-results p,.error-msg p{font-size:1rem}
 .error-msg{color:#dc2626}
 
+/* ===== Brand Navigation (sticky anchor bar) ===== */
+.brand-nav{position:sticky;top:0;z-index:50;display:none;gap:6px;overflow-x:auto;padding:8px 2px;margin-bottom:14px;-webkit-overflow-scrolling:touch;scrollbar-width:none;background:transparent}
+.brand-nav::-webkit-scrollbar{display:none}
+.brand-nav-item{flex-shrink:0;padding:6px 14px;border-radius:var(--radius-full);font-size:.8rem;font-weight:500;cursor:pointer;background:rgba(255,255,255,.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);color:var(--text-secondary);transition:all .15s ease;user-select:none;white-space:nowrap;min-height:36px;display:flex;align-items:center}
+.brand-nav-item:hover{border-color:var(--primary);color:var(--primary)}
+.brand-nav-item.active{background:var(--primary);color:#fff;border-color:var(--primary);box-shadow:0 2px 8px rgba(37,99,235,.25)}
+.dark-mode .brand-nav-item{background:rgba(30,41,59,.5);border-color:rgba(255,255,255,.06)}
+.dark-mode .brand-nav-item:hover{border-color:var(--primary)}
+
+/* ===== Brand Section Headers ===== */
+.brand-section-header{display:flex;align-items:center;gap:10px;grid-column:1/-1;padding:8px 0 4px 12px;margin-top:10px;border-left:4px solid var(--primary);scroll-margin-top:64px}
+.brand-section-header:first-child{margin-top:0}
+.brand-section-header .brand-section-name{font-size:1.05rem;font-weight:700;color:var(--text)}
+.brand-section-header .brand-section-count{font-size:.75rem;color:var(--text-muted);font-weight:500;background:var(--bg);padding:2px 10px;border-radius:var(--radius-full)}
+.dark-mode .brand-section-header{border-left-color:var(--primary)}
+
 /* ===== Back to Top ===== */
 .back-top{position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:var(--primary);color:#fff;border:none;font-size:1.2rem;cursor:pointer;box-shadow:var(--shadow-lg);transition:all .15s;z-index:50;display:flex;align-items:center;justify-content:center}
 .back-top:hover{background:var(--primary-dark);transform:translateY(-2px)}
@@ -281,16 +297,50 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
 
 /* ===== Responsive ===== */
 @media(max-width:768px){
-    .container{padding:16px 12px 60px}
-    .hero-panel{padding:28px 20px 24px}
-    .hero-icon{font-size:1.3rem}
-    .hero-panel h1{font-size:1.5rem}
-    .hero-subtitle{font-size:.8rem;margin-bottom:20px}
-    .hero-stat{padding:8px 16px;font-size:.8rem}
-    .hero-stat-num{font-size:1rem}
-    .phone-grid{grid-template-columns:1fr}
-    .filter-panel{padding:16px}
+    .container{padding:12px 10px 60px}
+    .hero-panel{padding:24px 16px 20px;margin-bottom:20px}
+    .hero-icon{font-size:1.2rem}
+    .hero-panel h1{font-size:1.35rem}
+    .hero-subtitle{font-size:.78rem;margin-bottom:16px}
+    .hero-stats{gap:10px}
+    .hero-stat{padding:7px 14px;font-size:.78rem}
+    .hero-stat-num{font-size:.95rem}
+    .phone-grid{grid-template-columns:1fr;gap:14px}
+    .filter-panel{padding:14px 16px;margin-bottom:16px}
+    .filter-section{margin-bottom:12px}
+    .filter-label{font-size:.75rem;padding:6px 0;min-height:36px}
+    .filter-tags{gap:5px}
+    .tag{padding:7px 13px;font-size:.82rem;min-height:36px;display:inline-flex;align-items:center}
     .spec-grid{grid-template-columns:1fr}
+    .spec-cell{padding:7px 10px}
+    .spec-cell .value{font-size:.8rem}
+    .card-body{padding:14px 16px}
+    .card-footer{padding:12px 16px}
+    .feature-tag{padding:4px 11px;font-size:.7rem}
+    .card-header{padding:36px 14px 12px;min-height:72px}
+    .card-header .phone-name{font-size:.92rem}
+    .brand-badge{top:10px;left:10px;padding:5px 12px}
+    .price-badge{top:10px;right:10px;font-size:.75rem;padding:3px 10px}
+    .brand-logo{height:20px}
+    
+    /* 工具栏移动端紧凑 */
+    .toolbar{flex-direction:column;align-items:stretch;gap:8px;margin-bottom:14px}
+    .toolbar-right{justify-content:space-between;width:100%}
+    .sort-select{flex:1;font-size:.82rem;padding:7px 12px;min-height:38px}
+    .compare-mode-btn{font-size:.82rem;padding:7px 14px;min-height:38px;white-space:nowrap}
+    .result-info{font-size:.82rem}
+    
+    /* 移动端筛选栏 */
+    .active-bar{padding:10px 14px;margin-bottom:14px}
+    .active-badge{padding:5px 11px;font-size:.76rem}
+    .clear-btn{font-size:.75rem}
+    
+    /* 移动端品牌导航 */
+    .brand-nav{padding:6px 2px;margin-bottom:10px}
+    .brand-nav-item{font-size:.75rem;padding:5px 12px;min-height:34px}
+    .brand-section-header{padding:6px 0 2px 10px;margin-top:8px;scroll-margin-top:56px}
+    .brand-section-header .brand-section-name{font-size:.95rem}
+    .brand-section-header .brand-section-count{font-size:.7rem}
     
     /* 移动端对比面板优化 */
     .compare-panel-content{width:98%;max-height:95vh;border-radius:16px}
@@ -305,15 +355,55 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .phone-name-badge{font-size:.7rem;padding:4px 8px}
     .compare-remove{padding:2px 6px;font-size:.65rem;margin-top:2px}
     #radarChart{width:100%;height:auto}
+    .compare-bar-inner{padding:10px 14px;gap:10px}
+    .compare-bar-actions{gap:6px}
+    .compare-bar-start{padding:7px 14px;font-size:.8rem;min-height:36px}
+    .compare-bar-clear{padding:6px 12px;font-size:.78rem;min-height:36px}
     
-    /* 移动端筛选优化 */
-    .filter-tags{gap:6px}
-    .tag{padding:5px 12px;font-size:.8rem}
-    
-    /* 移动端按钮优化 */
-    .compare-mode-btn{padding:8px 16px;font-size:.9rem}
-    .sort-select{padding:6px 12px;font-size:.85rem}
-    
-    /* 移动端暗色模式按钮位置调整 */
-    .dark-mode-toggle{top:16px;right:16px;width:40px;height:40px;font-size:1.1rem}
+    /* 移动端其他 */
+    .dark-mode-toggle{top:12px;right:12px;width:38px;height:38px;font-size:1rem}
+    footer{padding:28px 0;font-size:.72rem}
+    .back-top{bottom:70px;right:14px;width:40px;height:40px;font-size:1.1rem}
+}
+
+/* ===== Extra Small Screens (≤480px) ===== */
+@media(max-width:480px){
+    .container{padding:8px 8px 56px}
+    .hero-panel{padding:20px 12px 18px;margin-bottom:16px}
+    .hero-panel h1{font-size:1.2rem}
+    .hero-stat{padding:6px 12px;font-size:.74rem}
+    .hero-stat-num{font-size:.85rem}
+    .hero-stat-date{font-size:.72rem;padding:6px 12px}
+    .filter-panel{padding:12px 14px}
+    .tag{padding:6px 11px;font-size:.78rem;min-height:34px}
+    .filter-label{font-size:.72rem}
+    .card-header{padding:30px 12px 10px;min-height:64px}
+    .card-header .phone-name{font-size:.85rem}
+    .card-body{padding:12px 14px}
+    .spec-cell{padding:6px 8px}
+    .spec-cell .label{font-size:.65rem}
+    .spec-cell .value{font-size:.76rem}
+    .feature-tag{padding:3px 10px;font-size:.66rem}
+    .brand-badge{top:8px;left:8px;padding:4px 10px}
+    .brand-logo{height:18px}
+    .brand-text-logo{font-size:12px}
+    .price-badge{top:8px;right:8px;font-size:.7rem;padding:2px 8px}
+    .phone-grid{gap:12px}
+    .toolbar{gap:6px}
+    .sort-select{font-size:.78rem;padding:6px 10px;min-height:34px}
+    .compare-mode-btn{font-size:.78rem;padding:6px 12px;min-height:34px}
+    .result-info{font-size:.76rem}
+    .active-bar{padding:8px 12px;gap:6px}
+    .active-badge{padding:4px 9px;font-size:.72rem}
+    .brand-nav{padding:4px 2px;margin-bottom:8px}
+    .brand-nav-item{font-size:.72rem;padding:4px 10px;min-height:32px}
+    .brand-section-header{padding:4px 0 2px 8px;margin-top:6px;scroll-margin-top:50px}
+    .brand-section-header .brand-section-name{font-size:.88rem}
+    .brand-section-header .brand-section-count{font-size:.65rem}
+    .compare-bar-inner{padding:8px 12px;gap:8px;flex-wrap:wrap}
+    .compare-bar-info{font-size:.78rem}
+    .compare-bar-start{font-size:.76rem;padding:6px 12px;min-height:34px}
+    .compare-bar-clear{font-size:.74rem;padding:5px 10px;min-height:34px}
+    .dark-mode-toggle{width:34px;height:34px;font-size:.9rem;top:10px;right:10px}
+    footer{padding:24px 0;font-size:.68rem}
 }
