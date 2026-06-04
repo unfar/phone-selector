@@ -117,7 +117,14 @@ function updateHash() {
 
 function restoreStateFromHash() {
     const hash = location.hash.slice(1);
-    if (!hash) return;
+    const sortSelect = document.getElementById('sortSelect');
+    
+    if (!hash) {
+        // 无 hash 时也要同步默认排序到下拉菜单
+        if (sortSelect) sortSelect.value = currentSort;
+        return;
+    }
+    
     const params = new URLSearchParams(hash);
     const brands = params.get('brands');
     if (brands) brands.split(',').forEach(b => selectedBrands.add(b));
@@ -131,7 +138,6 @@ function restoreStateFromHash() {
     const screenSizes = params.get('screenSize');
     if (screenSizes) screenSizes.split(',').forEach(s => selectedScreenSizes.add(s));
     currentSort = params.get('sort') || 'series_price_asc';
-    const sortSelect = document.getElementById('sortSelect');
     if (sortSelect) sortSelect.value = currentSort;
 }
 
