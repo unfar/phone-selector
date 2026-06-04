@@ -18,7 +18,7 @@ let compareMode = false;
 let compareList = [];
 
 // ===== 配置 =====
-const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen5","天玑9500","天玑9500s","麒麟9030Pro","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"];
+const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen5","天玑9500","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"];
 
 // Brand logo data URIs (base64 SVG)
 const brandLogos = {
