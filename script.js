@@ -221,7 +221,17 @@ function getSeriesName(model) {
 function sortPhones(list) {
     const s = [...list];
     switch (currentSort) {
-        case 'newest': s.sort((a, b) => normDate(b.release_date).localeCompare(normDate(a.release_date)) || a.model.localeCompare(b.model)); break;
+        case 'newest': 
+            s.sort((a, b) => {
+                const dateCmp = normDate(b.release_date).localeCompare(normDate(a.release_date));
+                if (dateCmp !== 0) return dateCmp;
+                // 同日期：同品牌同系列便宜的排前面
+                const keyA = a.brand + '||' + getSeriesName(a.model);
+                const keyB = b.brand + '||' + getSeriesName(b.model);
+                if (keyA === keyB) return (a.price || 99999) - (b.price || 99999);
+                return keyA.localeCompare(keyB);
+            });
+            break;
         case 'price_asc': s.sort((a, b) => (a.price || 99999) - (b.price || 99999)); break;
         case 'price_desc': s.sort((a, b) => (b.price || 0) - (a.price || 0)); break;
         case 'battery_desc': s.sort((a, b) => b.battery_mah - a.battery_mah); break;

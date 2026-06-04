@@ -130,7 +130,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 
 /* ===== Brand Header Block ===== */
 .card-header{background:var(--card-bg);padding:44px 16px 14px;border-radius:var(--radius) var(--radius) 0 0;position:relative;display:flex;align-items:center;justify-content:center;min-height:85px}
-.brand-header-Apple{background:linear-gradient(135deg,#1C1C1C,#2a2a2a)}
+.brand-header-Apple{background:linear-gradient(135deg,#1a1a2e,#2d2d44)}
 .brand-header-Huawei{background:linear-gradient(135deg,#BC2D32,#d43a40)}
 .brand-header-Xiaomi{background:linear-gradient(135deg,#FF4800,#ff6b2b)}
 .brand-header-OPPO{background:linear-gradient(135deg,#6DFB73,#8eff92)}
