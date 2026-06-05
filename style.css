@@ -314,13 +314,13 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     /* 手机网格：2列 -> 一屏2×2共4卡 */
     .phone-grid{grid-template-columns:repeat(2,1fr);gap:10px}
     
-    /* 卡片 — 保持PC风格，等比缩小 */
-    .card-header{padding:24px 10px 8px;min-height:50px}
-    .card-header .phone-name{font-size:.82rem}
-    .brand-badge{top:6px;left:6px;padding:3px 8px}
+    /* 卡片头部 — 水平单行：LOGO | 名称(flex) | 价格 */
+    .card-header{display:flex;flex-direction:row;align-items:center;padding:8px 10px;min-height:40px;gap:6px}
+    .card-header .phone-name{flex:1;text-align:left;margin:0;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .brand-badge{position:static;flex-shrink:0;padding:3px 8px;border-radius:8px}
     .brand-logo{height:16px}
     .brand-text-logo{font-size:12px}
-    .price-badge{top:6px;right:6px;font-size:.7rem;padding:2px 6px}
+    .price-badge{position:static;flex-shrink:0;font-size:.7rem;padding:2px 6px}
     
     .spec-grid{grid-template-columns:1fr 1fr;gap:4px}
     .card-body{padding:8px 10px 4px}
@@ -391,12 +391,12 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .filter-panel{padding:10px 12px}
     .tag{padding:6px 10px;font-size:.75rem;min-height:32px}
     .filter-label{font-size:.7rem}
-    .card-header{padding:18px 8px 6px;min-height:40px}
+    .card-header{padding:6px 8px;min-height:36px;gap:4px}
     .card-header .phone-name{font-size:.75rem}
-    .brand-badge{top:4px;left:4px;padding:2px 6px}
+    .brand-badge{padding:2px 6px;border-radius:6px}
     .brand-logo{height:14px}
     .brand-text-logo{font-size:10px}
-    .price-badge{top:4px;right:4px;font-size:.62rem;padding:1px 5px}
+    .price-badge{font-size:.62rem;padding:1px 5px}
     .spec-grid{gap:3px}
     .card-body{padding:6px 8px 2px}
     .spec-cell{padding:3px 4px;border-radius:6px}
