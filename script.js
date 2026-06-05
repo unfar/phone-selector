@@ -228,11 +228,8 @@ function sortPhones(list) {
             s.sort((a, b) => {
                 const dateCmp = normDate(b.release_date).localeCompare(normDate(a.release_date));
                 if (dateCmp !== 0) return dateCmp;
-                // 同日期：同品牌同系列便宜的排前面
-                const keyA = a.brand + '||' + getSeriesName(a.model);
-                const keyB = b.brand + '||' + getSeriesName(b.model);
-                if (keyA === keyB) return (a.price || 99999) - (b.price || 99999);
-                return keyA.localeCompare(keyB);
+                // 同日期发布：按价格低→高排列
+                return (a.price || 99999) - (b.price || 99999);
             });
             break;
         case 'price_asc': s.sort((a, b) => (a.price || 99999) - (b.price || 99999)); break;
