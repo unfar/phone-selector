@@ -478,6 +478,7 @@ function renderPhones() {
         group.forEach(p => {
         const isCompareSelected = compareList.includes(p.id);
         const isExpanded = expandedCards.has(p.id);
+        const priceHtml = p.price ? '<span class="price-badge">¥' + p.price + '</span>' : '';
 
         const displayName = (() => {
             const m = p.model, b = p.brand;
