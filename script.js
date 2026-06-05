@@ -10,7 +10,7 @@ let selectedCpu = new Set();
 let selectedTags = new Set();
 let selectedPriceRanges = new Set();
 let selectedScreenSizes = new Set();
-let currentSort = 'series_price_asc';
+let currentSort = 'newest';
 let expandedCards = new Set();
 
 // ===== 对比功能变量 =====
@@ -113,7 +113,7 @@ function updateHash() {
     if (selectedTags.size > 0) params.set('tags', [...selectedTags].join(','));
     if (selectedPriceRanges.size > 0) params.set('priceRange', [...selectedPriceRanges].join(','));
     if (selectedScreenSizes.size > 0) params.set('screenSize', [...selectedScreenSizes].join(','));
-    if (currentSort !== 'series_price_asc') params.set('sort', currentSort);
+    if (currentSort !== 'newest') params.set('sort', currentSort);
     const hash = params.toString();
     history.replaceState(null, '', `#${hash}`);
 }
@@ -140,7 +140,7 @@ function restoreStateFromHash() {
     if (priceRanges) priceRanges.split(',').forEach(r => selectedPriceRanges.add(r));
     const screenSizes = params.get('screenSize');
     if (screenSizes) screenSizes.split(',').forEach(s => selectedScreenSizes.add(s));
-    currentSort = params.get('sort') || 'series_price_asc';
+    currentSort = params.get('sort') || 'newest';
     if (sortSelect) sortSelect.value = currentSort;
 }
 
@@ -242,23 +242,6 @@ function sortPhones(list) {
         case 'screen_desc': s.sort((a, b) => b.screen_size - a.screen_size); break;
         case 'charging_desc': s.sort((a, b) => b.charging_w - a.charging_w); break;
         case 'brand_asc': s.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model)); break;
-        case 'series_price_asc':
-            // 按品牌分组 → 同品牌按系列分组 → 同系列按价格递增
-            const seriesMap = {};
-            s.forEach(p => {
-                const key = p.brand + '||' + getSeriesName(p.model);
-                if (!seriesMap[key]) seriesMap[key] = [];
-                seriesMap[key].push(p);
-            });
-            // 每个系列内按价格递增排
-            Object.values(seriesMap).forEach(group => {
-                group.sort((a, b) => (a.price || 99999) - (b.price || 99999));
-            });
-            // 所有系列按品牌+系列名排序
-            const sortedKeys = Object.keys(seriesMap).sort();
-            const result = [];
-            sortedKeys.forEach(k => result.push(...seriesMap[k]));
-            return result;
     }
     return s;
 }
