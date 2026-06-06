@@ -127,10 +127,10 @@
 
 <button class="back-top" id="backTop" style="display:none">↑</button>
 
-<!-- 访问统计追踪像素 -->
-<img src="https://phone-selector-stats.gedaye-vip.workers.dev/track" width="1" height="1" style="display:none" alt="" />
+<!-- 访问统计追踪像素（延迟加载，不阻塞页面） -->
+<script>addEventListener('load',()=>{let i=new Image;i.src='https://phone-selector-stats.gedaye-vip.workers.dev/track'})</script>
 
-<script src="script.js?v=64"></script>
+<script src="script.js?v=65"></script>
 </body>
 </html>
 </content>
