@@ -228,7 +228,9 @@ function sortPhones(list) {
             s.sort((a, b) => {
                 const dateCmp = normDate(b.release_date).localeCompare(normDate(a.release_date));
                 if (dateCmp !== 0) return dateCmp;
-                // 同日期发布：按价格低→高排列
+                // 同日期：同品牌系列的机型聚在一起，按价格低→高排列
+                const brandCmp = a.brand.localeCompare(b.brand);
+                if (brandCmp !== 0) return brandCmp;
                 return (a.price || 99999) - (b.price || 99999);
             });
             break;
