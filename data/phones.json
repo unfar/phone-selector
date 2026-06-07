@@ -8956,5 +8956,77 @@
     "price": 2699,
     "source_url": "https://consumer.huawei.com/cn/phones/nova16z/",
     "verified_at": "2026-06-01"
+  },
+  {
+    "id": 432,
+    "brand": "HONOR",
+    "model": "荣耀WIN Turbo",
+    "processor": "天玑8500 竞速版",
+    "screen_size": 6.79,
+    "refresh_hz": 120,
+    "screen_type": "AMOLED",
+    "resolution": "2640×1200",
+    "ram": "12GB / 16GB",
+    "storage": "256GB / 512GB",
+    "battery_mah": 10000,
+    "charging_w": 80,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 216,
+    "camera_desc": "5000万主摄OIS | 500万超广角",
+    "detailed_camera": "主摄: 5000万 f/1.88 OIS | 超广角: 500万 | 前置: 1600万",
+    "has_tele": false,
+    "has_ultrawide": true,
+    "os": "MagicOS 10 (Android 16)",
+    "screen_form": "直屏",
+    "features": [
+      "IP69K防水",
+      "10000mAh超大电池",
+      "3840Hz PWM调光"
+    ],
+    "tags": [
+      "大电池",
+      "三防"
+    ],
+    "release_date": "2026-06",
+    "price": 2699,
+    "source_url": "https://www.honor.com/cn/phones/honor-win-turbo/",
+    "verified_at": "2026-06-07"
+  },
+  {
+    "id": 433,
+    "brand": "HONOR",
+    "model": "荣耀Magic V Flip2",
+    "processor": "第三代骁龙8",
+    "screen_size": 6.82,
+    "refresh_hz": 120,
+    "screen_type": "OLED",
+    "resolution": "2868×1232",
+    "ram": "12GB / 16GB",
+    "storage": "256GB / 512GB / 1TB",
+    "battery_mah": 5500,
+    "charging_w": 66,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 204,
+    "camera_desc": "2亿主摄OIS | 5000万超广角 | 5000万前置",
+    "detailed_camera": "主摄: 2亿 f/1.9 OIS | 超广角微距: 5000万 | 前置: 5000万",
+    "has_tele": false,
+    "has_ultrawide": true,
+    "os": "MagicOS 9.0.1 (Android 15)",
+    "screen_form": "折叠屏",
+    "features": [
+      "IP58/IP59防水",
+      "200MP主摄",
+      "折叠屏",
+      "外屏4.0寸"
+    ],
+    "tags": [
+      "折叠屏"
+    ],
+    "release_date": "2026-06",
+    "price": 4699,
+    "source_url": "https://www.honor.com/cn/phones/honor-magic-v-flip2/",
+    "verified_at": "2026-06-07"
   }
 ]
