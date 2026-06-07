@@ -227,7 +227,12 @@ function sortPhones(list) {
             s.sort((a, b) => {
                 const dateCmp = normDate(b.release_date).localeCompare(normDate(a.release_date));
                 if (dateCmp !== 0) return dateCmp;
-                // 同日期：按价格低→高排列（同一品牌系列自然聚在一起）
+                // 同日期：按品牌+系列分组
+                const seriesA = a.brand + '|' + getSeriesName(a.model);
+                const seriesB = b.brand + '|' + getSeriesName(b.model);
+                const seriesCmp = seriesA.localeCompare(seriesB);
+                if (seriesCmp !== 0) return seriesCmp;
+                // 同系列：按价格低→高
                 return (a.price || 99999) - (b.price || 99999);
             });
             break;
