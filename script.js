@@ -435,26 +435,8 @@ function renderPhones() {
 
     let cardsHtml = '';
     
-    // 先按品牌分组（保留排序中的首次出现顺序），确保同品牌机型在同一分区
-    const brandOrder = [];
-    const brandSet = new Set();
+    // 直接按排序顺序渲染（已按日期→价格排序），不按品牌分组
     filtered.forEach(p => {
-        if (!brandSet.has(p.brand)) {
-            brandSet.add(p.brand);
-            brandOrder.push(p.brand);
-        }
-    });
-    
-    brandOrder.forEach(brand => {
-        const group = filtered.filter(p => p.brand === brand);
-        const count = group.length;
-        const color = brandAccentColors[brand] || 'var(--primary)';
-        cardsHtml += '<div class="brand-section-header" id="brand-section-' + brand + '" data-brand="' + brand + '" style="border-left-color:' + color + '">'
-            + '<span class="brand-section-name">' + getEnglishBrand(brand) + '</span>'
-            + '<span class="brand-section-count">' + count + '款</span>'
-            + '</div>';
-        
-        group.forEach(p => {
         const isCompareSelected = compareList.includes(p.id);
         const isExpanded = expandedCards.has(p.id);
         const priceHtml = p.price ? '<span class="price-badge">¥' + p.price + '</span>' : '';
@@ -530,7 +512,6 @@ function renderPhones() {
                 '<div class="card-details ' + (isExpanded ? 'open' : '') + '">' + detailHtml + '</div>' +
             '</div>' + fh +
         '</div>';
-        });
     });
     grid.innerHTML = cardsHtml;
 
