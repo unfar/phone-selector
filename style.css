@@ -146,7 +146,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-header-Lenovo{background:linear-gradient(135deg,#D43D2D,#dd5545)}
 
 /* ===== Brand Badge (glass on header) ===== */
-.brand-badge{position:absolute;top:12px;left:12px;z-index:1;border-radius:12px;padding:6px 14px;display:flex;align-items:center;background:rgba(255,255,255,.2);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.brand-badge{position:absolute;top:12px;left:12px;z-index:1;border-radius:12px;padding:6px 14px;display:flex;align-items:center;background:transparent}
 .brand-logo{height:22px;width:auto;display:block}
 .brand-text-logo{font-size:14px;font-weight:700;color:#fff;letter-spacing:1px;white-space:nowrap}
 .unsupported{color:#ef4444!important;font-size:.78rem;font-weight:700}
