@@ -312,7 +312,7 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .card-header{display:flex;flex-direction:column;padding:8px 10px;gap:4px;min-height:auto}
     .card-header-top{display:flex;justify-content:space-between;align-items:center;width:100%}
     .card-header .phone-name{flex:none;text-align:center;margin:0;font-size:.82rem;overflow:visible;text-overflow:clip;white-space:normal;width:100%}
-    .brand-badge{position:static;flex-shrink:0;padding:3px 8px;border-radius:8px}
+    .brand-badge{position:static;flex-shrink:0;padding:3px 8px;border-radius:12px}
     .brand-logo{height:16px}
     .brand-text-logo{font-size:12px}
     .price-badge{position:static;flex-shrink:0;font-size:.7rem;padding:2px 6px}
@@ -386,7 +386,7 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .filter-label{font-size:.7rem}
     .card-header{padding:6px 8px;min-height:36px;gap:4px}
     .card-header .phone-name{font-size:.75rem}
-    .brand-badge{padding:2px 6px;border-radius:6px}
+    .brand-badge{padding:2px 6px;border-radius:10px}
     .brand-logo{height:14px}
     .brand-text-logo{font-size:10px}
     .price-badge{font-size:.62rem;padding:1px 5px}
