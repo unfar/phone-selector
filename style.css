@@ -308,9 +308,10 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     /* 手机网格：2列 -> 一屏2×2共4卡 */
     .phone-grid{grid-template-columns:repeat(2,1fr);gap:10px}
     
-    /* 卡片头部 — 水平单行：LOGO | 名称(flex) | 价格 */
-    .card-header{display:flex;flex-direction:row;align-items:center;padding:8px 10px;min-height:40px;gap:6px}
-    .card-header .phone-name{flex:1;text-align:left;margin:0;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    /* 卡片头部 — 两行：品牌+价格左右、机型名称居中 */
+    .card-header{display:flex;flex-direction:column;padding:8px 10px;gap:4px;min-height:auto}
+    .card-header-top{display:flex;justify-content:space-between;align-items:center;width:100%}
+    .card-header .phone-name{flex:none;text-align:center;margin:0;font-size:.82rem;overflow:visible;text-overflow:clip;white-space:normal;width:100%}
     .brand-badge{position:static;flex-shrink:0;padding:3px 8px;border-radius:8px}
     .brand-logo{height:16px}
     .brand-text-logo{font-size:12px}

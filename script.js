@@ -516,10 +516,12 @@ function renderPhones() {
 
         cardsHtml += '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
             '<div class="card-header brand-header-' + p.brand + '">' +
-                '<span class="brand-badge">' + (textLogoBrands.has(p.brand)
-                    ? '<span class="brand-text-logo">' + p.brand + '</span>'
-                    : '<img class="brand-logo" style="' + getLogoStyle(p.brand) + '" src="' + brandLogos[p.brand] + '" alt="' + p.brand + '">') + '</span>' +
-                priceHtml +
+                '<div class="card-header-top">' +
+                    '<span class="brand-badge">' + (textLogoBrands.has(p.brand)
+                        ? '<span class="brand-text-logo">' + p.brand + '</span>'
+                        : '<img class="brand-logo" style="' + getLogoStyle(p.brand) + '" src="' + brandLogos[p.brand] + '" alt="' + p.brand + '">') + '</span>' +
+                    priceHtml +
+                '</div>' +
                 '<div class="phone-name">' + displayName + '</div>' +
             '</div>' +
             '<div class="card-body">' +
