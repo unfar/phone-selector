@@ -2094,7 +2094,7 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望 2亿 4x光学",
-    "release_date": "2026-03",
+    "release_date": "2026-04-20",
     "price": 6499
   },
   {
@@ -2131,7 +2131,7 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望微距 5000万 4x光学",
-    "release_date": "2026-03",
+    "release_date": "2026-04-20",
     "price": 5499
   },
   {
@@ -2168,7 +2168,7 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: f/1.8 5000万 | 长焦: 潜望 5000万 3.7x光学",
-    "release_date": "2026-03",
+    "release_date": "2026-04-20",
     "price": 4699
   },
   {
@@ -5648,7 +5648,7 @@
       "红外",
       "有线投屏"
     ],
-    "release_date": "2026-03-27",
+    "release_date": "2026-03-23",
     "price": 8499,
     "ram": "16GB",
     "storage": "1TB"
