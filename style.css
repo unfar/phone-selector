@@ -34,8 +34,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .hero-stat-num{font-weight:800;font-size:1.2rem;color:var(--primary)}
 .hero-stat-label{color:var(--text-muted);font-size:.78rem}
 .hero-stat-date{gap:6px;color:var(--text-secondary);font-size:.78rem;padding:10px 18px}
+.hero-notice{margin-top:16px;padding:8px 16px;font-size:.78rem;color:var(--text-muted);background:rgba(255,255,255,.3);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:var(--radius-full);display:inline-block;border:1px solid rgba(255,255,255,.15)}
 .dark-mode .hero-panel{background:rgba(30,41,59,.5);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-color:rgba(255,255,255,.06)}
 .dark-mode .hero-stat{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
+.dark-mode .hero-notice{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
 .dark-mode .brand-header-HONOR{background:linear-gradient(135deg,#2a2a2a,#3a3a3a)}
 .dark-mode .brand-header-HONOR .phone-name{color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.15)}
 .dark-mode .brand-HONOR{color:#fff}
@@ -299,6 +301,7 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .hero-stats{gap:10px}
     .hero-stat{padding:7px 14px;font-size:.78rem}
     .hero-stat-num{font-size:.95rem}
+    .hero-notice{font-size:.7rem;padding:5px 12px;margin-top:12px}
     .filter-panel{padding:14px 16px;margin-bottom:16px}
     .filter-section{margin-bottom:12px}
     .filter-label{font-size:.75rem;padding:6px 0;min-height:36px}
@@ -381,6 +384,7 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .hero-stat{padding:5px 10px;font-size:.72rem}
     .hero-stat-num{font-size:.8rem}
     .hero-stat-date{font-size:.7rem;padding:5px 10px}
+    .hero-notice{font-size:.62rem;padding:4px 10px;margin-top:10px}
     .filter-panel{padding:10px 12px}
     .tag{padding:6px 10px;font-size:.75rem;min-height:32px}
     .filter-label{font-size:.7rem}

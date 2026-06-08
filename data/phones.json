@@ -9037,7 +9037,7 @@
     "id": 434,
     "brand": "Xiaomi",
     "model": "Xiaomi 17T",
-    "processor": "天玑8500-Ultra",
+    "processor": "天玑8500",
     "screen_size": 6.59,
     "refresh_hz": 120,
     "screen_type": "OLED",
@@ -9061,6 +9061,7 @@
       "5G"
     ],
     "tags": [
+      "天玑8500",
       "防水",
       "NFC",
       "红外",
@@ -9069,7 +9070,7 @@
     ],
     "detailed_camera": "主摄: 5000万光影猎人800 f/1.7 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 1200万徕卡 f/2.2 120° | 前置: 3200万",
     "release_date": "2026-06",
-    "price": 2999,
+    "price": 2549,
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24814",
     "verified_at": "2026-06-07"
   },
@@ -9109,9 +9110,9 @@
       "6500mAh+",
       "无线充电"
     ],
-    "detailed_camera": "主摄: 5000万光影猎人950 f/1.67 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 1200万徕卡 f/2.2 120° | 前置: 3200万",
+    "detailed_camera": "主摄: 5000万光影猎人950 1/1.31英寸 f/1.67 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 1200万徕卡 f/2.2 120° | 前置: 3200万",
     "release_date": "2026-06",
-    "price": 3999,
+    "price": 3499,
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24809",
     "verified_at": "2026-06-07"
   }
