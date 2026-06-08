@@ -9070,9 +9070,10 @@
     ],
     "detailed_camera": "主摄: 5000万光影猎人800 f/1.7 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 1200万徕卡 f/2.2 120° | 前置: 3200万",
     "release_date": "2026-06",
-    "price": 2549,
+    "price": 2999,
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24814",
-    "verified_at": "2026-06-07"
+    "verified_at": "2026-06-07",
+    "price_subsidy": 2549
   },
   {
     "id": 435,
@@ -9112,8 +9113,9 @@
     ],
     "detailed_camera": "主摄: 5000万光影猎人950 1/1.31英寸 f/1.67 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 1200万徕卡 f/2.2 120° | 前置: 3200万",
     "release_date": "2026-06",
-    "price": 3499,
+    "price": 3999,
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24809",
-    "verified_at": "2026-06-07"
+    "verified_at": "2026-06-07",
+    "price_subsidy": 3499
   }
 ]

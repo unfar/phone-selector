@@ -445,6 +445,7 @@ function renderPhones() {
         const isCompareSelected = compareList.includes(p.id);
         const isExpanded = expandedCards.has(p.id);
         const priceHtml = p.price ? '<span class="price-badge">¥' + p.price + '</span>' : '';
+        const subsidyHtml = (p.price_subsidy && p.price_subsidy !== p.price) ? '<div class="subsidy-badge">国补 ¥' + p.price_subsidy + '</div>' : '';
 
         const displayName = (() => {
             const m = p.model, b = p.brand;
@@ -509,6 +510,7 @@ function renderPhones() {
                         : '<img class="brand-logo" style="' + getLogoStyle(p.brand) + '" src="' + brandLogos[p.brand] + '" alt="' + p.brand + '">') + '</span>' +
                     priceHtml +
                 '</div>' +
+                subsidyHtml +
                 '<div class="phone-name">' + displayName + '</div>' +
             '</div>' +
             '<div class="card-body">' +
