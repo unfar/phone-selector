@@ -45,6 +45,11 @@ const textLogoBrands = new Set(['Samsung','OPPO','REDMI','iQOO','HONOR','vivo','
 function getLogoStyle(brand) {
     return largeLogoBrands.has(brand) ? 'height:32px;width:auto' : 'height:22px;width:auto';
 }
+function simplifyCapacity(s) {
+    if (!s) return '';
+    var m = s.match(/(\d+GB(?:\s*\/\s*\d+GB)?)/);
+    return m ? m[1] : s;
+}
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const priceRanges = [
@@ -445,8 +450,6 @@ function renderPhones() {
         const isCompareSelected = compareList.includes(p.id);
         const isExpanded = expandedCards.has(p.id);
         const priceHtml = p.price ? '<span class="price-badge">¥' + p.price + '</span>' : '';
-        const subsidyHtml = (p.price_subsidy && p.price_subsidy !== p.price) ? '<div class="subsidy-badge">国补 ¥' + p.price_subsidy + '</div>' : '';
-
         const displayName = (() => {
             const m = p.model, b = p.brand;
             // Case-insensitive brand prefix check
@@ -462,7 +465,7 @@ function renderPhones() {
 
         const sc = [
             { l: '处理器', v: p.processor || '—' },
-            { l: '内存/存储', v: (p.ram && p.storage) ? p.ram + ' + ' + p.storage : (p.ram || p.storage || '—') },
+            { l: '内存/存储', v: (p.ram && p.storage) ? simplifyCapacity(p.ram) + ' + ' + simplifyCapacity(p.storage) : (simplifyCapacity(p.ram) || simplifyCapacity(p.storage) || '—') },
             { l: '屏幕', v: getFoldableScreenDisplay(p) || '—' },
             { l: '电池', v: p.battery_mah ? p.battery_mah + 'mAh' : '—' },
             { l: '有线充电', v: p.charging_w ? p.charging_w + 'W' : '—' },
@@ -510,7 +513,6 @@ function renderPhones() {
                         : '<img class="brand-logo" style="' + getLogoStyle(p.brand) + '" src="' + brandLogos[p.brand] + '" alt="' + p.brand + '">') + '</span>' +
                     priceHtml +
                 '</div>' +
-                subsidyHtml +
                 '<div class="phone-name">' + displayName + '</div>' +
             '</div>' +
             '<div class="card-body">' +
