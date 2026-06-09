@@ -6858,6 +6858,37 @@
     "has_ir": true
   },
   {
+    "id": 325,
+    "brand": "HONOR",
+    "model": "Magic8 RSR 保时捷设计",
+    "processor": "骁龙8 Gen4",
+    "screen_size": 6.58,
+    "refresh_hz": 120,
+    "screen_type": "OLED",
+    "resolution": "2400×1080",
+    "ram": "16GB",
+    "storage": "512GB/1TB",
+    "battery_mah": 7000,
+    "charging_w": 120,
+    "weight_g": 200,
+    "camera_desc": "50MP主摄",
+    "has_tele": false,
+    "os": "Android",
+    "features": [],
+    "tags": [
+      "6500mAh+",
+      "≤200g",
+      "USB3.0",
+      "无线充电"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 80,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "",
+    "release_date": "2026-01-19",
+    "price": 7999
+  },
+  {
     "id": 326,
     "brand": "HONOR",
     "model": "X80i",
