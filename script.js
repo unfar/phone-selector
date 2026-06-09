@@ -456,8 +456,11 @@ function renderPhones() {
             if (m.toLowerCase().startsWith(b.toLowerCase())) return m;
             // Known brand prefixes already in model name
             if (m.startsWith('iPhone') || m.startsWith('Galaxy') || m.startsWith('moto') || m.startsWith('Moto')) return m;
-            // Chinese brand name already in model
-            if ((b === 'Huawei' || b === 'HONOR' || b === 'OnePlus' || b === 'RedMagic' || b === 'Lenovo') && /^[一荣耀华红拯]/.test(m)) return m;
+            // Chinese brand name - strip Chinese prefix and use English brand
+            if (/^[\u4e00-\u9fff]/.test(m)) {
+                var stripped = m.replace(/^[\u4e00-\u9fff\s]+/, '');
+                return b + (stripped ? ' ' + stripped : '');
+            }
             if (b === 'OPPO' || b === 'REDMI') return m; // models already include brand
             // Prepend brand for bare model names (e.g. GT8, 13 Pro, S21)
             return b + ' ' + m;
