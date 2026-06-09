@@ -489,7 +489,7 @@ function renderPhones() {
         // 防尘抗水（仅显示 IP 等级）
         const ipFeat = (p.features || []).find(f => /IP\d{2}/.test(f));
         if (ipFeat) {
-            const ipLevels = ipFeat.match(/IP\d{2}/g);
+            const ipLevels = ipFeat.match(/IP\d{2}K?/g);
             if (ipLevels) ft.push({ t: '💧 ' + ipLevels.join('/'), c: 'blue' });
         }
         // NFC
