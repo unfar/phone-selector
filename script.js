@@ -486,9 +486,12 @@ function renderPhones() {
         if (p.has_tele) ft.push({ t: '🔭 潜望长焦', c: 'purple' });
         if (p.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' });
         if (p.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' });
-        // 防水（显示具体 IP 等级）
-        const ipRating = (p.features || []).find(f => f.includes('IP68') || f.includes('IP69'));
-        if (ipRating) ft.push({ t: '💧 ' + ipRating, c: 'blue' });
+        // 防尘抗水（仅显示 IP 等级）
+        const ipFeat = (p.features || []).find(f => /IP\d{2}/.test(f));
+        if (ipFeat) {
+            const ipLevels = ipFeat.match(/IP\d{2}/g);
+            if (ipLevels) ft.push({ t: '💧 ' + ipLevels.join('/'), c: 'blue' });
+        }
         // NFC
         if (p.tags.includes('NFC') || (p.features || []).some(f => f.includes('NFC'))) ft.push({ t: '📡 NFC', c: '' });
         // 红外
@@ -669,7 +672,7 @@ function renderComparePanel() {
         { l: '💧 防尘抗水', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('防尘抗水') || feats.some(f => f.includes('IP68') || f.includes('IP69'))) return '✅ 支持';
+            if (tags.includes('防尘抗水') || feats.some(f => /IP\d{2}/.test(f))) return '✅ 支持';
             return '—';
         }},
         { l: '📡 NFC', v: p => {
