@@ -50,7 +50,7 @@ function simplifyCapacity(s) {
     var m = s.match(/(\d+GB(?:\s*\/\s*\d+GB)?)/);
     return m ? m[1] : s;
 }
-const featureTags = ["潜望长焦","6500mAh+","≤200g","防水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"];
+const featureTags = ["潜望长焦","6500mAh+","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
 const priceRanges = [
     { name: "<1k", min: 0, max: 999 },
@@ -156,7 +156,7 @@ function matchesFilters(p) {
         if (p.screen_form !== screenVal) return false;
     }
     if (selectedCpu.size > 0) { let has = false; for (let c of selectedCpu) if (p.tags.includes(c)) { has = true; break; } if (!has) return false; }
-    const tagsRequireBoth = new Set(['NFC', '红外', 'USB3.0', '无线充电', '防水', '潜望长焦', '6500mAh+', '≤200g', '散热风扇', '有线投屏']);
+    const tagsRequireBoth = new Set(['NFC', '红外', 'USB3.0', '无线充电', '防尘抗水', '潜望长焦', '6500mAh+', '≤200g', '散热风扇', '有线投屏']);
     for (let t of selectedTags) {
         if (tagsRequireBoth.has(t)) {
             const inTags = p.tags.includes(t);
@@ -482,7 +482,7 @@ function renderPhones() {
         if (!p.detailed_camera && p.camera_desc) detailHtml += '<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">' + p.camera_desc + '</div></div>';
 
         const ft = [];
-        // 仅展示特性标签中的标签（潜望长焦/6500mAh+/≤200g/防水/NFC/红外/USB3.0/无线充电/散热风扇/有线投屏）
+        // 仅展示特性标签中的标签（潜望长焦/6500mAh+/≤200g/防尘抗水/NFC/红外/USB3.0/无线充电/散热风扇/有线投屏）
         if (p.has_tele) ft.push({ t: '🔭 潜望长焦', c: 'purple' });
         if (p.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' });
         if (p.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' });
@@ -666,10 +666,10 @@ function renderComparePanel() {
         { l: '⚖️ 重量', v: p => p.weight_g ? p.weight_g + 'g' : '—', best: 'min' },
         { l: '📱 系统', v: p => p.os || '—' },
         { l: '📐 屏幕形态', v: p => p.screen_form || '—' },
-        { l: '💧 防水', v: p => {
+        { l: '💧 防尘抗水', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('防水') || feats.some(f => f.includes('IP68') || f.includes('IP69'))) return '✅ 支持';
+            if (tags.includes('防尘抗水') || feats.some(f => f.includes('IP68') || f.includes('IP69'))) return '✅ 支持';
             return '—';
         }},
         { l: '📡 NFC', v: p => {
