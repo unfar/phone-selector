@@ -4638,7 +4638,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 5000万 f/1.6 1/1.3英寸 | 长焦: 2亿潜望 1/1.4英寸 3.7x光学",
     "charging_w": 100,
-    "release_date": "2025-10",
+    "release_date": "2025-10-15",
     "price": 4499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
@@ -4676,7 +4676,7 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 5000万 f/1.9 | 长焦: 6400万潜望 3x光学",
     "charging_w": 80,
-    "release_date": "2025-10",
+    "release_date": "2025-10-15",
     "price": 4499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
@@ -5229,7 +5229,7 @@
       "6500mAh+",
       "≤200g"
     ],
-    "release_date": "2025-10",
+    "release_date": "2026-01-19",
     "price": 5699,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
@@ -5263,7 +5263,7 @@
       "红外",
       "有线投屏"
     ],
-    "release_date": "2025-10",
+    "release_date": "2026-01-19",
     "price": 4499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
@@ -6885,7 +6885,7 @@
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
     "detailed_camera": "",
-    "release_date": "2025-10",
+    "release_date": "2026-01-19",
     "price": 7999
   },
   {
