@@ -4721,14 +4721,13 @@
     "screen_form": "直屏",
     "id": 169,
     "tags": [
-      "USB3.0",
       "6500mAh+",
       "潜望长焦",
       "无线充电",
       "NFC"
     ],
     "wireless_charging_w": 80,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "charging_w": 100,
     "release_date": "2025-06",
