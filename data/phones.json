@@ -1202,7 +1202,6 @@
     "tags": [
       "潜望长焦",
       "天玑9400",
-      "USB3.0",
       "无线充电",
       "防尘抗水",
       "NFC",
@@ -1211,7 +1210,7 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 30,
-    "usb_version": "USB 3.2 Gen 1",
+    "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.57 | 超广角: 5000万 | 长焦: 5000万 3x光学",
     "release_date": "2024-10",
     "price": 4099
