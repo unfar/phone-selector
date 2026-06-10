@@ -8991,5 +8991,75 @@
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24809",
     "verified_at": "2026-06-07",
     "price_subsidy": 3499
+  },
+  {
+    "id": 436,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6X Pro",
+    "processor": "天玑7400 SUPER",
+    "screen_size": 6.78,
+    "refresh_hz": 120,
+    "screen_type": "AMOLED",
+    "resolution": "1272×2772",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "battery_mah": 8000,
+    "charging_w": 80,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 213,
+    "camera_desc": "5000万主摄OIS | 800万超广角",
+    "detailed_camera": "主摄: 5000万 f/1.8 OIS | 超广角: 800万 f/2.2 112° | 前置: 1600万",
+    "has_tele": false,
+    "os": "ColorOS",
+    "screen_form": "直屏",
+    "features": [
+      "NFC",
+      "红外遥控",
+      "80W超级闪充",
+      "8000mAh超大电池"
+    ],
+    "tags": [
+      "NFC",
+      "红外",
+      "6500mAh+"
+    ],
+    "release_date": "2026-06",
+    "price": 2099
+  },
+  {
+    "id": 437,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6X",
+    "processor": "天玑7300",
+    "screen_size": 6.78,
+    "refresh_hz": 120,
+    "screen_type": "AMOLED",
+    "resolution": "2400×1080",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "battery_mah": 8000,
+    "charging_w": 80,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "weight_g": 208,
+    "camera_desc": "5000万主摄",
+    "detailed_camera": "主摄: 5000万 | 前置: 1600万",
+    "has_tele": false,
+    "os": "ColorOS",
+    "screen_form": "直屏",
+    "features": [
+      "NFC",
+      "红外遥控",
+      "80W超级闪充",
+      "8000mAh超大电池"
+    ],
+    "tags": [
+      "NFC",
+      "红外",
+      "6500mAh+"
+    ],
+    "release_date": "2026-06",
+    "price": 1899
   }
 ]
