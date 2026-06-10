@@ -1388,13 +1388,12 @@
       "骁龙8 Elite 1",
       "红外",
       "6500mAh+",
-      "USB3.0",
       "NFC",
       "有线投屏"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-11",
     "price": 2549
@@ -1426,14 +1425,13 @@
       "红外",
       "天玑9500",
       "6500mAh+",
-      "USB3.0",
       "NFC",
       "潜望长焦",
       "有线投屏"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-11",
     "price": 3199
