@@ -3336,7 +3336,6 @@
       "红外"
     ],
     "tags": [
-      "USB3.0",
       "NFC",
       "红外",
       "6500mAh+",
@@ -3345,7 +3344,7 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-08",
     "price": 2999
