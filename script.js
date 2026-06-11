@@ -423,6 +423,84 @@ function addBadge(c, t, r) {
     c.appendChild(el);
 }
 
+// ===== 相机信息格式化 =====
+function renderCameraInfo(p) {
+    const dc = p.detailed_camera || '';
+    const cd = p.camera_desc || '';
+    if (!dc && !cd) return '';
+
+    // 有 detailed_camera — 结构化展示
+    if (dc && dc.length > 5) {
+        const sections = dc.split('|').map(s => s.trim()).filter(Boolean);
+        let html = '<div class="card-camera">';
+        let hasDetailed = false;
+
+        for (const sec of sections) {
+            // 识别镜头类型
+            let type = '';
+            let icon = '📷';
+            let detail = sec;
+
+            if (/^前置/.test(sec)) { type = '前置'; icon = '🤳'; }
+            else if (/^主摄/.test(sec)) type = '主摄';
+            else if (/^超广角/.test(sec) || /^超广角微距/.test(sec)) type = '超广角';
+            else if (/^超长焦/.test(sec)) type = '超长焦';
+            else if (/^长焦/.test(sec) || /^潜望长焦/.test(sec) || /^潜望/.test(sec)) type = '长焦';
+            else if (/^后置/.test(sec)) type = '后置';
+            else if (/^[📷🤳]/.test(sec)) { /* already has emoji */ }
+            else {
+                // 尝试从文本中推断
+                if (/主摄/.test(sec)) type = '主摄';
+                else if (/超广角/.test(sec)) type = '超广角';
+                else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长焦' : '长焦';
+                else if (/前置/.test(sec)) { type = '前置'; icon = '🤳'; }
+            }
+
+            // 提取详情（去掉类型前缀）
+            detail = sec.replace(/^(前置|主摄|超广角|超长焦|长焦|潜望长焦|潜望|后置|超广角微距)[：:．.\s]*/, '').trim();
+
+            // 对『后置』段落，尝试按 + 拆分子镜头
+            if (type === '后置' && detail.includes('+')) {
+                const subCams = detail.split('+').map(s => s.trim()).filter(Boolean);
+                for (const sub of subCams) {
+                    let subType = '';
+                    if (/主摄/.test(sub)) subType = '主摄';
+                    else if (/超广角/.test(sub)) subType = '超广角';
+                    else if (/潜望/.test(sub) || /长焦/.test(sub)) subType = sub.includes('超') ? '超长焦' : '长焦';
+                    else if (/微距/.test(sub)) subType = '微距';
+                    else if (/黑白/.test(sub)) subType = '黑白';
+                    else subType = '镜头';
+
+                    const subDetail = sub.replace(/(主摄|超广角|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim();
+                    html += '<div class="cam-row"><span class="cam-type">' + subType + '</span><span class="cam-detail">' + subDetail + '</span></div>';
+                    hasDetailed = true;
+                }
+                continue;
+            }
+
+            if (type) {
+                html += '<div class="cam-row"><span class="cam-type">' + (icon === '🤳' ? '🤳' : '') + type + '</span><span class="cam-detail">' + detail + '</span></div>';
+                hasDetailed = true;
+            } else {
+                // 未知类型，直接显示
+                html += '<div class="cam-row"><span class="cam-type">📷</span><span class="cam-detail">' + detail + '</span></div>';
+                hasDetailed = true;
+            }
+        }
+
+        if (!hasDetailed) html += '<span class="cam-brief">' + cd + '</span>';
+        html += '</div>';
+        return html;
+    }
+
+    // 没有 detailed_camera — 从 camera_desc 提取精简信息
+    if (cd) {
+        const mp = cd.replace(/\|/g, ' · ').trim();
+        return '<div class="card-camera"><span class="cam-brief">' + mp.substring(0, 60) + '</span></div>';
+    }
+    return '';
+}
+
 // ===== 渲染手机卡片 =====
 function renderPhones() {
     const filtered = sortPhones(phones.filter(matchesFilters));
@@ -523,6 +601,7 @@ function renderPhones() {
             '</div>' +
             '<div class="card-body">' +
                 '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value' + (s.v === '不支持' || s.v === '—' ? ' unsupported' : '') + '">' + s.v + '</div></div>').join('') + '</div>' +
+                renderCameraInfo(p) +
                 '<div class="card-expand"><button class="expand-btn" data-id="' + p.id + '">' + (isExpanded ? '收起 ▲' : '展开详情 ▼') + '</button></div>' +
                 '<div class="card-details ' + (isExpanded ? 'open' : '') + '">' + detailHtml + '</div>' +
             '</div>' + fh +
