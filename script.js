@@ -423,11 +423,11 @@ function addBadge(c, t, r) {
     c.appendChild(el);
 }
 
-// ===== 相机信息板块 =====
-function renderCameraInfo(p) {
+// ===== 相机信息 → spec-grid 行 =====
+function getCameraSpecs(p) {
     const dc = p.detailed_camera || '';
     const cd = p.camera_desc || '';
-    if (!dc && !cd) return '';
+    const specs = [];
 
     function fmtMp(num) {
         const n = parseInt(num);
@@ -435,98 +435,78 @@ function renderCameraInfo(p) {
         return n >= 100 ? n + '万' : n + 'MP';
     }
 
-    function extractDetail(s) {
+    function extractBrief(s) {
+        // 取像素数+CMOS，用于 spec-grid 单元格
         let mp = (s.match(/(\d+)\s*[万M]/) || [])[1] || '';
         let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|徕卡\w*|光影猎人\w*)/) || [])[1] || '';
         let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || '';
-        let sensor = (s.match(/(\d+\/\d+\.?\d*)\s*(?:英寸|")?/) || [])[1] || '';
-        // 格式化光圈（避免 f/ → f// 的双斜杠）
-        if (aperture) {
-            aperture = aperture.replace(/^F\s*/i, 'f/');
-            // 如果已经是 f/ 开头，去掉可能的重复
-            aperture = aperture.replace(/^f\/\//, 'f/');
-        }
+        if (aperture) { aperture = aperture.replace(/^F\s*/i, 'f/'); aperture = aperture.replace(/^f\/\//, 'f/'); }
         let parts = [];
         if (mp) parts.push(fmtMp(mp));
         if (cmos) parts.push(cmos);
         if (aperture) parts.push(aperture);
-        if (sensor) parts.push(sensor + '"');
-        return parts.join(' ') || s.substring(0, 30);
+        return parts.join(' ') || s.substring(0, 20);
     }
 
     if (dc && dc.length > 5) {
         const sections = dc.split('|').map(s => s.trim()).filter(Boolean);
-        let rearItems = [], frontText = '';
+        let rearCams = [];   // {type, text} 每个后置镜头
+        let frontTxt = '';
 
         for (const sec of sections) {
-            const cleanSec = sec.replace(/^[^：:]*[：:]\s*/, '').trim();
+            const clean = sec.replace(/^[^：:]*[：:]\s*/, '').trim();
 
-            if (/^前置/.test(sec)) { frontText = extractDetail(cleanSec); continue; }
+            if (/^前置/.test(sec)) { frontTxt = extractBrief(clean); continue; }
 
             if (/^后置/.test(sec)) {
-                const subs = cleanSec.split('+').map(x => x.trim()).filter(Boolean);
+                const subs = clean.split('+').map(x => x.trim()).filter(Boolean);
                 for (const sub of subs) {
-                    let subType = '';
-                    if (/主摄/.test(sub)) subType = '主摄';
-                    else if (/超广角/.test(sub)) subType = '超广角';
-                    else if (/长焦/.test(sub) || /潜望/.test(sub)) subType = sub.includes('超长焦') ? '超长焦' : '长焦';
-                    else if (/微距/.test(sub)) subType = '微距';
-                    else if (/黑白/.test(sub)) subType = '黑白';
-                    else subType = '镜头';
+                    let t = '';
+                    if (/主摄/.test(sub)) t = '主';
+                    else if (/超广角/.test(sub)) t = '广';
+                    else if (/长焦/.test(sub) || /潜望/.test(sub)) t = sub.includes('超长焦') ? '超长' : '长';
+                    else if (/微距/.test(sub)) t = '微';
+                    else t = '镜';
                     const subClean = sub.replace(/(主摄|超广角|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim();
-                    rearItems.push({ type: subType, detail: extractDetail(subClean) });
+                    const brief = extractBrief(subClean);
+                    if (brief) rearCams.push({t, d: brief});
                 }
                 continue;
             }
 
             let type = '';
-            let detailText = cleanSec;
-            if (/^主摄/.test(sec) || /主摄/.test(sec)) type = '主摄';
-            else if (/^超广角/.test(sec) || /超广角/.test(sec)) type = '超广角';
-            else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长焦' : '长焦';
-            else { rearItems.push({ type: '📷', detail: cleanSec.substring(0, 35) }); continue; }
-            if (type) rearItems.push({ type, detail: extractDetail(detailText) });
+            if (/主摄/.test(sec)) type = '主';
+            else if (/超广角/.test(sec)) type = '广';
+            else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长' : '长';
+            if (type) rearCams.push({t: type, d: extractBrief(clean)});
         }
 
-        // 如果没有后置分段，按镜头类型归类
-        if (rearItems.length === 0) {
-            let main='', uw='', tele='';
+        // 容错：如果分段没抓到，直接解析
+        if (rearCams.length === 0 && frontTxt === '') {
             for (const sec of sections) {
                 const cs = sec.replace(/^[^：:]*[：:]\s*/, '').trim();
-                if (/前置/.test(sec)) { frontText = extractDetail(cs); continue; }
-                if (/主摄/.test(sec)) main = extractDetail(cs);
-                else if (/超广角/.test(sec)) uw = extractDetail(cs);
-                else if (/长焦/.test(sec) || /潜望/.test(sec)) tele = extractDetail(cs);
+                if (/前置/.test(sec)) frontTxt = extractBrief(cs);
+                else if (/主摄/.test(sec)) rearCams.push({t:'主', d: extractBrief(cs)});
+                else if (/超广角/.test(sec)) rearCams.push({t:'广', d: extractBrief(cs)});
+                else if (/长焦/.test(sec) || /潜望/.test(sec)) rearCams.push({t:'长', d: extractBrief(cs)});
             }
-            if (main) rearItems.push({type:'主摄',detail:main});
-            if (uw) rearItems.push({type:'超广角',detail:uw});
-            if (tele) rearItems.push({type:'长焦',detail:tele});
         }
 
-        let html = '<div class="card-camera">';
-        if (rearItems.length > 0) {
-            html += '<div class="cam-section"><div class="cam-header">📷 后置</div>';
-            for (const item of rearItems) {
-                html += '<div class="cam-item"><span class="cam-type">' + item.type + '</span><span class="cam-detail">' + item.detail + '</span></div>';
-            }
-            html += '</div>';
+        // 组装后置显示文本："主50MP+长50MP+广12MP"
+        if (rearCams.length > 0) {
+            let parts = rearCams.map(c => c.t + c.d);
+            specs.push({ l: '后置', v: parts.join(' + ') });
         }
-        if (frontText) {
-            html += '<div class="cam-section cam-front"><div class="cam-header">🤳 前置</div>';
-            html += '<div class="cam-item"><span class="cam-type"></span><span class="cam-detail">' + frontText + '</span></div>';
-            html += '</div>';
+        if (frontTxt) {
+            specs.push({ l: '前置', v: frontTxt });
         }
-        html += '</div>';
-        return html;
+    } else if (cd) {
+        const brief = cd.replace(/\|/g, ' · ').trim().substring(0, 25);
+        if (brief) specs.push({ l: '影像', v: brief });
     }
 
-    if (cd) {
-        const brief = cd.replace(/\|/g, ' · ').trim().substring(0, 50);
-        return '<div class="card-camera"><div class="cam-section"><div class="cam-header">📷 影像</div><div class="cam-item"><span class="cam-type"></span><span class="cam-detail">' + brief + '</span></div></div></div>';
-    }
-    return '';
+    return specs;
 }
-
 // ===== 渲染手机卡片 =====
 function renderPhones() {
     const filtered = sortPhones(phones.filter(matchesFilters));
@@ -580,6 +560,9 @@ function renderPhones() {
             { l: 'USB', v: p.usb_version || '—' },
             { l: '重量', v: p.weight_g ? p.weight_g + 'g' : '—' }
         ];
+        // 加入影像 spec-grid 行
+        const camSpecs = getCameraSpecs(p);
+        camSpecs.forEach(s => sc.push(s));
 
         let detailHtml = '';
         if (p.detailed_camera) detailHtml += '<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">' + p.detailed_camera + '</div></div>';
@@ -627,7 +610,6 @@ function renderPhones() {
             '</div>' +
             '<div class="card-body">' +
                 '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value' + (s.v === '不支持' || s.v === '—' ? ' unsupported' : '') + '">' + s.v + '</div></div>').join('') + '</div>' +
-                renderCameraInfo(p) +
                 '<div class="card-expand"><button class="expand-btn" data-id="' + p.id + '">' + (isExpanded ? '收起 ▲' : '展开详情 ▼') + '</button></div>' +
                 '<div class="card-details ' + (isExpanded ? 'open' : '') + '">' + detailHtml + '</div>' +
             '</div>' + fh +
