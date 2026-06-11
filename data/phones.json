@@ -717,24 +717,20 @@
     "has_tele": false,
     "os": "ColorOS 15",
     "features": [
-      "IP68/IP69防尘抗水",
+      "IP65防尘抗水",
       "NFC",
-      "红外",
-      "无线充电"
+      "红外"
     ],
     "tags": [
       "骁龙8 Elite 1",
       "NFC",
       "红外",
       "防尘抗水",
-      "无线充电",
-      "≤200g",
-      "USB3.0",
-      "有线投屏"
+      "≤200g"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 50,
-    "usb_version": "USB 3.0",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-04",
     "price": 3099
@@ -3992,8 +3988,8 @@
     "resolution": "3200×1440",
     "ram": "12GB/16GB",
     "storage": "512GB/1TB",
-    "battery_mah": 5410,
-    "charging_w": 90,
+    "battery_mah": 8000,
+    "charging_w": 100,
     "weight_g": 213,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
     "has_tele": false,
@@ -4007,10 +4003,10 @@
       "天玑9500s",
       "散热风扇",
       "红外",
-      "无线充电"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 80,
+    "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-06",
@@ -4027,8 +4023,8 @@
     "resolution": "3200×1440",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
-    "battery_mah": 5410,
-    "charging_w": 90,
+    "battery_mah": 7500,
+    "charging_w": 80,
     "weight_g": 200,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
     "has_tele": false,
@@ -4043,10 +4039,10 @@
       "轻薄",
       "红外",
       "≤200g",
-      "无线充电"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
-    "wireless_charging_w": 80,
+    "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-06",
@@ -4151,11 +4147,11 @@
     "processor": "骁龙8 Elite 5",
     "screen_size": 6.32,
     "battery_mah": 7500,
-    "weight_g": 194,
+    "weight_g": 185,
     "camera_desc": "后置5000万广角+5000万长焦(3.5x潜望) | 前置1600万像素",
     "has_tele": true,
     "features": [
-      "IP66/IP68/IP69防尘抗水",
+      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "3D超声波指纹",
@@ -4190,7 +4186,7 @@
     "brand": "OnePlus",
     "model": "一加 15",
     "processor": "骁龙8 Elite 5",
-    "screen_size": 6.7,
+    "screen_size": 6.78,
     "battery_mah": 7300,
     "weight_g": 215,
     "camera_desc": "50MP主摄 + 50MP超广角 + 潜望长焦",
@@ -4228,13 +4224,13 @@
     "brand": "OnePlus",
     "model": "一加 Ace 6 至尊版",
     "processor": "天玑9500",
-    "screen_size": 6.74,
-    "battery_mah": 7800,
+    "screen_size": 6.78,
+    "battery_mah": 8600,
     "weight_g": 218,
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69防尘抗水",
+      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控"
     ],
@@ -4268,7 +4264,7 @@
     "camera_desc": "后置5000万主摄+800万超广角 | 前置1600万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69防尘抗水",
+      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "屏下超声指纹",
@@ -4305,7 +4301,7 @@
     "camera_desc": "后置5000万主摄+800万超广角 | 前置1600万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69防尘抗水",
+      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "屏下超声指纹",
@@ -4342,7 +4338,7 @@
     "camera_desc": "后置5000万索尼主摄 | 前置1600万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69防尘抗水",
+      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "电竞三芯",
@@ -4373,10 +4369,10 @@
   {
     "brand": "OnePlus",
     "model": "一加 Turbo 6V",
-    "processor": "天玑7300",
+    "processor": "第四代骁龙7s",
     "screen_size": 6.78,
     "battery_mah": 9000,
-    "weight_g": 198,
+    "weight_g": 215,
     "camera_desc": "后置5000万主摄 | 前置800万像素",
     "has_tele": false,
     "features": [
@@ -4401,7 +4397,8 @@
     "price": 1999,
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "refresh_hz": 120
+    "refresh_hz": 144,
+    "screen_type": "AMOLED"
   },
   {
     "brand": "OnePlus",
@@ -9013,10 +9010,11 @@
     "os": "ColorOS",
     "screen_form": "直屏",
     "features": [
+      "IP64防尘抗水",
       "NFC",
       "红外遥控",
-      "45W快充",
-      "8000mAh超大电池"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
