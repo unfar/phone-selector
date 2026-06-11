@@ -440,13 +440,18 @@ function renderCameraInfo(p) {
         let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|徕卡\w*|光影猎人\w*)/) || [])[1] || '';
         let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || '';
         let sensor = (s.match(/(\d+\/\d+\.?\d*)\s*(?:英寸|")?/) || [])[1] || '';
-        let detail = '';
-        if (mp) detail += fmtMp(mp);
-        if (cmos) detail += (detail ? ' · ' : '') + cmos;
-        if (aperture) detail += (detail ? ' · ' : '') + aperture.replace(/^F/i, 'f/');
-        if (sensor) detail += (detail ? ' · ' : '') + sensor + '"';
-        if (!detail) detail = s.substring(0, 30);
-        return detail;
+        // 格式化光圈（避免 f/ → f// 的双斜杠）
+        if (aperture) {
+            aperture = aperture.replace(/^F\s*/i, 'f/');
+            // 如果已经是 f/ 开头，去掉可能的重复
+            aperture = aperture.replace(/^f\/\//, 'f/');
+        }
+        let parts = [];
+        if (mp) parts.push(fmtMp(mp));
+        if (cmos) parts.push(cmos);
+        if (aperture) parts.push(aperture);
+        if (sensor) parts.push(sensor + '"');
+        return parts.join(' ') || s.substring(0, 30);
     }
 
     if (dc && dc.length > 5) {

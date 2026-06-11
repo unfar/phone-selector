@@ -185,13 +185,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text)}
 
 /* ===== Card Camera Block ===== */
-.card-camera{margin-top:10px;border-top:1px solid rgba(255,255,255,.08);padding-top:8px}
+.card-camera{margin-top:10px;border-top:1px solid rgba(255,255,255,.07);padding:8px 0 2px}
 .cam-section{margin-bottom:6px}
 .cam-section:last-child{margin-bottom:0}
-.cam-header{font-size:.72rem;font-weight:600;color:var(--primary);margin-bottom:4px}
-.cam-item{display:flex;align-items:baseline;gap:6px;padding:2px 0;font-size:.72rem;line-height:1.5}
-.cam-item .cam-type{flex-shrink:0;min-width:3.6em;font-size:.68rem;color:var(--text-muted);text-align:right}
-.cam-item .cam-detail{color:var(--text-secondary);word-break:break-all}
+.cam-header{font-size:.72rem;font-weight:600;margin-bottom:5px;display:flex;align-items:center;gap:4px}
+.cam-item{display:flex;align-items:baseline;gap:8px;padding:1px 0 1px 18px;font-size:.72rem;line-height:1.5}
+.cam-item .cam-type{flex-shrink:0;width:3.2em;font-size:.68rem;font-weight:500;color:#888;text-align:left}
+.cam-item .cam-detail{color:var(--text)}
 
 /* ===== Card Expand ===== */
 .card-expand{margin-top:10px;text-align:center}
@@ -340,10 +340,10 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     
     .card-expand{margin-top:4px}
     .expand-btn{padding:1px 8px;font-size:.6rem}
-    .card-camera{margin-top:6px;padding-top:4px}
-    .cam-header{font-size:.64rem;margin-bottom:2px}
-    .cam-item{font-size:.64rem;padding:1px 0}
-    .cam-item .cam-type{font-size:.6rem;min-width:3em}
+    .card-camera{margin-top:6px;padding:5px 0 0}
+    .cam-header{font-size:.64rem;margin-bottom:3px}
+    .cam-item{padding:0 0 0 14px;font-size:.64rem}
+    .cam-item .cam-type{width:2.8em;font-size:.6rem}
 
     .card-details{padding:6px 10px}
     .detail-section{padding:8px;font-size:.72rem}
@@ -416,10 +416,10 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .feature-tag{padding:1px 5px;font-size:.5rem}
     .card-expand{margin-top:2px}
     .expand-btn{padding:0 6px;font-size:.54rem}
-    .card-camera{margin-top:4px;padding-top:2px}
-    .cam-header{font-size:.56rem;margin-bottom:1px}
-    .cam-item{font-size:.56rem;padding:0}
-    .cam-item .cam-type{font-size:.52rem;min-width:2.6em}
+    .card-camera{margin-top:4px;padding:3px 0 0}
+    .cam-header{font-size:.56rem;margin-bottom:2px}
+    .cam-item{padding:0 0 0 10px;font-size:.56rem}
+    .cam-item .cam-type{width:2.4em;font-size:.52rem}
     .card-details{padding:4px 8px}
     .detail-section{padding:6px;font-size:.65rem}
     .toolbar{gap:6px}
