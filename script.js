@@ -423,82 +423,90 @@ function addBadge(c, t, r) {
     c.appendChild(el);
 }
 
-// ===== 相机信息格式化 =====
-function renderCameraInfo(p) {
+// ===== 相机信息 → spec-grid 行 =====
+function getCameraSpecs(p) {
     const dc = p.detailed_camera || '';
     const cd = p.camera_desc || '';
-    if (!dc && !cd) return '';
+    const specs = [];
 
-    // 有 detailed_camera — 结构化展示
+    function fmtMp(num) {
+        const n = parseInt(num);
+        if (!n) return '';
+        return n >= 100 ? n + '万' : n + 'MP';
+    }
+
     if (dc && dc.length > 5) {
         const sections = dc.split('|').map(s => s.trim()).filter(Boolean);
-        let html = '<div class="card-camera">';
-        let hasDetailed = false;
+        let rearParts = [];
+        let frontMp = '';
 
         for (const sec of sections) {
-            // 识别镜头类型
+            const s = sec.replace(/^[^：:]*[：:]\s*/, '').trim();
             let type = '';
-            let icon = '📷';
-            let detail = sec;
+            if (/^前置/.test(sec)) type = '前置';
+            else if (/主摄/.test(sec)) type = '主摄';
+            else if (/超广角/.test(sec)) type = '超广角';
+            else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长焦' : '长焦';
+            else if (/后置/.test(sec)) type = '后置';
 
-            if (/^前置/.test(sec)) { type = '前置'; icon = '🤳'; }
-            else if (/^主摄/.test(sec)) type = '主摄';
-            else if (/^超广角/.test(sec) || /^超广角微距/.test(sec)) type = '超广角';
-            else if (/^超长焦/.test(sec)) type = '超长焦';
-            else if (/^长焦/.test(sec) || /^潜望长焦/.test(sec) || /^潜望/.test(sec)) type = '长焦';
-            else if (/^后置/.test(sec)) type = '后置';
-            else if (/^[📷🤳]/.test(sec)) { /* already has emoji */ }
-            else {
-                // 尝试从文本中推断
-                if (/主摄/.test(sec)) type = '主摄';
-                else if (/超广角/.test(sec)) type = '超广角';
-                else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长焦' : '长焦';
-                else if (/前置/.test(sec)) { type = '前置'; icon = '🤳'; }
-            }
+            // 提取核心信息：像素数 + CMOS/光圈
+            let mp = (s.match(/(\d+)\s*[万M]/) || [])[1] || '';
+            let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|徕卡\w*)/) || [])[1] || '';
+            let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || '';
+            let sensor = (s.match(/(\d+\/\d+\.?\d*)\s*(?:英寸|")?/) || [])[1] || '';
 
-            // 提取详情（去掉类型前缀）
-            detail = sec.replace(/^(前置|主摄|超广角|超长焦|长焦|潜望长焦|潜望|后置|超广角微距)[：:．.\s]*/, '').trim();
-
-            // 对『后置』段落，尝试按 + 拆分子镜头
-            if (type === '后置' && detail.includes('+')) {
-                const subCams = detail.split('+').map(s => s.trim()).filter(Boolean);
-                for (const sub of subCams) {
-                    let subType = '';
-                    if (/主摄/.test(sub)) subType = '主摄';
-                    else if (/超广角/.test(sub)) subType = '超广角';
-                    else if (/潜望/.test(sub) || /长焦/.test(sub)) subType = sub.includes('超') ? '超长焦' : '长焦';
-                    else if (/微距/.test(sub)) subType = '微距';
-                    else if (/黑白/.test(sub)) subType = '黑白';
-                    else subType = '镜头';
-
-                    const subDetail = sub.replace(/(主摄|超广角|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim();
-                    html += '<div class="cam-row"><span class="cam-type">' + subType + '</span><span class="cam-detail">' + subDetail + '</span></div>';
-                    hasDetailed = true;
+            if (type === '前置') {
+                frontMp = s;
+            } else if (type === '后置') {
+                // 拆 + 号处理子镜头
+                const subs = s.split('+').map(x => x.trim()).filter(Boolean);
+                for (const sub of subs) {
+                    let subMp = (sub.match(/(\d+)\s*[万M]/) || [])[1] || '';
+                    let subCmos = (sub.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|徕卡\w*)/) || [])[1] || '';
+                    let subAp = (sub.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || '';
+                    let part = '';
+                    if (subMp) part += fmtMp(subMp);
+                    if (subCmos) part += (part ? ' ' : '') + subCmos;
+                    if (subAp) part += (part ? ' ' : '') + subAp;
+                    if (part) rearParts.push(part);
                 }
-                continue;
-            }
-
-            if (type) {
-                html += '<div class="cam-row"><span class="cam-type">' + (icon === '🤳' ? '🤳' : '') + type + '</span><span class="cam-detail">' + detail + '</span></div>';
-                hasDetailed = true;
+            } else if (type) {
+                let part = '';
+                if (mp) part += fmtMp(mp);
+                if (cmos) part += (part ? ' ' : '') + cmos;
+                if (aperture) part += (part ? ' ' : '') + aperture;
+                if (sensor) part += (part ? ' ' : '') + sensor;
+                if (part) rearParts.push(part);
             } else {
-                // 未知类型，直接显示
-                html += '<div class="cam-row"><span class="cam-type">📷</span><span class="cam-detail">' + detail + '</span></div>';
-                hasDetailed = true;
+                // 无明确类型——直接显示前40字
+                const brief = s.substring(0, 30);
+                if (brief) rearParts.push(brief);
             }
         }
 
-        if (!hasDetailed) html += '<span class="cam-brief">' + cd + '</span>';
-        html += '</div>';
-        return html;
+        if (rearParts.length > 0) {
+            specs.push({ l: '后摄', v: rearParts.join(' · ') });
+        }
+        if (frontMp) {
+            // 简化前置展示
+            let front = frontMp;
+            // 只保留像素数和CMOS/光圈
+            const fMp = (frontMp.match(/(\d+)\s*[万M]/) || [])[1] || '';
+            const fCmos = (frontMp.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|索尼\w*|三星\w*)/) || [])[1] || '';
+            const fAp = (frontMp.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || '';
+            front = '';
+            if (fMp) front += fmtMp(fMp);
+            if (fCmos) front += (front ? ' ' : '') + fCmos;
+            if (fAp) front += (front ? ' ' : '') + fAp;
+            specs.push({ l: '前摄', v: front || frontMp.substring(0, 20) });
+        }
+    } else if (cd) {
+        // 无 detailed_camera，从 camera_desc 精简
+        const brief = cd.replace(/\|/g, ' · ').trim().substring(0, 35);
+        if (brief) specs.push({ l: '影像', v: brief });
     }
 
-    // 没有 detailed_camera — 从 camera_desc 提取精简信息
-    if (cd) {
-        const mp = cd.replace(/\|/g, ' · ').trim();
-        return '<div class="card-camera"><span class="cam-brief">' + mp.substring(0, 60) + '</span></div>';
-    }
-    return '';
+    return specs;
 }
 
 // ===== 渲染手机卡片 =====
@@ -554,6 +562,9 @@ function renderPhones() {
             { l: 'USB', v: p.usb_version || '—' },
             { l: '重量', v: p.weight_g ? p.weight_g + 'g' : '—' }
         ];
+        // 加入影像 spec-grid 行
+        const camSpecs = getCameraSpecs(p);
+        camSpecs.forEach(s => sc.push(s));
 
         let detailHtml = '';
         if (p.detailed_camera) detailHtml += '<div class="detail-section"><div class="detail-title">📷 影像系统</div><div class="detail-row">' + p.detailed_camera + '</div></div>';
@@ -601,7 +612,6 @@ function renderPhones() {
             '</div>' +
             '<div class="card-body">' +
                 '<div class="spec-grid">' + sc.map(s => '<div class="spec-cell"><div class="label">' + s.l + '</div><div class="value' + (s.v === '不支持' || s.v === '—' ? ' unsupported' : '') + '">' + s.v + '</div></div>').join('') + '</div>' +
-                renderCameraInfo(p) +
                 '<div class="card-expand"><button class="expand-btn" data-id="' + p.id + '">' + (isExpanded ? '收起 ▲' : '展开详情 ▼') + '</button></div>' +
                 '<div class="card-details ' + (isExpanded ? 'open' : '') + '">' + detailHtml + '</div>' +
             '</div>' + fh +

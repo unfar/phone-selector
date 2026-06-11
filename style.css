@@ -184,13 +184,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .spec-cell .label{font-size:.7rem;color:var(--text-muted);margin-bottom:2px}
 .spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text)}
 
-/* ===== Card Camera ===== */
-.card-camera{margin-top:8px;padding:6px 10px;background:rgba(255,255,255,.06);border-radius:var(--radius-sm);line-height:1.6}
-.cam-row{display:flex;align-items:baseline;gap:6px;font-size:.7rem}
-.cam-type{flex-shrink:0;font-weight:600;color:var(--primary);min-width:3.2em;font-size:.68rem}
-.cam-detail{color:var(--text-secondary);word-break:break-all}
-.cam-brief{color:var(--text-muted);font-size:.68rem;line-height:1.5}
-
 /* ===== Card Expand ===== */
 .card-expand{margin-top:10px;text-align:center}
 .expand-btn{background:none;border:1px solid var(--border);border-radius:var(--radius-full);padding:4px 16px;font-size:.75rem;color:var(--text-secondary);cursor:pointer;transition:all .15s}
@@ -338,9 +331,6 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     
     .card-expand{margin-top:4px}
     .expand-btn{padding:1px 8px;font-size:.6rem}
-    .card-camera{margin-top:4px;padding:4px 8px}
-    .cam-row{font-size:.62rem}
-    .cam-type{font-size:.6rem;min-width:2.8em}
 
     .card-details{padding:6px 10px}
     .detail-section{padding:8px;font-size:.72rem}
@@ -413,9 +403,6 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .feature-tag{padding:1px 5px;font-size:.5rem}
     .card-expand{margin-top:2px}
     .expand-btn{padding:0 6px;font-size:.54rem}
-    .card-camera{margin-top:2px;padding:3px 6px}
-    .cam-row{font-size:.54rem}
-    .cam-type{font-size:.52rem;min-width:2.4em}
     .card-details{padding:4px 8px}
     .detail-section{padding:6px;font-size:.65rem}
     .toolbar{gap:6px}
