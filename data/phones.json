@@ -57,7 +57,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 12MP f/2.2 | 长焦 50MP f/2.4 3x OIS | 前置 50MP",
     "release_date": "2024-12",
     "price": 3699
   },
@@ -88,7 +88,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 12MP f/2.2 | 潜望长焦 50MP f/2.4 3.5x OIS | 前置 50MP",
     "release_date": "2024-12",
     "price": 4199
   },
@@ -186,7 +186,7 @@
     "charging_w": 66,
     "weight_g": 226,
     "camera_desc": "5000万主摄",
-    "has_tele": false,
+    "has_tele": true,
     "os": "MagicOS",
     "features": [],
     "tags": [
@@ -199,7 +199,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.6 OIS 鹰眼 | 超广 40MP f/2.2 | 潜望长焦 50MP f/3.0 OIS | 内屏前置 20MP f/2.2 | 外屏前置 20MP f/2.2",
     "release_date": "2024-07",
     "price": 8999,
     "screen_unfolded": {
@@ -229,7 +229,7 @@
     "charging_w": 66,
     "weight_g": 231,
     "camera_desc": "5000万主摄",
-    "has_tele": false,
+    "has_tele": true,
     "os": "MagicOS",
     "features": [],
     "tags": [
@@ -239,7 +239,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 40MP f/2.2 | 潜望长焦 50MP f/3.0 OIS | 前置 20MP",
     "release_date": "2024-05",
     "price": 6999,
     "screen_unfolded": {
@@ -448,7 +448,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP RYYB f/1.6-F4.0可变光圈 OIS | 超广 13MP | 前置 13MP",
     "release_date": "2025-06",
     "price": 4699
   },
@@ -482,7 +482,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 1英寸 RYYB f/1.6-F4.0可变光圈 OIS | 超广 40MP f/2.2 RYYB | 潜望长焦 50MP f/2.1 4x OIS RYYB | 前置 13MP",
     "release_date": "2025-06",
     "price": 7999
   },
@@ -516,7 +516,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 1英寸 RYYB f/1.6-F4.0可变光圈 OIS | 超广 40MP f/2.2 RYYB | 潜望长焦 48MP f/2.1 4x OIS RYYB | 前置 13MP",
     "release_date": "2025-06",
     "price": 6499
   },
@@ -554,7 +554,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 1英寸 RYYB f/1.6-F4.0可变光圈 OIS | 超广 40MP f/2.2 RYYB | 潜望长焦 50MP 1/1.28\" RYYB 3.7x-9.4x OIS | 前置 13MP",
     "release_date": "2025-06",
     "price": 9999
   },
@@ -620,7 +620,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 12MP f/2.2 | 长焦 8MP 3x OIS | 前置 60MP超广角+8MP人像双摄",
     "release_date": "2024-10",
     "price": 3699
   },
@@ -655,7 +655,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 12MP f/2.2 | 潜望长焦 12MP 5x OIS | 前置 60MP超广角+8MP人像双摄",
     "release_date": "2024-10",
     "price": 4499
   },
@@ -1465,7 +1465,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 光影猎人900 f/1.6 OIS | 超广 32MP f/2.0 | 长焦 50MP f/2.0 3.2x OIS | 前置 32MP",
     "release_date": "2025-11",
     "price": 3999
   },
@@ -1889,7 +1889,7 @@
     "charging_w": 67,
     "weight_g": 179,
     "camera_desc": "5000万主摄",
-    "has_tele": false,
+    "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
       "NFC",
@@ -1903,7 +1903,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 光影猎人800 f/1.6 OIS 徕卡 | 超广 12MP f/2.2 徕卡 | 长焦 50MP f/2.0 2x 徕卡 | 前置 32MP + 32MP超广双摄",
     "release_date": "2024-05",
     "price": 2599
   },
@@ -1922,7 +1922,7 @@
     "charging_w": 67,
     "weight_g": 192,
     "camera_desc": "",
-    "has_tele": false,
+    "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
       "NFC",
@@ -1939,7 +1939,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 光影猎人800 f/1.7 OIS 徕卡 | 长焦 50MP 浮动 f/2.0 2x 徕卡 | 前置 32MP",
     "release_date": "2024-07",
     "price": 5999,
     "screen_unfolded": {
@@ -1969,7 +1969,7 @@
     "charging_w": 67,
     "weight_g": 199,
     "camera_desc": "5000万徕卡高动态主摄 | 5000万徕卡超广角",
-    "has_tele": false,
+    "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
       "NFC",
@@ -1989,7 +1989,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.7 OIS 徕卡 | 超广 50MP 徕卡 | 前置 32MP",
     "release_date": "2024-07",
     "price": 4999,
     "screen_unfolded": {
@@ -2037,7 +2037,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.7 OIS 徕卡 | 超广 12MP 徕卡 | 长焦 10MP 5x OIS 徕卡 | 前置 20MP",
     "release_date": "2024-07",
     "price": 8999,
     "screen_unfolded": {
@@ -2316,7 +2316,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP RYYB f/1.4-F4.0可变光圈 OIS | 超广 40MP f/2.2 | 长焦 50MP 3.5x OIS | 超长焦 50MP 6x OIS | 前置 13MP",
     "release_date": "2025-11",
     "price": 11999,
     "status": "unreleased"
@@ -2356,7 +2356,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 13MP | 长焦 50MP 5x OIS | 前置 8MP",
     "release_date": "2025-12",
     "price": 12999,
     "screen_unfolded": {
@@ -2404,7 +2404,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 13MP | 长焦 48MP 5x OIS | 前置 8MP",
     "release_date": "2024-12-06",
     "price": 12999,
     "screen_unfolded": {
@@ -2453,7 +2453,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP 1英寸 f/1.6 OIS | 超广 50MP 14mm | 潜望长焦 200MP 100mm OIS | 前置 50MP",
     "release_date": "2025-12",
     "price": 4199,
     "thickness_mm": 6.8
@@ -2489,7 +2489,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": null,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄 50MP f/1.8 OIS | 超广 50MP | 长焦 50MP 3x | 前置 50MP",
     "release_date": "2025-12",
     "price": 3499,
     "thickness_mm": 6.9
@@ -4744,7 +4744,7 @@
     "battery_mah": 4000,
     "weight_g": 162,
     "camera_desc": "48MP主摄 + 12MP超广角",
-    "has_tele": false,
+    "has_tele": true,
     "features": [
       "IP68防尘抗水",
       "NFC",
@@ -4763,7 +4763,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 4800万 f/1.6",
+    "detailed_camera": "主摄 4800万融合式 f/1.6 26mm OIS | 长焦 1200万 2x 52mm | 前置 1200万 f/1.9 自动对焦",
     "charging_w": 45,
     "release_date": "2026-03-11",
     "price": 4499,
@@ -5227,7 +5227,8 @@
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
     "screen_type": "OLED",
-    "resolution": "2800×1280"
+    "resolution": "2800×1280",
+    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 长焦 50MP f/2.4 3.5x OIS | 前置 50MP"
   },
   {
     "brand": "HONOR",
@@ -5271,7 +5272,8 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "resolution": "2376×1060"
+    "resolution": "2376×1060",
+    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 潜望长焦 50MP f/3.0 OIS | 前置 20MP"
   },
   {
     "brand": "HONOR",
@@ -5608,7 +5610,8 @@
     "release_date": "2026-03-23",
     "price": 8499,
     "ram": "16GB",
-    "storage": "1TB"
+    "storage": "1TB",
+    "detailed_camera": "主摄 50MP RYYB f/1.4-F4.0可变光圈 OIS | 超广 40MP f/2.2 | 长焦 50MP 3.5x OIS | 超长焦 50MP 6x OIS | 前置 13MP"
   },
   {
     "brand": "Huawei",
@@ -5649,7 +5652,8 @@
       "resolution": "720×748",
       "refresh_hz": 60
     },
-    "fold_type": "纵向折叠"
+    "fold_type": "纵向折叠",
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 长焦 50MP 3.5x OIS | 前置 8MP"
   },
   {
     "brand": "Huawei",
@@ -5691,7 +5695,8 @@
       "resolution": "2504×1080",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 40MP f/2.2 | 潜望长焦 50MP 3.5x OIS | 前置 8MP"
   },
   {
     "brand": "Huawei",
@@ -6893,7 +6898,7 @@
     "weight_g": 195,
     "os": "HarmonyOS 6.1",
     "camera_desc": "5000万(RYYB)",
-    "detailed_camera": null,
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 13MP | 前置 8MP",
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
