@@ -197,6 +197,8 @@ export function getCameraSpecs(p) {
     }
 
     const camLabelMap = { '主': '主摄', '广': '超广', '长': '长焦', '超长': '超长焦', '微': '微距', '镜': '其他' }
+    const camOrder = { '广': 0, '主': 1, '长': 2, '超长': 3, '微': 4, '镜': 5 }
+    rearCams.sort((a, b) => (camOrder[a.t] ?? 99) - (camOrder[b.t] ?? 99))
     if (rearCams.length > 0) {
       const rearLines = rearCams.map(c => camLabelMap[c.t] + ' ' + c.d)
       specs.push({ l: '后置', v: rearLines.join('\n'), colspan: true })

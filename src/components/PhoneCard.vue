@@ -57,7 +57,9 @@ const specRows = computed(() => {
     { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' }
   ]
   const camSpecs = getCameraSpecs(phone)
-  camSpecs.forEach(s => sc.push(s))
+  const rearSpec = camSpecs.find(s => s.l === '后置')
+  const otherSpecs = camSpecs.filter(s => s.l !== '后置')
+  otherSpecs.forEach(s => sc.push(s))
   // 防尘抗水
   const ipFeat = (phone.features || []).find(f => /IP\d{2}/.test(f))
   let ipVal = '—'
@@ -68,6 +70,8 @@ const specRows = computed(() => {
     ipVal = '支持'
   }
   sc.push({ l: '防尘抗水', v: ipVal })
+  // 后置放到最底部
+  if (rearSpec) sc.push(rearSpec)
   return sc
 })
 
