@@ -21,7 +21,6 @@ export const selectedCpu = reactive(new Set())
 export const selectedTags = reactive(new Set())
 export const selectedScreenSizes = reactive(new Set())
 export const currentSort = ref('newest')
-export const expandedCards = reactive(new Set())
 
 // Price slider
 export const priceMin = ref(0)

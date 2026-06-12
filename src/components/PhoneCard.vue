@@ -18,15 +18,6 @@
           <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—' }]">{{ s.v }}</div>
         </div>
       </div>
-      <div class="card-expand">
-        <button class="expand-btn" @click.stop="toggleExpand">{{ isExpanded ? '收起 ▲' : '展开详情 ▼' }}</button>
-      </div>
-      <div :class="['card-details', { open: isExpanded }]">
-        <div v-if="phone.detailed_camera || phone.camera_desc" class="detail-section">
-          <div class="detail-title">📷 影像系统</div>
-          <div class="detail-row">{{ phone.detailed_camera || phone.camera_desc }}</div>
-        </div>
-      </div>
     </div>
     <div class="card-footer" v-if="featureTagsList.length > 0">
       <span v-for="(ft, i) in featureTagsList" :key="i" :class="['feature-tag', ft.c]">{{ ft.t }}</span>
@@ -35,8 +26,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-import { expandedCards, updateHash } from '../composables/useFilters.js'
+import { computed } from 'vue'
 import { compareList, toggleCompareSelection } from '../composables/useCompare.js'
 import { brandLogos, textLogoBrands, getLogoStyle, getDisplayName, getFoldableScreenDisplay, getCameraSpecs, simplifyCapacity } from '../utils.js'
 
@@ -46,15 +36,9 @@ const displayName = getDisplayName(props.phone)
 const logoStyle = getLogoStyle(props.phone.brand)
 
 const isSelected = computed(() => compareList.value.includes(props.phone.id))
-const isExpanded = computed(() => expandedCards.has(props.phone.id))
-
-function toggleExpand() {
-  if (expandedCards.has(props.phone.id)) expandedCards.delete(props.phone.id)
-  else expandedCards.add(props.phone.id)
-}
 
 function onCardClick(e) {
-  if (e.target.closest('.expand-btn') || e.target.closest('.compare-bar') || e.target.closest('.compare-panel')) return
+  if (e.target.closest('.compare-bar') || e.target.closest('.compare-panel')) return
   console.log('Card clicked:', props.phone.id)
   toggleCompareSelection(props.phone.id)
 }

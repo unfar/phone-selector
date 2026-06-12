@@ -225,15 +225,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text)}
 
 /* ===== Card Expand ===== */
-.card-expand{margin-top:10px;text-align:center}
-.expand-btn{background:none;border:1px solid var(--border);border-radius:var(--radius-full);padding:4px 16px;font-size:.75rem;color:var(--text-secondary);cursor:pointer;transition:all .15s}
-.expand-btn:hover{border-color:var(--primary);color:var(--primary)}
-.card-details{display:none;margin-top:12px}
-.card-details.open{display:block}
 
-.detail-section{padding:12px;background:rgba(0,0,0,.025);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);margin-bottom:8px;border:1px solid rgba(0,0,0,.04)}
-.detail-title{font-size:.75rem;font-weight:600;color:var(--primary);margin-bottom:8px;display:flex;align-items:center;gap:4px}
-.detail-row{font-size:.75rem;color:var(--text-secondary);margin-bottom:4px;line-height:1.4}
 .detail-row strong{color:var(--text);font-weight:600}
 
 /* ===== Card Footer ===== */
@@ -369,12 +361,6 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .card-footer{padding:4px 10px 8px;gap:3px}
     .feature-tag{padding:2px 7px;font-size:.58rem}
     
-    .card-expand{margin-top:4px}
-    .expand-btn{padding:1px 8px;font-size:.6rem}
-
-    .card-details{padding:6px 10px}
-    .detail-section{padding:8px;font-size:.72rem}
-    
     /* 工具栏移动端紧凑 */
     .toolbar{flex-direction:column;align-items:stretch;gap:8px;margin-bottom:14px}
     .toolbar-right{justify-content:space-between;width:100%}
@@ -451,10 +437,6 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .spec-cell .value{font-size:.6rem}
     .card-footer{padding:2px 8px 6px;gap:2px}
     .feature-tag{padding:1px 5px;font-size:.5rem}
-    .card-expand{margin-top:2px}
-    .expand-btn{padding:0 6px;font-size:.54rem}
-    .card-details{padding:4px 8px}
-    .detail-section{padding:6px;font-size:.65rem}
     .toolbar{gap:6px}
     .sort-select{font-size:.75rem;padding:5px 8px;min-height:32px}
     .compare-mode-btn{font-size:.75rem;padding:5px 10px;min-height:32px}
