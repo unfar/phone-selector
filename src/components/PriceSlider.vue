@@ -33,17 +33,39 @@ import { priceMin, priceMax, sliderMaxPrice, phones, updateHash } from '../compo
 const localMin = ref(0)
 const localMax = ref(sliderMaxPrice.value)
 
-// Init
-const prices = phones.value.filter(p => p.price).map(p => p.price)
-const maxP = Math.ceil(Math.max(...prices) / 1000) * 1000
-sliderMaxPrice.value = Math.max(maxP, 1000)
-priceMax.value = sliderMaxPrice.value
-localMin.value = 0
-localMax.value = sliderMaxPrice.value
+// 等待数据加载后重新计算最大价格
+function recalcMaxPrice() {
+  if (!phones.value || phones.value.length === 0) return
+  const prices = phones.value.filter(p => p.price).map(p => p.price)
+  if (prices.length === 0) return
+  const maxP = Math.ceil(Math.max(...prices) / 1000) * 1000
+  sliderMaxPrice.value = Math.max(maxP, 1000)
+  // 如果之前 priceMax 还是默认值，同步更新
+  if (priceMax.value === 20000 || priceMax.value > sliderMaxPrice.value) {
+    priceMax.value = sliderMaxPrice.value
+  }
+  if (priceMin.value === 0 && priceMax.value === sliderMaxPrice.value) {
+    localMin.value = 0
+    localMax.value = sliderMaxPrice.value
+  } else {
+    // 从 hash 恢复的值需要同步到本地
+    localMin.value = Math.min(priceMin.value, sliderMaxPrice.value)
+    localMax.value = Math.min(priceMax.value, sliderMaxPrice.value)
+  }
+}
+
+// 数据加载后触发
+watch(() => phones.value.length, (n) => {
+  if (n > 0) recalcMaxPrice()
+}, { immediate: false })
+
+// 组件挂载后也尝试一次（如果数据已经加载了）
+recalcMaxPrice()
 
 const fillStyle = computed(() => {
-  const pctMin = (localMin.value / sliderMaxPrice.value) * 100
-  const pctMax = (localMax.value / sliderMaxPrice.value) * 100
+  const max = sliderMaxPrice.value || 20000
+  const pctMin = (localMin.value / max) * 100
+  const pctMax = (localMax.value / max) * 100
   return { left: pctMin + '%', width: (pctMax - pctMin) + '%' }
 })
 
