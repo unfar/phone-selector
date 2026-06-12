@@ -222,7 +222,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .spec-cell{padding:8px 10px;background:rgba(0,0,0,.03);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);border:1px solid rgba(0,0,0,.04)}
 .spec-cell .label{font-size:.7rem;color:var(--text-muted);margin-bottom:2px}
-.spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text)}
+.spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text);white-space:pre-line}
 
 /* ===== Card Expand ===== */
 
@@ -356,7 +356,7 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .card-body{padding:8px 10px 4px}
     .spec-cell{padding:4px 6px;border-radius:8px}
     .spec-cell .label{font-size:.6rem;margin-bottom:1px}
-    .spec-cell .value{font-size:.68rem}
+    .spec-cell .value{font-size:.68rem;white-space:pre-line}
     
     .card-footer{padding:4px 10px 8px;gap:3px}
     .feature-tag{padding:2px 7px;font-size:.58rem}
@@ -434,7 +434,7 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .card-body{padding:6px 8px 2px}
     .spec-cell{padding:3px 4px;border-radius:6px}
     .spec-cell .label{font-size:.54rem}
-    .spec-cell .value{font-size:.6rem}
+    .spec-cell .value{font-size:.6rem;white-space:pre-line}
     .card-footer{padding:2px 8px 6px;gap:2px}
     .feature-tag{padding:1px 5px;font-size:.5rem}
     .toolbar{gap:6px}
