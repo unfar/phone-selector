@@ -49,8 +49,32 @@
             <div class="filter-tags" id="featureTags"></div>
         </div>
         <div class="filter-section">
-            <div class="filter-label">💰 价格范围 <span class="arrow">▼</span></div>
-            <div class="filter-tags" id="priceRangeTags"></div>
+            <div class="filter-label">💰 价格区间 <span class="arrow">▼</span></div>
+            <div class="price-slider-container" id="priceSliderContainer">
+                <div class="price-slider-track">
+                    <div class="price-slider-fill" id="priceSliderFill"></div>
+                    <input type="range" class="price-slider price-slider-min" id="priceSliderMin" min="0" max="20000" step="100" value="0">
+                    <input type="range" class="price-slider price-slider-max" id="priceSliderMax" min="0" max="20000" step="100" value="20000">
+                </div>
+                <div class="price-slider-inputs">
+                    <div class="price-input-group">
+                        <span class="price-input-label">最低</span>
+                        <div class="price-input-wrap">
+                            <span class="price-input-currency">¥</span>
+                            <input type="number" class="price-input" id="priceInputMin" value="0" min="0" step="100">
+                        </div>
+                    </div>
+                    <span class="price-separator">—</span>
+                    <div class="price-input-group">
+                        <span class="price-input-label">最高</span>
+                        <div class="price-input-wrap">
+                            <span class="price-input-currency">¥</span>
+                            <input type="number" class="price-input" id="priceInputMax" value="20000" min="0" step="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="price-slider-hint">拖动滑块或输入价格 · 未拖动 = 不限制</div>
+            </div>
         </div>
         <div class="filter-section">
             <div class="filter-label">📐 屏幕尺寸 <span class="arrow">▼</span></div>
@@ -97,7 +121,7 @@
             </div>
             <div class="compare-bar-selected" id="compareBarSelected"></div>
             <div class="compare-bar-actions">
-                <button class="compare-bar-start" id="compareBarStart" disabled>开始对比</button>
+                <button class="compare-bar-start" id="compareBarStart" disabled>查看对比 <span id="compareBarStartCount">(0)</span></button>
                 <button class="compare-bar-clear" id="compareBarClear">清空</button>
                 <button class="compare-bar-close" id="compareBarClose">✕</button>
             </div>
@@ -129,7 +153,7 @@
 <!-- 访问统计追踪像素（延迟加载，不阻塞页面） -->
 <script>addEventListener('load',()=>{let i=new Image;i.src='https://phone-selector-stats.gedaye-vip.workers.dev/track'})</script>
 
-<script src="script.js?v=85"></script>
+<script src="script.js?v=86"></script>
 </body>
 </html>
 </content>

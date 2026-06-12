@@ -8,13 +8,16 @@ let selectedBrands = new Set();
 let selectedScreen = null;
 let selectedCpu = new Set();
 let selectedTags = new Set();
-let selectedPriceRanges = new Set();
 let selectedScreenSizes = new Set();
 let currentSort = 'newest';
 let expandedCards = new Set();
 
+// ===== 价格双滑块 =====
+let priceMin = 0;
+let priceMax = 20000;
+let sliderMaxPrice = 20000;
+
 // ===== 对比功能变量 =====
-let compareMode = false;
 let compareList = [];
 
 
@@ -52,19 +55,6 @@ function simplifyCapacity(s) {
 }
 const featureTags = ["潜望长焦","6500mAh+","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"];
 const tagDisplayNames = {"6500mAh+":"6500mAh+","≤200g":"≤200g"};
-const priceRanges = [
-    { name: "<1k", min: 0, max: 999 },
-    { name: "1-2k", min: 1000, max: 1999 },
-    { name: "2-3k", min: 2000, max: 2999 },
-    { name: "3-4k", min: 3000, max: 3999 },
-    { name: "4-5k", min: 4000, max: 4999 },
-    { name: "5-6k", min: 5000, max: 5999 },
-    { name: "6-7k", min: 6000, max: 6999 },
-    { name: "7-8k", min: 7000, max: 7999 },
-    { name: "8-9k", min: 8000, max: 8999 },
-    { name: "9-10k", min: 9000, max: 9999 },
-    { name: ">1w", min: 10000, max: 999999 }
-];
 const screenSizeRanges = [
     { name: "6英寸左右", min: 5.7, max: 6.3 },
     { name: "6.5英寸左右", min: 6.2, max: 6.8 },
@@ -115,7 +105,14 @@ function updateHash() {
     if (selectedScreen) params.set('screen', selectedScreen);
     if (selectedCpu.size > 0) params.set('cpu', [...selectedCpu].join(','));
     if (selectedTags.size > 0) params.set('tags', [...selectedTags].join(','));
-    if (selectedPriceRanges.size > 0) params.set('priceRange', [...selectedPriceRanges].join(','));
+    // 价格区间：内部用 number，序列化时空值省略
+    if (priceMin > 0 || priceMax < 20000) {
+        let priceStr = '';
+        if (priceMin > 0) priceStr += priceMin;
+        priceStr += '-';
+        if (priceMax < 20000) priceStr += priceMax;
+        params.set('price', priceStr);
+    }
     if (selectedScreenSizes.size > 0) params.set('screenSize', [...selectedScreenSizes].join(','));
     if (currentSort !== 'newest') params.set('sort', currentSort);
     const hash = params.toString();
@@ -140,10 +137,15 @@ function restoreStateFromHash() {
     if (cpu) cpu.split(',').forEach(c => selectedCpu.add(c));
     const tags = params.get('tags');
     if (tags) tags.split(',').forEach(t => selectedTags.add(t));
-    const priceRanges = params.get('priceRange');
-    if (priceRanges) priceRanges.split(',').forEach(r => selectedPriceRanges.add(r));
     const screenSizes = params.get('screenSize');
     if (screenSizes) screenSizes.split(',').forEach(s => selectedScreenSizes.add(s));
+    // 价格区间：?price=2999-4999 或 ?price=2999- 或 ?price=-6999
+    const price = params.get('price');
+    if (price) {
+        const parts = price.split('-');
+        if (parts[0]) priceMin = parseInt(parts[0]);
+        if (parts[1]) priceMax = parseInt(parts[1]);
+    }
     currentSort = params.get('sort') || 'newest';
     if (sortSelect) sortSelect.value = currentSort;
 }
@@ -166,15 +168,9 @@ function matchesFilters(p) {
             if (!p.tags.includes(t)) return false;
         }
     }
-    // 价格范围筛选（多选，任一匹配即可）
-    if (selectedPriceRanges.size > 0) {
-        let inRange = false;
-        for (let r of selectedPriceRanges) {
-            const range = priceRanges.find(pr => pr.name === r);
-            if (range && p.price >= range.min && p.price <= range.max) { inRange = true; break; }
-        }
-        if (!inRange) return false;
-    }
+    // 价格区间筛选（双滑块 min/max）
+    if (priceMin > 0 && p.price < priceMin) return false;
+    if (priceMax < sliderMaxPrice && p.price > priceMax) return false;
     // 屏幕尺寸筛选（多选，任一匹配即可）
     if (selectedScreenSizes.size > 0) {
         let inSize = false;
@@ -368,20 +364,100 @@ function renderFeatureTags() {
     });
 }
 
-function renderPriceRangeTags() {
-    const container = document.getElementById('priceRangeTags');
-    container.innerHTML = '';
-    priceRanges.forEach(range => {
-        const el = document.createElement('span');
-        el.className = 'tag' + (selectedPriceRanges.has(range.name) ? ' active' : '');
-        el.textContent = range.name;
-        el.onclick = () => {
-            selectedPriceRanges.has(range.name) ? selectedPriceRanges.delete(range.name) : selectedPriceRanges.add(range.name);
-            updateHash();
-            refresh();
-        };
-        container.appendChild(el);
+// ===== 价格双滑块 =====
+function initPriceSlider() {
+    // 计算实际最大价格
+    const prices = phones.filter(p => p.price).map(p => p.price);
+    sliderMaxPrice = Math.ceil(Math.max(...prices) / 1000) * 1000;
+    if (sliderMaxPrice < 1000) sliderMaxPrice = 1000;
+    
+    priceMax = sliderMaxPrice; // 默认 max 为实际最大价
+    
+    const sliderMin = document.getElementById('priceSliderMin');
+    const sliderMax = document.getElementById('priceSliderMax');
+    const inputMin = document.getElementById('priceInputMin');
+    const inputMax = document.getElementById('priceInputMax');
+    const fill = document.getElementById('priceSliderFill');
+    
+    if (!sliderMin || !sliderMax) return;
+    
+    sliderMin.max = sliderMaxPrice;
+    sliderMax.max = sliderMaxPrice;
+    inputMax.max = sliderMaxPrice;
+    
+    sliderMin.value = priceMin;
+    sliderMax.value = priceMax;
+    inputMin.value = priceMin;
+    inputMax.value = priceMax;
+    
+    updatePriceSliderFill();
+    
+    function onSliderChange() {
+        let v1 = parseInt(sliderMin.value);
+        let v2 = parseInt(sliderMax.value);
+        if (v1 > v2) {
+            if (this === sliderMin) {
+                sliderMax.value = v1;
+                v2 = v1;
+            } else {
+                sliderMin.value = v2;
+                v1 = v2;
+            }
+        }
+        priceMin = v1;
+        priceMax = v2;
+        inputMin.value = v1;
+        inputMax.value = v2;
+        updatePriceSliderFill();
+        updateHash();
+        refresh();
+    }
+    
+    sliderMin.addEventListener('input', onSliderChange);
+    sliderMax.addEventListener('input', onSliderChange);
+    
+    inputMin.addEventListener('change', function() {
+        let v = parseInt(this.value) || 0;
+        v = Math.max(0, Math.min(v, priceMax, sliderMaxPrice));
+        v = Math.round(v / 100) * 100;
+        priceMin = v;
+        sliderMin.value = v;
+        this.value = v;
+        updatePriceSliderFill();
+        updateHash();
+        refresh();
     });
+    
+    inputMax.addEventListener('change', function() {
+        let v = parseInt(this.value) || 0;
+        v = Math.min(Math.max(v, priceMin, 0), sliderMaxPrice);
+        v = Math.round(v / 100) * 100;
+        priceMax = v;
+        sliderMax.value = v;
+        this.value = v;
+        updatePriceSliderFill();
+        updateHash();
+        refresh();
+    });
+    
+    // 输入框失焦时自动吸附
+    inputMin.addEventListener('blur', function() {
+        this.value = priceMin;
+    });
+    inputMax.addEventListener('blur', function() {
+        this.value = priceMax;
+    });
+}
+
+function updatePriceSliderFill() {
+    const fill = document.getElementById('priceSliderFill');
+    const sliderMin = document.getElementById('priceSliderMin');
+    const sliderMax = document.getElementById('priceSliderMax');
+    if (!fill || !sliderMin || !sliderMax) return;
+    const pctMin = (priceMin / sliderMaxPrice) * 100;
+    const pctMax = (priceMax / sliderMaxPrice) * 100;
+    fill.style.left = pctMin + '%';
+    fill.style.width = (pctMax - pctMin) + '%';
 }
 
 function renderScreenSizeTags() {
@@ -404,14 +480,21 @@ function renderScreenSizeTags() {
 // ===== 当前筛选栏 =====
 function renderActiveBar() {
     const bar = document.getElementById('activeBar'), badges = document.getElementById('activeBadges');
-    const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size + selectedPriceRanges.size + selectedScreenSizes.size;
+    const hasPriceFilter = priceMin > 0 || priceMax < sliderMaxPrice;
+    const total = selectedBrands.size + (selectedScreen ? 1 : 0) + selectedCpu.size + selectedTags.size + (hasPriceFilter ? 1 : 0) + selectedScreenSizes.size;
     if (total === 0) { bar.style.display = 'none'; return; }
     bar.style.display = 'flex'; badges.innerHTML = '';
     selectedBrands.forEach(b => addBadge(badges, getEnglishBrand(b), () => { selectedBrands.delete(b); updateHash(); refresh(); }));
     if (selectedScreen) addBadge(badges, selectedScreen, () => { selectedScreen = null; updateHash(); refresh(); });
     selectedCpu.forEach(c => addBadge(badges, c, () => { selectedCpu.delete(c); updateHash(); refresh(); }));
     selectedTags.forEach(t => addBadge(badges, getTagDisplayName(t), () => { selectedTags.delete(t); updateHash(); refresh(); }));
-    selectedPriceRanges.forEach(r => addBadge(badges, r, () => { selectedPriceRanges.delete(r); updateHash(); refresh(); }));
+    if (hasPriceFilter) {
+        let priceLabel = '💰 ';
+        if (priceMin > 0 && priceMax < sliderMaxPrice) priceLabel += '¥' + priceMin + ' – ¥' + priceMax;
+        else if (priceMin > 0) priceLabel += '¥' + priceMin + '+';
+        else priceLabel += '≤ ¥' + priceMax;
+        addBadge(badges, priceLabel, () => { priceMin = 0; priceMax = sliderMaxPrice; const si = document.getElementById('priceSliderMin'); const sa = document.getElementById('priceSliderMax'); if(si){si.value=0} if(sa){sa.value=sliderMaxPrice} updatePriceSliderFill(); updateHash(); refresh(); });
+    }
     selectedScreenSizes.forEach(s => addBadge(badges, s, () => { selectedScreenSizes.delete(s); updateHash(); refresh(); }));
 }
 
@@ -514,7 +597,7 @@ function renderPhones() {
     document.getElementById('resultCount').textContent = filtered.length;
 
     if (filtered.length === 0) {
-        grid.innerHTML = '<div class="no-results"><div class="emoji">🔍</div><p>没有找到符合条件的手机</p><p style="margin-top:8px;font-size:.85rem;color:var(--text-muted)">试试减少筛选条件、更换品牌或调整价格范围～</p></div>';
+        grid.innerHTML = '<div class="no-results"><div class="emoji">😕</div><p>未找到符合条件的机型</p><p style="margin-top:8px;font-size:.85rem;color:var(--text-muted)">建议放宽：处理器 / 价格区间</p></div>';
         return;
     }
 
@@ -596,7 +679,6 @@ function renderPhones() {
         const cardClass = ['phone-card'];
         cardClass.push('brand-border-' + p.brand);
         if (isCompareSelected) cardClass.push('compare-selected');
-        if (compareMode) cardClass.push('compare-clickable');
 
         cardsHtml += '<div class="' + cardClass.join(' ') + '" data-id="' + p.id + '">' +
             '<div class="card-header brand-header-' + p.brand + '">' +
@@ -604,6 +686,7 @@ function renderPhones() {
                     '<span class="brand-badge">' + (textLogoBrands.has(p.brand)
                         ? '<span class="brand-text-logo">' + p.brand + '</span>'
                         : '<img class="brand-logo" style="' + getLogoStyle(p.brand) + '" src="' + brandLogos[p.brand] + '" alt="' + p.brand + '">') + '</span>' +
+                    '<span class="compare-checkbox' + (isCompareSelected ? ' checked' : '') + '" data-id="' + p.id + '">' + (isCompareSelected ? '☑' : '☐') + '</span>' +
                     priceHtml +
                 '</div>' +
                 '<div class="phone-name">' + displayName + '</div>' +
@@ -622,14 +705,12 @@ function renderPhones() {
 
 // ===== 卡片事件绑定 =====
 function bindCardEvents() {
-    // 卡片点击 - 对比模式下选中/取消选中
-    document.querySelectorAll('.phone-card').forEach(card => {
-        card.onclick = (e) => {
-            if (e.target.closest('.expand-btn')) return;
-            if (compareMode) {
-                const id = parseInt(card.dataset.id);
-                toggleCompareSelection(id);
-            }
+    // 对比复选框点击
+    document.querySelectorAll('.compare-checkbox').forEach(el => {
+        el.onclick = (e) => {
+            e.stopPropagation();
+            const id = parseInt(el.dataset.id);
+            toggleCompareSelection(id);
         };
     });
 
@@ -649,32 +730,13 @@ function bindCardEvents() {
 }
 
 // ===== 对比功能 =====
-function toggleCompareMode() {
-    compareMode = !compareMode;
-    const btn = document.getElementById('compareModeBtn');
-
-    if (compareMode) {
-        btn.classList.add('active');
-        btn.textContent = '📊 退出对比';
-    } else {
-        btn.classList.remove('active');
-        btn.textContent = '📊 机型对比';
-        compareList = [];
-        updateCompareBar();
-        document.getElementById('comparePanel').style.display = 'none';
-    }
-    refresh();
-}
-
 function toggleCompareSelection(id) {
-    if (!compareMode) return;
-
     const idx = compareList.indexOf(id);
     if (idx >= 0) {
         compareList.splice(idx, 1);
     } else {
         if (compareList.length >= 4) {
-            alert('最多只能对比 4 款机型哦～');
+            showCompareToast('最多只能对比 4 款机型哦');
             return;
         }
         compareList.push(id);
@@ -684,11 +746,22 @@ function toggleCompareSelection(id) {
     refresh();
 }
 
+function showCompareToast(msg) {
+    const existing = document.querySelector('.compare-toast');
+    if (existing) existing.remove();
+    const toast = document.createElement('div');
+    toast.className = 'compare-toast';
+    toast.textContent = msg;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 2500);
+}
+
 function updateCompareBar() {
     const bar = document.getElementById('compareBar');
     const countEl = document.getElementById('compareBarCount');
     const selectedEl = document.getElementById('compareBarSelected');
     const startBtn = document.getElementById('compareBarStart');
+    const startCount = document.getElementById('compareBarStartCount');
 
     countEl.textContent = compareList.length;
 
@@ -696,45 +769,55 @@ function updateCompareBar() {
         bar.style.display = 'block';
     } else {
         bar.style.display = 'none';
+        return;
     }
 
     const selectedPhones = compareList.map(id => phones.find(p => p.id === id)).filter(Boolean);
-    selectedEl.innerHTML = selectedPhones.map(p =>
-        `<span class="selected-chip">${p.model}<span class="remove" data-id="${p.id}">✕</span></span>`
-    ).join('');
+    selectedEl.innerHTML = selectedPhones.map(p => {
+        const initial = (p.brand || '?').charAt(0);
+        return '<span class="selected-chip">' +
+            '<span class="selected-chip-thumb">' + initial + '</span>' +
+            '<span class="selected-chip-name">' + p.model.substring(0, 10) + '</span>' +
+            '<span class="remove" data-id="' + p.id + '">✕</span></span>';
+    }).join('');
 
     selectedEl.querySelectorAll('.remove').forEach(btn => {
-        btn.onclick = () => {
+        btn.onclick = (e) => {
+            e.stopPropagation();
             const id = parseInt(btn.dataset.id);
             toggleCompareSelection(id);
         };
     });
 
-    startBtn.disabled = compareList.length < 2;
+    const canCompare = compareList.length >= 2;
+    startBtn.disabled = !canCompare;
+    startBtn.title = canCompare ? '' : '至少选择 2 款才能对比';
+    if (startCount) startCount.textContent = '(' + compareList.length + ')';
 }
 
 function startCompare() {
-    console.log('开始对比，当前对比列表长度:', compareList.length);
-    if (compareList.length < 2) {
-        console.log('对比机型数量不足，需要至少2款');
-        return;
-    }
-    console.log('开始渲染对比面板');
+    if (compareList.length < 2) return;
     renderComparePanel();
     const panel = document.getElementById('comparePanel');
-    if (panel) {
-        panel.style.display = 'flex';
-        console.log('对比面板已显示');
-    } else {
-        console.error('未找到对比面板元素');
-    }
+    if (panel) panel.style.display = 'flex';
 }
 
 function clearCompareSelection() {
     compareList = [];
     updateCompareBar();
-    document.getElementById('comparePanel').style.display = 'none';
+    const panel = document.getElementById('comparePanel');
+    if (panel) panel.style.display = 'none';
     refresh();
+}
+
+function isNumericValue(v) {
+    // 判断一个值为数字型（含单位）
+    return /^\d+(\.\d+)?(mAh|W|g|Hz|英寸|MP|万)$/.test(v);
+}
+
+function extractNum(v) {
+    const m = v.match(/(\d+(?:\.\d+)?)/);
+    return m ? parseFloat(m[1]) : null;
 }
 
 function renderComparePanel() {
@@ -742,93 +825,79 @@ function renderComparePanel() {
     if (selected.length < 2) return;
 
     const fields = [
-        { l: '💰 价格', v: p => p.price ? '¥' + p.price : '—', best: 'min' },
+        { l: '💰 价格', v: p => p.price ? '¥' + p.price : '—' },
         { l: '⚡ 处理器', v: p => p.processor || '—' },
         { l: '🧠 内存', v: p => p.ram || '—' },
         { l: '💾 存储', v: p => p.storage || '—' },
         { l: '📺 屏幕', v: p => getFoldableScreenDisplay(p) || '—' },
         { l: '🎨 分辨率', v: p => getFoldableResolutionDisplay(p) || '—' },
-        { l: '🔄 刷新率', v: p => getFoldableRefreshDisplay(p) || '—', best: 'max' },
-        { l: '🔋 电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—', best: 'max' },
-        { l: '🔌 有线充电', v: p => p.charging_w ? p.charging_w + 'W' : '—', best: 'max' },
-        { l: '📶 无线充电', v: p => p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持', best: 'max' },
+        { l: '🔄 刷新率', v: p => getFoldableRefreshDisplay(p) || '—' },
+        { l: '🔋 电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—' },
+        { l: '🔌 有线充电', v: p => p.charging_w ? p.charging_w + 'W' : '—' },
+        { l: '📶 无线充电', v: p => p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持' },
         { l: '🔗 USB', v: p => p.usb_version || '—' },
-        { l: '⚖️ 重量', v: p => p.weight_g ? p.weight_g + 'g' : '—', best: 'min' },
-        { l: '📱 系统', v: p => p.os || '—' },
-        { l: '📐 屏幕形态', v: p => p.screen_form || '—' },
+        { l: '⚖️ 重量', v: p => p.weight_g ? p.weight_g + 'g' : '—' },
+        { l: '📱 屏幕形态', v: p => p.screen_form || '—' },
+        { l: '📷 后置', v: p => { const s = getCameraSpecs(p); const r = s.find(x => x.l === '后置'); return r ? r.v : '—'; }},
+        { l: '📷 前置', v: p => { const s = getCameraSpecs(p); const r = s.find(x => x.l === '前置'); return r ? r.v : '—'; }},
+        { l: '📷 潜望长焦', v: p => p.has_tele ? '✅ 支持' : '—' },
         { l: '💧 防尘抗水', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('防尘抗水') || feats.some(f => /IP\d{2}/.test(f))) return '✅ 支持';
+            if (tags.includes('防尘抗水') || feats.some(f => /IP\d{2}/.test(f))) {
+                const ipFeat = feats.find(f => /IP\d{2}/.test(f));
+                if (ipFeat) { const ips = ipFeat.match(/IP\d{2}K?/g); if (ips) return ips.join('/'); }
+                return '✅ 支持';
+            }
             return '—';
         }},
         { l: '📡 NFC', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('NFC') || feats.some(f => f.includes('NFC'))) return '✅ 支持';
-            return '—';
+            return (tags.includes('NFC') || feats.some(f => f.includes('NFC'))) ? '✅ 支持' : '—';
         }},
         { l: '🔴 红外', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('红外') || feats.some(f => f.includes('红外'))) return '✅ 支持';
-            return '—';
+            return (tags.includes('红外') || feats.some(f => f.includes('红外'))) ? '✅ 支持' : '—';
         }},
-        { l: '📷 潜望长焦', v: p => p.has_tele ? '✅ 支持' : '—' },
         { l: '🖥️ 有线投屏', v: p => {
             const tags = p.tags || [];
             const feats = p.features || [];
-            if (tags.includes('有线投屏') || feats.some(f => f.includes('有线投屏'))) return '✅ 支持';
-            return '—';
+            return (tags.includes('有线投屏') || feats.some(f => f.includes('有线投屏'))) ? '✅ 支持' : '—';
         }},
+        { l: '🔋 无线充电', v: p => p.wireless_charging_w ? p.wireless_charging_w + 'W' : '不支持' },
+        { l: '📐 屏幕尺寸', v: p => p.screen_size ? p.screen_size + '英寸' : '—' },
+        { l: '🔄 刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
         { l: '📅 发布日期', v: p => p.release_date || '—' },
     ];
-
-    // 找出每个参数的最佳值
-    const bestValues = {};
-    fields.forEach(f => {
-        if (f.best) {
-            const values = selected.map(p => {
-                const val = f.v(p);
-                // 提取数字进行比较
-                const numMatch = val.match(/(\d+)/);
-                return numMatch ? parseInt(numMatch[1]) : 0;
-            });
-            
-            if (f.best === 'min') {
-                bestValues[f.l] = Math.min(...values);
-            } else if (f.best === 'max') {
-                bestValues[f.l] = Math.max(...values);
-            }
-        }
-    });
 
     let html = '<table class="compare-table"><thead><tr><th><span class="param-label">参数</span></th>';
     selected.forEach(p => {
         html += '<th><div class="phone-name-badge">' + p.model + '</div><small style="opacity:.8;display:block;margin-top:4px">' + getEnglishBrand(p.brand) + '</small><button class="compare-remove" data-id="' + p.id + '">✕ 移除</button></th>';
     });
     html += '</tr></thead><tbody>';
+    
     fields.forEach(f => {
+        // 计算所有值
+        const values = selected.map(p => f.v(p));
+        // 判断是否全部相同
+        const allSame = values.every(v => v === values[0]);
         html += '<tr><th>' + f.l + '</th>';
-        selected.forEach(p => {
-            const value = f.v(p);
-            let displayValue = value;
-            
-            // 检查是否是最佳值
-            if (f.best && bestValues[f.l]) {
-                const numMatch = value.match(/(\d+)/);
-                if (numMatch) {
-                    const numValue = parseInt(numMatch[1]);
-                    if (numValue === bestValues[f.l]) {
-                        displayValue = '<span class="best">' + value + '</span> 🏆';
-                    }
-                }
+        selected.forEach((p, i) => {
+            const value = values[i];
+            const displayValue = value;
+            let className = '';
+            if (value === '不支持' || value === '—') {
+                className = 'unsupported';
+            } else if (!allSame && selected.length >= 2) {
+                className = 'diff-highlight';
             }
-            
-            html += '<td class="' + (value === '不支持' || value === '—' ? 'unsupported' : '') + '">' + displayValue + '</td>';
+            html += '<td class="' + className + '">' + displayValue + '</td>';
         });
         html += '</tr>';
     });
+    
     html += '</tbody></table>';
 
     // 保留雷达图容器
@@ -850,7 +919,6 @@ function refresh() {
     renderScreenTags();
     renderCpuTags();
     renderFeatureTags();
-    renderPriceRangeTags();
     renderScreenSizeTags();
     renderActiveBar();
     renderPhones();
@@ -1067,6 +1135,19 @@ function drawRadarChart(phones) {
 // ===== 初始化 =====
 function init() {
     renderStats();
+    initPriceSlider();
+    // 恢复 hash 状态后同步滑块（如果 hash 中有价格值）
+    setTimeout(() => {
+        const si = document.getElementById('priceSliderMin');
+        const sa = document.getElementById('priceSliderMax');
+        if (si) si.value = priceMin;
+        if (sa) sa.value = priceMax;
+        const im = document.getElementById('priceInputMin');
+        const ia = document.getElementById('priceInputMax');
+        if (im) im.value = priceMin;
+        if (ia) ia.value = priceMax;
+        updatePriceSliderFill();
+    }, 10);
     refresh();
     setupEventListeners();
 }
@@ -1090,18 +1171,28 @@ function setupEventListeners() {
         selectedScreen = null;
         selectedCpu.clear();
         selectedTags.clear();
-        selectedPriceRanges.clear();
+        priceMin = 0;
+        priceMax = sliderMaxPrice;
+        const si = document.getElementById('priceSliderMin');
+        const sa = document.getElementById('priceSliderMax');
+        if (si) si.value = 0;
+        if (sa) sa.value = sliderMaxPrice;
+        updatePriceSliderFill();
         selectedScreenSizes.clear();
         compareList = [];
-        compareMode = false;
-        document.getElementById('compareModeBtn').classList.remove('active');
-        document.getElementById('compareModeBtn').textContent = '📊 机型对比';
+        updateCompareBar();
         updateHash();
         refresh();
     });
 
-    // 对比模式按钮
-    document.getElementById('compareModeBtn').addEventListener('click', toggleCompareMode);
+    // 对比按钮 — 直接打开对比面板（需已选 ≥2 款）
+    document.getElementById('compareModeBtn').addEventListener('click', () => {
+        if (compareList.length >= 2) {
+            startCompare();
+        } else {
+            showCompareToast('请先选择至少 2 款手机进行对比');
+        }
+    });
     document.getElementById('compareBarStart').addEventListener('click', startCompare);
     document.getElementById('compareBarClear').addEventListener('click', clearCompareSelection);
 
@@ -1126,11 +1217,9 @@ function setupEventListeners() {
     // 对比选择栏关闭按钮
     document.getElementById('compareBarClose').addEventListener('click', () => {
         compareList = [];
-        compareMode = false;
-        document.getElementById('compareModeBtn').classList.remove('active');
-        document.getElementById('compareModeBtn').textContent = '📊 机型对比';
         updateCompareBar();
-        document.getElementById('comparePanel').style.display = 'none';
+        const panel = document.getElementById('comparePanel');
+        if (panel) panel.style.display = 'none';
         refresh();
     });
 
@@ -1140,7 +1229,8 @@ function setupEventListeners() {
             if (compareList.length > 0) {
                 compareList = [];
                 updateCompareBar();
-                document.getElementById('comparePanel').style.display = 'none';
+                const panel = document.getElementById('comparePanel');
+                if (panel) panel.style.display = 'none';
                 refresh();
             }
         }
