@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>📱 智能手机选购助手</title>
+    <link rel="stylesheet" href="style.css?v=30">
+</head>
+<body>
+<button class="dark-mode-toggle" id="darkModeToggle" title="切换暗色模式">🌙</button>
+<div class="container">
+    <div class="hero-panel">
+        <div class="hero-icon">📱</div>
+        <h1>智能手机选购助手</h1>
+        <div class="hero-subtitle">基于官方数据 · 多维度筛选 · 找到最适合你的手机</div>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <span class="hero-stat-num" id="statPhones">0</span>
+                <span class="hero-stat-label">款机型</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num" id="statBrands">0</span>
+                <span class="hero-stat-label">个品牌</span>
+            </div>
+            <div class="hero-stat hero-stat-date">
+                <span>📅</span>
+                <span>数据截至 2026年6月10日</span>
+            </div>
+        </div>
+        <div class="hero-notice">📌 本网站仅收录中国大陆国行在售机型，不涉及海外/港澳台版本</div>
+    </div>
+
+    <div class="filter-panel">
+        <div class="filter-section">
+            <div class="filter-label">🏢 品牌 <span class="arrow">▼</span> <span class="filter-count" id="brandCount"></span></div>
+            <div class="filter-tags" id="brandTags"></div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-label">📱 屏幕形态 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（单选）</span></div>
+            <div class="filter-tags" id="screenTags"></div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-label">⚡ 处理器 <span class="arrow">▼</span></div>
+            <div class="filter-tags" id="cpuTags"></div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-label">🏷️ 特性标签 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（可多选叠加）</span></div>
+            <div class="filter-tags" id="featureTags"></div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-label">💰 价格区间 <span class="arrow">▼</span></div>
+            <div class="price-slider-container" id="priceSliderContainer">
+                <div class="price-slider-track">
+                    <div class="price-slider-fill" id="priceSliderFill"></div>
+                    <input type="range" class="price-slider price-slider-min" id="priceSliderMin" min="0" max="20000" step="100" value="0">
+                    <input type="range" class="price-slider price-slider-max" id="priceSliderMax" min="0" max="20000" step="100" value="20000">
+                </div>
+                <div class="price-slider-inputs">
+                    <div class="price-input-group">
+                        <span class="price-input-label">最低</span>
+                        <div class="price-input-wrap">
+                            <span class="price-input-currency">¥</span>
+                            <input type="number" class="price-input" id="priceInputMin" value="0" min="0" step="100">
+                        </div>
+                    </div>
+                    <span class="price-separator">—</span>
+                    <div class="price-input-group">
+                        <span class="price-input-label">最高</span>
+                        <div class="price-input-wrap">
+                            <span class="price-input-currency">¥</span>
+                            <input type="number" class="price-input" id="priceInputMax" value="20000" min="0" step="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="price-slider-hint">拖动滑块或输入价格 · 未拖动 = 不限制</div>
+            </div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-label">📐 屏幕尺寸 <span class="arrow">▼</span></div>
+            <div class="filter-tags" id="screenSizeTags"></div>
+        </div>
+    </div>
+
+    <div class="active-bar" id="activeBar" style="display:none">
+        <span class="label">当前筛选：</span>
+        <div id="activeBadges"></div>
+        <button class="clear-btn" id="clearAll">清空全部</button>
+    </div>
+
+    <div class="toolbar">
+        <div class="result-info">共 <strong id="resultCount">0</strong> 款符合条件</div>
+        <div class="toolbar-right">
+            <button class="compare-mode-btn" id="compareModeBtn" data-active="false">
+                📊 机型对比
+            </button>
+            <select class="sort-select" id="sortSelect">
+                <option value="newest">🆕 最新发布</option>
+                <option value="price_asc">💰 价格低 ↑</option>
+                <option value="price_desc">💰 价格高 ↓</option>
+                <option value="battery_desc">🔋 电池容量 ↓</option>
+                <option value="weight_asc">⚖️ 重量轻 ↑</option>
+                <option value="screen_desc">📐 屏幕大 ↓</option>
+                <option value="charging_desc">⚡ 快充功率 ↓</option>
+                <option value="brand_asc">🏢 品牌 A-Z</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="phone-grid" id="phoneGrid">
+        <div class="loading"><div class="spinner">⏳</div><p>加载数据中...</p></div>
+    </div>
+
+    <!-- 对比选择栏（固定在底部，选中机型时显示） -->
+    <div class="compare-bar" id="compareBar" style="display:none">
+        <div class="compare-bar-inner">
+            <div class="compare-bar-info">
+                <span>📊 机型对比</span>
+                <span class="compare-bar-count">已选 <strong id="compareBarCount">0</strong>/4 款</span>
+            </div>
+            <div class="compare-bar-selected" id="compareBarSelected"></div>
+            <div class="compare-bar-actions">
+                <button class="compare-bar-start" id="compareBarStart" disabled>查看对比 <span id="compareBarStartCount">(0)</span></button>
+                <button class="compare-bar-clear" id="compareBarClear">清空</button>
+                <button class="compare-bar-close" id="compareBarClose">✕</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 对比结果面板（全屏弹窗） -->
+    <div class="compare-panel" id="comparePanel" style="display:none">
+        <div class="compare-panel-overlay" id="comparePanelOverlay"></div>
+        <div class="compare-panel-content">
+            <div class="compare-panel-header">
+                <h3>📊 机型对比</h3>
+                <button class="compare-panel-close" id="comparePanelClose">✕</button>
+            </div>
+            <div class="compare-panel-body" id="comparePanelBody">
+                <div id="radarChartContainer" style="display:none; margin-bottom:20px;">
+                    <canvas id="radarChart" width="400" height="400"></canvas>
+                    <div id="radarLegend" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:12px;padding:0 16px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>💡 数据来源：各品牌官网 · 参数仅供参考，实际以官方为准<br>Made with ❤️ by Lumi</footer>
+</div>
+
+<button class="back-top" id="backTop" style="display:none">↑</button>
+
+<!-- 访问统计追踪像素（延迟加载，不阻塞页面） -->
+<script>addEventListener('load',()=>{let i=new Image;i.src='https://phone-selector-stats.gedaye-vip.workers.dev/track'})</script>
+
+<script src="script.js?v=87"></script>
+</body>
+</html>
+</content>
