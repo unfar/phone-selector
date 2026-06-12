@@ -15,7 +15,7 @@
       <div class="spec-grid">
         <div v-for="s in specRows" :key="s.l" class="spec-cell">
           <div class="label">{{ s.l }}</div>
-          <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—' }]">{{ s.v }}</div>
+          <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) }]">{{ s.v }}</div>
         </div>
       </div>
     </div>

@@ -130,9 +130,23 @@ export function getCameraSpecs(p) {
     return n >= 100 ? n + '万' : n + 'MP'
   }
 
+  function cleanCamTxt(txt) {
+    return txt
+      .replace(/徕卡[\w]*/g, '')
+      .replace(/哈苏[\w]*/g, '')
+      .replace(/蔡司[\w]*/g, '')
+      .replace(/大底/g, '')
+      .replace(/浮动/g, '')
+      .replace(/超动态鹰眼/g, '')
+      .replace(/像素/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+  }
+
   function extractBrief(s) {
+    s = cleanCamTxt(s)
     let mp = (s.match(/(\d+)\s*[万M]/) || [])[1] || ''
-    let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|徕卡\w*|光影猎人\w*)/) || [])[1] || ''
+    let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|光影猎人\w*)/) || [])[1] || ''
     let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || ''
     if (aperture) { aperture = aperture.replace(/^F\s*/i, 'f/'); aperture = aperture.replace(/^f\/\//, 'f/') }
     let parts = []
@@ -182,7 +196,7 @@ export function getCameraSpecs(p) {
       }
     }
 
-    const camLabelMap = { '主': '主摄', '广': '超广角', '长': '长焦', '超长': '超长焦', '微': '微距', '镜': '其他' }
+    const camLabelMap = { '主': '主摄', '广': '超广', '长': '长焦', '超长': '超长焦', '微': '微距', '镜': '其他' }
     if (rearCams.length > 0) {
       const rearLines = rearCams.map(c => camLabelMap[c.t] + ' ' + c.d)
       specs.push({ l: '后置', v: rearLines.join('\n') })
