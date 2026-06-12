@@ -224,6 +224,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .spec-cell .label{font-size:.7rem;color:var(--text-muted);margin-bottom:2px}
 .spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text);white-space:pre-line}
 .spec-cell .value.camera-value{font-size:.72rem}
+.spec-cell.colspan-2{grid-column:span 2}
 
 /* ===== Card Expand ===== */
 

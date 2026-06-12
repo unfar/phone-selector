@@ -13,7 +13,7 @@
     </div>
     <div class="card-body">
       <div class="spec-grid">
-        <div v-for="s in specRows" :key="s.l" class="spec-cell">
+        <div v-for="s in specRows" :key="s.l" :class="['spec-cell', { 'colspan-2': s.colspan }]">
           <div class="label">{{ s.l }}</div>
           <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) }]">{{ s.v }}</div>
         </div>
