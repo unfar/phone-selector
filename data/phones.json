@@ -733,7 +733,7 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-04",
-    "price": 3099
+    "price": 2899
   },
   {
     "id": 29,
@@ -4052,7 +4052,7 @@
     "id": 144,
     "brand": "OPPO",
     "model": "OPPO K13 Turbo Pro",
-    "processor": "骁龙8s Gen 4",
+    "processor": "骁龙8s Gen4",
     "screen_size": 6.8,
     "refresh_hz": 120,
     "screen_type": "AMOLED",
@@ -4174,7 +4174,7 @@
     "detailed_camera": "后置: 5000万像素广角主摄(f/1.8,OIS) + 5000万像素长焦(f/2.8,3.5x光变,OIS) | 前置: 1600万像素",
     "charging_w": 100,
     "release_date": "2025-10",
-    "price": 4899,
+    "price": 4299,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "refresh_hz": 165,
@@ -4192,7 +4192,7 @@
     "camera_desc": "50MP主摄 + 50MP超广角 + 潜望长焦",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
+      "IP66/IP68/IP69/IP69防尘抗水",
       "NFC",
       "红外遥控"
     ],
@@ -4214,11 +4214,12 @@
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 1/1.4英寸 | 超广角: 索尼IMX355 f/2.2 | 长焦: 索尼LYT-600 f/2.6 3x光学",
     "charging_w": 120,
     "release_date": "2025-09",
-    "price": 4299,
+    "price": 3999,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "resolution": "1272×2772"
   },
   {
     "brand": "OnePlus",
@@ -4257,7 +4258,7 @@
   {
     "brand": "OnePlus",
     "model": "一加 Ace 6",
-    "processor": "骁龙8至尊版",
+    "processor": "骁龙8 Elite 1",
     "screen_size": 6.83,
     "battery_mah": 7800,
     "weight_g": 213,
@@ -4283,7 +4284,7 @@
     "detailed_camera": "后置: 5000万像素主摄(f/1.8,OIS) + 800万像素超广角 | 前置: 1600万像素",
     "charging_w": 120,
     "release_date": "2025-08",
-    "price": 3399,
+    "price": 2599,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 165,
@@ -4294,7 +4295,7 @@
   {
     "brand": "OnePlus",
     "model": "一加 Ace 6T",
-    "processor": "第五代骁龙8",
+    "processor": "骁龙8 Gen5",
     "screen_size": 6.83,
     "battery_mah": 8300,
     "weight_g": 205,
@@ -4321,17 +4322,18 @@
     "detailed_camera": "后置: 5000万像素主摄 + 800万像素超广角 | 前置: 1600万像素",
     "charging_w": 100,
     "release_date": "2025-07",
-    "price": 2999,
+    "price": 2040,
     "ram": "12GB",
     "storage": "256GB/512GB",
     "refresh_hz": 165,
     "screen_type": "OLED",
-    "os": "ColorOS 16 / Android 16"
+    "os": "ColorOS 16 / Android 16",
+    "resolution": "1272×2800"
   },
   {
     "brand": "OnePlus",
     "model": "一加 Turbo 6",
-    "processor": "第四代骁龙8s",
+    "processor": "骁龙8s Gen4",
     "screen_size": 6.78,
     "battery_mah": 9000,
     "weight_g": 200,
@@ -4369,14 +4371,14 @@
   {
     "brand": "OnePlus",
     "model": "一加 Turbo 6V",
-    "processor": "第四代骁龙7s",
+    "processor": "骁龙7s Gen4",
     "screen_size": 6.78,
     "battery_mah": 9000,
     "weight_g": 215,
     "camera_desc": "后置5000万主摄 | 前置800万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69防尘抗水",
+      "IP66/IP68/IP69/IP69防尘抗水",
       "NFC",
       "红外遥控"
     ],
@@ -4398,7 +4400,8 @@
     "ram": "12GB",
     "storage": "256GB/512GB",
     "refresh_hz": 144,
-    "screen_type": "AMOLED"
+    "screen_type": "AMOLED",
+    "resolution": "1272×2772"
   },
   {
     "brand": "OnePlus",
@@ -4535,7 +4538,7 @@
   {
     "brand": "realme",
     "model": "GT8",
-    "processor": "骁龙8至尊版",
+    "processor": "骁龙8 Elite 1",
     "screen_size": 6.79,
     "battery_mah": 7000,
     "weight_g": 214,
@@ -7406,7 +7409,7 @@
     "id": 373,
     "brand": "Motorola",
     "model": "moto Razr 60 Ultra",
-    "processor": "骁龙8至尊版",
+    "processor": "骁龙8 Elite 1",
     "screen_size": 6.96,
     "refresh_hz": 165,
     "screen_type": "pOLED",
@@ -7656,7 +7659,7 @@
     "id": 398,
     "brand": "Lenovo",
     "model": "拯救者 Y70",
-    "processor": "骁龙8 Gen 5",
+    "processor": "骁龙8 Gen5",
     "screen_size": 6.82,
     "refresh_hz": 144,
     "screen_type": "LTPO直屏",
@@ -8992,7 +8995,7 @@
     "id": 437,
     "brand": "OnePlus",
     "model": "一加 Turbo 6X",
-    "processor": "天玑7360 SUPER",
+    "processor": "天玑7360 Super",
     "screen_size": 6.72,
     "refresh_hz": 144,
     "screen_type": "LCD",
