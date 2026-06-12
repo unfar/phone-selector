@@ -58,6 +58,16 @@ const specRows = computed(() => {
   ]
   const camSpecs = getCameraSpecs(phone)
   camSpecs.forEach(s => sc.push(s))
+  // 防尘抗水
+  const ipFeat = (phone.features || []).find(f => /IP\d{2}/.test(f))
+  let ipVal = '—'
+  if (ipFeat) {
+    const ipLevels = ipFeat.match(/IP\d{2}K?/g)
+    if (ipLevels) ipVal = ipLevels.join(' ')
+  } else if (phone.tags?.includes('防尘抗水')) {
+    ipVal = '支持'
+  }
+  sc.push({ l: '防尘抗水', v: ipVal })
   return sc
 })
 
@@ -68,11 +78,6 @@ const featureTagsList = computed(() => {
   if (phone.has_tele) ft.push({ t: '🔭 潜望长焦', c: 'purple' })
   if (phone.tags.includes('无线充电')) ft.push({ t: '🔋 无线充电', c: 'green' })
   if (phone.tags.includes('散热风扇')) ft.push({ t: '🌀 散热风扇', c: 'red' })
-  const ipFeat = (phone.features || []).find(f => /IP\d{2}/.test(f))
-  if (ipFeat) {
-    const ipLevels = ipFeat.match(/IP\d{2}K?/g)
-    if (ipLevels) ft.push({ t: '💧 ' + ipLevels.join('/'), c: 'blue' })
-  }
   if (phone.tags.includes('NFC') || (phone.features || []).some(f => f.includes('NFC'))) ft.push({ t: '📡 NFC', c: '' })
   if (phone.tags.includes('红外') || (phone.features || []).some(f => f.includes('红外'))) ft.push({ t: '🔴 红外', c: 'amber' })
   if (phone.tags.includes('USB3.0') || (phone.features || []).includes('USB3.0')) ft.push({ t: '🔌 USB 3.0', c: '' })
