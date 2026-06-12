@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="24" viewBox="0 0 98 24">
+  <rect width="98" height="24" fill="none"/>
+  <path fill="#fff" d="M10 4l6-2 6 2 6 8-6 8-6 2-6-2-6-8 6-8z" opacity="0.9"/>
+  <path fill="#fff" d="M12 6l4-1 4 1 4 6-4 6-4 1-4-1-4-6 4-6z"/>
+  <text x="32" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="14" fill="#fff" letter-spacing="2">REDMAGIC</text>
+</svg>

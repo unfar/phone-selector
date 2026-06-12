@@ -1,0 +1,474 @@
+/* ===== Reset & Variables ===== */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+    --primary:#2563eb;--primary-light:#eff6ff;--primary-dark:#1d4ed8;
+    --bg:#f8fafc;--card-bg:#fff;--text:#0f172a;--text-secondary:#475569;--text-muted:#94a3b8;
+    --border:#e2e8f0;
+    --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+    --shadow-lg:0 10px 25px -5px rgba(0,0,0,.08),0 4px 6px rgba(0,0,0,.04);
+    --radius:20px;--radius-sm:14px;--radius-full:999px;
+}
+
+/* ===== Dark Mode ===== */
+.dark-mode{
+    --primary:#3b82f6;--primary-light:#1e3a5f;--primary-dark:#60a5fa;
+    --bg:#0f172a;--card-bg:#1e293b;--text:#f1f5f9;--text-secondary:#94a3b8;--text-muted:#64748b;
+    --border:#334155;
+    --shadow:0 1px 3px rgba(0,0,0,.3),0 1px 2px rgba(0,0,0,.2);
+    --shadow-lg:0 10px 25px -5px rgba(0,0,0,.4),0 4px 6px rgba(0,0,0,.3);
+    background:linear-gradient(135deg,#0a0a1a 0%,#1a1a2e 30%,#0d0d1f 60%,#1a0a0f 100%);background-attachment:fixed
+}
+
+/* ===== Base ===== */
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;background:linear-gradient(135deg,#f0f5ff 0%,#e8eeff 30%,#f5f0ff 60%,#ffeef8 100%);background-attachment:fixed;color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased}
+.container{max-width:1440px;margin:0 auto;padding:24px 20px 80px}
+
+/* ===== Hero Panel (顶部整合面板) ===== */
+.hero-panel{text-align:center;padding:36px 40px 32px;margin-bottom:32px;background:rgba(255,255,255,.65);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-radius:24px;border:1px solid rgba(255,255,255,.25);box-shadow:0 4px 24px rgba(0,0,0,.04);position:relative;overflow:hidden}
+.hero-panel::before{content:'';position:absolute;top:-40%;left:50%;transform:translateX(-50%);width:50%;height:80%;background:radial-gradient(ellipse,var(--primary),transparent 70%);opacity:.05;pointer-events:none}
+.hero-icon{font-size:1.6rem;margin-bottom:8px;line-height:1}
+.hero-panel h1{font-size:2rem;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,#1e40af,#7c3aed,#db2777);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
+.hero-subtitle{font-size:.9rem;color:var(--text-secondary);margin-bottom:28px;font-weight:450;letter-spacing:.3px}
+.hero-stats{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.hero-stat{display:flex;align-items:center;gap:8px;padding:10px 22px;background:rgba(255,255,255,.5);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:var(--radius-full);border:1px solid rgba(255,255,255,.2);font-size:.85rem}
+.hero-stat-num{font-weight:800;font-size:1.2rem;color:var(--primary)}
+.hero-stat-label{color:var(--text-muted);font-size:.78rem}
+.hero-stat-date{gap:6px;color:var(--text-secondary);font-size:.78rem;padding:10px 18px}
+.hero-notice{margin-top:16px;padding:8px 16px;font-size:.78rem;color:var(--text-muted);background:rgba(255,255,255,.3);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:var(--radius-full);display:inline-block;border:1px solid rgba(255,255,255,.15)}
+.dark-mode .hero-panel{background:rgba(30,41,59,.5);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-color:rgba(255,255,255,.06)}
+.dark-mode .hero-stat{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
+.dark-mode .hero-notice{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
+.dark-mode .brand-header-HONOR{background:linear-gradient(135deg,#2a2a2a,#3a3a3a)}
+.dark-mode .brand-header-HONOR .phone-name{color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.15)}
+.dark-mode .brand-HONOR{color:#fff}
+
+/* ===== Filter Panel ===== */
+.filter-panel{background:rgba(255,255,255,.65);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 24px;margin-bottom:24px;border:1px solid rgba(255,255,255,.25)}
+.filter-section{margin-bottom:16px}.filter-section:last-child{margin-bottom:0}
+.filter-label{font-size:.8rem;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.filter-label:hover{color:var(--primary)}
+.filter-label .arrow{font-size:.6rem;transition:transform .2s ease;margin-left:4px;display:inline-block}
+.filter-section.collapsed .arrow{transform:rotate(-90deg)}
+.filter-section.collapsed .filter-tags{display:none}
+.filter-count{font-weight:400;text-transform:none;color:var(--text-muted);font-size:.75rem}
+.filter-tags{display:flex;flex-wrap:wrap;gap:8px}
+
+ .tag{padding:6px 16px;border-radius:var(--radius-full);font-size:.85rem;font-weight:500;cursor:pointer:transition:all .15s ease;border:1.5px solid var(--border);background:var(--bg);color:var(--text-secondary);user-select:none}
+
+.tag:hover{border-color:#cbd5e1;background:#f1f5f9;transform:translateY(-1px)}
+.tag.active{background:var(--primary);color:#fff;border-color:var(--primary);box-shadow:0 2px 8px rgba(37,99,235,.25)}
+.tag.active:hover{background:var(--primary-dark)}
+/* ===== Brand Active Tags ===== */
+.tag.active.brand-active-Apple{background:#1C1C1C;border-color:#1C1C1C;box-shadow:0 2px 8px rgba(28,28,28,.3)}
+.tag.active.brand-active-Huawei{background:#BC2D32;border-color:#BC2D32;box-shadow:0 2px 8px rgba(188,45,50,.3)}
+.tag.active.brand-active-Xiaomi{background:#FF4800;border-color:#FF4800;box-shadow:0 2px 8px rgba(255,72,0,.3)}
+.tag.active.brand-active-OPPO{background:#6DFB73;color:#000;border-color:#6DFB73;box-shadow:0 2px 8px rgba(109,251,115,.3)}
+.tag.active.brand-active-vivo{background:#7C3AED;border-color:#7C3AED;box-shadow:0 2px 8px rgba(124,58,237,.3)}
+.tag.active.brand-active-Samsung{background:#2563eb;border-color:#2563eb;box-shadow:0 2px 8px rgba(37,99,235,.3)}
+.tag.active.brand-active-HONOR{background:#222222;border-color:#222222;box-shadow:0 2px 8px rgba(34,34,34,.3)}
+.tag.active.brand-active-REDMI{background:#D82F44;border-color:#D82F44;box-shadow:0 2px 8px rgba(216,47,68,.3)}
+.tag.active.brand-active-iQOO{background:#FFD700;color:#333;border-color:#FFD700;box-shadow:0 2px 8px rgba(255,215,0,.3)}
+.tag.active.brand-active-OnePlus{background:#E73421;border-color:#E73421;box-shadow:0 2px 8px rgba(231,52,33,.3)}
+.tag.active.brand-active-realme{background:#EAB51D;color:#000;border-color:#EAB51D;box-shadow:0 2px 8px rgba(234,181,29,.3)}
+.tag.active.brand-active-RedMagic{background:#b91c1c;border-color:#b91c1c;box-shadow:0 2px 8px rgba(185,28,28,.3)}
+.tag.active.brand-active-Motorola{background:#D43D2D;border-color:#D43D2D;box-shadow:0 2px 8px rgba(212,61,45,.3)}
+.tag.active.brand-active-Lenovo{background:#D43D2D;border-color:#D43D2D;box-shadow:0 2px 8px rgba(212,61,45,.3)}
+.tag.active.brand-active-Apple:hover,
+.tag.active.brand-active-Huawei:hover,
+.tag.active.brand-active-Xiaomi:hover,
+.tag.active.brand-active-OPPO:hover,
+.tag.active.brand-active-vivo:hover,
+.tag.active.brand-active-Samsung:hover,
+.tag.active.brand-active-HONOR:hover,
+.tag.active.brand-active-REDMI:hover,
+.tag.active.brand-active-iQOO:hover,
+.tag.active.brand-active-OnePlus:hover,
+.tag.active.brand-active-realme:hover,
+.tag.active.brand-active-RedMagic:hover,
+.tag.active.brand-active-Motorola:hover,
+.tag.active.brand-active-Lenovo:hover,
+.tag.cpu{background:#fef3c7;color:#92400e;border-color:#fde68a}
+
+/* ===== Price Dual Slider (compact) ===== */
+.price-slider-container{padding:2px 0}
+.price-slider-track{position:relative;height:4px;margin:10px 6px 0;border-radius:2px;background:var(--border)}
+.price-slider-fill{position:absolute;top:0;left:0;height:100%;background:linear-gradient(90deg,var(--primary),#7c3aed);border-radius:2px;pointer-events:none;z-index:1}
+.price-slider{-webkit-appearance:none;appearance:none;position:absolute;top:-6px;left:0;width:100%;height:16px;background:none;pointer-events:none;z-index:2;margin:0;padding:0}
+.price-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:16px;height:16px;border-radius:50%;background:#fff;border:2.5px solid var(--primary);cursor:pointer;pointer-events:auto;box-shadow:0 1px 4px rgba(0,0,0,.12);transition:transform .12s}
+.price-slider::-webkit-slider-thumb:hover{transform:scale(1.12)}
+.price-slider::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#fff;border:2.5px solid var(--primary);cursor:pointer;pointer-events:auto;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.price-slider-inputs{display:flex;align-items:center;gap:8px;margin-top:8px}
+.price-input-group{flex:1;display:flex;align-items:center;gap:4px}
+.price-input-label{font-size:.68rem;font-weight:600;color:var(--text-muted);white-space:nowrap}
+.price-input-wrap{position:relative;flex:1}
+.price-input-currency{position:absolute;left:8px;top:50%;transform:translateY(-50%);font-size:.75rem;font-weight:600;color:var(--text-muted);pointer-events:none;line-height:1}
+.price-input{width:100%;padding:5px 6px 5px 20px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.78rem;font-weight:600;background:var(--card-bg);color:var(--text);outline:none;transition:border-color .12s}
+.price-input:focus{border-color:var(--primary);box-shadow:0 0 0 2px rgba(37,99,235,.1)}
+.price-input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.price-input[type=number]{-moz-appearance:textfield}
+.price-separator{font-size:.9rem;color:var(--text-muted);flex-shrink:0;line-height:1}
+.price-slider-hint{font-size:.65rem;color:var(--text-muted);margin-top:4px;text-align:center;opacity:.6}
+.dark-mode .price-slider-fill{background:linear-gradient(90deg,#3b82f6,#8b5cf6)}
+.dark-mode .price-slider::-webkit-slider-thumb{background:var(--card-bg);border-color:#3b82f6}
+.dark-mode .price-input{background:rgba(30,41,59,.5);border-color:rgba(255,255,255,.1);color:var(--text)}
+.dark-mode .price-input:focus{border-color:#3b82f6}
+
+/* ===== Compare Selection Ring ===== */
+.phone-card.compare-selected{outline:2.5px solid var(--primary);outline-offset:2px;box-shadow:0 0 0 4px rgba(37,99,235,.12),0 8px 24px rgba(37,99,235,.15)!important;cursor:pointer}
+.dark-mode .phone-card.compare-selected{outline-color:#3b82f6;box-shadow:0 0 0 4px rgba(59,130,246,.15),0 8px 24px rgba(59,130,246,.2)!important}
+
+/* Toast notification */
+.compare-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);z-index:300;padding:10px 24px;border-radius:var(--radius-full);font-size:.85rem;font-weight:600;background:var(--text);color:var(--bg);box-shadow:0 4px 20px rgba(0,0,0,.2);animation:toastIn .3s ease,toastOut .3s ease 2.2s forwards;pointer-events:none}
+@keyframes toastIn{from{opacity:0;transform:translateX(-50%) translateY(20px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+@keyframes toastOut{from{opacity:1;transform:translateX(-50%) translateY(0)}to{opacity:0;transform:translateX(-50%) translateY(-10px)}}
+
+/* Compare bar selected chips - show thumbnails */
+.selected-chip-thumb{width:28px;height:28px;border-radius:6px;background:rgba(37,99,235,.1);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--primary);flex-shrink:0;overflow:hidden}
+.selected-chip-thumb img{width:100%;height:100%;object-fit:contain}
+
+/* Compare table same/diff highlighting */
+.compare-table td.diff-highlight{font-weight:700;color:var(--primary)}
+.tag.cpu.active{background:#d97706;color:#fff;border-color:#d97706}
+.tag.screen{background:#fdf2f8;color:#db2777;border-color:#fbcfe8}
+.tag.screen.active{background:#db2777;color:#fff;border-color:#db2777}
+
+/* ===== Active Bar ===== */
+.active-bar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:var(--primary-light);border-radius:var(--radius-sm);margin-bottom:20px;min-height:44px}
+.active-bar .label{font-size:.8rem;font-weight:600;color:var(--primary)}
+.active-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background:var(--card-bg);border-radius:var(--radius-full);font-size:.8rem;font-weight:500;box-shadow:var(--shadow)}
+.active-badge .x{cursor:pointer;color:var(--text-muted);font-weight:700}.active-badge .x:hover{color:#ef4444}
+.clear-btn{margin-left:auto;background:none;border:none;color:var(--text-muted);font-size:.8rem;cursor:pointer;text-decoration:underline}.clear-btn:hover{color:#ef4444}
+
+/* ===== Toolbar ===== */
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px}
+.result-info{font-size:.9rem;color:var(--text-secondary)}.result-info strong{color:var(--primary);font-size:1.1rem}
+.toolbar-right{display:flex;align-items:center;gap:12px}
+.sort-select{padding:8px 16px;border:1.5px solid var(--border);border-radius:var(--radius-full);font-size:.85rem;background:var(--card-bg);cursor:pointer;outline:none}.sort-select:focus{border-color:var(--primary)}
+
+/* ===== Compare Mode Button ===== */
+.compare-mode-btn{padding:8px 16px;border:1.5px solid var(--primary);border-radius:var(--radius-full);font-size:.85rem;background:transparent;color:var(--primary);cursor:pointer;transition:all .15s}
+.compare-mode-btn:hover{background:var(--primary-light)}
+.compare-mode-btn.active{background:var(--primary);color:#fff}
+
+/* ===== Phone Grid ===== */
+.phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+
+/* ----- Glass Card ----- */
+.phone-card{position:relative;background:rgba(255,255,255,.68);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);box-shadow:0 4px 20px rgba(0,0,0,.04),0 1px 3px rgba(0,0,0,.03);overflow:hidden;transition:box-shadow .2s ease,border-color .2s ease,transform .2s ease;cursor:pointer}
+.phone-card:hover{box-shadow:0 12px 40px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.04);border-color:rgba(255,255,255,.5);transform:translateY(-2px)}
+.dark-mode .phone-card{background:rgba(30,41,59,.55);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-color:rgba(255,255,255,.06);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.dark-mode .filter-panel{background:rgba(30,41,59,.5);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-color:rgba(255,255,255,.06)}
+.dark-mode .header .stats{background:rgba(30,41,59,.5);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-color:rgba(255,255,255,.06)}
+.dark-mode .sort-select{background:rgba(30,41,59,.5);backdrop-filter:blur(12px);border-color:rgba(255,255,255,.06)}
+.dark-mode .tag{background:rgba(30,41,59,.4);backdrop-filter:blur(8px);border-color:rgba(255,255,255,.06);color:var(--text-secondary)}
+.dark-mode .tag:hover{background:rgba(30,41,59,.6);border-color:rgba(255,255,255,.12)}
+.dark-mode .spec-cell{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-bar{background:rgba(30,41,59,.65);backdrop-filter:blur(20px);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-panel-content{background:rgba(20,28,45,.85);backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-panel-header{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
+.dark-mode .compare-table{background:rgba(255,255,255,.03);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.card-body .spec-grid{margin-top:40px;}
+.card-footer{margin-top:12px;}
+
+/* ===== Brand Header Block ===== */
+.card-header{background:var(--card-bg);padding:44px 16px 14px;border-radius:var(--radius) var(--radius) 0 0;position:relative;display:flex;align-items:center;justify-content:center;min-height:85px}
+.brand-header-Apple{background:linear-gradient(135deg,#1a1a2e,#2d2d44)}
+.brand-header-Huawei{background:linear-gradient(135deg,#BC2D32,#d43a40)}
+.brand-header-Xiaomi{background:linear-gradient(135deg,#FF4800,#ff6b2b)}
+.brand-header-OPPO{background:linear-gradient(135deg,#6DFB73,#8eff92)}
+.brand-header-vivo{background:linear-gradient(135deg,#7C3AED,#9b5cff)}
+.brand-header-Samsung{background:linear-gradient(135deg,#2563eb,#4b82f2)}
+.brand-header-HONOR{background:linear-gradient(135deg,#222222,#3a3a3a)}
+.brand-header-REDMI{background:linear-gradient(135deg,#D82F44,#e84a5e)}
+.brand-header-iQOO{background:linear-gradient(135deg,#FFD700,#ffe03d)}
+.brand-header-OnePlus{background:linear-gradient(135deg,#E73421,#f04e3a)}
+.brand-header-realme{background:linear-gradient(135deg,#EAB51D,#f0ca4a)}
+.brand-header-RedMagic{background:linear-gradient(135deg,#b91c1c,#d42222)}
+.brand-header-Motorola{background:linear-gradient(135deg,#D43D2D,#dd5545)}
+.brand-header-Lenovo{background:linear-gradient(135deg,#D43D2D,#dd5545)}
+
+/* ===== Brand Badge (glass on header) ===== */
+.brand-badge{position:absolute;top:12px;left:12px;z-index:1;border-radius:12px;padding:6px 14px;display:flex;align-items:center;background:transparent}
+.brand-logo{height:22px;width:auto;display:block}
+.brand-text-logo{font-size:14px;font-weight:700;color:#fff;letter-spacing:1px;white-space:nowrap}
+.unsupported{color:#ef4444!important;font-size:.78rem;font-weight:700}
+/* ===== Price Badge (glass on header) ===== */
+.price-badge{position:absolute;top:12px;right:12px;z-index:1;border-radius:var(--radius-full);padding:3px 12px;font-size:.78rem;font-weight:700;white-space:nowrap;background:rgba(255,255,255,.2);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(255,255,255,.25)}
+
+/* ===== Phone Name on Brand Header ===== */
+.card-header .phone-name{font-size:.9rem;font-weight:700;color:#fff;text-align:center;line-height:1.3;text-shadow:0 1px 4px rgba(0,0,0,.15);max-width:90%;margin:0 auto}
+.brand-header-OPPO .phone-name,.brand-header-iQOO .phone-name{color:#000;text-shadow:none}
+.brand-header-HONOR .phone-name{color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.15)}
+.brand-OPPO,.brand-iQOO{color:#000}
+.brand-HONOR{color:#222}
+
+/* ===== Brand Borders (glass-friendly) ===== */
+.phone-card.brand-border-Apple{border-color:rgba(28,28,28,.6)}
+.phone-card.brand-border-Huawei{border-color:rgba(188,45,50,.6)}
+.phone-card.brand-border-Xiaomi{border-color:rgba(255,72,0,.6)}
+.phone-card.brand-border-OPPO{border-color:rgba(109,251,115,.6)}
+.phone-card.brand-border-vivo{border-color:rgba(124,58,237,.6)}
+.phone-card.brand-border-Samsung{border-color:rgba(37,99,235,.6)}
+.phone-card.brand-border-HONOR{border-color:rgba(0,0,0,.15)}
+.phone-card.brand-border-REDMI{border-color:rgba(216,47,68,.6)}
+.phone-card.brand-border-iQOO{border-color:rgba(255,215,0,.6)}
+.phone-card.brand-border-OnePlus{border-color:rgba(231,52,33,.6)}
+.phone-card.brand-border-realme{border-color:rgba(234,181,29,.6)}
+.phone-card.brand-border-RedMagic{border-color:rgba(185,28,28,.6)}
+.phone-card.brand-border-Motorola{border-color:rgba(212,61,45,.6)}
+.phone-card.brand-border-Lenovo{border-color:rgba(212,61,45,.6)}
+.price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
+.card-body{padding:16px 20px;flex:1}
+.spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.spec-cell{padding:8px 10px;background:rgba(0,0,0,.03);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);border:1px solid rgba(0,0,0,.04)}
+.spec-cell .label{font-size:.7rem;color:var(--text-muted);margin-bottom:2px}
+.spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text)}
+
+/* ===== Card Expand ===== */
+.card-expand{margin-top:10px;text-align:center}
+.expand-btn{background:none;border:1px solid var(--border);border-radius:var(--radius-full);padding:4px 16px;font-size:.75rem;color:var(--text-secondary);cursor:pointer;transition:all .15s}
+.expand-btn:hover{border-color:var(--primary);color:var(--primary)}
+.card-details{display:none;margin-top:12px}
+.card-details.open{display:block}
+
+.detail-section{padding:12px;background:rgba(0,0,0,.025);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);margin-bottom:8px;border:1px solid rgba(0,0,0,.04)}
+.detail-title{font-size:.75rem;font-weight:600;color:var(--primary);margin-bottom:8px;display:flex;align-items:center;gap:4px}
+.detail-row{font-size:.75rem;color:var(--text-secondary);margin-bottom:4px;line-height:1.4}
+.detail-row strong{color:var(--text);font-weight:600}
+
+/* ===== Card Footer ===== */
+.card-footer{padding:14px 20px;display:flex;flex-wrap:wrap;gap:6px}
+.feature-tag{padding:3px 12px;border-radius:var(--radius-full);font-size:.72rem;font-weight:500;background:rgba(22,163,74,.08);color:#16a34a;border:1px solid rgba(22,163,74,.15)}
+.feature-tag.purple{background:rgba(124,58,237,.08);color:#7c3aed;border-color:rgba(124,58,237,.15)}
+.feature-tag.amber{background:rgba(217,119,6,.08);color:#d97706;border-color:rgba(217,119,6,.15)}
+.feature-tag.blue{background:rgba(37,99,235,.08);color:#2563eb;border-color:rgba(37,99,235,.15)}
+.feature-tag.fold{background:rgba(219,39,119,.08);color:#db2777;border-color:rgba(219,39,119,.15)}
+.feature-tag.cpu{background:rgba(146,64,14,.08);color:#92400e;border-color:rgba(146,64,14,.15)}
+.feature-tag.green{background:rgba(5,150,105,.08);color:#059669;border-color:rgba(5,150,105,.15)}
+.feature-tag.red{background:rgba(220,38,38,.08);color:#dc2626;border-color:rgba(220,38,38,.15)}
+
+/* ===== Compare Bar (底部固定选择栏) ===== */
+.compare-bar{position:fixed;bottom:0;left:0;right:0;background:var(--card-bg);box-shadow:0 -4px 20px rgba(0,0,0,.15);border-top:1px solid var(--border);z-index:100;animation:slideUp .3s ease}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.compare-bar-inner{display:flex;align-items:center;gap:16px;padding:12px 24px;max-width:1440px;margin:0 auto}
+.compare-bar-info{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--text-secondary);white-space:nowrap}
+.compare-bar-count strong{color:var(--primary);font-size:1rem}
+.compare-bar-selected{display:flex;align-items:center;gap:8px;flex:1;overflow-x:auto}
+.compare-bar-selected .selected-chip{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;background:var(--primary-light);color:var(--primary);border-radius:var(--radius-full);font-size:.8rem;white-space:nowrap}
+.compare-bar-selected .selected-chip .remove{cursor:pointer;font-weight:700;opacity:.6}
+.compare-bar-selected .selected-chip .remove:hover{opacity:1}
+.compare-bar-actions{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.compare-bar-start{padding:8px 20px;border:none;border-radius:var(--radius-full);font-size:.85rem;background:var(--primary);color:#fff;cursor:pointer;font-weight:600;transition:all .15s}
+.compare-bar-start:disabled{background:var(--border);color:var(--text-muted);cursor:not-allowed}
+.compare-bar-start:not(:disabled):hover{background:var(--primary-dark)}
+.compare-bar-clear{padding:8px 16px;border:1px solid var(--border);border-radius:var(--radius-full);font-size:.85rem;background:transparent;color:var(--text-secondary);cursor:pointer}
+.compare-bar-clear:hover{border-color:var(--text-muted);color:var(--text-muted)}
+.compare-bar-close{padding:8px;border:none;background:none;font-size:1.2rem;cursor:pointer;color:var(--text-muted)}
+.compare-bar-close:hover{color:var(--text)}
+
+/* ===== Compare Panel (全屏弹窗) ===== */
+.compare-panel{position:fixed;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;align-items:center;justify-content:center}
+.compare-panel-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.compare-panel-content{position:relative;width:95%;max-width:1400px;background:rgba(255,255,255,.85);backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);border-radius:20px;box-shadow:0 25px 80px rgba(0,0,0,.3);overflow:hidden;border:1px solid rgba(255,255,255,.3)}
+.compare-panel-header{display:flex;align-items:center;justify-content:center;padding:20px 28px;border-bottom:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.3);border-radius:20px 20px 0 0;position:relative}
+.compare-panel-header h3{font-size:1.3rem;font-weight:800;background:linear-gradient(135deg,var(--primary),#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.compare-panel-close{position:absolute;right:20px;top:50%;transform:translateY(-50%);padding:10px 14px;border:none;background:var(--bg);font-size:1.4rem;cursor:pointer;color:var(--text-muted);border-radius:12px;transition:all .2s}
+.compare-panel-close:hover{background:var(--primary);color:#fff;transform:translateY(-50%) rotate(90deg)}
+.compare-panel-body{overflow:auto;max-height:calc(90vh - 80px);padding:0 28px 20px;background:transparent;border-radius:0 0 20px 20px}
+.compare-table{width:100%;min-width:600px;border-collapse:collapse;font-size:.9rem;background:rgba(255,255,255,.4);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.compare-table thead{background:linear-gradient(135deg,#3b82f6,#60a5fa);position:sticky;top:0;z-index:10}
+.compare-table th{padding:14px 16px;text-align:center;color:#fff;font-weight:700;vertical-align:middle}
+.compare-table thead th:first-child{text-align:center;background:#3b82f6;min-width:100px;border-radius:12px 0 0 0}
+.compare-table thead th:not(:first-child){background:linear-gradient(135deg,#3b82f6,#60a5fa)}
+.compare-table thead th:last-child{border-radius:0 12px 0 0}
+.compare-table thead th:first-child .param-label{font-size:1rem;font-weight:800;letter-spacing:2px}
+.phone-name-badge{display:inline-block;background:rgba(255,255,255,.15);color:#fff;padding:6px 12px;border-radius:8px;font-size:.85rem;font-weight:700;line-height:1.3}
+.compare-table td{padding:10px 12px;text-align:center;border-bottom:1px solid var(--border);vertical-align:middle}
+.compare-table tbody th{padding:10px 12px;text-align:left;font-weight:600;color:var(--text-secondary);background:var(--bg);white-space:nowrap;min-width:100px;border-bottom:1px solid var(--border);border-right:1px solid var(--border)}
+.compare-table td:first-child{display:none}
+.compare-table tr:hover td{background:var(--primary-light)}
+.compare-table tr:nth-child(even) td{background:#fafafa}
+.compare-table tr:nth-child(even):hover td{background:var(--primary-light)}
+.compare-remove{background:linear-gradient(135deg,#fee2e2,#fecaca);border:none;color:#dc2626;cursor:pointer;font-size:.85rem;padding:6px 12px;border-radius:8px;font-weight:600;transition:all .2s;margin-top:8px}
+.compare-remove:hover{background:linear-gradient(135deg,#dc2626,#b91c1c);color:#fff;transform:scale(1.05)}
+.compare-table td .highlight{color:var(--primary);font-weight:700;background:var(--primary-light);padding:4px 8px;border-radius:6px;display:inline-block}
+.compare-table td .best{color:#059669;font-weight:700;background:#d1fae5;padding:4px 8px;border-radius:6px;display:inline-block}
+
+/* ===== Loading / Error ===== */
+.loading,.no-results,.error-msg{grid-column:1/-1;text-align:center;padding:80px 20px;color:var(--text-muted)}
+.loading .spinner{font-size:2rem;animation:spin 1s linear infinite;display:inline-block}
+.no-results .emoji,.error-msg .emoji{font-size:3rem;margin-bottom:16px}
+.no-results p,.error-msg p{font-size:1rem}
+.error-msg{color:#dc2626}
+
+
+
+
+/* ===== Brand Section Headers ===== */
+.brand-section-header{display:flex;align-items:center;gap:10px;grid-column:1/-1;padding:8px 0 4px 12px;margin-top:10px;border-left:4px solid var(--primary);scroll-margin-top:64px}
+.brand-section-header:first-child{margin-top:0}
+.brand-section-header .brand-section-name{font-size:1.05rem;font-weight:700;color:var(--text)}
+.brand-section-header .brand-section-count{font-size:.75rem;color:var(--text-muted);font-weight:500;background:var(--bg);padding:2px 10px;border-radius:var(--radius-full)}
+.dark-mode .brand-section-header{border-left-color:var(--primary)}
+
+/* ===== Back to Top ===== */
+.back-top{position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:var(--primary);color:#fff;border:none;font-size:1.2rem;cursor:pointer;box-shadow:var(--shadow-lg);transition:all .15s;z-index:50;display:flex;align-items:center;justify-content:center}
+.back-top:hover{background:var(--primary-dark);transform:translateY(-2px)}
+
+/* ===== Footer ===== */
+footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
+
+/* ===== Animations ===== */
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* ===== Dark Mode Toggle ===== */
+.dark-mode-toggle{position:fixed;top:20px;right:20px;width:44px;height:44px;border-radius:50%;background:var(--card-bg);color:var(--text);border:2px solid var(--border);font-size:1.2rem;cursor:pointer;box-shadow:var(--shadow-lg);transition:all .3s;z-index:100;display:flex;align-items:center;justify-content:center}
+.dark-mode-toggle:hover{background:var(--primary);color:#fff;border-color:var(--primary);transform:scale(1.1)}
+.dark-mode-toggle:active{transform:scale(0.95)}
+.dark-mode .dark-mode-toggle{background:var(--primary);color:#fff;border-color:var(--primary-dark)}
+
+/* ===== Radar Chart ===== */
+#radarChartContainer{display:flex;justify-content:center;align-items:center;padding:20px;background:var(--card-bg);border-radius:12px;margin-bottom:20px;box-shadow:var(--shadow)}
+#radarChart{max-width:100%;height:auto}
+
+/* ===== Responsive ===== */
+@media(max-width:768px){
+    .container{padding:12px 10px 60px}
+    .hero-panel{padding:24px 16px 20px;margin-bottom:20px}
+    .hero-icon{font-size:1.2rem}
+    .hero-panel h1{font-size:1.35rem}
+    .hero-subtitle{font-size:.78rem;margin-bottom:16px}
+    .hero-stats{gap:10px}
+    .hero-stat{padding:7px 14px;font-size:.78rem}
+    .hero-stat-num{font-size:.95rem}
+    .hero-notice{font-size:.7rem;padding:5px 12px;margin-top:12px}
+    .filter-panel{padding:14px 16px;margin-bottom:16px}
+    .filter-section{margin-bottom:12px}
+    .filter-label{font-size:.75rem;padding:6px 0;min-height:36px}
+    .filter-tags{gap:5px}
+    .tag{padding:7px 13px;font-size:.82rem;min-height:36px;display:inline-flex;align-items:center}
+    
+    /* 手机网格：2列 -> 一屏2×2共4卡 */
+    .phone-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+    
+    /* 卡片头部 — 两行：品牌+价格左右、机型名称居中 */
+    .card-header{display:flex;flex-direction:column;padding:8px 10px;gap:4px;min-height:auto}
+    .card-header-top{display:flex;justify-content:space-between;align-items:center;width:100%}
+    .card-header .phone-name{flex:none;text-align:center;margin:0;font-size:.78rem;overflow:visible;text-overflow:clip;white-space:normal;width:100%}
+    .brand-badge{position:static;flex-shrink:0;padding:3px 8px;border-radius:12px}
+    .brand-logo{height:16px}
+    .brand-text-logo{font-size:12px}
+    .price-badge{position:static;flex-shrink:0;font-size:.7rem;padding:2px 6px}
+    
+    .spec-grid{grid-template-columns:1fr 1fr;gap:4px}
+    .card-body{padding:8px 10px 4px}
+    .spec-cell{padding:4px 6px;border-radius:8px}
+    .spec-cell .label{font-size:.6rem;margin-bottom:1px}
+    .spec-cell .value{font-size:.68rem}
+    
+    .card-footer{padding:4px 10px 8px;gap:3px}
+    .feature-tag{padding:2px 7px;font-size:.58rem}
+    
+    .card-expand{margin-top:4px}
+    .expand-btn{padding:1px 8px;font-size:.6rem}
+
+    .card-details{padding:6px 10px}
+    .detail-section{padding:8px;font-size:.72rem}
+    
+    /* 工具栏移动端紧凑 */
+    .toolbar{flex-direction:column;align-items:stretch;gap:8px;margin-bottom:14px}
+    .toolbar-right{justify-content:space-between;width:100%}
+    .sort-select{flex:1;font-size:.82rem;padding:7px 12px;min-height:38px}
+    .compare-mode-btn{font-size:.82rem;padding:7px 14px;min-height:38px;white-space:nowrap}
+    .result-info{font-size:.82rem}
+    
+    /* 移动端筛选栏 */
+    .active-bar{padding:10px 14px;margin-bottom:14px}
+
+    /* 移动端价格滑块 */
+    .price-slider-track{margin:8px 4px 0;height:3px}
+    .price-slider::-webkit-slider-thumb{width:14px;height:14px;border-width:2px}
+    .price-slider-inputs{gap:6px;margin-top:6px}
+    .price-input{padding:4px 5px 4px 16px;font-size:.72rem}
+    .price-input-currency{left:5px;font-size:.68rem}
+    .price-input-label{font-size:.6rem}
+    .price-separator{font-size:.78rem}
+    .price-slider-hint{display:none}
+    .active-badge{padding:5px 11px;font-size:.76rem}
+    .clear-btn{font-size:.75rem}
+    
+    /* 移动端品牌导航已移除 */
+    .brand-section-header{padding:6px 0 2px 10px;margin-top:8px;scroll-margin-top:56px}
+    .brand-section-header .brand-section-name{font-size:.95rem}
+    .brand-section-header .brand-section-count{font-size:.7rem}
+    
+    /* 移动端对比面板优化 */
+    .compare-panel-content{width:98%;max-height:95vh;border-radius:16px}
+    .compare-panel-header{padding:14px 16px}
+    .compare-panel-header h3{font-size:1.1rem}
+    .compare-panel-body{padding:0 12px 12px}
+    .compare-table{font-size:.7rem;min-width:auto}
+    .compare-table th{padding:8px 6px;font-size:.7rem}
+    .compare-table td{padding:6px 4px;font-size:.65rem}
+    .compare-table thead th:first-child{min-width:60px}
+    .compare-table tbody th{min-width:60px;font-size:.65rem}
+    .phone-name-badge{font-size:.7rem;padding:4px 8px}
+    .compare-remove{padding:2px 6px;font-size:.65rem;margin-top:2px}
+    #radarChart{width:100%;height:auto}
+    .compare-bar-inner{padding:10px 14px;gap:10px}
+    .compare-bar-actions{gap:6px}
+    .compare-bar-start{padding:7px 14px;font-size:.8rem;min-height:36px}
+    .compare-bar-clear{padding:6px 12px;font-size:.78rem;min-height:36px}
+    
+    /* 移动端其他 */
+    .dark-mode-toggle{top:12px;right:12px;width:38px;height:38px;font-size:1rem}
+    footer{padding:28px 0;font-size:.72rem}
+    .back-top{bottom:70px;right:14px;width:40px;height:40px;font-size:1.1rem}
+}
+
+/* ===== Extra Small Screens (≤480px) ===== */
+@media(max-width:480px){
+    .container{padding:8px 6px 56px}
+    .hero-panel{padding:18px 10px 16px;margin-bottom:14px}
+    .hero-panel h1{font-size:1.1rem}
+    .hero-stat{padding:5px 10px;font-size:.72rem}
+    .hero-stat-num{font-size:.8rem}
+    .hero-stat-date{font-size:.7rem;padding:5px 10px}
+    .hero-notice{font-size:.62rem;padding:4px 10px;margin-top:10px}
+    .filter-panel{padding:10px 12px}
+    .tag{padding:6px 10px;font-size:.75rem;min-height:32px}
+    .filter-label{font-size:.7rem}
+    .card-header{padding:6px 8px;min-height:36px;gap:4px}
+    .card-header .phone-name{font-size:.7rem}
+    .brand-badge{padding:2px 6px;border-radius:10px}
+    .brand-logo{height:14px}
+    .brand-text-logo{font-size:10px}
+    .price-badge{font-size:.62rem;padding:1px 5px}
+    .spec-grid{gap:3px}
+    .card-body{padding:6px 8px 2px}
+    .spec-cell{padding:3px 4px;border-radius:6px}
+    .spec-cell .label{font-size:.54rem}
+    .spec-cell .value{font-size:.6rem}
+    .card-footer{padding:2px 8px 6px;gap:2px}
+    .feature-tag{padding:1px 5px;font-size:.5rem}
+    .card-expand{margin-top:2px}
+    .expand-btn{padding:0 6px;font-size:.54rem}
+    .card-details{padding:4px 8px}
+    .detail-section{padding:6px;font-size:.65rem}
+    .toolbar{gap:6px}
+    .sort-select{font-size:.75rem;padding:5px 8px;min-height:32px}
+    .compare-mode-btn{font-size:.75rem;padding:5px 10px;min-height:32px}
+    .result-info{font-size:.72rem}
+    .active-bar{padding:6px 10px;gap:5px}
+    .active-badge{padding:3px 8px;font-size:.68rem}
+    .brand-section-header{padding:4px 0 2px 6px;margin-top:4px;scroll-margin-top:46px}
+    .brand-section-header .brand-section-name{font-size:.82rem}
+    .brand-section-header .brand-section-count{font-size:.6rem}
+    .compare-bar-inner{padding:6px 10px;gap:6px;flex-wrap:wrap}
+    .compare-bar-info{font-size:.72rem}
+    .compare-bar-start{font-size:.72rem;padding:5px 10px;min-height:30px}
+    .compare-bar-clear{font-size:.7rem;padding:4px 8px;min-height:30px}
+    .dark-mode-toggle{width:30px;height:30px;font-size:.85rem;top:8px;right:8px}
+    footer{padding:20px 0;font-size:.64rem}
+    .phone-grid{gap:8px}
+}
