@@ -44,6 +44,14 @@ import { getFoldableScreenDisplay, getFoldableResolutionDisplay, getFoldableRefr
 
 const selected = computed(() => phones.value.filter(p => compareList.value.includes(p.id)))
 
+const cameraLabels = ['主摄', '超广角', '长焦', '超长焦', '微距', '前置']
+
+function getCamSpec(p, label) {
+  const s = getCameraSpecs(p)
+  const r = s.find(x => x.l === label)
+  return r ? r.v : '—'
+}
+
 const fields = [
   { l: '💰 价格', v: p => p.price ? '¥' + p.price : '—' },
   { l: '⚡ 处理器', v: p => p.processor || '—' },
@@ -58,8 +66,7 @@ const fields = [
   { l: '🔗 USB', v: p => p.usb_version || '—' },
   { l: '⚖️ 重量', v: p => p.weight_g ? p.weight_g + 'g' : '—' },
   { l: '📱 屏幕形态', v: p => p.screen_form || '—' },
-  { l: '📷 后置', v: p => { const s = getCameraSpecs(p); const r = s.find(x => x.l === '后置'); return r ? r.v : '—' } },
-  { l: '📷 前置', v: p => { const s = getCameraSpecs(p); const r = s.find(x => x.l === '前置'); return r ? r.v : '—' } },
+  ...cameraLabels.map(l => ({ l: '📷 ' + l, v: p => getCamSpec(p, l) })),
   { l: '📷 潜望长焦', v: p => p.has_tele ? '✅ 支持' : '—' },
   { l: '💧 防尘抗水', v: p => {
     const feats = p.features || [];

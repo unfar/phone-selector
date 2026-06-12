@@ -182,8 +182,11 @@ export function getCameraSpecs(p) {
       }
     }
 
+    const camLabelMap = { '主': '主摄', '广': '超广角', '长': '长焦', '超长': '超长焦', '微': '微距', '镜': '其他' }
     if (rearCams.length > 0) {
-      specs.push({ l: '后置', v: rearCams.map(c => c.t + c.d).join(' + ') })
+      for (const c of rearCams) {
+        specs.push({ l: camLabelMap[c.t] || '后置', v: c.d })
+      }
     }
     if (frontTxt) {
       specs.push({ l: '前置', v: frontTxt })
