@@ -686,7 +686,6 @@ function renderPhones() {
                     '<span class="brand-badge">' + (textLogoBrands.has(p.brand)
                         ? '<span class="brand-text-logo">' + p.brand + '</span>'
                         : '<img class="brand-logo" style="' + getLogoStyle(p.brand) + '" src="' + brandLogos[p.brand] + '" alt="' + p.brand + '">') + '</span>' +
-                    '<span class="compare-checkbox' + (isCompareSelected ? ' checked' : '') + '" data-id="' + p.id + '">' + (isCompareSelected ? '☑' : '☐') + '</span>' +
                     priceHtml +
                 '</div>' +
                 '<div class="phone-name">' + displayName + '</div>' +
@@ -705,11 +704,11 @@ function renderPhones() {
 
 // ===== 卡片事件绑定 =====
 function bindCardEvents() {
-    // 对比复选框点击
-    document.querySelectorAll('.compare-checkbox').forEach(el => {
-        el.onclick = (e) => {
-            e.stopPropagation();
-            const id = parseInt(el.dataset.id);
+    // 卡片点击 — 切换对比选中（排除展开按钮）
+    document.querySelectorAll('.phone-card').forEach(card => {
+        card.onclick = (e) => {
+            if (e.target.closest('.expand-btn') || e.target.closest('.compare-bar') || e.target.closest('.compare-panel')) return;
+            const id = parseInt(card.dataset.id);
             toggleCompareSelection(id);
         };
     });

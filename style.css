@@ -113,12 +113,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .dark-mode .price-input{background:rgba(30,41,59,.5);border-color:rgba(255,255,255,.1);color:var(--text)}
 .dark-mode .price-input:focus{border-color:#3b82f6}
 
-/* ===== Compare Checkbox ===== */
-.compare-checkbox{position:absolute;top:12px;right:48px;z-index:3;width:22px;height:22px;border-radius:4px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px;line-height:1;background:rgba(255,255,255,.2);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1.5px solid rgba(255,255,255,.35);color:rgba(255,255,255,.8);transition:all .15s;user-select:none}
-.compare-checkbox:hover{background:rgba(255,255,255,.35);border-color:rgba(255,255,255,.5)}
-.compare-checkbox.checked{background:var(--primary);border-color:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(37,99,235,.35)}
-.compare-card{position:relative}
-.compare-selected-ring{outline:2px solid var(--primary);outline-offset:2px}
+/* ===== Compare Selection Ring ===== */
+.phone-card.compare-selected{outline:2.5px solid var(--primary);outline-offset:2px;box-shadow:0 0 0 4px rgba(37,99,235,.12),0 8px 24px rgba(37,99,235,.15)!important;cursor:pointer}
+.dark-mode .phone-card.compare-selected{outline-color:#3b82f6;box-shadow:0 0 0 4px rgba(59,130,246,.15),0 8px 24px rgba(59,130,246,.2)!important}
 
 /* Toast notification */
 .compare-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);z-index:300;padding:10px 24px;border-radius:var(--radius-full);font-size:.85rem;font-weight:600;background:var(--text);color:var(--bg);box-shadow:0 4px 20px rgba(0,0,0,.2);animation:toastIn .3s ease,toastOut .3s ease 2.2s forwards;pointer-events:none}
@@ -157,7 +154,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
 
 /* ----- Glass Card ----- */
-.phone-card{position:relative;background:rgba(255,255,255,.68);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);box-shadow:0 4px 20px rgba(0,0,0,.04),0 1px 3px rgba(0,0,0,.03);overflow:hidden;transition:box-shadow .2s ease,border-color .2s ease,transform .2s ease}
+.phone-card{position:relative;background:rgba(255,255,255,.68);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);box-shadow:0 4px 20px rgba(0,0,0,.04),0 1px 3px rgba(0,0,0,.03);overflow:hidden;transition:box-shadow .2s ease,border-color .2s ease,transform .2s ease;cursor:pointer}
 .phone-card:hover{box-shadow:0 12px 40px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.04);border-color:rgba(255,255,255,.5);transform:translateY(-2px)}
 .dark-mode .phone-card{background:rgba(30,41,59,.55);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-color:rgba(255,255,255,.06);box-shadow:0 4px 20px rgba(0,0,0,.3)}
 .dark-mode .filter-panel{background:rgba(30,41,59,.5);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-color:rgba(255,255,255,.06)}
@@ -359,7 +356,6 @@ footer{text-align:center;padding:40px 0;font-size:.8rem;color:var(--text-muted)}
     .card-header-top{display:flex;justify-content:space-between;align-items:center;width:100%}
     .card-header .phone-name{flex:none;text-align:center;margin:0;font-size:.78rem;overflow:visible;text-overflow:clip;white-space:normal;width:100%}
     .brand-badge{position:static;flex-shrink:0;padding:3px 8px;border-radius:12px}
-    .compare-checkbox{position:static;flex-shrink:0;margin:0 2px;width:20px;height:20px;font-size:14px;order:1}
     .brand-logo{height:16px}
     .brand-text-logo{font-size:12px}
     .price-badge{position:static;flex-shrink:0;font-size:.7rem;padding:2px 6px}
