@@ -69,7 +69,6 @@
       "IP66/IP68/IP69/IP69K防尘抗水",
       "8560mAh超大电池",
       "3840Hz PWM调光",
-      "红外遥控",
       "NFC",
       "立体声双扬声器",
       "卫星通信"
@@ -78,8 +77,7 @@
       "6500mAh+",
       "防尘抗水",
       "≤200g",
-      "NFC",
-      "红外"
+      "NFC"
     ],
     "release_date": "2026-06-15",
     "price": 1999,
@@ -109,13 +107,11 @@
     "screen_form": "直屏",
     "features": [
       "NFC",
-      "红外遥控",
       "144Hz LCD护眼屏",
       "7000mAh大电池"
     ],
     "tags": [
-      "NFC",
-      "红外"
+      "NFC"
     ],
     "release_date": "2026-06-10",
     "price": 1499,
@@ -269,16 +265,13 @@
     "os": "HarmonyOS 6.1",
     "screen_form": "直屏",
     "features": [
-      "NFC",
       "侧边指纹",
       "立体声双扬声器",
       "红外"
     ],
     "tags": [
       "麒麟8020",
-      "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "release_date": "2026-06-01",
     "price": 2699,
@@ -312,7 +305,8 @@
       "红外",
       "侧边指纹",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "红外遥控"
     ],
     "tags": [
       "麒麟9010S",
@@ -356,7 +350,8 @@
       "昆仑玻璃",
       "IP65",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "红外遥控"
     ],
     "tags": [
       "麒麟9010S",
@@ -401,7 +396,8 @@
       "IP68",
       "IP69",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "红外遥控"
     ],
     "tags": [
       "麒麟9010S",
@@ -486,7 +482,9 @@
       "IP68",
       "IP69",
       "立体声双扬声器",
-      "超声波指纹2.0"
+      "超声波指纹2.0",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
@@ -523,7 +521,9 @@
     "screen_form": "直屏",
     "features": [
       "4K原生感Live",
-      "索尼云台防抖"
+      "索尼云台防抖",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -803,12 +803,10 @@
     "os": "天禧AI 4.0 / Legion Zone",
     "features": [
       "IP66/IP68/IP69防尘抗水",
-      "NFC",
       "双实体卡+双eSIM",
       "凝胶+液金+VC散热"
     ],
     "tags": [
-      "NFC",
       "防尘抗水",
       "6500mAh+",
       "USB3.0",
@@ -879,7 +877,6 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外遥控",
       "散热风扇"
     ],
     "screen_form": "直屏",
@@ -889,7 +886,6 @@
       "6500mAh+",
       "NFC",
       "USB3.0",
-      "红外",
       "有线投屏"
     ],
     "usb_version": "USB 3.0",
@@ -915,7 +911,6 @@
     "has_tele": false,
     "features": [
       "NFC",
-      "红外遥控",
       "散热风扇"
     ],
     "screen_form": "直屏",
@@ -926,7 +921,6 @@
       "NFC",
       "USB3.0",
       "无线充电",
-      "红外",
       "有线投屏"
     ],
     "usb_version": "USB 3.0",
@@ -1064,7 +1058,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -1101,7 +1096,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -1139,7 +1135,8 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -1179,7 +1176,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -1217,7 +1215,8 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -1256,7 +1255,9 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -1295,7 +1296,9 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -1331,7 +1334,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 33,
@@ -1410,11 +1414,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "6500mAh+",
       "≤200g"
     ],
@@ -1444,11 +1445,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "6500mAh+",
       "≤200g"
     ],
@@ -1512,7 +1510,6 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
-      "红外",
       "USB3.0",
       "无线充电",
       "轻薄",
@@ -1552,7 +1549,6 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
-      "红外",
       "USB3.0",
       "无线充电",
       "轻薄",
@@ -1592,7 +1588,6 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
-      "红外",
       "USB3.0",
       "无线充电",
       "有线投屏"
@@ -1630,14 +1625,11 @@
     "os": "ColorOS 15",
     "features": [
       "IP69防尘抗水",
-      "NFC",
       "80W闪充",
       "7000mAh"
     ],
     "tags": [
-      "NFC",
       "防尘抗水",
-      "红外",
       "6500mAh+",
       "≤200g"
     ],
@@ -1658,7 +1650,10 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 42,
     "tags": [
@@ -1697,12 +1692,17 @@
     "camera_desc": "50MP主摄",
     "has_tele": true,
     "os": "Android",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "6500mAh+",
       "≤200g",
       "USB3.0",
-      "无线充电"
+      "无线充电",
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -1894,11 +1894,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -1928,7 +1925,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -1964,7 +1962,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "红外",
@@ -2000,7 +1999,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "红外",
@@ -2038,7 +2038,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "IP68防尘抗水",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2089,7 +2090,8 @@
       "IP68",
       "IP69",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2125,7 +2127,8 @@
       "IP68",
       "IP69",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -2202,7 +2205,8 @@
       "IP66防尘抗水",
       "IP68防尘抗水",
       "IP69防尘抗水",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -2279,7 +2283,8 @@
       "NFC",
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -2353,7 +2358,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2391,7 +2397,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2431,7 +2438,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2470,7 +2478,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2510,7 +2519,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2547,7 +2557,10 @@
     "camera_desc": "50MP主摄 + 13MP超广角 + 12MP长焦(5.5x)",
     "has_tele": true,
     "os": "HarmonyOS 5.1",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "NFC",
       "红外",
@@ -2597,7 +2610,8 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2638,7 +2652,8 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2669,7 +2684,8 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 69,
@@ -2707,7 +2723,8 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 70,
@@ -2753,7 +2770,9 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -2791,7 +2810,9 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -2831,7 +2852,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -2914,7 +2936,8 @@
       "IP68防尘抗水",
       "NFC",
       "红外",
-      "自研电竞芯片 Q3"
+      "自研电竞芯片 Q3",
+      "红外遥控"
     ],
     "tags": [
       "散热风扇",
@@ -3217,11 +3240,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "6500mAh+",
       "≤200g"
     ],
@@ -3396,11 +3416,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -3464,11 +3481,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "MagicOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -3576,13 +3590,17 @@
     "camera_desc": "5000万主摄 | 1200万长焦 | 800万超广角微距",
     "has_tele": true,
     "os": "HarmonyOS 5.1",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "NFC",
       "潜望长焦",
       "防尘抗水",
       "麒麟9020",
-      "6500mAh+"
+      "6500mAh+",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3659,11 +3677,13 @@
       "IP58/IP59防尘抗水",
       "200MP主摄",
       "折叠屏",
-      "外屏4.0寸"
+      "外屏4.0寸",
+      "NFC"
     ],
     "tags": [
       "折叠屏",
-      "第三代骁龙8"
+      "第三代骁龙8",
+      "NFC"
     ],
     "release_date": "2025-08-21",
     "price": 4699,
@@ -3714,7 +3734,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 97,
@@ -3744,7 +3765,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 98,
@@ -3856,7 +3878,8 @@
       "NFC",
       "红外",
       "IP68",
-      "IP69"
+      "IP69",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -3899,7 +3922,6 @@
       "6500mAh+",
       "防尘抗水",
       "NFC",
-      "红外",
       "散热风扇"
     ],
     "release_date": "2025-08",
@@ -3956,7 +3978,9 @@
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 104,
     "tags": [
@@ -4022,7 +4046,6 @@
     "features": [
       "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
-      "红外遥控",
       "电竞三芯",
       "双扬声器"
     ],
@@ -4030,7 +4053,6 @@
     "id": 106,
     "tags": [
       "NFC",
-      "红外",
       "防尘抗水",
       "6500mAh+",
       "≤200g"
@@ -4068,7 +4090,8 @@
     "features": [
       "NFC",
       "IP69防尘抗水",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
@@ -4107,7 +4130,8 @@
     "features": [
       "NFC",
       "IP69防尘抗水",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -4134,7 +4158,9 @@
     "weight_g": 207,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 109,
     "tags": [
@@ -4172,7 +4198,8 @@
     "os": "",
     "features": [
       "NFC",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -4198,7 +4225,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": true,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 111,
     "tags": [
@@ -4227,7 +4256,9 @@
     "weight_g": 228,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 112,
     "tags": [
@@ -4353,7 +4384,10 @@
     "wireless_charging_w": 66,
     "usb_version": "USB 3.2",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "折叠屏",
     "id": 115,
     "tags": [
@@ -4550,14 +4584,12 @@
     "has_tele": false,
     "features": [
       "IP66/IP68/IP69/IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "screen_form": "直屏",
     "id": 120,
     "tags": [
       "NFC",
-      "红外",
       "防尘抗水",
       "6500mAh+",
       "≤200g"
@@ -4592,11 +4624,13 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
-      "6500mAh+"
+      "6500mAh+",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4630,9 +4664,14 @@
     "has_ir": false,
     "tags": [
       "6500mAh+",
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": null,
     "release_date": "2025-06"
   },
@@ -4654,11 +4693,13 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
-      "6500mAh+"
+      "6500mAh+",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4685,7 +4726,8 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -4712,14 +4754,19 @@
     "weight_g": 196,
     "camera_desc": "2亿像素主摄",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 125,
     "tags": [
       "中低端芯片",
       "6500mAh+",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -4741,7 +4788,10 @@
     "weight_g": 205,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 126,
     "tags": [
@@ -4768,14 +4818,18 @@
     "weight_g": 204,
     "camera_desc": "2亿像素主摄 | 5000万长焦",
     "has_tele": true,
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 127,
     "tags": [
       "6500mAh+",
       "潜望长焦",
       "无线充电",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
@@ -4806,7 +4860,8 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB2.0",
@@ -4840,7 +4895,10 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "HarmonyOS 4.3",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "无线充电",
@@ -4875,7 +4933,10 @@
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -4909,7 +4970,10 @@
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -4943,7 +5007,10 @@
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
     "os": "",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "骁龙8 Elite 1",
@@ -4990,7 +5057,9 @@
     "os": "HarmonyOS 4.3",
     "features": [
       "IP68防尘抗水",
-      "XMAGE影像"
+      "XMAGE影像",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -5032,7 +5101,6 @@
     ],
     "tags": [
       "NFC",
-      "红外",
       "6500mAh+"
     ],
     "screen_form": "直屏",
@@ -5062,7 +5130,8 @@
     "features": [
       "IP65防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5102,9 +5171,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": null,
     "release_date": "2025-04"
   },
@@ -5125,11 +5199,14 @@
     "camera_desc": "后置5000万像素 | 前置3200万像素",
     "has_tele": false,
     "os": "Android",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
       "折叠屏",
       "无线充电",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 15,
@@ -5189,7 +5266,10 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "折叠屏",
     "id": 139,
     "tags": [
@@ -5400,9 +5480,12 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": null,
     "release_date": "2025-03"
   },
@@ -5419,7 +5502,10 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "折叠屏",
     "id": 145,
     "tags": [
@@ -5467,7 +5553,8 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5476,7 +5563,8 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -5515,7 +5603,8 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -5524,7 +5613,8 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -5569,8 +5659,6 @@
       "中低端芯片",
       "防尘抗水",
       "轻薄",
-      "NFC",
-      "红外",
       "6500mAh+"
     ],
     "screen_form": "直屏",
@@ -5601,7 +5689,9 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -5631,7 +5721,10 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 150,
     "tags": [
@@ -5667,7 +5760,9 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "轻薄",
@@ -5675,7 +5770,8 @@
       "防尘抗水",
       "NFC",
       "≤200g",
-      "潜望长焦"
+      "潜望长焦",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5701,12 +5797,16 @@
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
     "os": "",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5740,7 +5840,6 @@
       "中低端芯片",
       "防尘抗水",
       "轻薄",
-      "NFC",
       "≤200g",
       "6500mAh+"
     ],
@@ -5776,8 +5875,6 @@
       "中低端芯片",
       "防尘抗水",
       "轻薄",
-      "NFC",
-      "红外",
       "6500mAh+",
       "≤200g"
     ],
@@ -5809,7 +5906,9 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "轻薄",
@@ -5839,7 +5938,10 @@
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 156,
     "tags": [
@@ -5991,7 +6093,8 @@
       "IP68防尘抗水",
       "IP69防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -6036,7 +6139,6 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
-      "红外",
       "USB3.0",
       "无线充电",
       "有线投屏"
@@ -6067,7 +6169,8 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -6114,11 +6217,16 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "轻薄",
       "中低端芯片",
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6144,12 +6252,16 @@
     "camera_desc": "5000万索尼IMX882主摄",
     "has_tele": false,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6199,7 +6311,10 @@
     "weight_g": 203,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": "直屏",
     "id": 166,
     "tags": [
@@ -6273,7 +6388,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -6306,7 +6422,10 @@
     "camera_desc": "5000万索尼IMX920主摄 | 5000万人像长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "潜望长焦",
       "轻薄",
@@ -6376,7 +6495,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -6410,13 +6530,17 @@
     "camera_desc": "5000万主摄 | 5000万长焦",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "潜望长焦",
       "轻薄",
       "NFC",
       "≤200g",
-      "无线充电"
+      "无线充电",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6442,12 +6566,16 @@
     "camera_desc": "5000万主摄 | 5000万潜望长焦",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "潜望长焦",
       "轻薄",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6475,7 +6603,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -6507,7 +6636,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 175,
@@ -6538,7 +6668,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 176,
@@ -6569,7 +6700,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 177,
@@ -6607,7 +6739,9 @@
     "os": "realme UI 6.0",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -6647,7 +6781,8 @@
       "IP68防尘抗水",
       "NFC",
       "红外",
-      "卫星通信"
+      "卫星通信",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -6682,7 +6817,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 180,
@@ -6722,7 +6858,8 @@
       "IP68防尘抗水",
       "NFC",
       "红外",
-      "卫星通信"
+      "卫星通信",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -6766,9 +6903,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": null,
     "release_date": "2024-11"
   },
@@ -6794,7 +6936,8 @@
       "NFC",
       "红外",
       "卫星通信",
-      "玄武架构"
+      "玄武架构",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -6835,7 +6978,8 @@
       "NFC",
       "红外",
       "卫星通信",
-      "陶瓷后盖"
+      "陶瓷后盖",
+      "红外遥控"
     ],
     "tags": [
       "防尘抗水",
@@ -6872,11 +7016,8 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "MagicOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
-      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -6904,7 +7045,10 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "HarmonyOS 4.2",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "中低端芯片",
       "轻薄",
@@ -6983,7 +7127,8 @@
       "IP68防尘抗水",
       "IP69防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -7019,7 +7164,10 @@
     "camera_desc": "5000万主摄 | 800万长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.2",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "中低端芯片",
       "潜望长焦",
@@ -7057,7 +7205,8 @@
       "NFC",
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -7095,7 +7244,9 @@
     "os": "OriginOS 5",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -7133,7 +7284,9 @@
     "features": [
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -7142,7 +7295,8 @@
       "无线充电",
       "红外",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -7170,7 +7324,9 @@
     "os": "OriginOS 5",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -7208,7 +7364,10 @@
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
     "os": "",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "潜望长焦",
       "天玑9400",
@@ -7244,7 +7403,8 @@
       "IP68防尘抗水",
       "IP69防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "无线充电",
@@ -7279,7 +7439,10 @@
     "camera_desc": "5000万主摄 | 潜望长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.2",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -7358,7 +7521,8 @@
       "NFC",
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -7394,7 +7558,9 @@
     "os": "OriginOS 5",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -7473,7 +7639,9 @@
     "features": [
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水"
+      "IP69防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "USB3.0",
@@ -7482,7 +7650,8 @@
       "无线充电",
       "红外",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -7508,7 +7677,10 @@
     "camera_desc": "5000万索尼1英寸主摄 + 2亿像素APO长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "骁龙8 Elite 1",
@@ -7792,10 +7964,15 @@
     "camera_desc": "5000万索尼IMX921主摄",
     "has_tele": false,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "天玑9400",
-      "6500mAh+"
+      "6500mAh+",
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7819,7 +7996,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 211,
@@ -7851,11 +8029,16 @@
     "camera_desc": "5000万索尼IMX921主摄 | 5000万长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "潜望长焦",
       "天玑9400",
-      "6500mAh+"
+      "6500mAh+",
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7884,7 +8067,8 @@
     "features": [
       "IP65防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
@@ -7925,9 +8109,12 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": null,
     "release_date": "2024-07"
   },
@@ -7940,7 +8127,9 @@
     "weight_g": 205,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 215,
     "tags": [
@@ -7981,8 +8170,14 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [],
-    "features": [],
+    "tags": [
+      "NFC",
+      "红外"
+    ],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": null,
     "release_date": "2024-07"
   },
@@ -8010,9 +8205,12 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "6500mAh+"
+      "6500mAh+",
+      "NFC"
     ],
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": null,
     "release_date": "2024-07"
   },
@@ -8025,7 +8223,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 218,
     "tags": [
@@ -8054,7 +8254,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 219,
     "tags": [
@@ -8082,7 +8284,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 220,
     "tags": [
@@ -8120,12 +8324,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外遥控",
       "5G"
     ],
     "tags": [
       "骁龙8 Elite 1",
-      "红外",
       "无线充电",
       "USB3.0",
       "NFC",
@@ -8160,7 +8362,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 222,
     "tags": [
@@ -8291,7 +8495,10 @@
     "camera_desc": "5000万主摄",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "USB3.0",
       "无线充电",
@@ -8429,11 +8636,15 @@
     "camera_desc": "5000万索尼IMX882主摄",
     "has_tele": false,
     "os": "realme UI 5.0",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "轻薄",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8496,9 +8707,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": null,
     "release_date": "2024-05"
   },
@@ -8521,12 +8737,14 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "5G"
+      "5G",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8552,7 +8770,10 @@
     "camera_desc": "5000万主摄",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "NFC",
       "红外"
@@ -8592,10 +8813,13 @@
     "camera_desc": "5000万索尼IMX882主摄",
     "has_tele": false,
     "os": "OriginOS 4",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
       "轻薄",
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8628,9 +8852,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC",
+      "红外"
     ],
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "screen_form": null,
     "release_date": "2024-03"
   },
@@ -8687,9 +8916,12 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g"
+      "≤200g",
+      "NFC"
     ],
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": null,
     "release_date": "2024-03"
   },
@@ -8710,7 +8942,10 @@
     "camera_desc": "5000万索尼IMX890主摄 | 5000万3X长焦",
     "has_tele": true,
     "os": "realme UI 5.0",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "中低端芯片",
       "潜望长焦",
@@ -8782,7 +9017,6 @@
     ],
     "tags": [
       "NFC",
-      "红外",
       "防尘抗水"
     ],
     "screen_form": "直屏",
@@ -8802,7 +9036,9 @@
     "camera_desc": "5000万主摄 | 5000万3.5倍长焦",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水"
+      "IP68防尘抗水",
+      "NFC",
+      "红外遥控"
     ],
     "screen_form": "直屏",
     "id": 240,
@@ -8849,7 +9085,6 @@
     ],
     "tags": [
       "NFC",
-      "红外",
       "防尘抗水"
     ],
     "screen_form": "直屏",
@@ -8872,14 +9107,15 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "os": "HarmonyOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "折叠屏",
     "id": 242,
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "红外",
       "≤200g"
     ],
     "release_date": "2024-01",
@@ -8951,12 +9187,16 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "",
-    "features": [],
+    "features": [
+      "NFC",
+      "红外遥控"
+    ],
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8984,7 +9224,9 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69"
+      "IP69",
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "中低端芯片",
@@ -8992,7 +9234,8 @@
       "防尘抗水",
       "轻薄",
       "NFC",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -9055,7 +9298,8 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "红外遥控"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9083,7 +9327,9 @@
     "weight_g": 215,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 248,
     "tags": [
@@ -9110,7 +9356,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "screen_form": "直屏",
     "id": 249,
     "tags": [
