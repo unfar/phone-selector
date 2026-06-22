@@ -7427,7 +7427,7 @@
     "battery_mah": 5410,
     "charging_w": 90,
     "weight_g": 210,
-    "camera_desc": "5000万徕卡主摄 | 5000万徕卡长焦 | 5000万徕卡超广角",
+    "camera_desc": "5000万光影猎人900主摄(1/1.3\" f/1.44) + 5000万超广角(S5KJN1) + 5000万潜望长焦(IMX858 120mm)",
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
@@ -7449,7 +7449,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 徕卡 f/1.44 5000万 | 长焦: 徕卡浮动 f/2.0 5000万",
+    "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.44 5000万 | 超广角: 三星S5KJN1 f/2.2 5000万 | 长焦: 潜望 IMX858 5000万 等效120mm | 前置: 豪威OV32B40 3200万",
     "release_date": "2024-10",
     "price": 4999
   },
@@ -7505,7 +7505,7 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 232,
-    "camera_desc": "5000万索尼LYT-900一英寸主摄 | 2亿像素APO长焦",
+    "camera_desc": "5000万索尼1英寸主摄 + 2亿像素APO长焦",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [],
@@ -7521,7 +7521,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-818 f/1.57 | 超广角: 索尼LYT-818 f/2.0 | 长焦: 三星HP9 2亿 f/2.67 3.7x光学",
+    "detailed_camera": "主摄: 索尼1英寸 f/1.57 5000万 | 超广角: 索尼LYT-818 f/2.0 | 长焦: 三星HP9 2亿 f/2.67 3.7x光学",
     "release_date": "2024-10",
     "price": 6499
   },
@@ -7539,7 +7539,7 @@
     "battery_mah": 6000,
     "charging_w": 90,
     "weight_g": 225,
-    "camera_desc": "50MP 1英寸主摄(f/1.63) + 50MP超广角(14mm) + 200MP潜望(100mm) + 50MP直立长焦(70mm)",
+    "camera_desc": "50MP 1英寸主摄(f/1.63) + 50MP超广角(14mm) + 200MP潜望(100mm 三星HP9) + 50MP直立长焦(70mm)",
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
@@ -7561,7 +7561,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 1英寸 f/1.63 5000万 | 超广角: f/2.2 5000万 | 长焦: 潜望 f/2.5 5000万 5x光学",
+    "detailed_camera": "主摄: 1英寸 f/1.63 5000万 | 超广角: f/2.2 5000万 | 长焦: 潜望 2亿 三星HP9 f/2.5 5x光学",
     "release_date": "2024-10",
     "price": 6499
   },
