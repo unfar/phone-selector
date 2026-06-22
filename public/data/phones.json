@@ -1312,15 +1312,15 @@
     "brand": "Apple",
     "model": "iPhone 17e",
     "processor": "A19",
-    "screen_size": 6.2,
+    "screen_size": 6.1,
     "battery_mah": 4000,
-    "weight_g": 162,
-    "camera_desc": "48MP主摄 + 12MP超广角",
+    "weight_g": 170,
+    "camera_desc": "48MP主摄 f/1.6 26mm",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 33,
@@ -1333,16 +1333,17 @@
       "NFC",
       "有线投屏"
     ],
-    "wireless_charging_w": 25,
+    "wireless_charging_w": 15,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄 4800万融合式 f/1.6 26mm OIS | 长焦 1200万 2x 52mm | 前置 1200万 f/1.9 自动对焦",
+    "detailed_camera": "后置: 4800万主摄 26mm f/1.6 OIS | 前置: 1200万 f/1.9",
     "charging_w": 45,
     "release_date": "2026-03-11",
     "price": 4499,
     "ram": "8GB",
     "storage": "128GB/256GB/512GB",
     "refresh_hz": 60,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "resolution": "2532×1170"
   },
   {
     "id": 34,
