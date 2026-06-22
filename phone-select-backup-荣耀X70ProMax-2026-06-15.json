@@ -2,47 +2,6 @@
   {
     "id": 1,
     "brand": "HONOR",
-    "model": "荣耀X80 Pro Max",
-    "processor": "骁龙6 Gen 5",
-    "screen_size": 6.8,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2788×1280",
-    "ram": "6GB/8GB/12GB",
-    "storage": "128GB/256GB/512GB",
-    "battery_mah": 11000,
-    "charging_w": 90,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "weight_g": 203,
-    "camera_desc": "5000万主摄 OIS | 800万前置",
-    "detailed_camera": "后置: 5000万主摄 OIS",
-    "has_tele": false,
-    "has_ultrawide": false,
-    "os": "MagicOS 10.0 (Android 16)",
-    "screen_form": "直屏",
-    "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
-      "11000mAh超大电池",
-      "3840Hz PWM调光",
-      "90W快充",
-      "27W有线反向充电",
-      "SGS金标五星抗摔",
-      "双频GPS",
-      "立体声双扬声器"
-    ],
-    "tags": [
-      "6500mAh+",
-      "防尘抗水"
-    ],
-    "release_date": "2026-06-22",
-    "price": 1799,
-    "source_url": "https://www.honor.com/cn/phones/honor-x80-pro-max/",
-    "verified_at": "2026-06-22"
-  },
-  {
-    "id": 2,
-    "brand": "HONOR",
     "model": "荣耀X70 Pro Max",
     "processor": "骁龙6 Gen4增强版",
     "screen_size": 6.79,
@@ -84,7 +43,7 @@
     "verified_at": "2026-06-15"
   },
   {
-    "id": 3,
+    "id": 2,
     "brand": "OnePlus",
     "model": "一加 Turbo 6X",
     "processor": "天玑7360 Super",
@@ -120,7 +79,7 @@
     "verified_at": "2026-06-14"
   },
   {
-    "id": 4,
+    "id": 3,
     "brand": "OnePlus",
     "model": "一加 Turbo 6X Pro",
     "processor": "天玑7400 SUPER",
@@ -159,7 +118,7 @@
     "verified_at": "2026-06-14"
   },
   {
-    "id": 5,
+    "id": 4,
     "brand": "Xiaomi",
     "model": "Xiaomi 17T",
     "processor": "天玑8500-Ultra",
@@ -201,7 +160,7 @@
     "price_subsidy": 2549
   },
   {
-    "id": 6,
+    "id": 5,
     "brand": "Xiaomi",
     "model": "Xiaomi 17T Pro",
     "processor": "天玑9500",
@@ -244,7 +203,7 @@
     "price_subsidy": 3499
   },
   {
-    "id": 7,
+    "id": 6,
     "brand": "Huawei",
     "model": "HUAWEI nova 16z",
     "processor": "麒麟8020",
@@ -283,7 +242,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 8,
+    "id": 7,
     "brand": "Huawei",
     "model": "HUAWEI nova 16",
     "processor": "麒麟9010S",
@@ -325,7 +284,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 9,
+    "id": 8,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Pro",
     "processor": "麒麟9010S",
@@ -369,7 +328,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 10,
+    "id": 9,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Ultra",
     "processor": "麒麟9010S",
@@ -416,7 +375,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 11,
+    "id": 10,
     "brand": "HONOR",
     "model": "荣耀WIN Turbo",
     "processor": "天玑8500 竞速版",
@@ -458,7 +417,7 @@
     "verified_at": "2026-06-07"
   },
   {
-    "id": 12,
+    "id": 11,
     "brand": "vivo",
     "model": "vivo S60 元气版",
     "price": 2899,
@@ -497,7 +456,7 @@
     "verified_at": "2026-05-29"
   },
   {
-    "id": 13,
+    "id": 12,
     "brand": "vivo",
     "model": "vivo S60",
     "price": 3599,
@@ -533,7 +492,7 @@
     "verified_at": "2026-05-29"
   },
   {
-    "id": 14,
+    "id": 13,
     "brand": "HONOR",
     "model": "荣耀600 元气版",
     "price": 2699,
@@ -574,7 +533,7 @@
     "verified_at": "2026-05-25"
   },
   {
-    "id": 15,
+    "id": 14,
     "brand": "HONOR",
     "model": "荣耀600 超级版",
     "price": 3299,
@@ -616,7 +575,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 16,
+    "id": 15,
     "brand": "OPPO",
     "model": "OPPO Reno16",
     "price": 3499,
@@ -658,7 +617,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 17,
+    "id": 16,
     "brand": "HONOR",
     "model": "荣耀600 Pro",
     "price": 3899,
@@ -703,7 +662,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 18,
+    "id": 17,
     "brand": "OPPO",
     "model": "OPPO Reno16 Pro",
     "price": 4499,
@@ -746,7 +705,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 19,
+    "id": 18,
     "brand": "iQOO",
     "model": "iQOO 15T",
     "price": 3299,
@@ -782,7 +741,7 @@
     "release_date": "2026-05-20"
   },
   {
-    "id": 20,
+    "id": 19,
     "brand": "Lenovo",
     "model": "拯救者 Y70",
     "processor": "骁龙8 Gen5",
@@ -821,7 +780,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 21,
+    "id": 20,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Max",
     "processor": "骁龙8 Elite 5",
@@ -865,7 +824,7 @@
     "verified_at": "2026-05-21"
   },
   {
-    "id": 22,
+    "id": 21,
     "brand": "RedMagic",
     "model": "红魔 11S Pro",
     "processor": "骁龙8 Elite 5",
@@ -901,7 +860,7 @@
     "detailed_camera": "后置 50MP双主摄(GN5)+50MP超广角+50MP长焦| 前置 16MP"
   },
   {
-    "id": 23,
+    "id": 22,
     "brand": "RedMagic",
     "model": "红魔 11S Pro+",
     "processor": "骁龙8 Elite 5",
@@ -937,7 +896,7 @@
     "verified_at": "2026-05-18"
   },
   {
-    "id": 24,
+    "id": 23,
     "brand": "Motorola",
     "model": "moto Razr 70 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -987,7 +946,7 @@
     "verified_at": "2026-05-27"
   },
   {
-    "id": 25,
+    "id": 24,
     "brand": "Motorola",
     "model": "moto Razr Fold",
     "processor": "骁龙8 Gen5",
@@ -1042,7 +1001,7 @@
     "verified_at": "2026-05-27"
   },
   {
-    "id": 26,
+    "id": 25,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90",
     "processor": "麒麟9010S",
@@ -1079,7 +1038,7 @@
     "price": 4699
   },
   {
-    "id": 27,
+    "id": 26,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro",
     "processor": "麒麟9030S",
@@ -1116,7 +1075,7 @@
     "price": 5499
   },
   {
-    "id": 28,
+    "id": 27,
     "brand": "OPPO",
     "model": "OPPO Find X9s Pro",
     "processor": "天玑9500",
@@ -1157,7 +1116,7 @@
     "price": 5999
   },
   {
-    "id": 29,
+    "id": 28,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro Max",
     "processor": "麒麟9030S",
@@ -1194,7 +1153,7 @@
     "price": 6499
   },
   {
-    "id": 30,
+    "id": 29,
     "brand": "OPPO",
     "model": "OPPO Find X9 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -1235,7 +1194,7 @@
     "price": 8499
   },
   {
-    "id": 31,
+    "id": 30,
     "brand": "vivo",
     "model": "vivo X300s",
     "processor": "天玑9500",
@@ -1274,7 +1233,7 @@
     "price": 4999
   },
   {
-    "id": 32,
+    "id": 31,
     "brand": "vivo",
     "model": "vivo X300 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -1331,7 +1290,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 33,
+    "id": 32,
     "tags": [
       "散热风扇",
       "麒麟9030",
@@ -1364,7 +1323,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 34,
+    "id": 33,
     "tags": [
       "轻薄",
       "A19",
@@ -1386,7 +1345,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 35,
+    "id": 34,
     "brand": "OPPO",
     "model": "OPPO A6 Plus",
     "price": 1999,
@@ -1420,7 +1379,7 @@
     "usb_version": "USB 2.0"
   },
   {
-    "id": 36,
+    "id": 35,
     "brand": "OPPO",
     "model": "OPPO A6k",
     "price": 2399,
@@ -1483,7 +1442,7 @@
     "detailed_camera": "",
     "release_date": "2026-03",
     "price": 3299,
-    "id": 37
+    "id": 36
   },
   {
     "model": "Galaxy S26",
@@ -1522,7 +1481,7 @@
     "detailed_camera": "",
     "release_date": "2026-02-25",
     "price": 6999,
-    "id": 38,
+    "id": 37,
     "refresh_hz": 120
   },
   {
@@ -1562,7 +1521,7 @@
     "detailed_camera": "",
     "release_date": "2026-02-25",
     "price": 9599,
-    "id": 39,
+    "id": 38,
     "refresh_hz": 120
   },
   {
@@ -1600,11 +1559,11 @@
     "detailed_camera": "后置 200MP f/1.4 广角+50MP f/1.9 超广+10MP f/2.4 3x长焦+50MP f/2.9 5x潜望| 前置 12MP f/2.2",
     "release_date": "2026-02-25",
     "price": 11599,
-    "id": 40,
+    "id": 39,
     "refresh_hz": 120
   },
   {
-    "id": 41,
+    "id": 40,
     "brand": "OPPO",
     "model": "OPPO A6 GT",
     "price": 1979,
@@ -1657,7 +1616,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "直屏",
-    "id": 42,
+    "id": 41,
     "tags": [
       "天玑9500",
       "轻薄",
@@ -1678,7 +1637,7 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 长焦 50MP f/2.4 3.5x OIS | 前置 50MP"
   },
   {
-    "id": 43,
+    "id": 42,
     "brand": "HONOR",
     "model": "Magic8 RSR 保时捷设计",
     "processor": "骁龙8 Gen4",
@@ -1709,7 +1668,7 @@
     "price": 7999
   },
   {
-    "id": 44,
+    "id": 43,
     "brand": "OPPO",
     "model": "OPPO A6c",
     "processor": "骁龙685",
@@ -1742,7 +1701,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 45,
+    "id": 44,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -1783,7 +1742,7 @@
     "price": 6999
   },
   {
-    "id": 46,
+    "id": 45,
     "brand": "OPPO",
     "model": "OPPO A3i",
     "processor": "天玑6300",
@@ -1813,7 +1772,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 47,
+    "id": 46,
     "brand": "OPPO",
     "model": "OPPO A6v",
     "processor": "天玑6300",
@@ -1843,7 +1802,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 48,
+    "id": 47,
     "brand": "OPPO",
     "model": "OPPO A6 Max",
     "processor": "天玑6360",
@@ -1874,7 +1833,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 49,
+    "id": 48,
     "brand": "OPPO",
     "model": "OPPO A6i+",
     "processor": "天玑6360 MAX",
@@ -1907,7 +1866,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 50,
+    "id": 49,
     "brand": "Huawei",
     "model": "HUAWEI nova 15",
     "processor": "麒麟8020",
@@ -1943,7 +1902,7 @@
     "thickness_mm": 7.2
   },
   {
-    "id": 51,
+    "id": 50,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Pro",
     "processor": "麒麟9010S",
@@ -1979,7 +1938,7 @@
     "thickness_mm": 6.9
   },
   {
-    "id": 52,
+    "id": 51,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Ultra",
     "processor": "麒麟9010S",
@@ -2017,7 +1976,7 @@
     "thickness_mm": 6.8
   },
   {
-    "id": 53,
+    "id": 52,
     "brand": "Huawei",
     "model": "HUAWEI Mate X7",
     "processor": "麒麟9030 Pro",
@@ -2097,7 +2056,7 @@
     ],
     "release_date": "2025-11-24",
     "price": 2999,
-    "id": 54,
+    "id": 53,
     "refresh_hz": 120,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
@@ -2135,14 +2094,14 @@
     ],
     "release_date": "2025-11-24",
     "price": 3599,
-    "id": 55,
+    "id": 54,
     "refresh_hz": 120,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264"
   },
   {
-    "id": 56,
+    "id": 55,
     "brand": "REDMI",
     "model": "Redmi K90",
     "processor": "骁龙8 Elite 1",
@@ -2178,7 +2137,7 @@
     "price": 2549
   },
   {
-    "id": 57,
+    "id": 56,
     "brand": "OPPO",
     "model": "OPPO Reno14",
     "processor": "天玑8350",
@@ -2218,7 +2177,7 @@
     "price": 2599
   },
   {
-    "id": 58,
+    "id": 57,
     "brand": "REDMI",
     "model": "Redmi K90 Max",
     "processor": "天玑9500",
@@ -2256,7 +2215,7 @@
     "price": 3199
   },
   {
-    "id": 59,
+    "id": 58,
     "brand": "OPPO",
     "model": "OPPO Reno14 Pro",
     "processor": "天玑8450",
@@ -2293,7 +2252,7 @@
     "price": 3599
   },
   {
-    "id": 60,
+    "id": 59,
     "brand": "REDMI",
     "model": "Redmi K90 Pro Max",
     "processor": "骁龙8 Elite 5",
@@ -2331,7 +2290,7 @@
     "price": 3999
   },
   {
-    "id": 61,
+    "id": 60,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80",
     "processor": "麒麟9020",
@@ -2369,7 +2328,7 @@
     "price": 4699
   },
   {
-    "id": 62,
+    "id": 61,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (16GB)",
     "processor": "麒麟9030 Pro",
@@ -2409,7 +2368,7 @@
     "thickness_mm": 7.95
   },
   {
-    "id": 63,
+    "id": 62,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (12GB)",
     "processor": "麒麟9030",
@@ -2448,7 +2407,7 @@
     "price": 5999
   },
   {
-    "id": 64,
+    "id": 63,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro Max",
     "processor": "麒麟9030 Pro",
@@ -2488,7 +2447,7 @@
     "thickness_mm": 8.25
   },
   {
-    "id": 65,
+    "id": 64,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 RS 非凡大师",
     "processor": "麒麟9030 Pro",
@@ -2528,7 +2487,7 @@
     "status": "unreleased"
   },
   {
-    "id": 66,
+    "id": 65,
     "brand": "Huawei",
     "model": "华为 Mate XTs 非凡大师",
     "processor": "麒麟9020",
@@ -2574,7 +2533,7 @@
     "has_ir": true
   },
   {
-    "id": 67,
+    "id": 66,
     "brand": "OPPO",
     "model": "OPPO Find X9",
     "processor": "天玑9500",
@@ -2615,7 +2574,7 @@
     "price": 4599
   },
   {
-    "id": 68,
+    "id": 67,
     "brand": "OPPO",
     "model": "OPPO Find X9 Pro",
     "processor": "天玑9500",
@@ -2669,7 +2628,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 69,
+    "id": 68,
     "tags": [
       "骁龙8 Elite 5",
       "6500mAh+",
@@ -2707,7 +2666,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 70,
+    "id": 69,
     "tags": [
       "骁龙8 Elite 5",
       "6500mAh+",
@@ -2732,7 +2691,7 @@
     "os": "MagicOS"
   },
   {
-    "id": 71,
+    "id": 70,
     "brand": "vivo",
     "model": "vivo X300",
     "processor": "天玑9500",
@@ -2770,7 +2729,7 @@
     "price": 3999
   },
   {
-    "id": 72,
+    "id": 71,
     "brand": "vivo",
     "model": "vivo X300 Pro",
     "processor": "天玑9500",
@@ -2809,7 +2768,7 @@
     "price": 5299
   },
   {
-    "id": 73,
+    "id": 72,
     "brand": "iQOO",
     "model": "iQOO 15",
     "processor": "骁龙8 Elite 5",
@@ -2866,7 +2825,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 74,
+    "id": 73,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -2891,7 +2850,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "id": 75,
+    "id": 74,
     "brand": "iQOO",
     "model": "iQOO 15 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -2933,7 +2892,7 @@
     "price": 6499
   },
   {
-    "id": 76,
+    "id": 75,
     "brand": "Motorola",
     "model": "moto g100 Pro",
     "processor": "天玑7300",
@@ -2966,7 +2925,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 77,
+    "id": 76,
     "brand": "Motorola",
     "model": "moto X70 Air",
     "processor": "第四代骁龙7",
@@ -3005,7 +2964,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 78,
+    "id": 77,
     "brand": "Xiaomi",
     "model": "Xiaomi 17",
     "processor": "骁龙8 Elite 5",
@@ -3049,7 +3008,7 @@
     "price": 4299
   },
   {
-    "id": 79,
+    "id": 78,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro",
     "processor": "骁龙8 Elite 5",
@@ -3092,7 +3051,7 @@
     "price": 4999
   },
   {
-    "id": 80,
+    "id": 79,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro Max",
     "processor": "骁龙8 Elite 5",
@@ -3134,7 +3093,7 @@
     "price": 5999
   },
   {
-    "id": 81,
+    "id": 80,
     "brand": "OPPO",
     "model": "OPPO A6i",
     "processor": "天玑6300",
@@ -3164,7 +3123,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 82,
+    "id": 81,
     "brand": "OPPO",
     "model": "OPPO A6",
     "processor": "天玑6360",
@@ -3197,7 +3156,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 83,
+    "id": 82,
     "brand": "OPPO",
     "model": "OPPO A6 Pro",
     "processor": "天玑7300",
@@ -3246,7 +3205,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 84,
+    "id": 83,
     "tags": [
       "轻薄",
       "A19",
@@ -3282,7 +3241,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 85,
+    "id": 84,
     "tags": [
       "轻薄",
       "A19",
@@ -3317,7 +3276,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 86,
+    "id": 85,
     "tags": [
       "USB3.0",
       "A19",
@@ -3354,7 +3313,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 87,
+    "id": 86,
     "tags": [
       "USB3.0",
       "A19",
@@ -3376,7 +3335,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 88,
+    "id": 87,
     "brand": "OPPO",
     "model": "OPPO A5 活力版",
     "processor": "天玑7020",
@@ -3409,7 +3368,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 89,
+    "id": 88,
     "brand": "REDMI",
     "model": "Redmi Note 15 Pro+",
     "processor": "骁龙7s Gen4",
@@ -3444,7 +3403,7 @@
     "price": 1999
   },
   {
-    "id": 90,
+    "id": 89,
     "brand": "HONOR",
     "model": "荣耀Play11 Plus",
     "processor": "天玑7020",
@@ -3491,7 +3450,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 91,
+    "id": 90,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -3532,7 +3491,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 92,
+    "id": 91,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -3557,7 +3516,7 @@
     "os": "realme UI 7.0"
   },
   {
-    "id": 93,
+    "id": 92,
     "brand": "Huawei",
     "model": "HUAWEI Mate 70 Air",
     "processor": "麒麟9020A/9020B",
@@ -3589,7 +3548,7 @@
     "price": 4199
   },
   {
-    "id": 94,
+    "id": 93,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra 徕卡版",
     "processor": "骁龙8 Elite 5",
@@ -3631,7 +3590,7 @@
     "price": 7999
   },
   {
-    "id": 95,
+    "id": 94,
     "brand": "HONOR",
     "model": "荣耀Magic V Flip2",
     "processor": "第三代骁龙8",
@@ -3668,7 +3627,7 @@
     "verified_at": "2026-06-07"
   },
   {
-    "id": 96,
+    "id": 95,
     "brand": "HONOR",
     "model": "X80i",
     "processor": "天玑6080",
@@ -3714,7 +3673,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 97,
+    "id": 96,
     "tags": [
       "6500mAh+",
       "天玑9400",
@@ -3744,7 +3703,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 98,
+    "id": 97,
     "tags": [
       "天玑8系",
       "6500mAh+",
@@ -3773,7 +3732,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 99,
+    "id": 98,
     "tags": [
       "NFC",
       "红外",
@@ -3810,7 +3769,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 100,
+    "id": 99,
     "tags": [
       "骁龙8 Elite 1",
       "NFC",
@@ -3833,7 +3792,7 @@
     "os": "realme UI 7.0"
   },
   {
-    "id": 101,
+    "id": 100,
     "brand": "iQOO",
     "model": "iQOO Neo11",
     "processor": "骁龙8 Elite 5",
@@ -3901,7 +3860,7 @@
     ],
     "release_date": "2025-08",
     "price": 3399,
-    "id": 102,
+    "id": 101,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264"
@@ -3921,7 +3880,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 103,
+    "id": 102,
     "tags": [
       "天玑9500",
       "NFC",
@@ -3955,7 +3914,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "直屏",
-    "id": 104,
+    "id": 103,
     "tags": [
       "无线充电",
       "6500mAh+",
@@ -3986,7 +3945,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 105,
+    "id": 104,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -4024,7 +3983,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 106,
+    "id": 105,
     "tags": [
       "NFC",
       "红外",
@@ -4046,7 +4005,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "id": 107,
+    "id": 106,
     "brand": "OPPO",
     "model": "OPPO Reno15c",
     "processor": "骁龙7 Gen4",
@@ -4085,7 +4044,7 @@
     "price": 3299
   },
   {
-    "id": 108,
+    "id": 107,
     "brand": "OPPO",
     "model": "OPPO Reno15",
     "processor": "天玑8450",
@@ -4133,7 +4092,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 109,
+    "id": 108,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -4151,7 +4110,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 110,
+    "id": 109,
     "brand": "OPPO",
     "model": "OPPO Reno15 Pro",
     "processor": "天玑8450",
@@ -4197,7 +4156,7 @@
     "has_tele": true,
     "features": [],
     "screen_form": "直屏",
-    "id": 111,
+    "id": 110,
     "tags": [
       "骁龙8 Elite 5",
       "散热风扇",
@@ -4226,7 +4185,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 112,
+    "id": 111,
     "tags": [
       "骁龙8 Elite 5",
       "散热风扇",
@@ -4276,7 +4235,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 6999,
-    "id": 113,
+    "id": 112,
     "screen_unfolded": {
       "size": 6.7,
       "resolution": "2640×1080",
@@ -4324,7 +4283,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 7999,
-    "id": 114,
+    "id": 113,
     "screen_unfolded": {
       "size": 6.7,
       "resolution": "2640×1080",
@@ -4352,7 +4311,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "折叠屏",
-    "id": 115,
+    "id": 114,
     "tags": [
       "USB3.0",
       "6500mAh+",
@@ -4416,7 +4375,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 12999,
-    "id": 116,
+    "id": 115,
     "screen_unfolded": {
       "size": 7.6,
       "resolution": "2176×1812",
@@ -4463,7 +4422,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 19999,
-    "id": 117,
+    "id": 116,
     "screen_unfolded": {
       "size": 10.0,
       "resolution": "2480×2200",
@@ -4477,7 +4436,7 @@
     "fold_type": "三折叠"
   },
   {
-    "id": 118,
+    "id": 117,
     "brand": "HONOR",
     "model": "荣耀Play10",
     "processor": "天玑6080",
@@ -4507,7 +4466,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 119,
+    "id": 118,
     "brand": "HONOR",
     "model": "荣耀Play10T",
     "processor": "天玑6080",
@@ -4551,7 +4510,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 120,
+    "id": 119,
     "tags": [
       "NFC",
       "红外",
@@ -4572,7 +4531,7 @@
     "resolution": "1272×2772"
   },
   {
-    "id": 121,
+    "id": 120,
     "brand": "OPPO",
     "model": "OPPO K13 Turbo",
     "processor": "天玑8450",
@@ -4603,7 +4562,7 @@
     "price": 2099
   },
   {
-    "id": 122,
+    "id": 121,
     "brand": "realme",
     "model": "Neo7",
     "price": 2099,
@@ -4634,7 +4593,7 @@
     "release_date": "2025-06"
   },
   {
-    "id": 123,
+    "id": 122,
     "brand": "OPPO",
     "model": "OPPO K13 Turbo Pro",
     "processor": "骁龙8s Gen4",
@@ -4665,7 +4624,7 @@
     "price": 2199
   },
   {
-    "id": 124,
+    "id": 123,
     "brand": "OPPO",
     "model": "OPPO K15 Pro",
     "processor": "天玑8500 SUPER",
@@ -4711,7 +4670,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 125,
+    "id": 124,
     "tags": [
       "中低端芯片",
       "6500mAh+",
@@ -4740,7 +4699,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 126,
+    "id": 125,
     "tags": [
       "6500mAh+",
       "天玑9400",
@@ -4767,7 +4726,7 @@
     "has_tele": true,
     "features": [],
     "screen_form": "直屏",
-    "id": 127,
+    "id": 126,
     "tags": [
       "6500mAh+",
       "潜望长焦",
@@ -4786,7 +4745,7 @@
     "os": "MagicOS"
   },
   {
-    "id": 128,
+    "id": 127,
     "brand": "OPPO",
     "model": "OPPO K15 Pro+",
     "processor": "天玑9500s",
@@ -4821,7 +4780,7 @@
     "price": 3419
   },
   {
-    "id": 129,
+    "id": 128,
     "brand": "Huawei",
     "model": "华为 Pura 80",
     "processor": "麒麟9010s",
@@ -4856,7 +4815,7 @@
     "price": 4699
   },
   {
-    "id": 130,
+    "id": 129,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro",
     "processor": "麒麟9020",
@@ -4890,7 +4849,7 @@
     "price": 6499
   },
   {
-    "id": 131,
+    "id": 130,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro+",
     "processor": "麒麟9020",
@@ -4924,7 +4883,7 @@
     "price": 7999
   },
   {
-    "id": 132,
+    "id": 131,
     "brand": "vivo",
     "model": "vivo X Fold5",
     "processor": "骁龙8 Elite 1",
@@ -4969,7 +4928,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 133,
+    "id": 132,
     "brand": "Huawei",
     "model": "华为 Pura 80 Ultra",
     "processor": "麒麟9020",
@@ -5007,7 +4966,7 @@
     "price": 9999
   },
   {
-    "id": 134,
+    "id": 133,
     "brand": "iQOO",
     "model": "iQOO Z10 Turbo+",
     "processor": "天玑9400",
@@ -5040,7 +4999,7 @@
     "price": 2299
   },
   {
-    "id": 135,
+    "id": 134,
     "brand": "OnePlus",
     "model": "一加 13T",
     "processor": "骁龙8 Elite 1",
@@ -5076,7 +5035,7 @@
     "price": 2899
   },
   {
-    "id": 136,
+    "id": 135,
     "brand": "vivo",
     "model": "S21 Pro",
     "price": 2999,
@@ -5106,7 +5065,7 @@
     "release_date": "2025-04"
   },
   {
-    "id": 137,
+    "id": 136,
     "brand": "Motorola",
     "model": "moto Razr 60",
     "processor": "天玑7400X",
@@ -5163,7 +5122,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "直屏",
-    "id": 138,
+    "id": 137,
     "tags": [
       "6500mAh+"
     ],
@@ -5188,7 +5147,7 @@
     "os": "HarmonyOS",
     "features": [],
     "screen_form": "折叠屏",
-    "id": 139,
+    "id": 138,
     "tags": [
       "无线充电",
       "潜望长焦",
@@ -5217,7 +5176,7 @@
     "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 40MP f/2.2 | 潜望长焦 50MP 3.5x OIS | 前置 8MP"
   },
   {
-    "id": 140,
+    "id": 139,
     "brand": "Motorola",
     "model": "moto Razr 60 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -5265,7 +5224,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 141,
+    "id": 140,
     "brand": "Motorola",
     "model": "moto Razr 60 Pro",
     "processor": "骁龙8sGen3",
@@ -5313,7 +5272,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 142,
+    "id": 141,
     "brand": "HONOR",
     "model": "荣耀畅玩70C",
     "processor": "天玑6100+",
@@ -5371,10 +5330,10 @@
     "detailed_camera": "",
     "release_date": "2025-03",
     "price": 2999,
-    "id": 143
+    "id": 142
   },
   {
-    "id": 144,
+    "id": 143,
     "brand": "Samsung",
     "model": "Galaxy A56",
     "price": 2999,
@@ -5418,7 +5377,7 @@
     "os": "HarmonyOS",
     "features": [],
     "screen_form": "折叠屏",
-    "id": 145,
+    "id": 144,
     "tags": [
       "无线充电",
       "潜望长焦",
@@ -5446,7 +5405,7 @@
     "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 长焦 50MP 3.5x OIS | 前置 8MP"
   },
   {
-    "id": 146,
+    "id": 145,
     "brand": "OPPO",
     "model": "OPPO Find N5",
     "processor": "骁龙8 Elite 1",
@@ -5494,7 +5453,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 147,
+    "id": 146,
     "brand": "OPPO",
     "model": "OPPO Find N6",
     "processor": "骁龙8 Elite 5",
@@ -5542,7 +5501,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 148,
+    "id": 147,
     "brand": "vivo",
     "model": "vivo Y600 Pro",
     "processor": "天玑7300e",
@@ -5580,7 +5539,7 @@
     "has_ir": true
   },
   {
-    "id": 149,
+    "id": 148,
     "brand": "vivo",
     "model": "vivo S50",
     "processor": "骁龙8s Gen3",
@@ -5630,7 +5589,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "直屏",
-    "id": 150,
+    "id": 149,
     "tags": [
       "骁龙8 Elite 1",
       "6500mAh+",
@@ -5646,7 +5605,7 @@
     "resolution": "2664×1200"
   },
   {
-    "id": 151,
+    "id": 150,
     "brand": "vivo",
     "model": "vivo S30 Pro mini",
     "processor": "骁龙7 Gen3",
@@ -5682,7 +5641,7 @@
     "price": 2999
   },
   {
-    "id": 152,
+    "id": 151,
     "brand": "vivo",
     "model": "vivo S30",
     "processor": "骁龙7 Gen3",
@@ -5713,7 +5672,7 @@
     "price": 2999
   },
   {
-    "id": 153,
+    "id": 152,
     "brand": "vivo",
     "model": "vivo Y500",
     "processor": "天玑7300",
@@ -5749,7 +5708,7 @@
     "price": 2999
   },
   {
-    "id": 154,
+    "id": 153,
     "brand": "vivo",
     "model": "vivo Y500 Pro",
     "processor": "天玑7400",
@@ -5788,7 +5747,7 @@
     "has_ir": true
   },
   {
-    "id": 155,
+    "id": 154,
     "brand": "vivo",
     "model": "vivo S50 Pro mini",
     "processor": "骁龙8s Gen3",
@@ -5838,7 +5797,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "直屏",
-    "id": 156,
+    "id": 155,
     "tags": [
       "潜望长焦",
       "6500mAh+",
@@ -5891,7 +5850,7 @@
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 5999,
-    "id": 157
+    "id": 156
   },
   {
     "model": "Galaxy S25+",
@@ -5928,7 +5887,7 @@
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 6999,
-    "id": 158
+    "id": 157
   },
   {
     "model": "Galaxy S25 Edge",
@@ -5964,10 +5923,10 @@
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 7999,
-    "id": 159
+    "id": 158
   },
   {
-    "id": 160,
+    "id": 159,
     "brand": "HONOR",
     "model": "荣耀 Magic7 RSR 保时捷设计",
     "processor": "骁龙8 Elite 1",
@@ -6044,10 +6003,10 @@
     "detailed_camera": "后置 200MP f/1.7 广角+50MP f/1.9 超广+10MP f/2.4 3x长焦+50MP f/3.4 5x潜望| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 9699,
-    "id": 161
+    "id": 160
   },
   {
-    "id": 162,
+    "id": 161,
     "brand": "Huawei",
     "model": "HUAWEI Mate X6",
     "processor": "麒麟9030 Pro/麒麟9030",
@@ -6095,7 +6054,7 @@
     "thickness_mm": 7.95
   },
   {
-    "id": 163,
+    "id": 162,
     "brand": "HONOR",
     "model": "荣耀 300",
     "processor": "骁龙7 Gen3",
@@ -6125,7 +6084,7 @@
     "price": 2299
   },
   {
-    "id": 164,
+    "id": 163,
     "brand": "vivo",
     "model": "vivo S20",
     "processor": "天玑8350",
@@ -6170,7 +6129,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 165,
+    "id": 164,
     "tags": [
       "天玑9400",
       "NFC",
@@ -6198,7 +6157,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 166,
+    "id": 165,
     "tags": [
       "6500mAh+",
       "天玑9400",
@@ -6216,7 +6175,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "id": 167,
+    "id": 166,
     "brand": "OnePlus",
     "model": "一加 Ace 5",
     "processor": "骁龙8 Gen 3",
@@ -6252,7 +6211,7 @@
     "price": 2699
   },
   {
-    "id": 168,
+    "id": 167,
     "brand": "Huawei",
     "model": "HUAWEI nova 14",
     "processor": "麒麟8000",
@@ -6287,7 +6246,7 @@
     "price": 2699
   },
   {
-    "id": 169,
+    "id": 168,
     "brand": "vivo",
     "model": "vivo S20 Pro",
     "processor": "天玑9200+",
@@ -6319,7 +6278,7 @@
     "price": 2999
   },
   {
-    "id": 170,
+    "id": 169,
     "brand": "OnePlus",
     "model": "一加 Ace 5 Pro",
     "processor": "骁龙8 Elite 1",
@@ -6355,7 +6314,7 @@
     "price": 3399
   },
   {
-    "id": 171,
+    "id": 170,
     "brand": "Huawei",
     "model": "HUAWEI nova 14 Pro",
     "processor": "麒麟9010",
@@ -6391,7 +6350,7 @@
     "price": 3499
   },
   {
-    "id": 172,
+    "id": 171,
     "brand": "HONOR",
     "model": "荣耀 300 Pro",
     "processor": "骁龙8 Gen 3",
@@ -6423,7 +6382,7 @@
     "price": 3699
   },
   {
-    "id": 173,
+    "id": 172,
     "brand": "HONOR",
     "model": "荣耀 300 Ultra",
     "processor": "骁龙8 Gen 3",
@@ -6454,7 +6413,7 @@
     "price": 4199
   },
   {
-    "id": 174,
+    "id": 173,
     "brand": "Huawei",
     "model": "HUAWEI nova 14 Ultra",
     "processor": "麒麟9010",
@@ -6507,7 +6466,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 175,
+    "id": 174,
     "tags": [
       "骁龙8 Elite 1",
       "NFC",
@@ -6538,7 +6497,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 176,
+    "id": 175,
     "tags": [
       "天玑9400",
       "NFC",
@@ -6569,7 +6528,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 177,
+    "id": 176,
     "tags": [
       "无线充电",
       "骁龙8 Elite 1",
@@ -6586,7 +6545,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 178,
+    "id": 177,
     "brand": "realme",
     "model": "GT7 Pro",
     "processor": "骁龙8 Elite 1",
@@ -6624,7 +6583,7 @@
     "price": 3599
   },
   {
-    "id": 179,
+    "id": 178,
     "brand": "Huawei",
     "model": "华为 Mate 70",
     "processor": "麒麟9020",
@@ -6682,7 +6641,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 180,
+    "id": 179,
     "tags": [
       "无线充电",
       "潜望长焦",
@@ -6699,7 +6658,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 181,
+    "id": 180,
     "brand": "Huawei",
     "model": "华为 Mate 70 Pro",
     "processor": "麒麟9020",
@@ -6740,7 +6699,7 @@
     "thickness_mm": 8.2
   },
   {
-    "id": 182,
+    "id": 181,
     "brand": "Huawei",
     "model": "Pocket 70 Pro",
     "price": 6999,
@@ -6770,7 +6729,7 @@
     "release_date": "2024-11"
   },
   {
-    "id": 183,
+    "id": 182,
     "brand": "Huawei",
     "model": "华为 Mate 70 Pro+",
     "processor": "麒麟9020",
@@ -6811,7 +6770,7 @@
     "price": 8499
   },
   {
-    "id": 184,
+    "id": 183,
     "brand": "Huawei",
     "model": "华为 Mate 70 RS 非凡大师",
     "processor": "麒麟9020",
@@ -6852,7 +6811,7 @@
     "price": 9999
   },
   {
-    "id": 185,
+    "id": 184,
     "brand": "HONOR",
     "model": "荣耀X70 焕新版",
     "processor": "骁龙695",
@@ -6885,7 +6844,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 186,
+    "id": 185,
     "brand": "Huawei",
     "model": "华为 nova 13",
     "processor": "骁龙778G",
@@ -6917,7 +6876,7 @@
     "price": 2699
   },
   {
-    "id": 187,
+    "id": 186,
     "brand": "Xiaomi",
     "model": "Xiaomi 15",
     "processor": "骁龙8 Elite 1",
@@ -6960,7 +6919,7 @@
     "price": 3599
   },
   {
-    "id": 188,
+    "id": 187,
     "brand": "HONOR",
     "model": "荣耀 Magic7 Pro",
     "processor": "骁龙8 Elite 1",
@@ -7000,7 +6959,7 @@
     "price": 3699
   },
   {
-    "id": 189,
+    "id": 188,
     "brand": "Huawei",
     "model": "华为 nova 13 Pro",
     "processor": "骁龙778G",
@@ -7034,7 +6993,7 @@
     "price": 3699
   },
   {
-    "id": 190,
+    "id": 189,
     "brand": "OPPO",
     "model": "OPPO Find X8s",
     "processor": "天玑9400",
@@ -7074,7 +7033,7 @@
     "price": 3799
   },
   {
-    "id": 191,
+    "id": 190,
     "brand": "vivo",
     "model": "vivo X200",
     "processor": "天玑9400",
@@ -7111,7 +7070,7 @@
     "price": 4099
   },
   {
-    "id": 192,
+    "id": 191,
     "brand": "OPPO",
     "model": "OPPO Find X8 Pro",
     "processor": "天玑9400",
@@ -7149,7 +7108,7 @@
     "price": 4199
   },
   {
-    "id": 193,
+    "id": 192,
     "brand": "vivo",
     "model": "vivo X200 Pro mini",
     "processor": "天玑9400",
@@ -7189,7 +7148,7 @@
     "price": 4299
   },
   {
-    "id": 194,
+    "id": 193,
     "brand": "vivo",
     "model": "vivo X200s",
     "processor": "天玑9400+",
@@ -7221,7 +7180,7 @@
     "price": 4299
   },
   {
-    "id": 195,
+    "id": 194,
     "brand": "HONOR",
     "model": "荣耀 Magic7",
     "processor": "骁龙8 Elite 1",
@@ -7260,7 +7219,7 @@
     "price": 4499
   },
   {
-    "id": 196,
+    "id": 195,
     "brand": "Huawei",
     "model": "华为 nova 13 Ultra",
     "processor": "麒麟9010",
@@ -7295,7 +7254,7 @@
     "price": 4499
   },
   {
-    "id": 197,
+    "id": 196,
     "brand": "OnePlus",
     "model": "一加 13",
     "processor": "骁龙8 Elite 1",
@@ -7335,7 +7294,7 @@
     "price": 4699
   },
   {
-    "id": 198,
+    "id": 197,
     "brand": "OPPO",
     "model": "OPPO Find X8s+",
     "processor": "天玑9400",
@@ -7373,7 +7332,7 @@
     "price": 4799
   },
   {
-    "id": 199,
+    "id": 198,
     "brand": "vivo",
     "model": "vivo X200 Pro",
     "processor": "天玑9400",
@@ -7411,7 +7370,7 @@
     "price": 4999
   },
   {
-    "id": 200,
+    "id": 199,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Pro",
     "processor": "骁龙8 Elite 1",
@@ -7451,7 +7410,7 @@
     "price": 4999
   },
   {
-    "id": 201,
+    "id": 200,
     "brand": "OPPO",
     "model": "OPPO Find X8 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -7489,7 +7448,7 @@
     "price": 6499
   },
   {
-    "id": 202,
+    "id": 201,
     "brand": "vivo",
     "model": "vivo X200 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -7523,7 +7482,7 @@
     "price": 6499
   },
   {
-    "id": 203,
+    "id": 202,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -7577,7 +7536,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 204,
+    "id": 203,
     "tags": [
       "轻薄",
       "A18",
@@ -7613,7 +7572,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 205,
+    "id": 204,
     "tags": [
       "A18",
       "无线充电",
@@ -7649,7 +7608,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 206,
+    "id": 205,
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -7688,7 +7647,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 207,
+    "id": 206,
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -7710,7 +7669,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 208,
+    "id": 207,
     "brand": "HONOR",
     "model": "荣耀畅玩70 Plus",
     "processor": "骁龙680",
@@ -7738,7 +7697,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 209,
+    "id": 208,
     "brand": "REDMI",
     "model": "Redmi Turbo 4",
     "processor": "天玑8400",
@@ -7773,7 +7732,7 @@
     "price": 1999
   },
   {
-    "id": 210,
+    "id": 209,
     "brand": "iQOO",
     "model": "iQOO Neo10",
     "processor": "天玑9400",
@@ -7819,7 +7778,7 @@
       "红外"
     ],
     "screen_form": "直屏",
-    "id": 211,
+    "id": 210,
     "tags": [
       "天玑8系",
       "6500mAh+",
@@ -7832,7 +7791,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "id": 212,
+    "id": 211,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro",
     "processor": "天玑9400",
@@ -7862,7 +7821,7 @@
     "price": 2999
   },
   {
-    "id": 213,
+    "id": 212,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro+",
     "processor": "骁龙8 Elite 1",
@@ -7899,7 +7858,7 @@
     "price": 2999
   },
   {
-    "id": 214,
+    "id": 213,
     "brand": "HONOR",
     "model": "X70 Pro",
     "price": 2599,
@@ -7939,7 +7898,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 215,
+    "id": 214,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -7956,7 +7915,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 216,
+    "id": 215,
     "brand": "realme",
     "model": "GT6",
     "price": 2799,
@@ -7984,7 +7943,7 @@
     "release_date": "2024-07"
   },
   {
-    "id": 217,
+    "id": 216,
     "brand": "RedMagic",
     "model": "红魔 10",
     "price": 2999,
@@ -8024,7 +7983,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 218,
+    "id": 217,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8053,7 +8012,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 219,
+    "id": 218,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8081,7 +8040,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 220,
+    "id": 219,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8099,7 +8058,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 221,
+    "id": 220,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip 2",
     "processor": "骁龙8 Elite 1",
@@ -8159,7 +8118,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 222,
+    "id": 221,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8177,7 +8136,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 223,
+    "id": 222,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip",
     "processor": "骁龙8 Gen 3",
@@ -8258,7 +8217,7 @@
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 7999,
-    "id": 224,
+    "id": 223,
     "screen_unfolded": {
       "size": 6.7,
       "resolution": "2640×1080",
@@ -8272,7 +8231,7 @@
     "fold_type": "纵向折叠"
   },
   {
-    "id": 225,
+    "id": 224,
     "brand": "HONOR",
     "model": "荣耀 Magic V3",
     "processor": "骁龙8 Gen 3",
@@ -8315,7 +8274,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 226,
+    "id": 225,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Fold 4",
     "processor": "骁龙8 Gen 3",
@@ -8396,7 +8355,7 @@
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 12999,
-    "id": 227,
+    "id": 226,
     "screen_unfolded": {
       "size": 7.6,
       "resolution": "2176×1812",
@@ -8410,7 +8369,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 228,
+    "id": 227,
     "brand": "realme",
     "model": "GT Neo6",
     "processor": "骁龙8s Gen3",
@@ -8467,10 +8426,10 @@
     "detailed_camera": "",
     "release_date": "2024-05",
     "price": 1999,
-    "id": 229
+    "id": 228
   },
   {
-    "id": 230,
+    "id": 229,
     "brand": "vivo",
     "model": "S21",
     "price": 2299,
@@ -8500,7 +8459,7 @@
     "release_date": "2024-05"
   },
   {
-    "id": 231,
+    "id": 230,
     "brand": "Xiaomi",
     "model": "Xiaomi Civi 4 Pro",
     "processor": "骁龙8s Gen3",
@@ -8533,7 +8492,7 @@
     "price": 2599
   },
   {
-    "id": 232,
+    "id": 231,
     "brand": "HONOR",
     "model": "荣耀 Magic Vs3",
     "processor": "骁龙8 Gen 2",
@@ -8573,7 +8532,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 233,
+    "id": 232,
     "brand": "iQOO",
     "model": "iQOO Z9 Turbo",
     "processor": "骁龙8s Gen3",
@@ -8602,7 +8561,7 @@
     "price": 1999
   },
   {
-    "id": 234,
+    "id": 233,
     "brand": "realme",
     "model": "14 Pro+",
     "price": 2399,
@@ -8658,10 +8617,10 @@
     "detailed_camera": "",
     "release_date": "2024-03",
     "price": 2499,
-    "id": 235
+    "id": 234
   },
   {
-    "id": 236,
+    "id": 235,
     "brand": "Samsung",
     "model": "Galaxy A55",
     "price": 2599,
@@ -8691,7 +8650,7 @@
     "release_date": "2024-03"
   },
   {
-    "id": 237,
+    "id": 236,
     "brand": "realme",
     "model": "13 Pro+",
     "processor": "骁龙7s Gen2",
@@ -8724,7 +8683,7 @@
     "price": 1999
   },
   {
-    "id": 238,
+    "id": 237,
     "brand": "OPPO",
     "model": "OPPO A6s Pro",
     "processor": "天玑6360 MAX",
@@ -8755,7 +8714,7 @@
     "price": 1999
   },
   {
-    "id": 239,
+    "id": 238,
     "brand": "iQOO",
     "model": "iQOO Z11",
     "processor": "天玑9400",
@@ -8802,7 +8761,7 @@
       "IP68防尘抗水"
     ],
     "screen_form": "直屏",
-    "id": 240,
+    "id": 239,
     "tags": [
       "骁龙8 Elite 5",
       "潜望长焦",
@@ -8822,7 +8781,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 241,
+    "id": 240,
     "brand": "iQOO",
     "model": "iQOO Z11 Turbo",
     "processor": "骁龙8s Gen3",
@@ -8871,7 +8830,7 @@
     "os": "HarmonyOS",
     "features": [],
     "screen_form": "折叠屏",
-    "id": 242,
+    "id": 241,
     "tags": [
       "中低端芯片",
       "轻薄",
@@ -8929,10 +8888,10 @@
     "detailed_camera": "",
     "release_date": "2024-01",
     "price": 9699,
-    "id": 243
+    "id": 242
   },
   {
-    "id": 244,
+    "id": 243,
     "brand": "vivo",
     "model": "vivo S19",
     "processor": "骁龙7 Gen3",
@@ -8963,7 +8922,7 @@
     "price": 2299
   },
   {
-    "id": 245,
+    "id": 244,
     "brand": "vivo",
     "model": "vivo S19 Pro",
     "processor": "天玑8200",
@@ -8999,7 +8958,7 @@
     "price": 2999
   },
   {
-    "id": 246,
+    "id": 245,
     "brand": "REDMI",
     "model": "Redmi K70 至尊版",
     "processor": "天玑9400",
@@ -9033,7 +8992,7 @@
     "price": 2599
   },
   {
-    "id": 247,
+    "id": 246,
     "brand": "iQOO",
     "model": "iQOO 13",
     "processor": "骁龙8 Elite 1",
@@ -9082,7 +9041,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 248,
+    "id": 247,
     "tags": [
       "散热风扇",
       "NFC",
@@ -9109,7 +9068,7 @@
     "has_tele": false,
     "features": [],
     "screen_form": "直屏",
-    "id": 249,
+    "id": 248,
     "tags": [
       "散热风扇",
       "6500mAh+",
@@ -9124,121 +9083,5 @@
     "price": 4199,
     "ram": "16GB/24GB",
     "storage": "512GB/1TB"
-  },
-  {
-    "id": 249,
-    "brand": "HONOR",
-    "model": "荣耀X80 Pro Max",
-    "processor": "骁龙8 Elite 5/1",
-    "screen_size": 6.8,
-    "refresh_hz": 120,
-    "screen_type": "AMOLED",
-    "resolution": "2800×1280",
-    "ram": "12GB",
-    "storage": "256GB / 512GB",
-    "battery_mah": 7000,
-    "charging_w": 100,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.2",
-    "weight_g": 210,
-    "camera_desc": "10800万主摄 f/1.8 | 800万超广角 | 200万微距",
-    "detailed_camera": "后置: 108MP主摄 f/1.8 + 8MP超广角 + 2MP微距",
-    "has_tele": false,
-    "has_ultrawide": true,
-    "os": "MagicOS 11 (Android 17)",
-    "screen_form": "直屏",
-    "features": [
-      "7000mAh超大电池",
-      "100W快充",
-      "NFC",
-      "红外遥控",
-      "立体声双扬声器"
-    ],
-    "tags": [
-      "6500mAh+",
-      "NFC",
-      "红外"
-    ],
-    "release_date": "2026-06",
-    "price": 1999,
-    "source_url": "https://news.mydrivers.com/1/1130/1130921.htm",
-    "verified_at": "2026-06-21"
-  },
-  {
-    "id": 250,
-    "brand": "8849",
-    "model": "8849 Tank 5",
-    "processor": "天玑9400e",
-    "screen_size": 6.8,
-    "refresh_hz": 120,
-    "screen_type": "IPS",
-    "resolution": "2460×1080",
-    "ram": "18GB",
-    "storage": "512GB",
-    "battery_mah": 17600,
-    "charging_w": 120,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.2",
-    "weight_g": 715,
-    "camera_desc": "10800万主摄 f/1.8 | 500万微距 | 红外摄像头",
-    "detailed_camera": "后置: 108MP主摄 + 5MP微距 + 红外摄像头",
-    "has_tele": false,
-    "has_ultrawide": false,
-    "os": "Android 16",
-    "screen_form": "直屏",
-    "features": [
-      "17600mAh超大电池",
-      "120W快充",
-      "IP68防护",
-      "内置1080P 220流明投影仪",
-      "18GB LPDDR5X"
-    ],
-    "tags": [
-      "10000mAh+",
-      "防尘抗水",
-      "三防手机"
-    ],
-    "release_date": "2026-06",
-    "price": 2999,
-    "source_url": "https://lapin.ithome.com/html/digi/966528.htm",
-    "verified_at": "2026-06-21"
-  },
-  {
-    "id": 251,
-    "brand": "Lenovo",
-    "model": "联想拯救者Y70 新一代",
-    "processor": "骁龙8 Elite 5/1",
-    "screen_size": 6.67,
-    "refresh_hz": 144,
-    "screen_type": "AMOLED",
-    "resolution": "2640×1200",
-    "ram": "12GB",
-    "storage": "256GB / 512GB",
-    "battery_mah": 5000,
-    "charging_w": 68,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.2",
-    "weight_g": 200,
-    "camera_desc": "5000万主摄 f/1.8 | 1300万超广角 | 200万微距",
-    "detailed_camera": "后置: 50MP主摄 + 13MP超广角 + 2MP微距",
-    "has_tele": false,
-    "has_ultrawide": true,
-    "os": "ZUI 17 (Android 17)",
-    "screen_form": "直屏",
-    "features": [
-      "144Hz高刷屏",
-      "骁龙8 Elite 5/1",
-      "68W快充",
-      "NFC",
-      "立体声双扬声器"
-    ],
-    "tags": [
-      "144Hz",
-      "NFC"
-    ],
-    "release_date": "2026-06",
-    "price": 2499,
-    "source_url": "https://www.ithome.com/0/966/351.htm",
-    "verified_at": "2026-06-21"
   }
 ]
