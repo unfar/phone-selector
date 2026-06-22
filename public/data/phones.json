@@ -2,50 +2,6 @@
   {
     "id": 1,
     "brand": "HONOR",
-    "model": "荣耀X80 Pro Max",
-    "processor": "骁龙6 Gen 5",
-    "screen_size": 6.8,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2788×1280",
-    "ram": "8GB/12GB",
-    "storage": "128GB/256GB/512GB",
-    "battery_mah": 11000,
-    "charging_w": 90,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "weight_g": 203,
-    "camera_desc": "5000万主摄 F1.88 OIS | 800万前置",
-    "detailed_camera": "后置: 5000万主摄 F1.88 OIS",
-    "has_tele": false,
-    "has_ultrawide": false,
-    "os": "MagicOS 10.0 (Android 16)",
-    "screen_form": "直屏",
-    "features": [
-      "IP68+IP69+IP69K防尘抗水",
-      "11000mAh超大电池",
-      "3840Hz PWM调光",
-      "90W快充",
-      "27W反向充电",
-      "红外遥控",
-      "NFC",
-      "SGS金标五星抗摔",
-      "立体声双扬声器"
-    ],
-    "tags": [
-      "6500mAh+",
-      "防尘抗水",
-      "NFC",
-      "红外"
-    ],
-    "release_date": "2026-06-22",
-    "price": 1999,
-    "source_url": "https://www.honor.com/cn/phones/honor-x80-pro-max/",
-    "verified_at": "2026-06-22"
-  },
-  {
-    "id": 2,
-    "brand": "HONOR",
     "model": "荣耀X70 Pro Max",
     "processor": "骁龙6 Gen4增强版",
     "screen_size": 6.79,
@@ -69,6 +25,7 @@
       "IP66/IP68/IP69/IP69K防尘抗水",
       "8560mAh超大电池",
       "3840Hz PWM调光",
+      "红外遥控",
       "NFC",
       "立体声双扬声器",
       "卫星通信"
@@ -77,7 +34,8 @@
       "6500mAh+",
       "防尘抗水",
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "release_date": "2026-06-15",
     "price": 1999,
@@ -85,7 +43,7 @@
     "verified_at": "2026-06-15"
   },
   {
-    "id": 3,
+    "id": 2,
     "brand": "OnePlus",
     "model": "一加 Turbo 6X",
     "processor": "天玑7360 Super",
@@ -107,11 +65,13 @@
     "screen_form": "直屏",
     "features": [
       "NFC",
+      "红外遥控",
       "144Hz LCD护眼屏",
       "7000mAh大电池"
     ],
     "tags": [
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "release_date": "2026-06-10",
     "price": 1499,
@@ -119,7 +79,7 @@
     "verified_at": "2026-06-14"
   },
   {
-    "id": 4,
+    "id": 3,
     "brand": "OnePlus",
     "model": "一加 Turbo 6X Pro",
     "processor": "天玑7400 SUPER",
@@ -158,7 +118,7 @@
     "verified_at": "2026-06-14"
   },
   {
-    "id": 5,
+    "id": 4,
     "brand": "Xiaomi",
     "model": "Xiaomi 17T",
     "processor": "天玑8500-Ultra",
@@ -192,7 +152,7 @@
       "潜望长焦",
       "6500mAh+"
     ],
-    "detailed_camera": "主摄: 5000万光影猎人800 f/1.7 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 1200万徕卡 f/2.2 120° | 前置: 3200万",
+    "detailed_camera": "主摄: 光影猎人800 1/1.55\" f/1.7 5000万 OIS | 超广角: 1200万徕卡 f/2.2 120° | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 前置: 3200万",
     "release_date": "2026-06-08",
     "price": 2999,
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24814",
@@ -200,7 +160,7 @@
     "price_subsidy": 2549
   },
   {
-    "id": 6,
+    "id": 5,
     "brand": "Xiaomi",
     "model": "Xiaomi 17T Pro",
     "processor": "天玑9500",
@@ -235,7 +195,7 @@
       "潜望长焦",
       "6500mAh+"
     ],
-    "detailed_camera": "主摄: 5000万光影猎人950 f/1.6 OIS | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 超广角: 5000万 f/2.2 120° | 前置: 3200万",
+    "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.6 5000万 OIS | 超广角: 5000万 f/2.2 120° | 潜望长焦: 5000万徕卡5X f/3.0 115mm OIS | 前置: 3200万",
     "release_date": "2026-06-08",
     "price": 3999,
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24809",
@@ -243,7 +203,7 @@
     "price_subsidy": 3499
   },
   {
-    "id": 7,
+    "id": 6,
     "brand": "Huawei",
     "model": "HUAWEI nova 16z",
     "processor": "麒麟8020",
@@ -265,13 +225,16 @@
     "os": "HarmonyOS 6.1",
     "screen_form": "直屏",
     "features": [
+      "NFC",
       "侧边指纹",
       "立体声双扬声器",
       "红外"
     ],
     "tags": [
       "麒麟8020",
-      "≤200g"
+      "NFC",
+      "≤200g",
+      "红外"
     ],
     "release_date": "2026-06-01",
     "price": 2699,
@@ -279,7 +242,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 8,
+    "id": 7,
     "brand": "Huawei",
     "model": "HUAWEI nova 16",
     "processor": "麒麟9010S",
@@ -305,8 +268,7 @@
       "红外",
       "侧边指纹",
       "星闪E2.0",
-      "立体声双扬声器",
-      "红外遥控"
+      "立体声双扬声器"
     ],
     "tags": [
       "麒麟9010S",
@@ -322,7 +284,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 9,
+    "id": 8,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Pro",
     "processor": "麒麟9010S",
@@ -350,8 +312,7 @@
       "昆仑玻璃",
       "IP65",
       "星闪E2.0",
-      "立体声双扬声器",
-      "红外遥控"
+      "立体声双扬声器"
     ],
     "tags": [
       "麒麟9010S",
@@ -367,7 +328,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 10,
+    "id": 9,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Ultra",
     "processor": "麒麟9010S",
@@ -396,8 +357,7 @@
       "IP68",
       "IP69",
       "星闪E2.0",
-      "立体声双扬声器",
-      "红外遥控"
+      "立体声双扬声器"
     ],
     "tags": [
       "麒麟9010S",
@@ -415,7 +375,7 @@
     "verified_at": "2026-06-01"
   },
   {
-    "id": 11,
+    "id": 10,
     "brand": "HONOR",
     "model": "荣耀WIN Turbo",
     "processor": "天玑8500 竞速版",
@@ -457,7 +417,7 @@
     "verified_at": "2026-06-07"
   },
   {
-    "id": 12,
+    "id": 11,
     "brand": "vivo",
     "model": "vivo S60 元气版",
     "price": 2899,
@@ -482,9 +442,7 @@
       "IP68",
       "IP69",
       "立体声双扬声器",
-      "超声波指纹2.0",
-      "NFC",
-      "红外遥控"
+      "超声波指纹2.0"
     ],
     "tags": [
       "6500mAh+",
@@ -498,7 +456,7 @@
     "verified_at": "2026-05-29"
   },
   {
-    "id": 13,
+    "id": 12,
     "brand": "vivo",
     "model": "vivo S60",
     "price": 3599,
@@ -521,9 +479,7 @@
     "screen_form": "直屏",
     "features": [
       "4K原生感Live",
-      "索尼云台防抖",
-      "NFC",
-      "红外遥控"
+      "索尼云台防抖"
     ],
     "tags": [
       "潜望长焦",
@@ -536,7 +492,7 @@
     "verified_at": "2026-05-29"
   },
   {
-    "id": 14,
+    "id": 13,
     "brand": "HONOR",
     "model": "荣耀600 元气版",
     "price": 2699,
@@ -577,7 +533,7 @@
     "verified_at": "2026-05-25"
   },
   {
-    "id": 15,
+    "id": 14,
     "brand": "HONOR",
     "model": "荣耀600 超级版",
     "price": 3299,
@@ -619,7 +575,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 16,
+    "id": 15,
     "brand": "OPPO",
     "model": "OPPO Reno16",
     "price": 3499,
@@ -661,7 +617,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 17,
+    "id": 16,
     "brand": "HONOR",
     "model": "荣耀600 Pro",
     "price": 3899,
@@ -706,7 +662,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 18,
+    "id": 17,
     "brand": "OPPO",
     "model": "OPPO Reno16 Pro",
     "price": 4499,
@@ -749,7 +705,7 @@
     "release_date": "2026-05-25"
   },
   {
-    "id": 19,
+    "id": 18,
     "brand": "iQOO",
     "model": "iQOO 15T",
     "price": 3299,
@@ -767,7 +723,7 @@
     "weight_g": 216,
     "os": "OriginOS 6",
     "camera_desc": "2亿像素大底主摄（CIPA 4.5防抖）+ 5000万超广角",
-    "detailed_camera": "主摄: 2亿像素 大底传感器 CIPA 4.5专业级防抖 4倍无损变焦 | 超广角: 5000万像素 支持微距 | 前置: 1600万像素",
+    "detailed_camera": "主摄: 2亿像素 大底传感器 CIPA 4.5专业级防抖 4倍无损变焦 | 超广角: 800万 | 前置: 1600万",
     "has_tele": false,
     "tags": [
       "天玑9500",
@@ -785,7 +741,7 @@
     "release_date": "2026-05-20"
   },
   {
-    "id": 20,
+    "id": 19,
     "brand": "Lenovo",
     "model": "拯救者 Y70",
     "processor": "骁龙8 Gen5",
@@ -803,10 +759,12 @@
     "os": "天禧AI 4.0 / Legion Zone",
     "features": [
       "IP66/IP68/IP69防尘抗水",
+      "NFC",
       "双实体卡+双eSIM",
       "凝胶+液金+VC散热"
     ],
     "tags": [
+      "NFC",
       "防尘抗水",
       "6500mAh+",
       "USB3.0",
@@ -822,7 +780,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 21,
+    "id": 20,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Max",
     "processor": "骁龙8 Elite 5",
@@ -866,7 +824,7 @@
     "verified_at": "2026-05-21"
   },
   {
-    "id": 22,
+    "id": 21,
     "brand": "RedMagic",
     "model": "红魔 11S Pro",
     "processor": "骁龙8 Elite 5",
@@ -877,6 +835,7 @@
     "has_tele": true,
     "features": [
       "NFC",
+      "红外遥控",
       "散热风扇"
     ],
     "screen_form": "直屏",
@@ -886,6 +845,7 @@
       "6500mAh+",
       "NFC",
       "USB3.0",
+      "红外",
       "有线投屏"
     ],
     "usb_version": "USB 3.0",
@@ -900,7 +860,7 @@
     "detailed_camera": "后置 50MP双主摄(GN5)+50MP超广角+50MP长焦| 前置 16MP"
   },
   {
-    "id": 23,
+    "id": 22,
     "brand": "RedMagic",
     "model": "红魔 11S Pro+",
     "processor": "骁龙8 Elite 5",
@@ -911,6 +871,7 @@
     "has_tele": false,
     "features": [
       "NFC",
+      "红外遥控",
       "散热风扇"
     ],
     "screen_form": "直屏",
@@ -921,6 +882,7 @@
       "NFC",
       "USB3.0",
       "无线充电",
+      "红外",
       "有线投屏"
     ],
     "usb_version": "USB 3.0",
@@ -934,7 +896,7 @@
     "verified_at": "2026-05-18"
   },
   {
-    "id": 24,
+    "id": 23,
     "brand": "Motorola",
     "model": "moto Razr 70 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -984,7 +946,7 @@
     "verified_at": "2026-05-27"
   },
   {
-    "id": 25,
+    "id": 24,
     "brand": "Motorola",
     "model": "moto Razr Fold",
     "processor": "骁龙8 Gen5",
@@ -1039,7 +1001,7 @@
     "verified_at": "2026-05-27"
   },
   {
-    "id": 26,
+    "id": 25,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90",
     "processor": "麒麟9010S",
@@ -1058,8 +1020,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -1077,7 +1038,7 @@
     "price": 4699
   },
   {
-    "id": 27,
+    "id": 26,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro",
     "processor": "麒麟9030S",
@@ -1096,8 +1057,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -1115,7 +1075,7 @@
     "price": 5499
   },
   {
-    "id": 28,
+    "id": 27,
     "brand": "OPPO",
     "model": "OPPO Find X9s Pro",
     "processor": "天玑9500",
@@ -1135,8 +1095,7 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "防尘抗水",
@@ -1157,7 +1116,7 @@
     "price": 5999
   },
   {
-    "id": 29,
+    "id": 28,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro Max",
     "processor": "麒麟9030S",
@@ -1170,14 +1129,13 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 230.5,
-    "camera_desc": "50MP可变光圈主摄 + 50MP超广角 + 2亿潜望长焦(1/1.28\" f/2.1)",
+    "camera_desc": "50MP可变光圈主摄 + 50MP超广角",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -1190,12 +1148,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望 2亿 4x光学 1/1.28\" f/2.1 聚光微距",
+    "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望 2亿 4x光学",
     "release_date": "2026-04-20",
     "price": 6499
   },
   {
-    "id": 30,
+    "id": 29,
     "brand": "OPPO",
     "model": "OPPO Find X9 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -1208,15 +1166,14 @@
     "battery_mah": 7050,
     "charging_w": 100,
     "weight_g": 235,
-    "camera_desc": "200MP主摄(1/1.12英寸 f/1.5可变) + 50MP超广角 + 200MP中焦 豪威OV52A + 50MP潜望10x",
+    "camera_desc": "200MP主摄(1/1.12英寸 f/1.5可变) + 50MP超广角 + 200MP中焦 + 50MP潜望 10x光变",
     "has_tele": true,
     "os": "",
     "features": [
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "防尘抗水",
@@ -1232,12 +1189,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 哈苏2亿 f/1.5 索尼LYTIA901 | 超广角: 5000万 f/2.0 123° | 长焦: 2亿 f/2.2 3x光学 豪威OV52A 1/1.28\" | 超长焦: 5000万 f/3.5 10x光学 三星JNL 1/2.76\"",
+    "detailed_camera": "主摄: 索尼LYT-901 1/1.12\" 哈苏2亿 f/1.5 OIS | 超广角: 5000万 f/2.0 123° | 长焦: 豪威OV52A 1/1.28\" 2亿 f/2.2 3x光学 | 超长焦: 三星JNL 1/2.76\" 5000万 f/3.5 10x光学",
     "release_date": "2026-04-20",
     "price": 8499
   },
   {
-    "id": 31,
+    "id": 30,
     "brand": "vivo",
     "model": "vivo X300s",
     "processor": "天玑9500",
@@ -1255,9 +1212,7 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "潜望长焦",
@@ -1278,7 +1233,7 @@
     "price": 4999
   },
   {
-    "id": 32,
+    "id": 31,
     "brand": "vivo",
     "model": "vivo X300 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -1296,9 +1251,7 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "USB3.0",
@@ -1314,7 +1267,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄 200MP Sony LYTIA901 1/1.12\" f/1.6 蔡司 | 超广 50MP Sony LYTIA818 1/1.28\" f/2.0 蔡司 | 长焦 200MP 1/1.4\" 85mm 3.7x OIS 蔡司 | 前置 50MP",
+    "detailed_camera": "主摄 200MP Sony LYTIA901 1/1.12\" f/1.6 蔡司| 超广 50MP Sony LYTIA818 1/1.28\" f/2.0 蔡司| 长焦 200MP 85mm 3.7x OIS 蔡司| 前置 50MP",
     "release_date": "2026-03-30",
     "price": 6999
   },
@@ -1334,11 +1287,10 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 33,
+    "id": 32,
     "tags": [
       "散热风扇",
       "麒麟9030",
@@ -1371,7 +1323,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 34,
+    "id": 33,
     "tags": [
       "轻薄",
       "A19",
@@ -1393,7 +1345,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 35,
+    "id": 34,
     "brand": "OPPO",
     "model": "OPPO A6 Plus",
     "price": 1999,
@@ -1414,8 +1366,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "6500mAh+",
       "≤200g"
     ],
@@ -1424,7 +1379,7 @@
     "usb_version": "USB 2.0"
   },
   {
-    "id": 36,
+    "id": 35,
     "brand": "OPPO",
     "model": "OPPO A6k",
     "price": 2399,
@@ -1445,8 +1400,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "6500mAh+",
       "≤200g"
     ],
@@ -1484,7 +1442,7 @@
     "detailed_camera": "",
     "release_date": "2026-03",
     "price": 3299,
-    "id": 37
+    "id": 36
   },
   {
     "model": "Galaxy S26",
@@ -1510,6 +1468,7 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
+      "红外",
       "USB3.0",
       "无线充电",
       "轻薄",
@@ -1522,7 +1481,7 @@
     "detailed_camera": "",
     "release_date": "2026-02-25",
     "price": 6999,
-    "id": 38,
+    "id": 37,
     "refresh_hz": 120
   },
   {
@@ -1549,6 +1508,7 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
+      "红外",
       "USB3.0",
       "无线充电",
       "轻薄",
@@ -1561,7 +1521,7 @@
     "detailed_camera": "",
     "release_date": "2026-02-25",
     "price": 9599,
-    "id": 39,
+    "id": 38,
     "refresh_hz": 120
   },
   {
@@ -1570,7 +1530,7 @@
     "screen_size": 6.8,
     "screen_type": "OLED",
     "screen_form": "直屏",
-    "battery_mah": 5000,
+    "battery_mah": 5500,
     "charging_w": 45,
     "wireless_charging_w": 15,
     "weight_g": 214,
@@ -1588,6 +1548,7 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
+      "红外",
       "USB3.0",
       "无线充电",
       "有线投屏"
@@ -1595,14 +1556,14 @@
     "brand": "Samsung",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "后置 200MP f/1.4 广角+50MP f/1.9 超广+10MP f/2.4 3x长焦+50MP f/2.9 5x潜望| 前置 12MP f/2.2",
+    "detailed_camera": "后置 200MP 三星HP2 1/1.3\" f/1.4 广角+50MP f/1.9 超广+10MP f/2.4 3x长焦+50MP f/2.9 5x潜望| 前置 12MP f/2.2",
     "release_date": "2026-02-25",
     "price": 11599,
-    "id": 40,
+    "id": 39,
     "refresh_hz": 120
   },
   {
-    "id": 41,
+    "id": 40,
     "brand": "OPPO",
     "model": "OPPO A6 GT",
     "price": 1979,
@@ -1625,11 +1586,14 @@
     "os": "ColorOS 15",
     "features": [
       "IP69防尘抗水",
+      "NFC",
       "80W闪充",
       "7000mAh"
     ],
     "tags": [
+      "NFC",
       "防尘抗水",
+      "红外",
       "6500mAh+",
       "≤200g"
     ],
@@ -1650,12 +1614,9 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 42,
+    "id": 41,
     "tags": [
       "天玑9500",
       "轻薄",
@@ -1676,7 +1637,7 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 长焦 50MP f/2.4 3.5x OIS | 前置 50MP"
   },
   {
-    "id": 43,
+    "id": 42,
     "brand": "HONOR",
     "model": "Magic8 RSR 保时捷设计",
     "processor": "骁龙8 Gen4",
@@ -1692,17 +1653,12 @@
     "camera_desc": "50MP主摄",
     "has_tele": true,
     "os": "Android",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "6500mAh+",
       "≤200g",
       "USB3.0",
-      "无线充电",
-      "NFC",
-      "红外"
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -1712,7 +1668,7 @@
     "price": 7999
   },
   {
-    "id": 44,
+    "id": 43,
     "brand": "OPPO",
     "model": "OPPO A6c",
     "processor": "骁龙685",
@@ -1745,7 +1701,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 45,
+    "id": 44,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -1781,12 +1737,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 2",
-    "detailed_camera": "主摄: 徕卡1英寸光影猎人1050L OV50X f/1.67 5000万 | 超广角: f/2.2 5000万 | 长焦: 潜望 f/2.39 2亿 1/1.56\" 3.2-4.3x连续光变",
+    "detailed_camera": "主摄: 徕卡1英寸光影猎人1050L f/1.67 5000万 | 超广角: f/2.2 5000万 | 长焦: 潜望 f/2.39 2亿 3.2-4.3x连续光变",
     "release_date": "2025-12-25",
     "price": 6999
   },
   {
-    "id": 46,
+    "id": 45,
     "brand": "OPPO",
     "model": "OPPO A3i",
     "processor": "天玑6300",
@@ -1816,7 +1772,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 47,
+    "id": 46,
     "brand": "OPPO",
     "model": "OPPO A6v",
     "processor": "天玑6300",
@@ -1846,7 +1802,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 48,
+    "id": 47,
     "brand": "OPPO",
     "model": "OPPO A6 Max",
     "processor": "天玑6360",
@@ -1877,7 +1833,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 49,
+    "id": 48,
     "brand": "OPPO",
     "model": "OPPO A6i+",
     "processor": "天玑6360 MAX",
@@ -1894,8 +1850,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -1907,7 +1866,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 50,
+    "id": 49,
     "brand": "Huawei",
     "model": "HUAWEI nova 15",
     "processor": "麒麟8020",
@@ -1925,8 +1884,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -1944,7 +1902,7 @@
     "thickness_mm": 7.2
   },
   {
-    "id": 51,
+    "id": 50,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Pro",
     "processor": "麒麟9010S",
@@ -1962,8 +1920,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "红外",
@@ -1981,7 +1938,7 @@
     "thickness_mm": 6.9
   },
   {
-    "id": 52,
+    "id": 51,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Ultra",
     "processor": "麒麟9010S",
@@ -1999,8 +1956,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "红外",
@@ -2020,7 +1976,7 @@
     "thickness_mm": 6.8
   },
   {
-    "id": 53,
+    "id": 52,
     "brand": "Huawei",
     "model": "HUAWEI Mate X7",
     "processor": "麒麟9030 Pro",
@@ -2038,8 +1994,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "IP68防尘抗水",
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "防尘抗水",
@@ -2090,8 +2045,7 @@
       "IP68",
       "IP69",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2102,7 +2056,7 @@
     ],
     "release_date": "2025-11-24",
     "price": 2999,
-    "id": 54,
+    "id": 53,
     "refresh_hz": 120,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
@@ -2127,8 +2081,7 @@
       "IP68",
       "IP69",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -2141,14 +2094,14 @@
     ],
     "release_date": "2025-11-24",
     "price": 3599,
-    "id": 55,
+    "id": 54,
     "refresh_hz": 120,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264"
   },
   {
-    "id": 56,
+    "id": 55,
     "brand": "REDMI",
     "model": "Redmi K90",
     "processor": "骁龙8 Elite 1",
@@ -2184,7 +2137,7 @@
     "price": 2549
   },
   {
-    "id": 57,
+    "id": 56,
     "brand": "OPPO",
     "model": "OPPO Reno14",
     "processor": "天玑8350",
@@ -2205,8 +2158,7 @@
       "IP66防尘抗水",
       "IP68防尘抗水",
       "IP69防尘抗水",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -2225,7 +2177,7 @@
     "price": 2599
   },
   {
-    "id": 58,
+    "id": 57,
     "brand": "REDMI",
     "model": "Redmi K90 Max",
     "processor": "天玑9500",
@@ -2263,7 +2215,7 @@
     "price": 3199
   },
   {
-    "id": 59,
+    "id": 58,
     "brand": "OPPO",
     "model": "OPPO Reno14 Pro",
     "processor": "天玑8450",
@@ -2283,8 +2235,7 @@
       "NFC",
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "NFC",
@@ -2301,7 +2252,7 @@
     "price": 3599
   },
   {
-    "id": 60,
+    "id": 59,
     "brand": "REDMI",
     "model": "Redmi K90 Pro Max",
     "processor": "骁龙8 Elite 5",
@@ -2339,7 +2290,7 @@
     "price": 3999
   },
   {
-    "id": 61,
+    "id": 60,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80",
     "processor": "麒麟9020",
@@ -2358,8 +2309,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2378,7 +2328,7 @@
     "price": 4699
   },
   {
-    "id": 62,
+    "id": 61,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (16GB)",
     "processor": "麒麟9030 Pro",
@@ -2397,8 +2347,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2419,7 +2368,7 @@
     "thickness_mm": 7.95
   },
   {
-    "id": 63,
+    "id": 62,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (12GB)",
     "processor": "麒麟9030",
@@ -2438,8 +2387,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2459,7 +2407,7 @@
     "price": 5999
   },
   {
-    "id": 64,
+    "id": 63,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro Max",
     "processor": "麒麟9030 Pro",
@@ -2478,8 +2426,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2500,7 +2447,7 @@
     "thickness_mm": 8.25
   },
   {
-    "id": 65,
+    "id": 64,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 RS 非凡大师",
     "processor": "麒麟9030 Pro",
@@ -2519,8 +2466,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2541,7 +2487,7 @@
     "status": "unreleased"
   },
   {
-    "id": 66,
+    "id": 65,
     "brand": "Huawei",
     "model": "华为 Mate XTs 非凡大师",
     "processor": "麒麟9020",
@@ -2557,10 +2503,7 @@
     "camera_desc": "50MP主摄 + 13MP超广角 + 12MP长焦(5.5x)",
     "has_tele": true,
     "os": "HarmonyOS 5.1",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "NFC",
       "红外",
@@ -2590,7 +2533,7 @@
     "has_ir": true
   },
   {
-    "id": 67,
+    "id": 66,
     "brand": "OPPO",
     "model": "OPPO Find X9",
     "processor": "天玑9500",
@@ -2610,8 +2553,7 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "防尘抗水",
@@ -2632,7 +2574,7 @@
     "price": 4599
   },
   {
-    "id": 68,
+    "id": 67,
     "brand": "OPPO",
     "model": "OPPO Find X9 Pro",
     "processor": "天玑9500",
@@ -2652,8 +2594,7 @@
       "IP68防尘抗水",
       "NFC",
       "IP66防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "防尘抗水",
@@ -2668,8 +2609,8 @@
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.1 Gen 1",
-    "detailed_camera": "主摄: 5000万 f/1.5 1/1.28英寸 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.1 3x光学 | 丹霞色彩还原",
+    "usb_version": "USB 3.0",
+    "detailed_camera": "主摄: 索尼LYT-808 1/1.28\" f/1.5 5000万 OIS | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.1 3x光学 | 丹霞色彩还原",
     "release_date": "2025-10-16",
     "price": 5299
   },
@@ -2684,11 +2625,10 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 69,
+    "id": 68,
     "tags": [
       "骁龙8 Elite 5",
       "6500mAh+",
@@ -2723,11 +2663,10 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 70,
+    "id": 69,
     "tags": [
       "骁龙8 Elite 5",
       "6500mAh+",
@@ -2752,7 +2691,7 @@
     "os": "MagicOS"
   },
   {
-    "id": 71,
+    "id": 70,
     "brand": "vivo",
     "model": "vivo X300",
     "processor": "天玑9500",
@@ -2770,9 +2709,7 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "USB3.0",
@@ -2792,7 +2729,7 @@
     "price": 3999
   },
   {
-    "id": 72,
+    "id": 71,
     "brand": "vivo",
     "model": "vivo X300 Pro",
     "processor": "天玑9500",
@@ -2805,14 +2742,12 @@
     "battery_mah": 6500,
     "charging_w": 100,
     "weight_g": 221,
-    "camera_desc": "5000万索尼LYT-828主摄(1/1.28\" 云台防抖) + 2亿蔡司APO长焦(三星HPB 85mm) + 5000万超广角",
+    "camera_desc": "5000万主摄 | 5000万超广角 | 2亿长焦",
     "has_tele": true,
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "潜望长焦",
@@ -2828,12 +2763,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-828 1/1.28\" 5000万 CIPA5.5云台防抖 | 超广: 5000万 | 长焦: 三星HPB 2亿 1/1.4\" 85mm CIPA5.5防抖 20倍微距 | 前置: 5000万蔡司 4K60fps",
+    "detailed_camera": "主摄 200MP f/1.6 OIS 蔡司| 超广 50MP 蔡司| 长焦 200MP 3.7x OIS 蔡司| 前置 50MP",
     "release_date": "2025-10-13",
     "price": 5299
   },
   {
-    "id": 73,
+    "id": 72,
     "brand": "iQOO",
     "model": "iQOO 15",
     "processor": "骁龙8 Elite 5",
@@ -2852,8 +2787,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "防尘抗水",
@@ -2870,7 +2804,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 5000万 索尼IMX921 f/1.88 1/1.56英寸 | 超广角: 5000万 f/2.05 | 潜望长焦: 5000万 索尼LYT-882 f/2.65 1/1.95英寸",
+    "detailed_camera": "主摄: 索尼IMX921 1/1.56\" f/1.57 5000万 OIS | 超广角: 5000万 f/2.05 | 长焦: 5000万 3x光学 OIS | 前置: 1600万",
     "release_date": "2025-10",
     "price": 4299
   },
@@ -2891,7 +2825,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 74,
+    "id": 73,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -2916,7 +2850,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "id": 75,
+    "id": 74,
     "brand": "iQOO",
     "model": "iQOO 15 Ultra",
     "processor": "骁龙8 Elite 5",
@@ -2936,8 +2870,7 @@
       "IP68防尘抗水",
       "NFC",
       "红外",
-      "自研电竞芯片 Q3",
-      "红外遥控"
+      "自研电竞芯片 Q3"
     ],
     "tags": [
       "散热风扇",
@@ -2959,7 +2892,7 @@
     "price": 6499
   },
   {
-    "id": 76,
+    "id": 75,
     "brand": "Motorola",
     "model": "moto g100 Pro",
     "processor": "天玑7300",
@@ -2992,7 +2925,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 77,
+    "id": 76,
     "brand": "Motorola",
     "model": "moto X70 Air",
     "processor": "第四代骁龙7",
@@ -3031,7 +2964,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 78,
+    "id": 77,
     "brand": "Xiaomi",
     "model": "Xiaomi 17",
     "processor": "骁龙8 Elite 5",
@@ -3075,7 +3008,7 @@
     "price": 4299
   },
   {
-    "id": 79,
+    "id": 78,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro",
     "processor": "骁龙8 Elite 5",
@@ -3118,7 +3051,7 @@
     "price": 4999
   },
   {
-    "id": 80,
+    "id": 79,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro Max",
     "processor": "骁龙8 Elite 5",
@@ -3160,7 +3093,7 @@
     "price": 5999
   },
   {
-    "id": 81,
+    "id": 80,
     "brand": "OPPO",
     "model": "OPPO A6i",
     "processor": "天玑6300",
@@ -3190,7 +3123,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 82,
+    "id": 81,
     "brand": "OPPO",
     "model": "OPPO A6",
     "processor": "天玑6360",
@@ -3223,7 +3156,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 83,
+    "id": 82,
     "brand": "OPPO",
     "model": "OPPO A6 Pro",
     "processor": "天玑7300",
@@ -3240,8 +3173,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "6500mAh+",
       "≤200g"
     ],
@@ -3269,7 +3205,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 84,
+    "id": 83,
     "tags": [
       "轻薄",
       "A19",
@@ -3305,7 +3241,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 85,
+    "id": 84,
     "tags": [
       "轻薄",
       "A19",
@@ -3340,7 +3276,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 86,
+    "id": 85,
     "tags": [
       "USB3.0",
       "A19",
@@ -3377,7 +3313,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 87,
+    "id": 86,
     "tags": [
       "USB3.0",
       "A19",
@@ -3399,7 +3335,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 88,
+    "id": 87,
     "brand": "OPPO",
     "model": "OPPO A5 活力版",
     "processor": "天玑7020",
@@ -3416,8 +3352,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -3429,7 +3368,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 89,
+    "id": 88,
     "brand": "REDMI",
     "model": "Redmi Note 15 Pro+",
     "processor": "骁龙7s Gen4",
@@ -3464,7 +3403,7 @@
     "price": 1999
   },
   {
-    "id": 90,
+    "id": 89,
     "brand": "HONOR",
     "model": "荣耀Play11 Plus",
     "processor": "天玑7020",
@@ -3481,8 +3420,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -3508,7 +3450,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 91,
+    "id": 90,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -3522,7 +3464,7 @@
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-808 f/1.6 1/1.4英寸 | 超广角: 索尼IMX355 f/2.2 | 长焦: 索尼LYT-600 f/2.6 3x光学",
+    "detailed_camera": "主摄: 索尼LYT-808 1/1.4\" f/1.6 5000万 OIS | 超广角: 5000万 | 长焦: 5000万 3x光学 OIS | 前置: 3200万",
     "charging_w": 120,
     "release_date": "2025-09",
     "price": 3999,
@@ -3549,7 +3491,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 92,
+    "id": 91,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -3574,7 +3516,7 @@
     "os": "realme UI 7.0"
   },
   {
-    "id": 93,
+    "id": 92,
     "brand": "Huawei",
     "model": "HUAWEI Mate 70 Air",
     "processor": "麒麟9020A/9020B",
@@ -3590,17 +3532,13 @@
     "camera_desc": "5000万主摄 | 1200万长焦 | 800万超广角微距",
     "has_tele": true,
     "os": "HarmonyOS 5.1",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "NFC",
       "潜望长焦",
       "防尘抗水",
       "麒麟9020",
-      "6500mAh+",
-      "红外"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3610,7 +3548,7 @@
     "price": 4199
   },
   {
-    "id": 94,
+    "id": 93,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra 徕卡版",
     "processor": "骁龙8 Elite 5",
@@ -3647,12 +3585,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 2",
-    "detailed_camera": "主摄: 徕卡1英寸光影猎人1050L OV50X f/1.67 5000万 | 超广角: 徕卡 f/2.2 5000万 | 长焦: 徕卡潜望 f/2.39 2亿 1/1.56\" 3.2-4.3x连续光变",
+    "detailed_camera": "主摄: 徕卡1英寸光影猎人1050L f/1.67 5000万 | 超广角: 徕卡 f/2.2 5000万 | 长焦: 徕卡潜望 f/2.39 2亿 3.2-4.3x连续光变",
     "release_date": "2025-09",
     "price": 7999
   },
   {
-    "id": 95,
+    "id": 94,
     "brand": "HONOR",
     "model": "荣耀Magic V Flip2",
     "processor": "第三代骁龙8",
@@ -3677,13 +3615,11 @@
       "IP58/IP59防尘抗水",
       "200MP主摄",
       "折叠屏",
-      "外屏4.0寸",
-      "NFC"
+      "外屏4.0寸"
     ],
     "tags": [
       "折叠屏",
-      "第三代骁龙8",
-      "NFC"
+      "第三代骁龙8"
     ],
     "release_date": "2025-08-21",
     "price": 4699,
@@ -3691,7 +3627,7 @@
     "verified_at": "2026-06-07"
   },
   {
-    "id": 96,
+    "id": 95,
     "brand": "HONOR",
     "model": "X80i",
     "processor": "天玑6080",
@@ -3734,11 +3670,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 97,
+    "id": 96,
     "tags": [
       "6500mAh+",
       "天玑9400",
@@ -3765,11 +3700,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 98,
+    "id": 97,
     "tags": [
       "天玑8系",
       "6500mAh+",
@@ -3798,7 +3732,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 99,
+    "id": 98,
     "tags": [
       "NFC",
       "红外",
@@ -3835,7 +3769,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 100,
+    "id": 99,
     "tags": [
       "骁龙8 Elite 1",
       "NFC",
@@ -3858,7 +3792,7 @@
     "os": "realme UI 7.0"
   },
   {
-    "id": 101,
+    "id": 100,
     "brand": "iQOO",
     "model": "iQOO Neo11",
     "processor": "骁龙8 Elite 5",
@@ -3878,8 +3812,7 @@
       "NFC",
       "红外",
       "IP68",
-      "IP69",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "NFC",
@@ -3922,11 +3855,12 @@
       "6500mAh+",
       "防尘抗水",
       "NFC",
+      "红外",
       "散热风扇"
     ],
     "release_date": "2025-08",
     "price": 3399,
-    "id": 102,
+    "id": 101,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264"
@@ -3946,7 +3880,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 103,
+    "id": 102,
     "tags": [
       "天玑9500",
       "NFC",
@@ -3978,11 +3912,9 @@
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 104,
+    "id": 103,
     "tags": [
       "无线充电",
       "6500mAh+",
@@ -4013,7 +3945,7 @@
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 105,
+    "id": 104,
     "tags": [
       "骁龙8 Elite 5",
       "NFC",
@@ -4046,13 +3978,15 @@
     "features": [
       "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
+      "红外遥控",
       "电竞三芯",
       "双扬声器"
     ],
     "screen_form": "直屏",
-    "id": 106,
+    "id": 105,
     "tags": [
       "NFC",
+      "红外",
       "防尘抗水",
       "6500mAh+",
       "≤200g"
@@ -4071,7 +4005,7 @@
     "os": "ColorOS 16 / Android 16"
   },
   {
-    "id": 107,
+    "id": 106,
     "brand": "OPPO",
     "model": "OPPO Reno15c",
     "processor": "骁龙7 Gen4",
@@ -4090,8 +4024,7 @@
     "features": [
       "NFC",
       "IP69防尘抗水",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "6500mAh+",
@@ -4111,7 +4044,7 @@
     "price": 3299
   },
   {
-    "id": 108,
+    "id": 107,
     "brand": "OPPO",
     "model": "OPPO Reno15",
     "processor": "天玑8450",
@@ -4130,8 +4063,7 @@
     "features": [
       "NFC",
       "IP69防尘抗水",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -4158,11 +4090,9 @@
     "weight_g": 207,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 109,
+    "id": 108,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -4180,7 +4110,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 110,
+    "id": 109,
     "brand": "OPPO",
     "model": "OPPO Reno15 Pro",
     "processor": "天玑8450",
@@ -4198,8 +4128,7 @@
     "os": "",
     "features": [
       "NFC",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "NFC",
@@ -4225,11 +4154,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": true,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 111,
+    "id": 110,
     "tags": [
       "骁龙8 Elite 5",
       "散热风扇",
@@ -4256,11 +4183,9 @@
     "weight_g": 228,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 112,
+    "id": 111,
     "tags": [
       "骁龙8 Elite 5",
       "散热风扇",
@@ -4310,7 +4235,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 6999,
-    "id": 113,
+    "id": 112,
     "screen_unfolded": {
       "size": 6.7,
       "resolution": "2640×1080",
@@ -4358,7 +4283,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 7999,
-    "id": 114,
+    "id": 113,
     "screen_unfolded": {
       "size": 6.7,
       "resolution": "2640×1080",
@@ -4384,12 +4309,9 @@
     "wireless_charging_w": 66,
     "usb_version": "USB 3.2",
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "折叠屏",
-    "id": 115,
+    "id": 114,
     "tags": [
       "USB3.0",
       "6500mAh+",
@@ -4453,7 +4375,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 12999,
-    "id": 116,
+    "id": 115,
     "screen_unfolded": {
       "size": 7.6,
       "resolution": "2176×1812",
@@ -4500,7 +4422,7 @@
     "detailed_camera": "",
     "release_date": "2025-07",
     "price": 19999,
-    "id": 117,
+    "id": 116,
     "screen_unfolded": {
       "size": 10.0,
       "resolution": "2480×2200",
@@ -4514,7 +4436,7 @@
     "fold_type": "三折叠"
   },
   {
-    "id": 118,
+    "id": 117,
     "brand": "HONOR",
     "model": "荣耀Play10",
     "processor": "天玑6080",
@@ -4544,7 +4466,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 119,
+    "id": 118,
     "brand": "HONOR",
     "model": "荣耀Play10T",
     "processor": "天玑6080",
@@ -4584,12 +4506,14 @@
     "has_tele": false,
     "features": [
       "IP66/IP68/IP69/IP69防尘抗水",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 120,
+    "id": 119,
     "tags": [
       "NFC",
+      "红外",
       "防尘抗水",
       "6500mAh+",
       "≤200g"
@@ -4607,7 +4531,7 @@
     "resolution": "1272×2772"
   },
   {
-    "id": 121,
+    "id": 120,
     "brand": "OPPO",
     "model": "OPPO K13 Turbo",
     "processor": "天玑8450",
@@ -4624,13 +4548,11 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "NFC",
-      "6500mAh+",
-      "红外"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4640,7 +4562,7 @@
     "price": 2099
   },
   {
-    "id": 122,
+    "id": 121,
     "brand": "realme",
     "model": "Neo7",
     "price": 2099,
@@ -4664,19 +4586,14 @@
     "has_ir": false,
     "tags": [
       "6500mAh+",
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2025-06"
   },
   {
-    "id": 123,
+    "id": 122,
     "brand": "OPPO",
     "model": "OPPO K13 Turbo Pro",
     "processor": "骁龙8s Gen4",
@@ -4693,13 +4610,11 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "NFC",
-      "6500mAh+",
-      "红外"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4709,7 +4624,7 @@
     "price": 2199
   },
   {
-    "id": 124,
+    "id": 123,
     "brand": "OPPO",
     "model": "OPPO K15 Pro",
     "processor": "天玑8500 SUPER",
@@ -4726,8 +4641,7 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "NFC",
@@ -4754,19 +4668,14 @@
     "weight_g": 196,
     "camera_desc": "2亿像素主摄",
     "has_tele": false,
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 125,
+    "id": 124,
     "tags": [
       "中低端芯片",
       "6500mAh+",
       "轻薄",
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -4788,12 +4697,9 @@
     "weight_g": 205,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 126,
+    "id": 125,
     "tags": [
       "6500mAh+",
       "天玑9400",
@@ -4818,18 +4724,14 @@
     "weight_g": 204,
     "camera_desc": "2亿像素主摄 | 5000万长焦",
     "has_tele": true,
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 127,
+    "id": 126,
     "tags": [
       "6500mAh+",
       "潜望长焦",
       "无线充电",
-      "NFC",
-      "红外"
+      "NFC"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
@@ -4843,7 +4745,7 @@
     "os": "MagicOS"
   },
   {
-    "id": 128,
+    "id": 127,
     "brand": "OPPO",
     "model": "OPPO K15 Pro+",
     "processor": "天玑9500s",
@@ -4860,8 +4762,7 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "USB2.0",
@@ -4879,7 +4780,7 @@
     "price": 3419
   },
   {
-    "id": 129,
+    "id": 128,
     "brand": "Huawei",
     "model": "华为 Pura 80",
     "processor": "麒麟9010s",
@@ -4895,10 +4796,7 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "HarmonyOS 4.3",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "无线充电",
@@ -4917,7 +4815,7 @@
     "price": 4699
   },
   {
-    "id": 130,
+    "id": 129,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro",
     "processor": "麒麟9020",
@@ -4933,10 +4831,7 @@
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -4954,7 +4849,7 @@
     "price": 6499
   },
   {
-    "id": 131,
+    "id": 130,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro+",
     "processor": "麒麟9020",
@@ -4970,10 +4865,7 @@
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -4991,7 +4883,7 @@
     "price": 7999
   },
   {
-    "id": 132,
+    "id": 131,
     "brand": "vivo",
     "model": "vivo X Fold5",
     "processor": "骁龙8 Elite 1",
@@ -5007,10 +4899,7 @@
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
     "os": "",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "骁龙8 Elite 1",
@@ -5039,7 +4928,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 133,
+    "id": 132,
     "brand": "Huawei",
     "model": "华为 Pura 80 Ultra",
     "processor": "麒麟9020",
@@ -5052,14 +4941,12 @@
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 225,
-    "camera_desc": "1英寸大底主摄 豪威OV50X | 潜望长焦 1/1.28\" RYYB 一镜双目",
+    "camera_desc": "1英寸大底主摄 | 潜望长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
       "IP68防尘抗水",
-      "XMAGE影像",
-      "NFC",
-      "红外遥控"
+      "XMAGE影像"
     ],
     "tags": [
       "USB3.0",
@@ -5079,7 +4966,7 @@
     "price": 9999
   },
   {
-    "id": 134,
+    "id": 133,
     "brand": "iQOO",
     "model": "iQOO Z10 Turbo+",
     "processor": "天玑9400",
@@ -5101,6 +4988,7 @@
     ],
     "tags": [
       "NFC",
+      "红外",
       "6500mAh+"
     ],
     "screen_form": "直屏",
@@ -5111,7 +4999,7 @@
     "price": 2299
   },
   {
-    "id": 135,
+    "id": 134,
     "brand": "OnePlus",
     "model": "一加 13T",
     "processor": "骁龙8 Elite 1",
@@ -5130,8 +5018,7 @@
     "features": [
       "IP65防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5148,7 +5035,7 @@
     "price": 2899
   },
   {
-    "id": 136,
+    "id": 135,
     "brand": "vivo",
     "model": "S21 Pro",
     "price": 2999,
@@ -5171,19 +5058,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2025-04"
   },
   {
-    "id": 137,
+    "id": 136,
     "brand": "Motorola",
     "model": "moto Razr 60",
     "processor": "天玑7400X",
@@ -5199,14 +5081,11 @@
     "camera_desc": "后置5000万像素 | 前置3200万像素",
     "has_tele": false,
     "os": "Android",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
       "折叠屏",
       "无线充电",
-      "≤200g",
-      "NFC"
+      "≤200g"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 15,
@@ -5243,7 +5122,7 @@
     "os": "MagicOS",
     "features": [],
     "screen_form": "直屏",
-    "id": 138,
+    "id": 137,
     "tags": [
       "6500mAh+"
     ],
@@ -5266,12 +5145,9 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "折叠屏",
-    "id": 139,
+    "id": 138,
     "tags": [
       "无线充电",
       "潜望长焦",
@@ -5300,7 +5176,7 @@
     "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 40MP f/2.2 | 潜望长焦 50MP 3.5x OIS | 前置 8MP"
   },
   {
-    "id": 140,
+    "id": 139,
     "brand": "Motorola",
     "model": "moto Razr 60 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -5348,7 +5224,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 141,
+    "id": 140,
     "brand": "Motorola",
     "model": "moto Razr 60 Pro",
     "processor": "骁龙8sGen3",
@@ -5396,7 +5272,7 @@
     "verified_at": "2026-05-19"
   },
   {
-    "id": 142,
+    "id": 141,
     "brand": "HONOR",
     "model": "荣耀畅玩70C",
     "processor": "天玑6100+",
@@ -5454,10 +5330,10 @@
     "detailed_camera": "",
     "release_date": "2025-03",
     "price": 2999,
-    "id": 143
+    "id": 142
   },
   {
-    "id": 144,
+    "id": 143,
     "brand": "Samsung",
     "model": "Galaxy A56",
     "price": 2999,
@@ -5480,12 +5356,9 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC"
+      "≤200g"
     ],
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2025-03"
   },
@@ -5502,12 +5375,9 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "折叠屏",
-    "id": 145,
+    "id": 144,
     "tags": [
       "无线充电",
       "潜望长焦",
@@ -5535,7 +5405,7 @@
     "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 长焦 50MP 3.5x OIS | 前置 8MP"
   },
   {
-    "id": 146,
+    "id": 145,
     "brand": "OPPO",
     "model": "OPPO Find N5",
     "processor": "骁龙8 Elite 1",
@@ -5553,8 +5423,7 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5563,8 +5432,7 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "有线投屏",
-      "红外"
+      "有线投屏"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -5585,7 +5453,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 147,
+    "id": 146,
     "brand": "OPPO",
     "model": "OPPO Find N6",
     "processor": "骁龙8 Elite 5",
@@ -5603,8 +5471,7 @@
     "os": "",
     "features": [
       "IP68防尘抗水",
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "防尘抗水",
@@ -5613,8 +5480,7 @@
       "潜望长焦",
       "USB3.0",
       "NFC",
-      "有线投屏",
-      "红外"
+      "有线投屏"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -5635,7 +5501,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 148,
+    "id": 147,
     "brand": "vivo",
     "model": "vivo Y600 Pro",
     "processor": "天玑7300e",
@@ -5659,6 +5525,8 @@
       "中低端芯片",
       "防尘抗水",
       "轻薄",
+      "NFC",
+      "红外",
       "6500mAh+"
     ],
     "screen_form": "直屏",
@@ -5671,7 +5539,7 @@
     "has_ir": true
   },
   {
-    "id": 149,
+    "id": 148,
     "brand": "vivo",
     "model": "vivo S50",
     "processor": "骁龙8s Gen3",
@@ -5689,9 +5557,7 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "潜望长焦",
@@ -5721,12 +5587,9 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 150,
+    "id": 149,
     "tags": [
       "骁龙8 Elite 1",
       "6500mAh+",
@@ -5742,7 +5605,7 @@
     "resolution": "2664×1200"
   },
   {
-    "id": 151,
+    "id": 150,
     "brand": "vivo",
     "model": "vivo S30 Pro mini",
     "processor": "骁龙7 Gen3",
@@ -5760,9 +5623,7 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "轻薄",
@@ -5770,8 +5631,7 @@
       "防尘抗水",
       "NFC",
       "≤200g",
-      "潜望长焦",
-      "红外"
+      "潜望长焦"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5781,7 +5641,7 @@
     "price": 2999
   },
   {
-    "id": 152,
+    "id": 151,
     "brand": "vivo",
     "model": "vivo S30",
     "processor": "骁龙7 Gen3",
@@ -5797,16 +5657,12 @@
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
     "os": "",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5816,7 +5672,7 @@
     "price": 2999
   },
   {
-    "id": 153,
+    "id": 152,
     "brand": "vivo",
     "model": "vivo Y500",
     "processor": "天玑7300",
@@ -5840,6 +5696,7 @@
       "中低端芯片",
       "防尘抗水",
       "轻薄",
+      "NFC",
       "≤200g",
       "6500mAh+"
     ],
@@ -5851,7 +5708,7 @@
     "price": 2999
   },
   {
-    "id": 154,
+    "id": 153,
     "brand": "vivo",
     "model": "vivo Y500 Pro",
     "processor": "天玑7400",
@@ -5875,6 +5732,8 @@
       "中低端芯片",
       "防尘抗水",
       "轻薄",
+      "NFC",
+      "红外",
       "6500mAh+",
       "≤200g"
     ],
@@ -5888,7 +5747,7 @@
     "has_ir": true
   },
   {
-    "id": 155,
+    "id": 154,
     "brand": "vivo",
     "model": "vivo S50 Pro mini",
     "processor": "骁龙8s Gen3",
@@ -5906,9 +5765,7 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "轻薄",
@@ -5938,12 +5795,9 @@
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 156,
+    "id": 155,
     "tags": [
       "潜望长焦",
       "6500mAh+",
@@ -5993,10 +5847,10 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "后置 50MP 三星GN3 f/1.8 广角 + 12MP f/2.2 超广 + 10MP f/2.4 3x长焦 | 前置 12MP f/2.2",
+    "detailed_camera": "后置 50MP 三星GN3 f/1.8 广角+12MP f/2.2 超广+10MP f/2.4 3x长焦| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 5999,
-    "id": 157
+    "id": 156
   },
   {
     "model": "Galaxy S25+",
@@ -6030,10 +5884,10 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "后置 50MP 三星GN3 f/1.8 广角 + 12MP f/2.2 超广 + 10MP f/2.4 3x长焦 | 前置 12MP f/2.2",
+    "detailed_camera": "后置 50MP 三星GN3 f/1.8 广角+12MP f/2.2 超广+10MP f/2.4 3x长焦| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 6999,
-    "id": 158
+    "id": 157
   },
   {
     "model": "Galaxy S25 Edge",
@@ -6069,10 +5923,10 @@
     "detailed_camera": "",
     "release_date": "2025-01",
     "price": 7999,
-    "id": 159
+    "id": 158
   },
   {
-    "id": 160,
+    "id": 159,
     "brand": "HONOR",
     "model": "荣耀 Magic7 RSR 保时捷设计",
     "processor": "骁龙8 Elite 1",
@@ -6093,8 +5947,7 @@
       "IP68防尘抗水",
       "IP69防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "USB3.0",
@@ -6139,6 +5992,7 @@
       "潜望长焦",
       "防尘抗水",
       "NFC",
+      "红外",
       "USB3.0",
       "无线充电",
       "有线投屏"
@@ -6146,13 +6000,13 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "后置 200MP 三星HP2 1/1.3\" f/1.7 广角 + 50MP f/1.9 超广 + 10MP f/2.4 3x长焦 + 50MP f/3.4 5x潜望 | 前置 12MP f/2.2",
+    "detailed_camera": "后置 200MP 三星HP2 1/1.3\" f/1.7 广角+50MP f/1.9 超广+10MP f/2.4 3x长焦+50MP f/3.4 5x潜望| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 9699,
-    "id": 161
+    "id": 160
   },
   {
-    "id": 162,
+    "id": 161,
     "brand": "Huawei",
     "model": "HUAWEI Mate X6",
     "processor": "麒麟9030 Pro/麒麟9030",
@@ -6169,8 +6023,7 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "NFC",
-      "红外遥控"
+      "NFC"
     ],
     "tags": [
       "USB3.0",
@@ -6201,7 +6054,7 @@
     "thickness_mm": 7.95
   },
   {
-    "id": 163,
+    "id": 162,
     "brand": "HONOR",
     "model": "荣耀 300",
     "processor": "骁龙7 Gen3",
@@ -6217,16 +6070,11 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "轻薄",
       "中低端芯片",
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6236,7 +6084,7 @@
     "price": 2299
   },
   {
-    "id": 164,
+    "id": 163,
     "brand": "vivo",
     "model": "vivo S20",
     "processor": "天玑8350",
@@ -6252,16 +6100,12 @@
     "camera_desc": "5000万索尼IMX882主摄",
     "has_tele": false,
     "os": "OriginOS 5",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6285,7 +6129,7 @@
       "红外遥控"
     ],
     "screen_form": "直屏",
-    "id": 165,
+    "id": 164,
     "tags": [
       "天玑9400",
       "NFC",
@@ -6311,12 +6155,9 @@
     "weight_g": 203,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 166,
+    "id": 165,
     "tags": [
       "6500mAh+",
       "天玑9400",
@@ -6334,7 +6175,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "id": 167,
+    "id": 166,
     "brand": "OnePlus",
     "model": "一加 Ace 5",
     "processor": "骁龙8 Gen 3",
@@ -6370,7 +6211,7 @@
     "price": 2699
   },
   {
-    "id": 168,
+    "id": 167,
     "brand": "Huawei",
     "model": "HUAWEI nova 14",
     "processor": "麒麟8000",
@@ -6388,8 +6229,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -6406,7 +6246,7 @@
     "price": 2699
   },
   {
-    "id": 169,
+    "id": 168,
     "brand": "vivo",
     "model": "vivo S20 Pro",
     "processor": "天玑9200+",
@@ -6422,10 +6262,7 @@
     "camera_desc": "5000万索尼IMX920主摄 | 5000万人像长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "潜望长焦",
       "轻薄",
@@ -6441,7 +6278,7 @@
     "price": 2999
   },
   {
-    "id": 170,
+    "id": 169,
     "brand": "OnePlus",
     "model": "一加 Ace 5 Pro",
     "processor": "骁龙8 Elite 1",
@@ -6477,7 +6314,7 @@
     "price": 3399
   },
   {
-    "id": 171,
+    "id": 170,
     "brand": "Huawei",
     "model": "HUAWEI nova 14 Pro",
     "processor": "麒麟9010",
@@ -6495,8 +6332,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "USB3.0",
@@ -6514,7 +6350,7 @@
     "price": 3499
   },
   {
-    "id": 172,
+    "id": 171,
     "brand": "HONOR",
     "model": "荣耀 300 Pro",
     "processor": "骁龙8 Gen 3",
@@ -6530,17 +6366,13 @@
     "camera_desc": "5000万主摄 | 5000万长焦",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "潜望长焦",
       "轻薄",
       "NFC",
       "≤200g",
-      "无线充电",
-      "红外"
+      "无线充电"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6550,7 +6382,7 @@
     "price": 3699
   },
   {
-    "id": 173,
+    "id": 172,
     "brand": "HONOR",
     "model": "荣耀 300 Ultra",
     "processor": "骁龙8 Gen 3",
@@ -6566,16 +6398,12 @@
     "camera_desc": "5000万主摄 | 5000万潜望长焦",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "潜望长焦",
       "轻薄",
       "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6585,7 +6413,7 @@
     "price": 4199
   },
   {
-    "id": 174,
+    "id": 173,
     "brand": "Huawei",
     "model": "HUAWEI nova 14 Ultra",
     "processor": "麒麟9010",
@@ -6603,8 +6431,7 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "USB3.0",
@@ -6636,11 +6463,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 175,
+    "id": 174,
     "tags": [
       "骁龙8 Elite 1",
       "NFC",
@@ -6668,11 +6494,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 176,
+    "id": 175,
     "tags": [
       "天玑9400",
       "NFC",
@@ -6700,11 +6525,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 177,
+    "id": 176,
     "tags": [
       "无线充电",
       "骁龙8 Elite 1",
@@ -6721,7 +6545,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 178,
+    "id": 177,
     "brand": "realme",
     "model": "GT7 Pro",
     "processor": "骁龙8 Elite 1",
@@ -6739,9 +6563,7 @@
     "os": "realme UI 6.0",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -6761,7 +6583,7 @@
     "price": 3599
   },
   {
-    "id": 179,
+    "id": 178,
     "brand": "Huawei",
     "model": "华为 Mate 70",
     "processor": "麒麟9020",
@@ -6781,8 +6603,7 @@
       "IP68防尘抗水",
       "NFC",
       "红外",
-      "卫星通信",
-      "红外遥控"
+      "卫星通信"
     ],
     "tags": [
       "USB3.0",
@@ -6817,11 +6638,10 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 180,
+    "id": 179,
     "tags": [
       "无线充电",
       "潜望长焦",
@@ -6838,7 +6658,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 181,
+    "id": 180,
     "brand": "Huawei",
     "model": "华为 Mate 70 Pro",
     "processor": "麒麟9020",
@@ -6858,8 +6678,7 @@
       "IP68防尘抗水",
       "NFC",
       "红外",
-      "卫星通信",
-      "红外遥控"
+      "卫星通信"
     ],
     "tags": [
       "防尘抗水",
@@ -6880,7 +6699,7 @@
     "thickness_mm": 8.2
   },
   {
-    "id": 182,
+    "id": 181,
     "brand": "Huawei",
     "model": "Pocket 70 Pro",
     "price": 6999,
@@ -6903,19 +6722,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-11"
   },
   {
-    "id": 183,
+    "id": 182,
     "brand": "Huawei",
     "model": "华为 Mate 70 Pro+",
     "processor": "麒麟9020",
@@ -6936,8 +6750,7 @@
       "NFC",
       "红外",
       "卫星通信",
-      "玄武架构",
-      "红外遥控"
+      "玄武架构"
     ],
     "tags": [
       "防尘抗水",
@@ -6957,7 +6770,7 @@
     "price": 8499
   },
   {
-    "id": 184,
+    "id": 183,
     "brand": "Huawei",
     "model": "华为 Mate 70 RS 非凡大师",
     "processor": "麒麟9020",
@@ -6978,8 +6791,7 @@
       "NFC",
       "红外",
       "卫星通信",
-      "陶瓷后盖",
-      "红外遥控"
+      "陶瓷后盖"
     ],
     "tags": [
       "防尘抗水",
@@ -6999,7 +6811,7 @@
     "price": 9999
   },
   {
-    "id": 185,
+    "id": 184,
     "brand": "HONOR",
     "model": "荣耀X70 焕新版",
     "processor": "骁龙695",
@@ -7016,8 +6828,11 @@
     "detailed_camera": "",
     "has_tele": false,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "NFC"
+    ],
     "tags": [
+      "NFC",
       "≤200g"
     ],
     "screen_form": "直屏",
@@ -7029,7 +6844,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 186,
+    "id": 185,
     "brand": "Huawei",
     "model": "华为 nova 13",
     "processor": "骁龙778G",
@@ -7045,10 +6860,7 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "HarmonyOS 4.2",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "中低端芯片",
       "轻薄",
@@ -7064,7 +6876,7 @@
     "price": 2699
   },
   {
-    "id": 187,
+    "id": 186,
     "brand": "Xiaomi",
     "model": "Xiaomi 15",
     "processor": "骁龙8 Elite 1",
@@ -7107,7 +6919,7 @@
     "price": 3599
   },
   {
-    "id": 188,
+    "id": 187,
     "brand": "HONOR",
     "model": "荣耀 Magic7 Pro",
     "processor": "骁龙8 Elite 1",
@@ -7127,8 +6939,7 @@
       "IP68防尘抗水",
       "IP69防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "USB3.0",
@@ -7148,7 +6959,7 @@
     "price": 3699
   },
   {
-    "id": 189,
+    "id": 188,
     "brand": "Huawei",
     "model": "华为 nova 13 Pro",
     "processor": "骁龙778G",
@@ -7164,10 +6975,7 @@
     "camera_desc": "5000万主摄 | 800万长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.2",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "中低端芯片",
       "潜望长焦",
@@ -7185,7 +6993,7 @@
     "price": 3699
   },
   {
-    "id": 190,
+    "id": 189,
     "brand": "OPPO",
     "model": "OPPO Find X8s",
     "processor": "天玑9400",
@@ -7205,8 +7013,7 @@
       "NFC",
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "NFC",
@@ -7226,7 +7033,7 @@
     "price": 3799
   },
   {
-    "id": 191,
+    "id": 190,
     "brand": "vivo",
     "model": "vivo X200",
     "processor": "天玑9400",
@@ -7244,9 +7051,7 @@
     "os": "OriginOS 5",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "潜望长焦",
@@ -7265,7 +7070,7 @@
     "price": 4099
   },
   {
-    "id": 192,
+    "id": 191,
     "brand": "OPPO",
     "model": "OPPO Find X8 Pro",
     "processor": "天玑9400",
@@ -7284,9 +7089,7 @@
     "features": [
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "USB3.0",
@@ -7295,8 +7098,7 @@
       "无线充电",
       "红外",
       "防尘抗水",
-      "有线投屏",
-      "NFC"
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -7306,7 +7108,7 @@
     "price": 4199
   },
   {
-    "id": 193,
+    "id": 192,
     "brand": "vivo",
     "model": "vivo X200 Pro mini",
     "processor": "天玑9400",
@@ -7324,9 +7126,7 @@
     "os": "OriginOS 5",
     "features": [
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "潜望长焦",
@@ -7343,12 +7143,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-818 f/1.57 | 超广角: 5000万 | 长焦: 5000万 3x光学",
+    "detailed_camera": "主摄: 索尼IMX921 1/1.56\" f/1.57 5000万 OIS | 超广角: 5000万 | 长焦: 5000万 3x光学 OIS | 前置: 3200万",
     "release_date": "2024-10",
     "price": 4299
   },
   {
-    "id": 194,
+    "id": 193,
     "brand": "vivo",
     "model": "vivo X200s",
     "processor": "天玑9400+",
@@ -7364,10 +7164,7 @@
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
     "os": "",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "潜望长焦",
       "天玑9400",
@@ -7383,7 +7180,7 @@
     "price": 4299
   },
   {
-    "id": 195,
+    "id": 194,
     "brand": "HONOR",
     "model": "荣耀 Magic7",
     "processor": "骁龙8 Elite 1",
@@ -7403,8 +7200,7 @@
       "IP68防尘抗水",
       "IP69防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "无线充电",
@@ -7423,7 +7219,7 @@
     "price": 4499
   },
   {
-    "id": 196,
+    "id": 195,
     "brand": "Huawei",
     "model": "华为 nova 13 Ultra",
     "processor": "麒麟9010",
@@ -7439,10 +7235,7 @@
     "camera_desc": "5000万主摄 | 潜望长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.2",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -7461,7 +7254,7 @@
     "price": 4499
   },
   {
-    "id": 197,
+    "id": 196,
     "brand": "OnePlus",
     "model": "一加 13",
     "processor": "骁龙8 Elite 1",
@@ -7501,7 +7294,7 @@
     "price": 4699
   },
   {
-    "id": 198,
+    "id": 197,
     "brand": "OPPO",
     "model": "OPPO Find X8s+",
     "processor": "天玑9400",
@@ -7521,8 +7314,7 @@
       "NFC",
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "NFC",
@@ -7540,7 +7332,7 @@
     "price": 4799
   },
   {
-    "id": 199,
+    "id": 198,
     "brand": "vivo",
     "model": "vivo X200 Pro",
     "processor": "天玑9400",
@@ -7558,9 +7350,7 @@
     "os": "OriginOS 5",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "潜望长焦",
@@ -7580,7 +7370,7 @@
     "price": 4999
   },
   {
-    "id": 200,
+    "id": 199,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Pro",
     "processor": "骁龙8 Elite 1",
@@ -7593,7 +7383,7 @@
     "battery_mah": 5410,
     "charging_w": 90,
     "weight_g": 210,
-    "camera_desc": "5000万光影猎人900主摄(1/1.3\" f/1.44) + 5000万超广角(S5KJN1) + 5000万潜望长焦(IMX858 120mm)",
+    "camera_desc": "5000万徕卡主摄 | 5000万徕卡长焦 | 5000万徕卡超广角",
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
@@ -7615,12 +7405,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.44 5000万 | 超广角: 三星S5KJN1 f/2.2 5000万 | 长焦: 潜望 IMX858 5000万 等效120mm | 前置: 豪威OV32B40 3200万",
+    "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.44 5000万 OIS | 超广角: 三星JN5 f/2.2 5000万 | 潜望长焦: 索尼IMX858 120mm f/2.5 5000万 OIS | 前置: 豪威OV32B40 f/2.0 3200万",
     "release_date": "2024-10",
     "price": 4999
   },
   {
-    "id": 201,
+    "id": 200,
     "brand": "OPPO",
     "model": "OPPO Find X8 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -7639,9 +7429,7 @@
     "features": [
       "IP66防尘抗水",
       "IP68防尘抗水",
-      "IP69防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP69防尘抗水"
     ],
     "tags": [
       "USB3.0",
@@ -7650,8 +7438,7 @@
       "无线充电",
       "红外",
       "防尘抗水",
-      "有线投屏",
-      "NFC"
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -7661,7 +7448,7 @@
     "price": 6499
   },
   {
-    "id": 202,
+    "id": 201,
     "brand": "vivo",
     "model": "vivo X200 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -7674,13 +7461,10 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 232,
-    "camera_desc": "5000万索尼1英寸主摄 + 2亿像素APO长焦",
+    "camera_desc": "5000万索尼LYT-900一英寸主摄 | 2亿像素APO长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "骁龙8 Elite 1",
@@ -7693,12 +7477,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼1英寸 f/1.57 5000万 | 超广角: 索尼LYT-818 f/2.0 | 长焦: 三星HP9 2亿 f/2.67 3.7x光学",
+    "detailed_camera": "主摄: 索尼LYT-818 f/1.57 | 超广角: 索尼LYT-818 f/2.0 | 长焦: 三星HP9 2亿 f/2.67 3.7x光学",
     "release_date": "2024-10",
     "price": 6499
   },
   {
-    "id": 203,
+    "id": 202,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Ultra",
     "processor": "骁龙8 Elite 1",
@@ -7711,7 +7495,7 @@
     "battery_mah": 6000,
     "charging_w": 90,
     "weight_g": 225,
-    "camera_desc": "50MP索尼LYT-900一英寸主摄(f/1.63) + 50MP超广角(三星JN5 14mm) + 50MP中焦(IMX858 70mm) + 200MP潜望(三星HP9 100mm)",
+    "camera_desc": "50MP 1英寸主摄(f/1.63) + 50MP超广角(14mm) + 200MP潜望(100mm) + 50MP直立长焦(70mm)",
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
@@ -7733,7 +7517,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-900 1/0.98\" 1英寸 f/1.63 5000万 | 超广角: 三星JN5 5000万 等效14mm f/2.2 | 中焦: IMX858 5000万 等效70mm f/1.8 | 长焦: 潜望 2亿 三星HP9 1/1.4\" 等效100mm f/2.6 5x光学",
+    "detailed_camera": "主摄: 索尼LYT-900 1英寸 f/1.63 5000万 | 中焦: 索尼IMX858 70mm f/1.8 5000万 | 超长焦: 三星HP9 1/1.4\" 100mm f/2.5 2亿 | 超广角: 三星JN5 14mm f/2.2 5000万",
     "release_date": "2024-10",
     "price": 6499
   },
@@ -7752,7 +7536,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 204,
+    "id": 203,
     "tags": [
       "轻薄",
       "A18",
@@ -7788,7 +7572,7 @@
       "Face ID"
     ],
     "screen_form": "直屏",
-    "id": 205,
+    "id": 204,
     "tags": [
       "A18",
       "无线充电",
@@ -7824,7 +7608,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 206,
+    "id": 205,
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -7863,7 +7647,7 @@
       "ProMotion"
     ],
     "screen_form": "直屏",
-    "id": 207,
+    "id": 206,
     "tags": [
       "USB3.0",
       "潜望长焦",
@@ -7885,7 +7669,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 208,
+    "id": 207,
     "brand": "HONOR",
     "model": "荣耀畅玩70 Plus",
     "processor": "骁龙680",
@@ -7913,7 +7697,7 @@
     "verified_at": "2026-05-24"
   },
   {
-    "id": 209,
+    "id": 208,
     "brand": "REDMI",
     "model": "Redmi Turbo 4",
     "processor": "天玑8400",
@@ -7948,7 +7732,7 @@
     "price": 1999
   },
   {
-    "id": 210,
+    "id": 209,
     "brand": "iQOO",
     "model": "iQOO Neo10",
     "processor": "天玑9400",
@@ -7964,15 +7748,10 @@
     "camera_desc": "5000万索尼IMX921主摄",
     "has_tele": false,
     "os": "OriginOS 5",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "天玑9400",
-      "6500mAh+",
-      "NFC",
-      "红外"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7996,11 +7775,10 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "screen_form": "直屏",
-    "id": 211,
+    "id": 210,
     "tags": [
       "天玑8系",
       "6500mAh+",
@@ -8013,7 +7791,7 @@
     "storage": "256GB/512GB/1TB"
   },
   {
-    "id": 212,
+    "id": 211,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro",
     "processor": "天玑9400",
@@ -8029,16 +7807,11 @@
     "camera_desc": "5000万索尼IMX921主摄 | 5000万长焦",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "潜望长焦",
       "天玑9400",
-      "6500mAh+",
-      "NFC",
-      "红外"
+      "6500mAh+"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8048,7 +7821,7 @@
     "price": 2999
   },
   {
-    "id": 213,
+    "id": 212,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro+",
     "processor": "骁龙8 Elite 1",
@@ -8067,8 +7840,7 @@
     "features": [
       "IP65防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -8086,7 +7858,7 @@
     "price": 2999
   },
   {
-    "id": 214,
+    "id": 213,
     "brand": "HONOR",
     "model": "X70 Pro",
     "price": 2599,
@@ -8109,12 +7881,9 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC"
+      "≤200g"
     ],
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-07"
   },
@@ -8127,11 +7896,9 @@
     "weight_g": 205,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 215,
+    "id": 214,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8148,7 +7915,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 216,
+    "id": 215,
     "brand": "realme",
     "model": "GT6",
     "price": 2799,
@@ -8170,19 +7937,13 @@
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
-    "tags": [
-      "NFC",
-      "红外"
-    ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "tags": [],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-07"
   },
   {
-    "id": 217,
+    "id": 216,
     "brand": "RedMagic",
     "model": "红魔 10",
     "price": 2999,
@@ -8205,12 +7966,9 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "6500mAh+",
-      "NFC"
+      "6500mAh+"
     ],
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-07"
   },
@@ -8223,11 +7981,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 218,
+    "id": 217,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8254,11 +8010,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 219,
+    "id": 218,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8284,11 +8038,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 220,
+    "id": 219,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8303,10 +8055,11 @@
     "release_date": "2024-07",
     "price": 4499,
     "ram": "12GB/16GB",
-    "storage": "256GB/512GB"
+    "storage": "256GB/512GB",
+    "detailed_camera": "后置 50MP 三星GN5 f/1.8 主摄+50MP超广角+2MP微距| 前置 16MP"
   },
   {
-    "id": 221,
+    "id": 220,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip 2",
     "processor": "骁龙8 Elite 1",
@@ -8324,10 +8077,12 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
+      "红外遥控",
       "5G"
     ],
     "tags": [
       "骁龙8 Elite 1",
+      "红外",
       "无线充电",
       "USB3.0",
       "NFC",
@@ -8362,11 +8117,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 222,
+    "id": 221,
     "tags": [
       "骁龙8 Elite 1",
       "散热风扇",
@@ -8384,7 +8137,7 @@
     "storage": "256GB/512GB"
   },
   {
-    "id": 223,
+    "id": 222,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip",
     "processor": "骁龙8 Gen 3",
@@ -8465,7 +8218,7 @@
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 7999,
-    "id": 224,
+    "id": 223,
     "screen_unfolded": {
       "size": 6.7,
       "resolution": "2640×1080",
@@ -8479,7 +8232,7 @@
     "fold_type": "纵向折叠"
   },
   {
-    "id": 225,
+    "id": 224,
     "brand": "HONOR",
     "model": "荣耀 Magic V3",
     "processor": "骁龙8 Gen 3",
@@ -8495,10 +8248,7 @@
     "camera_desc": "5000万主摄",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "USB3.0",
       "无线充电",
@@ -8525,7 +8275,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 226,
+    "id": 225,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Fold 4",
     "processor": "骁龙8 Gen 3",
@@ -8606,7 +8356,7 @@
     "detailed_camera": "",
     "release_date": "2024-07",
     "price": 12999,
-    "id": 227,
+    "id": 226,
     "screen_unfolded": {
       "size": 7.6,
       "resolution": "2176×1812",
@@ -8620,7 +8370,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 228,
+    "id": 227,
     "brand": "realme",
     "model": "GT Neo6",
     "processor": "骁龙8s Gen3",
@@ -8636,15 +8386,11 @@
     "camera_desc": "5000万索尼IMX882主摄",
     "has_tele": false,
     "os": "realme UI 5.0",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "轻薄",
       "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8681,10 +8427,10 @@
     "detailed_camera": "",
     "release_date": "2024-05",
     "price": 1999,
-    "id": 229
+    "id": 228
   },
   {
-    "id": 230,
+    "id": 229,
     "brand": "vivo",
     "model": "S21",
     "price": 2299,
@@ -8707,19 +8453,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-05"
   },
   {
-    "id": 231,
+    "id": 230,
     "brand": "Xiaomi",
     "model": "Xiaomi Civi 4 Pro",
     "processor": "骁龙8s Gen3",
@@ -8737,14 +8478,12 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "5G",
-      "红外遥控"
+      "5G"
     ],
     "tags": [
       "NFC",
       "轻薄",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8754,7 +8493,7 @@
     "price": 2599
   },
   {
-    "id": 232,
+    "id": 231,
     "brand": "HONOR",
     "model": "荣耀 Magic Vs3",
     "processor": "骁龙8 Gen 2",
@@ -8770,10 +8509,7 @@
     "camera_desc": "5000万主摄",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "NFC",
       "红外"
@@ -8797,7 +8533,7 @@
     "fold_type": "横向折叠"
   },
   {
-    "id": 233,
+    "id": 232,
     "brand": "iQOO",
     "model": "iQOO Z9 Turbo",
     "processor": "骁龙8s Gen3",
@@ -8813,13 +8549,10 @@
     "camera_desc": "5000万索尼IMX882主摄",
     "has_tele": false,
     "os": "OriginOS 4",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "tags": [
       "轻薄",
-      "≤200g",
-      "NFC"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8829,7 +8562,7 @@
     "price": 1999
   },
   {
-    "id": 234,
+    "id": 233,
     "brand": "realme",
     "model": "14 Pro+",
     "price": 2399,
@@ -8852,14 +8585,9 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC",
-      "红外"
+      "≤200g"
     ],
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-03"
   },
@@ -8890,10 +8618,10 @@
     "detailed_camera": "",
     "release_date": "2024-03",
     "price": 2499,
-    "id": 235
+    "id": 234
   },
   {
-    "id": 236,
+    "id": 235,
     "brand": "Samsung",
     "model": "Galaxy A55",
     "price": 2599,
@@ -8916,17 +8644,14 @@
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC"
+      "≤200g"
     ],
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": null,
     "release_date": "2024-03"
   },
   {
-    "id": 237,
+    "id": 236,
     "brand": "realme",
     "model": "13 Pro+",
     "processor": "骁龙7s Gen2",
@@ -8942,10 +8667,7 @@
     "camera_desc": "5000万索尼IMX890主摄 | 5000万3X长焦",
     "has_tele": true,
     "os": "realme UI 5.0",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "中低端芯片",
       "潜望长焦",
@@ -8962,7 +8684,7 @@
     "price": 1999
   },
   {
-    "id": 238,
+    "id": 237,
     "brand": "OPPO",
     "model": "OPPO A6s Pro",
     "processor": "天玑6360 MAX",
@@ -8993,7 +8715,7 @@
     "price": 1999
   },
   {
-    "id": 239,
+    "id": 238,
     "brand": "iQOO",
     "model": "iQOO Z11",
     "processor": "天玑9400",
@@ -9017,6 +8739,7 @@
     ],
     "tags": [
       "NFC",
+      "红外",
       "防尘抗水"
     ],
     "screen_form": "直屏",
@@ -9036,12 +8759,10 @@
     "camera_desc": "5000万主摄 | 5000万3.5倍长焦",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
-      "NFC",
-      "红外遥控"
+      "IP68防尘抗水"
     ],
     "screen_form": "直屏",
-    "id": 240,
+    "id": 239,
     "tags": [
       "骁龙8 Elite 5",
       "潜望长焦",
@@ -9061,7 +8782,7 @@
     "screen_type": "OLED"
   },
   {
-    "id": 241,
+    "id": 240,
     "brand": "iQOO",
     "model": "iQOO Z11 Turbo",
     "processor": "骁龙8s Gen3",
@@ -9085,6 +8806,7 @@
     ],
     "tags": [
       "NFC",
+      "红外",
       "防尘抗水"
     ],
     "screen_form": "直屏",
@@ -9107,15 +8829,14 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "os": "HarmonyOS",
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "折叠屏",
-    "id": 242,
+    "id": 241,
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
+      "红外",
       "≤200g"
     ],
     "release_date": "2024-01",
@@ -9168,10 +8889,10 @@
     "detailed_camera": "",
     "release_date": "2024-01",
     "price": 9699,
-    "id": 243
+    "id": 242
   },
   {
-    "id": 244,
+    "id": 243,
     "brand": "vivo",
     "model": "vivo S19",
     "processor": "骁龙7 Gen3",
@@ -9187,16 +8908,12 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
+    "features": [],
     "tags": [
       "中低端芯片",
       "轻薄",
       "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -9206,7 +8923,7 @@
     "price": 2299
   },
   {
-    "id": 245,
+    "id": 244,
     "brand": "vivo",
     "model": "vivo S19 Pro",
     "processor": "天玑8200",
@@ -9224,9 +8941,7 @@
     "os": "",
     "features": [
       "IP68",
-      "IP69",
-      "NFC",
-      "红外遥控"
+      "IP69"
     ],
     "tags": [
       "中低端芯片",
@@ -9234,8 +8949,7 @@
       "防尘抗水",
       "轻薄",
       "NFC",
-      "≤200g",
-      "红外"
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -9245,7 +8959,7 @@
     "price": 2999
   },
   {
-    "id": 246,
+    "id": 245,
     "brand": "REDMI",
     "model": "Redmi K70 至尊版",
     "processor": "天玑9400",
@@ -9279,7 +8993,7 @@
     "price": 2599
   },
   {
-    "id": 247,
+    "id": 246,
     "brand": "iQOO",
     "model": "iQOO 13",
     "processor": "骁龙8 Elite 1",
@@ -9298,8 +9012,7 @@
     "features": [
       "IP68防尘抗水",
       "NFC",
-      "红外",
-      "红外遥控"
+      "红外"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9327,11 +9040,9 @@
     "weight_g": 215,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 248,
+    "id": 247,
     "tags": [
       "散热风扇",
       "NFC",
@@ -9356,11 +9067,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [
-      "NFC"
-    ],
+    "features": [],
     "screen_form": "直屏",
-    "id": 249,
+    "id": 248,
     "tags": [
       "散热风扇",
       "6500mAh+",
@@ -9377,7 +9086,85 @@
     "storage": "512GB/1TB"
   },
   {
+    "id": 249,
+    "brand": "HONOR",
+    "model": "荣耀X80 Pro Max",
+    "processor": "骁龙8 Elite 5/1",
+    "screen_size": 6.8,
+    "refresh_hz": 120,
+    "screen_type": "AMOLED",
+    "resolution": "2800×1280",
+    "ram": "12GB",
+    "storage": "256GB / 512GB",
+    "battery_mah": 7000,
+    "charging_w": 100,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 3.2",
+    "weight_g": 210,
+    "camera_desc": "10800万主摄 f/1.8 | 800万超广角 | 200万微距",
+    "detailed_camera": "后置: 108MP主摄 f/1.8 + 8MP超广角 + 2MP微距",
+    "has_tele": false,
+    "has_ultrawide": true,
+    "os": "MagicOS 11 (Android 17)",
+    "screen_form": "直屏",
+    "features": [
+      "7000mAh超大电池",
+      "100W快充",
+      "NFC",
+      "红外遥控",
+      "立体声双扬声器"
+    ],
+    "tags": [
+      "6500mAh+",
+      "NFC",
+      "红外"
+    ],
+    "release_date": "2026-06",
+    "price": 1999,
+    "source_url": "https://news.mydrivers.com/1/1130/1130921.htm",
+    "verified_at": "2026-06-21"
+  },
+  {
     "id": 250,
+    "brand": "8849",
+    "model": "8849 Tank 5",
+    "processor": "天玑9400e",
+    "screen_size": 6.8,
+    "refresh_hz": 120,
+    "screen_type": "IPS",
+    "resolution": "2460×1080",
+    "ram": "18GB",
+    "storage": "512GB",
+    "battery_mah": 17600,
+    "charging_w": 120,
+    "wireless_charging_w": 0,
+    "usb_version": "USB 3.2",
+    "weight_g": 715,
+    "camera_desc": "10800万主摄 f/1.8 | 500万微距 | 红外摄像头",
+    "detailed_camera": "后置: 108MP主摄 + 5MP微距 + 红外摄像头",
+    "has_tele": false,
+    "has_ultrawide": false,
+    "os": "Android 16",
+    "screen_form": "直屏",
+    "features": [
+      "17600mAh超大电池",
+      "120W快充",
+      "IP68防护",
+      "内置1080P 220流明投影仪",
+      "18GB LPDDR5X"
+    ],
+    "tags": [
+      "10000mAh+",
+      "防尘抗水",
+      "三防手机"
+    ],
+    "release_date": "2026-06",
+    "price": 2999,
+    "source_url": "https://lapin.ithome.com/html/digi/966528.htm",
+    "verified_at": "2026-06-21"
+  },
+  {
+    "id": 251,
     "brand": "Lenovo",
     "model": "联想拯救者Y70 新一代",
     "processor": "骁龙8 Elite 5/1",
