@@ -9125,45 +9125,6 @@
     "verified_at": "2026-06-21"
   },
   {
-    "id": 250,
-    "brand": "8849",
-    "model": "8849 Tank 5",
-    "processor": "天玑9400e",
-    "screen_size": 6.8,
-    "refresh_hz": 120,
-    "screen_type": "IPS",
-    "resolution": "2460×1080",
-    "ram": "18GB",
-    "storage": "512GB",
-    "battery_mah": 17600,
-    "charging_w": 120,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.2",
-    "weight_g": 715,
-    "camera_desc": "10800万主摄 f/1.8 | 500万微距 | 红外摄像头",
-    "detailed_camera": "后置: 108MP主摄 + 5MP微距 + 红外摄像头",
-    "has_tele": false,
-    "has_ultrawide": false,
-    "os": "Android 16",
-    "screen_form": "直屏",
-    "features": [
-      "17600mAh超大电池",
-      "120W快充",
-      "IP68防护",
-      "内置1080P 220流明投影仪",
-      "18GB LPDDR5X"
-    ],
-    "tags": [
-      "10000mAh+",
-      "防尘抗水",
-      "三防手机"
-    ],
-    "release_date": "2026-06",
-    "price": 2999,
-    "source_url": "https://lapin.ithome.com/html/digi/966528.htm",
-    "verified_at": "2026-06-21"
-  },
-  {
     "id": 251,
     "brand": "Lenovo",
     "model": "联想拯救者Y70 新一代",
