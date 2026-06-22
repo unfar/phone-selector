@@ -1574,7 +1574,7 @@
     "screen_size": 6.8,
     "screen_type": "OLED",
     "screen_form": "直屏",
-    "battery_mah": 5500,
+    "battery_mah": 5000,
     "charging_w": 45,
     "wireless_charging_w": 15,
     "weight_g": 214,
