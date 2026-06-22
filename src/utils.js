@@ -169,11 +169,11 @@ export function getCameraSpecs(p) {
         for (const sub of subs) {
           let t = ''
           if (/主摄/.test(sub)) t = '主'
-          else if (/超广角/.test(sub)) t = '广'
+          else if (/超广(角)?/.test(sub)) t = '广'
           else if (/长焦/.test(sub) || /潜望/.test(sub)) t = sub.includes('超长焦') ? '超长' : '长'
           else if (/微距/.test(sub)) t = '微'
           else t = '镜'
-          const subClean = sub.replace(/(主摄|超广角|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim()
+          const subClean = sub.replace(/(主摄|超广(角)?|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim()
           const brief = extractBrief(subClean)
           if (brief) rearCams.push({t, d: brief})
         }
@@ -181,7 +181,7 @@ export function getCameraSpecs(p) {
       }
       let type = ''
       if (/主摄/.test(sec)) type = '主'
-      else if (/超广角/.test(sec)) type = '广'
+      else if (/超广(角)?/.test(sec)) type = '广'
       else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长' : '长'
       if (type) rearCams.push({t: type, d: extractBrief(clean)})
     }
@@ -191,7 +191,7 @@ export function getCameraSpecs(p) {
         const cs = sec.replace(/^[^：:]*[：:]\s*/, '').trim()
         if (/前置/.test(sec)) frontTxt = extractBrief(cs)
         else if (/主摄/.test(sec)) rearCams.push({t:'主', d: extractBrief(cs)})
-        else if (/超广角/.test(sec)) rearCams.push({t:'广', d: extractBrief(cs)})
+        else if (/超广(角)?/.test(sec)) rearCams.push({t:'广', d: extractBrief(cs)})
         else if (/长焦/.test(sec) || /潜望/.test(sec)) rearCams.push({t:'长', d: extractBrief(cs)})
       }
     }
