@@ -741,45 +741,6 @@
     "release_date": "2026-05-20"
   },
   {
-    "id": 19,
-    "brand": "Lenovo",
-    "model": "拯救者 Y70",
-    "processor": "骁龙8 Gen5",
-    "screen_size": 6.82,
-    "refresh_hz": 144,
-    "screen_type": "LTPO直屏",
-    "resolution": "3168×1440",
-    "ram": "12GB/16GB",
-    "storage": "256GB/512GB/1TB",
-    "battery_mah": 8000,
-    "charging_w": 90,
-    "weight_g": 227,
-    "camera_desc": "后置50MP索尼LYT-710主摄+8MP超广角微距 | 前置32MP",
-    "has_tele": false,
-    "os": "天禧AI 4.0 / Legion Zone",
-    "features": [
-      "IP66/IP68/IP69防尘抗水",
-      "NFC",
-      "双实体卡+双eSIM",
-      "凝胶+液金+VC散热"
-    ],
-    "tags": [
-      "NFC",
-      "防尘抗水",
-      "6500mAh+",
-      "USB3.0",
-      "有线投屏"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.0",
-    "detailed_camera": "后置: 50MP索尼LYT-710主摄(f/1.8) + 8MP超广角微距 | 前置: 32MP(f/2.2)",
-    "release_date": "2026-05",
-    "price": 2599,
-    "source_url": "https://shop.lenovo.com.cn/",
-    "verified_at": "2026-05-19"
-  },
-  {
     "id": 20,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Max",
@@ -9139,43 +9100,5 @@
       "竹韵青",
       "幻夜黑"
     ]
-  },
-  {
-    "id": 251,
-    "brand": "Lenovo",
-    "model": "联想拯救者Y70 新一代",
-    "processor": "骁龙8 Elite 5/1",
-    "screen_size": 6.67,
-    "refresh_hz": 144,
-    "screen_type": "AMOLED",
-    "resolution": "2640×1200",
-    "ram": "12GB",
-    "storage": "256GB / 512GB",
-    "battery_mah": 5000,
-    "charging_w": 68,
-    "wireless_charging_w": 0,
-    "usb_version": "USB 3.2",
-    "weight_g": 200,
-    "camera_desc": "5000万主摄 f/1.8 | 1300万超广角 | 200万微距",
-    "detailed_camera": "后置: 50MP主摄 + 13MP超广角 + 2MP微距",
-    "has_tele": false,
-    "has_ultrawide": true,
-    "os": "ZUI 17 (Android 17)",
-    "screen_form": "直屏",
-    "features": [
-      "144Hz高刷屏",
-      "骁龙8 Elite 5/1",
-      "68W快充",
-      "NFC",
-      "立体声双扬声器"
-    ],
-    "tags": [
-      "144Hz",
-      "NFC"
-    ],
-    "release_date": "2026-06",
-    "price": 2499,
-    "source_url": "https://www.ithome.com/0/966/351.htm",
-    "verified_at": "2026-06-21"
   }
 ]
