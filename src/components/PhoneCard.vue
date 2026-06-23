@@ -85,7 +85,6 @@ const featureTagsList = computed(() => {
   if (phone.tags.includes('NFC') || (phone.features || []).some(f => f.includes('NFC'))) ft.push({ t: '📡 NFC', c: '' })
   if (phone.tags.includes('红外') || (phone.features || []).some(f => f.includes('红外'))) ft.push({ t: '🔴 红外', c: 'amber' })
   if (phone.tags.includes('USB3.0') || (phone.features || []).includes('USB3.0')) ft.push({ t: '🔌 USB 3.0', c: '' })
-  if (phone.tags.includes('6500mAh+') || (phone.features || []).includes('6500mAh+')) ft.push({ t: '🔋 6500mAh+', c: 'green' })
   if (phone.tags.includes('≤200g') || (phone.features || []).includes('≤200g')) ft.push({ t: '🪶 ≤200g', c: 'green' })
   if (phone.tags.includes('有线投屏') || (phone.features || []).includes('有线投屏')) ft.push({ t: '🖥️ 有线投屏', c: '' })
   return ft

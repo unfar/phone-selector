@@ -2,7 +2,7 @@
   <div class="filter-panel">
     <!-- Brand -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('brand') }">
-      <div class="filter-label" @click="toggle('brand')">🏢 品牌 <span class="arrow">▼</span> <span class="filter-count">{{ filteredCount }}</span></div>
+      <div class="filter-label" @click="toggle('brand')">🏢 品牌 <span class="arrow">▼</span></div>
       <div class="filter-tags">
         <span v-for="b in brandList" :key="b" :class="brandTagClass(b)"
           @click="toggleBrand(b)">{{ getEnglishBrand(b) }}</span>
@@ -49,9 +49,9 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, brandList, updateHash } from '../composables/useFilters.js'
-import { matchesFilters, phones } from '../composables/useFilters.js'
+
 import { featureTags, screenTypes, screenSizeRanges, cpuTags, getEnglishBrand } from '../utils.js'
 import PriceSlider from './PriceSlider.vue'
 
@@ -94,5 +94,4 @@ function brandTagClass(b) {
   return ['tag', { active: selectedBrands.has(b) }, selectedBrands.has(b) ? 'brand-active-' + b : '']
 }
 
-const filteredCount = computed(() => phones.value.filter(matchesFilters).length)
 </script>
