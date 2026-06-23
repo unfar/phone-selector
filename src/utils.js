@@ -146,7 +146,7 @@ export function getCameraSpecs(p) {
   function extractBrief(s) {
     s = cleanCamTxt(s)
     let mp = (s.match(/(\d+)\s*[万M]/) || [])[1] || ''
-    let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|光影猎人\w*)/) || [])[1] || ''
+    let cmos = (s.match(/[\u4e00-\u9fff]*(LYT[-\w]+|IMX\w+|HP\d|OV\w+|JN\w+|光影猎人\w+)/) || [])[1] || ''
     let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || ''
     if (aperture) { aperture = aperture.replace(/^F\s*/i, 'f/'); aperture = aperture.replace(/^f\/\//, 'f/') }
     let parts = []

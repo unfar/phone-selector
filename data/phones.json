@@ -723,7 +723,7 @@
     "weight_g": 216,
     "os": "OriginOS 6",
     "camera_desc": "2亿像素大底主摄（CIPA 4.5防抖）+ 5000万超广角",
-    "detailed_camera": "主摄: 2亿像素 大底传感器 CIPA 4.5专业级防抖 4倍无损变焦 | 超广角: 800万 | 前置: 1600万",
+    "detailed_camera": "主摄: 三星HP5 2亿像素 CIPA 4.5专业级防抖 4倍无损变焦 | 超广角: 800万 | 前置: 1600万",
     "has_tele": false,
     "tags": [
       "天玑9500",
@@ -967,7 +967,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 2亿 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.6 2.8x光学 | 丹霞色彩还原",
+    "detailed_camera": "主摄: 三星HP5 2亿 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.6 2.8x光学 | 丹霞色彩还原",
     "release_date": "2026-04-20",
     "price": 5999
   },
@@ -2471,7 +2471,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-808 1/1.28\" f/1.5 5000万 OIS | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.1 3x光学 | 丹霞色彩还原",
+    "detailed_camera": "主摄: 索尼LYT-808 1/1.28\" f/1.5 5000万 OIS | 超广角: 5000万 f/2.0 | 长焦: 三星HP5 1/1.56\" 2亿 f/2.1 70mm 3x光学 | 丹霞色彩还原",
     "release_date": "2025-10-16",
     "price": 5299
   },
@@ -3293,7 +3293,7 @@
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "后置: 5000万像素理光GR防眩光主摄(f/1.8,OIS) + 5000万像素超广角 + 2亿像素潜望长焦(HP5,3x光变) | 前置: 3200万像素",
+    "detailed_camera": "主摄: 理光GR 5000万 f/1.8 OIS | 超广角: 5000万 | 长焦: 三星HP5 2亿 3x光学 | 前置: 3200万",
     "charging_w": 120,
     "release_date": "2025-09",
     "price": 3999,
@@ -3931,7 +3931,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄: 三星HP5 2亿 | 超广角: 5000万 | 长焦: 5000万",
     "release_date": "2025-07",
     "price": 4799
   },
@@ -5354,7 +5354,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
+    "detailed_camera": "主摄: 三星HP5 5000万",
     "release_date": "2025-01",
     "price": 2999
   },
@@ -8461,9 +8461,9 @@
       "防尘抗水"
     ],
     "screen_form": "直屏",
+    "detailed_camera": "主摄: 三星HP5 5000万",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "",
     "release_date": "2024-01",
     "price": 2699
   },
