@@ -6391,7 +6391,8 @@
     "detailed_camera": "",
     "release_date": "2024-11",
     "price": 6499,
-    "thickness_mm": 8.2
+    "thickness_mm": 8.2,
+    "network_model": ""
   },
   {
     "brand": "Huawei",
@@ -6426,7 +6427,8 @@
     "release_date": "2024-11",
     "price": 6199,
     "ram": "12GB",
-    "storage": "256GB/512GB"
+    "storage": "256GB/512GB",
+    "network_model": "PLR-AL50"
   },
   {
     "id": 178,
