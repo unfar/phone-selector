@@ -1753,7 +1753,8 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "thickness_mm": 7.95
+    "thickness_mm": 7.95,
+    "network_model": "DEL-AL10"
   },
   {
     "id": 51,
@@ -2187,7 +2188,8 @@
     "detailed_camera": "主摄: XMAGE f/1.4 5000万 RYYB | 超广角: 4000万 | 长焦: 5000万 4x + 超长焦 5000万 6.2x 双长焦",
     "release_date": "2025-11",
     "price": 7999,
-    "thickness_mm": 8.25
+    "thickness_mm": 8.25,
+    "network_model": "SGT-AL10"
   },
   {
     "id": 61,
