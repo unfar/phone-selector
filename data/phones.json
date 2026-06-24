@@ -4925,7 +4925,8 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 40MP f/2.2 | 潜望长焦 50MP 3.5x OIS | 前置 8MP"
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 40MP f/2.2 | 潜望长焦 50MP 3.5x OIS | 前置 8MP",
+    "network_model": "HOP-AL00"
   },
   {
     "brand": "HONOR",
@@ -5092,7 +5093,8 @@
       "refresh_hz": 60
     },
     "fold_type": "纵向折叠",
-    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 长焦 50MP 3.5x OIS | 前置 8MP"
+    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 长焦 50MP 3.5x OIS | 前置 8MP",
+    "network_model": ""
   },
   {
     "model": "Galaxy A56 5G",
