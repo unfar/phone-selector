@@ -55,9 +55,6 @@ const specRows = computed(() => {
     // 核心参数
     { l: '处理器', v: phone.processor || '—' },
     { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
-    { l: '屏幕', v: getFoldableScreenDisplay(phone) || '—' },
-    { l: '分辨率', v: phone.resolution || '—' },
-    { l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' },
     { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
     { l: 'USB', v: phone.usb_version || '—' },
     { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' }
@@ -72,6 +69,12 @@ const specRows = computed(() => {
     ipVal = '支持'
   }
   sc.push({ l: '防尘抗水', v: ipVal, colspan: true })
+
+  // ── 屏幕区块 ──
+  sc.push({ l: '屏幕', v: '', section: true, colspan: true })
+  sc.push({ l: '尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' })
+  sc.push({ l: '分辨率', v: phone.resolution || '—' })
+  sc.push({ l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' })
 
   // ── 充电区块 ──
   sc.push({ l: '充电', v: '', section: true, colspan: true })
