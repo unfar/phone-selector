@@ -7,7 +7,7 @@
           <img v-if="!textLogoBrands.has(phone.brand)" class="brand-logo" :style="logoStyle" :src="brandLogos[phone.brand]" :alt="phone.brand">
           <span v-else class="brand-text-logo">{{ phone.brand }}</span>
         </span>
-        <span class="price-badge" v-if="phone.price">¥{{ phone.price }}</span>
+        <span :class="['price-badge', { 'release-badge': isFutureRelease }]" v-if="headerBadge">{{ headerBadge }}</span>
       </div>
       <div class="phone-name">{{ displayName }}</div>
     </div>
@@ -38,6 +38,21 @@ const displayName = getDisplayName(props.phone)
 const logoStyle = getLogoStyle(props.phone.brand)
 
 const isSelected = computed(() => compareList.value.includes(props.phone.id))
+
+// 判断是否为未发布机型，显示发布时间
+const today = '2026-06-24'
+const isFutureRelease = computed(() => {
+  const rd = props.phone.release_date
+  return rd && rd.length >= 10 && rd >= today
+})
+const headerBadge = computed(() => {
+  if (isFutureRelease.value) {
+    // format "2026-06-26" → "6月26日"
+    const parts = props.phone.release_date.split('-')
+    return parts[1] + '/' + parts[2]
+  }
+  return props.phone.price ? '¥' + props.phone.price : ''
+})
 
 function onCardClick(e) {
   if (e.target.closest('.compare-bar') || e.target.closest('.compare-panel')) return
