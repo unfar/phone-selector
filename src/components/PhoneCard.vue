@@ -77,25 +77,31 @@ const specRows = computed(() => {
 
   const sc = [
     // 核心参数
-    { l: '入网型号', v: phone.network_model || '—' },
-    { l: '处理器', v: phone.processor || '—' },
-    { l: '运行内存', v: phone.ram ? simplifyCapacity(phone.ram) : '—' },
-    { l: '存储', v: phone.storage ? simplifyCapacity(phone.storage) : '—' },
-    { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
-    { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' },
-    { l: 'USB', v: phone.usb_version || '—' },
-    { l: '防尘抗水', v: ipVal },
+    { l: '🔌 入网型号', v: phone.network_model || '—' },
+    { l: '⚙️ 处理器', v: phone.processor || '—' },
+    { l: '💾 运行内存', v: phone.ram ? simplifyCapacity(phone.ram) : '—' },
+    { l: '📦 存储', v: phone.storage ? simplifyCapacity(phone.storage) : '—' },
+    { l: '🔋 电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
+    { l: '⚖️ 重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' },
+    { l: '🔗 USB', v: phone.usb_version || '—' },
+    { l: '🛡️ 防尘抗水', v: ipVal },
     // 屏幕
-    { l: '尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
-    { l: '刷新率/分辨率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
+    { l: '🖥️ 尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
+    { l: '🎯 刷新率/分辨率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
     // 充电（合并有线+无线）
-    { l: '充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
+    { l: '⚡ 充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
   ]
   const camSpecs = getCameraSpecs(phone)
   const rearSpec = camSpecs.find(s => s.l === '后置')
   const otherSpecs = camSpecs.filter(s => s.l !== '后置')
-  otherSpecs.forEach(s => sc.push(s))
-  if (rearSpec) sc.push(rearSpec)
+  otherSpecs.forEach(s => {
+    if (s.l === '前置') s.l = '📷 前置'
+    sc.push(s)
+  })
+  if (rearSpec) {
+    rearSpec.l = '📸 后置'
+    sc.push(rearSpec)
+  }
 
   return sc
 })
