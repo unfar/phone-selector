@@ -5833,7 +5833,8 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "thickness_mm": 7.95
+    "thickness_mm": 7.95,
+    "network_model": "ICL-AL10"
   },
   {
     "id": 172,
