@@ -53,7 +53,7 @@
     "screen_size": 6.8,
     "refresh_hz": 120,
     "screen_type": "OLED直屏",
-    "resolution": "2800×1280",
+    "resolution": "2788×1280",
     "ram": "8GB/12GB",
     "storage": "256GB/512GB",
     "battery_mah": 11000,
@@ -62,7 +62,7 @@
     "usb_version": "USB 2.0",
     "weight_g": 203,
     "camera_desc": "5000万主摄 f/1.88",
-    "detailed_camera": "后置: 5000万主摄 f/1.88 | 前置: 800万",
+    "detailed_camera": "后置: 5000万主摄 f/1.88 | 前置: 800万 f/2.0",
     "has_tele": false,
     "has_ultrawide": false,
     "os": "MagicOS 11 (Android 17)",
@@ -81,7 +81,8 @@
       "10000mAh+",
       "防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "release_date": "2026-06-22",
     "price": 1999,
