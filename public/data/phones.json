@@ -4473,6 +4473,7 @@
     "id": 129,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro",
+    "networkModel": "LMR-AL00",
     "processor": "麒麟9020",
     "screen_size": 6.8,
     "refresh_hz": 120,
