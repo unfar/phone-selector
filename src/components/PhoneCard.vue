@@ -49,7 +49,6 @@ function onCardClick(e) {
 const specRows = computed(() => {
   const phone = props.phone
   // 合并字段
-  const batWeight = ((phone.battery_mah ? phone.battery_mah + 'mAh' : '') + ' · ' + (phone.weight_g ? phone.weight_g + 'g' : '')).replace(/^ · /, '').replace(/ · $/, '')
   const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
   let ipVal = '—'
   if (ipFeats.length > 0) {
@@ -67,7 +66,8 @@ const specRows = computed(() => {
     { l: '入网型号', v: phone.network_model || '—' },
     { l: '处理器', v: phone.processor || '—' },
     { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
-    { l: '电池/重量', v: batWeight || '—', colspan: true },
+    { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
+    { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' },
     { l: 'USB', v: phone.usb_version || '—' },
     { l: '防尘抗水', v: ipVal },
     // 屏幕
