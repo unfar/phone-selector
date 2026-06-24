@@ -43,7 +43,8 @@
       "resolution": "",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "network_model": "V2429A"
   },
   {
     "id": 249,
@@ -1295,7 +1296,8 @@
     "storage": "128GB/256GB/512GB",
     "refresh_hz": 60,
     "screen_type": "OLED",
-    "resolution": "2532×1170"
+    "resolution": "2532×1170",
+    "network_model": "A3635"
   },
   {
     "model": "Galaxy A57 5G",
@@ -3012,7 +3014,8 @@
     "ram": "12GB",
     "storage": "256GB/512GB/1TB/2TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3527"
   },
   {
     "brand": "Apple",
@@ -3049,7 +3052,8 @@
     "ram": "12GB",
     "storage": "256GB/512GB/1TB/2TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3524"
   },
   {
     "brand": "Apple",
@@ -3291,7 +3295,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "5000万 1/1.3\"超感光大底主摄+1200万RYYB长焦防抖(OIS)+800万超广角微距",
     "release_date": "2025-09",
-    "price": 4199
+    "price": 4199,
+    "network_model": "HBN-AL00"
   },
   {
     "brand": "OnePlus",
@@ -4983,7 +4988,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP 1/1.56\" f/1.8 OIS | 长焦 50MP 1/2.76\" f/2.0 2x | 前置 16MP f/2.4",
     "release_date": "2025-04",
-    "price": 2899
+    "price": 2899,
+    "network_model": "PJZ110"
   },
   {
     "id": 133,
@@ -5897,7 +5903,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 12MP f/2.2 | 长焦 50MP f/2.4 3x OIS | 前置 50MP",
     "release_date": "2024-12",
-    "price": 3699
+    "price": 3699,
+    "network_model": "AMP-AN10"
   },
   {
     "id": 170,
@@ -5969,7 +5976,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP IMX906 f/1.8 OIS| 超广 8MP f/2.2 112°| 前置 16MP",
     "release_date": "2024-12",
-    "price": 3399
+    "price": 3399,
+    "network_model": "PJE110"
   },
   {
     "id": 168,
@@ -6001,7 +6009,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP IMX920 f/1.6 OIS| 超广 8MP| 人像长焦 50MP 2x| 前置 50MP",
     "release_date": "2024-12",
-    "price": 2999
+    "price": 2999,
+    "network_model": "V2419A"
   },
   {
     "id": 166,
@@ -6275,7 +6284,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "",
     "release_date": "2024-11",
-    "price": 8499
+    "price": 8499,
+    "network_model": "HBN-AL20"
   },
   {
     "id": 181,
@@ -6493,7 +6503,8 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "24117RK2CC"
   },
   {
     "brand": "REDMI",
@@ -6593,7 +6604,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-900 1英寸 f/1.8 | 超广角: 5000万 | 长焦: 5000万 f/2.6 3x | 超长焦: 5000万 6x",
     "release_date": "2024-10",
-    "price": 6499
+    "price": 6499,
+    "network_model": "PKB110"
   },
   {
     "id": 201,
@@ -6705,7 +6717,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 索尼LYT-818 f/1.57 1/1.28英寸 | 超广角: 三星JN1 f/2.0 | 长焦: 三星HP9 2亿 f/2.67 3.7x光学",
     "release_date": "2024-10",
-    "price": 4999
+    "price": 4999,
+    "network_model": "V2415A"
   },
   {
     "id": 199,
@@ -6862,7 +6875,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "后置: 5000万超动态鹰眼主摄 OV50H 1/1.3\" F1.9 OIS + 5000万超广角122° + 5000万直立长焦3x/50x | 前置: 5000万",
     "release_date": "2024-10",
-    "price": 4499
+    "price": 4499,
+    "network_model": "PTP-AN20"
   },
   {
     "id": 195,
@@ -7007,7 +7021,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 | 超广角: 5000万 | 长焦: 5000万 3x+6x双潜望",
     "release_date": "2024-10",
-    "price": 4199
+    "price": 4199,
+    "network_model": "PKC110"
   },
   {
     "id": 190,
@@ -7044,7 +7059,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.57 | 超广角: 5000万 | 长焦: 5000万 3x光学",
     "release_date": "2024-10",
-    "price": 4099
+    "price": 4099,
+    "network_model": "V2405A"
   },
   {
     "id": 189,
@@ -7124,7 +7140,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "后置: 5000万超动态鹰眼主摄 OV50H 1/1.3\" F1.9 OIS + 5000万超广角122° + 2亿潜望长焦三星HP3 3x/100x F2.4 | 前置: 5000万",
     "release_date": "2024-10",
-    "price": 3699
+    "price": 3699,
+    "network_model": "PTP-AN00"
   },
   {
     "id": 188,
@@ -7158,7 +7175,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 12MP f/2.2 | 长焦 8MP 3x OIS | 前置 60MP超广角+8MP人像双摄",
     "release_date": "2024-10",
-    "price": 3699
+    "price": 3699,
+    "network_model": "GLO-AL10"
   },
   {
     "id": 186,
@@ -7303,7 +7321,8 @@
     "ram": "8GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3297"
   },
   {
     "brand": "Apple",
@@ -7342,7 +7361,8 @@
     "ram": "8GB",
     "storage": "128GB/256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3294"
   },
   {
     "brand": "Apple",
@@ -7377,7 +7397,8 @@
     "price": 5999,
     "ram": "8GB",
     "storage": "128GB/256GB",
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3291"
   },
   {
     "brand": "Apple",
@@ -7413,7 +7434,8 @@
     "ram": "8GB",
     "storage": "128GB/256GB/512GB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3288"
   },
   {
     "id": 211,
@@ -7443,7 +7465,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP IMX921 f/1.6 OIS| 长焦 50MP f/2.0 2x| 前置 16MP",
     "release_date": "2024-08",
-    "price": 2999
+    "price": 2999,
+    "network_model": "V2424A"
   },
   {
     "id": 212,
@@ -7692,7 +7715,8 @@
       "resolution": "2376×1060",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "network_model": "FCP-AN10"
   },
   {
     "id": 225,
@@ -7740,7 +7764,8 @@
       "resolution": "2552×1080",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "network_model": "24072PX77C"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -7835,7 +7860,8 @@
       "resolution": "1392×1208",
       "refresh_hz": 120
     },
-    "fold_type": "纵向折叠"
+    "fold_type": "纵向折叠",
+    "network_model": "2405CPX3DC"
   },
   {
     "brand": "RedMagic",
@@ -8776,7 +8802,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼IMX921 f/1.68 | 超广角: 5000万 | 长焦: 5000万 3x光学",
     "release_date": "2023-10",
-    "price": 4299
+    "price": 4299,
+    "network_model": "V2408A"
   },
   {
     "brand": "RedMagic",
