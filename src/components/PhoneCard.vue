@@ -69,7 +69,7 @@ const specRows = computed(() => {
     { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
     { l: '电池/重量', v: batWeight || '—', colspan: true },
     { l: 'USB', v: phone.usb_version || '—' },
-    { l: '防尘抗水', v: ipVal, colspan: true },
+    { l: '防尘抗水', v: ipVal },
     // 屏幕
     { l: '尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
     { l: '刷新率/分辨率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
