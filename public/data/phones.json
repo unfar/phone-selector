@@ -335,7 +335,6 @@
     "id": 9,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Ultra",
-    "networkModel": "HIP-AL00",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
@@ -377,13 +376,13 @@
     "release_date": "2026-06-01",
     "price": 4699,
     "source_url": "https://consumer.huawei.com/cn/phones/nova16-ultra/",
-    "verified_at": "2026-06-01"
+    "verified_at": "2026-06-01",
+    "network_model": "HIP-AL00"
   },
   {
     "id": 8,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Pro",
-    "networkModel": "CRS-AL00",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
@@ -422,13 +421,13 @@
     "release_date": "2026-06-01",
     "price": 3899,
     "source_url": "https://consumer.huawei.com/cn/phones/nova16-pro/",
-    "verified_at": "2026-06-01"
+    "verified_at": "2026-06-01",
+    "network_model": "CRS-AL00"
   },
   {
     "id": 7,
     "brand": "Huawei",
     "model": "HUAWEI nova 16",
-    "networkModel": "EMA-AL00U",
     "processor": "麒麟9010S",
     "screen_size": 6.68,
     "refresh_hz": 120,
@@ -465,13 +464,13 @@
     "release_date": "2026-06-01",
     "price": 2999,
     "source_url": "https://consumer.huawei.com/cn/phones/nova16/",
-    "verified_at": "2026-06-01"
+    "verified_at": "2026-06-01",
+    "network_model": "EMA-AL00U"
   },
   {
     "id": 6,
     "brand": "Huawei",
     "model": "HUAWEI nova 16z",
-    "networkModel": "PKN-AL00",
     "processor": "麒麟8020",
     "screen_size": 6.7,
     "refresh_hz": 120,
@@ -505,7 +504,8 @@
     "release_date": "2026-06-01",
     "price": 2699,
     "source_url": "https://consumer.huawei.com/cn/phones/nova16z/",
-    "verified_at": "2026-06-01"
+    "verified_at": "2026-06-01",
+    "network_model": "PKN-AL00"
   },
   {
     "id": 12,
@@ -1798,7 +1798,6 @@
     "id": 51,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Ultra",
-    "networkModel": "SLY-AL00",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
@@ -1831,13 +1830,13 @@
     "detailed_camera": "主摄 50MP 1英寸 f/1.6 OIS | 超广 50MP 14mm | 潜望长焦 200MP 100mm OIS | 前置 50MP",
     "release_date": "2025-12",
     "price": 4199,
-    "thickness_mm": 6.8
+    "thickness_mm": 6.8,
+    "network_model": "SLY-AL00"
   },
   {
     "id": 50,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Pro",
-    "networkModel": "KLE-AL00U",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
@@ -1868,13 +1867,13 @@
     "detailed_camera": "主摄 50MP f/1.8 OIS | 超广 50MP | 长焦 50MP 3x | 前置 50MP",
     "release_date": "2025-12",
     "price": 3499,
-    "thickness_mm": 6.9
+    "thickness_mm": 6.9,
+    "network_model": "KLE-AL00U"
   },
   {
     "id": 49,
     "brand": "Huawei",
     "model": "HUAWEI nova 15",
-    "networkModel": "PSN-AL00",
     "processor": "麒麟8020",
     "screen_size": 6.7,
     "refresh_hz": 120,
@@ -1905,7 +1904,8 @@
     "detailed_camera": "",
     "release_date": "2025-12",
     "price": 2699,
-    "thickness_mm": 7.2
+    "thickness_mm": 7.2,
+    "network_model": "PSN-AL00"
   },
   {
     "id": 48,
@@ -4477,7 +4477,6 @@
     "id": 130,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro+",
-    "networkModel": "LMR-AL10",
     "processor": "麒麟9020",
     "screen_size": 6.8,
     "refresh_hz": 120,
@@ -4506,13 +4505,13 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄 50MP 1英寸 RYYB f/1.6-F4.0可变光圈 OIS | 超广 40MP f/2.2 RYYB | 潜望长焦 50MP f/2.1 4x OIS RYYB | 前置 13MP",
     "release_date": "2025-06",
-    "price": 7999
+    "price": 7999,
+    "network_model": "LMR-AL10"
   },
   {
     "id": 129,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro",
-    "networkModel": "LMR-AL00",
     "processor": "麒麟9020",
     "screen_size": 6.8,
     "refresh_hz": 120,
@@ -4541,13 +4540,13 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄 50MP 1英寸 RYYB f/1.6-F4.0可变光圈 OIS | 超广 40MP f/2.2 RYYB | 潜望长焦 48MP f/2.1 4x OIS RYYB | 前置 13MP",
     "release_date": "2025-06",
-    "price": 6499
+    "price": 6499,
+    "network_model": "LMR-AL00"
   },
   {
     "id": 128,
     "brand": "Huawei",
     "model": "华为 Pura 80",
-    "networkModel": "HED-AL00",
     "processor": "麒麟9010s",
     "screen_size": 6.6,
     "refresh_hz": 120,
@@ -4577,7 +4576,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄 50MP RYYB f/1.6-F4.0可变光圈 OIS | 超广 13MP | 前置 13MP",
     "release_date": "2025-06",
-    "price": 4699
+    "price": 4699,
+    "network_model": "HED-AL00"
   },
   {
     "id": 127,
