@@ -395,6 +395,7 @@
     "id": 7,
     "brand": "Huawei",
     "model": "HUAWEI nova 16",
+    "networkModel": "EMA-AL00U",
     "processor": "麒麟9010S",
     "screen_size": 6.68,
     "refresh_hz": 120,
