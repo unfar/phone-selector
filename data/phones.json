@@ -1067,7 +1067,7 @@
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 OIS | 超广: 50MP f/2.2 | 长焦: 潜望 2亿 1/1.4\" RYYB f/2.6 4x光学 OIS | 前置: 13MP",
     "release_date": "2026-04-20",
     "price": 6499,
-    "network_model": "SCA-AL00"
+    "network_model": "HBP-AL20"
   },
   {
     "id": 27,
@@ -2353,7 +2353,7 @@
     "detailed_camera": "主摄: 50MP RYYB 思特威SC555XS 1/1.56\" f/1.4-F4.0可变光圈 OIS | 超广: 40MP f/2.2 | 长焦: 12MP 思特威SC1220CS 1/3.6\" 5.5x OIS | 前置: 13MP",
     "release_date": "2025-11",
     "price": 4699,
-    "network_model": "VYG-AL00 / VYG-AL30"
+    "network_model": "VYG-AL00"
   },
   {
     "id": 59,
@@ -2743,7 +2743,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄 200MP f/1.6 OIS 蔡司| 超广 50MP 蔡司| 长焦 200MP 3.7x OIS 蔡司| 前置 50MP",
     "release_date": "2025-10-13",
-    "price": 5299
+    "price": 5299,
+    "network_model": "V2502A"
   },
   {
     "id": 70,
@@ -2781,7 +2782,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP f/2.6 3x OIS | 前置: 32MP",
     "release_date": "2025-10-13",
-    "price": 3999
+    "price": 3999,
+    "network_model": "V2509A"
   },
   {
     "id": 74,
@@ -2865,7 +2867,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 索尼IMX921 1/1.56\" f/1.57 5000万 OIS | 超广角: 5000万 f/2.05 | 长焦: 5000万 3x光学 OIS | 前置: 1600万",
     "release_date": "2025-10",
-    "price": 4299
+    "price": 4299,
+    "network_model": "V2505A"
   },
   {
     "brand": "OnePlus",
@@ -3035,7 +3038,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 光影猎人950 f/1.67 5000万 | 长焦: 徕卡浮动 f/2.0 5000万",
     "release_date": "2025-09-25",
-    "price": 4299
+    "price": 4299,
+    "network_model": "2608BPX34C"
   },
   {
     "brand": "Apple",
@@ -5364,7 +5368,8 @@
     "detailed_camera": "后置 200MP 三星HP2 1/1.3\" f/1.7 广角+50MP f/1.9 超广+10MP f/2.4 3x长焦+50MP f/3.4 5x潜望| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 9699,
-    "id": 160
+    "id": 160,
+    "network_model": "SM-S9380"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -5517,7 +5522,8 @@
     "detailed_camera": "后置 50MP 三星GN3 f/1.8 广角+12MP f/2.2 超广+10MP f/2.4 3x长焦| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 5999,
-    "id": 156
+    "id": 156,
+    "network_model": "SM-S9310"
   },
   {
     "id": 154,
@@ -5881,7 +5887,7 @@
     },
     "fold_type": "横向折叠",
     "thickness_mm": 7.95,
-    "network_model": "ICL-AL10"
+    "network_model": "GFY-AL00"
   },
   {
     "id": 172,
@@ -6278,7 +6284,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-12",
-    "price": 2299
+    "price": 2299,
+    "network_model": "V2429A"
   },
   {
     "brand": "OnePlus",
@@ -6580,7 +6587,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-11",
-    "price": 3599
+    "price": 3599,
+    "network_model": "RMX5010"
   },
   {
     "brand": "REDMI",
@@ -6751,7 +6759,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 索尼LYT-818 1/1.28\" 50MP f/1.57 OIS 蔡司 | 超广: 索尼LYT-818 1/1.28\" 50MP f/2.0 OIS | 长焦: 三星HP9 1/1.4\" 200MP f/2.67 3.7x OIS 蔡司APO | 前置: 32MP",
     "release_date": "2024-10",
-    "price": 6499
+    "price": 6499,
+    "network_model": "V2454A"
   },
   {
     "id": 202,
@@ -6870,7 +6879,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.44 5000万 OIS | 超广角: 三星JN5 f/2.2 5000万 | 潜望长焦: 索尼IMX858 120mm f/2.5 5000万 OIS | 前置: 豪威OV32B40 f/2.0 3200万",
     "release_date": "2024-10",
-    "price": 4999
+    "price": 4999,
+    "network_model": "2410DPN6CC"
   },
   {
     "id": 197,
@@ -7333,7 +7343,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 光影猎人900 f/1.63 5000万 | 长焦: 徕卡浮动 f/2.0 5000万",
     "release_date": "2024-10",
-    "price": 3599
+    "price": 3599,
+    "network_model": "24129PN74C"
   },
   {
     "id": 185,
@@ -7646,7 +7657,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 48MP f/1.6 | 超广: 12MP f/2.2 | 前置: 12MP",
     "release_date": "2024-08",
-    "price": 2299
+    "price": 2299,
+    "network_model": "V2425A"
   },
   {
     "brand": "REDMI",
@@ -7677,7 +7689,8 @@
     "price": 2299,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 48MP f/1.6 | 前置: 12MP"
+    "detailed_camera": "主摄: 48MP f/1.6 | 前置: 12MP",
+    "network_model": "24129RT7CC"
   },
   {
     "id": 208,
@@ -7787,7 +7800,8 @@
       "resolution": "2376×1080",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "network_model": "SM-F9560"
   },
   {
     "id": 224,
@@ -7928,7 +7942,8 @@
       "resolution": "720×748",
       "refresh_hz": 60
     },
-    "fold_type": "纵向折叠"
+    "fold_type": "纵向折叠",
+    "network_model": "SM-F7410"
   },
   {
     "id": 222,
@@ -8201,7 +8216,8 @@
     "tags": [],
     "features": [],
     "screen_form": null,
-    "release_date": "2024-07"
+    "release_date": "2024-07",
+    "network_model": "RMX3800"
   },
   {
     "brand": "RedMagic",
@@ -8362,7 +8378,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP 光影猎人800 f/1.6 OIS 徕卡 | 超广 12MP f/2.2 徕卡 | 长焦 50MP f/2.0 2x 徕卡 | 前置 32MP + 32MP超广双摄",
     "release_date": "2024-05",
-    "price": 2599
+    "price": 2599,
+    "network_model": "24053PY09C"
   },
   {
     "id": 229,
@@ -8482,7 +8499,8 @@
     ],
     "features": [],
     "screen_form": null,
-    "release_date": "2024-03"
+    "release_date": "2024-03",
+    "network_model": "SM-A5560"
   },
   {
     "model": "Galaxy A55 5G",
