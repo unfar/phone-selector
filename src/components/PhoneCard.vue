@@ -58,11 +58,7 @@ const specRows = computed(() => {
     { l: 'USB', v: phone.usb_version || '—' },
     { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' }
   ]
-  const camSpecs = getCameraSpecs(phone)
-  const rearSpec = camSpecs.find(s => s.l === '后置')
-  const otherSpecs = camSpecs.filter(s => s.l !== '后置')
-  otherSpecs.forEach(s => sc.push(s))
-  // 防尘抗水
+  // 防尘抗水 — 独占一行
   const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
   let ipVal = '—'
   if (ipFeats.length > 0) {
@@ -71,8 +67,13 @@ const specRows = computed(() => {
   } else if (phone.tags?.includes('防尘抗水')) {
     ipVal = '支持'
   }
-  sc.push({ l: '防尘抗水', v: ipVal })
-  // 后置放到最底部
+  sc.push({ l: '防尘抗水', v: ipVal, colspan: true })
+  // 前置影像
+  const camSpecs = getCameraSpecs(phone)
+  const rearSpec = camSpecs.find(s => s.l === '后置')
+  const otherSpecs = camSpecs.filter(s => s.l !== '后置')
+  otherSpecs.forEach(s => sc.push(s))
+  // 后置跨列最底部
   if (rearSpec) sc.push(rearSpec)
   return sc
 })
