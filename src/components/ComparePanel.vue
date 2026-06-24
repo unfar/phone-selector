@@ -64,9 +64,10 @@ const fields = [
   { l: '💧 防尘抗水', v: p => {
     const feats = p.features || [];
     if (feats.some(f => /IP\d{2}/.test(f))) {
-      const ipFeat = feats.find(f => /IP\d{2}/.test(f));
-      const ips = ipFeat.match(/IP\d{2}K?/g);
-      return ips ? ips.join('/') : '✅ 支持';
+      const ipFeats = feats.filter(f => /IP\d{2}/.test(f));
+      const ips = ipFeats.flatMap(f => f.match(/IP\d{2}K?/g) || []);
+      const unique = [...new Set(ips)];
+      return unique.length > 0 ? unique.join('/') : '✅ 支持';
     }
     return p.tags?.includes('防尘抗水') ? '✅ 支持' : '—';
   }},
@@ -74,6 +75,8 @@ const fields = [
   { l: '🔴 红外', v: p => (p.tags?.includes('红外') || (p.features || []).some(f => f.includes('红外'))) ? '✅ 支持' : '—' },
   { l: '🖥️ 有线投屏', v: p => (p.tags?.includes('有线投屏') || (p.features || []).some(f => f.includes('有线投屏'))) ? '✅ 支持' : '—' },
   { l: '📐 屏幕尺寸', v: p => p.screen_size ? p.screen_size + '英寸' : '—' },
+  { l: '🖥️ 分辨率', v: p => p.resolution || '—' },
+  { l: '🔄 刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
   { l: '📅 发布日期', v: p => p.release_date || '—' },
 ]
 

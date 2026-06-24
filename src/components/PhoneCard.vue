@@ -50,6 +50,8 @@ const specRows = computed(() => {
     { l: '处理器', v: phone.processor || '—' },
     { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
     { l: '屏幕', v: getFoldableScreenDisplay(phone) || '—' },
+    { l: '分辨率', v: phone.resolution || '—' },
+    { l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' },
     { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
     { l: '有线充电', v: phone.charging_w ? phone.charging_w + 'W' : '—' },
     { l: '无线充电', v: phone.wireless_charging_w ? phone.wireless_charging_w + 'W' : '不支持' },
@@ -61,11 +63,11 @@ const specRows = computed(() => {
   const otherSpecs = camSpecs.filter(s => s.l !== '后置')
   otherSpecs.forEach(s => sc.push(s))
   // 防尘抗水
-  const ipFeat = (phone.features || []).find(f => /IP\d{2}/.test(f))
+  const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
   let ipVal = '—'
-  if (ipFeat) {
-    const ipLevels = ipFeat.match(/IP\d{2}K?/g)
-    if (ipLevels) ipVal = ipLevels.join(' ')
+  if (ipFeats.length > 0) {
+    const ipLevels = ipFeats.flatMap(f => f.match(/IP\d{2}K?/g) || [])
+    if (ipLevels.length > 0) ipVal = [...new Set(ipLevels)].join(' ')
   } else if (phone.tags?.includes('防尘抗水')) {
     ipVal = '支持'
   }
