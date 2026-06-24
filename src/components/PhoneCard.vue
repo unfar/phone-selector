@@ -48,7 +48,6 @@ function onCardClick(e) {
 // Spec rows
 const specRows = computed(() => {
   const phone = props.phone
-  // 合并字段
   const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
   let ipVal = '—'
   if (ipFeats.length > 0) {
