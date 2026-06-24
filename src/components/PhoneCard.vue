@@ -87,8 +87,7 @@ const specRows = computed(() => {
     { l: '🛡️ 防尘抗水', v: ipVal },
     // 屏幕
     { l: '🖥️ 尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
-    { l: '🎯 分辨率', v: phone.resolution || '—' },
-    { l: '🔄 刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' },
+    { l: '🎯 分辨率/刷新率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
     // 充电（合并有线+无线）
     { l: '⚡ 充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
   ]
