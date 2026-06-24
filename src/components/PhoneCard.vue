@@ -51,16 +51,8 @@ function onCardClick(e) {
 // Spec rows
 const specRows = computed(() => {
   const phone = props.phone
-  const sc = [
-    // 核心参数
-    { l: '入网型号', v: phone.network_model || '—' },
-    { l: '处理器', v: phone.processor || '—' },
-    { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
-    { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
-    { l: 'USB', v: phone.usb_version || '—' },
-    { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' }
-  ]
-  // 防尘抗水
+  // 合并字段
+  const batWeight = ((phone.battery_mah ? phone.battery_mah + 'mAh' : '') + ' · ' + (phone.weight_g ? phone.weight_g + 'g' : '')).replace(/^ · /, '').replace(/ · $/, '')
   const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
   let ipVal = '—'
   if (ipFeats.length > 0) {
@@ -69,21 +61,25 @@ const specRows = computed(() => {
   } else if (phone.tags?.includes('防尘抗水')) {
     ipVal = '支持'
   }
-  sc.push({ l: '防尘抗水', v: ipVal, colspan: true })
+  const usbIp = ((phone.usb_version || '') + ' · ' + ipVal).replace(/^ · /, '').replace(/ · $/, '')
+  const chargeParts = []
+  if (phone.charging_w) chargeParts.push(phone.charging_w + 'W有线')
+  if (phone.wireless_charging_w) chargeParts.push(phone.wireless_charging_w + 'W无线')
 
-  // ── 屏幕区块 ──
-  sc.push({ l: '屏幕', v: '', section: true, colspan: true })
-  sc.push({ l: '尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' })
-  sc.push({ l: '分辨率', v: phone.resolution || '—' })
-  sc.push({ l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' })
-
-  // ── 充电区块 ──
-  sc.push({ l: '充电', v: '', section: true, colspan: true })
-  sc.push({ l: '有线充电', v: phone.charging_w ? phone.charging_w + 'W' : '—' })
-  sc.push({ l: '无线充电', v: phone.wireless_charging_w ? phone.wireless_charging_w + 'W' : '不支持' })
-
-  // ── 影像区块 ──
-  sc.push({ l: '影像', v: '', section: true, colspan: true })
+  const sc = [
+    // 核心参数
+    { l: '入网型号', v: phone.network_model || '—' },
+    { l: '处理器', v: phone.processor || '—' },
+    { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
+    { l: '电池/重量', v: batWeight || '—', colspan: true },
+    { l: 'USB/防护', v: usbIp || '—', colspan: true },
+    // 屏幕
+    { l: '尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
+    { l: '分辨率', v: phone.resolution || '—' },
+    { l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' },
+    // 充电（合并有线+无线）
+    { l: '充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
+  ]
   const camSpecs = getCameraSpecs(phone)
   const rearSpec = camSpecs.find(s => s.l === '后置')
   const otherSpecs = camSpecs.filter(s => s.l !== '后置')
