@@ -1,5 +1,37 @@
 [
   {
+    "id": 251,
+    "brand": "Huawei",
+    "model": "华为畅享 90 Pro Max",
+    "network_model": "CHZ-AL00",
+    "processor": "麒麟8000",
+    "screen_size": 6.84,
+    "refresh_hz": 120,
+    "screen_type": "OLED",
+    "resolution": "2756×1272",
+    "ram": "8GB",
+    "storage": "128GB/256GB/512GB",
+    "battery_mah": 8500,
+    "charging_w": 40,
+    "weight_g": 232,
+    "camera_desc": "50MP超感知主摄",
+    "has_tele": false,
+    "os": "HarmonyOS 6.0",
+    "features": [],
+    "tags": [
+      "NFC",
+      "红外",
+      "麒麟8000",
+      "单摄"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "主摄: 50MP F1.9 RYYB | 前置: 8MP F2.0",
+    "release_date": "2026-06",
+    "price": 1699
+  },
+  {
     "id": 250,
     "brand": "vivo",
     "model": "vivo X Fold6",
