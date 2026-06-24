@@ -350,6 +350,7 @@
     "id": 8,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Pro",
+    "networkModel": "CRS-AL00",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
