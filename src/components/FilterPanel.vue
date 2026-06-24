@@ -1,5 +1,11 @@
 <template>
   <div class="filter-panel">
+    <!-- Search -->
+    <div class="filter-search">
+      <span class="search-icon">🔍</span>
+      <input class="search-input" type="text" v-model="searchQuery" @input="onSearchInput" placeholder="搜索机型、品牌、处理器…" />
+      <span v-if="searchQuery" class="search-clear" @click="clearSearch">✕</span>
+    </div>
     <!-- Brand -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('brand') }">
       <div class="filter-label" @click="toggle('brand')">🏢 品牌 <span class="arrow">▼</span></div>
@@ -50,7 +56,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, brandList, updateHash } from '../composables/useFilters.js'
+import { selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, searchQuery, brandList, updateHash } from '../composables/useFilters.js'
 
 import { featureTags, screenTypes, screenSizeRanges, cpuTags, getEnglishBrand } from '../utils.js'
 import PriceSlider from './PriceSlider.vue'
@@ -94,4 +100,12 @@ function brandTagClass(b) {
   return ['tag', { active: selectedBrands.has(b) }, selectedBrands.has(b) ? 'brand-active-' + b : '']
 }
 
+function onSearchInput() {
+  updateHash()
+}
+
+function clearSearch() {
+  searchQuery.value = ''
+  updateHash()
+}
 </script>

@@ -21,6 +21,7 @@ export const selectedCpu = reactive(new Set())
 export const selectedTags = reactive(new Set())
 export const selectedScreenSizes = reactive(new Set())
 export const currentSort = ref('newest')
+export const searchQuery = ref('')
 
 // Price slider
 export const priceMin = ref(0)
@@ -50,6 +51,7 @@ export function updateHash() {
   }
   if (selectedScreenSizes.size > 0) params.set('screenSize', [...selectedScreenSizes].join(','))
   if (currentSort.value !== 'newest') params.set('sort', currentSort.value)
+  if (searchQuery.value) params.set('q', searchQuery.value)
   history.replaceState(null, '', `#${params.toString()}`)
 }
 
@@ -73,10 +75,20 @@ export function restoreStateFromHash() {
     if (parts[1]) priceMax.value = parseInt(parts[1])
   }
   currentSort.value = params.get('sort') || 'newest'
+  searchQuery.value = params.get('q') || ''
 }
 
 // ===== Filter logic =====
 export function matchesFilters(p) {
+  // Search
+  if (searchQuery.value) {
+    const q = searchQuery.value.toLowerCase().trim()
+    const matchFields = [
+      p.model, p.brand, (p.processor || ''), (p.camera_desc || ''),
+      ...(p.tags || []), ...(p.features || [])
+    ].filter(Boolean).map(s => s.toLowerCase())
+    if (!matchFields.some(s => s.includes(q))) return false
+  }
   if (selectedBrands.size > 0 && !selectedBrands.has(p.brand)) return false
   if (selectedScreen.value) {
     const screenVal = selectedScreen.value.replace(/^\S+\s*/, '')
