@@ -11,9 +11,9 @@
     "ram": "",
     "storage": "",
     "battery_mah": 7000,
-    "charging_w": 0,
+    "charging_w": 100,
     "weight_g": 0,
-    "camera_desc": "2亿主摄 | 长焦",
+    "camera_desc": "2亿主摄 f/1.68 | 5000万超广角 | 潜望长焦 LYT-602",
     "has_tele": true,
     "os": "",
     "features": [
@@ -23,12 +23,14 @@
     ],
     "tags": [
       "USB3.2",
-      "天玑9500"
+      "天玑9500",
+      "无线充电",
+      "潜望长焦"
     ],
     "screen_form": "折叠屏",
-    "wireless_charging_w": 0,
+    "wireless_charging_w": 50,
     "usb_version": "USB 3.2",
-    "detailed_camera": "主摄: 2亿 1/1.4 | 长焦: 1/1.95",
+    "detailed_camera": "主摄: 2亿 HPB 1/1.4 f/1.68 | 超广: 5000万 | 长焦: LYT-602 1/1.95",
     "release_date": "2026-06-26",
     "price": 0,
     "screen_unfolded": {
