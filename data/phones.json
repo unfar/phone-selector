@@ -1070,7 +1070,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 三星HP5 2亿 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.6 2.8x光学 | 丹霞色彩还原",
     "release_date": "2026-04-20",
-    "price": 5999
+    "price": 5999,
+    "network_model": "PME110"
   },
   {
     "id": 26,
@@ -1107,7 +1108,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望微距 5000万 4x光学",
     "release_date": "2026-04-20",
-    "price": 5499
+    "price": 5499,
+    "network_model": "MLN-AL00"
   },
   {
     "id": 25,
@@ -1144,7 +1146,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: f/1.8 5000万 | 长焦: 潜望 5000万 3.7x光学",
     "release_date": "2026-04-20",
-    "price": 4699
+    "price": 4699,
+    "network_model": "KEE-AL00"
   },
   {
     "id": 31,
@@ -1183,7 +1186,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄 200MP Sony LYTIA901 1/1.12\" f/1.6 蔡司| 超广 50MP Sony LYTIA818 1/1.28\" f/2.0 蔡司| 长焦 200MP 85mm 3.7x OIS 蔡司| 前置 50MP",
     "release_date": "2026-03-30",
-    "price": 6999
+    "price": 6999,
+    "network_model": "V2547DA"
   },
   {
     "id": 30,
@@ -2300,7 +2304,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: f/1.4 5000万 RYYB | 长焦: 潜望 1200万 5.5x光学",
     "release_date": "2025-11",
-    "price": 4699
+    "price": 4699,
+    "network_model": "VYG-AL00"
   },
   {
     "id": 59,
@@ -2375,7 +2380,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-11",
-    "price": 3599
+    "price": 3599,
+    "network_model": "PKZ110"
   },
   {
     "id": 57,
@@ -2453,7 +2459,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-11",
-    "price": 2599
+    "price": 2599,
+    "network_model": "PLA110"
   },
   {
     "id": 55,
@@ -2489,7 +2496,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2025-11",
-    "price": 2549
+    "price": 2549,
+    "network_model": ""
   },
   {
     "id": 67,
@@ -2571,7 +2579,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 5000万 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 5000万 f/2.6 3x光学 | 丹霞色彩还原",
     "release_date": "2025-10-16",
-    "price": 4599
+    "price": 4599,
+    "network_model": "PLJ110"
   },
   {
     "brand": "HONOR",
@@ -2766,7 +2775,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 5000万 索尼IMX921 f/1.88 1/1.56英寸 | 超广角: 5000万 f/2.05 | 潜望长焦: 5000万 索尼LYT-882 f/2.65 1/1.95英寸",
     "release_date": "2025-10",
-    "price": 6499
+    "price": 6499,
+    "network_model": "V2546A"
   },
   {
     "id": 72,
@@ -3087,7 +3097,8 @@
     "release_date": "2025-09-09",
     "price": 7999,
     "ram": "12GB",
-    "storage": "256GB/512GB/1TB"
+    "storage": "256GB/512GB/1TB",
+    "network_model": "A3518"
   },
   {
     "brand": "Apple",
@@ -3124,7 +3135,8 @@
     "ram": "12GB",
     "storage": "128GB/256GB/512GB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "A3520"
   },
   {
     "id": 82,
@@ -3191,7 +3203,8 @@
     "release_date": "2025-09-09",
     "price": 1529,
     "source_url": "https://www.opposhop.cn/",
-    "verified_at": "2026-05-24"
+    "verified_at": "2026-05-24",
+    "network_model": "PLS120"
   },
   {
     "id": 80,
@@ -3376,7 +3389,8 @@
     "refresh_hz": 144,
     "screen_type": "AMOLED",
     "resolution": "1440×3136",
-    "os": "realme UI 7.0"
+    "os": "realme UI 7.0",
+    "network_model": "RMX5200"
   },
   {
     "id": 89,
@@ -3690,7 +3704,8 @@
     "refresh_hz": 144,
     "screen_type": "AMOLED",
     "resolution": "1440×3136",
-    "os": "realme UI 7.0"
+    "os": "realme UI 7.0",
+    "network_model": "RMX6699"
   },
   {
     "brand": "OnePlus",
@@ -3727,7 +3742,8 @@
     "refresh_hz": 165,
     "screen_type": "OLED",
     "resolution": "2800×1272",
-    "os": "ColorOS 16 / Android 16"
+    "os": "ColorOS 16 / Android 16",
+    "network_model": "PLQ110"
   },
   {
     "brand": "REDMI",
@@ -3956,7 +3972,8 @@
     },
     "fold_type": "横向折叠",
     "resolution": "2376×1060",
-    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 潜望长焦 50MP f/3.0 OIS | 前置 20MP"
+    "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 潜望长焦 50MP f/3.0 OIS | 前置 20MP",
+    "network_model": "PNM-AN10"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -4574,7 +4591,8 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
-    "os": "MagicOS"
+    "os": "MagicOS",
+    "network_model": "DNP-AN00"
   },
   {
     "brand": "realme",
@@ -4630,7 +4648,8 @@
     "ram": "8GB/12GB",
     "storage": "256GB/512GB",
     "resolution": "2664×1200",
-    "os": "MagicOS"
+    "os": "MagicOS",
+    "network_model": "DNN-AN00"
   },
   {
     "id": 123,
@@ -4824,7 +4843,8 @@
     "release_date": "2025-06",
     "price": 1399,
     "source_url": "https://www.honor.com/cn/shop/",
-    "verified_at": "2026-05-24"
+    "verified_at": "2026-05-24",
+    "network_model": "LOG-AN10"
   },
   {
     "id": 118,
@@ -5251,7 +5271,8 @@
       "resolution": "2552×1080",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "network_model": "PKH110"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -5404,7 +5425,8 @@
     "detailed_camera": "后置 50MP 三星GN3 f/1.8 广角+12MP f/2.2 超广+10MP f/2.4 3x长焦| 前置 12MP f/2.2",
     "release_date": "2025-01",
     "price": 6999,
-    "id": 157
+    "id": 157,
+    "network_model": "SM-S9360"
   },
   {
     "model": "Galaxy S25",
@@ -5835,7 +5857,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 12MP f/2.2 | 潜望长焦 50MP f/2.4 3.5x OIS | 前置 50MP",
     "release_date": "2024-12",
-    "price": 4199
+    "price": 4199,
+    "network_model": "AMP-AN10"
   },
   {
     "id": 173,
@@ -6046,7 +6069,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "后置: 5000万像素索尼IMX906主摄(f/1.8,OIS) + 800万像素超广角 + 200万像素微距 | 前置: 1600万像素",
     "release_date": "2024-12",
-    "price": 2699
+    "price": 2699,
+    "network_model": "PKG110"
   },
   {
     "id": 167,
@@ -6081,7 +6105,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-12",
-    "price": 2699
+    "price": 2699,
+    "network_model": "TLR-AL00"
   },
   {
     "brand": "realme",
@@ -6139,7 +6164,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-12",
-    "price": 2299
+    "price": 2299,
+    "network_model": "AMM-AN00"
   },
   {
     "id": 163,
@@ -6202,7 +6228,8 @@
     "release_date": "2024-12",
     "price": 2299,
     "ram": "16GB",
-    "storage": "512GB/1TB"
+    "storage": "512GB/1TB",
+    "network_model": "PLC110"
   },
   {
     "id": 183,
@@ -6566,7 +6593,8 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "refresh_hz": 120,
-    "screen_type": "OLED"
+    "screen_type": "OLED",
+    "network_model": "24122RKC7C"
   },
   {
     "id": 200,
@@ -6836,7 +6864,8 @@
     "usb_version": "USB 3.0",
     "detailed_camera": "主摄: 索尼LYT-808 f/1.6 | 超广角: 5000万 | 长焦: 5000万 3x光学",
     "release_date": "2024-10",
-    "price": 4699
+    "price": 4699,
+    "network_model": "PJZ110"
   },
   {
     "id": 194,
@@ -6951,7 +6980,8 @@
     "usb_version": "USB 3.2 Gen 1",
     "detailed_camera": "主摄: 索尼IMX921 1/1.56\" f/1.57 5000万 OIS | 超广角: 5000万 | 长焦: 5000万 3x光学 OIS | 前置: 3200万",
     "release_date": "2024-10",
-    "price": 4299
+    "price": 4299,
+    "network_model": "V2419A"
   },
   {
     "id": 193,
@@ -7968,7 +7998,8 @@
     "price": 4499,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "后置 50MP 三星GN5 f/1.8 主摄+50MP超广角+2MP微距| 前置 16MP"
+    "detailed_camera": "后置 50MP 三星GN5 f/1.8 主摄+50MP超广角+2MP微距| 前置 16MP",
+    "network_model": "NX789J"
   },
   {
     "brand": "RedMagic",
@@ -8025,7 +8056,8 @@
     "price": 4199,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "后置 50MP主摄(GN5)+50MP超广角+2MP微距| 前置 16MP"
+    "detailed_camera": "后置 50MP主摄(GN5)+50MP超广角+2MP微距| 前置 16MP",
+    "network_model": "NX789J"
   },
   {
     "id": 216,
@@ -8110,7 +8142,8 @@
     "release_date": "2024-07",
     "price": 2699,
     "ram": "12GB/16GB",
-    "storage": "256GB/512GB"
+    "storage": "256GB/512GB",
+    "network_model": "NX779J"
   },
   {
     "id": 213,
@@ -8332,7 +8365,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "",
     "release_date": "2024-04",
-    "price": 1999
+    "price": 1999,
+    "network_model": "V2352A"
   },
   {
     "id": 235,
