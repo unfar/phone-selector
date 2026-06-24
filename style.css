@@ -167,7 +167,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .dark-mode .compare-panel-content{background:rgba(20,28,45,.85);backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);border-color:rgba(255,255,255,.06)}
 .dark-mode .compare-panel-header{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.06)}
 .dark-mode .compare-table{background:rgba(255,255,255,.03);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
-.card-body .spec-grid{margin-top:12px;}
+.card-body .spec-grid{margin-top:6px;}
 .card-footer{margin-top:12px;}
 
 /* ===== Brand Header Block ===== */

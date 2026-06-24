@@ -58,7 +58,6 @@ const specRows = computed(() => {
   } else if (phone.tags?.includes('防尘抗水')) {
     ipVal = '支持'
   }
-  const usbIp = ((phone.usb_version || '') + ' · ' + ipVal).replace(/^ · /, '').replace(/ · $/, '')
   const chargeParts = []
   if (phone.charging_w) chargeParts.push(phone.charging_w + 'W有线')
   if (phone.wireless_charging_w) chargeParts.push(phone.wireless_charging_w + 'W无线')
@@ -69,11 +68,11 @@ const specRows = computed(() => {
     { l: '处理器', v: phone.processor || '—' },
     { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
     { l: '电池/重量', v: batWeight || '—', colspan: true },
-    { l: 'USB/防护', v: usbIp || '—', colspan: true },
+    { l: 'USB', v: phone.usb_version || '—' },
+    { l: '防尘抗水', v: ipVal, colspan: true },
     // 屏幕
     { l: '尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
-    { l: '分辨率', v: phone.resolution || '—' },
-    { l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' },
+    { l: '刷新率/分辨率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
     // 充电（合并有线+无线）
     { l: '充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
   ]
