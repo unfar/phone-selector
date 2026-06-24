@@ -223,7 +223,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.spec-cell{padding:8px 10px;background:rgba(0,0,0,.03);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);border:1px solid rgba(0,0,0,.04)}
+.spec-cell{padding:8px 10px;text-align:center;background:rgba(0,0,0,.03);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);border:1px solid rgba(0,0,0,.04)}
 .spec-cell .label{font-size:.7rem;color:var(--text-muted);margin-bottom:2px}
 .spec-cell .value{font-size:.82rem;font-weight:600;color:var(--text);white-space:pre-line}
 .spec-section-divider{grid-column:span 2;text-align:center;padding:3px 0;font-size:.68rem;font-weight:600;color:var(--primary);letter-spacing:3px;border-top:1px solid rgba(0,0,0,.06);margin-top:2px}
