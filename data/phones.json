@@ -1842,6 +1842,7 @@
     "id": 49,
     "brand": "Huawei",
     "model": "HUAWEI nova 15",
+    "networkModel": "PSN-AL00",
     "processor": "麒麟8020",
     "screen_size": 6.7,
     "refresh_hz": 120,
