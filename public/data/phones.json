@@ -4508,6 +4508,7 @@
     "id": 128,
     "brand": "Huawei",
     "model": "华为 Pura 80",
+    "networkModel": "HED-AL00",
     "processor": "麒麟9010s",
     "screen_size": 6.6,
     "refresh_hz": 120,
