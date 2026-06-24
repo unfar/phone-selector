@@ -2108,7 +2108,8 @@
     },
     "fold_type": "三折叠",
     "has_nfc": true,
-    "has_ir": true
+    "has_ir": true,
+    "network_model": "GRL-AL20"
   },
   {
     "id": 64,
