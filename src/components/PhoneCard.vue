@@ -65,7 +65,8 @@ const specRows = computed(() => {
     // 核心参数
     { l: '入网型号', v: phone.network_model || '—' },
     { l: '处理器', v: phone.processor || '—' },
-    { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
+    { l: '运行内存', v: phone.ram ? simplifyCapacity(phone.ram) : '—' },
+    { l: '存储', v: phone.storage ? simplifyCapacity(phone.storage) : '—' },
     { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
     { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' },
     { l: 'USB', v: phone.usb_version || '—' },
