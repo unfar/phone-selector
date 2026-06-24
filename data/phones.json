@@ -966,7 +966,7 @@
     "battery_mah": 7050,
     "charging_w": 100,
     "weight_g": 235,
-    "camera_desc": "200MP主摄(1/1.12英寸 f/1.5可变) + 50MP超广角 + 200MP中焦 + 50MP潜望 10x光变",
+    "camera_desc": "主摄 23mm 1/1.12 | 超广 14mm 1/1.95 | 潜望长焦 70mm 1/1.28 | 10x潜望 230mm F3.5",
     "has_tele": true,
     "os": "",
     "features": [
@@ -989,7 +989,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-901 1/1.12\" 哈苏2亿 f/1.5 OIS | 超广角: 5000万 f/2.0 123° | 长焦: 豪威OV52A 1/1.28\" 2亿 f/2.2 3x光学 | 超长焦: 三星JNL 1/2.76\" 5000万 f/3.5 10x光学",
+    "detailed_camera": "主摄: 23mm 1/1.12\" 索尼LYT-901 2亿 f/1.5 OIS | 超广: 14mm 1/1.95\" 5000万 f/2.0 123° | 长焦: 70mm 1/1.28\" 豪威OV52A 2亿 f/2.2 | 超长焦: 230mm 1/2.76\" 三星JNL 5000万 f/3.5",
     "release_date": "2026-04-20",
     "price": 8499
   },
