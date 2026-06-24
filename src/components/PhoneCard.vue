@@ -13,10 +13,15 @@
     </div>
     <div class="card-body">
       <div class="spec-grid">
-        <div v-for="s in specRows" :key="s.l" :class="['spec-cell', { 'colspan-2': s.colspan }]">
-          <div class="label">{{ s.l }}</div>
-          <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) }]">{{ s.v }}</div>
-        </div>
+        <template v-for="s in specRows" :key="s.l">
+          <div v-if="s.section" class="spec-section-divider">
+            <span>{{ s.l }}</span>
+          </div>
+          <div v-else :class="['spec-cell', { 'colspan-2': s.colspan }]">
+            <div class="label">{{ s.l }}</div>
+            <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) }]">{{ s.v }}</div>
+          </div>
+        </template>
       </div>
     </div>
     <div class="card-footer" v-if="featureTagsList.length > 0">
@@ -47,18 +52,17 @@ function onCardClick(e) {
 const specRows = computed(() => {
   const phone = props.phone
   const sc = [
+    // 核心参数
     { l: '处理器', v: phone.processor || '—' },
     { l: '内存/存储', v: (phone.ram && phone.storage) ? simplifyCapacity(phone.ram) + ' + ' + simplifyCapacity(phone.storage) : (simplifyCapacity(phone.ram) || simplifyCapacity(phone.storage) || '—') },
     { l: '屏幕', v: getFoldableScreenDisplay(phone) || '—' },
     { l: '分辨率', v: phone.resolution || '—' },
     { l: '刷新率', v: phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—' },
     { l: '电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
-    { l: '有线充电', v: phone.charging_w ? phone.charging_w + 'W' : '—' },
-    { l: '无线充电', v: phone.wireless_charging_w ? phone.wireless_charging_w + 'W' : '不支持' },
     { l: 'USB', v: phone.usb_version || '—' },
     { l: '重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' }
   ]
-  // 防尘抗水 — 独占一行
+  // 防尘抗水
   const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
   let ipVal = '—'
   if (ipFeats.length > 0) {
@@ -68,13 +72,20 @@ const specRows = computed(() => {
     ipVal = '支持'
   }
   sc.push({ l: '防尘抗水', v: ipVal, colspan: true })
-  // 前置影像
+
+  // ── 充电区块 ──
+  sc.push({ l: '充电', v: '', section: true, colspan: true })
+  sc.push({ l: '有线充电', v: phone.charging_w ? phone.charging_w + 'W' : '—' })
+  sc.push({ l: '无线充电', v: phone.wireless_charging_w ? phone.wireless_charging_w + 'W' : '不支持' })
+
+  // ── 影像区块 ──
+  sc.push({ l: '影像', v: '', section: true, colspan: true })
   const camSpecs = getCameraSpecs(phone)
   const rearSpec = camSpecs.find(s => s.l === '后置')
   const otherSpecs = camSpecs.filter(s => s.l !== '后置')
   otherSpecs.forEach(s => sc.push(s))
-  // 后置跨列最底部
   if (rearSpec) sc.push(rearSpec)
+
   return sc
 })
 
