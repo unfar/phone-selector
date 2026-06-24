@@ -16,7 +16,7 @@ export const textLogoBrands = new Set(['Samsung','OPPO','REDMI','iQOO','HONOR','
 export const largeLogoBrands = new Set(['OPPO','vivo','RedMagic'])
 
 export function getLogoStyle(brand) {
-  return largeLogoBrands.has(brand) ? 'height:32px;width:auto' : 'height:22px;width:auto'
+  return 'height:22px;width:auto'
 }
 
 // ===== 品牌标签颜色 =====
