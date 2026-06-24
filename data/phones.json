@@ -2148,7 +2148,8 @@
     "detailed_camera": "主摄 50MP RYYB f/1.4-F4.0可变光圈 OIS | 超广 40MP f/2.2 | 长焦 50MP 3.5x OIS | 超长焦 50MP 6x OIS | 前置 13MP",
     "release_date": "2025-11",
     "price": 11999,
-    "status": "unreleased"
+    "status": "unreleased",
+    "network_model": "SGU-AL10"
   },
   {
     "id": 63,
@@ -2229,7 +2230,8 @@
     "detailed_camera": "主摄: XMAGE f/1.4 5000万 RYYB | 超广角: 4000万 | 长焦: 潜望 4800万 4x光学",
     "release_date": "2025-11",
     "price": 5999,
-    "thickness_mm": 7.95
+    "thickness_mm": 7.95,
+    "network_model": "SGT-AL50"
   },
   {
     "id": 62,
@@ -2268,7 +2270,8 @@
     "usb_version": "USB 3.1 Gen 1",
     "detailed_camera": "主摄: XMAGE f/1.4 5000万 RYYB | 超广角: 4000万 | 长焦: 潜望 4800万 4x光学",
     "release_date": "2025-11",
-    "price": 5999
+    "price": 5999,
+    "network_model": "SGT-AL50"
   },
   {
     "id": 60,
