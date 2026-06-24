@@ -1263,7 +1263,8 @@
     "price": 8499,
     "ram": "16GB",
     "storage": "1TB",
-    "detailed_camera": "主摄 50MP RYYB f/1.4-F4.0可变光圈 OIS | 超广 40MP f/2.2 | 长焦 50MP 3.5x OIS | 超长焦 50MP 6x OIS | 前置 13MP"
+    "detailed_camera": "主摄 50MP RYYB f/1.4-F4.0可变光圈 OIS | 超广 40MP f/2.2 | 长焦 50MP 3.5x OIS | 超长焦 50MP 6x OIS | 前置 13MP",
+    "network_model": "SGT-AL10"
   },
   {
     "brand": "Apple",
@@ -2191,7 +2192,7 @@
     "release_date": "2025-11",
     "price": 7999,
     "thickness_mm": 8.25,
-    "network_model": "SGT-AL10"
+    "network_model": ""
   },
   {
     "id": 61,
