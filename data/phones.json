@@ -1766,6 +1766,7 @@
     "id": 51,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Ultra",
+    "networkModel": "SLY-AL00",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
