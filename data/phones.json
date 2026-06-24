@@ -1804,6 +1804,7 @@
     "id": 50,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Pro",
+    "networkModel": "KLE-AL00U",
     "processor": "麒麟9010S",
     "screen_size": 6.84,
     "refresh_hz": 120,
