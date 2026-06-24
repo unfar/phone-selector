@@ -1029,7 +1029,8 @@
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: XMAGE可变光圈 f/1.4-4.0 5000万 | 长焦: 潜望 2亿 4x光学",
     "release_date": "2026-04-20",
-    "price": 6499
+    "price": 6499,
+    "network_model": "SCA-AL00"
   },
   {
     "id": 27,
