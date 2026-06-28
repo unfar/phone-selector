@@ -63,10 +63,10 @@ function onCardClick(e) {
 // Spec rows
 const specRows = computed(() => {
   const phone = props.phone
-  const ipFeats = (phone.features || []).filter(f => /IP\d{2}/.test(f))
+  const ipFeats = (phone.features || []).filter(f => /IP[0-9XK]\d/.test(f))
   let ipVal = '—'
   if (ipFeats.length > 0) {
-    const ipLevels = ipFeats.flatMap(f => f.match(/IP\d{2}K?/g) || [])
+    const ipLevels = ipFeats.flatMap(f => f.match(/IP[0-9XK]+\dK?/g) || [])
     if (ipLevels.length > 0) ipVal = [...new Set(ipLevels)].join(' ')
   } else if (phone.tags?.includes('防尘抗水')) {
     ipVal = '支持'
