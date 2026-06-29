@@ -40,7 +40,7 @@ const logoStyle = getLogoStyle(props.phone.brand)
 const isSelected = computed(() => compareList.value.includes(props.phone.id))
 
 // 判断是否为未发布机型，显示发布时间
-const today = '2026-06-24'
+const today = new Date().toISOString().split('T')[0]
 const isFutureRelease = computed(() => {
   const rd = props.phone.release_date
   return rd && rd.length >= 10 && rd >= today
