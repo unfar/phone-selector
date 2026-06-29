@@ -49,14 +49,14 @@
     "has_tele": true,
     "os": "OriginOS 6 Fold",
     "features": [
-      "IPX8",
-      "IPX9",
-      "IP5X",
       "侧边指纹",
       "X轴线性马达",
       "立体双扬声器",
       "-20°C防冻",
-      "全焦段变焦闪光灯"
+      "全焦段变焦闪光灯",
+      "防尘: IP5X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.2",
@@ -111,10 +111,10 @@
       "90W快充",
       "NFC",
       "红外遥控",
-      "IP68",
-      "IP69",
-      "IP69K",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "10000mAh+",
@@ -157,13 +157,16 @@
     "os": "MagicOS 10.0 (Android 16)",
     "screen_form": "直屏",
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "8560mAh超大电池",
       "3840Hz PWM调光",
       "红外遥控",
       "NFC",
       "立体声双扬声器",
-      "卫星通信"
+      "卫星通信",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "6500mAh+",
@@ -199,11 +202,14 @@
     "os": "ColorOS 16",
     "screen_form": "直屏",
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "80W超级闪充",
-      "8000mAh超大电池"
+      "8000mAh超大电池",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "防尘抗水",
@@ -274,11 +280,12 @@
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
     "features": [
-      "IP68防尘抗水",
       "超声波屏下指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "天玑9500",
@@ -316,11 +323,12 @@
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
     "features": [
-      "IP68防尘抗水",
       "光学屏下指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "天玑8500",
@@ -364,10 +372,11 @@
       "红外",
       "侧边指纹",
       "昆仑玻璃",
-      "IP68",
-      "IP69",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "麒麟9010S",
@@ -412,9 +421,10 @@
       "红外",
       "侧边指纹",
       "昆仑玻璃",
-      "IP65",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "防尘: IP6X",
+      "防水: IPX5"
     ],
     "tags": [
       "麒麟9010S",
@@ -572,10 +582,11 @@
     "has_tele": false,
     "screen_form": "直屏",
     "features": [
-      "IP68",
-      "IP69",
       "立体声双扬声器",
-      "超声波指纹2.0"
+      "超声波指纹2.0",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "6500mAh+",
@@ -611,11 +622,14 @@
     "os": "MagicOS 10 (Android 16)",
     "screen_form": "直屏",
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "10000mAh超大电池",
       "3840Hz PWM调光",
       "红外遥控",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "大电池",
@@ -666,9 +680,12 @@
       "2亿微云台主摄",
       "山海通信增强芯片",
       "纳米冰晶散热",
-      "IP66/IP68/IP69防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25"
@@ -708,12 +725,14 @@
     "features": [
       "4K闪光微单Live",
       "2亿微云台主摄",
-      "IP68/IP69",
       "青海湖大电池",
       "3840Hz PWM调光",
       "三重星光幻彩设计",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25"
@@ -753,9 +772,12 @@
       "AI一键闪记",
       "山海通信增强芯片",
       "纳米冰晶散热",
-      "IP66/IP68/IP69防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25"
@@ -793,11 +815,13 @@
     ],
     "features": [
       "4K闪光微单Live",
-      "IP68/IP69",
       "青海湖大电池",
       "3840Hz PWM调光",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25"
@@ -872,9 +896,11 @@
       "红外"
     ],
     "features": [
-      "IP68/IP69防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-20"
@@ -977,11 +1003,12 @@
     "screen_form": "直屏",
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68防尘抗水",
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "红外",
@@ -1018,10 +1045,11 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "IP66防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "防尘抗水",
@@ -1059,9 +1087,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -1097,10 +1126,11 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "IP66防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "防尘抗水",
@@ -1139,9 +1169,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -1177,9 +1208,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -1215,8 +1247,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.0",
@@ -1255,8 +1288,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "潜望长焦",
@@ -1290,9 +1324,10 @@
     "usb_version": "USB 3.1 Gen 1",
     "os": "HarmonyOS",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 32,
@@ -1328,7 +1363,8 @@
     "features": [
       "NFC",
       "Face ID",
-      "IP68"
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 33,
@@ -1369,8 +1405,9 @@
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -1470,9 +1507,10 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1509,9 +1547,10 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1550,9 +1589,10 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1599,10 +1639,11 @@
     "has_tele": false,
     "os": "ColorOS 15",
     "features": [
-      "IP69防尘抗水",
       "NFC",
       "80W闪充",
-      "7000mAh"
+      "7000mAh",
+      "防尘: IP6X",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -1700,7 +1741,8 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "IP64防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX4"
     ],
     "tags": [
       "6500mAh+",
@@ -1732,10 +1774,11 @@
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "红外",
@@ -1773,8 +1816,9 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2060,10 +2104,11 @@
     "has_tele": true,
     "usb_version": "USB 2.0",
     "features": [
-      "IP68",
-      "IP69",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -2099,10 +2144,11 @@
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
-      "IP68",
-      "IP69",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "防尘抗水",
@@ -2185,9 +2231,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2226,9 +2273,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2267,9 +2315,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2308,9 +2357,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2348,9 +2398,10 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2426,9 +2477,10 @@
     "os": "",
     "features": [
       "NFC",
-      "IP66防尘抗水",
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -2502,10 +2554,11 @@
     "os": "",
     "features": [
       "NFC",
-      "IP66防尘抗水",
-      "IP68防尘抗水",
-      "IP69防尘抗水",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -2579,10 +2632,11 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "IP66防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "防尘抗水",
@@ -2620,10 +2674,11 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "IP66防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "防尘抗水",
@@ -2738,8 +2793,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "潜望长焦",
@@ -2778,8 +2834,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.0",
@@ -2817,10 +2874,11 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外",
-      "自研电竞芯片 Q3"
+      "自研电竞芯片 Q3",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "散热风扇",
@@ -2860,9 +2918,10 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -2894,11 +2953,14 @@
     "camera_desc": "后置5000万广角+5000万长焦(3.5x潜望) | 前置1600万像素",
     "has_tele": true,
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "3D超声波指纹",
-      "双扬声器"
+      "双扬声器",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 73,
@@ -2943,11 +3005,12 @@
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
-      "IP68防尘抗水",
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "红外",
@@ -2986,11 +3049,12 @@
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
-      "IP68防尘抗水",
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -3030,11 +3094,12 @@
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
-      "IP68防尘抗水",
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "红外",
@@ -3067,10 +3132,11 @@
     "camera_desc": "4800万主摄 | 4800万超广角 | 1200万潜望式10倍长焦",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 86,
@@ -3105,10 +3171,11 @@
     "camera_desc": "48MP主摄 IMX903 1/1.14 f/1.78 | 48MP超广角 | 48MP潜望长焦(5x)",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 85,
@@ -3143,9 +3210,10 @@
     "camera_desc": "4800万主摄 f/1.6 OIS",
     "has_tele": false,
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 84,
@@ -3180,10 +3248,11 @@
     "camera_desc": "48MP主摄 f/1.6 | 48MP超广角 | 48MP长焦(5x光学)",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 83,
@@ -3325,11 +3394,12 @@
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外遥控",
       "5G",
-      "徕卡影像"
+      "徕卡影像",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "红外",
@@ -3392,9 +3462,12 @@
     "camera_desc": "50MP主摄 + 50MP超广角 + 潜望长焦",
     "has_tele": true,
     "features": [
-      "IP66/IP68/IP69/IP69防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 90,
@@ -3431,11 +3504,13 @@
     "camera_desc": "后置5000万GR主摄+5000万超广角+2亿潜望长焦 | 前置3200万像素",
     "has_tele": true,
     "features": [
-      "IP68/IP69防尘抗水",
       "NFC",
       "红外遥控",
       "3D超声波指纹",
-      "双扬声器"
+      "双扬声器",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 91,
@@ -3587,10 +3662,12 @@
     "os": "MagicOS 9.0.1 (Android 15)",
     "screen_form": "折叠屏",
     "features": [
-      "IP58/IP59防尘抗水",
       "200MP主摄",
       "折叠屏",
-      "外屏4.0寸"
+      "外屏4.0寸",
+      "防尘: IP5X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "折叠屏",
@@ -3642,9 +3719,12 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 102,
@@ -3683,10 +3763,11 @@
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
-      "IP68",
-      "IP69",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -3724,8 +3805,9 @@
     "features": [
       "NFC",
       "红外",
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -3752,11 +3834,13 @@
     "camera_desc": "后置5000万GR主摄+800万超广角+5000万潜望长焦 | 前置1600万像素",
     "has_tele": true,
     "features": [
-      "IP68/IP69防尘抗水",
       "NFC",
       "红外遥控",
       "3D超声波指纹",
-      "双扬声器"
+      "双扬声器",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 99,
@@ -3792,11 +3876,14 @@
     "camera_desc": "后置5000万主摄+800万超广角 | 前置1600万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "屏下超声指纹",
-      "双扬声器"
+      "双扬声器",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 98,
@@ -3930,8 +4017,9 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -3978,8 +4066,9 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -4072,8 +4161,9 @@
     "has_tele": false,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -4121,8 +4211,9 @@
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -4234,7 +4325,8 @@
     "os": "",
     "features": [
       "NFC",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -4270,8 +4362,9 @@
     "os": "",
     "features": [
       "NFC",
-      "IP69防尘抗水",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -4339,8 +4432,9 @@
     "os": "",
     "features": [
       "NFC",
-      "IP69防尘抗水",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX9"
     ],
     "tags": [
       "6500mAh+",
@@ -4369,11 +4463,14 @@
     "camera_desc": "后置5000万索尼主摄 | 前置1600万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "电竞三芯",
-      "双扬声器"
+      "双扬声器",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 105,
@@ -4407,11 +4504,14 @@
     "camera_desc": "后置5000万主摄+800万超广角 | 前置1600万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69/IP69K防尘抗水",
       "NFC",
       "红外遥控",
       "屏下超声指纹",
-      "双扬声器"
+      "双扬声器",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 104,
@@ -4453,8 +4553,9 @@
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
-      "IP68防尘抗水",
-      "XMAGE影像"
+      "XMAGE影像",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "USB3.0",
@@ -4889,9 +4990,12 @@
     "camera_desc": "后置5000万主摄 | 前置800万像素",
     "has_tele": false,
     "features": [
-      "IP66/IP68/IP69/IP69防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "screen_form": "直屏",
     "id": 119,
@@ -5095,9 +5199,10 @@
     "has_tele": true,
     "os": "ColorOS 15",
     "features": [
-      "IP65防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX5"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5207,8 +5312,9 @@
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
-      "IP67",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX7"
     ],
     "tags": [
       "NFC",
@@ -5302,8 +5408,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -5350,8 +5457,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68防尘抗水",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5396,10 +5504,11 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
       "NFC",
       "红外",
-      "S Pen"
+      "S Pen",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5436,8 +5545,9 @@
     "has_tele": false,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5477,10 +5587,11 @@
     "has_tele": true,
     "os": "MagicOS",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.0",
@@ -5516,8 +5627,9 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5555,8 +5667,9 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5597,8 +5710,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "轻薄",
@@ -5667,8 +5781,9 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "中低端芯片",
@@ -5706,8 +5821,9 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "轻薄",
@@ -5773,8 +5889,9 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "中低端芯片",
@@ -5841,8 +5958,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "潜望长焦",
@@ -5877,8 +5995,9 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "中低端芯片",
@@ -6101,9 +6220,10 @@
     "has_tele": false,
     "os": "ColorOS 15",
     "features": [
-      "IP65防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX5"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -6171,10 +6291,11 @@
     "has_tele": false,
     "os": "ColorOS 15 / Android 15",
     "features": [
-      "IP65防尘抗水",
       "NFC",
       "红外遥控",
-      "屏下光学指纹"
+      "屏下光学指纹",
+      "防尘: IP6X",
+      "防水: IPX5"
     ],
     "tags": [
       "NFC",
@@ -6357,9 +6478,10 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "features": [
-      "IP65防尘抗水",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "防尘: IP6X",
+      "防水: IPX5"
     ],
     "screen_form": "直屏",
     "id": 164,
@@ -6400,11 +6522,12 @@
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外",
       "卫星通信",
-      "陶瓷后盖"
+      "陶瓷后盖",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -6442,11 +6565,12 @@
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外",
       "卫星通信",
-      "玄武架构"
+      "玄武架构",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -6514,10 +6638,11 @@
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外",
-      "卫星通信"
+      "卫星通信",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "防尘抗水",
@@ -6552,9 +6677,10 @@
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 179,
@@ -6595,10 +6721,11 @@
     "has_tele": false,
     "os": "HarmonyOS 4.3",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外",
-      "卫星通信"
+      "卫星通信",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "USB3.0",
@@ -6636,8 +6763,9 @@
     "has_tele": true,
     "os": "realme UI 6.0",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -6777,9 +6905,10 @@
     "has_tele": true,
     "os": "ColorOS 15",
     "features": [
-      "IP66防尘抗水",
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.0",
@@ -6851,10 +6980,11 @@
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -6891,8 +7021,9 @@
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "潜望长焦",
@@ -6930,10 +7061,11 @@
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -6972,9 +7104,10 @@
     "os": "",
     "features": [
       "NFC",
-      "IP66防尘抗水",
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -7009,10 +7142,12 @@
     "has_tele": true,
     "os": "ColorOS 15",
     "features": [
-      "IP68/IP69防尘抗水",
       "NFC",
       "红外",
-      "无线充电"
+      "无线充电",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7050,10 +7185,11 @@
     "has_tele": true,
     "os": "MagicOS",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "无线充电",
@@ -7126,8 +7262,9 @@
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "潜望长焦",
@@ -7199,9 +7336,10 @@
     "has_tele": true,
     "os": "ColorOS 15",
     "features": [
-      "IP66防尘抗水",
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.0",
@@ -7238,8 +7376,9 @@
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "潜望长焦",
@@ -7277,9 +7416,10 @@
     "os": "",
     "features": [
       "NFC",
-      "IP66防尘抗水",
-      "IP68防尘抗水",
-      "IP69防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX6",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -7316,10 +7456,11 @@
     "has_tele": true,
     "os": "MagicOS",
     "features": [
-      "IP68防尘抗水",
-      "IP69防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "USB3.0",
@@ -7392,11 +7533,12 @@
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
-      "IP68防尘抗水",
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7494,10 +7636,11 @@
     "camera_desc": "主摄 索尼IMX903 48MP f/1.78 | 超广 48MP | 长焦 潜望 48MP 5x",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 206,
@@ -7532,10 +7675,11 @@
     "camera_desc": "主摄 索尼IMX903 48MP f/1.78 | 超广 48MP | 长焦 潜望 48MP 5x",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 205,
@@ -7572,9 +7716,10 @@
     "camera_desc": "4800万主摄 | 1200万超广角",
     "has_tele": false,
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 204,
@@ -7608,9 +7753,10 @@
     "camera_desc": "48MP主摄 + 48MP超广角 + 12MP长焦(5x)",
     "has_tele": false,
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 203,
@@ -7684,9 +7830,10 @@
     "has_tele": false,
     "os": "",
     "features": [
-      "IP65防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX5"
     ],
     "tags": [
       "NFC",
@@ -7846,8 +7993,9 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7988,8 +8136,9 @@
     "has_tele": false,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -8609,8 +8758,9 @@
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
-      "IP67",
-      "NFC"
+      "NFC",
+      "防尘: IP6X",
+      "防水: IPX7"
     ],
     "tags": [
       "NFC"
@@ -8670,9 +8820,10 @@
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
-      "IP68",
       "NFC",
-      "S Pen"
+      "S Pen",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -8754,8 +8905,9 @@
     "features": [
       "NFC",
       "红外",
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -8779,7 +8931,8 @@
     "camera_desc": "5000万主摄 | 5000万3.5倍长焦",
     "has_tele": true,
     "features": [
-      "IP68防尘抗水"
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "screen_form": "直屏",
     "id": 239,
@@ -8822,8 +8975,9 @@
     "features": [
       "NFC",
       "红外",
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "NFC",
@@ -8919,8 +9073,9 @@
     "has_tele": true,
     "os": "",
     "features": [
-      "IP68",
-      "IP69"
+      "防尘: IP6X",
+      "防水: IPX8",
+      "防水: IPX9"
     ],
     "tags": [
       "中低端芯片",
@@ -9020,9 +9175,10 @@
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
-      "IP68防尘抗水",
       "NFC",
-      "红外"
+      "红外",
+      "防尘: IP6X",
+      "防水: IPX8"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9119,7 +9275,8 @@
     "has_tele": false,
     "os": "HarmonyOS 6.0",
     "features": [
-      "IP64"
+      "防尘: IP6X",
+      "防水: IPX4"
     ],
     "tags": [
       "NFC",
