@@ -43,7 +43,7 @@ const isSelected = computed(() => compareList.value.includes(props.phone.id))
 const today = new Date().toISOString().split('T')[0]
 const isFutureRelease = computed(() => {
   const rd = props.phone.release_date
-  return rd && rd.length >= 10 && rd >= today
+  return rd && rd.length >= 10 && rd > today
 })
 const headerBadge = computed(() => {
   if (isFutureRelease.value) {
