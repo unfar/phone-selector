@@ -2486,10 +2486,11 @@
       "NFC",
       "红外",
       "6500mAh+",
-      "散热风扇"
+      "散热风扇",
+      "有线投屏"
     ],
     "screen_form": "直屏",
-    "usb_version": "USB 3.2 Gen 1",
+    "usb_version": "USB 3.2 Gen 1 (支持DP视频输出)",
     "detailed_camera": "主摄: 50MP 光影猎人800 1/1.55\" f/1.68 OIS | 超广: 8MP f/2.2 | 前置: 20MP",
     "release_date": "2026-06-30",
     "price": 2999
