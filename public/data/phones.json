@@ -2459,6 +2459,42 @@
     "price": 3999
   },
   {
+    "id": 257,
+    "brand": "REDMI",
+    "model": "Redmi K90 Ultra",
+    "processor": "骁龙8 至尊版",
+    "screen_size": 6.83,
+    "refresh_hz": 165,
+    "screen_type": "AMOLED",
+    "resolution": "2772×1280",
+    "ram": "12GB / 16GB LPDDR5X",
+    "storage": "256GB / 512GB UFS4.1",
+    "battery_mah": 8550,
+    "charging_w": 100,
+    "wireless_charging_w": 0,
+    "weight_g": 227,
+    "camera_desc": "50MP光影猎人800主摄 f/1.68 OIS | 8MP超广角",
+    "has_tele": false,
+    "os": "Xiaomi HyperOS 3",
+    "features": [
+      "NFC",
+      "红外遥控",
+      "5G"
+    ],
+    "tags": [
+      "骁龙8 至尊版",
+      "NFC",
+      "红外",
+      "6500mAh+",
+      "散热风扇"
+    ],
+    "screen_form": "直屏",
+    "usb_version": "USB 3.2 Gen 1",
+    "detailed_camera": "主摄: 50MP 光影猎人800 1/1.55\" f/1.68 OIS | 超广: 8MP f/2.2 | 前置: 20MP",
+    "release_date": "2026-06",
+    "price": 2999
+  },
+  {
     "id": 58,
     "brand": "OPPO",
     "model": "OPPO Reno14 Pro",
