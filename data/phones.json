@@ -1,37 +1,5 @@
 [
   {
-    "id": 251,
-    "brand": "Huawei",
-    "model": "华为畅享90ProMax",
-    "network_model": "CHZ-AL00",
-    "processor": "麒麟8000",
-    "screen_size": 6.84,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2756×1272",
-    "ram": "8GB",
-    "storage": "128GB/256GB/512GB",
-    "battery_mah": 8500,
-    "charging_w": 40,
-    "weight_g": 232,
-    "camera_desc": "50MP超感知主摄",
-    "has_tele": false,
-    "os": "HarmonyOS 6.0",
-    "features": [],
-    "tags": [
-      "NFC",
-      "红外",
-      "麒麟8000",
-      "单摄"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP F1.9 RYYB | 前置: 8MP F2.0",
-    "release_date": "2026-06",
-    "price": 1699
-  },
-  {
     "id": 250,
     "brand": "vivo",
     "model": "vivo X Fold6",
@@ -9422,5 +9390,44 @@
     "price": 799,
     "source_url": "https://news.mydrivers.com/1/1131/1131426.htm",
     "verified_at": "2026-06-28"
+  },
+  {
+    "id": 258,
+    "brand": "iQOO",
+    "model": "iQOO Z11i",
+    "processor": "骁龙4 Gen 2",
+    "screen_size": 6.74,
+    "refresh_hz": 120,
+    "screen_type": "LCD",
+    "resolution": "HD+ (1604×720)",
+    "ram": "6GB/8GB LPDDR4X",
+    "storage": "128GB/256GB UFS 3.1",
+    "battery_mah": 6500,
+    "charging_w": 15,
+    "wireless_charging_w": 0,
+    "weight_g": 205,
+    "camera_desc": "13MP主摄 | 5MP前置",
+    "has_tele": false,
+    "os": "OriginOS 6 (Android 16)",
+    "features": [
+      "侧边指纹",
+      "3.5mm耳机孔",
+      "双卡5G",
+      "防尘: IP6X",
+      "防水: IPX5"
+    ],
+    "tags": [
+      "骁龙4 Gen 2",
+      "6500mAh+",
+      "3.5mm耳机孔",
+      "防尘抗水"
+    ],
+    "screen_form": "直屏",
+    "usb_version": "USB Type-C",
+    "detailed_camera": "主摄: 13MP | 前置: 5MP 水滴屏",
+    "release_date": "2026-07-03",
+    "price": 1299,
+    "source_url": "https://www.gsmarena.com/iqoo_z11i_debuts_with_a_6500mah_battery_snapdragon_4_gen_2_soc-news-65950.php",
+    "verified_at": "2026-07-05"
   }
 ]
