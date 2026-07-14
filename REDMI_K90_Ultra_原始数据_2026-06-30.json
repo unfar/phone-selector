@@ -1,0 +1,29 @@
+{
+  "source": "小米商城官网 - https://www.mi.com/shop/buy/detail?product_id=24933",
+  "scrape_time": "2026-06-30T16:00:00+08:00",
+  "phone": {
+    "model": "REDMI K90 至尊版",
+    "processor": "骁龙8 至尊版",
+    "screen": "6.83\" AMOLED 直屏 2772×1280 165Hz",
+    "dimensions": "162.91×77.93×8.18mm",
+    "weight": "227g",
+    "ram": "12GB/16GB LPDDR5X",
+    "storage": "256GB/512GB UFS 4.1",
+    "battery": "8550mAh",
+    "charging": "100W有线 / 22.5W有线反充",
+    "main_camera": "50MP 光影猎人800 f/1.68 1/1.55\" OIS",
+    "ultrawide": "8MP f/2.2",
+    "front": "20MP",
+    "os": "Xiaomi HyperOS 3",
+    "protection": "IP66/IP68/IP69",
+    "colors": "太空银/天际蓝/暗影黑",
+    "audio": "对称式立体声双扬声器 (Bose调音)",
+    "sensors": "3D超声波指纹, X轴线性马达, NFC, 红外遥控",
+    "pricing": {
+      "12GB+256GB": "¥2799首销 / ¥2379.15国补",
+      "16GB+256GB": "¥2799首销 / ¥2379.15国补",
+      "12GB+512GB": "¥3299首销 / ¥2804.15国补",
+      "16GB+512GB": "¥3499首销 / ¥2999国补"
+    }
+  }
+}
