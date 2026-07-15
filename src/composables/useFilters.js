@@ -20,6 +20,7 @@ export const selectedScreen = ref(null)
 export const selectedCpu = reactive(new Set())
 export const selectedTags = reactive(new Set())
 export const selectedScreenSizes = reactive(new Set())
+export const selectedProtocols = reactive(new Set())
 export const currentSort = ref('newest')
 export const searchQuery = ref('')
 
@@ -50,6 +51,7 @@ export function updateHash() {
     params.set('price', priceStr)
   }
   if (selectedScreenSizes.size > 0) params.set('screenSize', [...selectedScreenSizes].join(','))
+  if (selectedProtocols.size > 0) params.set('proto', [...selectedProtocols].join(','))
   if (currentSort.value !== 'newest') params.set('sort', currentSort.value)
   if (searchQuery.value) params.set('q', searchQuery.value)
   history.replaceState(null, '', `#${params.toString()}`)
@@ -68,6 +70,8 @@ export function restoreStateFromHash() {
   if (tags) tags.split(',').forEach(t => selectedTags.add(t))
   const screenSizes = params.get('screenSize')
   if (screenSizes) screenSizes.split(',').forEach(s => selectedScreenSizes.add(s))
+  const proto = params.get('proto')
+  if (proto) proto.split(',').forEach(t => selectedProtocols.add(t))
   const price = params.get('price')
   if (price) {
     const parts = price.split('-')
@@ -119,6 +123,12 @@ export function matchesFilters(p) {
     }
     if (!inSize) return false
   }
+  if (selectedProtocols.size > 0) {
+    const protos = p.charge_protocols || []
+    for (let t of selectedProtocols) {
+      if (!protos.includes(t)) return false
+    }
+  }
   return true
 }
 
@@ -168,5 +178,6 @@ export function clearAllFilters() {
   priceMin.value = 0
   priceMax.value = sliderMaxPrice.value
   selectedScreenSizes.clear()
+  selectedProtocols.clear()
   updateHash()
 }

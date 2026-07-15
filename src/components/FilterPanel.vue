@@ -38,6 +38,14 @@
           @click="toggleTag(t)">{{ t }}</span>
       </div>
     </div>
+    <!-- Charge Protocol -->
+    <div class="filter-section" :class="{ collapsed: collapsed.has('proto') }">
+      <div class="filter-label" @click="toggle('proto')">🔌 充电协议 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（需全部满足·可多选）</span></div>
+      <div class="filter-tags">
+        <span v-for="t in protocolTags" :key="t" :class="['tag', 'proto', { active: selectedProtocols.has(t) }]"
+          @click="toggleProto(t)">{{ t }}</span>
+      </div>
+    </div>
     <!-- Price -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('price') }">
       <div class="filter-label" @click="toggle('price')">💰 价格区间 <span class="arrow">▼</span></div>
@@ -56,9 +64,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import { selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, searchQuery, brandList, updateHash } from '../composables/useFilters.js'
+import { selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, selectedProtocols, searchQuery, brandList, updateHash } from '../composables/useFilters.js'
 
-import { featureTags, screenTypes, screenSizeRanges, cpuTags, getEnglishBrand } from '../utils.js'
+import { featureTags, screenTypes, screenSizeRanges, cpuTags, getEnglishBrand, protocolTags } from '../utils.js'
 import PriceSlider from './PriceSlider.vue'
 
 const collapsed = ref(new Set())
@@ -93,6 +101,11 @@ function selectScreen(s) {
 function toggleScreenSize(name) {
   selectedScreenSizes.has(name) ? selectedScreenSizes.delete(name) : selectedScreenSizes.add(name)
   if (selectedScreen.value === '🔄 折叠屏') selectedScreen.value = null
+  updateHash()
+}
+
+function toggleProto(t) {
+  selectedProtocols.has(t) ? selectedProtocols.delete(t) : selectedProtocols.add(t)
   updateHash()
 }
 

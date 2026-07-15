@@ -96,6 +96,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .tag.active.brand-active-Motorola:hover,
 .tag.active.brand-active-Lenovo:hover,
 .tag.cpu{background:#fef3c7;color:#92400e;border-color:#fde68a}
+.tag.proto{background:#ecfdf5;color:#047857;border-color:#a7f3d0}
 
 /* ===== Price Dual Slider (compact) ===== */
 .price-slider-container{padding:2px 0}

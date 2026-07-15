@@ -19,7 +19,7 @@
           </div>
           <div v-else :class="['spec-cell', { 'colspan-2': s.colspan }]">
             <div class="label">{{ s.l }}</div>
-            <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) }]">{{ s.v }}</div>
+            <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) || s.proto }]">{{ s.v }}</div>
           </div>
         </template>
       </div>
@@ -90,6 +90,10 @@ const specRows = computed(() => {
     { l: '🎯 分辨率/刷新率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
     // 充电（合并有线+无线）
     { l: '⚡ 充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
+    // 充电协议（来自充电头网实测）
+    ...(phone.charge_protocols && phone.charge_protocols.length > 0
+      ? [{ l: '🔌 充电协议', v: phone.charge_protocols.join(' · '), colspan: true, proto: true }]
+      : []),
   ]
   const camSpecs = getCameraSpecs(phone)
   const rearSpec = camSpecs.find(s => s.l === '后置')
