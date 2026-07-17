@@ -1,23 +1,14 @@
 <template>
-  <div class="hero-panel">
-    <div class="hero-icon">📱</div>
-    <h1>智能手机选购助手</h1>
-    <div class="hero-subtitle">基于官方数据 · 多维度筛选 · 找到最适合你的手机</div>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="hero-stat-num" id="statPhones">{{ phones.length }}</span>
-        <span class="hero-stat-label">款机型</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-num" id="statBrands">{{ brandCount }}</span>
-        <span class="hero-stat-label">个品牌</span>
-      </div>
-      <div class="hero-stat hero-stat-date">
-        <span>📅</span>
-        <span>数据截至 2026年7月14日</span>
-      </div>
+  <div class="hero-strip">
+    <div class="hero-copy">
+      <h2>找到适合你的手机</h2>
+      <p>国行在售 · 官方参数 · 多维筛选对比</p>
     </div>
-    <div class="hero-notice">📌 本网站仅收录中国大陆国行在售机型，不涉及海外/港澳台版本</div>
+    <div class="hero-pills">
+      <div class="hero-pill"><strong>{{ phones.length }}</strong> <span>款机型</span></div>
+      <div class="hero-pill"><strong>{{ brandCount }}</strong> <span>个品牌</span></div>
+      <div class="hero-pill"><span>数据截至 2026-07-14</span></div>
+    </div>
   </div>
 </template>
 
