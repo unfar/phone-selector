@@ -57,8 +57,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .filter-label:hover{color:var(--primary)}
 .filter-label .arrow{font-size:.6rem;transition:transform .2s ease;margin-left:4px;display:inline-block}
 .filter-section.collapsed .arrow{transform:rotate(-90deg)}
-.filter-section.collapsed .filter-tags{display:none}
-.filter-count{font-weight:400;text-transform:none;color:var(--text-muted);font-size:.75rem}
+.filter-section.collapsed .filter-tags,
+.filter-section.collapsed .filter-body{display:none}
+.filter-count{font-weight:400;text-transform:none;color:var(--primary);font-size:.75rem;margin-left:2px}
+.filter-hint{font-weight:400;text-transform:none;color:var(--text-muted);font-size:.72rem;margin-left:4px}
 .filter-tags{display:flex;flex-wrap:wrap;gap:8px}
 
  .tag{padding:6px 16px;border-radius:var(--radius-full);font-size:.85rem;font-weight:500;cursor:pointer;transition:all .15s ease;border:1.5px solid var(--border);background:var(--bg);color:var(--text-secondary);user-select:none}
@@ -155,9 +157,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .sort-select{padding:8px 16px;border:1.5px solid var(--border);border-radius:var(--radius-full);font-size:.85rem;background:var(--card-bg);cursor:pointer;outline:none}.sort-select:focus{border-color:var(--primary)}
 
 /* ===== Compare Mode Button ===== */
-.compare-mode-btn{padding:8px 16px;border:1.5px solid var(--primary);border-radius:var(--radius-full);font-size:.85rem;background:transparent;color:var(--primary);cursor:pointer;transition:all .15s}
+.compare-mode-btn{padding:8px 16px;border:1.5px solid var(--primary);border-radius:var(--radius-full);font-size:.85rem;background:transparent;color:var(--primary);cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px}
 .compare-mode-btn:hover{background:var(--primary-light)}
 .compare-mode-btn.active{background:var(--primary);color:#fff}
+.compare-count-badge{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--primary);color:#fff;font-size:.72rem;font-weight:700;line-height:1}
+.compare-mode-btn.active .compare-count-badge{background:rgba(255,255,255,.25)}
 
 /* ===== Phone Grid ===== */
 .phone-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
@@ -203,9 +207,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .brand-logo{height:22px;width:auto;display:block}
 .brand-text-logo{font-size:14px;font-weight:700;color:#fff;letter-spacing:1px;white-space:nowrap}
 .unsupported{color:#ef4444!important;font-size:.78rem;font-weight:700}
-/* ===== Price Badge (glass on header) ===== */
-.price-badge{position:absolute;top:12px;right:12px;z-index:1;border-radius:var(--radius-full);padding:3px 12px;font-size:.78rem;font-weight:700;white-space:nowrap;background:rgba(255,255,255,.2);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(255,255,255,.25)}
+/* ===== Price Badge：统一玻璃白字（贴在品牌彩色头上） ===== */
+.price-badge{position:absolute;top:12px;right:12px;z-index:1;border-radius:var(--radius-full);padding:3px 12px;font-size:.8rem;font-weight:700;white-space:nowrap;background:rgba(255,255,255,.22);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#fff;border:1px solid rgba(255,255,255,.28);box-shadow:0 1px 4px rgba(0,0,0,.08)}
+/* 浅色品牌头（OPPO/iQOO/realme）用深色价签保证可读 */
+.brand-header-OPPO .price-badge,
+.brand-header-iQOO .price-badge,
+.brand-header-realme .price-badge{background:rgba(0,0,0,.18);color:#111;border-color:rgba(0,0,0,.12)}
 .release-badge{background:rgba(251,191,36,.35);border-color:rgba(251,191,36,.5);color:#fbbf24}
+.brand-header-OPPO .release-badge,
+.brand-header-iQOO .release-badge,
+.brand-header-realme .release-badge{background:rgba(180,83,9,.18);color:#92400e;border-color:rgba(180,83,9,.3)}
 
 /* ===== Phone Name on Brand Header ===== */
 .card-header .phone-name{font-size:.9rem;font-weight:700;color:#fff;text-align:center;line-height:1.3;text-shadow:0 1px 4px rgba(0,0,0,.15);max-width:90%;margin:0 auto}
@@ -229,7 +240,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Ne
 .phone-card.brand-border-RedMagic{border-color:rgba(185,28,28,.6)}
 .phone-card.brand-border-Motorola{border-color:rgba(212,61,45,.6)}
 .phone-card.brand-border-Lenovo{border-color:rgba(212,61,45,.6)}
-.price-badge{padding:3px 10px;border-radius:var(--radius-full);font-size:.8rem;font-weight:700;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;white-space:nowrap}
 .card-body{padding:16px 20px;flex:1}
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .spec-cell{padding:8px 10px;text-align:center;background:rgba(0,0,0,.03);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:var(--radius-sm);border:1px solid rgba(0,0,0,.04)}

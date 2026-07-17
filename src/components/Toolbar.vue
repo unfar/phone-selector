@@ -1,8 +1,18 @@
 <template>
   <div class="toolbar">
-    <div class="result-info">共 <strong>{{ resultCount }}</strong> 款符合条件</div>
+    <div class="result-info">
+      <template v-if="isFiltered">
+        筛选后 <strong>{{ resultCount }}</strong> / {{ totalCount }} 款
+      </template>
+      <template v-else>
+        共 <strong>{{ resultCount }}</strong> 款符合条件
+      </template>
+    </div>
     <div class="toolbar-right">
-      <button class="compare-mode-btn" @click="openCompare">📊 机型对比</button>
+      <button :class="['compare-mode-btn', { active: compareList.length > 0 }]" @click="openCompare">
+        📊 机型对比
+        <span v-if="compareList.length" class="compare-count-badge">{{ compareList.length }}</span>
+      </button>
       <select class="sort-select" v-model="currentSort" @change="onSortChange">
         <option value="newest">🆕 最新发布</option>
         <option value="price_asc">💰 价格低 ↑</option>
@@ -18,8 +28,27 @@
 </template>
 
 <script setup>
-import { resultCount, currentSort, updateHash } from '../composables/useFilters.js'
+import { computed } from 'vue'
+import {
+  resultCount, currentSort, updateHash, phones,
+  selectedBrands, selectedScreen, selectedCpu, selectedTags,
+  selectedScreenSizes, selectedProtocols, searchQuery, priceMin, priceMax, sliderMaxPrice
+} from '../composables/useFilters.js'
 import { compareList } from '../composables/useCompare.js'
+
+const totalCount = computed(() => phones.value.length)
+
+const isFiltered = computed(() => !!(
+  searchQuery.value ||
+  selectedBrands.size ||
+  selectedScreen.value ||
+  selectedCpu.size ||
+  selectedTags.size ||
+  selectedScreenSizes.size ||
+  selectedProtocols.size ||
+  priceMin.value > 0 ||
+  priceMax.value < sliderMaxPrice.value
+))
 
 function onSortChange() {
   updateHash()
@@ -27,14 +56,15 @@ function onSortChange() {
 
 function openCompare() {
   if (compareList.value.length >= 2) {
-    // Emit event or trigger compare panel
     document.getElementById('comparePanel').style.display = 'flex'
   } else {
     const existing = document.querySelector('.compare-toast')
     if (existing) existing.remove()
     const toast = document.createElement('div')
     toast.className = 'compare-toast'
-    toast.textContent = '请先选择至少 2 款手机进行对比'
+    toast.textContent = compareList.value.length === 0
+      ? '请先点击卡片选择至少 2 款手机'
+      : '再选 1 款即可开始对比'
     document.body.appendChild(toast)
     setTimeout(() => toast.remove(), 2500)
   }

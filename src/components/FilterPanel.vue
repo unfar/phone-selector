@@ -8,7 +8,7 @@
     </div>
     <!-- Brand -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('brand') }">
-      <div class="filter-label" @click="toggle('brand')">🏢 品牌 <span class="arrow">▼</span></div>
+      <div class="filter-label" @click="toggle('brand')">🏢 品牌 <span v-if="selectedBrands.size" class="filter-count">({{ selectedBrands.size }})</span> <span class="arrow">▼</span></div>
       <div class="filter-tags">
         <span v-for="b in brandList" :key="b" :class="brandTagClass(b)"
           @click="toggleBrand(b)">{{ getEnglishBrand(b) }}</span>
@@ -16,7 +16,7 @@
     </div>
     <!-- Screen -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('screen') }">
-      <div class="filter-label" @click="toggle('screen')">📱 屏幕形态 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（单选）</span></div>
+      <div class="filter-label" @click="toggle('screen')">📱 屏幕形态 <span v-if="selectedScreen" class="filter-count">(1)</span> <span class="arrow">▼</span> <span class="filter-hint">（单选）</span></div>
       <div class="filter-tags">
         <span v-for="s in screenTypes" :key="s" :class="['tag', 'screen', { active: selectedScreen === s }]"
           @click="selectScreen(s)">{{ s }}</span>
@@ -24,7 +24,7 @@
     </div>
     <!-- CPU -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('cpu') }">
-      <div class="filter-label" @click="toggle('cpu')">⚡ 处理器 <span class="arrow">▼</span></div>
+      <div class="filter-label" @click="toggle('cpu')">⚡ 处理器 <span v-if="selectedCpu.size" class="filter-count">({{ selectedCpu.size }})</span> <span class="arrow">▼</span></div>
       <div class="filter-tags">
         <span v-for="t in cpuTags" :key="t" :class="['tag', 'cpu', { active: selectedCpu.has(t) }]"
           @click="toggleCpu(t)">{{ t }}</span>
@@ -32,7 +32,7 @@
     </div>
     <!-- Features -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('feat') }">
-      <div class="filter-label" @click="toggle('feat')">🏷️ 特性标签 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（可多选叠加）</span></div>
+      <div class="filter-label" @click="toggle('feat')">🏷️ 特性标签 <span v-if="selectedTags.size" class="filter-count">({{ selectedTags.size }})</span> <span class="arrow">▼</span> <span class="filter-hint">（可多选）</span></div>
       <div class="filter-tags">
         <span v-for="t in featureTags" :key="t" :class="['tag', { active: selectedTags.has(t) }]"
           @click="toggleTag(t)">{{ t }}</span>
@@ -40,7 +40,7 @@
     </div>
     <!-- Charge Protocol -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('proto') }">
-      <div class="filter-label" @click="toggle('proto')">🔌 充电协议 <span class="arrow">▼</span> <span style="font-weight:400;text-transform:none;color:#94a3b8">（需全部满足·可多选）</span></div>
+      <div class="filter-label" @click="toggle('proto')">🔌 充电协议 <span v-if="selectedProtocols.size" class="filter-count">({{ selectedProtocols.size }})</span> <span class="arrow">▼</span> <span class="filter-hint">（需全部满足）</span></div>
       <div class="filter-tags">
         <span v-for="t in protocolTags" :key="t" :class="['tag', 'proto', { active: selectedProtocols.has(t) }]"
           @click="toggleProto(t)">{{ t }}</span>
@@ -48,12 +48,14 @@
     </div>
     <!-- Price -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('price') }">
-      <div class="filter-label" @click="toggle('price')">💰 价格区间 <span class="arrow">▼</span></div>
-      <PriceSlider />
+      <div class="filter-label" @click="toggle('price')">💰 价格区间 <span v-if="priceActive" class="filter-count">(已设)</span> <span class="arrow">▼</span></div>
+      <div class="filter-body">
+        <PriceSlider />
+      </div>
     </div>
     <!-- Screen Size -->
     <div class="filter-section" :class="{ collapsed: collapsed.has('screensize') }">
-      <div class="filter-label" @click="toggle('screensize')">📐 屏幕尺寸 <span class="arrow">▼</span></div>
+      <div class="filter-label" @click="toggle('screensize')">📐 屏幕尺寸 <span v-if="selectedScreenSizes.size" class="filter-count">({{ selectedScreenSizes.size }})</span> <span class="arrow">▼</span></div>
       <div class="filter-tags">
         <span v-for="r in screenSizeRanges" :key="r.name" :class="['tag', { active: selectedScreenSizes.has(r.name) }]"
           @click="toggleScreenSize(r.name)">{{ r.name }}</span>
@@ -63,13 +65,18 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, selectedProtocols, searchQuery, brandList, updateHash } from '../composables/useFilters.js'
+import { ref, computed } from 'vue'
+import {
+  selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes,
+  selectedProtocols, searchQuery, brandList, updateHash, priceMin, priceMax, sliderMaxPrice
+} from '../composables/useFilters.js'
 
 import { featureTags, screenTypes, screenSizeRanges, cpuTags, getEnglishBrand, protocolTags } from '../utils.js'
 import PriceSlider from './PriceSlider.vue'
 
-const collapsed = ref(new Set())
+// 默认展开：品牌 + 价格；其余折叠，首屏多露出机型
+const collapsed = ref(new Set(['screen', 'cpu', 'feat', 'proto', 'screensize']))
+const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
 
 function toggle(name) {
   const s = new Set(collapsed.value)
