@@ -40,7 +40,7 @@
 import { computed, watch } from 'vue'
 import { compareList, toggleCompareSelection } from '../composables/useCompare.js'
 import { phones } from '../composables/useFilters.js'
-import { getFoldableScreenDisplay, getFoldableResolutionDisplay, getFoldableRefreshDisplay, getCameraSpecs } from '../utils.js'
+import { getFoldableScreenDisplay, getFoldableResolutionDisplay, getFoldableRefreshDisplay, getCameraSpecs, getIpRating } from '../utils.js'
 
 const selected = computed(() => phones.value.filter(p => compareList.value.includes(p.id)))
 
@@ -61,16 +61,7 @@ const fields = [
   { l: '📷 后置', v: p => { const s = getCameraSpecs(p); const r = s.find(x => x.l === '后置'); return r ? r.v.replace(/\n/g, ' | ') : '—' } },
   { l: '📷 前置', v: p => { const s = getCameraSpecs(p); const r = s.find(x => x.l === '前置'); return r ? r.v : '—' } },
   { l: '📷 潜望长焦', v: p => p.has_tele ? '✅ 支持' : '—' },
-  { l: '💧 防尘抗水', v: p => {
-    const feats = p.features || [];
-    if (feats.some(f => /IP\d{2}/.test(f))) {
-      const ipFeats = feats.filter(f => /IP\d{2}/.test(f));
-      const ips = ipFeats.flatMap(f => f.match(/IP\d{2}K?/g) || []);
-      const unique = [...new Set(ips)];
-      return unique.length > 0 ? unique.join('/') : '✅ 支持';
-    }
-    return p.tags?.includes('防尘抗水') ? '✅ 支持' : '—';
-  }},
+  { l: '💧 防尘抗水', v: p => getIpRating(p, { join: '/', empty: '—', supportFallback: true }) },
   { l: '📡 NFC', v: p => (p.tags?.includes('NFC') || (p.features || []).some(f => f.includes('NFC'))) ? '✅ 支持' : '—' },
   { l: '🔴 红外', v: p => (p.tags?.includes('红外') || (p.features || []).some(f => f.includes('红外'))) ? '✅ 支持' : '—' },
   { l: '🖥️ 有线投屏', v: p => (p.tags?.includes('有线投屏') || (p.features || []).some(f => f.includes('有线投屏'))) ? '✅ 支持' : '—' },

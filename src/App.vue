@@ -71,7 +71,8 @@ onMounted(async () => {
     const resp = await fetch('data/phones.json')
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
     const data = await resp.json()
-    setPhones(data)
+    // 过滤空壳/未补全条目（无处理器或无价格），避免卡片全是 —
+    setPhones(data.filter(p => p.processor && p.price))
     restoreStateFromHash()
     updateHash()
   } catch (err) {

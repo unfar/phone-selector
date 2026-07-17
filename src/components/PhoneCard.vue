@@ -19,7 +19,7 @@
           </div>
           <div v-else :class="['spec-cell', { 'colspan-2': s.colspan }]">
             <div class="label">{{ s.l }}</div>
-            <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': ['后置','前置','影像'].includes(s.l) || s.proto }]">{{ s.v }}</div>
+            <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': /前置|后置|影像/.test(s.l) || s.proto }]">{{ s.v }}</div>
           </div>
         </template>
       </div>
@@ -30,7 +30,7 @@
 <script setup>
 import { computed } from 'vue'
 import { compareList, toggleCompareSelection } from '../composables/useCompare.js'
-import { brandLogos, textLogoBrands, getLogoStyle, getDisplayName, getFoldableScreenDisplay, getCameraSpecs, simplifyCapacity } from '../utils.js'
+import { brandLogos, textLogoBrands, getLogoStyle, getDisplayName, getFoldableScreenDisplay, getCameraSpecs, simplifyCapacity, getIpRating } from '../utils.js'
 
 const props = defineProps({ phone: { type: Object, required: true } })
 
@@ -56,21 +56,13 @@ const headerBadge = computed(() => {
 
 function onCardClick(e) {
   if (e.target.closest('.compare-bar') || e.target.closest('.compare-panel')) return
-  console.log('Card clicked:', props.phone.id)
   toggleCompareSelection(props.phone.id)
 }
 
 // Spec rows
 const specRows = computed(() => {
   const phone = props.phone
-  const ipFeats = (phone.features || []).filter(f => /IP[0-9XK]\d/.test(f))
-  let ipVal = '—'
-  if (ipFeats.length > 0) {
-    const ipLevels = ipFeats.flatMap(f => f.match(/IP[0-9XK]+\dK?/g) || [])
-    if (ipLevels.length > 0) ipVal = [...new Set(ipLevels)].join(' ')
-  } else if (phone.tags?.includes('防尘抗水')) {
-    ipVal = '支持'
-  }
+  const ipVal = getIpRating(phone)
   const chargeParts = []
   if (phone.charging_w) chargeParts.push(phone.charging_w + 'W有线')
   if (phone.wireless_charging_w) chargeParts.push(phone.wireless_charging_w + 'W无线')

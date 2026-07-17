@@ -78,6 +78,35 @@ export function simplifyCapacity(s) {
   return m ? m[1] : s
 }
 
+/**
+ * 从 features 提取 IP 防尘抗水等级。
+ * 兼容两种历史写法：
+ *  - 原始码: "IP68", "IP69K", "IP5X", "IPX8"
+ *  - 拆分标注: "防尘: IP6X", "防水: IPX8"
+ * 返回去重后的等级数组，如 ["IP66","IP68","IP69K"]
+ */
+export function getIpLevels(phone) {
+  const feats = phone?.features || []
+  const levels = []
+  for (const f of feats) {
+    if (typeof f !== 'string') continue
+    // 匹配 IP68 / IP69K / IP5X / IPX8 / IPX9 等
+    const matches = f.match(/IP(?:\d{1,2}X?K?|X\d{1,2}K?)/gi)
+    if (matches) {
+      for (const m of matches) levels.push(m.toUpperCase())
+    }
+  }
+  return [...new Set(levels)]
+}
+
+/** 卡片/对比用：返回展示字符串，无数据时回退 tags「防尘抗水」→「支持」 */
+export function getIpRating(phone, { join = ' ', empty = '—', supportFallback = true } = {}) {
+  const levels = getIpLevels(phone)
+  if (levels.length > 0) return levels.join(join)
+  if (supportFallback && phone?.tags?.includes('防尘抗水')) return '支持'
+  return empty
+}
+
 export function getEnglishBrand(zh) {
   const map = { "苹果": "Apple", "三星": "Samsung", "摩托罗拉": "Motorola" }
   return map[zh] || zh
