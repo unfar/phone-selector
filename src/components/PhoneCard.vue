@@ -1,56 +1,31 @@
 <template>
-  <div :class="['phone-card', 'brand-border-' + phone.brand, { 'compare-selected': isSelected, expanded }]"
-    :data-id="phone.id" @click="onCardClick">
-    <div :class="['brand-stripe', 'brand-stripe-' + phone.brand]"></div>
-
-    <div class="card-header">
-      <div class="card-header-top">
-        <span class="brand-badge">
-          <img v-if="!textLogoBrands.has(phone.brand)" class="brand-logo" :style="logoStyle" :src="brandLogos[phone.brand]" :alt="phone.brand">
-          <span v-else class="brand-text-logo">{{ phone.brand }}</span>
-        </span>
-        <span :class="['price-badge', { 'release-badge': isFutureRelease }]" v-if="headerBadge">{{ headerBadge }}</span>
-      </div>
+  <div :class="['phone-card', 'brand-border-' + phone.brand, { 'compare-selected': isSelected }]">
+    <div :class="['card-header', 'brand-header-' + phone.brand]">
+      <span class="brand-badge">
+        <img v-if="!textLogoBrands.has(phone.brand)" class="brand-logo" :style="logoStyle" :src="brandLogos[phone.brand]" :alt="phone.brand">
+        <span v-else class="brand-text-logo">{{ phone.brand }}</span>
+      </span>
+      <span :class="['price-badge', { 'release-badge': isFutureRelease }]" v-if="headerBadge">{{ headerBadge }}</span>
       <div class="phone-name">{{ displayName }}</div>
-      <div class="card-meta" v-if="releaseLabel">{{ releaseLabel }}</div>
-      <span v-if="isSelected" class="compare-index">{{ compareIndex }}</span>
     </div>
 
     <div class="card-body">
-      <div class="summary-grid">
-        <div class="summary-item primary">
-          <span class="s-label">芯片</span>
-          <span class="s-value">{{ phone.processor || '—' }}</span>
-        </div>
-        <div class="summary-item primary">
-          <span class="s-label">电池</span>
-          <span class="s-value">{{ phone.battery_mah ? phone.battery_mah + 'mAh' : '—' }}</span>
-        </div>
-        <div class="summary-item">
-          <span class="s-label">充电</span>
-          <span class="s-value">{{ chargeSummary }}</span>
-        </div>
-        <div class="summary-item">
-          <span class="s-label">重量</span>
-          <span class="s-value">{{ phone.weight_g ? phone.weight_g + 'g' : '—' }}</span>
-        </div>
-        <div class="summary-item">
-          <span class="s-label">屏幕</span>
-          <span class="s-value">{{ screenSummary }}</span>
-        </div>
-        <div class="summary-item">
-          <span class="s-label">防水</span>
-          <span class="s-value">{{ ipSummary }}</span>
-        </div>
+      <!-- 决策参数常显（对标商城列表：扫一眼可决策） -->
+      <div class="kv-grid">
+        <div class="kv"><div class="k">芯片</div><div class="v">{{ phone.processor || '—' }}</div></div>
+        <div class="kv"><div class="k">电池</div><div class="v">{{ phone.battery_mah ? phone.battery_mah + 'mAh' : '—' }}</div></div>
+        <div class="kv"><div class="k">充电</div><div class="v">{{ chargeSummary }}</div></div>
+        <div class="kv"><div class="k">重量</div><div class="v">{{ phone.weight_g ? phone.weight_g + 'g' : '—' }}</div></div>
+        <div class="kv"><div class="k">屏幕</div><div class="v">{{ screenSummary }}</div></div>
+        <div class="kv"><div class="k">防水</div><div class="v">{{ ipSummary }}</div></div>
+        <div class="kv"><div class="k">内存</div><div class="v">{{ phone.ram ? simplifyCapacity(phone.ram) : '—' }}</div></div>
+        <div class="kv"><div class="k">存储</div><div class="v">{{ phone.storage ? simplifyCapacity(phone.storage) : '—' }}</div></div>
       </div>
 
-      <div class="camera-summary" v-if="cameraSummary">
-        <span class="cam-icon">📸</span>
-        <span class="cam-text">{{ cameraSummary }}</span>
-      </div>
+      <div class="cam-line" v-if="cameraSummary">📸 {{ cameraSummary }}</div>
 
-      <div v-if="expanded" class="spec-grid" @click.stop>
-        <template v-for="s in specRows" :key="s.l">
+      <div v-if="expanded" class="detail-grid">
+        <template v-for="s in detailRows" :key="s.l">
           <div :class="['spec-cell', { 'colspan-2': s.colspan }]">
             <div class="label">{{ s.l }}</div>
             <div :class="['value', { unsupported: s.v === '不支持' || s.v === '—', 'camera-value': /前置|后置|影像/.test(s.l) || s.proto }]">{{ s.v }}</div>
@@ -58,9 +33,19 @@
         </template>
       </div>
 
-      <button class="expand-toggle" type="button" @click.stop="toggleExpand">
-        {{ expanded ? '收起完整参数 ▲' : '展开完整参数 ▼' }}
-      </button>
+      <div class="card-actions">
+        <button class="expand-link" type="button" @click="expanded = !expanded">
+          {{ expanded ? '收起参数' : '更多参数' }}
+        </button>
+        <button
+          type="button"
+          :class="['compare-check', { on: isSelected }]"
+          @click="toggleCompare"
+          :title="isSelected ? '取消对比' : '加入对比'"
+        >
+          {{ isSelected ? '✓ 已选对比' : '+ 对比' }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -77,12 +62,7 @@ const props = defineProps({ phone: { type: Object, required: true } })
 const displayName = getDisplayName(props.phone)
 const logoStyle = getLogoStyle(props.phone.brand)
 const expanded = ref(false)
-
 const isSelected = computed(() => compareList.value.includes(props.phone.id))
-const compareIndex = computed(() => {
-  const i = compareList.value.indexOf(props.phone.id)
-  return i >= 0 ? i + 1 : ''
-})
 
 const today = new Date().toISOString().split('T')[0]
 const isFutureRelease = computed(() => {
@@ -91,24 +71,10 @@ const isFutureRelease = computed(() => {
 })
 const headerBadge = computed(() => {
   if (isFutureRelease.value) {
-    const parts = props.phone.release_date.split('-')
-    return parts[1] + '/' + parts[2]
+    const p = props.phone.release_date.split('-')
+    return p[1] + '/' + p[2]
   }
   return props.phone.price ? '¥' + props.phone.price : ''
-})
-
-const releaseLabel = computed(() => {
-  const rd = props.phone.release_date
-  if (!rd) return ''
-  if (rd.length >= 10) {
-    const [y, m, d] = rd.split('-')
-    return `${y}.${Number(m)}.${Number(d)} 发布`
-  }
-  if (rd.length === 7) {
-    const [y, m] = rd.split('-')
-    return `${y}.${Number(m)} 发布`
-  }
-  return rd
 })
 
 const chargeSummary = computed(() => {
@@ -137,28 +103,21 @@ const cameraSummary = computed(() => {
   const rear = cams.find(s => s.l === '后置')
   if (rear?.v) {
     const first = rear.v.split('\n')[0]
-    const more = rear.v.includes('\n') ? ' · …' : ''
-    return first + more
+    return first + (rear.v.includes('\n') ? ' · …' : '')
   }
   const img = cams.find(s => s.l === '影像')
   return img?.v || (props.phone.camera_desc || '').split('|')[0].trim() || ''
 })
 
-function toggleExpand() { expanded.value = !expanded.value }
-
-function onCardClick(e) {
-  if (e.target.closest('.expand-toggle') || e.target.closest('.spec-grid')) return
-  if (e.target.closest('.compare-bar') || e.target.closest('.compare-panel')) return
+function toggleCompare() {
   toggleCompareSelection(props.phone.id)
 }
 
-const specRows = computed(() => {
+const detailRows = computed(() => {
   const phone = props.phone
-  const ipVal = getIpRating(phone)
   const chargeParts = []
   if (phone.charging_w) chargeParts.push(phone.charging_w + 'W有线')
   if (phone.wireless_charging_w) chargeParts.push(phone.wireless_charging_w + 'W无线')
-
   const sc = [
     { l: '🔌 入网型号', v: phone.network_model || '—' },
     { l: '⚙️ 处理器', v: phone.processor || '—' },
@@ -167,10 +126,10 @@ const specRows = computed(() => {
     { l: '🔋 电池', v: phone.battery_mah ? phone.battery_mah + 'mAh' : '—' },
     { l: '⚖️ 重量', v: phone.weight_g ? phone.weight_g + 'g' : '—' },
     { l: '🔗 USB', v: phone.usb_version || '—' },
-    { l: '🛡️ 防尘抗水', v: ipVal },
+    { l: '🛡️ 防尘抗水', v: getIpRating(phone) },
     { l: '🖥️ 尺寸/类型', v: getFoldableScreenDisplay(phone) || '—' },
     { l: '🎯 分辨率/刷新率', v: ((phone.resolution || '') + ' · ' + (phone.refresh_hz ? phone.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—' },
-    { l: '⚡ 充电', v: chargeParts.length > 0 ? chargeParts.join(' + ') : '—', colspan: true },
+    { l: '⚡ 充电', v: chargeParts.length ? chargeParts.join(' + ') : '—', colspan: true },
     ...(phone.charge_protocols?.length
       ? [{ l: '🔌 充电协议', v: phone.charge_protocols.join(' · '), colspan: true, proto: true }]
       : []),
