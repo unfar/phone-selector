@@ -1,0 +1,2828 @@
+[
+  {
+    "id": 252,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 14 活力版",
+    "score": 38,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议",
+      "内存",
+      "存储",
+      "重量",
+      "电池",
+      "价格",
+      "处理器"
+    ],
+    "status": "incomplete"
+  },
+  {
+    "id": 121,
+    "brand": "realme",
+    "model": "Neo7",
+    "score": 50,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "USB",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 216,
+    "brand": "RedMagic",
+    "model": "红魔 10",
+    "score": 50,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "USB",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 215,
+    "brand": "realme",
+    "model": "GT6",
+    "score": 56,
+    "missing": [
+      "系统",
+      "刷新率",
+      "USB",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 135,
+    "brand": "vivo",
+    "model": "S21 Pro",
+    "score": 62,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 228,
+    "brand": "Samsung",
+    "model": "Galaxy C55 5G",
+    "score": 62,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 235,
+    "brand": "Samsung",
+    "model": "Galaxy A55",
+    "score": 62,
+    "missing": [
+      "系统",
+      "USB",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 142,
+    "brand": "Samsung",
+    "model": "Galaxy A56 5G",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 234,
+    "brand": "Samsung",
+    "model": "Galaxy A55 5G",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议",
+      "内存",
+      "存储"
+    ],
+    "status": ""
+  },
+  {
+    "id": 22,
+    "brand": "RedMagic",
+    "model": "红魔 11S Pro+",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 21,
+    "brand": "RedMagic",
+    "model": "红魔 11S Pro",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 111,
+    "brand": "RedMagic",
+    "model": "红魔 11 Pro+",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 110,
+    "brand": "RedMagic",
+    "model": "红魔 11 Pro",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 108,
+    "brand": "RedMagic",
+    "model": "红魔 11 Air",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 125,
+    "brand": "realme",
+    "model": "Neo7 Turbo",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 143,
+    "brand": "Samsung",
+    "model": "Galaxy A56",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "USB",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 221,
+    "brand": "RedMagic",
+    "model": "红魔 10S Pro+",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 218,
+    "brand": "RedMagic",
+    "model": "红魔 10S Pro",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 229,
+    "brand": "vivo",
+    "model": "S21",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "USB",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 233,
+    "brand": "realme",
+    "model": "14 Pro+",
+    "score": 69,
+    "missing": [
+      "系统",
+      "刷新率",
+      "USB",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 248,
+    "brand": "RedMagic",
+    "model": "红魔 9S Pro+",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 247,
+    "brand": "RedMagic",
+    "model": "红魔 9S Pro",
+    "score": 69,
+    "missing": [
+      "入网型号",
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 204,
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "score": 75,
+    "missing": [
+      "系统",
+      "刷新率",
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 103,
+    "brand": "HONOR",
+    "model": "荣耀 WIN",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 96,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 5 Max",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 97,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 5",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 131,
+    "brand": "vivo",
+    "model": "vivo X Fold5",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 127,
+    "brand": "OPPO",
+    "model": "OPPO K15 Pro+",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 123,
+    "brand": "OPPO",
+    "model": "OPPO K15 Pro",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 122,
+    "brand": "OPPO",
+    "model": "OPPO K13 Turbo Pro",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 120,
+    "brand": "OPPO",
+    "model": "OPPO K13 Turbo",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 137,
+    "brand": "HONOR",
+    "model": "荣耀 Power2",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 133,
+    "brand": "iQOO",
+    "model": "iQOO Z10 Turbo+",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 155,
+    "brand": "HONOR",
+    "model": "荣耀 GT Pro",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 151,
+    "brand": "vivo",
+    "model": "vivo S30",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 149,
+    "brand": "HONOR",
+    "model": "荣耀 GT",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 165,
+    "brand": "realme",
+    "model": "GT7",
+    "score": 75,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 181,
+    "brand": "Huawei",
+    "model": "Pocket 70 Pro",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "USB",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 174,
+    "brand": "REDMI",
+    "model": "REDMI K80",
+    "score": 75,
+    "missing": [
+      "分辨率",
+      "充电协议",
+      "影像详情"
+    ],
+    "status": ""
+  },
+  {
+    "id": 193,
+    "brand": "vivo",
+    "model": "vivo X200s",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 219,
+    "brand": "RedMagic",
+    "model": "红魔 10 Pro+",
+    "score": 75,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 217,
+    "brand": "RedMagic",
+    "model": "红魔 10 Pro",
+    "score": 75,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 214,
+    "brand": "RedMagic",
+    "model": "红魔 10 Air",
+    "score": 75,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 213,
+    "brand": "HONOR",
+    "model": "X70 Pro",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "USB",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 241,
+    "brand": "Huawei",
+    "model": "HUAWEI nova Flip S",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 237,
+    "brand": "OPPO",
+    "model": "OPPO A6s Pro",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 243,
+    "brand": "vivo",
+    "model": "vivo S19",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 254,
+    "brand": "Huawei",
+    "model": "华为畅享90",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "充电协议",
+      "内存"
+    ],
+    "status": ""
+  },
+  {
+    "id": 255,
+    "brand": "Huawei",
+    "model": "华为畅享70X尊享版",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "充电协议",
+      "内存"
+    ],
+    "status": ""
+  },
+  {
+    "id": 29,
+    "brand": "OPPO",
+    "model": "OPPO Find X9 Ultra",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 30,
+    "brand": "vivo",
+    "model": "vivo X300s",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 36,
+    "brand": "Samsung",
+    "model": "Galaxy A57 5G",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 67,
+    "brand": "OPPO",
+    "model": "OPPO Find X9 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 86,
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "score": 81,
+    "missing": [
+      "系统",
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 85,
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "score": 81,
+    "missing": [
+      "系统",
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 84,
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "score": 81,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 90,
+    "brand": "OnePlus",
+    "model": "一加 15",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 102,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6 至尊版",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 101,
+    "brand": "HONOR",
+    "model": "荣耀 WIN RT",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 100,
+    "brand": "iQOO",
+    "model": "iQOO Neo11",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 116,
+    "brand": "Samsung",
+    "model": "Galaxy Z TriFold",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 115,
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold7",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 113,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 112,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7 FE",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 109,
+    "brand": "OPPO",
+    "model": "OPPO Reno15 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 107,
+    "brand": "OPPO",
+    "model": "OPPO Reno15",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 106,
+    "brand": "OPPO",
+    "model": "OPPO Reno15c",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 119,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6V",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 146,
+    "brand": "OPPO",
+    "model": "OPPO Find N6",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 158,
+    "brand": "Samsung",
+    "model": "Galaxy S25 Edge",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 154,
+    "brand": "vivo",
+    "model": "vivo S50 Pro mini",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 153,
+    "brand": "vivo",
+    "model": "vivo Y500 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 150,
+    "brand": "vivo",
+    "model": "vivo S30 Pro mini",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 152,
+    "brand": "vivo",
+    "model": "vivo Y500",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 148,
+    "brand": "vivo",
+    "model": "vivo S50",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 147,
+    "brand": "vivo",
+    "model": "vivo Y600 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 164,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5 至尊版",
+    "score": 81,
+    "missing": [
+      "系统",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 197,
+    "brand": "OPPO",
+    "model": "OPPO Find X8s+",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 189,
+    "brand": "OPPO",
+    "model": "OPPO Find X8s",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 206,
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "score": 81,
+    "missing": [
+      "系统",
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 205,
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "score": 81,
+    "missing": [
+      "系统",
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 203,
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "score": 81,
+    "missing": [
+      "系统",
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 242,
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 240,
+    "brand": "iQOO",
+    "model": "iQOO Z11 Turbo",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 239,
+    "brand": "realme",
+    "model": "Neo8",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 238,
+    "brand": "iQOO",
+    "model": "iQOO Z11",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 244,
+    "brand": "vivo",
+    "model": "vivo S19 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 2,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6X",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 12,
+    "brand": "vivo",
+    "model": "vivo S60",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 13,
+    "brand": "HONOR",
+    "model": "荣耀600 元气版",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 35,
+    "brand": "OPPO",
+    "model": "OPPO A6k",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 34,
+    "brand": "OPPO",
+    "model": "OPPO A6 Plus",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 42,
+    "brand": "HONOR",
+    "model": "Magic8 RSR 保时捷设计",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 41,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8 Pro Air",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 48,
+    "brand": "OPPO",
+    "model": "OPPO A6i+",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 47,
+    "brand": "OPPO",
+    "model": "OPPO A6 Max",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 46,
+    "brand": "OPPO",
+    "model": "OPPO A6v",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 45,
+    "brand": "OPPO",
+    "model": "OPPO A3i",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 59,
+    "brand": "REDMI",
+    "model": "Redmi K90 Pro Max",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 57,
+    "brand": "REDMI",
+    "model": "Redmi K90 Max",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 55,
+    "brand": "REDMI",
+    "model": "Redmi K90",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 68,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 69,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 82,
+    "brand": "OPPO",
+    "model": "OPPO A6 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 80,
+    "brand": "OPPO",
+    "model": "OPPO A6i",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 89,
+    "brand": "HONOR",
+    "model": "荣耀Play11 Plus",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 88,
+    "brand": "REDMI",
+    "model": "Redmi Note 15 Pro+",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 87,
+    "brand": "OPPO",
+    "model": "OPPO A5 活力版",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 95,
+    "brand": "HONOR",
+    "model": "X80i",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 114,
+    "brand": "HONOR",
+    "model": "荣耀 Magic V6",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 126,
+    "brand": "HONOR",
+    "model": "荣耀 400 Pro",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 124,
+    "brand": "HONOR",
+    "model": "荣耀 400",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 118,
+    "brand": "HONOR",
+    "model": "荣耀Play10T",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 144,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura X",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 141,
+    "brand": "HONOR",
+    "model": "荣耀畅玩70C",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 173,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 14 Ultra",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 170,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 14 Pro",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 175,
+    "brand": "REDMI",
+    "model": "REDMI K80至尊版",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 184,
+    "brand": "HONOR",
+    "model": "荣耀X70 焕新版",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 210,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 4 Pro",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 208,
+    "brand": "REDMI",
+    "model": "Redmi Turbo 4",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 207,
+    "brand": "HONOR",
+    "model": "荣耀畅玩70 Plus",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 222,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 220,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip 2",
+    "score": 81,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 227,
+    "brand": "realme",
+    "model": "GT Neo6",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 231,
+    "brand": "HONOR",
+    "model": "荣耀 Magic Vs3",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 236,
+    "brand": "realme",
+    "model": "13 Pro+",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 245,
+    "brand": "REDMI",
+    "model": "Redmi K70 至尊版",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 256,
+    "brand": "REDMI",
+    "model": "Redmi 17C",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 259,
+    "brand": "REDMI",
+    "model": "Redmi Note 17",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 260,
+    "brand": "REDMI",
+    "model": "Redmi Note 17 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 250,
+    "brand": "vivo",
+    "model": "vivo X Fold6",
+    "score": 88,
+    "missing": [
+      "分辨率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 249,
+    "brand": "HONOR",
+    "model": "荣耀X80 Pro Max",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 1,
+    "brand": "HONOR",
+    "model": "荣耀X70 Pro Max",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 3,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6X Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 4,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 11,
+    "brand": "vivo",
+    "model": "vivo S60 元气版",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 10,
+    "brand": "HONOR",
+    "model": "荣耀WIN Turbo",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 17,
+    "brand": "OPPO",
+    "model": "OPPO Reno16 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 16,
+    "brand": "HONOR",
+    "model": "荣耀600 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 15,
+    "brand": "OPPO",
+    "model": "OPPO Reno16",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 14,
+    "brand": "HONOR",
+    "model": "荣耀600 超级版",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 20,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Max",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 27,
+    "brand": "OPPO",
+    "model": "OPPO Find X9s Pro",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 31,
+    "brand": "vivo",
+    "model": "vivo X300 Ultra",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 32,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro Max 风驰版",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 33,
+    "brand": "Apple",
+    "model": "iPhone 17e",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 39,
+    "brand": "Samsung",
+    "model": "Galaxy S26 Ultra",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 38,
+    "brand": "Samsung",
+    "model": "Galaxy S26+",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 37,
+    "brand": "Samsung",
+    "model": "Galaxy S26",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 40,
+    "brand": "OPPO",
+    "model": "OPPO A6 GT",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 43,
+    "brand": "OPPO",
+    "model": "OPPO A6c",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 44,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Ultra",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 54,
+    "brand": "HONOR",
+    "model": "荣耀 500 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 53,
+    "brand": "HONOR",
+    "model": "荣耀 500",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 63,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro Max",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 257,
+    "brand": "REDMI",
+    "model": "Redmi K90 Ultra",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 58,
+    "brand": "OPPO",
+    "model": "OPPO Reno14 Pro",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 56,
+    "brand": "OPPO",
+    "model": "OPPO Reno14",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 66,
+    "brand": "OPPO",
+    "model": "OPPO Find X9",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 70,
+    "brand": "vivo",
+    "model": "vivo X300",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 74,
+    "brand": "iQOO",
+    "model": "iQOO 15 Ultra",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 72,
+    "brand": "iQOO",
+    "model": "iQOO 15",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 73,
+    "brand": "OnePlus",
+    "model": "一加 15T",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 83,
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 93,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Ultra 徕卡版",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 94,
+    "brand": "HONOR",
+    "model": "荣耀Magic V Flip2",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 105,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 104,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6T",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 132,
+    "brand": "Huawei",
+    "model": "华为 Pura 80 Ultra",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 145,
+    "brand": "OPPO",
+    "model": "OPPO Find N5",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 160,
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 157,
+    "brand": "Samsung",
+    "model": "Galaxy S25+",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 156,
+    "brand": "Samsung",
+    "model": "Galaxy S25",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 179,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 70 Pro 优享版",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 202,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Ultra",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 212,
+    "brand": "iQOO",
+    "model": "iQOO Neo10 Pro+",
+    "score": 88,
+    "missing": [
+      "系统",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 226,
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 223,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "score": 88,
+    "missing": [
+      "刷新率",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 253,
+    "brand": "Huawei",
+    "model": "华为畅享90Plus",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 258,
+    "brand": "iQOO",
+    "model": "iQOO Z11i",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 7,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 6,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16z",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 51,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 15 Ultra",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 50,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 15 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 49,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 15",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 65,
+    "brand": "Huawei",
+    "model": "华为 Mate XTs 非凡大师",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 81,
+    "brand": "OPPO",
+    "model": "OPPO A6",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 92,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 70 Air",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 130,
+    "brand": "Huawei",
+    "model": "华为 Pura 80 Pro+",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 129,
+    "brand": "Huawei",
+    "model": "华为 Pura 80 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 128,
+    "brand": "Huawei",
+    "model": "华为 Pura 80",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 117,
+    "brand": "HONOR",
+    "model": "荣耀Play10",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 161,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate X6",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 172,
+    "brand": "HONOR",
+    "model": "荣耀 300 Ultra",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 171,
+    "brand": "HONOR",
+    "model": "荣耀 300 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 168,
+    "brand": "vivo",
+    "model": "vivo S20 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 167,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 14",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 162,
+    "brand": "HONOR",
+    "model": "荣耀 300",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 163,
+    "brand": "vivo",
+    "model": "vivo S20",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 176,
+    "brand": "REDMI",
+    "model": "REDMI K80 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 201,
+    "brand": "vivo",
+    "model": "vivo X200 Ultra",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 195,
+    "brand": "Huawei",
+    "model": "华为 nova 13 Ultra",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 188,
+    "brand": "Huawei",
+    "model": "华为 nova 13 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 185,
+    "brand": "Huawei",
+    "model": "华为 nova 13",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 211,
+    "brand": "iQOO",
+    "model": "iQOO Neo10 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 209,
+    "brand": "iQOO",
+    "model": "iQOO Neo10",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 224,
+    "brand": "HONOR",
+    "model": "荣耀 Magic V3",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 225,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Fold 4",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 230,
+    "brand": "Xiaomi",
+    "model": "Xiaomi Civi 4 Pro",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 232,
+    "brand": "iQOO",
+    "model": "iQOO Z9 Turbo",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 251,
+    "brand": "Huawei",
+    "model": "华为畅享90ProMax",
+    "score": 88,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 9,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16 Ultra",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 8,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 18,
+    "brand": "iQOO",
+    "model": "iQOO 15T",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": ""
+  },
+  {
+    "id": 26,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 25,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 52,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate X7",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 64,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 RS 非凡大师",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": "unreleased"
+  },
+  {
+    "id": 61,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro (16GB)",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 62,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro (12GB)",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 60,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 71,
+    "brand": "vivo",
+    "model": "vivo X300 Pro",
+    "score": 94,
+    "missing": [
+      "系统"
+    ],
+    "status": ""
+  },
+  {
+    "id": 79,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Pro Max",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 78,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 77,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 91,
+    "brand": "realme",
+    "model": "GT8 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 99,
+    "brand": "realme",
+    "model": "GT8",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 98,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 134,
+    "brand": "OnePlus",
+    "model": "一加 13T",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 159,
+    "brand": "HONOR",
+    "model": "荣耀 Magic7 RSR 保时捷设计",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 169,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 166,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 183,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 RS 非凡大师",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 182,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 Pro+",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 180,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 178,
+    "brand": "Huawei",
+    "model": "华为 Mate 70",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 177,
+    "brand": "realme",
+    "model": "GT7 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 200,
+    "brand": "OPPO",
+    "model": "OPPO Find X8 Ultra",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 198,
+    "brand": "vivo",
+    "model": "vivo X200 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 199,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 196,
+    "brand": "OnePlus",
+    "model": "一加 13",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 194,
+    "brand": "HONOR",
+    "model": "荣耀 Magic7",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 192,
+    "brand": "vivo",
+    "model": "vivo X200 Pro mini",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 191,
+    "brand": "OPPO",
+    "model": "OPPO Find X8 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 190,
+    "brand": "vivo",
+    "model": "vivo X200",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 187,
+    "brand": "HONOR",
+    "model": "荣耀 Magic7 Pro",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 186,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 246,
+    "brand": "iQOO",
+    "model": "iQOO 13",
+    "score": 94,
+    "missing": [
+      "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 138,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura X Max",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 28,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90 Pro Max",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  }
+]
