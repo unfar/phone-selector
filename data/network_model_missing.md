@@ -1,6 +1,6 @@
 # 入网型号缺失榜
 
-共 143 款仍缺
+共 139 款仍缺
 
 | 价格 | ID | 品牌 | 机型 |
 |---:|---:|---|---|
@@ -25,7 +25,6 @@
 | 6499 | 202 | Xiaomi | Xiaomi 15 Ultra |
 | 6199 | 22 | RedMagic | 红魔 11S Pro+ |
 | 5999 | 79 | Xiaomi | Xiaomi 17 Pro Max |
-| 5999 | 222 | Xiaomi | Xiaomi MIX Flip |
 | 5699 | 41 | HONOR | 荣耀 Magic8 Pro Air |
 | 5699 | 111 | RedMagic | 红魔 11 Pro+ |
 | 5499 | 21 | RedMagic | 红魔 11S Pro |
@@ -34,8 +33,6 @@
 | 4999 | 30 | vivo | vivo X300s |
 | 4999 | 78 | Xiaomi | Xiaomi 17 Pro |
 | 4999 | 110 | RedMagic | 红魔 11 Pro |
-| 4999 | 199 | Xiaomi | Xiaomi 15 Pro |
-| 4999 | 220 | Xiaomi | Xiaomi MIX Flip 2 |
 | 4799 | 20 | Xiaomi | Xiaomi 17 Max |
 | 4799 | 109 | OPPO | OPPO Reno15 Pro |
 | 4799 | 197 | OPPO | OPPO Find X8s+ |
@@ -44,7 +41,6 @@
 | 4499 | 68 | HONOR | 荣耀 Magic8 Pro |
 | 4499 | 69 | HONOR | 荣耀 Magic8 |
 | 4299 | 73 | OnePlus | 一加 15T |
-| 4299 | 77 | Xiaomi | Xiaomi 17 |
 | 4299 | 193 | vivo | vivo X200s |
 | 4299 | 218 | RedMagic | 红魔 10S Pro |
 | 4199 | 173 | Huawei | HUAWEI nova 14 Ultra |
@@ -124,3 +120,7 @@
 | 1999 | 147 | vivo | vivo Y600 Pro |
 | 1999 | 208 | REDMI | Redmi Turbo 4 |
 | 1999 | 228 | Samsung | Galaxy C55 5G |
+| 1999 | 236 | realme | 13 Pro+ |
+| 1999 | 237 | OPPO | OPPO A6s Pro |
+| 1979 | 40 | OPPO | OPPO A6 GT |
+| 1799 | 184 | HONOR | 荣耀X70 焕新版 |

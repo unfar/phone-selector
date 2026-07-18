@@ -4027,7 +4027,7 @@
     "detailed_camera": "主摄: 光影猎人950 f/1.67 5000万 | 长焦: 徕卡浮动 f/2.0 5000万",
     "release_date": "2025-09-25",
     "price": 4299,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4036,7 +4036,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "2608BPX34C",
+    "network_model_source": "restored"
   },
   {
     "brand": "Apple",
@@ -9121,7 +9123,7 @@
     "release_date": "2024-10-01",
     "price": 4999,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9130,7 +9132,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "2410DPN6CC",
+    "network_model_source": "restored"
   },
   {
     "id": 197,
@@ -10547,7 +10551,7 @@
     },
     "fold_type": "纵向折叠",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10557,7 +10561,9 @@
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "network_model": "2405CPX3DC",
+    "network_model_source": "restored"
   },
   {
     "brand": "RedMagic",
@@ -10652,7 +10658,7 @@
     },
     "fold_type": "纵向折叠",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10662,7 +10668,9 @@
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "network_model": "2405CPX3DC",
+    "network_model_source": "restored"
   },
   {
     "brand": "RedMagic",
