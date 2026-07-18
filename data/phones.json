@@ -45,7 +45,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 260,
@@ -96,7 +97,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 250,
@@ -159,7 +161,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 249,
@@ -218,7 +221,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 1,
@@ -273,7 +277,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 3,
@@ -323,7 +328,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 2,
@@ -368,7 +374,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 5,
@@ -422,7 +429,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 4,
@@ -475,7 +483,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 9,
@@ -535,7 +544,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 8,
@@ -594,7 +604,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 7,
@@ -647,7 +658,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 6,
@@ -697,7 +709,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 12,
@@ -741,7 +754,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 11,
@@ -788,7 +802,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 10,
@@ -841,7 +856,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 17,
@@ -898,7 +914,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 16,
@@ -954,7 +971,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 15,
@@ -1010,7 +1028,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 14,
@@ -1063,7 +1082,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 13,
@@ -1113,7 +1133,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 18,
@@ -1160,7 +1181,8 @@
       "PD",
       "QC"
     ],
-    "completeness_score": 94
+    "completeness_score": 94,
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 22,
@@ -1201,14 +1223,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 21,
@@ -1249,14 +1276,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 20,
@@ -1311,7 +1343,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 29,
@@ -1329,7 +1362,7 @@
     "weight_g": 235,
     "camera_desc": "主摄 23mm 1/1.12 | 超广 14mm 1/1.95 | 潜望长焦 70mm 1/1.28 | 10x潜望 230mm F3.5",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX6",
@@ -1353,14 +1386,16 @@
     "detailed_camera": "主摄: 23mm 1/1.12\" 索尼LYT-901 2亿 f/1.5 OIS | 超广: 14mm 1/1.95\" 5000万 f/2.0 123° | 长焦: 70mm 1/1.28\" 豪威OV52A 2亿 f/2.2 | 超长焦: 230mm 1/2.76\" 三星JNL 5000万 f/3.5",
     "release_date": "2026-04-20",
     "price": 8499,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 28,
@@ -1412,7 +1447,8 @@
       "Qi"
     ],
     "completeness_score": 100,
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 27,
@@ -1430,7 +1466,7 @@
     "weight_g": 198,
     "camera_desc": "200MP主摄(1/1.4英寸) + 50MP超广角 + 200MP潜望长焦(65mm)",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX6",
@@ -1454,14 +1490,16 @@
     "release_date": "2026-04-20",
     "price": 5999,
     "network_model": "PME110",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 26,
@@ -1511,7 +1549,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 25,
@@ -1561,7 +1600,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 31,
@@ -1579,7 +1619,7 @@
     "weight_g": 229,
     "camera_desc": "主摄 Sony LYT-818 50MP 35mm | 超广 LYT-818 50MP | 长焦 三星HP9 200MP 3.7x 蔡司APO",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -1601,7 +1641,7 @@
     "release_date": "2026-03-30",
     "price": 6999,
     "network_model": "V2547DA",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -1611,7 +1651,9 @@
       "VFCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 30,
@@ -1629,7 +1671,7 @@
     "weight_g": 203,
     "camera_desc": "200MP主摄(1/1.4英寸 f/1.68) + 50MP超广角 + 50MP长焦(3x)",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -1650,7 +1692,7 @@
     "detailed_camera": "主摄 200MP 1/1.4\" f/1.68 OIS 蔡司| 超广 50MP 蔡司| 长焦 50MP 3x OIS 蔡司| 前置 32MP",
     "release_date": "2026-03-30",
     "price": 4999,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -1660,7 +1702,9 @@
       "VFCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "Huawei",
@@ -1701,7 +1745,7 @@
     "network_model": "SGT-AL10",
     "resolution": "2720×1260",
     "screen_type": "LTPO OLED",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -1711,7 +1755,10 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -1751,12 +1798,15 @@
     "screen_type": "OLED",
     "resolution": "2532×1170",
     "network_model": "A3635",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "os": "iOS 26",
+    "os_source": "series-default"
   },
   {
     "model": "Galaxy A57 5G",
@@ -1791,12 +1841,15 @@
     "id": 36,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 35,
@@ -1839,7 +1892,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 34,
@@ -1882,7 +1936,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -1929,7 +1984,8 @@
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy S26+",
@@ -1977,7 +2033,8 @@
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy S26",
@@ -2025,7 +2082,8 @@
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 40,
@@ -2073,7 +2131,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 42,
@@ -2113,7 +2172,8 @@
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "HONOR",
@@ -2153,7 +2213,8 @@
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 43,
@@ -2196,7 +2257,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 44,
@@ -2247,7 +2309,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 52,
@@ -2308,7 +2371,8 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 51,
@@ -2359,7 +2423,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 50,
@@ -2407,7 +2472,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 49,
@@ -2454,7 +2520,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 48,
@@ -2496,7 +2563,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 47,
@@ -2536,7 +2604,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 46,
@@ -2575,7 +2644,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 45,
@@ -2614,7 +2684,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "荣耀 500 Pro",
@@ -2663,7 +2734,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "荣耀 500",
@@ -2710,7 +2782,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 65,
@@ -2766,7 +2839,8 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 64,
@@ -2820,7 +2894,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 63,
@@ -2874,7 +2949,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 61,
@@ -2928,7 +3004,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 62,
@@ -2981,7 +3058,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 60,
@@ -3034,7 +3112,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 59,
@@ -3082,7 +3161,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 257,
@@ -3131,7 +3211,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 58,
@@ -3149,7 +3230,7 @@
     "weight_g": 201,
     "camera_desc": "5000万广角 OIS | 5000万超广角 | 5000万潜望长焦(3x)",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "IP6X",
       "IPX6",
@@ -3172,7 +3253,7 @@
     "price": 3599,
     "network_model": "PKZ110",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3181,7 +3262,9 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 57,
@@ -3228,7 +3311,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 56,
@@ -3246,7 +3330,7 @@
     "weight_g": 187,
     "camera_desc": "5000万广角 OIS | 800万超广角 | 5000万长焦(2x)",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "IP6X",
       "IPX6",
@@ -3271,7 +3355,7 @@
     "price": 2599,
     "network_model": "PLA110",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3280,7 +3364,9 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 55,
@@ -3326,7 +3412,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 67,
@@ -3344,7 +3431,7 @@
     "weight_g": 224,
     "camera_desc": "5000万广角 | 5000万超广角 | 2亿长焦",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX6",
@@ -3368,14 +3455,16 @@
     "detailed_camera": "主摄: 索尼LYT-808 1/1.28\" f/1.5 5000万 OIS | 超广角: 5000万 f/2.0 | 长焦: 三星HP5 1/1.56\" 2亿 f/2.1 70mm 3x光学 | 丹霞色彩还原",
     "release_date": "2025-10-16",
     "price": 5299,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 66,
@@ -3393,7 +3482,7 @@
     "weight_g": 203,
     "camera_desc": "5000万广角 f/1.6 | 5000万超广角 | 5000万长焦(3x) | 丹霞色彩还原",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX6",
@@ -3418,14 +3507,16 @@
     "release_date": "2025-10-16",
     "price": 4599,
     "network_model": "PLJ110",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "HONOR",
@@ -3470,7 +3561,8 @@
       "UFCS",
       "PPS"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "brand": "HONOR",
@@ -3516,7 +3608,8 @@
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 71,
@@ -3534,7 +3627,7 @@
     "weight_g": 221,
     "camera_desc": "5000万主摄 | 5000万超广角 | 2亿长焦",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -3565,8 +3658,10 @@
       "FCP",
       "VFCP"
     ],
-    "completeness_score": 94,
-    "charge_protocols_source": "chongdiantou"
+    "completeness_score": 100,
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "os_source": "series-default"
   },
   {
     "id": 70,
@@ -3584,7 +3679,7 @@
     "weight_g": 202,
     "camera_desc": "5000万主摄 OIS | 5000万超广角 | 5000万长焦(3x)",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -3605,7 +3700,7 @@
     "release_date": "2025-10-13",
     "price": 3999,
     "network_model": "V2509A",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3616,7 +3711,9 @@
       "VFCP",
       "Qi"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "os_source": "series-default"
   },
   {
     "id": 74,
@@ -3634,7 +3731,7 @@
     "weight_g": 227,
     "camera_desc": "50MP 1英寸主摄(f/1.63) + 50MP超广角(14mm) + 200MP潜望(100mm) + 50MP直立长焦(70mm)",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -3661,7 +3758,7 @@
     "price": 6499,
     "network_model": "V2546A",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3669,7 +3766,9 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 72,
@@ -3687,7 +3786,7 @@
     "weight_g": 212,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP潜望长焦",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -3713,14 +3812,16 @@
     "price": 4299,
     "network_model": "V2505A",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "os_source": "series-default"
   },
   {
     "brand": "OnePlus",
@@ -3773,7 +3874,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 79,
@@ -3826,7 +3928,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 78,
@@ -3879,7 +3982,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 77,
@@ -3933,7 +4037,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "Apple",
@@ -3973,12 +4078,17 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "network_model": "A3527",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "os": "iOS 26",
+    "os_source": "series-default",
+    "resolution": "2868×1320",
+    "resolution_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -4019,12 +4129,17 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "network_model": "A3524",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "os": "iOS 26",
+    "os_source": "series-default",
+    "resolution": "2622×1206",
+    "resolution_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -4062,12 +4177,17 @@
     "network_model": "A3518",
     "resolution": "2700×1220",
     "screen_type": "OLED",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default",
+    "os": "iOS 18",
+    "os_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -4108,12 +4228,15 @@
     "screen_type": "OLED",
     "network_model": "A3520",
     "resolution": "2556×1179",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "os": "iOS 26",
+    "os_source": "series-default"
   },
   {
     "id": 82,
@@ -4155,7 +4278,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 81,
@@ -4197,7 +4321,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 80,
@@ -4235,7 +4360,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 93,
@@ -4288,7 +4414,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 92,
@@ -4332,7 +4459,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "OnePlus",
@@ -4376,14 +4504,17 @@
     "screen_type": "OLED",
     "resolution": "1272×2772",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium",
+    "os": "ColorOS 16 / Android 16",
+    "os_source": "series-default"
   },
   {
     "brand": "realme",
@@ -4436,7 +4567,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 89,
@@ -4479,7 +4611,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 88,
@@ -4524,7 +4657,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 87,
@@ -4566,7 +4700,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 94,
@@ -4616,7 +4751,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "HONOR",
@@ -4647,7 +4783,7 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS| 超广 12MP f/2.2| 前置 50MP",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4655,7 +4791,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "OnePlus",
@@ -4695,14 +4834,17 @@
     "screen_type": "OLED",
     "resolution": "2780×1264",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium",
+    "os": "ColorOS",
+    "os_source": "series-default"
   },
   {
     "model": "荣耀 WIN RT",
@@ -4741,7 +4883,7 @@
     "resolution": "2800×1264",
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 后置 5000万(F1.95 OIS)+1200万(F2.2超广角微距) \\\\",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4749,7 +4891,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 100,
@@ -4767,7 +4912,7 @@
     "weight_g": 211,
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -4790,7 +4935,7 @@
     "release_date": "2025-08-01",
     "price": 3099,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4798,7 +4943,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "realme",
@@ -4850,7 +4997,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "OnePlus",
@@ -4901,7 +5049,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "REDMI",
@@ -4936,14 +5085,17 @@
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.6 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "REDMI",
@@ -4978,14 +5130,17 @@
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.6 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 95,
@@ -5024,7 +5179,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -5074,12 +5230,15 @@
     "fold_type": "三折叠",
     "resolution": "2400×1916 / 2520×1080",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -5129,13 +5288,16 @@
     "fold_type": "横向折叠",
     "resolution": "2160×1856 / 2376×968",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "HONOR",
@@ -5181,7 +5343,7 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS | 超广 50MP f/2.0 | 潜望长焦 50MP f/3.0 OIS | 前置 20MP",
     "network_model": "PNM-AN10",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5189,7 +5351,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -5239,13 +5404,16 @@
     "fold_type": "纵向折叠",
     "resolution": "2640×1080 / 1066×1056",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -5293,13 +5461,16 @@
     "fold_type": "纵向折叠",
     "resolution": "2640×1080 / 1066×1056",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -5330,14 +5501,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -5369,14 +5545,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 109,
@@ -5394,7 +5575,7 @@
     "weight_g": 205,
     "camera_desc": "2亿广角 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX9",
@@ -5414,7 +5595,7 @@
     "release_date": "2025-07-01",
     "price": 4799,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5423,7 +5604,9 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 107,
@@ -5441,7 +5624,7 @@
     "weight_g": 187,
     "camera_desc": "2亿广角 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX9",
@@ -5463,7 +5646,7 @@
     "release_date": "2025-07-01",
     "price": 3699,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5472,7 +5655,9 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -5503,14 +5688,19 @@
     "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万主摄 \\\\",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 106,
@@ -5528,7 +5718,7 @@
     "weight_g": 197,
     "camera_desc": "5000万广角 | 800万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "IP6X",
       "IPX9",
@@ -5551,7 +5741,7 @@
     "release_date": "2025-07-01",
     "price": 3299,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5560,7 +5750,9 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "OnePlus",
@@ -5610,7 +5802,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "OnePlus",
@@ -5660,7 +5853,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 132,
@@ -5709,7 +5903,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 131,
@@ -5727,7 +5922,7 @@
     "weight_g": 236,
     "camera_desc": "5000万主摄 f/1.6 OIS | 5000万超广角 | 5000万长焦(3x)",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS",
     "features": [],
     "tags": [
       "骁龙8 Elite 1",
@@ -5754,7 +5949,7 @@
     },
     "fold_type": "横向折叠",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5762,7 +5957,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 130,
@@ -5807,7 +6004,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 129,
@@ -5852,7 +6050,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 128,
@@ -5897,7 +6096,8 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 127,
@@ -5915,7 +6115,7 @@
     "weight_g": 213,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦(3x)",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "NFC"
     ],
@@ -5932,14 +6132,16 @@
     "release_date": "2025-06-01",
     "price": 3419,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "HONOR",
@@ -5971,7 +6173,7 @@
     "network_model": "DNP-AN00",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5979,7 +6181,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "realme",
@@ -6008,14 +6213,19 @@
     "resolution": "2772×1240",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default",
+    "os": "realme UI",
+    "os_source": "series-default"
   },
   {
     "brand": "HONOR",
@@ -6047,7 +6257,7 @@
     "network_model": "DNN-AN00",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6055,7 +6265,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 123,
@@ -6073,7 +6286,7 @@
     "weight_g": 200,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
     "has_tele": false,
-    "os": "",
+    "os": "ColorOS 16",
     "features": [
       "NFC"
     ],
@@ -6090,14 +6303,16 @@
     "release_date": "2025-06-01",
     "price": 2399,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 122,
@@ -6115,7 +6330,7 @@
     "weight_g": 208,
     "camera_desc": "后置5000万主摄+200万黑白 | 前置1600万像素",
     "has_tele": false,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "NFC"
     ],
@@ -6130,14 +6345,16 @@
     "release_date": "2025-06-01",
     "price": 2199,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 120,
@@ -6155,7 +6372,7 @@
     "weight_g": 207,
     "camera_desc": "后置5000万主摄+200万黑白 | 前置1600万像素",
     "has_tele": false,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "NFC"
     ],
@@ -6170,14 +6387,16 @@
     "release_date": "2025-06-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 121,
@@ -6190,13 +6409,13 @@
     "screen_size": 6.78,
     "screen_type": "AMOLED",
     "resolution": "2772×1240",
-    "refresh_hz": null,
+    "refresh_hz": 120,
     "battery_mah": 7000,
     "charging_w": 80,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 2.0",
     "weight_g": 195,
-    "os": null,
+    "os": "realme UI",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 5000万像素",
     "has_tele": false,
@@ -6211,14 +6430,18 @@
     "screen_form": "直屏",
     "release_date": "2025-06-01",
     "date_precision": "month",
-    "completeness_score": 56,
+    "completeness_score": 75,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz_source": "series-default",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "brand": "OnePlus",
@@ -6257,14 +6480,17 @@
     "screen_type": "AMOLED",
     "resolution": "1272×2772",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium",
+    "os": "ColorOS 16 / Android 16",
+    "os_source": "series-default"
   },
   {
     "id": 117,
@@ -6305,7 +6531,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 118,
@@ -6345,7 +6572,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "Huawei",
@@ -6403,7 +6631,8 @@
     ],
     "date_precision": "month",
     "completeness_score": 94,
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "brand": "HONOR",
@@ -6432,7 +6661,7 @@
     "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 5000万主摄",
     "screen_type": "LCD",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6440,7 +6669,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 135,
@@ -6459,7 +6691,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "weight_g": 185,
-    "os": null,
+    "os": "OriginOS",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄 50MP f/1.6 OIS| 前置 50MP",
     "has_tele": false,
@@ -6472,7 +6704,7 @@
     "screen_form": "直屏",
     "release_date": "2025-04-01",
     "date_precision": "month",
-    "completeness_score": 69,
+    "completeness_score": 75,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6480,7 +6712,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 134,
@@ -6529,7 +6763,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 133,
@@ -6547,7 +6782,7 @@
     "weight_g": 209,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [
       "NFC",
       "红外"
@@ -6565,7 +6800,7 @@
     "release_date": "2025-04-01",
     "price": 2299,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6573,7 +6808,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "Huawei",
@@ -6618,7 +6855,7 @@
     "resolution": "2700×1224",
     "screen_type": "LTPO OLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -6628,7 +6865,10 @@
       "FCP",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "model": "Galaxy A56 5G",
@@ -6663,12 +6903,15 @@
     "id": 142,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 81,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 143,
@@ -6685,9 +6928,9 @@
     "battery_mah": 5000,
     "charging_w": 45,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 195,
-    "os": null,
+    "os": "One UI 6.1 / Android 14",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 5000万像素",
     "has_tele": false,
@@ -6700,12 +6943,15 @@
     "screen_form": "直屏",
     "release_date": "2025-03-01",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "id": 141,
@@ -6745,7 +6991,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 146,
@@ -6763,7 +7010,7 @@
     "weight_g": 225,
     "camera_desc": "2亿广角 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -6796,14 +7043,16 @@
     },
     "fold_type": "横向折叠",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 145,
@@ -6821,7 +7070,7 @@
     "weight_g": 229,
     "camera_desc": "5000万广角 | 800万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -6855,14 +7104,16 @@
     "fold_type": "横向折叠",
     "network_model": "PKH110",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -6905,12 +7156,15 @@
     "network_model": "SM-S9380",
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -6949,13 +7203,16 @@
     "id": 158,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 159,
@@ -7009,7 +7266,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy S25+",
@@ -7050,13 +7308,16 @@
     "network_model": "SM-S9360",
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "model": "Galaxy S25",
@@ -7097,13 +7358,16 @@
     "network_model": "SM-S9310",
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 154,
@@ -7121,7 +7385,7 @@
     "weight_g": 179,
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -7140,7 +7404,7 @@
     "release_date": "2025-01-01",
     "price": 3699,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7148,7 +7412,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "HONOR",
@@ -7181,7 +7447,7 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS| 长焦 50MP f/2.4 3x OIS| 前置 16MP",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7189,7 +7455,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 153,
@@ -7207,7 +7476,7 @@
     "weight_g": 194,
     "camera_desc": "200MP主摄 + 50MP超广角 + 潜望长焦",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -7228,7 +7497,7 @@
     "has_nfc": true,
     "has_ir": true,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7236,7 +7505,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 150,
@@ -7254,7 +7525,7 @@
     "weight_g": 179,
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -7272,7 +7543,7 @@
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7280,7 +7551,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 151,
@@ -7298,7 +7571,7 @@
     "weight_g": 199,
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [],
     "tags": [
       "中低端芯片",
@@ -7311,7 +7584,7 @@
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7319,7 +7592,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 152,
@@ -7337,7 +7612,7 @@
     "weight_g": 194,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -7356,7 +7631,7 @@
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7364,7 +7639,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "HONOR",
@@ -7395,7 +7672,7 @@
     "detailed_camera": "主摄: 索尼IMX906 50MP f/1.8 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7403,7 +7680,10 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 148,
@@ -7421,7 +7701,7 @@
     "weight_g": 199,
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
@@ -7439,7 +7719,7 @@
     "release_date": "2025-01-01",
     "price": 2599,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7447,7 +7727,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 147,
@@ -7465,7 +7747,7 @@
     "weight_g": 221,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -7485,7 +7767,7 @@
     "has_nfc": true,
     "has_ir": true,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7493,7 +7775,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 161,
@@ -7550,7 +7834,8 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 172,
@@ -7590,7 +7875,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 173,
@@ -7636,7 +7922,8 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 171,
@@ -7677,7 +7964,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 170,
@@ -7723,7 +8011,8 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 169,
@@ -7769,7 +8058,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 168,
@@ -7809,7 +8099,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 166,
@@ -7855,7 +8146,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 167,
@@ -7899,7 +8191,8 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 252,
@@ -7907,7 +8200,7 @@
     "model": "HUAWEI nova 14 活力版",
     "processor": "",
     "screen_size": 0,
-    "refresh_hz": 0,
+    "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2412×1084",
     "ram": "",
@@ -7917,7 +8210,7 @@
     "weight_g": 0,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "HarmonyOS 4.3",
     "features": [],
     "tags": [],
     "screen_form": "直屏",
@@ -7927,8 +8220,11 @@
     "release_date": "2024-12-01",
     "price": 0,
     "network_model": "TYR-AL00",
-    "completeness_score": 38,
-    "status": "incomplete"
+    "completeness_score": 50,
+    "status": "incomplete",
+    "charge_protocols_confidence": "none",
+    "refresh_hz_source": "series-default",
+    "os_source": "series-default"
   },
   {
     "brand": "realme",
@@ -7959,14 +8255,19 @@
     "network_model": "`RMX5010`",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default",
+    "os": "realme UI 6.0 / Android 15",
+    "os_source": "series-default"
   },
   {
     "id": 162,
@@ -8006,7 +8307,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 163,
@@ -8046,7 +8348,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "OnePlus",
@@ -8083,14 +8386,19 @@
     "resolution": "2780×1264",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default",
+    "os": "ColorOS 16 / Android 16",
+    "os_source": "series-default"
   },
   {
     "id": 183,
@@ -8142,7 +8450,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 182,
@@ -8194,7 +8503,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 181,
@@ -8211,7 +8521,7 @@
     "battery_mah": 4720,
     "charging_w": 66,
     "wireless_charging_w": 50,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 195,
     "os": "HarmonyOS 6.1",
     "camera_desc": "5000万(RYYB)",
@@ -8227,7 +8537,7 @@
     "screen_form": "直屏",
     "release_date": "2024-11-01",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "SCP",
       "FCP",
@@ -8235,7 +8545,9 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium",
+    "usb_version_source": "series-default"
   },
   {
     "id": 180,
@@ -8287,7 +8599,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "brand": "Huawei",
@@ -8329,14 +8642,17 @@
     "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
     "screen_type": "LTPO OLED",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "QC",
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 178,
@@ -8387,7 +8703,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high"
   },
   {
     "id": 177,
@@ -8434,7 +8751,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "REDMI",
@@ -8480,7 +8798,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "REDMI",
@@ -8522,7 +8841,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "REDMI",
@@ -8563,7 +8883,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 200,
@@ -8611,7 +8932,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 201,
@@ -8654,7 +8976,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 202,
@@ -8705,7 +9028,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 198,
@@ -8753,7 +9077,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 199,
@@ -8805,7 +9130,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 197,
@@ -8823,7 +9149,7 @@
     "weight_g": 207,
     "camera_desc": "5000万广角 f/1.6 | 5000万超广角 f/2.0 | 5000万长焦(3x) | 丹霞色彩还原",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "IP6X",
       "IPX6",
@@ -8845,14 +9171,16 @@
     "release_date": "2024-10-01",
     "price": 4799,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 196,
@@ -8904,7 +9232,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oneplus"
+    "charge_protocols_source": "ecosystem-oneplus",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 194,
@@ -8955,7 +9284,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 195,
@@ -8998,7 +9328,8 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 192,
@@ -9047,7 +9378,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 193,
@@ -9065,7 +9397,7 @@
     "weight_g": 203,
     "camera_desc": "5000万主摄 | 5000万超广角 | 5000万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [],
     "tags": [
       "天玑9400",
@@ -9079,7 +9411,7 @@
     "release_date": "2024-10-01",
     "price": 4299,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9087,7 +9419,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 191,
@@ -9135,7 +9469,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 190,
@@ -9182,7 +9517,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo"
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 189,
@@ -9200,7 +9536,7 @@
     "weight_g": 193,
     "camera_desc": "5000万广角 f/1.6 | 5000万超广角 f/2.0 | 5000万长焦(3x) | 丹霞色彩还原",
     "has_tele": true,
-    "os": "",
+    "os": "ColorOS",
     "features": [
       "IP6X",
       "IPX6",
@@ -9223,14 +9559,16 @@
     "release_date": "2024-10-01",
     "price": 3799,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo"
+    "charge_protocols_source": "ecosystem-oppo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 187,
@@ -9282,7 +9620,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 188,
@@ -9323,7 +9662,8 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 186,
@@ -9377,7 +9717,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 185,
@@ -9416,7 +9757,8 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 184,
@@ -9459,7 +9801,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "Apple",
@@ -9500,12 +9843,17 @@
     "screen_type": "OLED",
     "network_model": "A3297",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "os": "iOS 18",
+    "os_source": "series-default",
+    "resolution": "2868×1320",
+    "resolution_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -9547,12 +9895,17 @@
     "screen_type": "OLED",
     "network_model": "A3294",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "os": "iOS 18",
+    "os_source": "series-default",
+    "resolution": "2622×1206",
+    "resolution_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -9590,12 +9943,19 @@
     "screen_type": "OLED",
     "network_model": "A3291",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 100,
     "charge_protocols": [
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "ecosystem-apple-qi2"
+    "charge_protocols_source": "ecosystem-apple-qi2",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default",
+    "os": "iOS 18",
+    "os_source": "series-default",
+    "resolution": "2556×1179",
+    "resolution_source": "series-default"
   },
   {
     "brand": "Apple",
@@ -9634,11 +9994,16 @@
     "screen_type": "OLED",
     "network_model": "A3288",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "Qi2"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "os": "iOS 18",
+    "os_source": "series-default",
+    "resolution": "2556×1179",
+    "resolution_source": "series-default"
   },
   {
     "id": 211,
@@ -9679,7 +10044,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 212,
@@ -9697,7 +10063,7 @@
     "weight_g": 212,
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX5",
@@ -9720,7 +10086,7 @@
     "price": 2999,
     "network_model": "`V2424A`",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9728,7 +10094,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 209,
@@ -9768,7 +10136,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "REDMI",
@@ -9804,14 +10173,17 @@
     "resolution": "2712×1220",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 208,
@@ -9855,7 +10227,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 207,
@@ -9893,7 +10266,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -9944,12 +10318,15 @@
     "network_model": "SM-F9560",
     "resolution": "2160×1856 / 2376×968",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 224,
@@ -10002,7 +10379,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 225,
@@ -10061,7 +10439,8 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -10112,12 +10491,15 @@
     "network_model": "SM-F7410",
     "resolution": "2640×1080 / 748×720",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 222,
@@ -10125,7 +10507,7 @@
     "model": "Xiaomi MIX Flip",
     "processor": "骁龙8 Gen 3",
     "screen_size": 6.86,
-    "refresh_hz": 0,
+    "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "2912×1224 / 1392×1208",
     "ram": "12GB / 16GB LPDDR5X",
@@ -10167,7 +10549,7 @@
     "fold_type": "纵向折叠",
     "network_model": "2405CPX3DC",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10175,7 +10557,9 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -10206,14 +10590,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 220,
@@ -10221,7 +10610,7 @@
     "model": "Xiaomi MIX Flip 2",
     "processor": "骁龙8 Elite 1",
     "screen_size": 6.86,
-    "refresh_hz": 0,
+    "refresh_hz": 120,
     "screen_type": "OLED折叠屏",
     "resolution": "2912×1224",
     "ram": "12GB / 16GB LPDDR5X",
@@ -10266,7 +10655,7 @@
     "fold_type": "纵向折叠",
     "network_model": "`2405CPX3DC`",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10274,7 +10663,9 @@
       "QC",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -10306,14 +10697,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -10344,14 +10740,19 @@
     "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万主摄 \\\\",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -10383,14 +10784,19 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 216,
@@ -10403,13 +10809,13 @@
     "screen_size": 6.85,
     "screen_type": "AMOLED",
     "resolution": "2688×1216",
-    "refresh_hz": null,
+    "refresh_hz": 144,
     "battery_mah": 6500,
     "charging_w": 80,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 229,
-    "os": null,
+    "os": "RedMagic OS",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万像素",
     "has_tele": false,
@@ -10423,14 +10829,18 @@
     "screen_form": "直屏",
     "release_date": "2024-07-01",
     "date_precision": "month",
-    "completeness_score": 56,
+    "completeness_score": 75,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz_source": "series-default",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "id": 215,
@@ -10443,13 +10853,13 @@
     "screen_size": 6.78,
     "screen_type": "AMOLED",
     "resolution": "2780×1264",
-    "refresh_hz": null,
+    "refresh_hz": 120,
     "battery_mah": 5800,
     "charging_w": 120,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 210,
-    "os": null,
+    "os": "realme UI",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄: 索尼LYT-808 50MP f/1.6 | 5000万像素",
     "has_tele": false,
@@ -10461,14 +10871,18 @@
     "release_date": "2024-07-01",
     "network_model": "RMX3800",
     "date_precision": "month",
-    "completeness_score": 62,
+    "completeness_score": 81,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz_source": "series-default",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -10499,14 +10913,19 @@
     "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万主摄 \\\\",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 213,
@@ -10523,7 +10942,7 @@
     "battery_mah": 5800,
     "charging_w": 100,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 195,
     "os": "MagicOS",
     "camera_desc": "5000万(RYYB)",
@@ -10538,7 +10957,7 @@
     "screen_form": "直屏",
     "release_date": "2024-07-01",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10546,7 +10965,9 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor-mid"
+    "charge_protocols_source": "ecosystem-honor-mid",
+    "charge_protocols_confidence": "medium",
+    "usb_version_source": "series-default"
   },
   {
     "id": 227,
@@ -10583,7 +11004,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 231,
@@ -10633,7 +11055,8 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "ecosystem-honor"
+    "charge_protocols_source": "ecosystem-honor",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 230,
@@ -10676,7 +11099,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 229,
@@ -10693,9 +11117,9 @@
     "battery_mah": 5000,
     "charging_w": 80,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 2.0",
     "weight_g": 180,
-    "os": null,
+    "os": "OriginOS",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 5000万像素",
     "has_tele": false,
@@ -10708,7 +11132,7 @@
     "screen_form": "直屏",
     "release_date": "2024-05-01",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10716,7 +11140,10 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "model": "Galaxy C55 5G",
@@ -10748,12 +11175,15 @@
     "id": 228,
     "resolution": "2408×1080",
     "date_precision": "month",
-    "completeness_score": 69,
+    "completeness_score": 75,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 232,
@@ -10792,7 +11222,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 235,
@@ -10809,9 +11240,9 @@
     "battery_mah": 5000,
     "charging_w": 25,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 195,
-    "os": null,
+    "os": "One UI 6.1 / Android 14",
     "camera_desc": "5000万像素",
     "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万像素",
     "has_tele": false,
@@ -10825,12 +11256,15 @@
     "release_date": "2024-03-01",
     "network_model": "SM-A5560",
     "date_precision": "month",
-    "completeness_score": 69,
+    "completeness_score": 81,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "model": "Galaxy A55 5G",
@@ -10864,12 +11298,15 @@
     "id": 234,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 81,
     "charge_protocols": [
       "PPS",
       "PD"
     ],
-    "charge_protocols_source": "ecosystem-samsung-pd"
+    "charge_protocols_source": "ecosystem-samsung-pd",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 233,
@@ -10882,13 +11319,13 @@
     "screen_size": 6.7,
     "screen_type": "AMOLED",
     "resolution": "2780×1264",
-    "refresh_hz": null,
+    "refresh_hz": 120,
     "battery_mah": 6000,
     "charging_w": 80,
     "wireless_charging_w": 0,
-    "usb_version": null,
+    "usb_version": "USB 3.2",
     "weight_g": 195,
-    "os": null,
+    "os": "realme UI 6.0 / Android 15",
     "camera_desc": "5000万主摄 OIS",
     "detailed_camera": "主摄: 50MP 索尼IMX890 f/1.8 OIS | 超广: 8MP | 前置: 16MP",
     "has_tele": false,
@@ -10902,14 +11339,18 @@
     "release_date": "2024-03-01",
     "network_model": "`24115RA8EC`",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz_source": "series-default",
+    "os_source": "series-default",
+    "usb_version_source": "series-default"
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -10949,13 +11390,16 @@
     "id": 242,
     "resolution": "3088×1440",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
       "Qi2"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "brand": "Huawei",
@@ -10997,7 +11441,7 @@
     "detailed_camera": "主摄: 1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
     "screen_type": "OLED",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "SCP",
       "FCP",
@@ -11005,7 +11449,10 @@
       "UFCS",
       "Qi"
     ],
-    "charge_protocols_source": "ecosystem-huawei-nova"
+    "charge_protocols_source": "ecosystem-huawei-nova",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 120,
+    "refresh_hz_source": "series-default"
   },
   {
     "id": 240,
@@ -11023,7 +11470,7 @@
     "weight_g": 212,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -11043,7 +11490,7 @@
     "release_date": "2024-01-01",
     "price": 2699,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11051,7 +11498,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "brand": "realme",
@@ -11085,14 +11534,17 @@
     "screen_type": "OLED",
     "resolution": "2780×1264",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium",
+    "os": "realme UI",
+    "os_source": "series-default"
   },
   {
     "id": 238,
@@ -11110,7 +11562,7 @@
     "weight_g": 209,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -11131,7 +11583,7 @@
     "release_date": "2024-01-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11139,7 +11591,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 236,
@@ -11178,7 +11632,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-realme"
+    "charge_protocols_source": "ecosystem-realme",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 237,
@@ -11196,7 +11651,7 @@
     "weight_g": 194,
     "camera_desc": "5000万广角 | 200万黑白",
     "has_tele": false,
-    "os": "",
+    "os": "ColorOS",
     "features": [],
     "tags": [
       "中低端芯片",
@@ -11210,14 +11665,16 @@
     "release_date": "2024-01-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-oppo-mid"
+    "charge_protocols_source": "ecosystem-oppo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 244,
@@ -11235,7 +11692,7 @@
     "weight_g": 192,
     "camera_desc": "5000万主摄 | 5000万超广角 | 800万长焦",
     "has_tele": true,
-    "os": "",
+    "os": "OriginOS",
     "features": [
       "IP6X",
       "IPX8",
@@ -11254,7 +11711,7 @@
     "release_date": "2023-12-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11262,7 +11719,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 243,
@@ -11280,7 +11739,7 @@
     "weight_g": 186,
     "camera_desc": "5000万主摄",
     "has_tele": false,
-    "os": "",
+    "os": "OriginOS",
     "features": [],
     "tags": [
       "中低端芯片",
@@ -11293,7 +11752,7 @@
     "release_date": "2023-12-01",
     "price": 2299,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11301,7 +11760,9 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-vivo-mid"
+    "charge_protocols_source": "ecosystem-vivo-mid",
+    "charge_protocols_confidence": "medium",
+    "os_source": "series-default"
   },
   {
     "id": 245,
@@ -11345,7 +11806,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmi"
+    "charge_protocols_source": "ecosystem-redmi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 246,
@@ -11396,7 +11858,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "brand": "RedMagic",
@@ -11426,7 +11889,7 @@
     "resolution": "2480×1116",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -11437,7 +11900,12 @@
       "SCP",
       "FCP"
     ],
-    "charge_protocols_source": "chongdiantou"
+    "charge_protocols_source": "chongdiantou",
+    "charge_protocols_confidence": "high",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "brand": "RedMagic",
@@ -11466,14 +11934,19 @@
     "resolution": "2480×1116",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-redmagic"
+    "charge_protocols_source": "ecosystem-redmagic",
+    "charge_protocols_confidence": "medium",
+    "refresh_hz": 144,
+    "refresh_hz_source": "series-default",
+    "os": "RedMagic OS",
+    "os_source": "series-default"
   },
   {
     "id": 253,
@@ -11515,7 +11988,8 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 254,
@@ -11553,7 +12027,8 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 255,
@@ -11591,7 +12066,8 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 256,
@@ -11633,7 +12109,8 @@
       "PD",
       "QC"
     ],
-    "charge_protocols_source": "ecosystem-xiaomi"
+    "charge_protocols_source": "ecosystem-xiaomi",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 258,
@@ -11680,7 +12157,8 @@
       "QC",
       "VFCP"
     ],
-    "charge_protocols_source": "ecosystem-iqoo"
+    "charge_protocols_source": "ecosystem-iqoo",
+    "charge_protocols_confidence": "medium"
   },
   {
     "id": 251,
@@ -11719,6 +12197,7 @@
       "PD",
       "UFCS"
     ],
-    "charge_protocols_source": "ecosystem-huawei"
+    "charge_protocols_source": "ecosystem-huawei",
+    "charge_protocols_confidence": "medium"
   }
 ]

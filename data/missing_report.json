@@ -3,10 +3,8 @@
     "id": 252,
     "brand": "Huawei",
     "model": "HUAWEI nova 14 活力版",
-    "score": 38,
+    "score": 50,
     "missing": [
-      "系统",
-      "刷新率",
       "充电协议",
       "内存",
       "存储",
@@ -15,449 +13,86 @@
       "价格",
       "处理器"
     ],
-    "status": "incomplete"
+    "status": "incomplete",
+    "protocol_confidence": "none"
   },
   {
     "id": 121,
     "brand": "realme",
     "model": "Neo7",
-    "score": 56,
+    "score": 75,
     "missing": [
       "入网型号",
-      "系统",
-      "刷新率",
-      "USB",
       "内存",
       "存储"
     ],
-    "status": ""
-  },
-  {
-    "id": 216,
-    "brand": "RedMagic",
-    "model": "红魔 10",
-    "score": 56,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率",
-      "USB",
-      "内存",
-      "存储"
-    ],
-    "status": ""
-  },
-  {
-    "id": 215,
-    "brand": "realme",
-    "model": "GT6",
-    "score": 62,
-    "missing": [
-      "系统",
-      "刷新率",
-      "USB",
-      "内存",
-      "存储"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 135,
     "brand": "vivo",
     "model": "S21 Pro",
-    "score": 69,
+    "score": 75,
     "missing": [
       "入网型号",
-      "系统",
       "内存",
       "存储"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 216,
+    "brand": "RedMagic",
+    "model": "红魔 10",
+    "score": 75,
+    "missing": [
+      "入网型号",
+      "内存",
+      "存储"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 228,
     "brand": "Samsung",
     "model": "Galaxy C55 5G",
-    "score": 69,
+    "score": 75,
     "missing": [
       "入网型号",
-      "刷新率",
       "内存",
       "存储"
     ],
-    "status": ""
-  },
-  {
-    "id": 235,
-    "brand": "Samsung",
-    "model": "Galaxy A55",
-    "score": 69,
-    "missing": [
-      "系统",
-      "USB",
-      "内存",
-      "存储"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 142,
     "brand": "Samsung",
     "model": "Galaxy A56 5G",
-    "score": 75,
+    "score": 81,
     "missing": [
       "入网型号",
-      "刷新率",
       "内存",
       "存储"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 234,
     "brand": "Samsung",
     "model": "Galaxy A55 5G",
-    "score": 75,
+    "score": 81,
     "missing": [
       "入网型号",
-      "刷新率",
       "内存",
       "存储"
     ],
-    "status": ""
-  },
-  {
-    "id": 22,
-    "brand": "RedMagic",
-    "model": "红魔 11S Pro+",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 21,
-    "brand": "RedMagic",
-    "model": "红魔 11S Pro",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 111,
-    "brand": "RedMagic",
-    "model": "红魔 11 Pro+",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 110,
-    "brand": "RedMagic",
-    "model": "红魔 11 Pro",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 108,
-    "brand": "RedMagic",
-    "model": "红魔 11 Air",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 125,
-    "brand": "realme",
-    "model": "Neo7 Turbo",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 143,
-    "brand": "Samsung",
-    "model": "Galaxy A56",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "USB"
-    ],
-    "status": ""
-  },
-  {
-    "id": 221,
-    "brand": "RedMagic",
-    "model": "红魔 10S Pro+",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 218,
-    "brand": "RedMagic",
-    "model": "红魔 10S Pro",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 229,
-    "brand": "vivo",
-    "model": "S21",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "USB"
-    ],
-    "status": ""
-  },
-  {
-    "id": 233,
-    "brand": "realme",
-    "model": "14 Pro+",
-    "score": 75,
-    "missing": [
-      "系统",
-      "刷新率",
-      "USB"
-    ],
-    "status": ""
-  },
-  {
-    "id": 248,
-    "brand": "RedMagic",
-    "model": "红魔 9S Pro+",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 247,
-    "brand": "RedMagic",
-    "model": "红魔 9S Pro",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 204,
-    "brand": "Apple",
-    "model": "iPhone 16 Plus",
-    "score": 81,
-    "missing": [
-      "系统",
-      "刷新率",
-      "分辨率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 103,
-    "brand": "HONOR",
-    "model": "荣耀 WIN",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 96,
-    "brand": "REDMI",
-    "model": "REDMI Turbo 5 Max",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 97,
-    "brand": "REDMI",
-    "model": "REDMI Turbo 5",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 131,
-    "brand": "vivo",
-    "model": "vivo X Fold5",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 127,
-    "brand": "OPPO",
-    "model": "OPPO K15 Pro+",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 123,
-    "brand": "OPPO",
-    "model": "OPPO K15 Pro",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 122,
-    "brand": "OPPO",
-    "model": "OPPO K13 Turbo Pro",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 120,
-    "brand": "OPPO",
-    "model": "OPPO K13 Turbo",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 137,
-    "brand": "HONOR",
-    "model": "荣耀 Power2",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 133,
-    "brand": "iQOO",
-    "model": "iQOO Z10 Turbo+",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 155,
-    "brand": "HONOR",
-    "model": "荣耀 GT Pro",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 151,
-    "brand": "vivo",
-    "model": "vivo S30",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 149,
-    "brand": "HONOR",
-    "model": "荣耀 GT",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 165,
-    "brand": "realme",
-    "model": "GT7",
-    "score": 81,
-    "missing": [
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 181,
-    "brand": "Huawei",
-    "model": "Pocket 70 Pro",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "USB"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 174,
@@ -468,95 +103,32 @@
       "分辨率",
       "影像详情"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 193,
-    "brand": "vivo",
-    "model": "vivo X200s",
+    "id": 215,
+    "brand": "realme",
+    "model": "GT6",
     "score": 81,
     "missing": [
-      "入网型号",
-      "系统"
+      "内存",
+      "存储"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 219,
-    "brand": "RedMagic",
-    "model": "红魔 10 Pro+",
+    "id": 235,
+    "brand": "Samsung",
+    "model": "Galaxy A55",
     "score": 81,
     "missing": [
-      "系统",
-      "刷新率"
+      "内存",
+      "存储"
     ],
-    "status": ""
-  },
-  {
-    "id": 217,
-    "brand": "RedMagic",
-    "model": "红魔 10 Pro",
-    "score": 81,
-    "missing": [
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 214,
-    "brand": "RedMagic",
-    "model": "红魔 10 Air",
-    "score": 81,
-    "missing": [
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 213,
-    "brand": "HONOR",
-    "model": "X70 Pro",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "USB"
-    ],
-    "status": ""
-  },
-  {
-    "id": 241,
-    "brand": "Huawei",
-    "model": "HUAWEI nova Flip S",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 237,
-    "brand": "OPPO",
-    "model": "OPPO A6s Pro",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 243,
-    "brand": "vivo",
-    "model": "vivo S19",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 254,
@@ -567,7 +139,8 @@
       "入网型号",
       "内存"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 255,
@@ -578,425 +151,8 @@
       "入网型号",
       "内存"
     ],
-    "status": ""
-  },
-  {
-    "id": 29,
-    "brand": "OPPO",
-    "model": "OPPO Find X9 Ultra",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 30,
-    "brand": "vivo",
-    "model": "vivo X300s",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 36,
-    "brand": "Samsung",
-    "model": "Galaxy A57 5G",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 67,
-    "brand": "OPPO",
-    "model": "OPPO Find X9 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 86,
-    "brand": "Apple",
-    "model": "iPhone 17 Pro Max",
-    "score": 88,
-    "missing": [
-      "系统",
-      "分辨率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 85,
-    "brand": "Apple",
-    "model": "iPhone 17 Pro",
-    "score": 88,
-    "missing": [
-      "系统",
-      "分辨率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 84,
-    "brand": "Apple",
-    "model": "iPhone Air",
-    "score": 88,
-    "missing": [
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 90,
-    "brand": "OnePlus",
-    "model": "一加 15",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 102,
-    "brand": "OnePlus",
-    "model": "一加 Ace 6 至尊版",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 101,
-    "brand": "HONOR",
-    "model": "荣耀 WIN RT",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 100,
-    "brand": "iQOO",
-    "model": "iQOO Neo11",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 116,
-    "brand": "Samsung",
-    "model": "Galaxy Z TriFold",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 115,
-    "brand": "Samsung",
-    "model": "Galaxy Z Fold7",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 113,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip7",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 112,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip7 FE",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 109,
-    "brand": "OPPO",
-    "model": "OPPO Reno15 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 107,
-    "brand": "OPPO",
-    "model": "OPPO Reno15",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 106,
-    "brand": "OPPO",
-    "model": "OPPO Reno15c",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 119,
-    "brand": "OnePlus",
-    "model": "一加 Turbo 6V",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 146,
-    "brand": "OPPO",
-    "model": "OPPO Find N6",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 158,
-    "brand": "Samsung",
-    "model": "Galaxy S25 Edge",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 154,
-    "brand": "vivo",
-    "model": "vivo S50 Pro mini",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 153,
-    "brand": "vivo",
-    "model": "vivo Y500 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 150,
-    "brand": "vivo",
-    "model": "vivo S30 Pro mini",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 152,
-    "brand": "vivo",
-    "model": "vivo Y500",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 148,
-    "brand": "vivo",
-    "model": "vivo S50",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 147,
-    "brand": "vivo",
-    "model": "vivo Y600 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 164,
-    "brand": "OnePlus",
-    "model": "一加 Ace 5 至尊版",
-    "score": 88,
-    "missing": [
-      "系统",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 197,
-    "brand": "OPPO",
-    "model": "OPPO Find X8s+",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 189,
-    "brand": "OPPO",
-    "model": "OPPO Find X8s",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 206,
-    "brand": "Apple",
-    "model": "iPhone 16 Pro Max",
-    "score": 88,
-    "missing": [
-      "系统",
-      "分辨率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 205,
-    "brand": "Apple",
-    "model": "iPhone 16 Pro",
-    "score": 88,
-    "missing": [
-      "系统",
-      "分辨率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 203,
-    "brand": "Apple",
-    "model": "iPhone 16",
-    "score": 88,
-    "missing": [
-      "系统",
-      "分辨率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 242,
-    "brand": "Samsung",
-    "model": "Galaxy S24 Ultra",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "刷新率"
-    ],
-    "status": ""
-  },
-  {
-    "id": 240,
-    "brand": "iQOO",
-    "model": "iQOO Z11 Turbo",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 239,
-    "brand": "realme",
-    "model": "Neo8",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 238,
-    "brand": "iQOO",
-    "model": "iQOO Z11",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 244,
-    "brand": "vivo",
-    "model": "vivo S19 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号",
-      "系统"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 2,
@@ -1006,7 +162,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 12,
@@ -1016,7 +173,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 13,
@@ -1026,7 +184,30 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 22,
+    "brand": "RedMagic",
+    "model": "红魔 11S Pro+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 21,
+    "brand": "RedMagic",
+    "model": "红魔 11S Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 35,
@@ -1036,7 +217,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 34,
@@ -1046,7 +228,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 42,
@@ -1056,7 +239,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 41,
@@ -1066,7 +250,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 48,
@@ -1076,7 +261,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 47,
@@ -1086,7 +272,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 46,
@@ -1096,7 +283,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 45,
@@ -1106,7 +294,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 59,
@@ -1116,7 +305,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 57,
@@ -1126,7 +316,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 55,
@@ -1136,7 +327,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 68,
@@ -1146,7 +338,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 69,
@@ -1156,7 +349,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 82,
@@ -1166,7 +360,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 80,
@@ -1176,7 +371,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 89,
@@ -1186,7 +382,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 88,
@@ -1196,7 +393,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 87,
@@ -1206,7 +404,41 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 103,
+    "brand": "HONOR",
+    "model": "荣耀 WIN",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 96,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 5 Max",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 97,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 5",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 95,
@@ -1216,37 +448,107 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 114,
-    "brand": "HONOR",
-    "model": "荣耀 Magic V6",
+    "id": 111,
+    "brand": "RedMagic",
+    "model": "红魔 11 Pro+",
     "score": 88,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 126,
-    "brand": "HONOR",
-    "model": "荣耀 400 Pro",
+    "id": 110,
+    "brand": "RedMagic",
+    "model": "红魔 11 Pro",
     "score": 88,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 124,
-    "brand": "HONOR",
-    "model": "荣耀 400",
+    "id": 108,
+    "brand": "RedMagic",
+    "model": "红魔 11 Air",
     "score": 88,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 131,
+    "brand": "vivo",
+    "model": "vivo X Fold5",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 127,
+    "brand": "OPPO",
+    "model": "OPPO K15 Pro+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 125,
+    "brand": "realme",
+    "model": "Neo7 Turbo",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 123,
+    "brand": "OPPO",
+    "model": "OPPO K15 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 122,
+    "brand": "OPPO",
+    "model": "OPPO K13 Turbo Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 120,
+    "brand": "OPPO",
+    "model": "OPPO K13 Turbo",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 118,
@@ -1256,17 +558,41 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 144,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura X",
+    "id": 137,
+    "brand": "HONOR",
+    "model": "荣耀 Power2",
     "score": 88,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 133,
+    "brand": "iQOO",
+    "model": "iQOO Z10 Turbo+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 143,
+    "brand": "Samsung",
+    "model": "Galaxy A56",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 141,
@@ -1276,7 +602,41 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 155,
+    "brand": "HONOR",
+    "model": "荣耀 GT Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 151,
+    "brand": "vivo",
+    "model": "vivo S30",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 149,
+    "brand": "HONOR",
+    "model": "荣耀 GT",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 173,
@@ -1286,7 +646,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 170,
@@ -1296,7 +657,19 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 181,
+    "brand": "Huawei",
+    "model": "Pocket 70 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 175,
@@ -1306,7 +679,19 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 193,
+    "brand": "vivo",
+    "model": "vivo X200s",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 184,
@@ -1316,17 +701,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
-  },
-  {
-    "id": 210,
-    "brand": "REDMI",
-    "model": "REDMI Turbo 4 Pro",
-    "score": 88,
-    "missing": [
-      "刷新率"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 208,
@@ -1336,7 +712,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 207,
@@ -1346,27 +723,41 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 222,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Flip",
+    "id": 221,
+    "brand": "RedMagic",
+    "model": "红魔 10S Pro+",
     "score": 88,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 220,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Flip 2",
+    "id": 218,
+    "brand": "RedMagic",
+    "model": "红魔 10S Pro",
     "score": 88,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 213,
+    "brand": "HONOR",
+    "model": "X70 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 227,
@@ -1376,7 +767,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 231,
@@ -1386,7 +778,30 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 229,
+    "brand": "vivo",
+    "model": "S21",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 241,
+    "brand": "Huawei",
+    "model": "HUAWEI nova Flip S",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 236,
@@ -1396,7 +811,30 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 237,
+    "brand": "OPPO",
+    "model": "OPPO A6s Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 243,
+    "brand": "vivo",
+    "model": "vivo S19",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 245,
@@ -1406,7 +844,30 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 248,
+    "brand": "RedMagic",
+    "model": "红魔 9S Pro+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 247,
+    "brand": "RedMagic",
+    "model": "红魔 9S Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 256,
@@ -1416,7 +877,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 259,
@@ -1426,7 +888,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 260,
@@ -1436,7 +899,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 250,
@@ -1446,7 +910,8 @@
     "missing": [
       "分辨率"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 249,
@@ -1456,7 +921,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 1,
@@ -1466,7 +932,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 3,
@@ -1476,7 +943,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 5,
@@ -1486,7 +954,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 4,
@@ -1496,7 +965,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 11,
@@ -1506,7 +976,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 10,
@@ -1516,7 +987,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 17,
@@ -1526,7 +998,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 16,
@@ -1536,7 +1009,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 15,
@@ -1546,7 +1020,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 14,
@@ -1556,7 +1031,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 18,
@@ -1566,7 +1042,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 20,
@@ -1576,47 +1053,41 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 27,
+    "id": 29,
     "brand": "OPPO",
-    "model": "OPPO Find X9s Pro",
+    "model": "OPPO Find X9 Ultra",
     "score": 94,
     "missing": [
-      "系统"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 31,
+    "id": 30,
     "brand": "vivo",
-    "model": "vivo X300 Ultra",
+    "model": "vivo X300s",
     "score": 94,
     "missing": [
-      "系统"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 32,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80 Pro Max 风驰版",
+    "id": 36,
+    "brand": "Samsung",
+    "model": "Galaxy A57 5G",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
-  },
-  {
-    "id": 33,
-    "brand": "Apple",
-    "model": "iPhone 17e",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 39,
@@ -1626,7 +1097,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 38,
@@ -1636,7 +1108,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 37,
@@ -1646,7 +1119,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 40,
@@ -1656,7 +1130,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 43,
@@ -1666,7 +1141,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 44,
@@ -1676,7 +1152,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 54,
@@ -1686,7 +1163,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 53,
@@ -1696,7 +1174,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 63,
@@ -1706,7 +1185,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 257,
@@ -1716,77 +1196,19 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 58,
+    "id": 67,
     "brand": "OPPO",
-    "model": "OPPO Reno14 Pro",
+    "model": "OPPO Find X9 Pro",
     "score": 94,
     "missing": [
-      "系统"
+      "入网型号"
     ],
-    "status": ""
-  },
-  {
-    "id": 56,
-    "brand": "OPPO",
-    "model": "OPPO Reno14",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 66,
-    "brand": "OPPO",
-    "model": "OPPO Find X9",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 71,
-    "brand": "vivo",
-    "model": "vivo X300 Pro",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 70,
-    "brand": "vivo",
-    "model": "vivo X300",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 74,
-    "brand": "iQOO",
-    "model": "iQOO 15 Ultra",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
-  },
-  {
-    "id": 72,
-    "brand": "iQOO",
-    "model": "iQOO 15",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 73,
@@ -1796,17 +1218,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
-  },
-  {
-    "id": 83,
-    "brand": "Apple",
-    "model": "iPhone 17",
-    "score": 94,
-    "missing": [
-      "系统"
-    ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 93,
@@ -1816,7 +1229,19 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 90,
+    "brand": "OnePlus",
+    "model": "一加 15",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 94,
@@ -1826,7 +1251,118 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 102,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6 至尊版",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 101,
+    "brand": "HONOR",
+    "model": "荣耀 WIN RT",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 100,
+    "brand": "iQOO",
+    "model": "iQOO Neo11",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 116,
+    "brand": "Samsung",
+    "model": "Galaxy Z TriFold",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 115,
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold7",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 113,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 112,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7 FE",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 109,
+    "brand": "OPPO",
+    "model": "OPPO Reno15 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 107,
+    "brand": "OPPO",
+    "model": "OPPO Reno15",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 106,
+    "brand": "OPPO",
+    "model": "OPPO Reno15c",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 105,
@@ -1836,7 +1372,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 104,
@@ -1846,7 +1383,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 132,
@@ -1856,57 +1394,107 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 145,
+    "id": 119,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6V",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 146,
     "brand": "OPPO",
-    "model": "OPPO Find N5",
+    "model": "OPPO Find N6",
     "score": 94,
     "missing": [
-      "系统"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 160,
+    "id": 158,
     "brand": "Samsung",
-    "model": "Galaxy S25 Ultra",
+    "model": "Galaxy S25 Edge",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 157,
-    "brand": "Samsung",
-    "model": "Galaxy S25+",
+    "id": 154,
+    "brand": "vivo",
+    "model": "vivo S50 Pro mini",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 156,
-    "brand": "Samsung",
-    "model": "Galaxy S25",
+    "id": 153,
+    "brand": "vivo",
+    "model": "vivo Y500 Pro",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 179,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 70 Pro 优享版",
+    "id": 150,
+    "brand": "vivo",
+    "model": "vivo S30 Pro mini",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 152,
+    "brand": "vivo",
+    "model": "vivo Y500",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 148,
+    "brand": "vivo",
+    "model": "vivo S50",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 147,
+    "brand": "vivo",
+    "model": "vivo Y600 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 202,
@@ -1916,37 +1504,85 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 212,
+    "id": 197,
+    "brand": "OPPO",
+    "model": "OPPO Find X8s+",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 189,
+    "brand": "OPPO",
+    "model": "OPPO Find X8s",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 242,
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 240,
     "brand": "iQOO",
-    "model": "iQOO Neo10 Pro+",
+    "model": "iQOO Z11 Turbo",
     "score": 94,
     "missing": [
-      "系统"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 226,
-    "brand": "Samsung",
-    "model": "Galaxy Z Fold6",
+    "id": 239,
+    "brand": "realme",
+    "model": "Neo8",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
-    "id": 223,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip6",
+    "id": 238,
+    "brand": "iQOO",
+    "model": "iQOO Z11",
     "score": 94,
     "missing": [
-      "刷新率"
+      "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 244,
+    "brand": "vivo",
+    "model": "vivo S19 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 253,
@@ -1956,7 +1592,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 258,
@@ -1966,7 +1603,8 @@
     "missing": [
       "入网型号"
     ],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 7,
@@ -1974,7 +1612,8 @@
     "model": "HUAWEI nova 16",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 6,
@@ -1982,7 +1621,8 @@
     "model": "HUAWEI nova 16z",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 51,
@@ -1990,7 +1630,8 @@
     "model": "HUAWEI nova 15 Ultra",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 50,
@@ -1998,7 +1639,8 @@
     "model": "HUAWEI nova 15 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 49,
@@ -2006,7 +1648,8 @@
     "model": "HUAWEI nova 15",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 65,
@@ -2014,7 +1657,8 @@
     "model": "华为 Mate XTs 非凡大师",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 81,
@@ -2022,7 +1666,8 @@
     "model": "OPPO A6",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 92,
@@ -2030,7 +1675,17 @@
     "model": "HUAWEI Mate 70 Air",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 114,
+    "brand": "HONOR",
+    "model": "荣耀 Magic V6",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 130,
@@ -2038,7 +1693,8 @@
     "model": "华为 Pura 80 Pro+",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 129,
@@ -2046,7 +1702,8 @@
     "model": "华为 Pura 80 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 128,
@@ -2054,7 +1711,26 @@
     "model": "华为 Pura 80",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 126,
+    "brand": "HONOR",
+    "model": "荣耀 400 Pro",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 124,
+    "brand": "HONOR",
+    "model": "荣耀 400",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 117,
@@ -2062,7 +1738,8 @@
     "model": "荣耀Play10",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 138,
@@ -2070,7 +1747,17 @@
     "model": "HUAWEI Pura X Max",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 144,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura X",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 161,
@@ -2078,7 +1765,8 @@
     "model": "HUAWEI Mate X6",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 172,
@@ -2086,7 +1774,8 @@
     "model": "荣耀 300 Ultra",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 171,
@@ -2094,7 +1783,8 @@
     "model": "荣耀 300 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 168,
@@ -2102,7 +1792,8 @@
     "model": "vivo S20 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 167,
@@ -2110,7 +1801,17 @@
     "model": "HUAWEI nova 14",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 165,
+    "brand": "realme",
+    "model": "GT7",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 162,
@@ -2118,7 +1819,8 @@
     "model": "荣耀 300",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 163,
@@ -2126,7 +1828,8 @@
     "model": "vivo S20",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 176,
@@ -2134,7 +1837,8 @@
     "model": "REDMI K80 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 201,
@@ -2142,7 +1846,8 @@
     "model": "vivo X200 Ultra",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 195,
@@ -2150,7 +1855,8 @@
     "model": "华为 nova 13 Ultra",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 188,
@@ -2158,7 +1864,8 @@
     "model": "华为 nova 13 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 185,
@@ -2166,7 +1873,8 @@
     "model": "华为 nova 13",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 211,
@@ -2174,7 +1882,8 @@
     "model": "iQOO Neo10 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 209,
@@ -2182,7 +1891,17 @@
     "model": "iQOO Neo10",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 210,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 4 Pro",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 224,
@@ -2190,7 +1909,8 @@
     "model": "荣耀 Magic V3",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 225,
@@ -2198,7 +1918,53 @@
     "model": "Xiaomi MIX Fold 4",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 222,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 220,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip 2",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 219,
+    "brand": "RedMagic",
+    "model": "红魔 10 Pro+",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 217,
+    "brand": "RedMagic",
+    "model": "红魔 10 Pro",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 214,
+    "brand": "RedMagic",
+    "model": "红魔 10 Air",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 230,
@@ -2206,7 +1972,8 @@
     "model": "Xiaomi Civi 4 Pro",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 232,
@@ -2214,7 +1981,17 @@
     "model": "iQOO Z9 Turbo",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 233,
+    "brand": "realme",
+    "model": "14 Pro+",
+    "score": 94,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 251,
@@ -2222,7 +1999,8 @@
     "model": "华为畅享90ProMax",
     "score": 94,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 9,
@@ -2230,7 +2008,8 @@
     "model": "HUAWEI nova 16 Ultra",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 8,
@@ -2238,7 +2017,8 @@
     "model": "HUAWEI nova 16 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 28,
@@ -2246,7 +2026,17 @@
     "model": "HUAWEI Pura 90 Pro Max",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 27,
+    "brand": "OPPO",
+    "model": "OPPO Find X9s Pro",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 26,
@@ -2254,7 +2044,8 @@
     "model": "HUAWEI Pura 90 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 25,
@@ -2262,7 +2053,35 @@
     "model": "HUAWEI Pura 90",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 31,
+    "brand": "vivo",
+    "model": "vivo X300 Ultra",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 32,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro Max 风驰版",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 33,
+    "brand": "Apple",
+    "model": "iPhone 17e",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 52,
@@ -2270,7 +2089,8 @@
     "model": "HUAWEI Mate X7",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 64,
@@ -2278,7 +2098,8 @@
     "model": "HUAWEI Mate 80 RS 非凡大师",
     "score": 100,
     "missing": [],
-    "status": "unreleased"
+    "status": "unreleased",
+    "protocol_confidence": "medium"
   },
   {
     "id": 61,
@@ -2286,7 +2107,8 @@
     "model": "HUAWEI Mate 80 Pro (16GB)",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 62,
@@ -2294,7 +2116,8 @@
     "model": "HUAWEI Mate 80 Pro (12GB)",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 60,
@@ -2302,7 +2125,71 @@
     "model": "HUAWEI Mate 80",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 58,
+    "brand": "OPPO",
+    "model": "OPPO Reno14 Pro",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 56,
+    "brand": "OPPO",
+    "model": "OPPO Reno14",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 66,
+    "brand": "OPPO",
+    "model": "OPPO Find X9",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 71,
+    "brand": "vivo",
+    "model": "vivo X300 Pro",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 70,
+    "brand": "vivo",
+    "model": "vivo X300",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 74,
+    "brand": "iQOO",
+    "model": "iQOO 15 Ultra",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 72,
+    "brand": "iQOO",
+    "model": "iQOO 15",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 79,
@@ -2310,7 +2197,8 @@
     "model": "Xiaomi 17 Pro Max",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 78,
@@ -2318,7 +2206,8 @@
     "model": "Xiaomi 17 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 77,
@@ -2326,7 +2215,44 @@
     "model": "Xiaomi 17",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 86,
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 85,
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 84,
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 83,
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 91,
@@ -2334,7 +2260,8 @@
     "model": "GT8 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 99,
@@ -2342,7 +2269,8 @@
     "model": "GT8",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 98,
@@ -2350,7 +2278,8 @@
     "model": "一加 Ace 6",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 134,
@@ -2358,7 +2287,26 @@
     "model": "一加 13T",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 145,
+    "brand": "OPPO",
+    "model": "OPPO Find N5",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 160,
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 159,
@@ -2366,7 +2314,26 @@
     "model": "荣耀 Magic7 RSR 保时捷设计",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 157,
+    "brand": "Samsung",
+    "model": "Galaxy S25+",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 156,
+    "brand": "Samsung",
+    "model": "Galaxy S25",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 169,
@@ -2374,7 +2341,8 @@
     "model": "一加 Ace 5 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 166,
@@ -2382,7 +2350,17 @@
     "model": "一加 Ace 5",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 164,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5 至尊版",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 183,
@@ -2390,7 +2368,8 @@
     "model": "华为 Mate 70 RS 非凡大师",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 182,
@@ -2398,7 +2377,8 @@
     "model": "华为 Mate 70 Pro+",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 180,
@@ -2406,7 +2386,17 @@
     "model": "华为 Mate 70 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 179,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 70 Pro 优享版",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 178,
@@ -2414,7 +2404,8 @@
     "model": "华为 Mate 70",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "high"
   },
   {
     "id": 177,
@@ -2422,7 +2413,8 @@
     "model": "GT7 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 200,
@@ -2430,7 +2422,8 @@
     "model": "OPPO Find X8 Ultra",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 198,
@@ -2438,7 +2431,8 @@
     "model": "vivo X200 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 199,
@@ -2446,7 +2440,8 @@
     "model": "Xiaomi 15 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 196,
@@ -2454,7 +2449,8 @@
     "model": "一加 13",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 194,
@@ -2462,7 +2458,8 @@
     "model": "荣耀 Magic7",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 192,
@@ -2470,7 +2467,8 @@
     "model": "vivo X200 Pro mini",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 191,
@@ -2478,7 +2476,8 @@
     "model": "OPPO Find X8 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 190,
@@ -2486,7 +2485,8 @@
     "model": "vivo X200",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 187,
@@ -2494,7 +2494,8 @@
     "model": "荣耀 Magic7 Pro",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 186,
@@ -2502,7 +2503,71 @@
     "model": "Xiaomi 15",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 206,
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 205,
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 204,
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 203,
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "high"
+  },
+  {
+    "id": 212,
+    "brand": "iQOO",
+    "model": "iQOO Neo10 Pro+",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 226,
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
+  },
+  {
+    "id": 223,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "score": 100,
+    "missing": [],
+    "status": "",
+    "protocol_confidence": "medium"
   },
   {
     "id": 246,
@@ -2510,6 +2575,7 @@
     "model": "iQOO 13",
     "score": 100,
     "missing": [],
-    "status": ""
+    "status": "",
+    "protocol_confidence": "medium"
   }
 ]
