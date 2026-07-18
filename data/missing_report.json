@@ -5,137 +5,58 @@
     "model": "HUAWEI nova 14 活力版",
     "score": 50,
     "missing": [
-      "充电协议",
       "内存",
       "存储",
-      "重量",
-      "电池",
-      "价格",
+      "特性",
+      "充电协议",
       "处理器"
-    ]
+    ],
+    "price": 0
   },
   {
-    "id": 121,
-    "brand": "realme",
-    "model": "Neo7",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 135,
-    "brand": "vivo",
-    "model": "S21 Pro",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 216,
-    "brand": "RedMagic",
-    "model": "红魔 10",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 228,
-    "brand": "Samsung",
-    "model": "Galaxy C55 5G",
-    "score": 75,
-    "missing": [
-      "入网型号",
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 142,
-    "brand": "Samsung",
-    "model": "Galaxy A56 5G",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 215,
-    "brand": "realme",
-    "model": "GT6",
-    "score": 81,
-    "missing": [
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 235,
-    "brand": "Samsung",
-    "model": "Galaxy A55",
-    "score": 81,
-    "missing": [
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 254,
-    "brand": "Huawei",
-    "model": "华为畅享90",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "内存"
-    ]
-  },
-  {
-    "id": 255,
-    "brand": "Huawei",
-    "model": "华为畅享70X尊享版",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "内存"
-    ]
-  },
-  {
-    "id": 234,
-    "brand": "Samsung",
-    "model": "Galaxy A55 5G",
-    "score": 88,
-    "missing": [
-      "内存",
-      "存储"
-    ]
-  },
-  {
-    "id": 2,
-    "brand": "OnePlus",
-    "model": "一加 Turbo 6X",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 13,
+    "id": 95,
     "brand": "HONOR",
-    "model": "荣耀600 元气版",
+    "model": "X80i",
+    "score": 81,
+    "missing": [
+      "入网型号",
+      "影像(弱/缺)",
+      "特性"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 42,
+    "brand": "HONOR",
+    "model": "Magic8 RSR 保时捷设计",
     "score": 88,
     "missing": [
-      "入网型号"
-    ]
+      "入网型号",
+      "特性"
+    ],
+    "price": 7999
+  },
+  {
+    "id": 181,
+    "brand": "Huawei",
+    "model": "Pocket 70 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 6999
+  },
+  {
+    "id": 231,
+    "brand": "HONOR",
+    "model": "荣耀 Magic Vs3",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 6999
   },
   {
     "id": 22,
@@ -144,43 +65,8 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
-  },
-  {
-    "id": 21,
-    "brand": "RedMagic",
-    "model": "红魔 11S Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 35,
-    "brand": "OPPO",
-    "model": "OPPO A6k",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 34,
-    "brand": "OPPO",
-    "model": "OPPO A6 Plus",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 42,
-    "brand": "HONOR",
-    "model": "Magic8 RSR 保时捷设计",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
+    ],
+    "price": 6199
   },
   {
     "id": 41,
@@ -188,152 +74,10 @@
     "model": "荣耀 Magic8 Pro Air",
     "score": 88,
     "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 48,
-    "brand": "OPPO",
-    "model": "OPPO A6i+",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 47,
-    "brand": "OPPO",
-    "model": "OPPO A6 Max",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 46,
-    "brand": "OPPO",
-    "model": "OPPO A6v",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 45,
-    "brand": "OPPO",
-    "model": "OPPO A3i",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 59,
-    "brand": "REDMI",
-    "model": "Redmi K90 Pro Max",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 57,
-    "brand": "REDMI",
-    "model": "Redmi K90 Max",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 55,
-    "brand": "REDMI",
-    "model": "Redmi K90",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 82,
-    "brand": "OPPO",
-    "model": "OPPO A6 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 80,
-    "brand": "OPPO",
-    "model": "OPPO A6i",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 89,
-    "brand": "HONOR",
-    "model": "荣耀Play11 Plus",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 88,
-    "brand": "REDMI",
-    "model": "Redmi Note 15 Pro+",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 87,
-    "brand": "OPPO",
-    "model": "OPPO A5 活力版",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 103,
-    "brand": "HONOR",
-    "model": "荣耀 WIN",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 96,
-    "brand": "REDMI",
-    "model": "REDMI Turbo 5 Max",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 97,
-    "brand": "REDMI",
-    "model": "REDMI Turbo 5",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 95,
-    "brand": "HONOR",
-    "model": "X80i",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
+      "入网型号",
+      "特性"
+    ],
+    "price": 5699
   },
   {
     "id": 111,
@@ -342,205 +86,18 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 5699
   },
   {
-    "id": 110,
+    "id": 21,
     "brand": "RedMagic",
-    "model": "红魔 11 Pro",
+    "model": "红魔 11S Pro",
     "score": 88,
     "missing": [
       "入网型号"
-    ]
-  },
-  {
-    "id": 108,
-    "brand": "RedMagic",
-    "model": "红魔 11 Air",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 127,
-    "brand": "OPPO",
-    "model": "OPPO K15 Pro+",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 125,
-    "brand": "realme",
-    "model": "Neo7 Turbo",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 123,
-    "brand": "OPPO",
-    "model": "OPPO K15 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 122,
-    "brand": "OPPO",
-    "model": "OPPO K13 Turbo Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 120,
-    "brand": "OPPO",
-    "model": "OPPO K13 Turbo",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 118,
-    "brand": "HONOR",
-    "model": "荣耀Play10T",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 137,
-    "brand": "HONOR",
-    "model": "荣耀 Power2",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 133,
-    "brand": "iQOO",
-    "model": "iQOO Z10 Turbo+",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 143,
-    "brand": "Samsung",
-    "model": "Galaxy A56",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 141,
-    "brand": "HONOR",
-    "model": "荣耀畅玩70C",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 155,
-    "brand": "HONOR",
-    "model": "荣耀 GT Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 149,
-    "brand": "HONOR",
-    "model": "荣耀 GT",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 173,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 14 Ultra",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 170,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 14 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 181,
-    "brand": "Huawei",
-    "model": "Pocket 70 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 175,
-    "brand": "REDMI",
-    "model": "REDMI K80至尊版",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 174,
-    "brand": "REDMI",
-    "model": "REDMI K80",
-    "score": 88,
-    "missing": [
-      "影像详情"
-    ]
-  },
-  {
-    "id": 184,
-    "brand": "HONOR",
-    "model": "荣耀X70 焕新版",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 208,
-    "brand": "REDMI",
-    "model": "Redmi Turbo 4",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 207,
-    "brand": "HONOR",
-    "model": "荣耀畅玩70 Plus",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
+    ],
+    "price": 5499
   },
   {
     "id": 221,
@@ -549,7 +106,18 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 5499
+  },
+  {
+    "id": 110,
+    "brand": "RedMagic",
+    "model": "红魔 11 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 4999
   },
   {
     "id": 218,
@@ -558,61 +126,18 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 4299
   },
   {
-    "id": 213,
-    "brand": "HONOR",
-    "model": "X70 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 231,
-    "brand": "HONOR",
-    "model": "荣耀 Magic Vs3",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 229,
-    "brand": "vivo",
-    "model": "S21",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 241,
+    "id": 173,
     "brand": "Huawei",
-    "model": "HUAWEI nova Flip S",
+    "model": "HUAWEI nova 14 Ultra",
     "score": 88,
     "missing": [
       "入网型号"
-    ]
-  },
-  {
-    "id": 236,
-    "brand": "realme",
-    "model": "13 Pro+",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 237,
-    "brand": "OPPO",
-    "model": "OPPO A6s Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
+    ],
+    "price": 4199
   },
   {
     "id": 248,
@@ -621,7 +146,50 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 4199
+  },
+  {
+    "id": 59,
+    "brand": "REDMI",
+    "model": "Redmi K90 Pro Max",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3999
+  },
+  {
+    "id": 103,
+    "brand": "HONOR",
+    "model": "荣耀 WIN",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 3999
+  },
+  {
+    "id": 108,
+    "brand": "RedMagic",
+    "model": "红魔 11 Air",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3699
+  },
+  {
+    "id": 155,
+    "brand": "HONOR",
+    "model": "荣耀 GT Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 3699
   },
   {
     "id": 247,
@@ -630,7 +198,491 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 3599
+  },
+  {
+    "id": 170,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 14 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3499
+  },
+  {
+    "id": 241,
+    "brand": "Huawei",
+    "model": "HUAWEI nova Flip S",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 3488
+  },
+  {
+    "id": 127,
+    "brand": "OPPO",
+    "model": "OPPO K15 Pro+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3419
+  },
+  {
+    "id": 137,
+    "brand": "HONOR",
+    "model": "荣耀 Power2",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 3299
+  },
+  {
+    "id": 57,
+    "brand": "REDMI",
+    "model": "Redmi K90 Max",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3199
+  },
+  {
+    "id": 135,
+    "brand": "vivo",
+    "model": "S21 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 143,
+    "brand": "Samsung",
+    "model": "Galaxy A56",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 216,
+    "brand": "RedMagic",
+    "model": "红魔 10",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 149,
+    "brand": "HONOR",
+    "model": "荣耀 GT",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2899
+  },
+  {
+    "id": 125,
+    "brand": "realme",
+    "model": "Neo7 Turbo",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2799
+  },
+  {
+    "id": 13,
+    "brand": "HONOR",
+    "model": "荣耀600 元气版",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2699
+  },
+  {
+    "id": 240,
+    "brand": "iQOO",
+    "model": "iQOO Z11 Turbo",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "影像(弱/缺)"
+    ],
+    "price": 2699
+  },
+  {
+    "id": 175,
+    "brand": "REDMI",
+    "model": "REDMI K80至尊版",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2599
+  },
+  {
+    "id": 213,
+    "brand": "HONOR",
+    "model": "X70 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2599
+  },
+  {
+    "id": 55,
+    "brand": "REDMI",
+    "model": "Redmi K90",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2549
+  },
+  {
+    "id": 35,
+    "brand": "OPPO",
+    "model": "OPPO A6k",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2399
+  },
+  {
+    "id": 123,
+    "brand": "OPPO",
+    "model": "OPPO K15 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2399
+  },
+  {
+    "id": 96,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 5 Max",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 97,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 5",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 133,
+    "brand": "iQOO",
+    "model": "iQOO Z10 Turbo+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 229,
+    "brand": "vivo",
+    "model": "S21",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 89,
+    "brand": "HONOR",
+    "model": "荣耀Play11 Plus",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2199
+  },
+  {
+    "id": 122,
+    "brand": "OPPO",
+    "model": "OPPO K13 Turbo Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2199
+  },
+  {
+    "id": 120,
+    "brand": "OPPO",
+    "model": "OPPO K13 Turbo",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2099
+  },
+  {
+    "id": 121,
+    "brand": "realme",
+    "model": "Neo7",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 2099
+  },
+  {
+    "id": 34,
+    "brand": "OPPO",
+    "model": "OPPO A6 Plus",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 88,
+    "brand": "REDMI",
+    "model": "Redmi Note 15 Pro+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 208,
+    "brand": "REDMI",
+    "model": "Redmi Turbo 4",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 228,
+    "brand": "Samsung",
+    "model": "Galaxy C55 5G",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 236,
+    "brand": "realme",
+    "model": "13 Pro+",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 237,
+    "brand": "OPPO",
+    "model": "OPPO A6s Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 184,
+    "brand": "HONOR",
+    "model": "荣耀X70 焕新版",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1799
+  },
+  {
+    "id": 207,
+    "brand": "HONOR",
+    "model": "荣耀畅玩70 Plus",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1799
+  },
+  {
+    "id": 255,
+    "brand": "Huawei",
+    "model": "华为畅享70X尊享版",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1799
+  },
+  {
+    "id": 82,
+    "brand": "OPPO",
+    "model": "OPPO A6 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1709
+  },
+  {
+    "id": 48,
+    "brand": "OPPO",
+    "model": "OPPO A6i+",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1619
+  },
+  {
+    "id": 260,
+    "brand": "REDMI",
+    "model": "Redmi Note 17 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "影像(弱/缺)"
+    ],
+    "price": 1599
+  },
+  {
+    "id": 2,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6X",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1499
+  },
+  {
+    "id": 47,
+    "brand": "OPPO",
+    "model": "OPPO A6 Max",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1499
+  },
+  {
+    "id": 87,
+    "brand": "OPPO",
+    "model": "OPPO A5 活力版",
+    "score": 88,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1449
+  },
+  {
+    "id": 118,
+    "brand": "HONOR",
+    "model": "荣耀Play10T",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1399
+  },
+  {
+    "id": 254,
+    "brand": "Huawei",
+    "model": "华为畅享90",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1299
+  },
+  {
+    "id": 46,
+    "brand": "OPPO",
+    "model": "OPPO A6v",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1199
+  },
+  {
+    "id": 80,
+    "brand": "OPPO",
+    "model": "OPPO A6i",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 1169
+  },
+  {
+    "id": 45,
+    "brand": "OPPO",
+    "model": "OPPO A3i",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 999
+  },
+  {
+    "id": 141,
+    "brand": "HONOR",
+    "model": "荣耀畅玩70C",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "特性"
+    ],
+    "price": 799
   },
   {
     "id": 256,
@@ -639,259 +691,8 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ]
-  },
-  {
-    "id": 259,
-    "brand": "REDMI",
-    "model": "Redmi Note 17",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 260,
-    "brand": "REDMI",
-    "model": "Redmi Note 17 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 1,
-    "brand": "HONOR",
-    "model": "荣耀X70 Pro Max",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 3,
-    "brand": "OnePlus",
-    "model": "一加 Turbo 6X Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 5,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17T Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 11,
-    "brand": "vivo",
-    "model": "vivo S60 元气版",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 10,
-    "brand": "HONOR",
-    "model": "荣耀WIN Turbo",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 17,
-    "brand": "OPPO",
-    "model": "OPPO Reno16 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 16,
-    "brand": "HONOR",
-    "model": "荣耀600 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 15,
-    "brand": "OPPO",
-    "model": "OPPO Reno16",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 14,
-    "brand": "HONOR",
-    "model": "荣耀600 超级版",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 18,
-    "brand": "iQOO",
-    "model": "iQOO 15T",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 29,
-    "brand": "OPPO",
-    "model": "OPPO Find X9 Ultra",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 39,
-    "brand": "Samsung",
-    "model": "Galaxy S26 Ultra",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 38,
-    "brand": "Samsung",
-    "model": "Galaxy S26+",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 37,
-    "brand": "Samsung",
-    "model": "Galaxy S26",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 40,
-    "brand": "OPPO",
-    "model": "OPPO A6 GT",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 44,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Ultra",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 54,
-    "brand": "HONOR",
-    "model": "荣耀 500 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 63,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80 Pro Max",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 67,
-    "brand": "OPPO",
-    "model": "OPPO Find X9 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 73,
-    "brand": "OnePlus",
-    "model": "一加 15T",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 79,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Pro Max",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 93,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Ultra 徕卡版",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 94,
-    "brand": "HONOR",
-    "model": "荣耀Magic V Flip2",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 102,
-    "brand": "OnePlus",
-    "model": "一加 Ace 6 至尊版",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 101,
-    "brand": "HONOR",
-    "model": "荣耀 WIN RT",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 100,
-    "brand": "iQOO",
-    "model": "iQOO Neo11",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
+    ],
+    "price": 799
   },
   {
     "id": 116,
@@ -900,7 +701,16 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 19999
+  },
+  {
+    "id": 65,
+    "brand": "Huawei",
+    "model": "华为 Mate XTs 非凡大师",
+    "score": 94,
+    "missing": [],
+    "price": 17999
   },
   {
     "id": 115,
@@ -909,70 +719,34 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 12999
   },
   {
-    "id": 113,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip7",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 109,
-    "brand": "OPPO",
-    "model": "OPPO Reno15 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 107,
-    "brand": "OPPO",
-    "model": "OPPO Reno15",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 106,
-    "brand": "OPPO",
-    "model": "OPPO Reno15c",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 104,
-    "brand": "OnePlus",
-    "model": "一加 Ace 6T",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 132,
+    "id": 161,
     "brand": "Huawei",
-    "model": "华为 Pura 80 Ultra",
+    "model": "HUAWEI Mate X6",
     "score": 94,
-    "missing": [
-      "入网型号"
-    ]
+    "missing": [],
+    "price": 12999
   },
   {
-    "id": 119,
-    "brand": "OnePlus",
-    "model": "一加 Turbo 6V",
+    "id": 39,
+    "brand": "Samsung",
+    "model": "Galaxy S26 Ultra",
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 11599
+  },
+  {
+    "id": 138,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura X Max",
+    "score": 94,
+    "missing": [],
+    "price": 10999
   },
   {
     "id": 146,
@@ -981,7 +755,108 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 10999
+  },
+  {
+    "id": 132,
+    "brand": "Huawei",
+    "model": "华为 Pura 80 Ultra",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 9999
+  },
+  {
+    "id": 38,
+    "brand": "Samsung",
+    "model": "Galaxy S26+",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 9599
+  },
+  {
+    "id": 114,
+    "brand": "HONOR",
+    "model": "荣耀 Magic V6",
+    "score": 94,
+    "missing": [],
+    "price": 8999
+  },
+  {
+    "id": 131,
+    "brand": "vivo",
+    "model": "vivo X Fold5",
+    "score": 94,
+    "missing": [],
+    "price": 8999
+  },
+  {
+    "id": 224,
+    "brand": "HONOR",
+    "model": "荣耀 Magic V3",
+    "score": 94,
+    "missing": [],
+    "price": 8999
+  },
+  {
+    "id": 225,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Fold 4",
+    "score": 94,
+    "missing": [],
+    "price": 8999
+  },
+  {
+    "id": 29,
+    "brand": "OPPO",
+    "model": "OPPO Find X9 Ultra",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 8499
+  },
+  {
+    "id": 63,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro Max",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 7999
+  },
+  {
+    "id": 93,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Ultra 徕卡版",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 7999
+  },
+  {
+    "id": 113,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 7999
+  },
+  {
+    "id": 130,
+    "brand": "Huawei",
+    "model": "华为 Pura 80 Pro+",
+    "score": 94,
+    "missing": [],
+    "price": 7999
   },
   {
     "id": 158,
@@ -990,7 +865,98 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 7999
+  },
+  {
+    "id": 144,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura X",
+    "score": 94,
+    "missing": [],
+    "price": 7499
+  },
+  {
+    "id": 37,
+    "brand": "Samsung",
+    "model": "Galaxy S26",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 6999
+  },
+  {
+    "id": 44,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Ultra",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 6999
+  },
+  {
+    "id": 129,
+    "brand": "Huawei",
+    "model": "华为 Pura 80 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 201,
+    "brand": "vivo",
+    "model": "vivo X200 Ultra",
+    "score": 94,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 79,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Pro Max",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 5999
+  },
+  {
+    "id": 222,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip",
+    "score": 94,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 67,
+    "brand": "OPPO",
+    "model": "OPPO Find X9 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 5299
+  },
+  {
+    "id": 220,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip 2",
+    "score": 94,
+    "missing": [],
+    "price": 4999
+  },
+  {
+    "id": 109,
+    "brand": "OPPO",
+    "model": "OPPO Reno15 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 4799
   },
   {
     "id": 197,
@@ -999,7 +965,144 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 4799
+  },
+  {
+    "id": 94,
+    "brand": "HONOR",
+    "model": "荣耀Magic V Flip2",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 4699
+  },
+  {
+    "id": 128,
+    "brand": "Huawei",
+    "model": "华为 Pura 80",
+    "score": 94,
+    "missing": [],
+    "price": 4699
+  },
+  {
+    "id": 17,
+    "brand": "OPPO",
+    "model": "OPPO Reno16 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 4499
+  },
+  {
+    "id": 68,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 4499
+  },
+  {
+    "id": 69,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8",
+    "score": 94,
+    "missing": [],
+    "price": 4499
+  },
+  {
+    "id": 195,
+    "brand": "Huawei",
+    "model": "华为 nova 13 Ultra",
+    "score": 94,
+    "missing": [],
+    "price": 4499
+  },
+  {
+    "id": 219,
+    "brand": "RedMagic",
+    "model": "红魔 10 Pro+",
+    "score": 94,
+    "missing": [],
+    "price": 4499
+  },
+  {
+    "id": 73,
+    "brand": "OnePlus",
+    "model": "一加 15T",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 4299
+  },
+  {
+    "id": 193,
+    "brand": "vivo",
+    "model": "vivo X200s",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 4299
+  },
+  {
+    "id": 51,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 15 Ultra",
+    "score": 94,
+    "missing": [],
+    "price": 4199
+  },
+  {
+    "id": 92,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 70 Air",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 4199
+  },
+  {
+    "id": 172,
+    "brand": "HONOR",
+    "model": "荣耀 300 Ultra",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 4199
+  },
+  {
+    "id": 217,
+    "brand": "RedMagic",
+    "model": "红魔 10 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 4199
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3999
+  },
+  {
+    "id": 16,
+    "brand": "HONOR",
+    "model": "荣耀600 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3899
   },
   {
     "id": 189,
@@ -1008,16 +1111,382 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 3799
   },
   {
-    "id": 240,
-    "brand": "iQOO",
-    "model": "iQOO Z11 Turbo",
+    "id": 107,
+    "brand": "OPPO",
+    "model": "OPPO Reno15",
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 3699
+  },
+  {
+    "id": 171,
+    "brand": "HONOR",
+    "model": "荣耀 300 Pro",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 3699
+  },
+  {
+    "id": 188,
+    "brand": "Huawei",
+    "model": "华为 nova 13 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 3699
+  },
+  {
+    "id": 12,
+    "brand": "vivo",
+    "model": "vivo S60",
+    "score": 94,
+    "missing": [],
+    "price": 3599
+  },
+  {
+    "id": 54,
+    "brand": "HONOR",
+    "model": "荣耀 500 Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3599
+  },
+  {
+    "id": 15,
+    "brand": "OPPO",
+    "model": "OPPO Reno16",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3499
+  },
+  {
+    "id": 50,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 15 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 3499
+  },
+  {
+    "id": 102,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6 至尊版",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3499
+  },
+  {
+    "id": 101,
+    "brand": "HONOR",
+    "model": "荣耀 WIN RT",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3399
+  },
+  {
+    "id": 126,
+    "brand": "HONOR",
+    "model": "荣耀 400 Pro",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 3399
+  },
+  {
+    "id": 14,
+    "brand": "HONOR",
+    "model": "荣耀600 超级版",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3299
+  },
+  {
+    "id": 18,
+    "brand": "iQOO",
+    "model": "iQOO 15T",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3299
+  },
+  {
+    "id": 106,
+    "brand": "OPPO",
+    "model": "OPPO Reno15c",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3299
+  },
+  {
+    "id": 176,
+    "brand": "REDMI",
+    "model": "REDMI K80 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 3299
+  },
+  {
+    "id": 100,
+    "brand": "iQOO",
+    "model": "iQOO Neo11",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 3099
+  },
+  {
+    "id": 7,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16",
+    "score": 94,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 142,
+    "brand": "Samsung",
+    "model": "Galaxy A56 5G",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 151,
+    "brand": "vivo",
+    "model": "vivo S30",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 152,
+    "brand": "vivo",
+    "model": "vivo Y500",
+    "score": 94,
+    "missing": [
+      "影像(弱/缺)"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 168,
+    "brand": "vivo",
+    "model": "vivo S20 Pro",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 211,
+    "brand": "iQOO",
+    "model": "iQOO Neo10 Pro",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2999
+  },
+  {
+    "id": 11,
+    "brand": "vivo",
+    "model": "vivo S60 元气版",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2899
+  },
+  {
+    "id": 215,
+    "brand": "realme",
+    "model": "GT6",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2799
+  },
+  {
+    "id": 6,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16z",
+    "score": 94,
+    "missing": [],
+    "price": 2699
+  },
+  {
+    "id": 10,
+    "brand": "HONOR",
+    "model": "荣耀WIN Turbo",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2699
+  },
+  {
+    "id": 49,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 15",
+    "score": 94,
+    "missing": [],
+    "price": 2699
+  },
+  {
+    "id": 124,
+    "brand": "HONOR",
+    "model": "荣耀 400",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2699
+  },
+  {
+    "id": 167,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 14",
+    "score": 94,
+    "missing": [],
+    "price": 2699
+  },
+  {
+    "id": 185,
+    "brand": "Huawei",
+    "model": "华为 nova 13",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2699
+  },
+  {
+    "id": 214,
+    "brand": "RedMagic",
+    "model": "红魔 10 Air",
+    "score": 94,
+    "missing": [],
+    "price": 2699
+  },
+  {
+    "id": 230,
+    "brand": "Xiaomi",
+    "model": "Xiaomi Civi 4 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 2599
+  },
+  {
+    "id": 235,
+    "brand": "Samsung",
+    "model": "Galaxy A55",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2599
+  },
+  {
+    "id": 245,
+    "brand": "REDMI",
+    "model": "Redmi K70 至尊版",
+    "score": 94,
+    "missing": [],
+    "price": 2599
+  },
+  {
+    "id": 165,
+    "brand": "realme",
+    "model": "GT7",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2499
+  },
+  {
+    "id": 233,
+    "brand": "realme",
+    "model": "14 Pro+",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2399
+  },
+  {
+    "id": 162,
+    "brand": "HONOR",
+    "model": "荣耀 300",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 163,
+    "brand": "vivo",
+    "model": "vivo S20",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 174,
+    "brand": "REDMI",
+    "model": "REDMI K80",
+    "score": 94,
+    "missing": [],
+    "price": 2299
+  },
+  {
+    "id": 209,
+    "brand": "iQOO",
+    "model": "iQOO Neo10",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 210,
+    "brand": "REDMI",
+    "model": "REDMI Turbo 4 Pro",
+    "score": 94,
+    "missing": [],
+    "price": 2299
   },
   {
     "id": 239,
@@ -1026,7 +1495,28 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 2299
+  },
+  {
+    "id": 243,
+    "brand": "vivo",
+    "model": "vivo S19",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2299
+  },
+  {
+    "id": 227,
+    "brand": "realme",
+    "model": "GT Neo6",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 2099
   },
   {
     "id": 238,
@@ -1035,7 +1525,86 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 2099
+  },
+  {
+    "id": 104,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6T",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 2040
+  },
+  {
+    "id": 1,
+    "brand": "HONOR",
+    "model": "荣耀X70 Pro Max",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 3,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6X Pro",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 119,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6V",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 232,
+    "brand": "iQOO",
+    "model": "iQOO Z9 Turbo",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 1999
+  },
+  {
+    "id": 40,
+    "brand": "OPPO",
+    "model": "OPPO A6 GT",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1979
+  },
+  {
+    "id": 251,
+    "brand": "Huawei",
+    "model": "华为畅享90ProMax",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 1699
+  },
+  {
+    "id": 81,
+    "brand": "OPPO",
+    "model": "OPPO A6",
+    "score": 94,
+    "missing": [],
+    "price": 1529
   },
   {
     "id": 253,
@@ -1044,7 +1613,28 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
+    ],
+    "price": 1499
+  },
+  {
+    "id": 117,
+    "brand": "HONOR",
+    "model": "荣耀Play10",
+    "score": 94,
+    "missing": [
+      "特性"
+    ],
+    "price": 1399
+  },
+  {
+    "id": 259,
+    "brand": "REDMI",
+    "model": "Redmi Note 17",
+    "score": 94,
+    "missing": [
+      "入网型号"
+    ],
+    "price": 1299
   },
   {
     "id": 258,
@@ -1053,965 +1643,679 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ]
-  },
-  {
-    "id": 7,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 16",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 6,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 16z",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 12,
-    "brand": "vivo",
-    "model": "vivo S60",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 51,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 15 Ultra",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 50,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 15 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 49,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 15",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 65,
-    "brand": "Huawei",
-    "model": "华为 Mate XTs 非凡大师",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 68,
-    "brand": "HONOR",
-    "model": "荣耀 Magic8 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 69,
-    "brand": "HONOR",
-    "model": "荣耀 Magic8",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 81,
-    "brand": "OPPO",
-    "model": "OPPO A6",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 92,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 70 Air",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 114,
-    "brand": "HONOR",
-    "model": "荣耀 Magic V6",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 131,
-    "brand": "vivo",
-    "model": "vivo X Fold5",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 130,
-    "brand": "Huawei",
-    "model": "华为 Pura 80 Pro+",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 129,
-    "brand": "Huawei",
-    "model": "华为 Pura 80 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 128,
-    "brand": "Huawei",
-    "model": "华为 Pura 80",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 126,
-    "brand": "HONOR",
-    "model": "荣耀 400 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 124,
-    "brand": "HONOR",
-    "model": "荣耀 400",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 117,
-    "brand": "HONOR",
-    "model": "荣耀Play10",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 138,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura X Max",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 144,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura X",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 151,
-    "brand": "vivo",
-    "model": "vivo S30",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 161,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate X6",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 172,
-    "brand": "HONOR",
-    "model": "荣耀 300 Ultra",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 171,
-    "brand": "HONOR",
-    "model": "荣耀 300 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 168,
-    "brand": "vivo",
-    "model": "vivo S20 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 167,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 14",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 165,
-    "brand": "realme",
-    "model": "GT7",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 162,
-    "brand": "HONOR",
-    "model": "荣耀 300",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 163,
-    "brand": "vivo",
-    "model": "vivo S20",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 176,
-    "brand": "REDMI",
-    "model": "REDMI K80 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 201,
-    "brand": "vivo",
-    "model": "vivo X200 Ultra",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 195,
-    "brand": "Huawei",
-    "model": "华为 nova 13 Ultra",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 193,
-    "brand": "vivo",
-    "model": "vivo X200s",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 188,
-    "brand": "Huawei",
-    "model": "华为 nova 13 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 185,
-    "brand": "Huawei",
-    "model": "华为 nova 13",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 211,
-    "brand": "iQOO",
-    "model": "iQOO Neo10 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 209,
-    "brand": "iQOO",
-    "model": "iQOO Neo10",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 210,
-    "brand": "REDMI",
-    "model": "REDMI Turbo 4 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 224,
-    "brand": "HONOR",
-    "model": "荣耀 Magic V3",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 225,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Fold 4",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 222,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Flip",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 220,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Flip 2",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 219,
-    "brand": "RedMagic",
-    "model": "红魔 10 Pro+",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 217,
-    "brand": "RedMagic",
-    "model": "红魔 10 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 214,
-    "brand": "RedMagic",
-    "model": "红魔 10 Air",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 227,
-    "brand": "realme",
-    "model": "GT Neo6",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 230,
-    "brand": "Xiaomi",
-    "model": "Xiaomi Civi 4 Pro",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 232,
-    "brand": "iQOO",
-    "model": "iQOO Z9 Turbo",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 233,
-    "brand": "realme",
-    "model": "14 Pro+",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 243,
-    "brand": "vivo",
-    "model": "vivo S19",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 245,
-    "brand": "REDMI",
-    "model": "Redmi K70 至尊版",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 251,
-    "brand": "Huawei",
-    "model": "华为畅享90ProMax",
-    "score": 94,
-    "missing": []
-  },
-  {
-    "id": 250,
-    "brand": "vivo",
-    "model": "vivo X Fold6",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 249,
-    "brand": "HONOR",
-    "model": "荣耀X80 Pro Max",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 4,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17T",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 9,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 16 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 8,
-    "brand": "Huawei",
-    "model": "HUAWEI nova 16 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 20,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Max",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 28,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura 90 Pro Max",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 27,
-    "brand": "OPPO",
-    "model": "OPPO Find X9s Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 26,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura 90 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 25,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura 90",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 31,
-    "brand": "vivo",
-    "model": "vivo X300 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 30,
-    "brand": "vivo",
-    "model": "vivo X300s",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 32,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80 Pro Max 风驰版",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 33,
-    "brand": "Apple",
-    "model": "iPhone 17e",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 36,
-    "brand": "Samsung",
-    "model": "Galaxy A57 5G",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 43,
-    "brand": "OPPO",
-    "model": "OPPO A6c",
-    "score": 100,
-    "missing": []
+    ],
+    "price": 1299
   },
   {
     "id": 52,
     "brand": "Huawei",
     "model": "HUAWEI Mate X7",
     "score": 100,
-    "missing": []
-  },
-  {
-    "id": 53,
-    "brand": "HONOR",
-    "model": "荣耀 500",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 64,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80 RS 非凡大师",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 61,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80 Pro (16GB)",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 62,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80 Pro (12GB)",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 60,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 80",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 257,
-    "brand": "REDMI",
-    "model": "Redmi K90 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 58,
-    "brand": "OPPO",
-    "model": "OPPO Reno14 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 56,
-    "brand": "OPPO",
-    "model": "OPPO Reno14",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 66,
-    "brand": "OPPO",
-    "model": "OPPO Find X9",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 71,
-    "brand": "vivo",
-    "model": "vivo X300 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 70,
-    "brand": "vivo",
-    "model": "vivo X300",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 74,
-    "brand": "iQOO",
-    "model": "iQOO 15 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 72,
-    "brand": "iQOO",
-    "model": "iQOO 15",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 78,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 77,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 86,
-    "brand": "Apple",
-    "model": "iPhone 17 Pro Max",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 85,
-    "brand": "Apple",
-    "model": "iPhone 17 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 84,
-    "brand": "Apple",
-    "model": "iPhone Air",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 83,
-    "brand": "Apple",
-    "model": "iPhone 17",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 90,
-    "brand": "OnePlus",
-    "model": "一加 15",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 91,
-    "brand": "realme",
-    "model": "GT8 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 99,
-    "brand": "realme",
-    "model": "GT8",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 98,
-    "brand": "OnePlus",
-    "model": "一加 Ace 6",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 112,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip7 FE",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 105,
-    "brand": "OnePlus",
-    "model": "一加 Turbo 6",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 134,
-    "brand": "OnePlus",
-    "model": "一加 13T",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 145,
-    "brand": "OPPO",
-    "model": "OPPO Find N5",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 160,
-    "brand": "Samsung",
-    "model": "Galaxy S25 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 159,
-    "brand": "HONOR",
-    "model": "荣耀 Magic7 RSR 保时捷设计",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 157,
-    "brand": "Samsung",
-    "model": "Galaxy S25+",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 156,
-    "brand": "Samsung",
-    "model": "Galaxy S25",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 154,
-    "brand": "vivo",
-    "model": "vivo S50 Pro mini",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 153,
-    "brand": "vivo",
-    "model": "vivo Y500 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 150,
-    "brand": "vivo",
-    "model": "vivo S30 Pro mini",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 152,
-    "brand": "vivo",
-    "model": "vivo Y500",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 148,
-    "brand": "vivo",
-    "model": "vivo S50",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 147,
-    "brand": "vivo",
-    "model": "vivo Y600 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 169,
-    "brand": "OnePlus",
-    "model": "一加 Ace 5 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 166,
-    "brand": "OnePlus",
-    "model": "一加 Ace 5",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 164,
-    "brand": "OnePlus",
-    "model": "一加 Ace 5 至尊版",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 183,
-    "brand": "Huawei",
-    "model": "华为 Mate 70 RS 非凡大师",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 182,
-    "brand": "Huawei",
-    "model": "华为 Mate 70 Pro+",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 180,
-    "brand": "Huawei",
-    "model": "华为 Mate 70 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 179,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 70 Pro 优享版",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 178,
-    "brand": "Huawei",
-    "model": "华为 Mate 70",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 177,
-    "brand": "realme",
-    "model": "GT7 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 200,
-    "brand": "OPPO",
-    "model": "OPPO Find X8 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 202,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 15 Ultra",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 198,
-    "brand": "vivo",
-    "model": "vivo X200 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 199,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 15 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 196,
-    "brand": "OnePlus",
-    "model": "一加 13",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 194,
-    "brand": "HONOR",
-    "model": "荣耀 Magic7",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 192,
-    "brand": "vivo",
-    "model": "vivo X200 Pro mini",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 191,
-    "brand": "OPPO",
-    "model": "OPPO Find X8 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 190,
-    "brand": "vivo",
-    "model": "vivo X200",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 187,
-    "brand": "HONOR",
-    "model": "荣耀 Magic7 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 186,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 15",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 206,
-    "brand": "Apple",
-    "model": "iPhone 16 Pro Max",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 205,
-    "brand": "Apple",
-    "model": "iPhone 16 Pro",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 204,
-    "brand": "Apple",
-    "model": "iPhone 16 Plus",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 203,
-    "brand": "Apple",
-    "model": "iPhone 16",
-    "score": 100,
-    "missing": []
-  },
-  {
-    "id": 212,
-    "brand": "iQOO",
-    "model": "iQOO Neo10 Pro+",
-    "score": 100,
-    "missing": []
+    "missing": [],
+    "price": 12999
   },
   {
     "id": 226,
     "brand": "Samsung",
     "model": "Galaxy Z Fold6",
     "score": 100,
-    "missing": []
+    "missing": [],
+    "price": 12999
   },
   {
-    "id": 223,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip6",
+    "id": 64,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 RS 非凡大师",
     "score": 100,
-    "missing": []
+    "missing": [],
+    "price": 11999
+  },
+  {
+    "id": 86,
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "score": 100,
+    "missing": [],
+    "price": 9999
+  },
+  {
+    "id": 145,
+    "brand": "OPPO",
+    "model": "OPPO Find N5",
+    "score": 100,
+    "missing": [],
+    "price": 9999
+  },
+  {
+    "id": 183,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 RS 非凡大师",
+    "score": 100,
+    "missing": [],
+    "price": 9999
+  },
+  {
+    "id": 206,
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "score": 100,
+    "missing": [],
+    "price": 9999
+  },
+  {
+    "id": 160,
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 9699
   },
   {
     "id": 242,
     "brand": "Samsung",
     "model": "Galaxy S24 Ultra",
     "score": 100,
-    "missing": []
+    "missing": [],
+    "price": 9699
   },
   {
-    "id": 244,
-    "brand": "vivo",
-    "model": "vivo S19 Pro",
+    "id": 85,
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
     "score": 100,
-    "missing": []
+    "missing": [],
+    "price": 8999
+  },
+  {
+    "id": 205,
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 8999
+  },
+  {
+    "id": 32,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro Max 风驰版",
+    "score": 100,
+    "missing": [],
+    "price": 8499
+  },
+  {
+    "id": 182,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 Pro+",
+    "score": 100,
+    "missing": [],
+    "price": 8499
+  },
+  {
+    "id": 250,
+    "brand": "vivo",
+    "model": "vivo X Fold6",
+    "score": 100,
+    "missing": [],
+    "price": 7999
+  },
+  {
+    "id": 84,
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "score": 100,
+    "missing": [],
+    "price": 7999
+  },
+  {
+    "id": 159,
+    "brand": "HONOR",
+    "model": "荣耀 Magic7 RSR 保时捷设计",
+    "score": 100,
+    "missing": [],
+    "price": 7999
+  },
+  {
+    "id": 223,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "score": 100,
+    "missing": [],
+    "price": 7999
+  },
+  {
+    "id": 31,
+    "brand": "vivo",
+    "model": "vivo X300 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 6999
+  },
+  {
+    "id": 112,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7 FE",
+    "score": 100,
+    "missing": [],
+    "price": 6999
+  },
+  {
+    "id": 157,
+    "brand": "Samsung",
+    "model": "Galaxy S25+",
+    "score": 100,
+    "missing": [],
+    "price": 6999
+  },
+  {
+    "id": 28,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90 Pro Max",
+    "score": 100,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 74,
+    "brand": "iQOO",
+    "model": "iQOO 15 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 180,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 200,
+    "brand": "OPPO",
+    "model": "OPPO Find X8 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 202,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 6499
+  },
+  {
+    "id": 179,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 70 Pro 优享版",
+    "score": 100,
+    "missing": [],
+    "price": 6199
+  },
+  {
+    "id": 27,
+    "brand": "OPPO",
+    "model": "OPPO Find X9s Pro",
+    "score": 100,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 61,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro (16GB)",
+    "score": 100,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 62,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80 Pro (12GB)",
+    "score": 100,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 83,
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "score": 100,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 156,
+    "brand": "Samsung",
+    "model": "Galaxy S25",
+    "score": 100,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 204,
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "score": 100,
+    "missing": [],
+    "price": 5999
+  },
+  {
+    "id": 26,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 5499
+  },
+  {
+    "id": 178,
+    "brand": "Huawei",
+    "model": "华为 Mate 70",
+    "score": 100,
+    "missing": [],
+    "price": 5499
+  },
+  {
+    "id": 203,
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "score": 100,
+    "missing": [],
+    "price": 5399
+  },
+  {
+    "id": 71,
+    "brand": "vivo",
+    "model": "vivo X300 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 5299
+  },
+  {
+    "id": 30,
+    "brand": "vivo",
+    "model": "vivo X300s",
+    "score": 100,
+    "missing": [],
+    "price": 4999
+  },
+  {
+    "id": 78,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 4999
+  },
+  {
+    "id": 198,
+    "brand": "vivo",
+    "model": "vivo X200 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 4999
+  },
+  {
+    "id": 199,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 4999
+  },
+  {
+    "id": 20,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Max",
+    "score": 100,
+    "missing": [],
+    "price": 4799
+  },
+  {
+    "id": 9,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 4699
+  },
+  {
+    "id": 25,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90",
+    "score": 100,
+    "missing": [],
+    "price": 4699
+  },
+  {
+    "id": 60,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 80",
+    "score": 100,
+    "missing": [],
+    "price": 4699
+  },
+  {
+    "id": 196,
+    "brand": "OnePlus",
+    "model": "一加 13",
+    "score": 100,
+    "missing": [],
+    "price": 4699
+  },
+  {
+    "id": 66,
+    "brand": "OPPO",
+    "model": "OPPO Find X9",
+    "score": 100,
+    "missing": [],
+    "price": 4599
+  },
+  {
+    "id": 33,
+    "brand": "Apple",
+    "model": "iPhone 17e",
+    "score": 100,
+    "missing": [],
+    "price": 4499
+  },
+  {
+    "id": 194,
+    "brand": "HONOR",
+    "model": "荣耀 Magic7",
+    "score": 100,
+    "missing": [],
+    "price": 4499
+  },
+  {
+    "id": 72,
+    "brand": "iQOO",
+    "model": "iQOO 15",
+    "score": 100,
+    "missing": [],
+    "price": 4299
+  },
+  {
+    "id": 77,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17",
+    "score": 100,
+    "missing": [],
+    "price": 4299
+  },
+  {
+    "id": 192,
+    "brand": "vivo",
+    "model": "vivo X200 Pro mini",
+    "score": 100,
+    "missing": [],
+    "price": 4299
   },
   {
     "id": 246,
     "brand": "iQOO",
     "model": "iQOO 13",
     "score": 100,
-    "missing": []
+    "missing": [],
+    "price": 4299
+  },
+  {
+    "id": 191,
+    "brand": "OPPO",
+    "model": "OPPO Find X8 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 4199
+  },
+  {
+    "id": 190,
+    "brand": "vivo",
+    "model": "vivo X200",
+    "score": 100,
+    "missing": [],
+    "price": 4099
+  },
+  {
+    "id": 70,
+    "brand": "vivo",
+    "model": "vivo X300",
+    "score": 100,
+    "missing": [],
+    "price": 3999
+  },
+  {
+    "id": 90,
+    "brand": "OnePlus",
+    "model": "一加 15",
+    "score": 100,
+    "missing": [],
+    "price": 3999
+  },
+  {
+    "id": 91,
+    "brand": "realme",
+    "model": "GT8 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3999
+  },
+  {
+    "id": 8,
+    "brand": "Huawei",
+    "model": "HUAWEI nova 16 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3899
+  },
+  {
+    "id": 154,
+    "brand": "vivo",
+    "model": "vivo S50 Pro mini",
+    "score": 100,
+    "missing": [],
+    "price": 3699
+  },
+  {
+    "id": 187,
+    "brand": "HONOR",
+    "model": "荣耀 Magic7 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3699
+  },
+  {
+    "id": 58,
+    "brand": "OPPO",
+    "model": "OPPO Reno14 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3599
+  },
+  {
+    "id": 153,
+    "brand": "vivo",
+    "model": "vivo Y500 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3599
+  },
+  {
+    "id": 177,
+    "brand": "realme",
+    "model": "GT7 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3599
+  },
+  {
+    "id": 186,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15",
+    "score": 100,
+    "missing": [],
+    "price": 3599
+  },
+  {
+    "id": 169,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 3399
+  },
+  {
+    "id": 36,
+    "brand": "Samsung",
+    "model": "Galaxy A57 5G",
+    "score": 100,
+    "missing": [],
+    "price": 3299
+  },
+  {
+    "id": 4,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T",
+    "score": 100,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 53,
+    "brand": "HONOR",
+    "model": "荣耀 500",
+    "score": 100,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 257,
+    "brand": "REDMI",
+    "model": "Redmi K90 Ultra",
+    "score": 100,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 150,
+    "brand": "vivo",
+    "model": "vivo S30 Pro mini",
+    "score": 100,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 212,
+    "brand": "iQOO",
+    "model": "iQOO Neo10 Pro+",
+    "score": 100,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 244,
+    "brand": "vivo",
+    "model": "vivo S19 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 2999
+  },
+  {
+    "id": 99,
+    "brand": "realme",
+    "model": "GT8",
+    "score": 100,
+    "missing": [],
+    "price": 2899
+  },
+  {
+    "id": 134,
+    "brand": "OnePlus",
+    "model": "一加 13T",
+    "score": 100,
+    "missing": [],
+    "price": 2899
+  },
+  {
+    "id": 166,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5",
+    "score": 100,
+    "missing": [],
+    "price": 2699
+  },
+  {
+    "id": 56,
+    "brand": "OPPO",
+    "model": "OPPO Reno14",
+    "score": 100,
+    "missing": [],
+    "price": 2599
+  },
+  {
+    "id": 98,
+    "brand": "OnePlus",
+    "model": "一加 Ace 6",
+    "score": 100,
+    "missing": [],
+    "price": 2599
+  },
+  {
+    "id": 148,
+    "brand": "vivo",
+    "model": "vivo S50",
+    "score": 100,
+    "missing": [],
+    "price": 2599
+  },
+  {
+    "id": 105,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6",
+    "score": 100,
+    "missing": [],
+    "price": 2499
+  },
+  {
+    "id": 234,
+    "brand": "Samsung",
+    "model": "Galaxy A55 5G",
+    "score": 100,
+    "missing": [],
+    "price": 2499
+  },
+  {
+    "id": 164,
+    "brand": "OnePlus",
+    "model": "一加 Ace 5 至尊版",
+    "score": 100,
+    "missing": [],
+    "price": 2299
+  },
+  {
+    "id": 249,
+    "brand": "HONOR",
+    "model": "荣耀X80 Pro Max",
+    "score": 100,
+    "missing": [],
+    "price": 1999
+  },
+  {
+    "id": 147,
+    "brand": "vivo",
+    "model": "vivo Y600 Pro",
+    "score": 100,
+    "missing": [],
+    "price": 1999
+  },
+  {
+    "id": 43,
+    "brand": "OPPO",
+    "model": "OPPO A6c",
+    "score": 100,
+    "missing": [],
+    "price": 799
   }
 ]

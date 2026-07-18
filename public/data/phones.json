@@ -62,7 +62,7 @@
     "battery_mah": 9000,
     "charging_w": 67,
     "weight_g": 226,
-    "camera_desc": "待补（发布会图未列具体像素）",
+    "camera_desc": "影像参数待确认",
     "has_tele": false,
     "os": "小米澎湃OS",
     "features": [
@@ -83,14 +83,14 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "待补",
+    "detailed_camera": "主摄: 待确认 | 超广: 待确认 | 前置: 待确认",
     "release_date": "2026-07-14",
     "price": 1599,
     "screen_detail": "6.83\" 1280P OLED 120Hz，康宁大猩猩Victus 2，3840Hz高频PWM，峰值3500nits",
     "dimensions": "163.45×78.27×8.46mm",
     "ip_rating": "IP68/IP69K",
     "reverse_charging_w": 22.5,
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -163,7 +163,9 @@
     ],
     "charge_protocols_source": "ecosystem-vivo",
     "charge_protocols_confidence": "medium",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP5X/IPX8/IPX9",
+    "screen_detail": "8.02\" 内外双屏 三星M14 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "id": 249,
@@ -195,7 +197,9 @@
       "90W快充",
       "NFC",
       "红外遥控",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "6500mAh+",
@@ -225,7 +229,9 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "network_model": "BSN-AN00",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.8\" 2788×1280 OLED 120Hz"
   },
   {
     "id": 1,
@@ -259,7 +265,8 @@
       "红外遥控",
       "NFC",
       "立体声双扬声器",
-      "卫星通信"
+      "卫星通信",
+      "红外"
     ],
     "tags": [
       "6500mAh+",
@@ -281,7 +288,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.79\" 2640×1200 AMOLED 120Hz"
   },
   {
     "id": 3,
@@ -312,7 +321,8 @@
       "NFC",
       "红外遥控",
       "80W超级闪充",
-      "8000mAh超大电池"
+      "8000mAh超大电池",
+      "红外"
     ],
     "tags": [
       "6500mAh+",
@@ -332,7 +342,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz"
   },
   {
     "id": 2,
@@ -359,7 +371,8 @@
       "NFC",
       "红外遥控",
       "144Hz LCD护眼屏",
-      "7000mAh大电池"
+      "7000mAh大电池",
+      "红外"
     ],
     "tags": [
       "6500mAh+",
@@ -378,7 +391,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.72\" 2400×1080 LCD 144Hz"
   },
   {
     "id": 5,
@@ -407,7 +421,8 @@
       "超声波屏下指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外"
     ],
     "tags": [
       "天玑9500",
@@ -433,7 +448,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.83\" 2772×1280 OLED 144Hz"
   },
   {
     "id": 4,
@@ -461,7 +478,8 @@
       "光学屏下指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外"
     ],
     "tags": [
       "天玑8500",
@@ -489,7 +507,9 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "network_model": "2602DPT53I",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.59\" 2756×1268 OLED 120Hz"
   },
   {
     "id": 9,
@@ -522,7 +542,8 @@
       "侧边指纹",
       "昆仑玻璃",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9010S",
@@ -550,7 +571,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.84\" 2856×1320 OLED LTPO 120Hz"
   },
   {
     "id": 8,
@@ -582,7 +605,8 @@
       "侧边指纹",
       "昆仑玻璃",
       "星闪E2.0",
-      "立体声双扬声器"
+      "立体声双扬声器",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9010S",
@@ -610,7 +634,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.84\" 2856×1320 OLED LTPO 120Hz"
   },
   {
     "id": 7,
@@ -664,7 +690,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.68\" 2800×1280 OLED 120Hz"
   },
   {
     "id": 6,
@@ -715,7 +742,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
   },
   {
     "id": 12,
@@ -762,7 +790,8 @@
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
     "network_model": "V2571A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz"
   },
   {
     "id": 11,
@@ -810,7 +839,9 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz"
   },
   {
     "id": 10,
@@ -842,7 +873,8 @@
       "10000mAh超大电池",
       "3840Hz PWM调光",
       "红外遥控",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "tags": [
       "天玑8500 竞速版",
@@ -864,7 +896,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.79\" 2640×1200 AMOLED 120Hz"
   },
   {
     "id": 17,
@@ -908,7 +942,8 @@
       "山海通信增强芯片",
       "纳米冰晶散热",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
@@ -922,7 +957,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-oppo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 2772×1272 OLED 120Hz"
   },
   {
     "id": 16,
@@ -966,7 +1003,8 @@
       "3840Hz PWM调光",
       "三重星光幻彩设计",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
@@ -979,7 +1017,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz"
   },
   {
     "id": 15,
@@ -1022,7 +1062,8 @@
       "山海通信增强芯片",
       "纳米冰晶散热",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
@@ -1036,7 +1077,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-oppo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.32\" 2640×1216 OLED 120Hz"
   },
   {
     "id": 14,
@@ -1077,7 +1120,8 @@
       "青海湖大电池",
       "3840Hz PWM调光",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
@@ -1090,7 +1134,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz"
   },
   {
     "id": 13,
@@ -1110,8 +1156,8 @@
     "usb_version": "USB 2.0",
     "weight_g": 190,
     "os": "MagicOS 10 (Android 16)",
-    "camera_desc": "5000万像素索尼超清主摄",
-    "detailed_camera": "5000万像素广角+5000万前置",
+    "camera_desc": "5000万索尼超清主摄 | 5000万前置",
+    "detailed_camera": "主摄: 5000万索尼超清 | 前置: 5000万",
     "has_tele": false,
     "has_nfc": true,
     "has_ir": false,
@@ -1126,7 +1172,8 @@
       "4K闪光微单Live",
       "0.98mm极窄四等边",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
@@ -1141,7 +1188,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz"
   },
   {
     "id": 18,
@@ -1177,7 +1225,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-20",
@@ -1189,7 +1238,9 @@
       "QC"
     ],
     "completeness_score": 94,
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.82\" 3186×1440 OLED 144Hz"
   },
   {
     "id": 22,
@@ -1204,7 +1255,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "散热风扇"
+      "散热风扇",
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "tags": [
@@ -1242,7 +1295,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 21,
@@ -1257,7 +1311,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "散热风扇"
+      "散热风扇",
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "tags": [
@@ -1295,7 +1351,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 20,
@@ -1323,7 +1380,9 @@
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1353,7 +1412,9 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "network_model": "2605EPN8EC",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2608×1200 AMOLED 120Hz"
   },
   {
     "id": 29,
@@ -1377,7 +1438,8 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1404,7 +1466,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.82\" 3168×1440 OLED 144Hz"
   },
   {
     "id": 28,
@@ -1427,7 +1491,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "反向充电"
     ],
     "tags": [
       "麒麟9030",
@@ -1457,7 +1522,9 @@
     ],
     "completeness_score": 100,
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2880×1308 OLED 120Hz"
   },
   {
     "id": 27,
@@ -1508,7 +1575,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.32\" 2780×1264 OLED 144Hz"
   },
   {
     "id": 26,
@@ -1559,7 +1628,9 @@
       "FCP"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.6\" 2760×1256 OLED 120Hz"
   },
   {
     "id": 25,
@@ -1610,7 +1681,9 @@
       "FCP"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.8\" 2856×1320 OLED 120Hz"
   },
   {
     "id": 31,
@@ -1632,7 +1705,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1662,7 +1736,9 @@
     ],
     "charge_protocols_source": "ecosystem-vivo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.82\" 3168×1440 OLED 120Hz"
   },
   {
     "id": 30,
@@ -1684,7 +1760,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9500",
@@ -1715,7 +1792,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2548A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 3168×1440 OLED 144Hz"
   },
   {
     "brand": "Huawei",
@@ -1734,7 +1813,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 32,
@@ -1769,7 +1849,9 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2720×1260 LTPO OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -1784,7 +1866,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 33,
@@ -1817,7 +1900,9 @@
     "charge_protocols_source": "ecosystem-apple-qi2",
     "charge_protocols_confidence": "medium",
     "os": "iOS 26",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.1\" 2532×1170 OLED 60Hz"
   },
   {
     "model": "Galaxy A57 5G",
@@ -1862,7 +1947,9 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "network_model": "SM-A5760",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2340×1080 Super AMOLED+ 120Hz"
   },
   {
     "id": 35,
@@ -1906,7 +1993,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 34,
@@ -1950,7 +2038,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -1970,7 +2059,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1998,7 +2088,9 @@
       "Qi2"
     ],
     "charge_protocols_source": "ecosystem-samsung-pd",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.8\" 3088×1440 OLED 120Hz"
   },
   {
     "model": "Galaxy S26+",
@@ -2018,7 +2110,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2047,7 +2140,9 @@
       "Qi2"
     ],
     "charge_protocols_source": "ecosystem-samsung-pd",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.8\" 3120×1440 OLED 120Hz"
   },
   {
     "model": "Galaxy S26",
@@ -2067,7 +2162,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2096,7 +2192,9 @@
       "Qi2"
     ],
     "charge_protocols_source": "ecosystem-samsung-pd",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.8\" 2340×1080 OLED 120Hz"
   },
   {
     "id": 40,
@@ -2145,7 +2243,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX9",
+    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz"
   },
   {
     "id": 42,
@@ -2186,7 +2286,8 @@
       "PD"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.58\" 2400×1080 OLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -2227,7 +2328,8 @@
       "PD"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.71\" 2800×1280 OLED 120Hz"
   },
   {
     "id": 43,
@@ -2273,7 +2375,9 @@
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "network_model": "PMC110",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX4",
+    "screen_detail": "6.75\" 1570×720 LCD 120Hz"
   },
   {
     "id": 44,
@@ -2297,7 +2401,9 @@
       "IPX8",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2325,7 +2431,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 52,
@@ -2347,7 +2455,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9030 Pro",
@@ -2387,7 +2496,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏"
   },
   {
     "id": 51,
@@ -2408,7 +2519,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "潜望长焦",
@@ -2439,7 +2551,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.84\" 2856×1320 OLED 120Hz"
   },
   {
     "id": 50,
@@ -2460,7 +2573,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "潜望长焦",
@@ -2488,7 +2602,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.84\" 2856×1320 OLED 120Hz"
   },
   {
     "id": 49,
@@ -2520,7 +2635,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 1/1.56\" RYYB 50MP f/1.9 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
     "release_date": "2025-12-01",
     "price": 2699,
     "thickness_mm": 7.2,
@@ -2536,7 +2651,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
   },
   {
     "id": 48,
@@ -2553,7 +2669,7 @@
     "charging_w": 67,
     "weight_g": 190,
     "camera_desc": "50MP主摄 + 2MP | 16MP前置",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP \\\\",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
     "has_tele": false,
     "os": "ColorOS",
     "features": [
@@ -2579,7 +2695,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 47,
@@ -2620,7 +2737,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 46,
@@ -2637,7 +2755,7 @@
     "charging_w": 33,
     "weight_g": 190,
     "camera_desc": "50MP主摄 | 8MP前置",
-    "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄 \\\\",
+    "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄",
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
@@ -2660,7 +2778,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 45,
@@ -2677,7 +2796,7 @@
     "charging_w": 33,
     "weight_g": 190,
     "camera_desc": "50MP主摄 + 2MP景深 | 8MP前置",
-    "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄 + 2MP景深 \\\\",
+    "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄 + 2MP景深",
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
@@ -2700,7 +2819,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 1600×720 LCD 90Hz"
   },
   {
     "model": "荣耀 500 Pro",
@@ -2740,7 +2860,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
-    "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+5000万(F2.4 OIS长焦)+1200万(F2.2超广角微距) \\\\",
+    "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+5000万(F2.4 OIS长焦)+1200万(F2.2超广角微距)",
     "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
@@ -2750,7 +2870,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2800×1264 OLED 120Hz"
   },
   {
     "model": "荣耀 500",
@@ -2788,7 +2910,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
-    "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+1200万(F2.2超广角微距) \\\\",
+    "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+1200万(F2.2超广角微距)",
     "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
@@ -2800,7 +2922,9 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "network_model": "MEY-AN00",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.7\" 2800×1264 OLED 120Hz"
   },
   {
     "id": 65,
@@ -2819,7 +2943,9 @@
     "camera_desc": "50MP主摄 f/1.7 OIS | 13MP超广角 | 12MP长焦(5.5x)",
     "has_tele": true,
     "os": "HarmonyOS 5.1",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "麒麟9020",
       "潜望长焦",
@@ -2857,7 +2983,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "7.9\" 2400×1080 折叠屏 120Hz 折叠屏"
   },
   {
     "id": 64,
@@ -2880,7 +3007,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9030",
@@ -2912,7 +3040,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2720×1260 OLED 120Hz"
   },
   {
     "id": 63,
@@ -2935,7 +3065,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9030",
@@ -2967,7 +3098,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2848×1320 双层OLED 120Hz"
   },
   {
     "id": 61,
@@ -2990,7 +3123,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9030 Pro",
@@ -3022,7 +3156,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.75\" 2832×1280 OLED 120Hz"
   },
   {
     "id": 62,
@@ -3045,7 +3181,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9030",
@@ -3076,7 +3213,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.75\" 2832×1316 OLED 120Hz"
   },
   {
     "id": 60,
@@ -3099,7 +3238,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9020",
@@ -3130,7 +3270,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.75\" 2720×1260 OLED 120Hz"
   },
   {
     "id": 59,
@@ -3152,7 +3294,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -3179,7 +3323,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2712×1220 OLED 120Hz"
   },
   {
     "id": 257,
@@ -3205,7 +3350,9 @@
       "IPX9",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 至尊版",
@@ -3231,7 +3378,9 @@
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
     "network_model": "2604FRK1EC",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.83\" 2772×1280 AMOLED 165Hz"
   },
   {
     "id": 58,
@@ -3283,7 +3432,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.83\" 2772×1240 OLED 120Hz"
   },
   {
     "id": 57,
@@ -3305,7 +3456,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "天玑9500",
@@ -3331,7 +3484,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2712×1220 OLED 120Hz"
   },
   {
     "id": 56,
@@ -3385,7 +3539,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.59\" 2760×1256 OLED 120Hz"
   },
   {
     "id": 55,
@@ -3407,7 +3563,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -3432,7 +3590,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.59\" 2510×1156 OLED 120Hz"
   },
   {
     "id": 67,
@@ -3456,7 +3615,8 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "天玑9500",
@@ -3483,7 +3643,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
   },
   {
     "id": 66,
@@ -3507,7 +3669,8 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "天玑9500",
@@ -3535,7 +3698,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.59\" 2760×1256 OLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -3548,7 +3713,8 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 68,
@@ -3583,7 +3749,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "network_model": "BKQ-AN10",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "screen_detail": "6.71\" 2800×1280 OLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -3596,7 +3763,8 @@
     "has_tele": true,
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 69,
@@ -3632,7 +3800,8 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "network_model": "BKQ-AN00",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "screen_detail": "6.58\" 2800×1280 OLED 120Hz"
   },
   {
     "id": 71,
@@ -3654,7 +3823,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9500",
@@ -3684,7 +3854,9 @@
     "completeness_score": 100,
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 70,
@@ -3706,7 +3878,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9500",
@@ -3736,7 +3909,9 @@
     ],
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 74,
@@ -3760,7 +3935,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "自研电竞芯片 Q3"
+      "自研电竞芯片 Q3",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -3791,7 +3967,9 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 72,
@@ -3814,7 +3992,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -3844,7 +4023,9 @@
     ],
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
   },
   {
     "brand": "OnePlus",
@@ -3863,7 +4044,8 @@
       "NFC",
       "红外遥控",
       "3D超声波指纹",
-      "双扬声器"
+      "双扬声器",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 73,
@@ -3898,7 +4080,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.32\" 2640×1216 OLED 165Hz"
   },
   {
     "id": 79,
@@ -3923,7 +4107,9 @@
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -3951,7 +4137,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2608×1200 OLED 120Hz"
   },
   {
     "id": 78,
@@ -3976,7 +4164,9 @@
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4006,7 +4196,9 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "network_model": "25098PN5AC",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.3\" 2656×1220 OLED 120Hz"
   },
   {
     "id": 77,
@@ -4031,7 +4223,9 @@
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4062,7 +4256,9 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "network_model": "2608BPX34C",
-    "network_model_source": "restored"
+    "network_model_source": "restored",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.3\" 2656×1220 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -4078,7 +4274,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 86,
@@ -4112,7 +4309,9 @@
     "os": "iOS 26",
     "os_source": "series-default",
     "resolution": "2868×1320",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2868×1320 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -4128,7 +4327,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 85,
@@ -4163,7 +4363,9 @@
     "os": "iOS 26",
     "os_source": "series-default",
     "resolution": "2622×1206",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.3\" 2622×1206 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -4178,7 +4380,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 84,
@@ -4211,7 +4414,9 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "os": "iOS 18",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2700×1220 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -4227,7 +4432,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 83,
@@ -4260,7 +4466,9 @@
     "charge_protocols_source": "ecosystem-apple-qi2",
     "charge_protocols_confidence": "medium",
     "os": "iOS 26",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.1\" 2556×1179 OLED 120Hz"
   },
   {
     "id": 82,
@@ -4303,7 +4511,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 81,
@@ -4320,7 +4529,7 @@
     "charging_w": 67,
     "weight_g": 185,
     "camera_desc": "50MP主摄 | 16MP前置",
-    "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄 \\\\",
+    "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄",
     "has_tele": false,
     "os": "ColorOS",
     "features": [
@@ -4346,7 +4555,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 80,
@@ -4363,7 +4573,7 @@
     "charging_w": 33,
     "weight_g": 195,
     "camera_desc": "50MP主摄 + 2MP | 8MP前置",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP \\\\",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
     "has_tele": false,
     "os": "ColorOS",
     "features": [],
@@ -4385,7 +4595,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.6\" 1600×720 LCD 90Hz"
   },
   {
     "id": 93,
@@ -4410,7 +4621,9 @@
       "NFC",
       "红外遥控",
       "5G",
-      "徕卡影像"
+      "徕卡影像",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4439,7 +4652,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 92,
@@ -4484,7 +4699,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "7.0\" 2760×1320 OLED 120Hz"
   },
   {
     "brand": "OnePlus",
@@ -4501,7 +4717,9 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 90,
@@ -4540,7 +4758,9 @@
     "os": "ColorOS 16 / Android 16",
     "os_source": "series-default",
     "network_model": "PLK110",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 1272×2772 OLED 120Hz"
   },
   {
     "brand": "realme",
@@ -4558,7 +4778,9 @@
       "NFC",
       "红外遥控",
       "3D超声波指纹",
-      "双扬声器"
+      "双扬声器",
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 91,
@@ -4594,7 +4816,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-realme",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz"
   },
   {
     "id": 89,
@@ -4611,7 +4835,7 @@
     "charging_w": 67,
     "weight_g": 185,
     "camera_desc": "108MP主摄 + 2MP | 16MP前置",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 108MP主摄 + 2MP \\\\",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 108MP主摄 + 2MP",
     "has_tele": false,
     "os": "MagicOS",
     "features": [
@@ -4638,7 +4862,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2412×1080 OLED 120Hz"
   },
   {
     "id": 88,
@@ -4660,7 +4885,8 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外"
     ],
     "tags": [
       "中低端芯片",
@@ -4684,7 +4910,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 87,
@@ -4701,7 +4928,7 @@
     "charging_w": 67,
     "weight_g": 188,
     "camera_desc": "50MP主摄 + 2MP | 16MP前置",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP \\\\",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
     "has_tele": false,
     "os": "ColorOS",
     "features": [
@@ -4727,7 +4954,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 94,
@@ -4778,7 +5006,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP5X/IPX8/IPX9",
+    "screen_detail": "6.82\" 2868×1232 OLED 120Hz 折叠屏"
   },
   {
     "brand": "HONOR",
@@ -4820,7 +5050,8 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.83\" 2800×1264 AMOLED 120Hz"
   },
   {
     "brand": "OnePlus",
@@ -4837,7 +5068,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 102,
@@ -4870,7 +5102,9 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "os": "ColorOS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 2780×1264 OLED 165Hz"
   },
   {
     "model": "荣耀 WIN RT",
@@ -4907,7 +5141,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
-    "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 后置 5000万(F1.95 OIS)+1200万(F2.2超广角微距) \\\\",
+    "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 后置 5000万(F1.95 OIS)+1200万(F2.2超广角微距)",
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -4920,7 +5154,9 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.83\" 2800×1264 OLED 120Hz"
   },
   {
     "id": 100,
@@ -4944,7 +5180,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4957,7 +5194,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 5000万主摄",
     "release_date": "2025-08-01",
     "price": 3099,
     "date_precision": "month",
@@ -4971,7 +5208,9 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
   },
   {
     "brand": "realme",
@@ -4989,7 +5228,8 @@
       "NFC",
       "红外遥控",
       "3D超声波指纹",
-      "双扬声器"
+      "双扬声器",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 99,
@@ -5024,7 +5264,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-realme",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz"
   },
   {
     "brand": "OnePlus",
@@ -5043,7 +5285,8 @@
       "NFC",
       "红外遥控",
       "屏下超声指纹",
-      "双扬声器"
+      "双扬声器",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 98,
@@ -5076,7 +5319,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.83\" 2800×1272 OLED 165Hz"
   },
   {
     "brand": "REDMI",
@@ -5121,7 +5366,8 @@
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.67\" 2712×1220 AMOLED 120Hz"
   },
   {
     "brand": "REDMI",
@@ -5166,7 +5412,8 @@
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.67\" 2712×1220 AMOLED 120Hz"
   },
   {
     "id": 95,
@@ -5182,7 +5429,7 @@
     "battery_mah": 7000,
     "charging_w": 35,
     "weight_g": 200,
-    "camera_desc": "50MP主摄",
+    "camera_desc": "50MP主摄（三星JN1）",
     "has_tele": false,
     "os": "Android",
     "features": [],
@@ -5193,11 +5440,11 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 前置: 待确认",
     "release_date": "2025-08-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 81,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5206,7 +5453,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -5225,7 +5473,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5264,7 +5513,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "10.0\" 2400×1916 / 2520×1080 Dynamic AMOLED 2X 120Hz 折叠屏"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -5283,7 +5534,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5323,7 +5575,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "7.6\" 2160×1856 / 2376×968 折叠屏 120Hz 折叠屏"
   },
   {
     "brand": "HONOR",
@@ -5338,7 +5592,9 @@
     "wireless_charging_w": 66,
     "usb_version": "USB 3.2",
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "折叠屏",
     "id": 114,
     "tags": [
@@ -5380,7 +5636,8 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "7.95\" 2376×1060 折叠屏 120Hz 折叠屏"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -5399,7 +5656,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5413,7 +5671,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角) \\\\",
+    "detailed_camera": "主摄: GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)",
     "release_date": "2025-07-01",
     "price": 7999,
     "id": 113,
@@ -5439,7 +5697,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2640×1080 / 1066×1056 折叠屏 120Hz 折叠屏"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -5470,7 +5730,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角) \\\\",
+    "detailed_camera": "主摄: GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)",
     "release_date": "2025-07-01",
     "price": 6999,
     "id": 112,
@@ -5498,7 +5758,9 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "network_model": "SM-F761B",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2640×1080 / 1066×1056 折叠屏 120Hz 折叠屏"
   },
   {
     "brand": "RedMagic",
@@ -5509,7 +5771,9 @@
     "weight_g": 228,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 111,
     "tags": [
@@ -5541,7 +5805,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
   },
   {
     "brand": "RedMagic",
@@ -5552,7 +5817,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": true,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 110,
     "tags": [
@@ -5585,7 +5852,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 109,
@@ -5634,7 +5902,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX9",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 107,
@@ -5670,7 +5940,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 2亿广角 \\\\",
+    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 2亿广角",
     "release_date": "2025-07-01",
     "price": 3699,
     "date_precision": "month",
@@ -5685,7 +5955,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX9",
+    "screen_detail": "6.32\" 2760×1256 OLED 120Hz"
   },
   {
     "brand": "RedMagic",
@@ -5696,7 +5968,9 @@
     "weight_g": 207,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 108,
     "tags": [
@@ -5713,7 +5987,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2480×1116",
-    "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
     "completeness_score": 88,
@@ -5728,7 +6002,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.85\" 2480×1116 AMOLED 144Hz"
   },
   {
     "id": 106,
@@ -5765,7 +6040,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万广角 \\\\",
+    "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万广角",
     "release_date": "2025-07-01",
     "price": 3299,
     "date_precision": "month",
@@ -5780,7 +6055,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX9",
+    "screen_detail": "6.59\" 2760×1256 OLED 120Hz"
   },
   {
     "brand": "OnePlus",
@@ -5799,7 +6076,8 @@
       "NFC",
       "红外遥控",
       "电竞三芯",
-      "双扬声器"
+      "双扬声器",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 105,
@@ -5833,7 +6111,9 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "network_model": "PLU110",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 2780×1264 OLED 165Hz"
   },
   {
     "brand": "OnePlus",
@@ -5852,7 +6132,8 @@
       "NFC",
       "红外遥控",
       "屏下超声指纹",
-      "双扬声器"
+      "双扬声器",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 104,
@@ -5884,7 +6165,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.83\" 1272×2800 OLED 165Hz"
   },
   {
     "id": 132,
@@ -5906,7 +6189,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "XMAGE影像"
+      "XMAGE影像",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9020",
@@ -5934,7 +6218,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.8\" 2844×1312 OLED 120Hz"
   },
   {
     "id": 131,
@@ -5953,7 +6239,9 @@
     "camera_desc": "5000万主摄 f/1.6 OIS | 5000万超广角 | 5000万长焦(3x)",
     "has_tele": true,
     "os": "OriginOS",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "骁龙8 Elite 1",
       "潜望长焦",
@@ -5991,7 +6279,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2436A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "screen_detail": "8.03\" 2480×2200 / 2748×1172 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "id": 130,
@@ -6010,7 +6299,9 @@
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "麒麟9020",
       "潜望长焦",
@@ -6037,7 +6328,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.8\" 2848×1276 OLED 120Hz"
   },
   {
     "id": 129,
@@ -6056,7 +6348,9 @@
     "camera_desc": "50MP可变光圈主摄 + 40MP超广角 + 48MP潜望长焦(4x)",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "麒麟9020",
       "潜望长焦",
@@ -6083,7 +6377,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.8\" 2848×1276 OLED 120Hz"
   },
   {
     "id": 128,
@@ -6102,7 +6397,9 @@
     "camera_desc": "5000万主摄",
     "has_tele": false,
     "os": "HarmonyOS 4.3",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "麒麟9010s",
       "无线充电",
@@ -6129,7 +6426,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.6\" 2700×1224 OLED 120Hz"
   },
   {
     "id": 127,
@@ -6173,7 +6471,8 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -6216,7 +6515,8 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.55\" 2800×1264 AMOLED 120Hz"
   },
   {
     "brand": "realme",
@@ -6257,7 +6557,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "os": "realme UI",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2772×1240 AMOLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -6300,7 +6601,8 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.55\" 2664×1200 AMOLED 120Hz"
   },
   {
     "id": 123,
@@ -6317,7 +6619,7 @@
     "charging_w": 80,
     "weight_g": 200,
     "camera_desc": "50MP主摄 + 50MP超广角 + 50MP长焦",
-    "has_tele": false,
+    "has_tele": true,
     "os": "ColorOS 16",
     "features": [
       "NFC"
@@ -6326,7 +6628,8 @@
       "中低端芯片",
       "6500mAh+",
       "≤200g",
-      "NFC"
+      "NFC",
+      "潜望长焦"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6344,7 +6647,8 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 122,
@@ -6386,7 +6690,8 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz"
   },
   {
     "id": 120,
@@ -6415,7 +6720,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 后置5000万主摄+200万黑白 \\\\",
+    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 后置5000万主摄+200万黑白",
     "release_date": "2025-06-01",
     "price": 2099,
     "date_precision": "month",
@@ -6428,7 +6733,8 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz"
   },
   {
     "id": 121,
@@ -6436,8 +6742,8 @@
     "model": "Neo7",
     "price": 2099,
     "processor": "天玑9400",
-    "ram": null,
-    "storage": null,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "screen_size": 6.78,
     "screen_type": "AMOLED",
     "resolution": "2772×1240",
@@ -6462,7 +6768,7 @@
     "screen_form": "直屏",
     "release_date": "2025-06-01",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6473,7 +6779,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz_source": "series-default",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.78\" 2772×1240 AMOLED 120Hz"
   },
   {
     "brand": "OnePlus",
@@ -6490,7 +6797,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 119,
@@ -6522,7 +6830,9 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "os": "ColorOS 16 / Android 16",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz"
   },
   {
     "id": 117,
@@ -6539,7 +6849,7 @@
     "charging_w": 33,
     "weight_g": 191,
     "camera_desc": "50MP主摄 + 2MP | 8MP前置",
-    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 50MP主摄 + 2MP \\\\",
+    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 50MP主摄 + 2MP",
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
@@ -6564,7 +6874,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.56\" 1612×720 LCD 90Hz"
   },
   {
     "id": 118,
@@ -6581,7 +6892,7 @@
     "charging_w": 33,
     "weight_g": 195,
     "camera_desc": "50MP主摄 | 5MP前置",
-    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 50MP主摄 \\\\",
+    "detailed_camera": "50MP主摄 | 5MP前置",
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
@@ -6605,7 +6916,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.56\" 1612×720 LCD 90Hz"
   },
   {
     "brand": "Huawei",
@@ -6620,7 +6932,9 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "折叠屏",
     "id": 138,
     "tags": [
@@ -6664,7 +6978,8 @@
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "screen_detail": "7.7\" 2960×1376 折叠屏 120Hz 折叠屏"
   },
   {
     "brand": "HONOR",
@@ -6704,7 +7019,8 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.79\" 2412×1080 LCD 120Hz"
   },
   {
     "id": 135,
@@ -6712,8 +7028,8 @@
     "model": "S21 Pro",
     "price": 2999,
     "processor": "天玑8400",
-    "ram": null,
-    "storage": null,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "screen_size": 6.78,
     "screen_type": "AMOLED",
     "resolution": "2800×1260",
@@ -6736,7 +7052,7 @@
     "screen_form": "直屏",
     "release_date": "2025-04-01",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6746,7 +7062,8 @@
     ],
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.78\" 2800×1260 AMOLED 120Hz"
   },
   {
     "id": 134,
@@ -6796,7 +7113,9 @@
       "QC"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.32\" 2640×1216 OLED 120Hz"
   },
   {
     "id": 133,
@@ -6842,7 +7161,8 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
   },
   {
     "brand": "Huawei",
@@ -6857,7 +7177,9 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "折叠屏",
     "id": 144,
     "tags": [
@@ -6900,7 +7222,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.5\" 2700×1224 LTPO OLED 120Hz 折叠屏"
   },
   {
     "model": "Galaxy A56 5G",
@@ -6927,15 +7250,15 @@
       "防尘抗水"
     ],
     "brand": "Samsung",
-    "ram": "",
-    "storage": "",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)+500万(F2.4微距) \\\\",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)+500万(F2.4微距)",
     "release_date": "2025-03-01",
     "price": 2999,
     "id": 142,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -6943,7 +7266,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX7",
+    "screen_detail": "6.7\" 2340×1080 Super AMOLED 120Hz"
   },
   {
     "id": 143,
@@ -6983,7 +7308,8 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.7\" 2340×1080 Super AMOLED 120Hz"
   },
   {
     "id": 141,
@@ -7000,7 +7326,7 @@
     "charging_w": 22.5,
     "weight_g": 199,
     "camera_desc": "50MP主摄 | 5MP前置",
-    "detailed_camera": "50MP主摄 \\\\",
+    "detailed_camera": "主摄: 5000万 | 前置: 500万",
     "has_tele": false,
     "os": "MagicOS",
     "features": [],
@@ -7024,7 +7350,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.75\" 1600×720 LCD 90Hz"
   },
   {
     "id": 146,
@@ -7046,7 +7373,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -7084,7 +7412,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "8.12\" 2480×2248 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "id": 145,
@@ -7106,7 +7436,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7145,7 +7476,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "8.12\" 2480×2248 / 2700×1220 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -7166,7 +7499,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "S Pen"
+      "S Pen",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7196,7 +7530,9 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2340×1080 Dynamic AMOLED 2X 120Hz"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -7215,7 +7551,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7229,7 +7566,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "128GB/256GB/512GB",
-    "detailed_camera": "主摄: GN3 50MP f/1.8 | 后置 2亿(F1.7 OIS)+1200万(F2.2超广角) \\\\",
+    "detailed_camera": "主摄: GN3 50MP f/1.8 | 后置 2亿(F1.7 OIS)+1200万(F2.2超广角)",
     "release_date": "2025-01-01",
     "price": 7999,
     "id": 158,
@@ -7244,7 +7581,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz"
   },
   {
     "id": 159,
@@ -7269,7 +7608,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7299,7 +7639,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.8\" 2800×1280 OLED 120Hz 微曲屏"
   },
   {
     "model": "Galaxy S25+",
@@ -7318,7 +7660,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7349,7 +7692,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz"
   },
   {
     "model": "Galaxy S25",
@@ -7368,7 +7713,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7399,7 +7745,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.2\" 2340×1080 Dynamic AMOLED 2X 120Hz"
   },
   {
     "id": 154,
@@ -7448,7 +7796,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2527A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.31\" 2640×1216 OLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -7492,7 +7842,8 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.78\" 2800×1264 AMOLED 120Hz"
   },
   {
     "id": 153,
@@ -7509,7 +7860,7 @@
     "charging_w": 90,
     "weight_g": 194,
     "camera_desc": "200MP主摄 + 50MP超广角 + 潜望长焦",
-    "has_tele": false,
+    "has_tele": true,
     "os": "OriginOS 5",
     "features": [
       "IP6X",
@@ -7520,7 +7871,8 @@
       "中低端芯片",
       "6500mAh+",
       "≤200g",
-      "防尘抗水"
+      "防尘抗水",
+      "潜望长焦"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7543,7 +7895,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2516A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 150,
@@ -7591,7 +7945,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2465A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.31\" 2640×1216 OLED 120Hz"
   },
   {
     "id": 151,
@@ -7618,7 +7974,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 5000万主摄",
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
@@ -7634,7 +7990,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2464A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 152,
@@ -7650,7 +8007,7 @@
     "battery_mah": 8200,
     "charging_w": 80,
     "weight_g": 194,
-    "camera_desc": "5000万主摄",
+    "camera_desc": "5000万主摄（三星HP5）",
     "has_tele": false,
     "os": "OriginOS 5",
     "features": [
@@ -7667,11 +8024,11 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 三星HP5 5000万",
+    "detailed_camera": "主摄: 三星HP5 5000万 | 前置: 待确认",
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7683,7 +8040,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2506A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.7\" 2388×1080 OLED 120Hz"
   },
   {
     "brand": "HONOR",
@@ -7725,7 +8084,8 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.78\" 2664×1200 AMOLED 120Hz"
   },
   {
     "id": 148,
@@ -7757,7 +8117,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX921 50MP f/1.57 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 索尼IMX921 50MP f/1.57 | 5000万主摄",
     "release_date": "2025-01-01",
     "price": 2599,
     "date_precision": "month",
@@ -7773,7 +8133,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2528A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 147,
@@ -7823,7 +8185,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2561A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.83\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 161,
@@ -7843,7 +8207,8 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9030",
@@ -7881,7 +8246,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏"
   },
   {
     "id": 172,
@@ -7922,7 +8288,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2700×1224 OLED 120Hz"
   },
   {
     "id": 173,
@@ -7943,7 +8310,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "潜望长焦",
@@ -7969,7 +8337,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.81\" 2776×1224 OLED 120Hz"
   },
   {
     "id": 171,
@@ -8011,7 +8380,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2700×1224 OLED 120Hz"
   },
   {
     "id": 170,
@@ -8032,7 +8402,8 @@
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "潜望长焦",
@@ -8058,7 +8429,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2776×1224 OLED 120Hz"
   },
   {
     "id": 169,
@@ -8081,7 +8453,8 @@
       "IP6X",
       "IPX5",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -8105,7 +8478,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
   },
   {
     "id": 168,
@@ -8146,7 +8521,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 166,
@@ -8170,7 +8546,8 @@
       "IPX5",
       "NFC",
       "红外遥控",
-      "屏下光学指纹"
+      "屏下光学指纹",
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -8193,7 +8570,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
   },
   {
     "id": 167,
@@ -8238,7 +8617,8 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
   },
   {
     "id": 252,
@@ -8270,7 +8650,8 @@
     "status": "incomplete",
     "charge_protocols_confidence": "none",
     "refresh_hz_source": "series-default",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "2412×1084 OLED 120Hz"
   },
   {
     "brand": "realme",
@@ -8313,7 +8694,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "os": "realme UI 6.0 / Android 15",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2780×1264 AMOLED 120Hz"
   },
   {
     "id": 162,
@@ -8354,7 +8736,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
   },
   {
     "id": 163,
@@ -8395,7 +8778,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
   },
   {
     "brand": "OnePlus",
@@ -8410,7 +8794,8 @@
       "IP6X",
       "IPX5",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "红外"
     ],
     "screen_form": "直屏",
     "id": 164,
@@ -8444,7 +8829,9 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "os": "ColorOS 16 / Android 16",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.78\" 2780×1264 AMOLED 120Hz"
   },
   {
     "id": 183,
@@ -8469,7 +8856,8 @@
       "NFC",
       "红外",
       "卫星通信",
-      "陶瓷后盖"
+      "陶瓷后盖",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9020",
@@ -8484,7 +8872,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄",
     "release_date": "2024-11-01",
     "price": 9999,
     "network_model": "HBN-AL00",
@@ -8497,7 +8885,9 @@
       "FCP"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.82\" 2848×1312 OLED 120Hz"
   },
   {
     "id": 182,
@@ -8522,7 +8912,8 @@
       "NFC",
       "红外",
       "卫星通信",
-      "玄武架构"
+      "玄武架构",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9020",
@@ -8550,7 +8941,9 @@
       "FCP"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.82\" 2848×1312 OLED 120Hz"
   },
   {
     "id": 181,
@@ -8593,7 +8986,8 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.9\" 2790×1188 / 1066×1056 OLED 120Hz"
   },
   {
     "id": 180,
@@ -8617,7 +9011,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "卫星通信"
+      "卫星通信",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9020",
@@ -8632,7 +9027,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄",
     "release_date": "2024-11-01",
     "price": 6499,
     "thickness_mm": 8.2,
@@ -8646,7 +9041,9 @@
       "FCP"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2832×1316 OLED 120Hz"
   },
   {
     "brand": "Huawei",
@@ -8665,7 +9062,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 179,
@@ -8685,7 +9083,7 @@
     "storage": "256GB/512GB",
     "network_model": "PLR-AL50",
     "resolution": "2688×1216",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄",
     "screen_type": "LTPO OLED",
     "date_precision": "month",
     "completeness_score": 100,
@@ -8698,7 +9096,9 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.82\" 2688×1216 LTPO OLED 120Hz"
   },
   {
     "id": 178,
@@ -8722,7 +9122,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "卫星通信"
+      "卫星通信",
+      "有线投屏"
     ],
     "tags": [
       "麒麟9020",
@@ -8736,7 +9137,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄",
     "release_date": "2024-11-01",
     "price": 5499,
     "thickness_mm": 7.8,
@@ -8750,7 +9151,9 @@
       "FCP"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2688×1216 OLED 120Hz"
   },
   {
     "id": 177,
@@ -8772,7 +9175,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -8798,7 +9202,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-realme",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
   },
   {
     "brand": "REDMI",
@@ -8815,7 +9221,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 176,
@@ -8835,7 +9242,7 @@
     "screen_type": "OLED",
     "network_model": "24117RK2CC",
     "resolution": "3200×1440",
-    "detailed_camera": "主摄: 光影猎人800 50MP f/1.6 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 光影猎人800 50MP f/1.6 | 5000万主摄",
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -8845,7 +9252,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 3200×1440 OLED 120Hz"
   },
   {
     "brand": "REDMI",
@@ -8878,7 +9286,7 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "3200×1440",
-    "detailed_camera": "主摄: 光影猎人800 50MP f/1.6 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 光影猎人800 50MP f/1.6 | 5000万主摄",
     "date_precision": "month",
     "completeness_score": 88,
     "charge_protocols": [
@@ -8888,7 +9296,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 3200×1440 OLED 120Hz"
   },
   {
     "brand": "REDMI",
@@ -8897,7 +9306,7 @@
     "screen_size": 6.67,
     "battery_mah": 5500,
     "weight_g": 206,
-    "camera_desc": "5000万主摄 | 800万超广角",
+    "camera_desc": "5000万主摄 | 800万超广角 | 2000万前置",
     "has_tele": false,
     "charging_w": 90,
     "wireless_charging_w": 0,
@@ -8922,7 +9331,7 @@
     "screen_type": "OLED",
     "network_model": "24122RKC7C",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8932,7 +9341,9 @@
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
     "resolution": "FHD+",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "detailed_camera": "主摄: 光影猎人800 5000万 f/1.6 OIS | 超广: 800万 | 前置: 2000万",
+    "screen_detail": "6.67\" FHD+ OLED 120Hz"
   },
   {
     "id": 200,
@@ -8955,7 +9366,8 @@
       "IP6X",
       "IPX6",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -8981,7 +9393,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.82\" 3168×1440 OLED 120Hz"
   },
   {
     "id": 201,
@@ -9000,7 +9414,9 @@
     "camera_desc": "主摄 索尼LYT-818 1/1.28\" f/1.57 | 超广 Sony LYT-818 f/2.0 | 长焦 三星HP9 200MP f/2.67 3.7x",
     "has_tele": true,
     "os": "OriginOS 5",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "骁龙8 Elite 1",
       "潜望长焦",
@@ -9025,7 +9441,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 3168×1440 OLED 120Hz"
   },
   {
     "id": 202,
@@ -9049,7 +9466,9 @@
       "IPX8",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9079,7 +9498,9 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "network_model": "25010PN30G",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 198,
@@ -9101,7 +9522,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9400",
@@ -9128,7 +9550,9 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 3168×1440 OLED 120Hz"
   },
   {
     "id": 199,
@@ -9152,7 +9576,9 @@
       "IPX8",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9182,7 +9608,9 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "network_model": "2410DPN6CC",
-    "network_model_source": "restored"
+    "network_model_source": "restored",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
   },
   {
     "id": 197,
@@ -9231,7 +9659,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.82\" 2760×1256 OLED 120Hz"
   },
   {
     "id": 196,
@@ -9256,7 +9686,8 @@
       "IPX9",
       "NFC",
       "红外",
-      "无线充电"
+      "无线充电",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9284,7 +9715,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.82\" 3168×1440 OLED 120Hz"
   },
   {
     "id": 194,
@@ -9336,7 +9769,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2800×1264 OLED 120Hz"
   },
   {
     "id": 195,
@@ -9355,7 +9790,9 @@
     "camera_desc": "5000万主摄 | 潜望长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.2",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "潜望长焦",
       "无线充电",
@@ -9380,7 +9817,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2652×1200 OLED 120Hz"
   },
   {
     "id": 192,
@@ -9402,7 +9840,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9400",
@@ -9430,7 +9869,9 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.31\" 2640×1216 OLED 120Hz"
   },
   {
     "id": 193,
@@ -9474,7 +9915,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2458A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 191,
@@ -9497,7 +9939,8 @@
       "IP6X",
       "IPX6",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9400",
@@ -9523,7 +9966,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
   },
   {
     "id": 190,
@@ -9545,7 +9990,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "IPX9"
+      "IPX9",
+      "有线投屏"
     ],
     "tags": [
       "天玑9400",
@@ -9571,7 +10017,9 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 189,
@@ -9621,7 +10069,9 @@
     ],
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX6/IPX8/IPX9",
+    "screen_detail": "6.59\" 2640×1216 OLED 120Hz"
   },
   {
     "id": 187,
@@ -9645,7 +10095,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9674,7 +10125,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2800×1264 OLED 120Hz 微曲屏"
   },
   {
     "id": 188,
@@ -9693,7 +10146,9 @@
     "camera_desc": "5000万主摄 | 800万长焦",
     "has_tele": true,
     "os": "HarmonyOS 4.2",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "中低端芯片",
       "潜望长焦",
@@ -9716,7 +10171,8 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2652×1200 OLED 120Hz"
   },
   {
     "id": 186,
@@ -9741,7 +10197,9 @@
       "3D超声波指纹",
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9771,7 +10229,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.36\" 2670×1200 OLED 120Hz"
   },
   {
     "id": 185,
@@ -9811,7 +10271,8 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
   },
   {
     "id": 184,
@@ -9855,7 +10316,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -9871,7 +10333,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 206,
@@ -9906,7 +10369,9 @@
     "os": "iOS 18",
     "os_source": "series-default",
     "resolution": "2868×1320",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.9\" 2868×1320 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -9922,7 +10387,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "ProMotion"
+      "ProMotion",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 205,
@@ -9958,7 +10424,9 @@
     "os": "iOS 18",
     "os_source": "series-default",
     "resolution": "2622×1206",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.3\" 2622×1206 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -9973,7 +10441,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 204,
@@ -10008,7 +10477,9 @@
     "os": "iOS 18",
     "os_source": "series-default",
     "resolution": "2556×1179",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2556×1179 OLED 120Hz"
   },
   {
     "brand": "Apple",
@@ -10018,12 +10489,13 @@
     "battery_mah": 4685,
     "weight_g": 170,
     "camera_desc": "48MP主摄 + 48MP超广角 + 12MP长焦(5x)",
-    "has_tele": false,
+    "has_tele": true,
     "features": [
       "IP6X",
       "IPX8",
       "NFC",
-      "Face ID"
+      "Face ID",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "id": 203,
@@ -10033,7 +10505,8 @@
       "≤200g",
       "NFC",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "潜望长焦"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -10056,7 +10529,9 @@
     "os": "iOS 18",
     "os_source": "series-default",
     "resolution": "2556×1179",
-    "resolution_source": "series-default"
+    "resolution_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.1\" 2556×1179 OLED 120Hz"
   },
   {
     "id": 211,
@@ -10098,7 +10573,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-iqoo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
   },
   {
     "id": 212,
@@ -10121,7 +10597,8 @@
       "IP6X",
       "IPX5",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -10149,7 +10626,9 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.82\" 3200×1440 AMOLED 120Hz"
   },
   {
     "id": 209,
@@ -10190,7 +10669,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-iqoo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
   },
   {
     "brand": "REDMI",
@@ -10236,7 +10716,8 @@
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.67\" 2712×1220 AMOLED 120Hz"
   },
   {
     "id": 208,
@@ -10258,7 +10739,8 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外"
     ],
     "tags": [
       "中低端芯片",
@@ -10281,7 +10763,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 2712×1220 OLED 120Hz"
   },
   {
     "id": 207,
@@ -10320,7 +10803,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.8\" 1600×720 LCD 90Hz"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -10339,7 +10823,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -10379,7 +10864,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "7.6\" 2160×1856 / 2376×968 Dynamic AMOLED 2X 120Hz 折叠屏"
   },
   {
     "id": 224,
@@ -10398,7 +10885,9 @@
     "camera_desc": "5000万主摄",
     "has_tele": true,
     "os": "MagicOS",
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "tags": [
       "潜望长焦",
       "无线充电",
@@ -10433,7 +10922,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "id": 225,
@@ -10455,7 +10945,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "潜望长焦",
@@ -10493,7 +10985,8 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "7.98\" 2488×2224 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -10512,7 +11005,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -10526,7 +11020,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角) \\\\",
+    "detailed_camera": "主摄: GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)",
     "release_date": "2024-07-01",
     "price": 7999,
     "id": 223,
@@ -10552,7 +11046,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.7\" 2640×1080 / 748×720 Dynamic AMOLED 2X 120Hz 折叠屏"
   },
   {
     "id": 222,
@@ -10573,7 +11069,8 @@
     "os": "小米澎湃OS",
     "features": [
       "NFC",
-      "5G"
+      "5G",
+      "有线投屏"
     ],
     "tags": [
       "潜望长焦",
@@ -10613,7 +11110,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz_source": "series-default",
     "network_model": "2405CPX3DC",
-    "network_model_source": "restored"
+    "network_model_source": "restored",
+    "screen_detail": "6.86\" 2912×1224 / 1392×1208 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "brand": "RedMagic",
@@ -10624,7 +11122,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 221,
     "tags": [
@@ -10656,7 +11156,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 220,
@@ -10678,7 +11179,9 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -10720,7 +11223,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz_source": "series-default",
     "network_model": "2405CPX3DC",
-    "network_model_source": "restored"
+    "network_model_source": "restored",
+    "screen_detail": "6.86\" 2912×1224 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "brand": "RedMagic",
@@ -10731,7 +11235,9 @@
     "weight_g": 225,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 219,
     "tags": [
@@ -10764,7 +11270,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
   },
   {
     "brand": "RedMagic",
@@ -10775,7 +11282,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 218,
     "tags": [
@@ -10792,7 +11301,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2688×1216",
-    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
     "completeness_score": 88,
@@ -10807,7 +11316,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
   },
   {
     "brand": "RedMagic",
@@ -10818,7 +11328,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 217,
     "tags": [
@@ -10851,7 +11363,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 216,
@@ -10859,8 +11372,8 @@
     "model": "红魔 10",
     "price": 2999,
     "processor": "骁龙8 Gen5",
-    "ram": null,
-    "storage": null,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "screen_size": 6.85,
     "screen_type": "AMOLED",
     "resolution": "2688×1216",
@@ -10884,7 +11397,7 @@
     "screen_form": "直屏",
     "release_date": "2024-07-01",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10895,7 +11408,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz_source": "series-default",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 215,
@@ -10903,8 +11417,8 @@
     "model": "GT6",
     "price": 2799,
     "processor": "骁龙8 Gen 3",
-    "ram": null,
-    "storage": null,
+    "ram": "12GB/16GB",
+    "storage": "256GB/512GB",
     "screen_size": 6.78,
     "screen_type": "AMOLED",
     "resolution": "2780×1264",
@@ -10926,7 +11440,7 @@
     "release_date": "2024-07-01",
     "network_model": "RMX3800",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10937,7 +11451,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz_source": "series-default",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.78\" 2780×1264 AMOLED 120Hz"
   },
   {
     "brand": "RedMagic",
@@ -10948,7 +11463,9 @@
     "weight_g": 205,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 214,
     "tags": [
@@ -10965,7 +11482,7 @@
     "storage": "256GB/512GB",
     "network_model": "NX779J",
     "resolution": "2688×1216",
-    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
     "completeness_score": 94,
@@ -10980,7 +11497,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
   },
   {
     "id": 213,
@@ -11022,7 +11540,8 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.78\" 2700×1224 AMOLED 120Hz"
   },
   {
     "id": 227,
@@ -11062,7 +11581,8 @@
     "charge_protocols_source": "ecosystem-realme",
     "charge_protocols_confidence": "medium",
     "network_model": "RMX3852",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
   },
   {
     "id": 231,
@@ -11113,7 +11633,8 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏"
   },
   {
     "id": 230,
@@ -11157,7 +11678,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.55\" 2750×1236 OLED 120Hz"
   },
   {
     "id": 229,
@@ -11200,7 +11722,8 @@
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.67\" 2800×1260 AMOLED 120Hz"
   },
   {
     "model": "Galaxy C55 5G",
@@ -11224,15 +11747,15 @@
       "NFC"
     ],
     "brand": "Samsung",
-    "ram": "",
-    "storage": "",
-    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 后置 5000万(F1.8 OIS)+800万(F2.2超广角)+200万(F2.4微距) \\\\",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 后置 5000万(F1.8 OIS)+800万(F2.2超广角)+200万(F2.4微距)",
     "release_date": "2024-05-01",
     "price": 1999,
     "id": 228,
     "resolution": "2408×1080",
     "date_precision": "month",
-    "completeness_score": 75,
+    "completeness_score": 88,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -11240,7 +11763,8 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.7\" 2408×1080 Super AMOLED+ 120Hz"
   },
   {
     "id": 232,
@@ -11280,7 +11804,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-iqoo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
   },
   {
     "id": 235,
@@ -11288,8 +11813,8 @@
     "model": "Galaxy A55",
     "price": 2599,
     "processor": "Exynos 1480",
-    "ram": null,
-    "storage": null,
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
     "screen_size": 6.6,
     "screen_type": "Super AMOLED",
     "resolution": "2340×1080",
@@ -11313,7 +11838,7 @@
     "release_date": "2024-03-01",
     "network_model": "SM-A5560",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -11321,7 +11846,8 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.6\" 2340×1080 Super AMOLED 120Hz"
   },
   {
     "model": "Galaxy A55 5G",
@@ -11347,15 +11873,15 @@
       "防尘抗水"
     ],
     "brand": "Samsung",
-    "ram": "",
-    "storage": "",
-    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)+500万(F2.4微距) \\\\",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 后置 5000万(F1.8 OIS)+1200万(F2.2超广角)+500万(F2.4微距)",
     "release_date": "2024-03-01",
     "price": 2499,
     "id": 234,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -11365,7 +11891,9 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "network_model": "SM-A5560",
-    "network_model_source": "sibling-alias"
+    "network_model_source": "sibling-alias",
+    "ip_rating": "IP6X/IPX7",
+    "screen_detail": "6.6\" 2340×1080 Super AMOLED 120Hz"
   },
   {
     "id": 233,
@@ -11409,7 +11937,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz_source": "series-default",
     "os_source": "series-default",
-    "usb_version_source": "series-default"
+    "usb_version_source": "series-default",
+    "screen_detail": "6.7\" 2780×1264 AMOLED 120Hz"
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -11429,7 +11958,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "S Pen"
+      "S Pen",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -11460,7 +11990,9 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "network_model": "SM-S9280",
-    "network_model_source": "public-known"
+    "network_model_source": "public-known",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.8\" 3088×1440 Dynamic AMOLED 2X 120Hz"
   },
   {
     "brand": "Huawei",
@@ -11513,7 +12045,8 @@
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "screen_detail": "6.5\" 2790×1188 / 512×340 OLED 120Hz 折叠屏"
   },
   {
     "id": 240,
@@ -11529,7 +12062,7 @@
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 212,
-    "camera_desc": "5000万主摄",
+    "camera_desc": "5000万主摄（三星HP5）",
     "has_tele": false,
     "os": "OriginOS",
     "features": [
@@ -11545,13 +12078,13 @@
       "防尘抗水"
     ],
     "screen_form": "直屏",
-    "detailed_camera": "主摄: 三星HP5 5000万",
+    "detailed_camera": "主摄: 三星HP5 5000万 | 前置: 待确认",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "release_date": "2024-01-01",
     "price": 2699,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11561,7 +12094,9 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.72\" 2400×1080 LCD 120Hz"
   },
   {
     "brand": "realme",
@@ -11585,7 +12120,7 @@
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX906 50MP f/1.8 | 5000万主摄 \\\\",
+    "detailed_camera": "主摄: 索尼IMX906 50MP f/1.8 | 5000万主摄",
     "charging_w": 80,
     "release_date": "2024-01-01",
     "price": 2299,
@@ -11605,7 +12140,9 @@
     "charge_protocols_source": "ecosystem-realme",
     "charge_protocols_confidence": "medium",
     "os": "realme UI",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.6\" 2780×1264 OLED 120Hz"
   },
   {
     "id": 238,
@@ -11654,7 +12191,9 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.72\" 2400×1080 LCD 120Hz"
   },
   {
     "id": 236,
@@ -11694,7 +12233,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-realme",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.7\" 2412×1080 OLED 120Hz"
   },
   {
     "id": 237,
@@ -11722,7 +12262,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 5000万广角 \\\\",
+    "detailed_camera": "主摄: 索尼IMX882 50MP f/1.8 | 5000万广角",
     "release_date": "2024-01-01",
     "price": 1999,
     "date_precision": "month",
@@ -11735,7 +12275,8 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.57\" 2412×1080 OLED 120Hz"
   },
   {
     "id": 244,
@@ -11784,7 +12325,9 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2362A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "ip_rating": "IP6X/IPX8/IPX9",
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 243,
@@ -11827,7 +12370,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "network_model": "V2364A",
-    "network_model_source": "vivo-official"
+    "network_model_source": "vivo-official",
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
   },
   {
     "id": 245,
@@ -11849,7 +12393,8 @@
     "features": [
       "NFC",
       "红外遥控",
-      "5G"
+      "5G",
+      "红外"
     ],
     "tags": [
       "天玑9400",
@@ -11874,7 +12419,8 @@
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
     "network_model": "2407FRK8EC",
-    "network_model_source": "kalvo"
+    "network_model_source": "kalvo",
+    "screen_detail": "6.67\" 2712×1220 OLED 144Hz"
   },
   {
     "id": 246,
@@ -11897,7 +12443,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "有线投屏"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -11926,7 +12473,9 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-iqoo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX8",
+    "screen_detail": "6.82\" 3168×1440 OLED 144Hz"
   },
   {
     "brand": "RedMagic",
@@ -11937,7 +12486,9 @@
     "weight_g": 220,
     "camera_desc": "5000万主摄 三星GN5 | 5000万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 248,
     "tags": [
@@ -11972,7 +12523,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2480×1116 AMOLED 144Hz"
   },
   {
     "brand": "RedMagic",
@@ -11983,7 +12535,9 @@
     "weight_g": 215,
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
-    "features": [],
+    "features": [
+      "有线投屏"
+    ],
     "screen_form": "直屏",
     "id": 247,
     "tags": [
@@ -12013,7 +12567,8 @@
     "refresh_hz": 144,
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "screen_detail": "6.8\" 2480×1116 AMOLED 144Hz"
   },
   {
     "id": 253,
@@ -12056,7 +12611,9 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX4",
+    "screen_detail": "6.67\" 1604×720 LCD 120Hz"
   },
   {
     "id": 254,
@@ -12067,7 +12624,7 @@
     "refresh_hz": 120,
     "screen_type": "LCD",
     "resolution": "1604×720",
-    "ram": "",
+    "ram": "8GB/12GB",
     "storage": "128GB/256GB",
     "battery_mah": 6620,
     "charging_w": 40,
@@ -12087,7 +12644,7 @@
     "price": 1299,
     "network_model": "",
     "wireless_charging_w": 0,
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "SCP",
       "FCP",
@@ -12095,7 +12652,8 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.67\" 1604×720 LCD 120Hz"
   },
   {
     "id": 255,
@@ -12106,7 +12664,7 @@
     "refresh_hz": 120,
     "screen_type": "AMOLED",
     "resolution": "2700×1224",
-    "ram": "",
+    "ram": "8GB/12GB",
     "storage": "256GB/512GB",
     "battery_mah": 6100,
     "charging_w": 40,
@@ -12126,7 +12684,7 @@
     "price": 1799,
     "network_model": "",
     "wireless_charging_w": 0,
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "SCP",
       "FCP",
@@ -12134,7 +12692,8 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.78\" 2700×1224 AMOLED 120Hz 曲面屏"
   },
   {
     "id": 256,
@@ -12177,7 +12736,8 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.88\" 1640×720 LCD 120Hz"
   },
   {
     "id": 258,
@@ -12225,7 +12785,9 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-iqoo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP6X/IPX5",
+    "screen_detail": "6.74\" HD+ (1604×720) LCD 120Hz"
   },
   {
     "id": 251,
@@ -12265,6 +12827,7 @@
       "UFCS"
     ],
     "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "screen_detail": "6.84\" 2756×1272 OLED 120Hz"
   }
 ]
