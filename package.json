@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:validate": "python3 scripts/data_quality.py validate",
+    "data:normalize": "python3 scripts/data_quality.py normalize",
+    "data:all": "python3 scripts/data_quality.py all"
   },
   "dependencies": {
     "vue": "^3.5.0"
