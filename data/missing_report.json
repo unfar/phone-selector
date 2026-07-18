@@ -1013,30 +1013,6 @@
     "status": ""
   },
   {
-    "id": 203,
-    "brand": "Apple",
-    "model": "iPhone 16",
-    "score": 81,
-    "missing": [
-      "系统",
-      "分辨率",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 242,
-    "brand": "Samsung",
-    "model": "Galaxy S24 Ultra",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "刷新率",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 240,
     "brand": "iQOO",
     "model": "iQOO Z11 Turbo",
@@ -1231,17 +1207,6 @@
     "id": 55,
     "brand": "REDMI",
     "model": "Redmi K90",
-    "score": 81,
-    "missing": [
-      "入网型号",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 68,
-    "brand": "HONOR",
-    "model": "荣耀 Magic8 Pro",
     "score": 81,
     "missing": [
       "入网型号",
@@ -1899,31 +1864,9 @@
     "status": ""
   },
   {
-    "id": 70,
-    "brand": "vivo",
-    "model": "vivo X300",
-    "score": 88,
-    "missing": [
-      "系统",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 74,
     "brand": "iQOO",
     "model": "iQOO 15 Ultra",
-    "score": 88,
-    "missing": [
-      "系统",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 72,
-    "brand": "iQOO",
-    "model": "iQOO 15",
     "score": 88,
     "missing": [
       "系统",
@@ -2020,17 +1963,6 @@
     "status": ""
   },
   {
-    "id": 160,
-    "brand": "Samsung",
-    "model": "Galaxy S25 Ultra",
-    "score": 88,
-    "missing": [
-      "刷新率",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 157,
     "brand": "Samsung",
     "model": "Galaxy S25+",
@@ -2075,6 +2007,17 @@
     "status": ""
   },
   {
+    "id": 203,
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "score": 88,
+    "missing": [
+      "系统",
+      "分辨率"
+    ],
+    "status": ""
+  },
+  {
     "id": 212,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro+",
@@ -2104,6 +2047,17 @@
     "missing": [
       "刷新率",
       "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 242,
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "score": 88,
+    "missing": [
+      "入网型号",
+      "刷新率"
     ],
     "status": ""
   },
@@ -2186,6 +2140,16 @@
     "score": 88,
     "missing": [
       "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 68,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8 Pro",
+    "score": 88,
+    "missing": [
+      "入网型号"
     ],
     "status": ""
   },
@@ -2470,26 +2434,6 @@
     "status": ""
   },
   {
-    "id": 26,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura 90 Pro",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 25,
-    "brand": "Huawei",
-    "model": "HUAWEI Pura 90",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 52,
     "brand": "Huawei",
     "model": "HUAWEI Mate X7",
@@ -2543,6 +2487,26 @@
     "id": 71,
     "brand": "vivo",
     "model": "vivo X300 Pro",
+    "score": 94,
+    "missing": [
+      "系统"
+    ],
+    "status": ""
+  },
+  {
+    "id": 70,
+    "brand": "vivo",
+    "model": "vivo X300",
+    "score": 94,
+    "missing": [
+      "系统"
+    ],
+    "status": ""
+  },
+  {
+    "id": 72,
+    "brand": "iQOO",
+    "model": "iQOO 15",
     "score": 94,
     "missing": [
       "系统"
@@ -2620,6 +2584,16 @@
     "status": ""
   },
   {
+    "id": 160,
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "score": 94,
+    "missing": [
+      "刷新率"
+    ],
+    "status": ""
+  },
+  {
     "id": 159,
     "brand": "HONOR",
     "model": "荣耀 Magic7 RSR 保时捷设计",
@@ -2643,46 +2617,6 @@
     "id": 166,
     "brand": "OnePlus",
     "model": "一加 Ace 5",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 183,
-    "brand": "Huawei",
-    "model": "华为 Mate 70 RS 非凡大师",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 182,
-    "brand": "Huawei",
-    "model": "华为 Mate 70 Pro+",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 180,
-    "brand": "Huawei",
-    "model": "华为 Mate 70 Pro",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
-    "id": 178,
-    "brand": "Huawei",
-    "model": "华为 Mate 70",
     "score": 94,
     "missing": [
       "充电协议"
@@ -2821,6 +2755,54 @@
     "id": 28,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro Max",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 26,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90 Pro",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 25,
+    "brand": "Huawei",
+    "model": "HUAWEI Pura 90",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 183,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 RS 非凡大师",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 182,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 Pro+",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 180,
+    "brand": "Huawei",
+    "model": "华为 Mate 70 Pro",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 178,
+    "brand": "Huawei",
+    "model": "华为 Mate 70",
     "score": 100,
     "missing": [],
     "status": ""

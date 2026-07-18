@@ -982,11 +982,11 @@
     "screen_form": "直屏",
     "release_date": "2026-05-20",
     "charge_protocols": [
-      "QC",
-      "PD",
-      "PPS",
+      "5A PPS",
       "UFCS",
-      "5A PPS"
+      "PPS",
+      "PD",
+      "QC"
     ],
     "completeness_score": 94
   },
@@ -1201,12 +1201,13 @@
     "network_model": "HBP-AL20",
     "reverse_charging_w": 18,
     "charge_protocols": [
-      "SCP",
-      "FCP",
-      "PD3.0",
-      "PPS",
       "5A PPS",
       "UFCS",
+      "PPS",
+      "PD3.0",
+      "QC",
+      "SCP",
+      "FCP",
       "Qi"
     ],
     "completeness_score": 100
@@ -1291,7 +1292,17 @@
     "release_date": "2026-04-20",
     "price": 5499,
     "network_model": "MLN-AL00",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD3.0",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 25,
@@ -1331,7 +1342,17 @@
     "release_date": "2026-04-20",
     "price": 4699,
     "network_model": "KEE-AL00",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD3.0",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 31,
@@ -2928,7 +2949,12 @@
     "screen_type": "OLED",
     "resolution": "2800×1280",
     "os": "MagicOS",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "5A PPS",
+      "PPS"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "brand": "HONOR",
@@ -3008,12 +3034,14 @@
     "price": 5299,
     "network_model": "V2502A",
     "charge_protocols": [
-      "VFCP",
-      "PPS",
       "5A PPS",
       "UFCS",
+      "PPS",
+      "PD",
       "QC",
-      "PD"
+      "FCP",
+      "VFCP",
+      "Qi"
     ],
     "completeness_score": 94
   },
@@ -3054,7 +3082,18 @@
     "release_date": "2025-10-13",
     "price": 3999,
     "network_model": "V2509A",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "FCP",
+      "VFCP",
+      "Qi"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 74,
@@ -3143,7 +3182,14 @@
     "price": 4299,
     "network_model": "V2505A",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "brand": "OnePlus",
@@ -5391,14 +5437,14 @@
     "network_model": "HOP-AL00",
     "resolution": "2960×1376",
     "charge_protocols": [
-      "SCP",
-      "FCP",
-      "PD3.0",
-      "PPS",
       "5A PPS",
       "UFCS",
-      "Qi",
-      "QC"
+      "PPS",
+      "PD3.0",
+      "QC",
+      "SCP",
+      "FCP",
+      "Qi"
     ],
     "date_precision": "month",
     "completeness_score": 94
@@ -5830,7 +5876,12 @@
     "network_model": "SM-S9380",
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "PD",
+      "Qi2"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -6858,7 +6909,14 @@
     "price": 9999,
     "network_model": "`HBN-AL00`",
     "date_precision": "month",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "UFCS",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 182,
@@ -6903,7 +6961,14 @@
     "price": 8499,
     "network_model": "PLA-AL10",
     "date_precision": "month",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "UFCS",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 181,
@@ -6981,7 +7046,14 @@
     "thickness_mm": 8.2,
     "network_model": "`HBN-AL10`",
     "date_precision": "month",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "UFCS",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "brand": "Huawei",
@@ -7067,7 +7139,14 @@
     "thickness_mm": 7.8,
     "network_model": "`HBN-AL00`",
     "date_precision": "month",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "UFCS",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 177,
@@ -8126,7 +8205,11 @@
     "screen_type": "OLED",
     "network_model": "A3288",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "Qi2"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 211,
@@ -9232,7 +9315,13 @@
     "id": 242,
     "resolution": "3088×1440",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "PPS",
+      "PD",
+      "Qi2"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "brand": "Huawei",
