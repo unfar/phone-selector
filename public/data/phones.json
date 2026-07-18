@@ -3920,8 +3920,7 @@
     "detailed_camera": "主摄: 光影猎人950L f/1.67 5000万 | 超广角: 徕卡 f/2.4 5000万 | 长焦: 徕卡潜望 f/3.0 5000万 5x光学",
     "release_date": "2025-09-25",
     "price": 5999,
-    "network_model": "`A3527`",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3974,8 +3973,7 @@
     "detailed_camera": "主摄: 光影猎人950L f/1.67 5000万 | 超广角: 徕卡 f/2.4 5000万 | 长焦: 徕卡潜望 f/3.0 5000万 5x光学",
     "release_date": "2025-09-25",
     "price": 4999,
-    "network_model": "`A3527`",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4029,8 +4027,7 @@
     "detailed_camera": "主摄: 光影猎人950 f/1.67 5000万 | 长焦: 徕卡浮动 f/2.0 5000万",
     "release_date": "2025-09-25",
     "price": 4299,
-    "network_model": "2608BPX34C",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7257,7 +7254,7 @@
     "price": 7999,
     "source_url": "https://www.honor.com/cn/",
     "verified_at": "2026-05-24",
-    "network_model": "`PTP-AN00`",
+    "network_model": "PTP-AN00",
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -8253,7 +8250,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "resolution": "2780×1264",
-    "network_model": "`RMX5010`",
+    "network_model": "RMX5010",
     "screen_type": "AMOLED",
     "date_precision": "month",
     "completeness_score": 94,
@@ -8442,7 +8439,7 @@
     "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
     "release_date": "2024-11-01",
     "price": 9999,
-    "network_model": "`HBN-AL00`",
+    "network_model": "HBN-AL00",
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -8591,7 +8588,7 @@
     "release_date": "2024-11-01",
     "price": 6499,
     "thickness_mm": 8.2,
-    "network_model": "`HBN-AL10`",
+    "network_model": "HBN-AL10",
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -8695,7 +8692,7 @@
     "release_date": "2024-11-01",
     "price": 5499,
     "thickness_mm": 7.8,
-    "network_model": "`HBN-AL00`",
+    "network_model": "HBN-AL00",
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -9123,9 +9120,8 @@
     "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.44 5000万 OIS | 超广角: 三星JN5 f/2.2 5000万 | 潜望长焦: 索尼IMX858 120mm f/2.5 5000万 OIS | 前置: 豪威OV32B40 f/2.0 3200万",
     "release_date": "2024-10-01",
     "price": 4999,
-    "network_model": "2410DPN6CC",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9321,7 +9317,7 @@
     "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 12MP f/2.2 | 潜望长焦 12MP 5x OIS | 前置 60MP超广角+8MP人像双摄",
     "release_date": "2024-10-01",
     "price": 4499,
-    "network_model": "`GLO-AL00`",
+    "network_model": "GLO-AL00",
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -9751,7 +9747,7 @@
     "detailed_camera": "主摄: 50MP RYYB f/1.6 OIS | 超广: 12MP f/2.2 | 前置: 60MP超广角",
     "release_date": "2024-10-01",
     "price": 2699,
-    "network_model": "`GLO-AL00`",
+    "network_model": "GLO-AL00",
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -10087,7 +10083,7 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS| 超广 50MP f/2.0| 前置 16MP",
     "release_date": "2024-08-01",
     "price": 2999,
-    "network_model": "`V2424A`",
+    "network_model": "V2424A",
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -10550,9 +10546,8 @@
       "refresh_hz": 120
     },
     "fold_type": "纵向折叠",
-    "network_model": "2405CPX3DC",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10656,9 +10651,8 @@
       "refresh_hz": 120
     },
     "fold_type": "纵向折叠",
-    "network_model": "`2405CPX3DC`",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11301,7 +11295,7 @@
     "id": 234,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -11309,7 +11303,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "network_model": "SM-A5560",
+    "network_model_source": "sibling-alias"
   },
   {
     "id": 233,
@@ -11340,7 +11336,7 @@
     "features": [],
     "screen_form": "直屏",
     "release_date": "2024-03-01",
-    "network_model": "`24115RA8EC`",
+    "network_model": "24115RA8EC",
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -11393,7 +11389,7 @@
     "id": 242,
     "resolution": "3088×1440",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -11402,7 +11398,9 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "network_model": "SM-S9280",
+    "network_model_source": "public-known"
   },
   {
     "brand": "Huawei",
