@@ -2952,6 +2952,7 @@
     "completeness_score": 88,
     "charge_protocols": [
       "5A PPS",
+      "UFCS",
       "PPS"
     ],
     "charge_protocols_source": "chongdiantou"
@@ -5550,7 +5551,14 @@
     "price": 2899,
     "network_model": "PJZ110",
     "date_precision": "month",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 133,
@@ -6763,7 +6771,14 @@
     "network_model": "`RMX5010`",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 162,
@@ -7095,7 +7110,14 @@
     "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-f/4.0 | 5000万主摄 \\\\",
     "screen_type": "LTPO OLED",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "QC",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "chongdiantou"
   },
   {
     "id": 178,

@@ -473,18 +473,6 @@
     "status": ""
   },
   {
-    "id": 165,
-    "brand": "realme",
-    "model": "GT7",
-    "score": 75,
-    "missing": [
-      "系统",
-      "刷新率",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 181,
     "brand": "Huawei",
     "model": "Pocket 70 Pro",
@@ -1380,6 +1368,17 @@
     "status": ""
   },
   {
+    "id": 165,
+    "brand": "realme",
+    "model": "GT7",
+    "score": 81,
+    "missing": [
+      "系统",
+      "刷新率"
+    ],
+    "status": ""
+  },
+  {
     "id": 175,
     "brand": "REDMI",
     "model": "REDMI K80至尊版",
@@ -1985,17 +1984,6 @@
     "status": ""
   },
   {
-    "id": 179,
-    "brand": "Huawei",
-    "model": "HUAWEI Mate 70 Pro 优享版",
-    "score": 88,
-    "missing": [
-      "刷新率",
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 202,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Ultra",
@@ -2574,16 +2562,6 @@
     "status": ""
   },
   {
-    "id": 134,
-    "brand": "OnePlus",
-    "model": "一加 13T",
-    "score": 94,
-    "missing": [
-      "充电协议"
-    ],
-    "status": ""
-  },
-  {
     "id": 160,
     "brand": "Samsung",
     "model": "Galaxy S25 Ultra",
@@ -2620,6 +2598,16 @@
     "score": 94,
     "missing": [
       "充电协议"
+    ],
+    "status": ""
+  },
+  {
+    "id": 179,
+    "brand": "Huawei",
+    "model": "HUAWEI Mate 70 Pro 优享版",
+    "score": 94,
+    "missing": [
+      "刷新率"
     ],
     "status": ""
   },
@@ -2771,6 +2759,14 @@
     "id": 25,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 134,
+    "brand": "OnePlus",
+    "model": "一加 13T",
     "score": 100,
     "missing": [],
     "status": ""
