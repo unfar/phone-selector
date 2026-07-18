@@ -141,16 +141,6 @@
     "status": ""
   },
   {
-    "id": 12,
-    "brand": "vivo",
-    "model": "vivo S60",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 13,
     "brand": "HONOR",
     "model": "荣耀600 元气版",
@@ -431,16 +421,6 @@
     "status": ""
   },
   {
-    "id": 131,
-    "brand": "vivo",
-    "model": "vivo X Fold5",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 127,
     "brand": "OPPO",
     "model": "OPPO K15 Pro+",
@@ -551,16 +531,6 @@
     "status": ""
   },
   {
-    "id": 151,
-    "brand": "vivo",
-    "model": "vivo S30",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 149,
     "brand": "HONOR",
     "model": "荣耀 GT",
@@ -621,16 +591,6 @@
     "status": ""
   },
   {
-    "id": 193,
-    "brand": "vivo",
-    "model": "vivo X200s",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 184,
     "brand": "HONOR",
     "model": "荣耀X70 焕新版",
@@ -661,29 +621,9 @@
     "status": ""
   },
   {
-    "id": 222,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Flip",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 221,
     "brand": "RedMagic",
     "model": "红魔 10S Pro+",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 220,
-    "brand": "Xiaomi",
-    "model": "Xiaomi MIX Flip 2",
     "score": 88,
     "missing": [
       "入网型号"
@@ -764,16 +704,6 @@
     "id": 237,
     "brand": "OPPO",
     "model": "OPPO A6s Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 243,
-    "brand": "vivo",
-    "model": "vivo S19",
     "score": 88,
     "missing": [
       "入网型号"
@@ -981,16 +911,6 @@
     "status": ""
   },
   {
-    "id": 30,
-    "brand": "vivo",
-    "model": "vivo X300s",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 36,
     "brand": "Samsung",
     "model": "Galaxy A57 5G",
@@ -1134,16 +1054,6 @@
     "id": 78,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 77,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17",
     "score": 94,
     "missing": [
       "入网型号"
@@ -1341,79 +1251,9 @@
     "status": ""
   },
   {
-    "id": 154,
-    "brand": "vivo",
-    "model": "vivo S50 Pro mini",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 153,
-    "brand": "vivo",
-    "model": "vivo Y500 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 150,
-    "brand": "vivo",
-    "model": "vivo S30 Pro mini",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 152,
-    "brand": "vivo",
-    "model": "vivo Y500",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 148,
-    "brand": "vivo",
-    "model": "vivo S50",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 147,
-    "brand": "vivo",
-    "model": "vivo Y600 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 202,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Ultra",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 199,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 15 Pro",
     "score": 94,
     "missing": [
       "入网型号"
@@ -1471,16 +1311,6 @@
     "status": ""
   },
   {
-    "id": 244,
-    "brand": "vivo",
-    "model": "vivo S19 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
-  },
-  {
     "id": 253,
     "brand": "Huawei",
     "model": "华为畅享90Plus",
@@ -1512,6 +1342,14 @@
     "id": 6,
     "brand": "Huawei",
     "model": "HUAWEI nova 16z",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 12,
+    "brand": "vivo",
+    "model": "vivo S60",
     "score": 94,
     "missing": [],
     "status": ""
@@ -1568,6 +1406,14 @@
     "id": 114,
     "brand": "HONOR",
     "model": "荣耀 Magic V6",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 131,
+    "brand": "vivo",
+    "model": "vivo X Fold5",
     "score": 94,
     "missing": [],
     "status": ""
@@ -1632,6 +1478,14 @@
     "id": 144,
     "brand": "Huawei",
     "model": "HUAWEI Pura X",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 151,
+    "brand": "vivo",
+    "model": "vivo S30",
     "score": 94,
     "missing": [],
     "status": ""
@@ -1725,6 +1579,14 @@
     "status": ""
   },
   {
+    "id": 193,
+    "brand": "vivo",
+    "model": "vivo X200s",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
     "id": 188,
     "brand": "Huawei",
     "model": "华为 nova 13 Pro",
@@ -1781,6 +1643,22 @@
     "status": ""
   },
   {
+    "id": 222,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 220,
+    "brand": "Xiaomi",
+    "model": "Xiaomi MIX Flip 2",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
     "id": 219,
     "brand": "RedMagic",
     "model": "红魔 10 Pro+",
@@ -1824,6 +1702,14 @@
     "id": 233,
     "brand": "realme",
     "model": "14 Pro+",
+    "score": 94,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 243,
+    "brand": "vivo",
+    "model": "vivo S19",
     "score": 94,
     "missing": [],
     "status": ""
@@ -1896,6 +1782,14 @@
     "id": 31,
     "brand": "vivo",
     "model": "vivo X300 Ultra",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 30,
+    "brand": "vivo",
+    "model": "vivo X300s",
     "score": 100,
     "missing": [],
     "status": ""
@@ -2013,6 +1907,14 @@
     "status": ""
   },
   {
+    "id": 77,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
     "id": 86,
     "brand": "Apple",
     "model": "iPhone 17 Pro Max",
@@ -2117,6 +2019,54 @@
     "status": ""
   },
   {
+    "id": 154,
+    "brand": "vivo",
+    "model": "vivo S50 Pro mini",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 153,
+    "brand": "vivo",
+    "model": "vivo Y500 Pro",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 150,
+    "brand": "vivo",
+    "model": "vivo S30 Pro mini",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 152,
+    "brand": "vivo",
+    "model": "vivo Y500",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 148,
+    "brand": "vivo",
+    "model": "vivo S50",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 147,
+    "brand": "vivo",
+    "model": "vivo Y600 Pro",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
     "id": 169,
     "brand": "OnePlus",
     "model": "一加 Ace 5 Pro",
@@ -2200,6 +2150,14 @@
     "id": 198,
     "brand": "vivo",
     "model": "vivo X200 Pro",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 199,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Pro",
     "score": 100,
     "missing": [],
     "status": ""
@@ -2320,6 +2278,14 @@
     "id": 242,
     "brand": "Samsung",
     "model": "Galaxy S24 Ultra",
+    "score": 100,
+    "missing": [],
+    "status": ""
+  },
+  {
+    "id": 244,
+    "brand": "vivo",
+    "model": "vivo S19 Pro",
     "score": 100,
     "missing": [],
     "status": ""
