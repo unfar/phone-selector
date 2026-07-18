@@ -18,7 +18,6 @@ ID 44 | Xiaomi 17 Ultra | 价格6999 | 入网型号：
 ID 112 | Galaxy Z Flip7 FE | 价格6999 | 入网型号：
 ID 181 | Pocket 70 Pro | 价格6999 | 入网型号：
 ID 231 | 荣耀 Magic Vs3 | 价格6999 | 入网型号：
-ID 202 | Xiaomi 15 Ultra | 价格6499 | 入网型号：
 ID 22 | 红魔 11S Pro+ | 价格6199 | 入网型号：
 ID 79 | Xiaomi 17 Pro Max | 价格5999 | 入网型号：
 ID 41 | 荣耀 Magic8 Pro Air | 价格5699 | 入网型号：
@@ -26,21 +25,22 @@ ID 111 | 红魔 11 Pro+ | 价格5699 | 入网型号：
 ID 21 | 红魔 11S Pro | 价格5499 | 入网型号：
 ID 221 | 红魔 10S Pro+ | 价格5499 | 入网型号：
 ID 67 | OPPO Find X9 Pro | 价格5299 | 入网型号：
-ID 78 | Xiaomi 17 Pro | 价格4999 | 入网型号：
 ID 110 | 红魔 11 Pro | 价格4999 | 入网型号：
-ID 20 | Xiaomi 17 Max | 价格4799 | 入网型号：
 ID 109 | OPPO Reno15 Pro | 价格4799 | 入网型号：
 ID 197 | OPPO Find X8s+ | 价格4799 | 入网型号：
 ID 94 | 荣耀Magic V Flip2 | 价格4699 | 入网型号：
 ID 17 | OPPO Reno16 Pro | 价格4499 | 入网型号：
 ID 68 | 荣耀 Magic8 Pro | 价格4499 | 入网型号：
-ID 69 | 荣耀 Magic8 | 价格4499 | 入网型号：
 ID 73 | 一加 15T | 价格4299 | 入网型号：
 ID 218 | 红魔 10S Pro | 价格4299 | 入网型号：
 ID 173 | HUAWEI nova 14 Ultra | 价格4199 | 入网型号：
 ID 248 | 红魔 9S Pro+ | 价格4199 | 入网型号：
 ID 5 | Xiaomi 17T Pro | 价格3999 | 入网型号：
 ID 59 | Redmi K90 Pro Max | 价格3999 | 入网型号：
+ID 103 | 荣耀 WIN | 价格3999 | 入网型号：
+ID 16 | 荣耀600 Pro | 价格3899 | 入网型号：
+ID 189 | OPPO Find X8s | 价格3799 | 入网型号：
+ID 107 | OPPO Reno15 | 价格3699 | 入网型号：
 ```
 
-已自动从 vivo 官网补入一批（source=vivo-official）。
+本轮已从 Kalvo 别名字段补：15 Ultra / 17 Pro / 17 Max / Magic8 / 一加15 / A57

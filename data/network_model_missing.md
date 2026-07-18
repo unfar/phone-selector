@@ -1,6 +1,6 @@
 # 入网型号缺失榜
 
-共 126 款仍缺
+共 120 款仍缺
 
 | 价格 | ID | 品牌 | 机型 |
 |---:|---:|---|---|
@@ -21,7 +21,6 @@
 | 6999 | 112 | Samsung | Galaxy Z Flip7 FE |
 | 6999 | 181 | Huawei | Pocket 70 Pro |
 | 6999 | 231 | HONOR | 荣耀 Magic Vs3 |
-| 6499 | 202 | Xiaomi | Xiaomi 15 Ultra |
 | 6199 | 22 | RedMagic | 红魔 11S Pro+ |
 | 5999 | 79 | Xiaomi | Xiaomi 17 Pro Max |
 | 5699 | 41 | HONOR | 荣耀 Magic8 Pro Air |
@@ -29,22 +28,18 @@
 | 5499 | 21 | RedMagic | 红魔 11S Pro |
 | 5499 | 221 | RedMagic | 红魔 10S Pro+ |
 | 5299 | 67 | OPPO | OPPO Find X9 Pro |
-| 4999 | 78 | Xiaomi | Xiaomi 17 Pro |
 | 4999 | 110 | RedMagic | 红魔 11 Pro |
-| 4799 | 20 | Xiaomi | Xiaomi 17 Max |
 | 4799 | 109 | OPPO | OPPO Reno15 Pro |
 | 4799 | 197 | OPPO | OPPO Find X8s+ |
 | 4699 | 94 | HONOR | 荣耀Magic V Flip2 |
 | 4499 | 17 | OPPO | OPPO Reno16 Pro |
 | 4499 | 68 | HONOR | 荣耀 Magic8 Pro |
-| 4499 | 69 | HONOR | 荣耀 Magic8 |
 | 4299 | 73 | OnePlus | 一加 15T |
 | 4299 | 218 | RedMagic | 红魔 10S Pro |
 | 4199 | 173 | Huawei | HUAWEI nova 14 Ultra |
 | 4199 | 248 | RedMagic | 红魔 9S Pro+ |
 | 3999 | 5 | Xiaomi | Xiaomi 17T Pro |
 | 3999 | 59 | REDMI | Redmi K90 Pro Max |
-| 3999 | 90 | OnePlus | 一加 15 |
 | 3999 | 103 | HONOR | 荣耀 WIN |
 | 3899 | 16 | HONOR | 荣耀600 Pro |
 | 3799 | 189 | OPPO | OPPO Find X8s |
@@ -61,7 +56,6 @@
 | 3399 | 101 | HONOR | 荣耀 WIN RT |
 | 3299 | 14 | HONOR | 荣耀600 超级版 |
 | 3299 | 18 | iQOO | iQOO 15T |
-| 3299 | 36 | Samsung | Galaxy A57 5G |
 | 3299 | 106 | OPPO | OPPO Reno15c |
 | 3299 | 137 | HONOR | 荣耀 Power2 |
 | 3199 | 57 | REDMI | Redmi K90 Max |
@@ -124,3 +118,9 @@
 | 1299 | 259 | REDMI | Redmi Note 17 |
 | 1299 | 254 | Huawei | 华为畅享90 |
 | 1299 | 258 | iQOO | iQOO Z11i |
+| 1199 | 46 | OPPO | OPPO A6v |
+| 1169 | 80 | OPPO | OPPO A6i |
+| 999 | 45 | OPPO | OPPO A3i |
+| 799 | 43 | OPPO | OPPO A6c |
+| 799 | 141 | HONOR | 荣耀畅玩70C |
+| 799 | 256 | REDMI | Redmi 17C |

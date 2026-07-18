@@ -12,8 +12,7 @@
       "电池",
       "价格",
       "处理器"
-    ],
-    "status": "incomplete"
+    ]
   },
   {
     "id": 121,
@@ -24,8 +23,7 @@
       "入网型号",
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 135,
@@ -36,8 +34,7 @@
       "入网型号",
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 216,
@@ -48,8 +45,7 @@
       "入网型号",
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 228,
@@ -60,8 +56,7 @@
       "入网型号",
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 142,
@@ -72,8 +67,7 @@
       "入网型号",
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 215,
@@ -83,8 +77,7 @@
     "missing": [
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 235,
@@ -94,8 +87,7 @@
     "missing": [
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 254,
@@ -105,8 +97,7 @@
     "missing": [
       "入网型号",
       "内存"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 255,
@@ -116,8 +107,7 @@
     "missing": [
       "入网型号",
       "内存"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 234,
@@ -127,8 +117,7 @@
     "missing": [
       "内存",
       "存储"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 2,
@@ -137,8 +126,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 13,
@@ -147,8 +135,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 22,
@@ -157,8 +144,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 21,
@@ -167,8 +153,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 35,
@@ -177,8 +162,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 34,
@@ -187,8 +171,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 42,
@@ -197,8 +180,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 41,
@@ -207,8 +189,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 48,
@@ -217,8 +198,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 47,
@@ -227,8 +207,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 46,
@@ -237,8 +216,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 45,
@@ -247,8 +225,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 59,
@@ -257,8 +234,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 57,
@@ -267,8 +243,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 55,
@@ -277,8 +252,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 68,
@@ -287,18 +261,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 69,
-    "brand": "HONOR",
-    "model": "荣耀 Magic8",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 82,
@@ -307,8 +270,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 80,
@@ -317,8 +279,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 89,
@@ -327,8 +288,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 88,
@@ -337,8 +297,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 87,
@@ -347,8 +306,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 103,
@@ -357,8 +315,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 96,
@@ -367,8 +324,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 97,
@@ -377,8 +333,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 95,
@@ -387,8 +342,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 111,
@@ -397,8 +351,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 110,
@@ -407,8 +360,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 108,
@@ -417,8 +369,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 127,
@@ -427,8 +378,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 125,
@@ -437,8 +387,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 123,
@@ -447,8 +396,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 122,
@@ -457,8 +405,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 120,
@@ -467,8 +414,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 118,
@@ -477,8 +423,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 137,
@@ -487,8 +432,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 133,
@@ -497,8 +441,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 143,
@@ -507,8 +450,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 141,
@@ -517,8 +459,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 155,
@@ -527,8 +468,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 149,
@@ -537,8 +477,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 173,
@@ -547,8 +486,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 170,
@@ -557,8 +495,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 181,
@@ -567,8 +504,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 175,
@@ -577,8 +513,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 174,
@@ -587,8 +522,7 @@
     "score": 88,
     "missing": [
       "影像详情"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 184,
@@ -597,8 +531,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 208,
@@ -607,8 +540,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 207,
@@ -617,8 +549,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 221,
@@ -627,8 +558,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 218,
@@ -637,8 +567,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 213,
@@ -647,8 +576,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 227,
@@ -657,8 +585,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 231,
@@ -667,8 +594,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 229,
@@ -677,8 +603,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 241,
@@ -687,8 +612,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 236,
@@ -697,8 +621,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 237,
@@ -707,8 +630,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 245,
@@ -717,8 +639,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 248,
@@ -727,8 +648,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 247,
@@ -737,8 +657,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 256,
@@ -747,8 +666,7 @@
     "score": 88,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 259,
@@ -757,8 +675,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 260,
@@ -767,8 +684,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 249,
@@ -777,8 +693,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 1,
@@ -787,8 +702,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 3,
@@ -797,8 +711,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 5,
@@ -807,8 +720,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 4,
@@ -817,8 +729,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 11,
@@ -827,8 +738,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 10,
@@ -837,8 +747,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 17,
@@ -847,8 +756,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 16,
@@ -857,8 +765,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 15,
@@ -867,8 +774,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 14,
@@ -877,8 +783,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 18,
@@ -887,18 +792,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 20,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Max",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 29,
@@ -907,18 +801,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 36,
-    "brand": "Samsung",
-    "model": "Galaxy A57 5G",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 39,
@@ -927,8 +810,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 38,
@@ -937,8 +819,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 37,
@@ -947,8 +828,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 40,
@@ -957,8 +837,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 43,
@@ -967,8 +846,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 44,
@@ -977,8 +855,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 54,
@@ -987,8 +864,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 53,
@@ -997,8 +873,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 63,
@@ -1007,8 +882,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 257,
@@ -1017,8 +891,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 67,
@@ -1027,8 +900,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 73,
@@ -1037,8 +909,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 79,
@@ -1047,18 +918,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 78,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17 Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 93,
@@ -1067,18 +927,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 90,
-    "brand": "OnePlus",
-    "model": "一加 15",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 94,
@@ -1087,8 +936,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 102,
@@ -1097,8 +945,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 101,
@@ -1107,8 +954,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 100,
@@ -1117,8 +963,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 116,
@@ -1127,8 +972,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 115,
@@ -1137,8 +981,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 113,
@@ -1147,8 +990,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 112,
@@ -1157,8 +999,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 109,
@@ -1167,8 +1008,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 107,
@@ -1177,8 +1017,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 106,
@@ -1187,8 +1026,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 105,
@@ -1197,8 +1035,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 104,
@@ -1207,8 +1044,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 132,
@@ -1217,8 +1053,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 119,
@@ -1227,8 +1062,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 146,
@@ -1237,8 +1071,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 158,
@@ -1247,18 +1080,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
-  },
-  {
-    "id": 202,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 15 Ultra",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 197,
@@ -1267,8 +1089,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 189,
@@ -1277,8 +1098,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 240,
@@ -1287,8 +1107,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 239,
@@ -1297,8 +1116,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 238,
@@ -1307,8 +1125,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 253,
@@ -1317,8 +1134,7 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 258,
@@ -1327,975 +1143,895 @@
     "score": 94,
     "missing": [
       "入网型号"
-    ],
-    "status": ""
+    ]
   },
   {
     "id": 7,
     "brand": "Huawei",
     "model": "HUAWEI nova 16",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 6,
     "brand": "Huawei",
     "model": "HUAWEI nova 16z",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 12,
     "brand": "vivo",
     "model": "vivo S60",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 51,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Ultra",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 50,
     "brand": "Huawei",
     "model": "HUAWEI nova 15 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 49,
     "brand": "Huawei",
     "model": "HUAWEI nova 15",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 65,
     "brand": "Huawei",
     "model": "华为 Mate XTs 非凡大师",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
+  },
+  {
+    "id": 69,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8",
+    "score": 94,
+    "missing": []
   },
   {
     "id": 81,
     "brand": "OPPO",
     "model": "OPPO A6",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 92,
     "brand": "Huawei",
     "model": "HUAWEI Mate 70 Air",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 114,
     "brand": "HONOR",
     "model": "荣耀 Magic V6",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 131,
     "brand": "vivo",
     "model": "vivo X Fold5",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 130,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro+",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 129,
     "brand": "Huawei",
     "model": "华为 Pura 80 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 128,
     "brand": "Huawei",
     "model": "华为 Pura 80",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 126,
     "brand": "HONOR",
     "model": "荣耀 400 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 124,
     "brand": "HONOR",
     "model": "荣耀 400",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 117,
     "brand": "HONOR",
     "model": "荣耀Play10",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 138,
     "brand": "Huawei",
     "model": "HUAWEI Pura X Max",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 144,
     "brand": "Huawei",
     "model": "HUAWEI Pura X",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 151,
     "brand": "vivo",
     "model": "vivo S30",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 161,
     "brand": "Huawei",
     "model": "HUAWEI Mate X6",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 172,
     "brand": "HONOR",
     "model": "荣耀 300 Ultra",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 171,
     "brand": "HONOR",
     "model": "荣耀 300 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 168,
     "brand": "vivo",
     "model": "vivo S20 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 167,
     "brand": "Huawei",
     "model": "HUAWEI nova 14",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 165,
     "brand": "realme",
     "model": "GT7",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 162,
     "brand": "HONOR",
     "model": "荣耀 300",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 163,
     "brand": "vivo",
     "model": "vivo S20",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 176,
     "brand": "REDMI",
     "model": "REDMI K80 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 201,
     "brand": "vivo",
     "model": "vivo X200 Ultra",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 195,
     "brand": "Huawei",
     "model": "华为 nova 13 Ultra",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 193,
     "brand": "vivo",
     "model": "vivo X200s",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 188,
     "brand": "Huawei",
     "model": "华为 nova 13 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 185,
     "brand": "Huawei",
     "model": "华为 nova 13",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 211,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 209,
     "brand": "iQOO",
     "model": "iQOO Neo10",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 210,
     "brand": "REDMI",
     "model": "REDMI Turbo 4 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 224,
     "brand": "HONOR",
     "model": "荣耀 Magic V3",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 225,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Fold 4",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 222,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 220,
     "brand": "Xiaomi",
     "model": "Xiaomi MIX Flip 2",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 219,
     "brand": "RedMagic",
     "model": "红魔 10 Pro+",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 217,
     "brand": "RedMagic",
     "model": "红魔 10 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 214,
     "brand": "RedMagic",
     "model": "红魔 10 Air",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 230,
     "brand": "Xiaomi",
     "model": "Xiaomi Civi 4 Pro",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 232,
     "brand": "iQOO",
     "model": "iQOO Z9 Turbo",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 233,
     "brand": "realme",
     "model": "14 Pro+",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 243,
     "brand": "vivo",
     "model": "vivo S19",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 251,
     "brand": "Huawei",
     "model": "华为畅享90ProMax",
     "score": 94,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 250,
     "brand": "vivo",
     "model": "vivo X Fold6",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 9,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Ultra",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 8,
     "brand": "Huawei",
     "model": "HUAWEI nova 16 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
+  },
+  {
+    "id": 20,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Max",
+    "score": 100,
+    "missing": []
   },
   {
     "id": 28,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro Max",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 27,
     "brand": "OPPO",
     "model": "OPPO Find X9s Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 26,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 25,
     "brand": "Huawei",
     "model": "HUAWEI Pura 90",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 31,
     "brand": "vivo",
     "model": "vivo X300 Ultra",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 30,
     "brand": "vivo",
     "model": "vivo X300s",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 32,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro Max 风驰版",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 33,
     "brand": "Apple",
     "model": "iPhone 17e",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
+  },
+  {
+    "id": 36,
+    "brand": "Samsung",
+    "model": "Galaxy A57 5G",
+    "score": 100,
+    "missing": []
   },
   {
     "id": 52,
     "brand": "Huawei",
     "model": "HUAWEI Mate X7",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 64,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 RS 非凡大师",
     "score": 100,
-    "missing": [],
-    "status": "unreleased"
+    "missing": []
   },
   {
     "id": 61,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (16GB)",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 62,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro (12GB)",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 60,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 58,
     "brand": "OPPO",
     "model": "OPPO Reno14 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 56,
     "brand": "OPPO",
     "model": "OPPO Reno14",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 66,
     "brand": "OPPO",
     "model": "OPPO Find X9",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 71,
     "brand": "vivo",
     "model": "vivo X300 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 70,
     "brand": "vivo",
     "model": "vivo X300",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 74,
     "brand": "iQOO",
     "model": "iQOO 15 Ultra",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 72,
     "brand": "iQOO",
     "model": "iQOO 15",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
+  },
+  {
+    "id": 78,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17 Pro",
+    "score": 100,
+    "missing": []
   },
   {
     "id": 77,
     "brand": "Xiaomi",
     "model": "Xiaomi 17",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 86,
     "brand": "Apple",
     "model": "iPhone 17 Pro Max",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 85,
     "brand": "Apple",
     "model": "iPhone 17 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 84,
     "brand": "Apple",
     "model": "iPhone Air",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 83,
     "brand": "Apple",
     "model": "iPhone 17",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
+  },
+  {
+    "id": 90,
+    "brand": "OnePlus",
+    "model": "一加 15",
+    "score": 100,
+    "missing": []
   },
   {
     "id": 91,
     "brand": "realme",
     "model": "GT8 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 99,
     "brand": "realme",
     "model": "GT8",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 98,
     "brand": "OnePlus",
     "model": "一加 Ace 6",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 134,
     "brand": "OnePlus",
     "model": "一加 13T",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 145,
     "brand": "OPPO",
     "model": "OPPO Find N5",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 160,
     "brand": "Samsung",
     "model": "Galaxy S25 Ultra",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 159,
     "brand": "HONOR",
     "model": "荣耀 Magic7 RSR 保时捷设计",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 157,
     "brand": "Samsung",
     "model": "Galaxy S25+",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 156,
     "brand": "Samsung",
     "model": "Galaxy S25",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 154,
     "brand": "vivo",
     "model": "vivo S50 Pro mini",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 153,
     "brand": "vivo",
     "model": "vivo Y500 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 150,
     "brand": "vivo",
     "model": "vivo S30 Pro mini",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 152,
     "brand": "vivo",
     "model": "vivo Y500",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 148,
     "brand": "vivo",
     "model": "vivo S50",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 147,
     "brand": "vivo",
     "model": "vivo Y600 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 169,
     "brand": "OnePlus",
     "model": "一加 Ace 5 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 166,
     "brand": "OnePlus",
     "model": "一加 Ace 5",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 164,
     "brand": "OnePlus",
     "model": "一加 Ace 5 至尊版",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 183,
     "brand": "Huawei",
     "model": "华为 Mate 70 RS 非凡大师",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 182,
     "brand": "Huawei",
     "model": "华为 Mate 70 Pro+",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 180,
     "brand": "Huawei",
     "model": "华为 Mate 70 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 179,
     "brand": "Huawei",
     "model": "HUAWEI Mate 70 Pro 优享版",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 178,
     "brand": "Huawei",
     "model": "华为 Mate 70",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 177,
     "brand": "realme",
     "model": "GT7 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 200,
     "brand": "OPPO",
     "model": "OPPO Find X8 Ultra",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
+  },
+  {
+    "id": 202,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Ultra",
+    "score": 100,
+    "missing": []
   },
   {
     "id": 198,
     "brand": "vivo",
     "model": "vivo X200 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 199,
     "brand": "Xiaomi",
     "model": "Xiaomi 15 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 196,
     "brand": "OnePlus",
     "model": "一加 13",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 194,
     "brand": "HONOR",
     "model": "荣耀 Magic7",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 192,
     "brand": "vivo",
     "model": "vivo X200 Pro mini",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 191,
     "brand": "OPPO",
     "model": "OPPO Find X8 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 190,
     "brand": "vivo",
     "model": "vivo X200",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 187,
     "brand": "HONOR",
     "model": "荣耀 Magic7 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 186,
     "brand": "Xiaomi",
     "model": "Xiaomi 15",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 206,
     "brand": "Apple",
     "model": "iPhone 16 Pro Max",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 205,
     "brand": "Apple",
     "model": "iPhone 16 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 204,
     "brand": "Apple",
     "model": "iPhone 16 Plus",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 203,
     "brand": "Apple",
     "model": "iPhone 16",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 212,
     "brand": "iQOO",
     "model": "iQOO Neo10 Pro+",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 226,
     "brand": "Samsung",
     "model": "Galaxy Z Fold6",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 223,
     "brand": "Samsung",
     "model": "Galaxy Z Flip6",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 242,
     "brand": "Samsung",
     "model": "Galaxy S24 Ultra",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 244,
     "brand": "vivo",
     "model": "vivo S19 Pro",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   },
   {
     "id": 246,
     "brand": "iQOO",
     "model": "iQOO 13",
     "score": 100,
-    "missing": [],
-    "status": ""
+    "missing": []
   }
 ]

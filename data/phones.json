@@ -1338,7 +1338,7 @@
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24648",
     "verified_at": "2026-05-21",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1347,7 +1347,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "2605EPN8EC",
+    "network_model_source": "kalvo"
   },
   {
     "id": 29,
@@ -1846,7 +1848,7 @@
     "id": 36,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -1854,7 +1856,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "network_model": "SM-A5760",
+    "network_model_source": "kalvo"
   },
   {
     "id": 35,
@@ -3606,7 +3610,7 @@
     "screen_type": "OLED",
     "resolution": "2800×1280",
     "os": "MagicOS",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3614,7 +3618,9 @@
       "PD"
     ],
     "charge_protocols_source": "ecosystem-honor",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "BKQ-AN00",
+    "network_model_source": "kalvo"
   },
   {
     "id": 71,
@@ -3977,7 +3983,7 @@
     "detailed_camera": "主摄: 光影猎人950L f/1.67 5000万 | 超广角: 徕卡 f/2.4 5000万 | 长焦: 徕卡潜望 f/3.0 5000万 5x光学",
     "release_date": "2025-09-25",
     "price": 4999,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3986,7 +3992,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "25098PN5AC",
+    "network_model_source": "kalvo"
   },
   {
     "id": 77,
@@ -4508,7 +4516,7 @@
     "screen_type": "OLED",
     "resolution": "1272×2772",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4518,7 +4526,9 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "os": "ColorOS 16 / Android 16",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "network_model": "PLK110",
+    "network_model_source": "kalvo"
   },
   {
     "brand": "realme",
@@ -9042,7 +9052,7 @@
     "release_date": "2024-10-01",
     "price": 6499,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9051,7 +9061,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "25010PN30G",
+    "network_model_source": "kalvo"
   },
   {
     "id": 198,
