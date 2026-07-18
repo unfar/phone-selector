@@ -108,7 +108,7 @@
     "screen_size": 8.02,
     "refresh_hz": 120,
     "screen_type": "三星M14 OLED折叠屏",
-    "resolution": "",
+    "resolution": "内外双屏",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "battery_mah": 7000,
@@ -153,7 +153,7 @@
     },
     "fold_type": "横向折叠",
     "network_model": "V2429A",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -162,7 +162,8 @@
       "VFCP"
     ],
     "charge_protocols_source": "ecosystem-vivo",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "resolution_source": "series-default"
   },
   {
     "id": 249,
@@ -8876,7 +8877,7 @@
     "screen_type": "OLED",
     "network_model": "24122RKC7C",
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8884,7 +8885,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "resolution": "FHD+",
+    "resolution_source": "series-default"
   },
   {
     "id": 200,
