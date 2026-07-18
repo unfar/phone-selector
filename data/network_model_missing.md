@@ -1,6 +1,6 @@
 # 入网型号缺失榜
 
-共 111 款仍缺
+共 110 款仍缺
 
 | 价格 | ID | 品牌 | 机型 |
 |---:|---:|---|---|
@@ -70,7 +70,6 @@
 | 2699 | 240 | iQOO | iQOO Z11 Turbo |
 | 2599 | 175 | REDMI | REDMI K80至尊版 |
 | 2599 | 213 | HONOR | X70 Pro |
-| 2599 | 245 | REDMI | Redmi K70 至尊版 |
 | 2549 | 55 | REDMI | Redmi K90 |
 | 2399 | 35 | OPPO | OPPO A6k |
 | 2399 | 123 | OPPO | OPPO K15 Pro |

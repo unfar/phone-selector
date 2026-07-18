@@ -615,15 +615,6 @@
     ]
   },
   {
-    "id": 245,
-    "brand": "REDMI",
-    "model": "Redmi K70 至尊版",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 248,
     "brand": "RedMagic",
     "model": "红魔 9S Pro+",
@@ -1418,6 +1409,13 @@
     "id": 243,
     "brand": "vivo",
     "model": "vivo S19",
+    "score": 94,
+    "missing": []
+  },
+  {
+    "id": 245,
+    "brand": "REDMI",
+    "model": "Redmi K70 至尊版",
     "score": 94,
     "missing": []
   },

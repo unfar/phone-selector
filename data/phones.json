@@ -11864,7 +11864,7 @@
     "release_date": "2023-11-01",
     "price": 2599,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11872,7 +11872,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "2407FRK8EC",
+    "network_model_source": "kalvo"
   },
   {
     "id": 246,
