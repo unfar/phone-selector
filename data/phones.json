@@ -38,7 +38,14 @@
     "dimensions": "169.7×79.14×8.26mm",
     "ip_rating": "IP65",
     "reverse_charging_w": 22.5,
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "id": 260,
@@ -82,7 +89,14 @@
     "dimensions": "163.45×78.27×8.46mm",
     "ip_rating": "IP68/IP69K",
     "reverse_charging_w": 22.5,
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "id": 250,
@@ -196,7 +210,15 @@
       "竹韵青",
       "幻夜黑"
     ],
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 1,
@@ -243,7 +265,15 @@
     "price": 1999,
     "source_url": "https://www.honor.com/cn/phones/honor-x70-pro-max/",
     "verified_at": "2026-06-15",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 3,
@@ -495,7 +525,17 @@
     "source_url": "https://consumer.huawei.com/cn/phones/nova16-ultra/",
     "verified_at": "2026-06-01",
     "network_model": "HIP-AL00",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 8,
@@ -544,7 +584,17 @@
     "source_url": "https://consumer.huawei.com/cn/phones/nova16-pro/",
     "verified_at": "2026-06-01",
     "network_model": "CRS-AL00",
-    "completeness_score": 94
+    "completeness_score": 100,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 7,
@@ -588,7 +638,16 @@
     "source_url": "https://consumer.huawei.com/cn/phones/nova16/",
     "verified_at": "2026-06-01",
     "network_model": "EMA-AL00U",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 6,
@@ -629,7 +688,16 @@
     "source_url": "https://consumer.huawei.com/cn/phones/nova16z/",
     "verified_at": "2026-06-01",
     "network_model": "PKN-AL00",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 12,
@@ -665,7 +733,15 @@
     "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/param/s60",
     "verified_at": "2026-05-29",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 11,
@@ -704,7 +780,15 @@
     "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/s60",
     "verified_at": "2026-05-29",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 10,
@@ -749,7 +833,15 @@
     "price": 2699,
     "source_url": "https://www.honor.com/cn/phones/honor-win-turbo/",
     "verified_at": "2026-06-07",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 17,
@@ -854,7 +946,15 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 15,
@@ -955,7 +1055,15 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 13,
@@ -997,7 +1105,15 @@
     "release_date": "2026-05-25",
     "source_url": "https://www.honor.com/cn/phones/",
     "verified_at": "2026-05-25",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 18,
@@ -1675,7 +1791,12 @@
     "id": 36,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "ecosystem-samsung-pd"
   },
   {
     "id": 35,
@@ -1711,7 +1832,14 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 34,
@@ -1747,7 +1875,14 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -1931,7 +2066,14 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 42,
@@ -2047,7 +2189,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 44,
@@ -2200,7 +2349,17 @@
     "thickness_mm": 6.8,
     "network_model": "SLY-AL00",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 50,
@@ -2239,7 +2398,16 @@
     "thickness_mm": 6.9,
     "network_model": "KLE-AL00U",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 49,
@@ -2277,7 +2445,16 @@
     "thickness_mm": 7.2,
     "network_model": "PSN-AL00",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "5A PPS",
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 48,
@@ -2312,7 +2489,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 47,
@@ -2345,7 +2529,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 46,
@@ -2377,7 +2568,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 45,
@@ -2409,7 +2607,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "model": "荣耀 500 Pro",
@@ -2450,7 +2655,15 @@
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
     "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+5000万(F2.4 OIS长焦)+1200万(F2.2超广角微距) \\\\",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "model": "荣耀 500",
@@ -2489,7 +2702,15 @@
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
     "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+1200万(F2.2超广角微距) \\\\",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 65,
@@ -3545,7 +3766,14 @@
     "resolution": "2640×1216",
     "os": "ColorOS 16 / Android 16",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oneplus"
   },
   {
     "id": 79,
@@ -3834,7 +4062,12 @@
     "network_model": "A3518",
     "resolution": "2700×1220",
     "screen_type": "OLED",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "PD",
+      "Qi2"
+    ],
+    "charge_protocols_source": "ecosystem-apple-qi2"
   },
   {
     "brand": "Apple",
@@ -3915,7 +4148,14 @@
     "price": 1709,
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 81,
@@ -3950,7 +4190,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "network_model": "PLS120",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 80,
@@ -3981,7 +4228,14 @@
     "price": 1169,
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 93,
@@ -4122,7 +4376,14 @@
     "screen_type": "OLED",
     "resolution": "1272×2772",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oneplus"
   },
   {
     "brand": "realme",
@@ -4210,7 +4471,15 @@
     "source_url": "https://www.honor.com/cn/shop/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 88,
@@ -4248,7 +4517,14 @@
     "release_date": "2025-09-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "id": 87,
@@ -4283,7 +4559,14 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 94,
@@ -4364,7 +4647,15 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS| 超广 12MP f/2.2| 前置 50MP",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "brand": "OnePlus",
@@ -4450,7 +4741,15 @@
     "resolution": "2800×1264",
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 | 后置 5000万(F1.95 OIS)+1200万(F2.2超广角微距) \\\\",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 100,
@@ -4637,7 +4936,14 @@
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.6 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "brand": "REDMI",
@@ -4672,7 +4978,14 @@
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.6 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "id": 95,
@@ -4703,7 +5016,15 @@
     "release_date": "2025-08-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -5611,7 +5932,14 @@
     "release_date": "2025-06-01",
     "price": 3419,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "brand": "HONOR",
@@ -5643,7 +5971,15 @@
     "network_model": "DNP-AN00",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "brand": "realme",
@@ -5672,7 +6008,14 @@
     "resolution": "2772×1240",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 69
+    "completeness_score": 75,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-realme"
   },
   {
     "brand": "HONOR",
@@ -5704,7 +6047,15 @@
     "network_model": "DNN-AN00",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 123,
@@ -5739,7 +6090,14 @@
     "release_date": "2025-06-01",
     "price": 2399,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 122,
@@ -5772,7 +6130,14 @@
     "release_date": "2025-06-01",
     "price": 2199,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 120,
@@ -5805,7 +6170,14 @@
     "release_date": "2025-06-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 121,
@@ -5839,7 +6211,14 @@
     "screen_form": "直屏",
     "release_date": "2025-06-01",
     "date_precision": "month",
-    "completeness_score": 50
+    "completeness_score": 56,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-realme"
   },
   {
     "brand": "OnePlus",
@@ -5918,7 +6297,15 @@
     "verified_at": "2026-05-24",
     "network_model": "LOG-AN10",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 118,
@@ -5950,7 +6337,15 @@
     "source_url": "https://www.honor.com/cn/shop/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "brand": "Huawei",
@@ -6037,7 +6432,15 @@
     "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 5000万主摄",
     "screen_type": "LCD",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 135,
@@ -6069,7 +6472,15 @@
     "screen_form": "直屏",
     "release_date": "2025-04-01",
     "date_precision": "month",
-    "completeness_score": 62
+    "completeness_score": 69,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 134,
@@ -6154,7 +6565,15 @@
     "release_date": "2025-04-01",
     "price": 2299,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-iqoo"
   },
   {
     "brand": "Huawei",
@@ -6244,7 +6663,12 @@
     "id": 142,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 69
+    "completeness_score": 75,
+    "charge_protocols": [
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "ecosystem-samsung-pd"
   },
   {
     "id": 143,
@@ -6276,7 +6700,12 @@
     "screen_form": "直屏",
     "release_date": "2025-03-01",
     "date_precision": "month",
-    "completeness_score": 69
+    "completeness_score": 75,
+    "charge_protocols": [
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "ecosystem-samsung-pd"
   },
   {
     "id": 141,
@@ -6308,7 +6737,15 @@
     "source_url": "https://www.honor.com/cn/shop/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 146,
@@ -6703,7 +7140,15 @@
     "release_date": "2025-01-01",
     "price": 3699,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "brand": "HONOR",
@@ -6736,7 +7181,15 @@
     "detailed_camera": "主摄 50MP f/1.6 OIS| 长焦 50MP f/2.4 3x OIS| 前置 16MP",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 153,
@@ -6775,7 +7228,15 @@
     "has_nfc": true,
     "has_ir": true,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 150,
@@ -6811,7 +7272,15 @@
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 151,
@@ -6842,7 +7311,15 @@
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 152,
@@ -6879,7 +7356,15 @@
     "release_date": "2025-01-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "brand": "HONOR",
@@ -6910,7 +7395,15 @@
     "detailed_camera": "主摄: 索尼IMX906 50MP f/1.8 | 5000万主摄",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 148,
@@ -6946,7 +7439,15 @@
     "release_date": "2025-01-01",
     "price": 2599,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 147,
@@ -6984,7 +7485,15 @@
     "has_nfc": true,
     "has_ir": true,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 161,
@@ -7073,7 +7582,15 @@
     "price": 4199,
     "network_model": "AMP-AN10",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 173,
@@ -7111,7 +7628,15 @@
     "release_date": "2024-12-01",
     "price": 4199,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 171,
@@ -7144,7 +7669,15 @@
     "price": 3699,
     "network_model": "AMP-AN10",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 170,
@@ -7182,7 +7715,15 @@
     "release_date": "2024-12-01",
     "price": 3499,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 169,
@@ -7260,7 +7801,15 @@
     "price": 2999,
     "network_model": "V2419A",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 166,
@@ -7343,7 +7892,14 @@
     "price": 2699,
     "network_model": "TLR-AL00",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 252,
@@ -7442,7 +7998,15 @@
     "price": 2299,
     "network_model": "AMM-AN00",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 163,
@@ -7474,7 +8038,15 @@
     "price": 2299,
     "network_model": "V2429A",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "brand": "OnePlus",
@@ -8418,7 +8990,15 @@
     "price": 4499,
     "network_model": "`GLO-AL00`",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 192,
@@ -8736,7 +9316,14 @@
     "price": 3699,
     "network_model": "GLO-AL10",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 186,
@@ -8822,7 +9409,14 @@
     "price": 2699,
     "network_model": "`GLO-AL00`",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 184,
@@ -8857,7 +9451,15 @@
     "source_url": "https://www.honor.com/cn/shop/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "brand": "Apple",
@@ -9202,7 +9804,14 @@
     "resolution": "2712×1220",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "id": 208,
@@ -9239,7 +9848,14 @@
     "release_date": "2024-08-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmi"
   },
   {
     "id": 207,
@@ -9269,7 +9885,15 @@
     "source_url": "https://www.honor.com/cn/shop/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -9837,7 +10461,14 @@
     "release_date": "2024-07-01",
     "network_model": "RMX3800",
     "date_precision": "month",
-    "completeness_score": 56
+    "completeness_score": 62,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-realme"
   },
   {
     "brand": "RedMagic",
@@ -9907,7 +10538,15 @@
     "screen_form": "直屏",
     "release_date": "2024-07-01",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "SCP",
+      "FCP"
+    ],
+    "charge_protocols_source": "ecosystem-honor-mid"
   },
   {
     "id": 227,
@@ -10030,7 +10669,14 @@
     "price": 2599,
     "network_model": "24053PY09C",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-xiaomi"
   },
   {
     "id": 229,
@@ -10062,7 +10708,15 @@
     "screen_form": "直屏",
     "release_date": "2024-05-01",
     "date_precision": "month",
-    "completeness_score": 69
+    "completeness_score": 75,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "model": "Galaxy C55 5G",
@@ -10094,7 +10748,12 @@
     "id": 228,
     "resolution": "2408×1080",
     "date_precision": "month",
-    "completeness_score": 62
+    "completeness_score": 69,
+    "charge_protocols": [
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "ecosystem-samsung-pd"
   },
   {
     "id": 232,
@@ -10125,7 +10784,15 @@
     "price": 1999,
     "network_model": "V2352A",
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-iqoo"
   },
   {
     "id": 235,
@@ -10158,7 +10825,12 @@
     "release_date": "2024-03-01",
     "network_model": "SM-A5560",
     "date_precision": "month",
-    "completeness_score": 62
+    "completeness_score": 69,
+    "charge_protocols": [
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "ecosystem-samsung-pd"
   },
   {
     "model": "Galaxy A55 5G",
@@ -10192,7 +10864,12 @@
     "id": 234,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 69
+    "completeness_score": 75,
+    "charge_protocols": [
+      "PPS",
+      "PD"
+    ],
+    "charge_protocols_source": "ecosystem-samsung-pd"
   },
   {
     "id": 233,
@@ -10320,7 +10997,15 @@
     "detailed_camera": "主摄: 1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
     "screen_type": "OLED",
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS",
+      "Qi"
+    ],
+    "charge_protocols_source": "ecosystem-huawei-nova"
   },
   {
     "id": 240,
@@ -10358,7 +11043,15 @@
     "release_date": "2024-01-01",
     "price": 2699,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-iqoo"
   },
   {
     "brand": "realme",
@@ -10392,7 +11085,14 @@
     "screen_type": "OLED",
     "resolution": "2780×1264",
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-realme"
   },
   {
     "id": 238,
@@ -10431,7 +11131,15 @@
     "release_date": "2024-01-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-iqoo"
   },
   {
     "id": 236,
@@ -10502,7 +11210,14 @@
     "release_date": "2024-01-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-oppo-mid"
   },
   {
     "id": 244,
@@ -10539,7 +11254,15 @@
     "release_date": "2023-12-01",
     "price": 2999,
     "date_precision": "month",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 243,
@@ -10570,7 +11293,15 @@
     "release_date": "2023-12-01",
     "price": 2299,
     "date_precision": "month",
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo-mid"
   },
   {
     "id": 245,
@@ -10735,7 +11466,14 @@
     "resolution": "2480×1116",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 69
+    "completeness_score": 75,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-redmagic"
   },
   {
     "id": 253,
@@ -10770,7 +11508,14 @@
     "price": 1499,
     "network_model": "",
     "wireless_charging_w": 0,
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei"
   },
   {
     "id": 254,
@@ -10801,7 +11546,14 @@
     "price": 1299,
     "network_model": "",
     "wireless_charging_w": 0,
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei"
   },
   {
     "id": 255,
@@ -10832,7 +11584,14 @@
     "price": 1799,
     "network_model": "",
     "wireless_charging_w": 0,
-    "completeness_score": 75
+    "completeness_score": 81,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei"
   },
   {
     "id": 256,
@@ -10867,7 +11626,14 @@
     "price": 799,
     "source_url": "https://news.mydrivers.com/1/1131/1131426.htm",
     "verified_at": "2026-06-28",
-    "completeness_score": 81
+    "completeness_score": 88,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "ecosystem-xiaomi"
   },
   {
     "id": 258,
@@ -10906,7 +11672,15 @@
     "price": 1299,
     "source_url": "https://www.gsmarena.com/iqoo_z11i_debuts_with_a_6500mah_battery_snapdragon_4_gen_2_soc-news-65950.php",
     "verified_at": "2026-07-05",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-iqoo"
   },
   {
     "id": 251,
@@ -10938,6 +11712,13 @@
     "release_date": "2026-06-01",
     "price": 1699,
     "date_precision": "month",
-    "completeness_score": 88
+    "completeness_score": 94,
+    "charge_protocols": [
+      "SCP",
+      "FCP",
+      "PD",
+      "UFCS"
+    ],
+    "charge_protocols_source": "ecosystem-huawei"
   }
 ]
