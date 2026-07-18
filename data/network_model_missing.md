@@ -1,6 +1,6 @@
 # 入网型号缺失榜
 
-共 120 款仍缺
+共 111 款仍缺
 
 | 价格 | ID | 品牌 | 机型 |
 |---:|---:|---|---|
@@ -18,7 +18,6 @@
 | 7999 | 158 | Samsung | Galaxy S25 Edge |
 | 6999 | 37 | Samsung | Galaxy S26 |
 | 6999 | 44 | Xiaomi | Xiaomi 17 Ultra |
-| 6999 | 112 | Samsung | Galaxy Z Flip7 FE |
 | 6999 | 181 | Huawei | Pocket 70 Pro |
 | 6999 | 231 | HONOR | 荣耀 Magic Vs3 |
 | 6199 | 22 | RedMagic | 红魔 11S Pro+ |
@@ -33,7 +32,6 @@
 | 4799 | 197 | OPPO | OPPO Find X8s+ |
 | 4699 | 94 | HONOR | 荣耀Magic V Flip2 |
 | 4499 | 17 | OPPO | OPPO Reno16 Pro |
-| 4499 | 68 | HONOR | 荣耀 Magic8 Pro |
 | 4299 | 73 | OnePlus | 一加 15T |
 | 4299 | 218 | RedMagic | 红魔 10S Pro |
 | 4199 | 173 | Huawei | HUAWEI nova 14 Ultra |
@@ -60,9 +58,6 @@
 | 3299 | 137 | HONOR | 荣耀 Power2 |
 | 3199 | 57 | REDMI | Redmi K90 Max |
 | 3099 | 100 | iQOO | iQOO Neo11 |
-| 2999 | 4 | Xiaomi | Xiaomi 17T |
-| 2999 | 53 | HONOR | 荣耀 500 |
-| 2999 | 257 | REDMI | Redmi K90 Ultra |
 | 2999 | 135 | vivo | S21 Pro |
 | 2999 | 142 | Samsung | Galaxy A56 5G |
 | 2999 | 143 | Samsung | Galaxy A56 |
@@ -77,7 +72,6 @@
 | 2599 | 213 | HONOR | X70 Pro |
 | 2599 | 245 | REDMI | Redmi K70 至尊版 |
 | 2549 | 55 | REDMI | Redmi K90 |
-| 2499 | 105 | OnePlus | 一加 Turbo 6 |
 | 2399 | 35 | OPPO | OPPO A6k |
 | 2399 | 123 | OPPO | OPPO K15 Pro |
 | 2299 | 96 | REDMI | REDMI Turbo 5 Max |
@@ -89,10 +83,8 @@
 | 2199 | 122 | OPPO | OPPO K13 Turbo Pro |
 | 2099 | 120 | OPPO | OPPO K13 Turbo |
 | 2099 | 121 | realme | Neo7 |
-| 2099 | 227 | realme | GT Neo6 |
 | 2099 | 238 | iQOO | iQOO Z11 |
 | 2040 | 104 | OnePlus | 一加 Ace 6T |
-| 1999 | 249 | HONOR | 荣耀X80 Pro Max |
 | 1999 | 1 | HONOR | 荣耀X70 Pro Max |
 | 1999 | 3 | OnePlus | 一加 Turbo 6X Pro |
 | 1999 | 34 | OPPO | OPPO A6 Plus |
@@ -121,6 +113,5 @@
 | 1199 | 46 | OPPO | OPPO A6v |
 | 1169 | 80 | OPPO | OPPO A6i |
 | 999 | 45 | OPPO | OPPO A3i |
-| 799 | 43 | OPPO | OPPO A6c |
 | 799 | 141 | HONOR | 荣耀畅玩70C |
 | 799 | 256 | REDMI | Redmi 17C |

@@ -1,6 +1,6 @@
 # 数据缺失榜（自动生成）
 
-共 252 款，平均完整度 93.6
+共 252 款，平均完整度 93.8
 
 | 完整度 | ID | 品牌 | 机型 | 缺失项 |
 |---:|---:|---|---|---|
@@ -30,7 +30,6 @@
 | 88 | 59 | REDMI | Redmi K90 Pro Max | 入网型号 |
 | 88 | 57 | REDMI | Redmi K90 Max | 入网型号 |
 | 88 | 55 | REDMI | Redmi K90 | 入网型号 |
-| 88 | 68 | HONOR | 荣耀 Magic8 Pro | 入网型号 |
 | 88 | 82 | OPPO | OPPO A6 Pro | 入网型号 |
 | 88 | 80 | OPPO | OPPO A6i | 入网型号 |
 | 88 | 89 | HONOR | 荣耀Play11 Plus | 入网型号 |
@@ -44,3 +43,4 @@
 | 88 | 110 | RedMagic | 红魔 11 Pro | 入网型号 |
 | 88 | 108 | RedMagic | 红魔 11 Air | 入网型号 |
 | 88 | 127 | OPPO | OPPO K15 Pro+ | 入网型号 |
+| 88 | 125 | realme | Neo7 Turbo | 入网型号 |

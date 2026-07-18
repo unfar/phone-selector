@@ -255,15 +255,6 @@
     ]
   },
   {
-    "id": 68,
-    "brand": "HONOR",
-    "model": "荣耀 Magic8 Pro",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 82,
     "brand": "OPPO",
     "model": "OPPO A6 Pro",
@@ -579,15 +570,6 @@
     ]
   },
   {
-    "id": 227,
-    "brand": "realme",
-    "model": "GT Neo6",
-    "score": 88,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 231,
     "brand": "HONOR",
     "model": "荣耀 Magic Vs3",
@@ -687,15 +669,6 @@
     ]
   },
   {
-    "id": 249,
-    "brand": "HONOR",
-    "model": "荣耀X80 Pro Max",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 1,
     "brand": "HONOR",
     "model": "荣耀X70 Pro Max",
@@ -717,15 +690,6 @@
     "id": 5,
     "brand": "Xiaomi",
     "model": "Xiaomi 17T Pro",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 4,
-    "brand": "Xiaomi",
-    "model": "Xiaomi 17T",
     "score": 94,
     "missing": [
       "入网型号"
@@ -840,15 +804,6 @@
     ]
   },
   {
-    "id": 43,
-    "brand": "OPPO",
-    "model": "OPPO A6c",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 44,
     "brand": "Xiaomi",
     "model": "Xiaomi 17 Ultra",
@@ -867,27 +822,9 @@
     ]
   },
   {
-    "id": 53,
-    "brand": "HONOR",
-    "model": "荣耀 500",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 63,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80 Pro Max",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 257,
-    "brand": "REDMI",
-    "model": "Redmi K90 Ultra",
     "score": 94,
     "missing": [
       "入网型号"
@@ -993,15 +930,6 @@
     ]
   },
   {
-    "id": 112,
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip7 FE",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
     "id": 109,
     "brand": "OPPO",
     "model": "OPPO Reno15 Pro",
@@ -1023,15 +951,6 @@
     "id": 106,
     "brand": "OPPO",
     "model": "OPPO Reno15c",
-    "score": 94,
-    "missing": [
-      "入网型号"
-    ]
-  },
-  {
-    "id": 105,
-    "brand": "OnePlus",
-    "model": "一加 Turbo 6",
     "score": 94,
     "missing": [
       "入网型号"
@@ -1191,6 +1110,13 @@
     "id": 65,
     "brand": "Huawei",
     "model": "华为 Mate XTs 非凡大师",
+    "score": 94,
+    "missing": []
+  },
+  {
+    "id": 68,
+    "brand": "HONOR",
+    "model": "荣耀 Magic8 Pro",
     "score": 94,
     "missing": []
   },
@@ -1461,6 +1387,13 @@
     "missing": []
   },
   {
+    "id": 227,
+    "brand": "realme",
+    "model": "GT Neo6",
+    "score": 94,
+    "missing": []
+  },
+  {
     "id": 230,
     "brand": "Xiaomi",
     "model": "Xiaomi Civi 4 Pro",
@@ -1499,6 +1432,20 @@
     "id": 250,
     "brand": "vivo",
     "model": "vivo X Fold6",
+    "score": 100,
+    "missing": []
+  },
+  {
+    "id": 249,
+    "brand": "HONOR",
+    "model": "荣耀X80 Pro Max",
+    "score": 100,
+    "missing": []
+  },
+  {
+    "id": 4,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 17T",
     "score": 100,
     "missing": []
   },
@@ -1587,9 +1534,23 @@
     "missing": []
   },
   {
+    "id": 43,
+    "brand": "OPPO",
+    "model": "OPPO A6c",
+    "score": 100,
+    "missing": []
+  },
+  {
     "id": 52,
     "brand": "Huawei",
     "model": "HUAWEI Mate X7",
+    "score": 100,
+    "missing": []
+  },
+  {
+    "id": 53,
+    "brand": "HONOR",
+    "model": "荣耀 500",
     "score": 100,
     "missing": []
   },
@@ -1618,6 +1579,13 @@
     "id": 60,
     "brand": "Huawei",
     "model": "HUAWEI Mate 80",
+    "score": 100,
+    "missing": []
+  },
+  {
+    "id": 257,
+    "brand": "REDMI",
+    "model": "Redmi K90 Ultra",
     "score": 100,
     "missing": []
   },
@@ -1737,6 +1705,20 @@
     "id": 98,
     "brand": "OnePlus",
     "model": "一加 Ace 6",
+    "score": 100,
+    "missing": []
+  },
+  {
+    "id": 112,
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip7 FE",
+    "score": 100,
+    "missing": []
+  },
+  {
+    "id": 105,
+    "brand": "OnePlus",
+    "model": "一加 Turbo 6",
     "score": 100,
     "missing": []
   },

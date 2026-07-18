@@ -214,7 +214,7 @@
       "竹韵青",
       "幻夜黑"
     ],
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -223,7 +223,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "BSN-AN00",
+    "network_model_source": "kalvo"
   },
   {
     "id": 1,
@@ -476,7 +478,7 @@
     "source_url": "https://www.mi.com/shop/buy/detail?product_id=24814",
     "verified_at": "2026-06-07",
     "price_subsidy": 2549,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -485,7 +487,9 @@
       "Qi"
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "2602DPT53I",
+    "network_model_source": "kalvo"
   },
   {
     "id": 9,
@@ -2259,7 +2263,7 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2267,7 +2271,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "PMC110",
+    "network_model_source": "kalvo"
   },
   {
     "id": 44,
@@ -2783,7 +2789,7 @@
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
     "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 | 后置 2亿(F1.9 OIS)+1200万(F2.2超广角微距) \\\\",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2792,7 +2798,9 @@
       "FCP"
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "MEY-AN00",
+    "network_model_source": "kalvo"
   },
   {
     "id": 65,
@@ -3213,7 +3221,7 @@
     "detailed_camera": "主摄: 50MP 光影猎人800 1/1.55\" f/1.68 OIS | 超广: 8MP f/2.2 | 前置: 20MP",
     "release_date": "2026-06-30",
     "price": 2999,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3221,7 +3229,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "2604FRK1EC",
+    "network_model_source": "kalvo"
   },
   {
     "id": 58,
@@ -3564,14 +3574,16 @@
     "screen_type": "OLED",
     "resolution": "2800×1280",
     "os": "MagicOS",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
       "PPS"
     ],
     "charge_protocols_source": "chongdiantou",
-    "charge_protocols_confidence": "high"
+    "charge_protocols_confidence": "high",
+    "network_model": "BKQ-AN10",
+    "network_model_source": "kalvo"
   },
   {
     "brand": "HONOR",
@@ -5475,7 +5487,7 @@
     "fold_type": "纵向折叠",
     "resolution": "2640×1080 / 1066×1056",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -5484,7 +5496,9 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
-    "refresh_hz_source": "series-default"
+    "refresh_hz_source": "series-default",
+    "network_model": "SM-F761B",
+    "network_model_source": "kalvo"
   },
   {
     "brand": "RedMagic",
@@ -5809,7 +5823,7 @@
     "resolution": "2780×1264",
     "os": "ColorOS 16 / Android 16",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5817,7 +5831,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-oneplus",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "PLU110",
+    "network_model_source": "kalvo"
   },
   {
     "brand": "OnePlus",
@@ -11036,7 +11052,7 @@
     "release_date": "2024-06-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11044,7 +11060,9 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-realme",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "network_model": "RMX3852",
+    "network_model_source": "kalvo"
   },
   {
     "id": 231,
