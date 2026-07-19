@@ -90,7 +90,7 @@
     "dimensions": "163.45×78.27×8.46mm",
     "ip_rating": "IP68/IP69K",
     "reverse_charging_w": 22.5,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1255,14 +1255,15 @@
     "screen_size": 6.85,
     "battery_mah": 8000,
     "weight_g": 228,
-    "camera_desc": "50MP主摄 1/1.57 | 50MP超广 | 50MP长焦 | 16MP前置",
+    "camera_desc": "50MP GN5主摄 | 50MP超广 | 50MP 3x长焦 | 16MP前置",
     "has_tele": true,
     "features": [
       "NFC",
       "红外遥控",
       "散热风扇",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP54"
     ],
     "screen_form": "直屏",
     "tags": [
@@ -1273,7 +1274,9 @@
       "NFC",
       "红外",
       "散热风扇",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "潜望长焦"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 80,
@@ -1284,11 +1287,11 @@
     "storage": "256GB/512GB/1TB",
     "source_url": "https://www.ithome.com/0/951/889.htm",
     "verified_at": "2026-05-18",
-    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 OIS | 超广: 50MP f/2.0 | 长焦: 50MP | 前置: 16MP",
+    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 23mm OIS | 超广: 50MP f/2.0 15mm | 长焦: 50MP f/2.4 3x | 前置: 16MP f/2.0",
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1301,7 +1304,8 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
+    "ip_rating": "IP54"
   },
   {
     "id": 21,
@@ -1311,7 +1315,7 @@
     "screen_size": 6.85,
     "battery_mah": 8000,
     "weight_g": 225,
-    "camera_desc": "50MP主摄 1/1.57 | 50MP超广 | 50MP长焦 | 16MP前置",
+    "camera_desc": "50MP GN5 | 50MP超广 | 50MP 3x | 16MP前置",
     "has_tele": true,
     "features": [
       "NFC",
@@ -1340,7 +1344,7 @@
     "storage": "256GB",
     "source_url": "https://www.ithome.com/0/951/889.htm",
     "verified_at": "2026-05-18",
-    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 | 超广: 50MP | 长焦: 50MP | 前置: 16MP",
+    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 23mm | 超广: 50MP f/2.0 | 长焦: 50MP f/2.4 3x | 前置: 16MP f/2.0",
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
@@ -1435,7 +1439,7 @@
     "battery_mah": 7050,
     "charging_w": 100,
     "weight_g": 235,
-    "camera_desc": "2亿主摄 1/1.12 | 50MP超广 1/1.95 | 2亿长焦 1/1.28 | 50MP长焦 | 32MP前置",
+    "camera_desc": "2亿主摄 | 50MP超广 | 2亿 3x长焦 | 50MP超长焦 | 32MP前置",
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
@@ -1444,7 +1448,9 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1459,7 +1465,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-901 2亿 1/1.12\" f/1.5 23mm OIS | 超广: 50MP 1/1.95\" f/2.0 14mm 123° | 长焦: 豪威OV52A 2亿 1/1.28\" f/2.2 70mm | 超长焦: 50MP OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼LYT-901 2亿 1/1.12\" f/1.5 23mm OIS | 超广: 50MP 1/1.95\" f/2.0 14mm 123° | 长焦: 豪威OV52A 2亿 1/1.28\" f/2.2 70mm 3x | 超长焦: 50MP f/2.8 135mm OIS | 前置: 32MP f/2.0",
     "release_date": "2026-04-20",
     "price": 8499,
     "completeness_score": 94,
@@ -1473,7 +1479,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.82\" 3168×1440 OLED 144Hz"
+    "screen_detail": "6.82\" 3168×1440 OLED 144Hz",
+    "dimensions": "约162.3×76.7×8.7mm"
   },
   {
     "id": 28,
@@ -1489,7 +1496,7 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 230.5,
-    "camera_desc": "50MP主摄 | 50MP超广 | 2亿潜望 4x 1/1.4 | 13MP前置",
+    "camera_desc": "50MP可变光圈主摄 | 50MP超广 | 2亿 4x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
@@ -1497,7 +1504,9 @@
       "IPX8",
       "NFC",
       "红外",
-      "反向充电"
+      "反向充电",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "麒麟9030",
@@ -1510,7 +1519,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: XMAGE 50MP 可变光圈 f/1.4-4.0 OIS | 超广: 50MP f/2.2 | 潜望: 2亿 1/1.4\" RYYB f/2.6 4x OIS | 前置: 13MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.28\" 可变光圈 f/1.4-4.0 24mm OIS | 超广: 50MP f/2.2 13mm | 潜望: 2亿 1/1.4\" RYYB f/2.6 90mm 4x OIS | 前置: 13MP f/2.4",
     "release_date": "2026-04-20",
     "price": 6499,
     "network_model": "HBP-AL20",
@@ -1529,7 +1538,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2880×1308 OLED 120Hz"
+    "screen_detail": "6.9\" 2880×1308 OLED 120Hz",
+    "dimensions": "约163.5×77.0×8.5mm"
   },
   {
     "id": 27,
@@ -1598,14 +1608,15 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 213.5,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP潜望 4x | 13MP前置",
+    "camera_desc": "50MP可变光圈主摄 | 50MP超广 | 50MP 4x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
       "IP6X",
       "IPX8",
       "NFC",
-      "红外"
+      "红外",
+      "IP68"
     ],
     "tags": [
       "麒麟9030",
@@ -1618,7 +1629,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: XMAGE 50MP 可变光圈 f/1.4-4.0 OIS | 超广: 50MP f/2.2 | 潜望: 50MP 4x OIS | 前置: 13MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" 可变光圈 f/1.4-4.0 OIS | 超广: 50MP f/2.2 | 潜望: 50MP 4x OIS | 前置: 13MP",
     "release_date": "2026-04-20",
     "price": 5499,
     "network_model": "MLN-AL00",
@@ -1635,7 +1646,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.6\" 2760×1256 OLED 120Hz"
+    "screen_detail": "6.6\" 2760×1256 OLED 120Hz",
+    "dimensions": "约162.0×75.5×8.2mm"
   },
   {
     "id": 25,
@@ -1704,14 +1716,17 @@
     "battery_mah": 6600,
     "charging_w": 100,
     "weight_g": 229,
-    "camera_desc": "主摄 Sony LYT-818 50MP 35mm | 超广 LYT-818 50MP | 长焦 三星HP9 200MP 3.7x 蔡司APO",
+    "camera_desc": "2亿主摄蔡司 | 50MP超广 | 2亿 3.7x长焦 | 50MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
       "IP6X",
       "IPX8",
       "IPX9",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69",
+      "NFC"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -1720,12 +1735,13 @@
       "6500mAh+",
       "USB3.0",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-818 1/1.28\" 50MP f/1.69 OIS 蔡司（35mm人文） | 长焦: 三星HP9 1/1.4\" 200MP f/2.27 3.7x OIS 蔡司APO | 超广: 索尼LYT-818 1/1.28\" 50MP f/2.0 OIS | 前置: 50MP",
+    "detailed_camera": "主摄: 索尼 200MP 1/1.28\" f/1.6 23mm OIS 蔡司 | 超广: 50MP f/2.0 15mm 蔡司 | 长焦: 200MP 1/1.4\" f/2.6 85mm 3.7x OIS 蔡司 | 前置: 50MP f/2.0",
     "release_date": "2026-03-30",
     "price": 6999,
     "network_model": "V2547DA",
@@ -1743,7 +1759,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.82\" 3168×1440 OLED 120Hz"
+    "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
+    "dimensions": "约163.7×76.6×8.5mm"
   },
   {
     "id": 30,
@@ -1759,7 +1776,7 @@
     "battery_mah": 7100,
     "charging_w": 90,
     "weight_g": 203,
-    "camera_desc": "2亿主摄 1/1.4 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "2亿主摄蔡司 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -1780,7 +1797,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 2亿 1/1.4\" f/1.68 OIS 蔡司 | 超广: 50MP 蔡司 | 长焦: 50MP 3x OIS 蔡司 | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼 200MP 1/1.4\" f/1.68 23mm OIS 蔡司 | 超广: 50MP f/2.0 15mm 蔡司 | 长焦: 50MP f/2.6 70mm 3x OIS 蔡司 | 前置: 32MP f/2.0",
     "release_date": "2026-03-30",
     "price": 4999,
     "completeness_score": 100,
@@ -1808,7 +1825,7 @@
     "screen_size": 6.9,
     "battery_mah": 6000,
     "weight_g": 239,
-    "camera_desc": "50MP主摄 SC585XS 1/1.28\"可变光圈 | 40MP超广角 | 50MP双长焦(3.5x+6x)",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "charging_w": 100,
     "wireless_charging_w": 80,
@@ -1819,7 +1836,9 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "screen_form": "直屏",
     "id": 32,
@@ -1837,7 +1856,7 @@
     "price": 8499,
     "ram": "16GB",
     "storage": "1TB",
-    "detailed_camera": "主摄: 50MP RYYB 思特威SC585XS 1/1.28\" f/1.4-f/4.0可变光圈 OIS | 超广: 40MP f/2.2 | 长焦: 50MP 3.5x OIS | 超长焦: 50MP 6x OIS | 前置: 13MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 48MP f/3.0 90mm 3.5x OIS | 前置: 13MP f/2.4",
     "network_model": "SGT-AL10",
     "resolution": "2720×1260",
     "screen_type": "LTPO OLED",
@@ -1856,7 +1875,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2720×1260 LTPO OLED 120Hz"
+    "screen_detail": "6.9\" 2720×1260 LTPO OLED 120Hz",
+    "dimensions": "约163.5×78.5×8.3mm"
   },
   {
     "brand": "Apple",
@@ -2057,7 +2077,7 @@
     "wireless_charging_w": 15,
     "weight_g": 214,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "200MP主摄 1/1.3 | 50MP超广 | 10MP长焦 3x | 50MP潜望 5x | 12MP前置",
+    "camera_desc": "200MP主摄 | 50MP超广 | 10MP 3x | 50MP 5x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -2065,7 +2085,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2095,7 +2116,8 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.8\" 3088×1440 OLED 120Hz"
+    "screen_detail": "6.8\" 3088×1440 OLED 120Hz",
+    "dimensions": "约162.8×77.6×8.2mm"
   },
   {
     "model": "Galaxy S26+",
@@ -2108,7 +2130,7 @@
     "wireless_charging_w": 15,
     "weight_g": 190,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "50MP主摄 1/1.56 | 12MP超广 | 10MP长焦 3x | 12MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP 3x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -2116,7 +2138,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2132,7 +2155,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 3x OIS | 前置: 12MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 69mm 3x OIS | 前置: 12MP f/2.2 26mm",
     "release_date": "2026-02-25",
     "price": 9599,
     "id": 38,
@@ -2147,7 +2170,8 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.8\" 3120×1440 OLED 120Hz"
+    "screen_detail": "6.8\" 3120×1440 OLED 120Hz",
+    "dimensions": "约158.4×75.7×7.3mm"
   },
   {
     "model": "Galaxy S26",
@@ -2160,7 +2184,7 @@
     "wireless_charging_w": 15,
     "weight_g": 167,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "50MP主摄 1/1.56 | 12MP超广 | 10MP长焦 3x | 12MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP 3x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -2185,7 +2209,7 @@
     "brand": "Samsung",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 3x OIS | 前置: 12MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 69mm 3x OIS | 前置: 12MP f/2.2 26mm",
     "release_date": "2026-02-25",
     "price": 6999,
     "id": 37,
@@ -2268,12 +2292,13 @@
     "battery_mah": 7000,
     "charging_w": 120,
     "weight_g": 200,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP潜望 3.5x | 50MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3.5x潜望 | 50MP前置",
     "has_tele": true,
     "os": "Android",
     "features": [
       "NFC",
-      "IP68"
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "潜望长焦",
@@ -2287,7 +2312,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.2 Gen 2",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 50MP f/2.0 | 潜望长焦: 50MP f/2.6 3.5x OIS | 前置: 50MP",
+    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.3\" f/1.6 23mm OIS | 超广: 50MP f/2.0 14mm | 潜望长焦: 50MP 1/2.5\" f/2.6 80mm 3.5x OIS | 前置: 50MP f/2.0",
     "release_date": "2026-01-19",
     "price": 7999,
     "completeness_score": 94,
@@ -2300,7 +2325,8 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.58\" 2400×1080 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "约161.0×75.5×8.0mm"
   },
   {
     "brand": "HONOR",
@@ -2309,7 +2335,7 @@
     "screen_size": 6.71,
     "battery_mah": 7200,
     "weight_g": 175,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP长焦 3.5x | 50MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3.5x | 50MP前置",
     "has_tele": true,
     "charging_w": 100,
     "wireless_charging_w": 50,
@@ -2337,7 +2363,7 @@
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "2800×1280",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP f/2.4 3.5x OIS | 前置: 50MP",
+    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP f/2.4 3.5x OIS | 前置: 50MP",
     "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
@@ -2412,7 +2438,7 @@
     "battery_mah": 6800,
     "charging_w": 90,
     "weight_g": 223,
-    "camera_desc": "50MP主摄 1/1.3 | 50MP超广 | 50MP潜望 5x | 32MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 50MP超广 | 50MP 5x潜望 | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
@@ -2422,7 +2448,8 @@
       "红外遥控",
       "5G",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2438,7 +2465,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 2",
-    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.3\" f/1.6 OIS | 超广: 50MP f/2.2 | 潜望长焦: 50MP 5x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS | 超广: 50MP f/2.2 14mm | 潜望长焦: 50MP f/2.8 115mm 5x OIS | 前置: 32MP f/2.0",
     "release_date": "2025-12-25",
     "price": 6999,
     "completeness_score": 94,
@@ -2452,7 +2479,8 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "dimensions": "约161.5×75.5×9.0mm"
   },
   {
     "id": 52,
@@ -2468,7 +2496,7 @@
     "battery_mah": 5600,
     "charging_w": 66,
     "weight_g": 217,
-    "camera_desc": "5000万主摄 | 5000万长焦",
+    "camera_desc": "50MP RYYB主摄 | 13MP超广 | 50MP 5x长焦 | 8MP前置",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
@@ -2489,7 +2517,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 13MP | 长焦 50MP 5x OIS | 前置 8MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 超广: 13MP f/2.2 | 长焦: 50MP 5x OIS | 前置: 8MP f/2.2",
     "release_date": "2025-12-01",
     "price": 12999,
     "screen_unfolded": {
@@ -2517,7 +2545,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏"
+    "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏",
+    "dimensions": "展开约156.8×144.0×4.5mm"
   },
   {
     "id": 51,
@@ -2853,7 +2882,7 @@
     "wireless_charging_w": 50,
     "weight_g": 201,
     "os": "MagicOS 10 / Android 16",
-    "camera_desc": "50MP主摄 | 50MP长焦 | 12MP超广 | 50MP前置",
+    "camera_desc": "50MP主摄 | 50MP 3x | 12MP超广 | 50MP前置",
     "has_tele": true,
     "usb_version": "USB 2.0",
     "features": [
@@ -2879,7 +2908,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
-    "detailed_camera": "主摄: 豪威OV50H 50MP f/1.6 OIS | 长焦: 50MP f/2.4 OIS | 超广: 12MP f/2.2 | 前置: 50MP",
+    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.55\" f/1.6 23mm OIS | 长焦: 50MP f/2.4 70mm 3x OIS | 超广: 12MP f/2.2 112° | 前置: 50MP f/2.0",
     "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
@@ -2959,23 +2988,27 @@
     "battery_mah": 5600,
     "charging_w": 66,
     "weight_g": 298,
-    "camera_desc": "50MP主摄 f/1.7 OIS | 13MP超广角 | 12MP长焦(5.5x)",
+    "camera_desc": "50MP RYYB主摄 | 13MP超广 | 12MP 5.5x长焦 | 8MP前置",
     "has_tele": true,
     "os": "HarmonyOS 5.1",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IPX8",
+      "NFC"
     ],
     "tags": [
       "麒麟9020",
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.1 Gen1",
-    "detailed_camera": "后置: 50MP主摄 f/1.7 OIS | 超广: 13MP f/2.2 | 长焦: 12MP RYYB 5.5x OIS | 前置: 8MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 超广: 13MP f/2.2 13mm | 长焦: 12MP RYYB f/3.4 5.5x OIS | 前置: 8MP f/2.2",
     "release_date": "2025-11-01",
     "price": 17999,
     "screen_unfolded": {
@@ -2993,7 +3026,7 @@
     "has_ir": true,
     "network_model": "GRL-AL20",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "SCP",
       "FCP",
@@ -3003,7 +3036,9 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "7.9\" 2400×1080 折叠屏 120Hz 折叠屏"
+    "screen_detail": "7.9\" 2400×1080 折叠屏 120Hz 折叠屏",
+    "ip_rating": "IPX8",
+    "dimensions": "展开约156.7×143.9×4.8mm"
   },
   {
     "id": 64,
@@ -3019,7 +3054,7 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 249,
-    "camera_desc": "50MP主摄 SC585XS 1/1.28\"可变光圈 | 40MP超广角 | 50MP双长焦(3.5x+6x)",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
@@ -3027,7 +3062,9 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "麒麟9030",
@@ -3042,7 +3079,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 50MP RYYB 思特威SC585XS 1/1.28\" f/1.4-f/4.0可变光圈 OIS | 超广: 40MP f/2.2 | 长焦: 50MP 3.5x OIS | 超长焦: 50MP 6x OIS | 前置: 13MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 48MP f/3.0 90mm 3.5x OIS | 前置: 13MP f/2.4",
     "release_date": "2025-11-01",
     "price": 11999,
     "status": "unreleased",
@@ -3061,7 +3098,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2720×1260 OLED 120Hz"
+    "screen_detail": "6.9\" 2720×1260 OLED 120Hz",
+    "dimensions": "约162.0×76.0×8.4mm"
   },
   {
     "id": 63,
@@ -3077,7 +3115,7 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 239,
-    "camera_desc": "50MP主摄 1/1.3 | 40MP超广 | 48MP潜望 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
@@ -3085,7 +3123,9 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "麒麟9030",
@@ -3100,7 +3140,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.1 Gen 1",
-    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 超广: 40MP | 潜望长焦: 48MP OIS | 前置: 13MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 48MP f/3.0 90mm 3.5x OIS | 前置: 13MP f/2.4",
     "release_date": "2025-11-01",
     "price": 7999,
     "thickness_mm": 8.25,
@@ -3119,7 +3159,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2848×1320 双层OLED 120Hz"
+    "screen_detail": "6.9\" 2848×1320 双层OLED 120Hz",
+    "dimensions": "约163.5×78.5×8.3mm"
   },
   {
     "id": 61,
@@ -3307,7 +3348,7 @@
     "battery_mah": 7560,
     "charging_w": 120,
     "weight_g": 218,
-    "camera_desc": "50MP主摄 1/1.3 | 32MP超广 | 50MP长焦 3.2x | 32MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 32MP超广 | 50MP 3.2x | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
@@ -3330,7 +3371,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.3\" f/1.6 OIS | 超广: 32MP f/2.0 | 长焦: 50MP f/2.0 3.2x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS | 超广: 32MP f/2.0 | 长焦: 50MP f/2.0 70mm 3.2x OIS | 前置: 32MP f/2.0",
     "release_date": "2025-11-01",
     "price": 3999,
     "date_precision": "month",
@@ -3626,7 +3667,7 @@
     "battery_mah": 7500,
     "charging_w": 80,
     "weight_g": 224,
-    "camera_desc": "50MP主摄 1/1.4 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
@@ -3635,7 +3676,9 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "天玑9500",
@@ -3728,12 +3771,14 @@
     "screen_size": 6.71,
     "battery_mah": 7200,
     "weight_g": 219,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP潜望 3x | 50MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x潜望 | 50MP前置",
     "has_tele": true,
     "features": [
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "screen_form": "直屏",
     "id": 68,
@@ -3745,11 +3790,12 @@
       "USB3.0",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 50MP f/2.0 | 潜望长焦: 50MP 3x OIS | 前置: 50MP",
+    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.3\" f/1.6 OIS | 超广: 50MP f/2.0 | 潜望长焦: 50MP 3x OIS | 前置: 50MP f/2.0",
     "charging_w": 120,
     "release_date": "2025-10-15",
     "price": 4499,
@@ -3759,7 +3805,7 @@
     "screen_type": "OLED",
     "resolution": "2800×1280",
     "os": "MagicOS",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3769,7 +3815,8 @@
     "charge_protocols_confidence": "high",
     "network_model": "BKQ-AN10",
     "network_model_source": "kalvo",
-    "screen_detail": "6.71\" 2800×1280 OLED 120Hz"
+    "screen_detail": "6.71\" 2800×1280 OLED 120Hz",
+    "ip_rating": "IP68/IP69"
   },
   {
     "brand": "HONOR",
@@ -3778,12 +3825,13 @@
     "screen_size": 6.58,
     "battery_mah": 7000,
     "weight_g": 205,
-    "camera_desc": "50MP主摄 | 64MP潜望 3x | 12MP超广 | 50MP前置",
+    "camera_desc": "50MP主摄 | 64MP 3x潜望 | 12MP超广 | 50MP前置",
     "has_tele": true,
     "features": [
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 69,
@@ -3795,11 +3843,12 @@
       "USB3.0",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP f/1.9 | 潜望长焦: 64MP 3x OIS | 超广: 12MP | 前置: 50MP",
+    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.9 23mm OIS | 潜望长焦: 64MP 1/2.0\" f/2.5 70mm 3x OIS | 超广: 12MP f/2.2 | 前置: 50MP f/2.0",
     "charging_w": 80,
     "release_date": "2025-10-15",
     "price": 4499,
@@ -3809,7 +3858,7 @@
     "screen_type": "OLED",
     "resolution": "2800×1280",
     "os": "MagicOS",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3820,7 +3869,8 @@
     "charge_protocols_confidence": "medium",
     "network_model": "BKQ-AN00",
     "network_model_source": "kalvo",
-    "screen_detail": "6.58\" 2800×1280 OLED 120Hz"
+    "screen_detail": "6.58\" 2800×1280 OLED 120Hz",
+    "ip_rating": "IP68"
   },
   {
     "id": 71,
@@ -3836,7 +3886,7 @@
     "battery_mah": 6500,
     "charging_w": 90,
     "weight_g": 221,
-    "camera_desc": "2亿主摄 | 50MP超广 | 2亿长焦 3.7x | 50MP前置",
+    "camera_desc": "2亿主摄蔡司 | 50MP超广 | 2亿 3.7x | 50MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -3857,7 +3907,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 2亿 f/1.6 OIS 蔡司 | 超广: 50MP 蔡司 | 长焦: 2亿 3.7x OIS 蔡司 | 前置: 50MP",
+    "detailed_camera": "主摄: 索尼 200MP 1/1.28\" f/1.6 OIS 蔡司 | 超广: 50MP 蔡司 | 长焦: 200MP 3.7x OIS 蔡司 | 前置: 50MP",
     "release_date": "2025-10-13",
     "price": 5299,
     "network_model": "V2502A",
@@ -3946,7 +3996,7 @@
     "battery_mah": 7400,
     "charging_w": 100,
     "weight_g": 227,
-    "camera_desc": "50MP主摄 1/1.56 | 50MP超广 | 50MP潜望 1/1.95 | 32MP前置",
+    "camera_desc": "50MP IMX921主摄 | 50MP超广 | 50MP 3x潜望 | 32MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -3955,7 +4005,9 @@
       "NFC",
       "红外",
       "自研电竞芯片 Q3",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -3971,7 +4023,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.88 OIS | 超广: 50MP f/2.05 | 潜望: 索尼LYT-882 50MP 1/1.95\" f/2.65 OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.88 23mm OIS | 超广: 50MP f/2.05 15mm | 潜望: 索尼LYT-882 50MP 1/1.95\" f/2.65 70mm 3x OIS | 前置: 32MP f/2.0",
     "release_date": "2025-10-01",
     "price": 6499,
     "network_model": "V2546A",
@@ -3988,7 +4040,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "dimensions": "约163.5×76.5×8.4mm"
   },
   {
     "id": 72,
@@ -4004,7 +4057,7 @@
     "battery_mah": 7000,
     "charging_w": 100,
     "weight_g": 212,
-    "camera_desc": "50MP主摄 1/1.56 | 50MP超广 | 50MP长焦 3x | 16MP前置",
+    "camera_desc": "50MP IMX921 | 50MP超广 | 50MP 3x | 16MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -4012,7 +4065,9 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4028,7 +4083,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.57 OIS | 超广: 50MP f/2.05 | 长焦: 50MP 3x OIS | 前置: 16MP",
+    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.57 23mm OIS | 超广: 50MP f/2.05 15mm | 长焦: 50MP f/2.6 70mm 3x OIS | 前置: 16MP f/2.0",
     "release_date": "2025-10-01",
     "price": 4299,
     "network_model": "V2505A",
@@ -4044,7 +4099,8 @@
     "charge_protocols_confidence": "high",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz",
+    "dimensions": "约163.5×76.0×8.2mm"
   },
   {
     "brand": "OnePlus",
@@ -4117,7 +4173,7 @@
     "battery_mah": 7500,
     "charging_w": 100,
     "weight_g": 219,
-    "camera_desc": "50MP主摄 1/1.3 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
@@ -4128,7 +4184,8 @@
       "红外遥控",
       "5G",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4174,7 +4231,7 @@
     "battery_mah": 6300,
     "charging_w": 100,
     "weight_g": 192,
-    "camera_desc": "50MP主摄 1/1.3 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
@@ -4185,7 +4242,8 @@
       "红外遥控",
       "5G",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4286,7 +4344,7 @@
     "screen_size": 6.9,
     "battery_mah": 4850,
     "weight_g": 231,
-    "camera_desc": "48MP主摄 1/1.14 | 48MP超广 | 48MP潜望 10x | 12MP前置",
+    "camera_desc": "48MP主摄 | 48MP超广 | 48MP 10x潜望 | 12MP前置",
     "has_tele": true,
     "features": [
       "IP6X",
@@ -4310,7 +4368,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.14\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 潜望长焦: 48MP f/2.8 10x OIS | 前置: 12MP f/1.9",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.14\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 潜望长焦: 48MP f/2.8 240mm 10x OIS | 前置: 12MP f/1.9 23mm",
     "charging_w": 45,
     "release_date": "2025-09-09",
     "price": 9999,
@@ -4331,7 +4389,8 @@
     "resolution": "2868×1320",
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2868×1320 OLED 120Hz"
+    "screen_detail": "6.9\" 2868×1320 OLED 120Hz",
+    "dimensions": "约163.4×78.0×8.75mm"
   },
   {
     "brand": "Apple",
@@ -4340,7 +4399,7 @@
     "screen_size": 6.3,
     "battery_mah": 4850,
     "weight_g": 199,
-    "camera_desc": "48MP主摄 1/1.14 | 48MP超广 | 48MP潜望 5x | 12MP前置",
+    "camera_desc": "48MP主摄 | 48MP超广 | 48MP 5x潜望 | 12MP前置",
     "has_tele": true,
     "features": [
       "IP6X",
@@ -4365,7 +4424,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.14\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 潜望长焦: 48MP f/2.8 5x OIS | 前置: 12MP f/1.9",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.14\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 潜望长焦: 48MP f/2.8 120mm 5x OIS | 前置: 12MP f/1.9 23mm",
     "charging_w": 45,
     "release_date": "2025-09-09",
     "price": 8999,
@@ -4386,7 +4445,8 @@
     "resolution": "2622×1206",
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.3\" 2622×1206 OLED 120Hz"
+    "screen_detail": "6.3\" 2622×1206 OLED 120Hz",
+    "dimensions": "约150.0×71.9×8.75mm"
   },
   {
     "brand": "Apple",
@@ -4417,7 +4477,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 48MP f/1.6 26mm OIS | 前置: 12MP f/2.0 23mm",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 前置: 12MP f/2.0 23mm",
     "charging_w": 30,
     "release_date": "2025-09-09",
     "price": 7999,
@@ -4438,7 +4498,8 @@
     "os": "iOS 18",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2700×1220 OLED 120Hz"
+    "screen_detail": "6.7\" 2700×1220 OLED 120Hz",
+    "dimensions": "约156.2×74.7×5.5mm"
   },
   {
     "brand": "Apple",
@@ -4447,7 +4508,7 @@
     "screen_size": 6.1,
     "battery_mah": 4850,
     "weight_g": 177,
-    "camera_desc": "48MP主摄 | 48MP超广 | 48MP长焦 5x | 12MP前置",
+    "camera_desc": "48MP主摄 | 48MP超广 | 48MP 5x长焦 | 12MP前置",
     "has_tele": true,
     "features": [
       "IP6X",
@@ -4471,7 +4532,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 48MP f/1.6 26mm OIS | 超广: 48MP f/2.2 | 长焦: 48MP 5x OIS | 前置: 12MP",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 超广: 48MP f/2.2 13mm | 长焦: 48MP f/2.8 120mm 5x OIS | 前置: 12MP f/1.9 23mm",
     "charging_w": 45,
     "release_date": "2025-09-09",
     "price": 5999,
@@ -4491,7 +4552,8 @@
     "os": "iOS 26",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.1\" 2556×1179 OLED 120Hz"
+    "screen_detail": "6.1\" 2556×1179 OLED 120Hz",
+    "dimensions": "约147.6×71.6×7.8mm"
   },
   {
     "id": 82,
@@ -4635,7 +4697,7 @@
     "battery_mah": 6800,
     "charging_w": 90,
     "weight_g": 229,
-    "camera_desc": "50MP主摄 1/1.3 | 50MP超广 | 50MP潜望 5x | 32MP前置",
+    "camera_desc": "50MP 1/1.3\"徕卡主摄 | 50MP超广 | 50MP 5x潜望 | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS3",
     "features": [
@@ -4646,7 +4708,8 @@
       "5G",
       "徕卡影像",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -4662,7 +4725,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 2",
-    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.3\" f/1.6 OIS 徕卡 | 超广: 50MP f/2.2 徕卡 | 潜望长焦: 50MP 5x OIS 徕卡 | 前置: 32MP",
+    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS 徕卡 | 超广: 50MP f/2.2 14mm 徕卡 | 潜望长焦: 50MP f/2.8 115mm 5x OIS 徕卡 | 前置: 32MP f/2.0",
     "release_date": "2025-09-01",
     "price": 7999,
     "date_precision": "month",
@@ -4677,7 +4740,8 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "dimensions": "约161.5×75.5×9.2mm"
   },
   {
     "id": 92,
@@ -4711,7 +4775,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP 1/1.3\" OIS | 长焦: 12MP RYYB OIS | 超广: 8MP 微距 | 前置: 13MP",
+    "detailed_camera": "主摄: 50MP 1/1.3\" f/1.4-4.0 OIS | 长焦: 12MP RYYB OIS | 超广: 8MP 微距 | 前置: 13MP",
     "release_date": "2025-09-01",
     "price": 4199,
     "network_model": "SUP-AL90a",
@@ -4738,7 +4802,7 @@
     "screen_size": 6.78,
     "battery_mah": 7300,
     "weight_g": 215,
-    "camera_desc": "50MP主摄 1/1.4 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP LYT-808主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "features": [
       "IP6X",
@@ -4748,7 +4812,9 @@
       "NFC",
       "红外遥控",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "screen_form": "直屏",
     "id": 90,
@@ -4765,7 +4831,7 @@
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 OIS | 超广: 50MP | 长焦: 50MP 3x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 超广: 50MP f/2.0 15mm | 长焦: 50MP f/2.6 70mm 3x OIS | 前置: 32MP f/2.0",
     "charging_w": 120,
     "release_date": "2025-09-01",
     "price": 3999,
@@ -4789,7 +4855,8 @@
     "network_model": "PLK110",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 1272×2772 OLED 120Hz"
+    "screen_detail": "6.78\" 1272×2772 OLED 120Hz",
+    "dimensions": "约161.8×75.6×8.2mm"
   },
   {
     "brand": "realme",
@@ -5482,7 +5549,7 @@
     "release_date": "2025-08-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 81,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -5505,14 +5572,15 @@
     "wireless_charging_w": 15,
     "weight_g": 309,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "200MP主摄 | 12MP超广 | 10MP长焦 3x | 10MP前置",
+    "camera_desc": "200MP主摄 | 12MP超广 | 10MP 3x长焦 | 10MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP48"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5526,7 +5594,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 200MP f/1.7 OIS | 超广: 12MP f/2.2 | 长焦: 10MP f/2.4 3x OIS | 前置: 10MP f/2.2",
+    "detailed_camera": "主摄: 三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 70mm 3x OIS | 前置: 10MP f/2.2",
     "release_date": "2025-07-01",
     "price": 19999,
     "id": 116,
@@ -5553,7 +5621,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "10.0\" 2400×1916 / 2520×1080 Dynamic AMOLED 2X 120Hz 折叠屏"
+    "screen_detail": "10.0\" 2400×1916 / 2520×1080 Dynamic AMOLED 2X 120Hz 折叠屏",
+    "dimensions": "展开态约158×143×4.9mm"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -5566,14 +5635,15 @@
     "wireless_charging_w": 15,
     "weight_g": 215,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "200MP主摄 | 12MP超广 | 10MP长焦 3x | 10MP前置",
+    "camera_desc": "200MP主摄 | 12MP超广 | 10MP 3x | 10MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP48"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5587,7 +5657,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 200MP f/1.7 OIS | 超广: 12MP f/2.2 | 长焦: 10MP f/2.4 3x OIS | 前置: 10MP f/2.2",
+    "detailed_camera": "主摄: 三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 超广: 12MP f/2.2 13mm | 长焦: 10MP f/2.4 3x OIS | 前置: 10MP f/2.2",
     "release_date": "2025-07-01",
     "price": 12999,
     "id": 115,
@@ -5615,7 +5685,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "7.6\" 2160×1856 / 2376×968 折叠屏 120Hz 折叠屏"
+    "screen_detail": "7.6\" 2160×1856 / 2376×968 折叠屏 120Hz 折叠屏",
+    "dimensions": "展开约158.0×143.2×4.5mm"
   },
   {
     "brand": "HONOR",
@@ -5624,7 +5695,7 @@
     "screen_size": 7.95,
     "battery_mah": 6850,
     "weight_g": 236,
-    "camera_desc": "50MP主摄 1/1.56 | 64MP潜望 3x | 50MP超广 | 20MP前置",
+    "camera_desc": "50MP主摄 | 64MP 3x潜望 | 50MP超广 | 20MP前置",
     "has_tele": true,
     "charging_w": 66,
     "wireless_charging_w": 66,
@@ -5665,7 +5736,7 @@
     },
     "fold_type": "横向折叠",
     "resolution": "2376×1060",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.6 23mm OIS | 潜望: 64MP f/2.5 3x OIS | 超广: 50MP f/2.2 13mm 122° | 前置: 20MP f/2.2",
+    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.56\" f/1.6 23mm OIS | 潜望: 64MP 1/2.0\" f/2.5 70mm 3x OIS | 超广: 50MP f/2.2 13mm 122° | 前置: 20MP f/2.2",
     "network_model": "PNM-AN10",
     "date_precision": "month",
     "completeness_score": 100,
@@ -5695,14 +5766,15 @@
     "wireless_charging_w": 15,
     "weight_g": 188,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "后置 5000万(F1.8 OIS)+1200万(F2.2超广角) | 前置 1000万(F2.2)",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP前置",
     "has_tele": false,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP48"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5716,7 +5788,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: GN5 50MP f/1.8 | 超广: 后置 5000万(f/1.8 OIS)+1200万(f/2.2超广角) | 前置 1000万(f/2.2)",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.57\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 前置: 10MP f/2.2 23mm",
     "release_date": "2025-07-01",
     "price": 7999,
     "id": 113,
@@ -5744,7 +5816,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2640×1080 / 1066×1056 折叠屏 120Hz 折叠屏"
+    "screen_detail": "6.7\" 2640×1080 / 1066×1056 折叠屏 120Hz 折叠屏",
+    "dimensions": "展开约166.7×75.1×6.5mm"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -5757,7 +5830,7 @@
     "wireless_charging_w": 15,
     "weight_g": 187,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "50MP主摄 1/1.57 | 12MP超广 | 10MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP前置",
     "has_tele": false,
     "usb_version": "USB 2.0",
     "features": [
@@ -5776,7 +5849,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: 50MP 1/1.57\" f/1.8 OIS | 超广: 12MP f/2.2 | 前置: 10MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.57\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm | 前置: 10MP f/2.2 23mm",
     "release_date": "2025-07-01",
     "price": 6999,
     "id": 112,
@@ -5816,10 +5889,12 @@
     "screen_size": 6.85,
     "battery_mah": 7500,
     "weight_g": 228,
-    "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
+    "camera_desc": "50MP GN5主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "NFC",
+      "散热风扇"
     ],
     "screen_form": "直屏",
     "id": 111,
@@ -5827,7 +5902,9 @@
       "骁龙8 Elite 5",
       "6500mAh+",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "NFC",
+      "散热风扇"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5836,7 +5913,7 @@
     "price": 5699,
     "ram": "16GB/24GB",
     "storage": "512GB/1TB",
-    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 | 超广: 8MP f/2.2 | 前置: 16MP f/2.0",
+    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 23mm | 超广: 8MP f/2.2 15mm | 前置: 16MP f/2.0",
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
@@ -5862,10 +5939,12 @@
     "screen_size": 6.85,
     "battery_mah": 8000,
     "weight_g": 225,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP长焦 | 16MP前置",
+    "camera_desc": "50MP GN5 | 50MP超广 | 50MP 3x | 16MP前置",
     "has_tele": true,
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "NFC",
+      "散热风扇"
     ],
     "screen_form": "直屏",
     "id": 110,
@@ -5874,7 +5953,9 @@
       "潜望长焦",
       "6500mAh+",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "NFC",
+      "散热风扇"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -5883,7 +5964,7 @@
     "price": 4999,
     "ram": "16GB/24GB",
     "storage": "512GB/1TB",
-    "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 超广: 50MP | 长焦: 50MP | 前置: 16MP",
+    "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 23mm | 超广: 50MP f/2.0 | 长焦: 50MP 3x | 前置: 16MP",
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
@@ -6230,14 +6311,17 @@
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 225,
-    "camera_desc": "1英寸大底主摄 | 潜望长焦",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 50MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
       "IP6X",
       "IPX8",
       "XMAGE影像",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69",
+      "NFC"
     ],
     "tags": [
       "麒麟9020",
@@ -6245,12 +6329,13 @@
       "无线充电",
       "USB3.0",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄 50MP 1英寸 RYYB f/1.6-f/4.0可变光圈 OIS | 超广 40MP f/2.2 RYYB | 潜望长焦 50MP 1/1.28\" RYYB 3.7x-9.4x OIS | 前置 13MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 50MP f/2.1 90mm 3.5x OIS | 前置: 13MP f/2.4",
     "release_date": "2025-06-01",
     "price": 9999,
     "date_precision": "month",
@@ -6267,7 +6352,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.8\" 2844×1312 OLED 120Hz"
+    "screen_detail": "6.8\" 2844×1312 OLED 120Hz",
+    "dimensions": "约163.0×76.1×8.3mm"
   },
   {
     "id": 131,
@@ -6283,7 +6369,7 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 236,
-    "camera_desc": "50MP主摄 1/1.56 | 50MP长焦 3x | 50MP超广 | 20MP前置",
+    "camera_desc": "50MP主摄蔡司 | 50MP 3x长焦 | 50MP超广 | 20MP前置",
     "has_tele": true,
     "os": "OriginOS",
     "features": [
@@ -6303,7 +6389,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.6 23mm OIS | 长焦: 50MP 3x OIS | 超广: 50MP f/2.1 15mm 119° | 前置: 20MP",
+    "detailed_camera": "主摄: 索尼IMX866 50MP 1/1.56\" f/1.6 23mm OIS 蔡司 | 长焦: 50MP 1/2.5\" f/2.6 70mm 3x OIS 蔡司 | 超广: 50MP f/2.1 15mm 119° 蔡司 | 前置: 20MP f/2.4",
     "release_date": "2025-06-01",
     "price": 8999,
     "screen_unfolded": {
@@ -6349,7 +6435,7 @@
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 215,
-    "camera_desc": "50MP主摄 | 40MP超广 | 50MP潜望 3.5x | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 50MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
@@ -6369,7 +6455,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 超广: 40MP f/2.2 | 潜望长焦: 50MP f/2.4 3.5x OIS | 前置: 13MP f/2.4",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 50MP f/2.4 80mm 3.5x OIS | 前置: 13MP f/2.4",
     "release_date": "2025-06-01",
     "price": 7999,
     "network_model": "LMR-AL10",
@@ -6387,7 +6473,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.8\" 2848×1276 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "约163.0×76.1×8.3mm"
   },
   {
     "id": 129,
@@ -6403,7 +6490,7 @@
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 210,
-    "camera_desc": "50MP主摄 | 40MP超广 | 48MP长焦 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP长焦 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
@@ -6423,7 +6510,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 超广: 40MP f/2.2 | 长焦: 48MP f/2.1 OIS | 前置: 13MP f/2.4",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 长焦: 48MP f/2.1 90mm OIS | 前置: 13MP f/2.4",
     "release_date": "2025-06-01",
     "price": 6499,
     "network_model": "LMR-AL00",
@@ -6441,7 +6528,8 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.8\" 2848×1276 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "约162.5×75.6×8.0mm"
   },
   {
     "id": 128,
@@ -7006,7 +7094,7 @@
     "screen_size": 7.7,
     "battery_mah": 5300,
     "weight_g": 229,
-    "camera_desc": "50MP主摄 RYYB f/1.6 OIS | 40MP超广角 | 50MP潜望长焦(3.5x)",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 50MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "charging_w": 66,
     "wireless_charging_w": 50,
@@ -7045,7 +7133,7 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "detailed_camera": "主摄: 50MP RYYB f/1.6 OIS | 超广: 40MP超广角 | 潜望: 50MP潜望长焦(3.5x)",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 超广: 40MP f/2.2 13mm | 潜望: 50MP f/2.4 3.5x OIS | 前置: 13MP f/2.4",
     "network_model": "HOP-AL00",
     "resolution": "2960×1376",
     "charge_protocols": [
@@ -7064,7 +7152,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "screen_detail": "7.7\" 2960×1376 折叠屏 120Hz 折叠屏",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "展开约150.0×165.0×7.2mm"
   },
   {
     "brand": "HONOR",
@@ -7262,7 +7351,7 @@
     "screen_size": 6.5,
     "battery_mah": 4720,
     "weight_g": 230,
-    "camera_desc": "50MP主摄 RYYB f/1.6 OIS | 50MP长焦(3.5x)",
+    "camera_desc": "50MP RYYB主摄 | 40MP超广 | 50MP 3.5x长焦 | 8MP前置",
     "has_tele": true,
     "charging_w": 66,
     "wireless_charging_w": 50,
@@ -7271,7 +7360,8 @@
     "features": [
       "有线投屏",
       "IP68",
-      "NFC"
+      "NFC",
+      "IPX8"
     ],
     "screen_form": "折叠屏",
     "id": 144,
@@ -7299,7 +7389,7 @@
       "refresh_hz": 60
     },
     "fold_type": "纵向折叠",
-    "detailed_camera": "主摄: 50MP RYYB f/1.6 OIS | 长焦: 50MP 3.5x OIS | 前置: 8MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 超广: 40MP f/2.2 | 长焦: 50MP 3.5x OIS | 前置: 8MP f/2.2",
     "network_model": "VDE-AL00",
     "resolution": "2700×1224",
     "screen_type": "LTPO OLED",
@@ -7319,7 +7409,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "screen_detail": "6.5\" 2700×1224 LTPO OLED 120Hz 折叠屏",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "展开约144.0×162.0×7.0mm"
   },
   {
     "model": "Galaxy A56 5G",
@@ -7469,7 +7560,7 @@
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 225,
-    "camera_desc": "2亿主摄 | 50MP超广 | 50MP长焦 | 32MP前置",
+    "camera_desc": "2亿主摄 | 50MP超广 | 50MP 3x长焦 | 32MP前置",
     "has_tele": true,
     "os": "ColorOS",
     "features": [
@@ -7490,7 +7581,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 2亿 f/1.8 OIS | 超广: 50MP f/2.0 | 长焦: 50MP f/2.7 OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼 200MP 1/1.4\" f/1.8 23mm OIS | 超广: 50MP f/2.0 14mm | 长焦: 50MP f/2.7 70mm 3x OIS | 前置: 32MP f/2.4",
     "release_date": "2025-02-01",
     "price": 10999,
     "screen_unfolded": {
@@ -7516,7 +7607,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "8.12\" 2480×2248 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "8.12\" 2480×2248 OLED折叠屏 120Hz 折叠屏",
+    "dimensions": "展开约160.9×145.5×4.3mm"
   },
   {
     "id": 145,
@@ -7532,7 +7624,7 @@
     "battery_mah": 5600,
     "charging_w": 80,
     "weight_g": 229,
-    "camera_desc": "50MP主摄 | 48MP超广 | 64MP潜望 5x | 8MP前置 | 8MP前置",
+    "camera_desc": "50MP主摄哈苏 | 48MP超广 | 64MP 5x潜望 | 双8MP前置",
     "has_tele": true,
     "os": "ColorOS",
     "features": [
@@ -7553,7 +7645,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP f/1.8 OIS 哈苏 | 超广: 48MP f/2.2 哈苏 | 潜望: 64MP f/2.6 5x OIS 哈苏 | 外屏前置: 8MP | 内屏前置: 8MP",
+    "detailed_camera": "主摄: 索尼 50MP 1/1.56\" f/1.8 24mm OIS 哈苏 | 超广: 48MP f/2.2 14mm 哈苏 | 潜望: 64MP 1/2.0\" f/2.6 5x OIS 哈苏 | 外屏前置: 8MP | 内屏前置: 8MP",
     "release_date": "2025-02-01",
     "price": 9999,
     "screen_unfolded": {
@@ -7580,7 +7672,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "8.12\" 2480×2248 / 2700×1220 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "8.12\" 2480×2248 / 2700×1220 OLED折叠屏 120Hz 折叠屏",
+    "dimensions": "展开约160.9×145.5×4.2mm"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -7593,7 +7686,7 @@
     "wireless_charging_w": 15,
     "weight_g": 218,
     "os": "One UI 7 / Android 15",
-    "camera_desc": "200MP主摄 1/1.3 | 50MP超广 | 10MP长焦 3x | 50MP潜望 5x | 12MP前置",
+    "camera_desc": "200MP主摄 | 50MP超广 | 10MP 3x | 50MP 5x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -7649,14 +7742,15 @@
     "wireless_charging_w": 15,
     "weight_g": 163,
     "os": "One UI 7 / Android 15",
-    "camera_desc": "后置 2亿(F1.7 OIS)+1200万(F2.2超广角) | 前置 1200万(F2.2)",
+    "camera_desc": "200MP主摄 | 12MP超广 | 12MP前置",
     "has_tele": false,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7670,7 +7764,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "128GB/256GB/512GB",
-    "detailed_camera": "主摄: GN3 50MP f/1.8 | 超广: 后置 2亿(f/1.7 OIS)+1200万(f/2.2超广角) | 前置 1200万(f/2.2)",
+    "detailed_camera": "主摄: 三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 超广: 12MP f/2.2 13mm | 前置: 12MP f/2.2 26mm",
     "release_date": "2025-01-01",
     "price": 7999,
     "id": 158,
@@ -7687,7 +7781,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz"
+    "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz",
+    "dimensions": "约151.3×71.2×5.8mm"
   },
   {
     "id": 159,
@@ -7703,8 +7798,8 @@
     "battery_mah": 5850,
     "charging_w": 100,
     "weight_g": 228,
-    "camera_desc": "50MP主摄 1/1.3 | 50MP超广 | 2亿潜望 3x 1/1.4 | 50MP前置",
-    "detailed_camera": "主摄: 豪威OV50K 50MP 1/1.3\" f/1.4-2.0 可变光圈 LOFIC OIS | 超广: 50MP 122° | 潜望: 2亿 1/1.4\" f/1.88 3x OIS | 前置: 50MP",
+    "camera_desc": "50MP可变光圈主摄 | 50MP超广 | 2亿 3x潜望 | 50MP前置",
+    "detailed_camera": "主摄: 豪威OV50K 50MP 1/1.3\" f/1.4-2.0 可变光圈 LOFIC OIS | 超广: 50MP f/2.0 122° | 潜望: 2亿 1/1.4\" f/1.88 70mm 3x OIS | 前置: 50MP f/2.0",
     "has_tele": true,
     "os": "MagicOS",
     "features": [
@@ -7713,7 +7808,9 @@
       "IPX9",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7745,7 +7842,8 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.8\" 2800×1280 OLED 120Hz 微曲屏"
+    "screen_detail": "6.8\" 2800×1280 OLED 120Hz 微曲屏",
+    "dimensions": "约162.3×76.5×8.1mm"
   },
   {
     "model": "Galaxy S25+",
@@ -7758,7 +7856,7 @@
     "wireless_charging_w": 15,
     "weight_g": 190,
     "os": "One UI 7 / Android 15",
-    "camera_desc": "50MP主摄 1/1.56 | 12MP超广 | 10MP长焦 3x | 12MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP 3x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -7781,7 +7879,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.8 OIS | 超广: 12MP f/2.2 120° | 长焦: 10MP f/2.4 3x OIS | 前置: 12MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 69mm 3x OIS | 前置: 12MP f/2.2",
     "release_date": "2025-01-01",
     "price": 6999,
     "id": 157,
@@ -7813,7 +7911,7 @@
     "wireless_charging_w": 15,
     "weight_g": 162,
     "os": "One UI 7 / Android 15",
-    "camera_desc": "50MP主摄 1/1.56 | 12MP超广 | 10MP长焦 3x | 12MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP 3x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -7836,7 +7934,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.8 OIS | 超广: 12MP f/2.2 120° | 长焦: 10MP f/2.4 3x OIS | 前置: 12MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 超广: 12MP f/2.2 13mm 120° | 长焦: 10MP f/2.4 3x OIS | 前置: 12MP f/2.2",
     "release_date": "2025-01-01",
     "price": 5999,
     "id": 156,
@@ -8323,12 +8421,13 @@
     "battery_mah": 5110,
     "charging_w": 66,
     "weight_g": 219,
-    "camera_desc": "5000万主摄 | 4800万长焦",
+    "camera_desc": "50MP RYYB主摄 | 13MP超广 | 48MP 5x长焦 | 8MP前置",
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IPX8"
     ],
     "tags": [
       "麒麟9030",
@@ -8336,12 +8435,13 @@
       "无线充电",
       "USB3.0",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 13MP | 长焦 48MP 5x OIS | 前置 8MP",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 超广: 13MP f/2.2 | 长焦: 48MP 5x OIS | 前置: 8MP f/2.2",
     "release_date": "2024-12-06",
     "price": 12999,
     "screen_unfolded": {
@@ -8357,7 +8457,7 @@
     "fold_type": "横向折叠",
     "thickness_mm": 7.95,
     "network_model": "GFY-AL00",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "SCP",
       "FCP",
@@ -8367,7 +8467,9 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏"
+    "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏",
+    "dimensions": "展开约156.7×143.9×4.6mm",
+    "ip_rating": "IPX8"
   },
   {
     "id": 172,
@@ -8992,7 +9094,7 @@
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 228,
-    "camera_desc": "50MP主摄 1/1.3 | 40MP超广 | 48MP潜望 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
@@ -9017,7 +9119,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 OIS | 超广: 40MP | 潜望长焦: 48MP OIS | 前置: 13MP",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 48MP f/3.0 90mm 3.5x OIS | 前置: 13MP f/2.4",
     "release_date": "2024-11-01",
     "price": 9999,
     "network_model": "HBN-AL00",
@@ -9032,7 +9134,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.82\" 2848×1312 OLED 120Hz"
+    "screen_detail": "6.82\" 2848×1312 OLED 120Hz",
+    "dimensions": "约163.2×79.5×8.2mm"
   },
   {
     "id": 182,
@@ -9048,7 +9151,7 @@
     "battery_mah": 5700,
     "charging_w": 100,
     "weight_g": 225,
-    "camera_desc": "50MP主摄 1/1.3 | 40MP超广 | 48MP潜望 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP 3.5x潜望 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
@@ -9073,7 +9176,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 OIS | 超广: 40MP | 潜望长焦: 48MP OIS | 前置: 13MP",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 48MP f/3.0 90mm 3.5x OIS | 前置: 13MP f/2.4",
     "release_date": "2024-11-01",
     "price": 8499,
     "network_model": "PLA-AL10",
@@ -9088,7 +9191,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.82\" 2848×1312 OLED 120Hz"
+    "screen_detail": "6.82\" 2848×1312 OLED 120Hz",
+    "dimensions": "约164.6×79.5×8.2mm"
   },
   {
     "id": 181,
@@ -9108,8 +9212,8 @@
     "usb_version": "USB 3.2",
     "weight_g": 195,
     "os": "HarmonyOS 6.1",
-    "camera_desc": "5000万(RYYB)",
-    "detailed_camera": "主摄 50MP RYYB f/1.6 OIS | 超广 13MP | 前置 8MP",
+    "camera_desc": "50MP RYYB主摄 | 13MP超广 | 8MP前置",
+    "detailed_camera": "主摄: XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 24mm OIS | 超广: 13MP f/2.2 13mm | 前置: 8MP f/2.2",
     "has_tele": false,
     "has_nfc": false,
     "has_ir": false,
@@ -9121,7 +9225,8 @@
     ],
     "features": [
       "NFC",
-      "IP68"
+      "IP68",
+      "IPX8"
     ],
     "screen_form": "直屏",
     "release_date": "2024-11-01",
@@ -9138,7 +9243,8 @@
     "charge_protocols_confidence": "medium",
     "usb_version_source": "series-default",
     "screen_detail": "6.9\" 2790×1188 / 1066×1056 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "折叠态约87.0×76.1×15.6mm"
   },
   {
     "id": 180,
@@ -9154,7 +9260,7 @@
     "battery_mah": 5500,
     "charging_w": 100,
     "weight_g": 221,
-    "camera_desc": "50MP主摄 1/1.3 | 40MP超广 | 48MP长焦 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP长焦 | 13MP前置",
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
@@ -9178,7 +9284,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 OIS | 超广: 40MP | 长焦: 48MP OIS | 前置: 13MP",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 长焦: 48MP f/2.1 90mm OIS | 前置: 13MP f/2.4",
     "release_date": "2024-11-01",
     "price": 6499,
     "thickness_mm": 8.2,
@@ -9194,7 +9300,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2832×1316 OLED 120Hz"
+    "screen_detail": "6.9\" 2832×1316 OLED 120Hz",
+    "dimensions": "约164.6×79.5×8.1mm"
   },
   {
     "brand": "Huawei",
@@ -9203,7 +9310,7 @@
     "screen_size": 6.82,
     "battery_mah": 5500,
     "weight_g": 220,
-    "camera_desc": "50MP主摄 1/1.3 | 40MP超广 | 48MP长焦 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 40MP超广 | 48MP长焦 | 13MP前置",
     "has_tele": true,
     "charging_w": 100,
     "wireless_charging_w": 80,
@@ -9234,7 +9341,7 @@
     "storage": "256GB/512GB",
     "network_model": "PLR-AL50",
     "resolution": "2688×1216",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 OIS | 超广: 40MP | 长焦: 48MP OIS | 前置: 13MP",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 24mm OIS | 超广: 40MP f/2.2 13mm | 长焦: 48MP f/2.1 90mm OIS | 前置: 13MP f/2.4",
     "screen_type": "LTPO OLED",
     "date_precision": "month",
     "completeness_score": 100,
@@ -9249,7 +9356,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.82\" 2688×1216 LTPO OLED 120Hz"
+    "screen_detail": "6.82\" 2688×1216 LTPO OLED 120Hz",
+    "dimensions": "约164.6×79.5×8.1mm"
   },
   {
     "id": 178,
@@ -9265,7 +9373,7 @@
     "battery_mah": 5300,
     "charging_w": 66,
     "weight_g": 203,
-    "camera_desc": "50MP主摄 1/1.3 | 13MP超广 | 13MP前置",
+    "camera_desc": "50MP 1/1.3\"主摄 | 13MP超广 | 13MP前置",
     "has_tele": false,
     "os": "HarmonyOS 4.3",
     "features": [
@@ -9288,7 +9396,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 OIS | 超广: 13MP | 前置: 13MP",
+    "detailed_camera": "主摄: 1/1.3\" RYYB 50MP f/1.4-4.0 24mm OIS | 超广: 13MP f/2.2 | 前置: 13MP f/2.4",
     "release_date": "2024-11-01",
     "price": 5499,
     "thickness_mm": 7.8,
@@ -9304,7 +9412,8 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2688×1216 OLED 120Hz"
+    "screen_detail": "6.7\" 2688×1216 OLED 120Hz",
+    "dimensions": "约160.9×75.3×7.95mm"
   },
   {
     "id": 177,
@@ -9364,7 +9473,7 @@
     "screen_size": 6.67,
     "battery_mah": 6000,
     "weight_g": 212,
-    "camera_desc": "50MP主摄 | 32MP超广 | 50MP长焦 | 20MP前置",
+    "camera_desc": "50MP主摄 | 32MP超广 | 50MP浮动长焦 | 20MP前置",
     "has_tele": true,
     "charging_w": 120,
     "wireless_charging_w": 50,
@@ -9393,7 +9502,7 @@
     "screen_type": "OLED",
     "network_model": "24117RK2CC",
     "resolution": "3200×1440",
-    "detailed_camera": "主摄: 光影猎人800 50MP f/1.6 OIS | 超广: 32MP | 浮动长焦: 50MP OIS | 前置: 20MP",
+    "detailed_camera": "主摄: 光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 超广: 32MP f/2.2 | 浮动长焦: 50MP f/2.0 60mm OIS | 前置: 20MP f/2.2",
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -9493,7 +9602,7 @@
     "charge_protocols_confidence": "medium",
     "resolution": "FHD+",
     "resolution_source": "series-default",
-    "detailed_camera": "主摄: 光影猎人800 50MP f/1.6 OIS | 超广: 8MP | 前置: 20MP",
+    "detailed_camera": "主摄: 光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 超广: 8MP f/2.2 | 前置: 20MP f/2.2",
     "screen_detail": "6.67\" FHD+ OLED 120Hz"
   },
   {
@@ -9510,7 +9619,7 @@
     "battery_mah": 6100,
     "charging_w": 100,
     "weight_g": 226,
-    "camera_desc": "主摄: 索尼LYT-900 1\" f/1.8 OIS | 50MP超广 | 50MP潜望 | 32MP前置",
+    "camera_desc": "50MP 1\"主摄 | 50MP超广 | 50MP 3x潜望 | 32MP前置",
     "has_tele": true,
     "os": "ColorOS 15",
     "features": [
@@ -9531,7 +9640,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-900 1\" f/1.8 OIS | 超广: 50MP | 潜望长焦: 50MP OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼LYT-900 50MP 1\" f/1.8 23mm OIS | 超广: 50MP f/2.0 14mm | 潜望长焦: 50MP f/2.6 70mm 3x OIS | 前置: 32MP f/2.0",
     "release_date": "2024-10-01",
     "price": 6499,
     "network_model": "PKB110",
@@ -9546,7 +9655,8 @@
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.82\" 3168×1440 OLED 120Hz"
+    "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
+    "dimensions": "约162.2×76.8×8.8mm"
   },
   {
     "id": 201,
@@ -9562,13 +9672,14 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 232,
-    "camera_desc": "主摄 索尼LYT-818 1/1.28\" f/1.57 | 超广 Sony LYT-818 f/2.0 | 长焦 三星HP9 200MP f/2.67 3.7x",
+    "camera_desc": "50MP主摄蔡司 | 50MP超广 | 2亿 3.7x潜望 | 50MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
       "有线投屏",
       "IP68",
-      "NFC"
+      "NFC",
+      "IP69"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9582,7 +9693,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-818 1/1.28\" 50MP f/1.57 OIS 蔡司 | 超广: 索尼LYT-818 1/1.28\" 50MP f/2.0 OIS | 长焦: 三星HP9 1/1.4\" 200MP f/2.67 3.7x OIS 蔡司APO | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼LYT-818 50MP 1/1.28\" f/1.57 23mm OIS 蔡司 | 超广: 50MP f/2.0 15mm 蔡司 | 潜望: 2亿 1/1.4\" f/2.67 85mm 3.7x OIS 蔡司 | 前置: 50MP f/2.0",
     "release_date": "2024-10-01",
     "price": 6499,
     "network_model": "V2454A",
@@ -9598,7 +9709,8 @@
     "charge_protocols_source": "ecosystem-vivo",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 3168×1440 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "约163.1×76.7×8.7mm"
   },
   {
     "id": 202,
@@ -9726,7 +9838,7 @@
     "battery_mah": 5410,
     "charging_w": 90,
     "weight_g": 210,
-    "camera_desc": "5000万徕卡主摄 | 5000万徕卡长焦 | 5000万徕卡超广角",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 5x | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
@@ -9736,7 +9848,8 @@
       "红外遥控",
       "5G",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9751,7 +9864,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 光影猎人900 1/1.3\" f/1.44 5000万 OIS | 超广角: 三星JN5 f/2.2 5000万 | 潜望长焦: 索尼IMX858 120mm f/2.5 5000万 OIS | 前置: 豪威OV32B40 f/2.0 3200万",
+    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.31\" f/1.63 OIS | 超广: 50MP | 长焦: 50MP 5x OIS | 前置: 32MP",
     "release_date": "2024-10-01",
     "price": 4999,
     "date_precision": "month",
@@ -9784,7 +9897,7 @@
     "battery_mah": 6200,
     "charging_w": 80,
     "weight_g": 207,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "ColorOS",
     "features": [
@@ -9804,7 +9917,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP f/2.6 3x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼 50MP 1/1.56\" f/1.6 23mm OIS | 超广: 50MP f/2.0 15mm | 长焦: 50MP f/2.6 70mm 3x OIS | 前置: 32MP f/2.0",
     "release_date": "2024-10-01",
     "price": 4799,
     "date_precision": "month",
@@ -9835,7 +9948,7 @@
     "battery_mah": 6000,
     "charging_w": 100,
     "weight_g": 213,
-    "camera_desc": "50MP主摄 1/1.4 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP LYT-808主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "ColorOS 15",
     "features": [
@@ -9845,7 +9958,9 @@
       "NFC",
       "红外",
       "无线充电",
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -9860,7 +9975,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 OIS | 超广: 50MP | 长焦: 50MP 3x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 超广: 50MP f/2.0 15mm | 长焦: 50MP f/2.6 70mm 3x OIS | 前置: 32MP f/2.0",
     "release_date": "2024-10-01",
     "price": 4699,
     "network_model": "PJZ110",
@@ -9875,7 +9990,8 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.82\" 3168×1440 OLED 120Hz"
+    "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
+    "dimensions": "约162.9×76.5×8.5mm"
   },
   {
     "id": 194,
@@ -10045,7 +10161,7 @@
     "battery_mah": 6200,
     "charging_w": 100,
     "weight_g": 203,
-    "camera_desc": "50MP主摄 | 50MP 3x长焦 | 50MP超广 | 32MP前置",
+    "camera_desc": "50MP主摄蔡司 | 50MP 3x | 50MP超广 | 32MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -10063,7 +10179,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄 50MP IMX921 1/1.56\" f/1.6 OIS 蔡司 | 超广 50MP 蔡司 | 潜望长焦 50MP IMX882 1/1.95\" 70mm 3x OIS 蔡司 | 前置 32MP",
+    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.57 23mm OIS 蔡司 | 长焦: 50MP f/2.6 70mm 3x OIS 蔡司 | 超广: 50MP f/2.0 15mm 119° 蔡司 | 前置: 32MP f/2.0",
     "release_date": "2024-10-01",
     "price": 4299,
     "date_precision": "month",
@@ -10201,7 +10317,7 @@
     "battery_mah": 5700,
     "charging_w": 80,
     "weight_g": 193,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP长焦 3x | 32MP前置",
+    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x | 32MP前置",
     "has_tele": true,
     "os": "ColorOS",
     "features": [
@@ -10222,7 +10338,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP 3x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼 50MP 1/1.56\" f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP 3x OIS | 前置: 32MP",
     "release_date": "2024-10-01",
     "price": 3799,
     "date_precision": "month",
@@ -10354,7 +10470,7 @@
     "battery_mah": 5400,
     "charging_w": 90,
     "weight_g": 191,
-    "camera_desc": "50MP主摄 | 50MP长焦 | 50MP超广 | 32MP前置",
+    "camera_desc": "50MP主摄 | 50MP浮动长焦 | 50MP超广 | 32MP前置",
     "has_tele": true,
     "os": "小米澎湃OS2",
     "features": [
@@ -10365,7 +10481,8 @@
       "红外遥控",
       "5G",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -10381,7 +10498,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.31\" f/1.63 OIS | 长焦: 50MP f/2.0 浮动 | 超广: 50MP | 前置: 32MP",
+    "detailed_camera": "主摄: 光影猎人900 50MP 1/1.31\" f/1.63 23mm OIS | 长焦: 50MP f/2.0 60mm 浮动 OIS | 超广: 50MP f/2.2 14mm | 前置: 32MP f/2.0",
     "release_date": "2024-10-01",
     "price": 3599,
     "network_model": "24129PN74C",
@@ -10397,7 +10514,8 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.36\" 2670×1200 OLED 120Hz"
+    "screen_detail": "6.36\" 2670×1200 OLED 120Hz",
+    "dimensions": "约152.3×71.2×8.1mm"
   },
   {
     "id": 185,
@@ -10495,7 +10613,7 @@
     "screen_size": 6.9,
     "battery_mah": 4685,
     "weight_g": 227,
-    "camera_desc": "48MP主摄 1/1.28 | 48MP超广 | 48MP潜望 5x | 12MP前置",
+    "camera_desc": "48MP主摄 | 48MP超广 | 48MP 5x潜望 | 12MP前置",
     "has_tele": true,
     "features": [
       "IP6X",
@@ -10519,7 +10637,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.28\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 潜望长焦: 48MP f/2.8 5x OIS | 前置: 12MP f/1.9",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.28\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 潜望长焦: 48MP f/2.8 120mm 5x OIS | 前置: 12MP f/1.9 23mm",
     "charging_w": 45,
     "release_date": "2024-09-01",
     "price": 9999,
@@ -10551,7 +10669,7 @@
     "screen_size": 6.3,
     "battery_mah": 4685,
     "weight_g": 199,
-    "camera_desc": "48MP主摄 1/1.28 | 48MP超广 | 48MP长焦 5x | 12MP前置",
+    "camera_desc": "48MP主摄 | 48MP超广 | 48MP 5x | 12MP前置",
     "has_tele": true,
     "features": [
       "IP6X",
@@ -10576,7 +10694,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.28\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 长焦: 48MP f/2.8 5x OIS | 前置: 12MP f/1.9",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.28\" f/1.78 24mm OIS | 超广: 48MP f/2.2 13mm | 长焦: 48MP f/2.8 120mm 5x OIS | 前置: 12MP f/1.9 23mm",
     "charging_w": 45,
     "release_date": "2024-09-01",
     "price": 8999,
@@ -10630,7 +10748,7 @@
     ],
     "wireless_charging_w": 15,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 48MP f/1.6 26mm OIS | 超广: 12MP f/2.2 13mm | 前置: 12MP f/1.9",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 超广: 12MP f/2.2 13mm 120° | 前置: 12MP f/1.9 23mm",
     "charging_w": 27,
     "release_date": "2024-09-01",
     "price": 5999,
@@ -10686,7 +10804,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 48MP f/1.6 26mm OIS | 超广: 12MP f/2.2 13mm | 前置: 12MP f/1.9",
+    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 超广: 12MP f/2.2 13mm 120° | 前置: 12MP f/1.9 23mm",
     "charging_w": 45,
     "release_date": "2024-09-01",
     "price": 5399,
@@ -11004,7 +11122,7 @@
     "wireless_charging_w": 15,
     "weight_g": 239,
     "os": "One UI 6.1 / Android 14",
-    "camera_desc": "50MP主摄 1/1.57 | 12MP超广 | 10MP长焦 3x | 10MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP 3x | 10MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -11026,7 +11144,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 50MP 1/1.57\" f/1.8 OIS | 超广: 12MP f/2.2 | 长焦: 10MP f/2.4 3x OIS | 前置: 10MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.57\" f/1.8 23mm OIS | 超广: 12MP f/2.2 12mm | 长焦: 10MP f/2.4 3x OIS | 前置: 10MP f/2.2",
     "release_date": "2024-07-01",
     "price": 12999,
     "id": 226,
@@ -11071,13 +11189,14 @@
     "battery_mah": 5150,
     "charging_w": 66,
     "weight_g": 226,
-    "camera_desc": "50MP主摄 | 40MP超广 | 50MP潜望 | 20MP前置 | 20MP前置",
+    "camera_desc": "50MP主摄 | 40MP超广 | 50MP 3x潜望 | 双20MP前置",
     "has_tele": true,
     "os": "MagicOS",
     "features": [
       "有线投屏",
       "IP68",
-      "NFC"
+      "NFC",
+      "IPX8"
     ],
     "tags": [
       "潜望长焦",
@@ -11090,7 +11209,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 40MP f/2.2 | 潜望长焦: 50MP f/3.0 OIS | 内屏前置: 20MP | 外屏前置: 20MP",
+    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.3\" f/1.6 23mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 50MP 1/2.5\" f/3.0 3x OIS | 内屏前置: 20MP f/2.2 | 外屏前置: 20MP f/2.2",
     "release_date": "2024-07-01",
     "price": 8999,
     "screen_unfolded": {
@@ -11117,7 +11236,8 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "展开约156.6×145.3×4.4mm"
   },
   {
     "id": 225,
@@ -11133,7 +11253,7 @@
     "battery_mah": 5100,
     "charging_w": 67,
     "weight_g": 232,
-    "camera_desc": "50MP主摄 | 12MP超广 | 10MP潜望 5x | 16MP前置",
+    "camera_desc": "50MP徕卡主摄 | 12MP超广 | 10MP 5x潜望 | 16MP前置",
     "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
@@ -11141,7 +11261,8 @@
       "红外遥控",
       "5G",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IPX8"
     ],
     "tags": [
       "潜望长焦",
@@ -11149,12 +11270,13 @@
       "USB3.0",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 徕卡 50MP f/1.7 OIS | 超广: 12MP f/2.2 | 潜望: 10MP 5x OIS | 前置: 16MP",
+    "detailed_camera": "主摄: 光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 超广: 12MP f/2.2 15mm 徕卡 | 潜望: 10MP f/2.9 115mm 5x OIS 徕卡 | 前置: 16MP f/2.5",
     "release_date": "2024-07-01",
     "price": 8999,
     "screen_unfolded": {
@@ -11170,7 +11292,7 @@
     "fold_type": "横向折叠",
     "network_model": "24072PX77C",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11180,7 +11302,9 @@
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "7.98\" 2488×2224 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "7.98\" 2488×2224 OLED折叠屏 120Hz 折叠屏",
+    "dimensions": "展开约159.4×143.3×4.6mm",
+    "ip_rating": "IPX8"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -11193,7 +11317,7 @@
     "wireless_charging_w": 15,
     "weight_g": 187,
     "os": "One UI 6.1 / Android 14",
-    "camera_desc": "50MP主摄 1/1.57 | 12MP超广 | 10MP前置",
+    "camera_desc": "50MP主摄 | 12MP超广 | 10MP前置",
     "has_tele": false,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -11215,7 +11339,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: 50MP 1/1.57\" f/1.8 OIS | 超广: 12MP f/2.2 | 前置: 10MP f/2.2",
+    "detailed_camera": "主摄: 三星GN3 50MP 1/1.57\" f/1.8 23mm OIS | 超广: 12MP f/2.2 12mm | 前置: 10MP f/2.2",
     "release_date": "2024-07-01",
     "price": 7999,
     "id": 223,
@@ -11806,12 +11930,13 @@
     "battery_mah": 5000,
     "charging_w": 66,
     "weight_g": 231,
-    "camera_desc": "50MP主摄 | 40MP超广 | 50MP潜望 | 20MP前置",
+    "camera_desc": "50MP主摄 | 40MP超广 | 50MP 3x潜望 | 20MP前置",
     "has_tele": true,
     "os": "MagicOS",
     "features": [
       "NFC",
-      "IP68"
+      "IP68",
+      "IPX8"
     ],
     "tags": [
       "潜望长焦",
@@ -11822,7 +11947,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP f/1.6 OIS | 超广: 40MP f/2.2 | 潜望长焦: 50MP f/3.0 OIS | 前置: 20MP",
+    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.56\" f/1.6 23mm OIS | 超广: 40MP f/2.2 13mm | 潜望长焦: 50MP f/3.0 3x OIS | 前置: 20MP f/2.2",
     "release_date": "2024-05-01",
     "price": 6999,
     "screen_unfolded": {
@@ -11848,7 +11973,8 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "dimensions": "展开约157.0×145.0×4.6mm"
   },
   {
     "id": 230,
@@ -12186,7 +12312,7 @@
     "wireless_charging_w": 15,
     "weight_g": 232,
     "os": "One UI 6.1 / Android 14",
-    "camera_desc": "200MP主摄 1/1.3 | 12MP超广 | 10MP长焦 3x | 50MP潜望 5x | 12MP前置",
+    "camera_desc": "200MP主摄 | 12MP超广 | 10MP 3x | 50MP 5x | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
