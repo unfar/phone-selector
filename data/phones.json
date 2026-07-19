@@ -114,7 +114,7 @@
     "battery_mah": 7000,
     "charging_w": 80,
     "weight_g": 235,
-    "camera_desc": "2亿主摄 三星HPB 1/1.4\" f/1.68 | 5000万超广角 | 潜望长焦 LYT602 1/1.95\" f/2.57 | V3+影像芯片",
+    "camera_desc": "2亿主摄 | 50MP超广 | 20MP前置",
     "has_tele": true,
     "os": "OriginOS 6 Fold",
     "features": [
@@ -125,7 +125,10 @@
       "X轴线性马达",
       "立体双扬声器",
       "-20°C防冻",
-      "全焦段变焦闪光灯"
+      "全焦段变焦闪光灯",
+      "IP58",
+      "IP59",
+      "NFC"
     ],
     "tags": [
       "天玑9500超能版",
@@ -133,7 +136,8 @@
       "无线充电",
       "6500mAh+",
       "USB3.0",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 40,
@@ -165,7 +169,8 @@
     "charge_protocols_confidence": "medium",
     "resolution_source": "series-default",
     "ip_rating": "IP5X/IPX8/IPX9",
-    "screen_detail": "8.02\" 内外双屏 三星M14 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "8.02\" 内外双屏 三星M14 OLED折叠屏 120Hz 折叠屏",
+    "dimensions": "展开约157.2×145.7×4.4mm"
   },
   {
     "id": 249,
@@ -528,7 +533,7 @@
     "usb_version": "USB 2.0",
     "weight_g": 220,
     "camera_desc": "2亿RYYB超高清主摄(F1.8 OIS) | 5000万潜望长焦(OIS 3.7×) | 5000万超广角微距 | 红枫原色镜头",
-    "detailed_camera": "主摄: 2亿 RYYB F1.8 OIS | 长焦: 5000万 RYYB F2.2 OIS 3.7× | 超广角: 5000万 RYYB F2.2 | 前置: 5000万 F2.0 超聚光",
+    "detailed_camera": "主摄: 2亿 RYYB F1.8 OIS | 潜望: 5000万潜望长焦(OIS 3.7×) | 超广: 5000万超广角微距 | 红枫原色镜头",
     "has_tele": true,
     "has_ultrawide": true,
     "os": "HarmonyOS 6.1",
@@ -1454,7 +1459,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 23mm 1/1.12\" 索尼LYT-901 2亿 f/1.5 OIS | 超广: 14mm 1/1.95\" 5000万 f/2.0 123° | 长焦: 70mm 1/1.28\" 豪威OV52A 2亿 f/2.2 | 超长焦: 230mm 1/2.76\" 三星JNL 5000万 f/3.5",
+    "detailed_camera": "主摄: 23mm 1/1.12\" 索尼LYT-901 2亿 f/1.5 OIS | 超广 14mm 1/1.95 | 潜望长焦 70mm 1/1.28 | 潜望: 10x潜望 230mm F3.5",
     "release_date": "2026-04-20",
     "price": 8499,
     "completeness_score": 94,
@@ -1562,7 +1567,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 三星HP5 2亿 f/1.6 | 超广角: 5000万 f/2.0 | 长焦: 2亿 f/2.6 2.8x光学 | 丹霞色彩还原",
+    "detailed_camera": "主摄: 三星HP5 2亿 f/1.6 | 超广: 200MP主摄(1/1.4英寸) + 50MP超广角 + 200MP潜望长焦(65mm)",
     "release_date": "2026-04-20",
     "price": 5999,
     "network_model": "PME110",
@@ -2155,7 +2160,7 @@
     "wireless_charging_w": 15,
     "weight_g": 167,
     "os": "One UI 8 / Android 16",
-    "camera_desc": "后置 5000万(F1.8 OIS)+1000万(F2.4长焦)+1200万(F2.2超广角) | 前置 1200万(F2.2)",
+    "camera_desc": "50MP主摄 | 10MP 3x | 12MP超广 | 12MP前置",
     "has_tele": true,
     "usb_version": "USB 3.2 Gen 1",
     "features": [
@@ -2163,7 +2168,8 @@
       "IPX8",
       "NFC",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 5",
@@ -2179,7 +2185,7 @@
     "brand": "Samsung",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "后置: 50MP f/1.8 OIS | 超广: 12MP f/2.2 | 长焦: 10MP f/2.4 3x OIS | 前置: 12MP f/2.2",
+    "detailed_camera": "主摄: 50MP f/1.8 OIS | 长焦: 10MP f/2.4 3x OIS | 超广: 12MP f/2.2 OIS | 前置: 12MP f/2.2",
     "release_date": "2026-02-25",
     "price": 6999,
     "id": 37,
@@ -2194,7 +2200,8 @@
     "charge_protocols_source": "ecosystem-samsung-pd",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.8\" 2340×1080 OLED 120Hz"
+    "screen_detail": "6.8\" 2340×1080 OLED 120Hz",
+    "dimensions": "149.6×71.7×7.2mm"
   },
   {
     "id": 40,
@@ -3266,7 +3273,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP RYYB 思特威SC555XS 1/1.56\" f/1.4-F4.0可变光圈 OIS | 超广: 40MP f/2.2 | 长焦: 12MP 思特威SC1220CS 1/3.6\" 5.5x OIS | 前置: 13MP",
+    "detailed_camera": "主摄: 50MP RYYB 思特威SC555XS 1/1.56\" f/1.4-F4.0可变光圈 OIS | 超广: 40MP超广角 | 潜望: 12MP潜望长焦(5.5x)",
     "release_date": "2025-11-01",
     "price": 4699,
     "network_model": "VYG-AL00",
@@ -4287,7 +4294,8 @@
       "NFC",
       "Face ID",
       "ProMotion",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 86,
@@ -4340,7 +4348,8 @@
       "NFC",
       "Face ID",
       "ProMotion",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 85,
@@ -4393,7 +4402,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 84,
@@ -4445,7 +4455,8 @@
       "NFC",
       "Face ID",
       "ProMotion",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 83,
@@ -5613,7 +5624,7 @@
     "screen_size": 7.95,
     "battery_mah": 6850,
     "weight_g": 236,
-    "camera_desc": "50MP主摄 | 64MP 3x长焦 | 50MP超广 | 双20MP前置",
+    "camera_desc": "50MP主摄 | 64MP 3x潜望 | 50MP超广 | 20MP前置",
     "has_tele": true,
     "charging_w": 66,
     "wireless_charging_w": 66,
@@ -5654,7 +5665,7 @@
     },
     "fold_type": "横向折叠",
     "resolution": "2376×1060",
-    "detailed_camera": "主摄: 50MP f/1.6 23mm OIS | 长焦: 64MP 3x OIS | 超广: 50MP f/2.2 122° | 前置: 20MP+20MP",
+    "detailed_camera": "主摄: 50MP主摄 | 潜望: 64MP 3x潜望 | 超广: 50MP超广 | 前置: 20MP前置",
     "network_model": "PNM-AN10",
     "date_precision": "month",
     "completeness_score": 100,
@@ -5705,7 +5716,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: GN5 50MP f/1.8 | 前置 1000万(F2.2)",
+    "detailed_camera": "主摄: GN5 50MP f/1.8 | 超广: 后置 5000万(F1.8 OIS)+1200万(F2.2超广角) | 前置 1000万(F2.2)",
     "release_date": "2025-07-01",
     "price": 7999,
     "id": 113,
@@ -5752,7 +5763,8 @@
     "features": [
       "IP6X",
       "IPX8",
-      "NFC"
+      "NFC",
+      "IP48"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -5764,7 +5776,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: 50MP f/1.8 23mm OIS | 超广: 12MP | 前置: 10MP f/2.2",
+    "detailed_camera": "主摄: 50MP f/1.8 OIS | 超广: 12MP f/2.2 OIS | 前置: 10MP f/2.2",
     "release_date": "2025-07-01",
     "price": 6999,
     "id": 112,
@@ -6341,14 +6353,18 @@
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "NFC"
     ],
     "tags": [
       "麒麟9020",
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6358,7 +6374,7 @@
     "price": 7999,
     "network_model": "LMR-AL10",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -6370,7 +6386,8 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.8\" 2848×1276 OLED 120Hz"
+    "screen_detail": "6.8\" 2848×1276 OLED 120Hz",
+    "ip_rating": "IP68"
   },
   {
     "id": 129,
@@ -6390,14 +6407,18 @@
     "has_tele": true,
     "os": "HarmonyOS 4.3",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "NFC"
     ],
     "tags": [
       "麒麟9020",
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6407,7 +6428,7 @@
     "price": 6499,
     "network_model": "LMR-AL00",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -6419,7 +6440,8 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.8\" 2848×1276 OLED 120Hz"
+    "screen_detail": "6.8\" 2848×1276 OLED 120Hz",
+    "ip_rating": "IP68"
   },
   {
     "id": 128,
@@ -6991,7 +7013,9 @@
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "id": 138,
@@ -7000,7 +7024,9 @@
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "release_date": "2025-04-01",
     "price": 10999,
@@ -7019,7 +7045,7 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "detailed_camera": "主摄: 50MP RYYB f/1.6 OIS | 超广: 40MP f/2.2 | 长焦: 50MP 3.5x OIS | 前置: 8MP",
+    "detailed_camera": "主摄: 50MP RYYB f/1.6 OIS | 超广: 40MP超广角 | 潜望: 50MP潜望长焦(3.5x)",
     "network_model": "HOP-AL00",
     "resolution": "2960×1376",
     "charge_protocols": [
@@ -7034,10 +7060,11 @@
       "Qi"
     ],
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
-    "screen_detail": "7.7\" 2960×1376 折叠屏 120Hz 折叠屏"
+    "screen_detail": "7.7\" 2960×1376 折叠屏 120Hz 折叠屏",
+    "ip_rating": "IP68"
   },
   {
     "brand": "HONOR",
@@ -7242,7 +7269,9 @@
     "usb_version": "USB 3.0",
     "os": "HarmonyOS",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "id": 144,
@@ -7251,7 +7280,9 @@
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "release_date": "2025-03-01",
     "price": 7499,
@@ -7273,7 +7304,7 @@
     "resolution": "2700×1224",
     "screen_type": "LTPO OLED",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -7287,7 +7318,8 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
-    "screen_detail": "6.5\" 2700×1224 LTPO OLED 120Hz 折叠屏"
+    "screen_detail": "6.5\" 2700×1224 LTPO OLED 120Hz 折叠屏",
+    "ip_rating": "IP68"
   },
   {
     "model": "Galaxy A56 5G",
@@ -7437,7 +7469,7 @@
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 225,
-    "camera_desc": "2亿广角 | 5000万超广角 | 5000万长焦",
+    "camera_desc": "2亿主摄 | 5000万超广 | 5000万长焦",
     "has_tele": true,
     "os": "ColorOS",
     "features": [
@@ -7458,7 +7490,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 2亿 f/1.8 | 超广角: 5000万 f/2.0 | 长焦: 5000万 f/2.7 | 丹霞色彩还原",
+    "detailed_camera": "主摄: 2亿 f/1.8 | 超广: 5000万 f/2.0 | 长焦: 5000万 f/2.7 | 前置: 待确认",
     "release_date": "2025-02-01",
     "price": 10999,
     "screen_unfolded": {
@@ -7473,7 +7505,7 @@
     },
     "fold_type": "横向折叠",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7638,7 +7670,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "128GB/256GB/512GB",
-    "detailed_camera": "主摄: GN3 50MP f/1.8 | 前置 1200万(F2.2)",
+    "detailed_camera": "主摄: GN3 50MP f/1.8 | 超广: 后置 2亿(F1.7 OIS)+1200万(F2.2超广角) | 前置 1200万(F2.2)",
     "release_date": "2025-01-01",
     "price": 7999,
     "id": 158,
@@ -7733,7 +7765,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7766,7 +7799,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz"
+    "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz",
+    "dimensions": "158.4×75.7×7.3mm"
   },
   {
     "model": "Galaxy S25",
@@ -7786,7 +7820,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -7819,7 +7854,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.2\" 2340×1080 Dynamic AMOLED 2X 120Hz"
+    "screen_detail": "6.2\" 2340×1080 Dynamic AMOLED 2X 120Hz",
+    "dimensions": "146.9×70.5×7.2mm"
   },
   {
     "id": 154,
@@ -9037,7 +9073,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP RYYB f/1.6-F4.0可变光圈 OIS | 超广: 40MP f/2.2 RYYB | 长焦: 48MP RYYB f/2.1 4x OIS | 前置: 13MP",
+    "detailed_camera": "主摄: 50MP RYYB f/1.6-F4.0可变光圈 OIS | 超广: 4000万超广角 | 潜望: 4800万潜望长焦(4x)",
     "release_date": "2024-11-01",
     "price": 8499,
     "network_model": "PLA-AL10",
@@ -9495,7 +9531,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-900 1英寸 f/1.8 | 超广角: 5000万 | 长焦: 5000万 f/2.6 3x | 超长焦: 5000万 6x",
+    "detailed_camera": "主摄: 索尼LYT-900 1英寸 f/1.8 | 潜望: 5000万潜望长焦",
     "release_date": "2024-10-01",
     "price": 6499,
     "network_model": "PKB110",
@@ -9530,14 +9566,18 @@
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "NFC"
     ],
     "tags": [
       "骁龙8 Elite 1",
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -9547,7 +9587,7 @@
     "price": 6499,
     "network_model": "V2454A",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9557,7 +9597,8 @@
     ],
     "charge_protocols_source": "ecosystem-vivo",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.78\" 3168×1440 OLED 120Hz"
+    "screen_detail": "6.78\" 3168×1440 OLED 120Hz",
+    "ip_rating": "IP68"
   },
   {
     "id": 202,
@@ -9599,7 +9640,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP f/1.6 1\" OIS | 长焦: 50MP 3x | 潜望: 200MP 4.3x | 超广: 50MP f/2.2 115° | 前置: 32MP f/2.0",
+    "detailed_camera": "主摄: 50MP f/1.6 1\" | 长焦: 50MP f/1.8 3x | 潜望: 200MP f/2.6 4.3x | 超广: 50MP f/2.2 | 前置: 32MP f/2.0",
     "release_date": "2024-10-01",
     "price": 6499,
     "date_precision": "month",
@@ -10462,7 +10503,8 @@
       "NFC",
       "Face ID",
       "ProMotion",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 206,
@@ -10499,7 +10541,8 @@
     "resolution": "2868×1320",
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2868×1320 OLED 120Hz"
+    "screen_detail": "6.9\" 2868×1320 OLED 120Hz",
+    "dimensions": "163×77.6×8.25mm"
   },
   {
     "brand": "Apple",
@@ -10516,7 +10559,8 @@
       "NFC",
       "Face ID",
       "ProMotion",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 205,
@@ -10554,7 +10598,8 @@
     "resolution": "2622×1206",
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.3\" 2622×1206 OLED 120Hz"
+    "screen_detail": "6.3\" 2622×1206 OLED 120Hz",
+    "dimensions": "149.6×71.5×8.25mm"
   },
   {
     "brand": "Apple",
@@ -10570,7 +10615,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 204,
@@ -10607,7 +10653,8 @@
     "resolution": "2556×1179",
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2556×1179 OLED 120Hz"
+    "screen_detail": "6.7\" 2556×1179 OLED 120Hz",
+    "dimensions": "160.9×77.8×7.8mm"
   },
   {
     "brand": "Apple",
@@ -10623,7 +10670,8 @@
       "IPX8",
       "NFC",
       "Face ID",
-      "有线投屏"
+      "有线投屏",
+      "IP68"
     ],
     "screen_form": "直屏",
     "id": 203,
@@ -10659,7 +10707,8 @@
     "resolution": "2556×1179",
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.1\" 2556×1179 OLED 120Hz"
+    "screen_detail": "6.1\" 2556×1179 OLED 120Hz",
+    "dimensions": "147.6×71.6×7.8mm"
   },
   {
     "id": 211,
@@ -10962,7 +11011,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP48"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -11004,7 +11054,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "7.6\" 2160×1856 / 2376×968 Dynamic AMOLED 2X 120Hz 折叠屏"
+    "screen_detail": "7.6\" 2160×1856 / 2376×968 Dynamic AMOLED 2X 120Hz 折叠屏",
+    "dimensions": "展开153.5×132.6×5.6mm"
   },
   {
     "id": 224,
@@ -11024,13 +11075,17 @@
     "has_tele": true,
     "os": "MagicOS",
     "features": [
-      "有线投屏"
+      "有线投屏",
+      "IP68",
+      "NFC"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -11051,7 +11106,7 @@
     "fold_type": "横向折叠",
     "network_model": "FCP-AN10",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -11061,7 +11116,8 @@
     ],
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏",
+    "ip_rating": "IP68"
   },
   {
     "id": 225,
@@ -11098,7 +11154,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 50MP f/1.7 OIS 徕卡 | 超广: 12MP 徕卡 f/2.2 | 长焦: 10MP 5x OIS 徕卡 | 前置: 20MP",
+    "detailed_camera": "主摄: 5000万主摄 徕卡 OIS | 超广: 1200万超广角 | 潜望: 1000万潜望长焦(5x)",
     "release_date": "2024-07-01",
     "price": 8999,
     "screen_unfolded": {
@@ -11144,7 +11200,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "IP48"
     ],
     "tags": [
       "骁龙8 Elite 1",
@@ -11158,7 +11215,7 @@
     "brand": "Samsung",
     "ram": "12GB",
     "storage": "256GB/512GB",
-    "detailed_camera": "主摄: GN5 50MP f/1.8 | 前置 1000万(F2.2)",
+    "detailed_camera": "主摄: GN5 50MP f/1.8 | 超广: 后置 5000万(F1.8 OIS)+1200万(F2.2超广角) | 前置 1000万(F2.2)",
     "release_date": "2024-07-01",
     "price": 7999,
     "id": 223,
@@ -11186,7 +11243,8 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.7\" 2640×1080 / 748×720 Dynamic AMOLED 2X 120Hz 折叠屏"
+    "screen_detail": "6.7\" 2640×1080 / 748×720 Dynamic AMOLED 2X 120Hz 折叠屏",
+    "dimensions": "展开165.1×71.9×6.9mm"
   },
   {
     "id": 222,
