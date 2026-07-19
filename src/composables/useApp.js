@@ -87,12 +87,128 @@ export function isCompared(id) {
   return compareList.value.includes(id)
 }
 
+/** 搜索归一化：小写、去空格/符号，兼容「小米17 / findx9 / 一加15」 */
+function normalizeSearchText(s) {
+  return String(s || '')
+    .toLowerCase()
+    .replace(/[＋+]/g, 'plus')
+    .replace(/[×xＸ]/g, 'x')
+    .replace(/[^\u4e00-\u9fff a-z0-9]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function compactSearchText(s) {
+  return normalizeSearchText(s).replace(/\s+/g, '')
+}
+
+const BRAND_ALIASES = {
+  apple: ['apple', '苹果', 'iphone'],
+  huawei: ['huawei', '华为'],
+  honor: ['honor', '荣耀'],
+  xiaomi: ['xiaomi', '小米', 'mi'],
+  redmi: ['redmi', '红米'],
+  oppo: ['oppo'],
+  vivo: ['vivo'],
+  iqoo: ['iqoo'],
+  oneplus: ['oneplus', '一加'],
+  realme: ['realme', '真我'],
+  samsung: ['samsung', '三星', 'galaxy'],
+  redmagic: ['redmagic', '红魔', 'nubia', '努比亚'],
+}
+
+function brandAliasTokens(brand) {
+  const key = String(brand || '').toLowerCase()
+  // exact map first
+  if (BRAND_ALIASES[key]) return BRAND_ALIASES[key]
+  // common brand casing in data: HONOR / REDMI / OnePlus / RedMagic
+  const map = {
+    honor: BRAND_ALIASES.honor,
+    redmi: BRAND_ALIASES.redmi,
+    oneplus: BRAND_ALIASES.oneplus,
+    redmagic: BRAND_ALIASES.redmagic,
+    huawei: BRAND_ALIASES.huawei,
+    xiaomi: BRAND_ALIASES.xiaomi,
+    samsung: BRAND_ALIASES.samsung,
+    apple: BRAND_ALIASES.apple,
+    oppo: BRAND_ALIASES.oppo,
+    vivo: BRAND_ALIASES.vivo,
+    iqoo: BRAND_ALIASES.iqoo,
+    realme: BRAND_ALIASES.realme,
+  }
+  if (map[key]) return map[key]
+  for (const [k, aliases] of Object.entries(BRAND_ALIASES)) {
+    if (key.includes(k)) return aliases
+  }
+  return [key].filter(Boolean)
+}
+
+/** 机型搜索：支持空格差异、中英文品牌别名、多关键词 AND */
+function matchesSearch(p, rawQuery) {
+  const q = normalizeSearchText(rawQuery)
+  if (!q) return true
+
+  const model = String(p.model || '')
+  const brand = String(p.brand || '')
+  const display = getDisplayName(p)
+  // 型号相关字段（避免摄像头 15mm / 系统名误伤）
+  const modelFields = [model, brand, display, p.network_model || '']
+    .filter(Boolean).map(s => normalizeSearchText(s))
+  const modelCompact = compactSearchText(modelFields.join(' '))
+
+  // 扩展字段：处理器/标签等
+  const extraFields = [
+    p.processor || '',
+    ...(p.tags || []),
+  ].filter(Boolean).map(s => normalizeSearchText(s))
+  const allCompact = compactSearchText([...modelFields, ...extraFields].join(' '))
+
+  const qCompact = compactSearchText(q)
+  // 1) 完整短语优先在型号字段命中
+  if (qCompact && modelCompact.includes(qCompact)) return true
+  // 2) 完整短语在扩展字段（如处理器）
+  if (qCompact && allCompact.includes(qCompact)) return true
+
+  const tokens = q.split(' ').filter(Boolean)
+  if (tokens.length <= 1) {
+    const t = tokens[0] || q
+    const tCompact = compactSearchText(t)
+    if (tCompact && modelCompact.includes(tCompact)) return true
+    if (tCompact && allCompact.includes(tCompact)) return true
+
+    // 中文品牌+数字连写：小米17 / 一加15 / 红魔11（只在 model/brand 上判）
+    const m = t.match(/^([\u4e00-\u9fff]{1,4})([a-z0-9plus]+)$/i)
+    if (m) {
+      const [, zh, rest] = m
+      const zc = compactSearchText(zh)
+      const rc = compactSearchText(rest)
+      const brandHit = brandAliasTokens(brand).some(a => {
+        const ac = compactSearchText(a)
+        return ac === zc || ac.includes(zc) || zc.includes(ac)
+      })
+      // 型号字段本身含中文品牌时也可
+      const modelBrandHit = modelCompact.includes(zc)
+      if ((brandHit || modelBrandHit) && rc && modelCompact.includes(rc)) return true
+    }
+    return false
+  }
+
+  // 多词 AND：每个 token 都要命中型号或品牌别名
+  return tokens.every(token => {
+    const tc = compactSearchText(token)
+    if (!tc) return true
+    if (modelCompact.includes(tc) || allCompact.includes(tc)) return true
+    if (brandAliasTokens(brand).some(a => {
+      const ac = compactSearchText(a)
+      return ac === tc || tc.includes(ac) || ac.includes(tc)
+    })) return true
+    return false
+  })
+}
+
 export function matchesFilters(p) {
   if (searchQuery.value) {
-    const q = searchQuery.value.toLowerCase().trim()
-    const fields = [p.model, p.brand, p.processor || '', p.camera_desc || '', ...(p.tags || []), ...(p.features || [])]
-      .filter(Boolean).map(s => String(s).toLowerCase())
-    if (!fields.some(s => s.includes(q))) return false
+    if (!matchesSearch(p, searchQuery.value)) return false
   }
   if (selectedBrands.size && !selectedBrands.has(p.brand)) return false
   if (selectedScreen.value) {

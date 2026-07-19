@@ -11,7 +11,7 @@
 
       <div class="search" v-if="view === 'list'">
         <span class="ico">🔍</span>
-        <input :value="searchQuery" @input="onSearch" placeholder="搜索机型 / 品牌 / 处理器" />
+        <input :value="searchQuery" @input="onSearch" placeholder="搜索机型 / 品牌 / 处理器（支持 小米17、一加15、findx9）" />
         <span class="x" v-if="searchQuery" @click="clearSearch">✕</span>
       </div>
 

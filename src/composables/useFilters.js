@@ -83,15 +83,99 @@ export function restoreStateFromHash() {
 }
 
 // ===== Filter logic =====
+/** 搜索归一化：小写、去空格/符号，兼容「小米17 / findx9 / 一加15」 */
+function normalizeSearchText(s) {
+  return String(s || '')
+    .toLowerCase()
+    .replace(/[＋+]/g, 'plus')
+    .replace(/[×xＸ]/g, 'x')
+    .replace(/[^\u4e00-\u9fff a-z0-9]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function compactSearchText(s) {
+  return normalizeSearchText(s).replace(/\s+/g, '')
+}
+
+const BRAND_ALIASES = {
+  apple: ['apple', '苹果', 'iphone'],
+  huawei: ['huawei', '华为'],
+  honor: ['honor', '荣耀'],
+  xiaomi: ['xiaomi', '小米', 'mi'],
+  redmi: ['redmi', '红米'],
+  oppo: ['oppo'],
+  vivo: ['vivo'],
+  iqoo: ['iqoo'],
+  oneplus: ['oneplus', '一加'],
+  realme: ['realme', '真我'],
+  samsung: ['samsung', '三星', 'galaxy'],
+  redmagic: ['redmagic', '红魔', 'nubia', '努比亚'],
+}
+
+function brandAliasTokens(brand) {
+  const key = String(brand || '').toLowerCase()
+  if (BRAND_ALIASES[key]) return BRAND_ALIASES[key]
+  for (const [k, aliases] of Object.entries(BRAND_ALIASES)) {
+    if (key.includes(k)) return aliases
+  }
+  return [key].filter(Boolean)
+}
+
+function matchesSearch(p, rawQuery) {
+  const q = normalizeSearchText(rawQuery)
+  if (!q) return true
+
+  const model = String(p.model || '')
+  const brand = String(p.brand || '')
+  const modelFields = [model, brand, p.network_model || '']
+    .filter(Boolean).map(s => normalizeSearchText(s))
+  const modelCompact = compactSearchText(modelFields.join(' '))
+  const extraFields = [p.processor || '', ...(p.tags || [])]
+    .filter(Boolean).map(s => normalizeSearchText(s))
+  const allCompact = compactSearchText([...modelFields, ...extraFields].join(' '))
+
+  const qCompact = compactSearchText(q)
+  if (qCompact && modelCompact.includes(qCompact)) return true
+  if (qCompact && allCompact.includes(qCompact)) return true
+
+  const tokens = q.split(' ').filter(Boolean)
+  if (tokens.length <= 1) {
+    const t = tokens[0] || q
+    const tCompact = compactSearchText(t)
+    if (tCompact && modelCompact.includes(tCompact)) return true
+    if (tCompact && allCompact.includes(tCompact)) return true
+    const m = t.match(/^([\u4e00-\u9fff]{1,4})([a-z0-9plus]+)$/i)
+    if (m) {
+      const [, zh, rest] = m
+      const zc = compactSearchText(zh)
+      const rc = compactSearchText(rest)
+      const brandHit = brandAliasTokens(brand).some(a => {
+        const ac = compactSearchText(a)
+        return ac === zc || ac.includes(zc) || zc.includes(ac)
+      })
+      const modelBrandHit = modelCompact.includes(zc)
+      if ((brandHit || modelBrandHit) && rc && modelCompact.includes(rc)) return true
+    }
+    return false
+  }
+
+  return tokens.every(token => {
+    const tc = compactSearchText(token)
+    if (!tc) return true
+    if (modelCompact.includes(tc) || allCompact.includes(tc)) return true
+    if (brandAliasTokens(brand).some(a => {
+      const ac = compactSearchText(a)
+      return ac === tc || tc.includes(ac) || ac.includes(tc)
+    })) return true
+    return false
+  })
+}
+
 export function matchesFilters(p) {
   // Search
   if (searchQuery.value) {
-    const q = searchQuery.value.toLowerCase().trim()
-    const matchFields = [
-      p.model, p.brand, (p.processor || ''), (p.camera_desc || ''),
-      ...(p.tags || []), ...(p.features || [])
-    ].filter(Boolean).map(s => s.toLowerCase())
-    if (!matchFields.some(s => s.includes(q))) return false
+    if (!matchesSearch(p, searchQuery.value)) return false
   }
   if (selectedBrands.size > 0 && !selectedBrands.has(p.brand)) return false
   if (selectedScreen.value) {
