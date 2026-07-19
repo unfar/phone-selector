@@ -1,10 +1,19 @@
 <template>
   <div class="app">
     <header class="top">
-      <div class="logo" @click="openList" style="cursor:pointer">
-        <div class="logo-badge">📱</div>
+      <div class="logo" @click="openList" style="cursor:pointer" title="机选 · 返回列表">
+        <div class="logo-badge" aria-hidden="true">
+          <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+            <rect x="18" y="12" width="28" height="40" rx="6" fill="#fff" fill-opacity=".96"/>
+            <rect x="21.5" y="17" width="21" height="26" rx="2.5" fill="#ccfbf1"/>
+            <circle cx="32" cy="14.8" r="1.1" fill="#0f766e" fill-opacity=".35"/>
+            <rect x="27" y="46.5" width="10" height="2.2" rx="1.1" fill="#0f766e" fill-opacity=".28"/>
+            <circle cx="44.5" cy="43.5" r="9.2" fill="#c2410c"/>
+            <path d="M40.2 43.5l2.6 2.6 5.5-5.5" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
         <div>
-          <h1>智能手机选购助手</h1>
+          <h1>机选</h1>
           <p>国行选购 · 参数对比</p>
         </div>
       </div>
@@ -350,7 +359,7 @@
     </div>
 
     <footer>
-      参考精品目录风设计：浅色通透 · 列表 / 详情 / 对比<br>
+      机选 · 浅色通透目录风 · 列表 / 详情 / 对比<br>
       数据来源：各品牌官网 · 仅供参考 · Made with ❤️ by Lumi
     </footer>
   </div>
