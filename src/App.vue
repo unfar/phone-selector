@@ -229,9 +229,41 @@
             <div class="spec-row full" v-if="detailPhone.charge_protocols?.length">
               <div class="k">充电协议</div><div class="v">{{ detailPhone.charge_protocols.join(' · ') }}</div>
             </div>
+          </div>
+        </div>
+
+        <div class="panel spec-block camera-block" v-if="cameraModules(detailPhone).modules.length">
+          <h4>影像系统</h4>
+          <div class="cam-module-grid">
+            <div
+              v-for="(m, idx) in cameraModules(detailPhone).modules"
+              :key="m.key + idx"
+              class="cam-module"
+              :class="'role-' + m.key"
+            >
+              <div class="cam-module-head">
+                <span class="cam-role">{{ m.label }}</span>
+                <span class="cam-mp" v-if="m.mp">{{ m.mp }}</span>
+              </div>
+              <div class="cam-summary">{{ m.summary }}</div>
+              <div class="cam-chips" v-if="m.chips?.length">
+                <span v-for="c in m.chips" :key="c.k" class="cam-chip">
+                  <em>{{ c.k }}</em>{{ c.v }}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="cam-raw" v-if="detailPhone.detailed_camera">
+            <span class="k">原始参数</span>
+            <span class="v">{{ detailPhone.detailed_camera }}</span>
+          </div>
+        </div>
+        <div class="panel spec-block" v-else>
+          <h4>影像系统</h4>
+          <div class="spec-rows">
             <div class="spec-row full">
               <div class="k">影像</div>
-              <div class="v">{{ cameraFull(detailPhone) }}</div>
+              <div class="v">{{ detailPhone.camera_desc || detailPhone.detailed_camera || '—' }}</div>
             </div>
           </div>
         </div>
@@ -297,7 +329,7 @@ import {
   priceMin, priceMax, sliderMaxPrice, brandList, compareList, resultCount, sortedPhones,
   detailPhone, comparePhones, openList, openDetail, openCompare, setViewMode, toggleCompare,
   clearCompare, isCompared, clearAllFilters, updateHash, restoreStateFromHash, brandColor, cardBrief,
-  featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs
+  featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs, getCameraModules
 } from './composables/useApp.js'
 
 const today = new Date().toISOString().split('T')[0]
@@ -319,14 +351,13 @@ function priceText(p) {
 function resolutionText(p) {
   return ((p.resolution || '') + ' · ' + (p.refresh_hz ? p.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—'
 }
+function cameraModules(p) {
+  return getCameraModules(p)
+}
 function cameraFull(p) {
-  const cams = getCameraSpecs(p)
-  const rear = cams.find(s => s.l === '后置')
-  const front = cams.find(s => s.l === '前置')
-  const parts = []
-  if (rear) parts.push(rear.v)
-  if (front) parts.push('前置 ' + front.v)
-  return parts.join('\n') || p.camera_desc || '—'
+  const mods = getCameraModules(p)
+  if (mods.lines?.length) return mods.lines.join('\n')
+  return p.camera_desc || p.detailed_camera || '—'
 }
 
 function onSearch(e) { searchQuery.value = e.target.value; updateHash() }

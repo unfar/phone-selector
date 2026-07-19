@@ -1,5 +1,5 @@
 import { ref, computed, reactive } from 'vue'
-import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, simplifyCapacity, getFoldableScreenDisplay, protocolTags, cpuTags, screenTypes, screenSizeRanges } from '../utils.js'
+import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, cpuTags, screenTypes, screenSizeRanges } from '../utils.js'
 
 export const phones = ref([])
 export const loading = ref(true)
@@ -360,4 +360,4 @@ export function cardBrief(p) {
   }
 }
 
-export { featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, simplifyCapacity, getFoldableScreenDisplay }
+export { featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay }

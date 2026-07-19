@@ -151,96 +151,224 @@ export function getFoldableRefreshDisplay(phone) {
   return phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—'
 }
 
-export function getCameraSpecs(p) {
-  const dc = p.detailed_camera || ''
-  const cd = p.camera_desc || ''
-  const specs = []
+/** 解析单段镜头文本，尽量抽出像素/传感器/CMOS/光圈/焦距/变焦/OIS/品牌 */
+function parseCameraSegment(raw) {
+  const text = String(raw || '').replace(/\s+/g, ' ').trim()
+  if (!text) return null
 
-  function fmtMp(num) {
-    const n = parseInt(num)
-    if (!n) return ''
-    return n >= 100 ? n + '万' : n + 'MP'
+  // 像素：优先 亿/万/MP
+  let mp = ''
+  let m
+  if ((m = text.match(/(\d+(?:\.\d+)?)\s*亿/))) {
+    const yi = parseFloat(m[1])
+    mp = Number.isInteger(yi) ? `${yi}亿` : `${yi}亿`
+  } else if ((m = text.match(/(\d+)\s*万(?:像素)?/))) {
+    const wan = parseInt(m[1], 10)
+    // 10000万 = 1亿；>=10000 万 转亿
+    mp = wan >= 10000 ? `${wan / 10000}亿` : `${wan}万`
+  } else if ((m = text.match(/(\d+)\s*MP/i))) {
+    const n = parseInt(m[1], 10)
+    // 200MP ≈ 2亿；50MP 保持 50MP
+    mp = n >= 100 ? `${n / 100}亿` : `${n}MP`
   }
 
-  function cleanCamTxt(txt) {
-    return txt
-      .replace(/徕卡[\w]*/g, '')
-      .replace(/哈苏[\w]*/g, '')
-      .replace(/蔡司[\w]*/g, '')
-      .replace(/大底/g, '')
-      .replace(/浮动/g, '')
-      .replace(/超动态鹰眼/g, '')
-      .replace(/像素/g, '')
-      .replace(/\s+/g, ' ')
-      .trim()
+  // 传感器代号
+  let sensor = ''
+  if ((m = text.match(/(LYT-?\d+[A-Z]?|IMX\d+[A-Z]?|OV\d+[A-Z]?|HP[A-Z0-9]+|GN\d+|JN\d+|SC\d+XS?|光影猎人\d*)/i))) {
+    sensor = m[1].replace(/LYT(?!-)/i, 'LYT-')
   }
 
-  function extractBrief(s) {
-    s = cleanCamTxt(s)
-    let mp = (s.match(/(\d+)\s*[万M]/) || [])[1] || ''
-    let cmos = (s.match(/[\u4e00-\u9fff]*(LYT[-\w]+|IMX\w+|HP\w+|OV\w+|JN\w+|光影猎人\w+)/) || [])[1] || ''
-    let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || ''
-    if (aperture) { aperture = aperture.replace(/^F\s*/i, 'f/'); aperture = aperture.replace(/^f\/\//, 'f/') }
-    let parts = []
-    if (mp) parts.push(fmtMp(mp))
-    if (cmos) parts.push(cmos)
-    if (aperture) parts.push(aperture)
-    return parts.join(' ') || s.substring(0, 20)
+  // 传感器品牌/工艺线索（无具体代号时）
+  let brand = ''
+  if (/索尼|Sony/i.test(text)) brand = '索尼'
+  else if (/三星|Samsung/i.test(text)) brand = '三星'
+  else if (/豪威|OmniVision|OV/i.test(text) && !sensor) brand = '豪威'
+  else if (/思特威|SmartSens/i.test(text)) brand = '思特威'
+  else if (/XMAGE/i.test(text)) brand = 'XMAGE'
+  if (/RYYB/i.test(text) && !/RYYB/.test(sensor)) brand = (brand ? brand + ' ' : '') + 'RYYB'
+
+  // CMOS 尺寸
+  let size = ''
+  if ((m = text.match(/\b1["”]/))) size = '1"'
+  else if ((m = text.match(/(1\/\d+(?:\.\d+)?)["”]?/))) size = m[1] + (/"/.test(m[0]) || /”/.test(m[0]) ? '"' : '"')
+  // normalize 1/1.3" style
+  size = size.replace(/”/g, '"')
+  if (size && !size.endsWith('"') && /^1\//.test(size)) size += '"'
+
+  // 光圈（支持可变 f/1.4-4.0）
+  let aperture = ''
+  if ((m = text.match(/f\s*\/?\s*(\d+(?:\.\d+)?)\s*[-~～到至]\s*f?\s*\/?\s*(\d+(?:\.\d+)?)/i))) {
+    aperture = `f/${m[1]}-${m[2]}`
+  } else if ((m = text.match(/[fF]\s*\/?\s*(\d+(?:\.\d+)?)/))) {
+    aperture = `f/${m[1]}`
   }
 
-  if (dc && dc.length > 5) {
+  // 焦距 mm
+  let focal = ''
+  if ((m = text.match(/(\d{2,3})\s*mm/i))) focal = m[1] + 'mm'
+
+  // 光学变焦
+  let zoom = ''
+  if ((m = text.match(/(\d+(?:\.\d+)?)\s*[xX×]/))) zoom = m[1] + 'x'
+  else if ((m = text.match(/[xX×]\s*(\d+(?:\.\d+)?)/))) zoom = m[1] + 'x'
+
+  // 视场角
+  let fov = ''
+  if ((m = text.match(/(\d{2,3})\s*°/))) fov = m[1] + '°'
+
+  const ois = /OIS|光学防抖|传感器位移/.test(text)
+  const brandTune = []
+  if (/徕卡|Leica/i.test(text)) brandTune.push('徕卡')
+  if (/蔡司|Zeiss/i.test(text)) brandTune.push('蔡司')
+  if (/哈苏|Hasselblad/i.test(text)) brandTune.push('哈苏')
+  if (/理光|RICOH|GR/i.test(text)) brandTune.push('理光')
+
+  // 摘要行：像素 · 传感器 · CMOS · 光圈 · 焦距 · 变焦 · OIS
+  const summaryParts = []
+  if (mp) summaryParts.push(mp)
+  if (sensor) summaryParts.push(sensor)
+  else if (brand) summaryParts.push(brand)
+  if (size) summaryParts.push(size)
+  if (aperture) summaryParts.push(aperture)
+  if (focal) summaryParts.push(focal)
+  if (zoom) summaryParts.push(zoom)
+  if (fov && !focal) summaryParts.push(fov)
+  if (ois) summaryParts.push('OIS')
+  if (brandTune.length) summaryParts.push(brandTune.join('/'))
+
+  const chips = []
+  if (mp) chips.push({ k: '像素', v: mp })
+  if (sensor || brand) chips.push({ k: '传感器', v: sensor || brand })
+  if (size) chips.push({ k: 'CMOS', v: size })
+  if (aperture) chips.push({ k: '光圈', v: aperture })
+  if (focal) chips.push({ k: '焦距', v: focal })
+  if (zoom) chips.push({ k: '变焦', v: zoom })
+  if (fov) chips.push({ k: '视角', v: fov })
+  if (ois) chips.push({ k: '防抖', v: 'OIS' })
+  if (brandTune.length) chips.push({ k: '调校', v: brandTune.join('/') })
+
+  return {
+    mp, sensor, brand, size, aperture, focal, zoom, fov, ois,
+    brandTune,
+    summary: summaryParts.join(' · ') || text.slice(0, 36),
+    chips,
+    raw: text,
+  }
+}
+
+function detectCameraRole(sec) {
+  const s = String(sec || '')
+  if (/前置|内屏前置|外屏前置|selfie/i.test(s)) {
+    if (/内屏/.test(s)) return { key: 'front_inner', label: '内屏前置', group: 'front' }
+    if (/外屏/.test(s)) return { key: 'front_outer', label: '外屏前置', group: 'front' }
+    return { key: 'front', label: '前置', group: 'front' }
+  }
+  if (/超长焦/.test(s)) return { key: 'super_tele', label: '超长焦', group: 'rear' }
+  if (/潜望/.test(s)) return { key: 'periscope', label: '潜望长焦', group: 'rear' }
+  if (/长焦|tele/i.test(s)) return { key: 'tele', label: '长焦', group: 'rear' }
+  if (/超广|超广角|ultrawide/i.test(s)) return { key: 'uw', label: '超广角', group: 'rear' }
+  if (/微距|macro/i.test(s)) return { key: 'macro', label: '微距', group: 'rear' }
+  if (/主摄|广角|后置|wide/i.test(s)) return { key: 'main', label: '主摄', group: 'rear' }
+  return { key: 'other', label: '镜头', group: 'rear' }
+}
+
+/**
+ * 结构化影像模块：供详情页卡片 / 列表摘要 / 对比页使用
+ * @returns {{ modules: Array, rear: Array, front: Array, summary: string, lines: string[] }}
+ */
+export function getCameraModules(p) {
+  const dc = p?.detailed_camera || ''
+  const cd = p?.camera_desc || ''
+  const modules = []
+
+  if (dc && dc.length > 3) {
     const sections = dc.split('|').map(s => s.trim()).filter(Boolean)
-    let rearCams = []
-    let frontTxt = ''
-
     for (const sec of sections) {
-      const clean = sec.replace(/^[^：:]*[：:]\s*/, '').trim()
-      if (/^前置/.test(sec)) { frontTxt = extractBrief(clean); continue }
-      if (/^后置/.test(sec)) {
-        const subs = clean.split('+').map(x => x.trim()).filter(Boolean)
-        for (const sub of subs) {
-          let t = ''
-          if (/主摄/.test(sub)) t = '主'
-          else if (/超广(角)?/.test(sub)) t = '广'
-          else if (/长焦/.test(sub) || /潜望/.test(sub)) t = sub.includes('超长焦') ? '超长' : '长'
-          else if (/微距/.test(sub)) t = '微'
-          else t = '镜'
-          const subClean = sub.replace(/(主摄|超广(角)?|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim()
-          const brief = extractBrief(subClean)
-          if (brief) rearCams.push({t, d: brief})
+      // 兼容 “后置: A + B + C”
+      if (/^后置/.test(sec) && sec.includes('+')) {
+        const body = sec.replace(/^[^：:]*[：:]\s*/, '')
+        for (const sub of body.split('+').map(x => x.trim()).filter(Boolean)) {
+          const role = detectCameraRole(sub)
+          const parsed = parseCameraSegment(sub)
+          if (parsed) modules.push({ ...role, ...parsed })
         }
         continue
       }
-      let type = ''
-      if (/主摄/.test(sec)) type = '主'
-      else if (/超广(角)?/.test(sec)) type = '广'
-      else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长' : '长'
-      if (type) rearCams.push({t: type, d: extractBrief(clean)})
-    }
-
-    if (rearCams.length === 0 && frontTxt === '') {
-      for (const sec of sections) {
-        const cs = sec.replace(/^[^：:]*[：:]\s*/, '').trim()
-        if (/前置/.test(sec)) frontTxt = extractBrief(cs)
-        else if (/主摄/.test(sec)) rearCams.push({t:'主', d: extractBrief(cs)})
-        else if (/超广(角)?/.test(sec)) rearCams.push({t:'广', d: extractBrief(cs)})
-        else if (/长焦/.test(sec) || /潜望/.test(sec)) rearCams.push({t:'长', d: extractBrief(cs)})
+      const role = detectCameraRole(sec)
+      const body = sec.replace(/^[^：:]*[：:]\s*/, '').trim() || sec
+      // 双前置 "60MP超广角+8MP人像"
+      if (role.group === 'front' && body.includes('+') && /MP|万|亿/.test(body)) {
+        const parts = body.split('+').map(x => x.trim()).filter(Boolean)
+        if (parts.length >= 2) {
+          parts.forEach((part, idx) => {
+            const parsed = parseCameraSegment(part)
+            if (parsed) {
+              modules.push({
+                key: idx === 0 ? 'front' : 'front_aux',
+                label: idx === 0 ? '前置' : '前置副摄',
+                group: 'front',
+                ...parsed,
+              })
+            }
+          })
+          continue
+        }
       }
-    }
-
-    const camLabelMap = { '主': '主摄', '广': '超广', '长': '长焦', '超长': '超长焦', '微': '微距', '镜': '其他' }
-    const camOrder = { '广': 0, '主': 1, '长': 2, '超长': 3, '微': 4, '镜': 5 }
-    rearCams.sort((a, b) => (camOrder[a.t] ?? 99) - (camOrder[b.t] ?? 99))
-    if (rearCams.length > 0) {
-      const rearLines = rearCams.map(c => camLabelMap[c.t] + ' ' + c.d)
-      specs.push({ l: '后置', v: rearLines.join('\n'), colspan: true })
-    }
-    if (frontTxt) {
-      specs.push({ l: '前置', v: frontTxt })
+      const parsed = parseCameraSegment(body)
+      if (parsed) modules.push({ ...role, ...parsed })
     }
   } else if (cd) {
-    const brief = cd.replace(/\|/g, ' · ').trim().substring(0, 25)
-    if (brief) specs.push({ l: '影像', v: brief })
+    // 退化：从 camera_desc 拆
+    for (const sec of cd.split('|').map(s => s.trim()).filter(Boolean)) {
+      const role = detectCameraRole(sec)
+      const parsed = parseCameraSegment(sec)
+      if (parsed) modules.push({ ...role, ...parsed })
+    }
   }
+
+  // 去重（同 role+summary）
+  const seen = new Set()
+  const uniq = []
+  for (const m of modules) {
+    const k = m.key + '|' + m.summary
+    if (seen.has(k)) continue
+    seen.add(k)
+    uniq.push(m)
+  }
+
+  const order = { main: 0, uw: 1, tele: 2, periscope: 3, super_tele: 4, macro: 5, other: 6, front: 10, front_inner: 11, front_outer: 12, front_aux: 13 }
+  uniq.sort((a, b) => (order[a.key] ?? 50) - (order[b.key] ?? 50))
+
+  const rear = uniq.filter(m => m.group === 'rear')
+  const front = uniq.filter(m => m.group === 'front')
+  const lines = uniq.map(m => `${m.label} ${m.summary}`)
+  const summary = rear[0]?.summary || uniq[0]?.summary || cd || '—'
+
+  return { modules: uniq, rear, front, summary, lines }
+}
+
+export function getCameraSpecs(p) {
+  const { rear, front, lines, summary } = getCameraModules(p)
+  const specs = []
+  if (rear.length) {
+    specs.push({
+      l: '后置',
+      v: rear.map(m => `${m.label} ${m.summary}`).join('\n'),
+      colspan: true,
+      modules: rear,
+    })
+  }
+  if (front.length) {
+    specs.push({
+      l: '前置',
+      v: front.map(m => front.length > 1 ? `${m.label} ${m.summary}` : m.summary).join('\n'),
+      modules: front,
+    })
+  }
+  if (!specs.length && summary && summary !== '—') {
+    specs.push({ l: '影像', v: summary })
+  }
+  // 附加完整行，详情页可用
+  if (lines.length) specs._lines = lines
   return specs
 }
