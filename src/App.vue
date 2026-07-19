@@ -234,25 +234,60 @@
 
         <div class="panel spec-block camera-block" v-if="cameraModules(detailPhone).modules.length">
           <h4>影像系统</h4>
-          <div class="cam-module-grid">
-            <div
-              v-for="(m, idx) in cameraModules(detailPhone).modules"
-              :key="m.key + idx"
-              class="cam-module"
-              :class="'role-' + m.key"
-            >
-              <div class="cam-module-head">
-                <span class="cam-role">{{ m.label }}</span>
-                <span class="cam-mp" v-if="m.mp">{{ m.mp }}</span>
-              </div>
-              <div class="cam-summary">{{ m.summary }}</div>
-              <div class="cam-chips" v-if="m.chips?.length">
-                <span v-for="c in m.chips" :key="c.k" class="cam-chip">
-                  <em>{{ c.k }}</em>{{ c.v }}
-                </span>
+
+          <div class="cam-section" v-if="cameraModules(detailPhone).rear.length">
+            <div class="cam-section-title">
+              <span class="cam-section-icon">📸</span>
+              <span>后置摄像头</span>
+              <span class="cam-section-count">{{ cameraModules(detailPhone).rear.length }} 颗</span>
+            </div>
+            <div class="cam-module-grid">
+              <div
+                v-for="(m, idx) in cameraModules(detailPhone).rear"
+                :key="'r' + m.key + idx"
+                class="cam-module"
+                :class="'role-' + m.key"
+              >
+                <div class="cam-module-head">
+                  <span class="cam-role">{{ m.label }}</span>
+                  <span class="cam-mp" v-if="m.mp">{{ m.mp }}</span>
+                </div>
+                <div class="cam-summary">{{ m.summary }}</div>
+                <div class="cam-chips" v-if="m.chips?.length">
+                  <span v-for="c in m.chips" :key="c.k" class="cam-chip">
+                    <em>{{ c.k }}</em>{{ c.v }}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
+
+          <div class="cam-section cam-section-front" v-if="cameraModules(detailPhone).front.length">
+            <div class="cam-section-title front">
+              <span class="cam-section-icon">🤳</span>
+              <span>前置摄像头</span>
+              <span class="cam-section-count">{{ cameraModules(detailPhone).front.length }} 颗</span>
+            </div>
+            <div class="cam-module-grid" :class="{ single: cameraModules(detailPhone).front.length === 1 }">
+              <div
+                v-for="(m, idx) in cameraModules(detailPhone).front"
+                :key="'f' + m.key + idx"
+                class="cam-module role-front"
+              >
+                <div class="cam-module-head">
+                  <span class="cam-role">{{ m.label }}</span>
+                  <span class="cam-mp" v-if="m.mp">{{ m.mp }}</span>
+                </div>
+                <div class="cam-summary">{{ m.summary }}</div>
+                <div class="cam-chips" v-if="m.chips?.length">
+                  <span v-for="c in m.chips" :key="c.k" class="cam-chip">
+                    <em>{{ c.k }}</em>{{ c.v }}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="cam-raw" v-if="detailPhone.detailed_camera">
             <span class="k">原始参数</span>
             <span class="v">{{ detailPhone.detailed_camera }}</span>

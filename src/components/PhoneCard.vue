@@ -135,15 +135,17 @@ const detailRows = computed(() => {
       : []),
   ]
   const camSpecs = getCameraSpecs(phone)
+  // 明确分区：先后置，再前置，避免混在一起
   const rearSpec = camSpecs.find(s => s.l === '后置')
-  camSpecs.filter(s => s.l !== '后置').forEach(s => {
-    if (s.l === '前置') s.l = '📷 前置'
-    sc.push(s)
-  })
+  const frontSpec = camSpecs.find(s => s.l === '前置')
+  const otherCam = camSpecs.filter(s => s.l !== '后置' && s.l !== '前置')
   if (rearSpec) {
-    rearSpec.l = '📸 后置'
-    sc.push(rearSpec)
+    sc.push({ ...rearSpec, l: '📸 后置摄像头', colspan: true })
   }
+  if (frontSpec) {
+    sc.push({ ...frontSpec, l: '🤳 前置摄像头' })
+  }
+  otherCam.forEach(s => sc.push(s))
   return sc
 })
 </script>
