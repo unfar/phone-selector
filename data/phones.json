@@ -1,5 +1,58 @@
 [
   {
+    "id": 261,
+    "brand": "vivo",
+    "model": "vivo Y6c",
+    "processor": "展锐 T7225",
+    "screen_size": 6.74,
+    "refresh_hz": 120,
+    "screen_type": "LCD",
+    "resolution": "1600×720",
+    "ram": "4GB",
+    "storage": "128GB",
+    "battery_mah": 6500,
+    "charging_w": 15,
+    "weight_g": 209,
+    "camera_desc": "800万主摄 | 500万前置",
+    "has_tele": false,
+    "os": "OriginOS 6",
+    "features": [
+      "IP65",
+      "侧边指纹",
+      "3.5mm耳机孔",
+      "红外遥控"
+    ],
+    "tags": [
+      "入门芯片",
+      "6500mAh+",
+      "防尘抗水",
+      "红外"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "detailed_camera": "主摄: 800万 | 前置: 500万",
+    "release_date": "2026-07-15",
+    "price": 899,
+    "source_url": "https://www.ithome.com/0/978/581.htm",
+    "verified_at": "2026-07-19",
+    "completeness_score": 94,
+    "charge_protocols": [
+      "UFCS",
+      "PPS",
+      "PD",
+      "QC",
+      "VFCP"
+    ],
+    "charge_protocols_source": "ecosystem-vivo",
+    "charge_protocols_confidence": "medium",
+    "ip_rating": "IP65",
+    "dimensions": "167.40×77.10×8.39mm",
+    "screen_detail": "6.74\" 1600×720 LCD 120Hz，最高亮度1200nits",
+    "network_model": "",
+    "os_source": "series-default"
+  },
+  {
     "id": 259,
     "brand": "REDMI",
     "model": "Redmi Note 17",
