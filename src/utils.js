@@ -238,8 +238,8 @@ function parseCameraSegment(raw) {
 
   const chips = []
   if (mp) chips.push({ k: '像素', v: mp })
-  if (sensor || brand) chips.push({ k: '传感器', v: sensor || brand })
-  if (size) chips.push({ k: 'CMOS', v: size })
+  if (sensor || brand) chips.push({ k: '传感器型号', v: sensor || brand })
+  if (size) chips.push({ k: '传感器尺寸', v: size })
   if (aperture) chips.push({ k: '光圈', v: aperture })
   if (focal) chips.push({ k: '焦距', v: focal })
   if (zoom) chips.push({ k: '变焦', v: zoom })
