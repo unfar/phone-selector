@@ -178,14 +178,13 @@ function parseCameraSegment(raw) {
     sensor = m[1].replace(/LYT(?!-)/i, 'LYT-')
   }
 
-  // 传感器品牌/工艺线索（无具体代号时）
+  // 传感器品牌线索（无具体代号时，注意 RYYB/XMAGE 不是型号）
   let brand = ''
   if (/索尼|Sony/i.test(text)) brand = '索尼'
   else if (/三星|Samsung/i.test(text)) brand = '三星'
   else if (/豪威|OmniVision|OV/i.test(text) && !sensor) brand = '豪威'
   else if (/思特威|SmartSens/i.test(text)) brand = '思特威'
-  else if (/XMAGE/i.test(text)) brand = 'XMAGE'
-  if (/RYYB/i.test(text) && !/RYYB/.test(sensor)) brand = (brand ? brand + ' ' : '') + 'RYYB'
+  // 不再把 RYYB/XMAGE 拼进 brand
 
   // CMOS 尺寸
   let size = ''
@@ -207,14 +206,24 @@ function parseCameraSegment(raw) {
   let focal = ''
   if ((m = text.match(/(\d{2,3})\s*mm/i))) focal = m[1] + 'mm'
 
-  // 光学变焦
+  // 光学变焦（排除传感器尾号：SC585XS 不会误识别 585x；只匹配常见 2x~120x）
   let zoom = ''
-  if ((m = text.match(/(\d+(?:\.\d+)?)\s*[xX×]/))) zoom = m[1] + 'x'
-  else if ((m = text.match(/[xX×]\s*(\d+(?:\.\d+)?)/))) zoom = m[1] + 'x'
+  if ((m = text.match(/(\d+(?:\.\d+)?)\s*[xX×]/))) {
+    const zv = parseFloat(m[1])
+    if (zv <= 120) zoom = m[1] + 'x'
+  } else if ((m = text.match(/\b(\d+(?:\.\d+)?)\s*[xX×]/))) {
+    const zv = parseFloat(m[1])
+    if (zv >= 1 && zv <= 120) zoom = m[1] + 'x'
+  }
 
   // 视场角
   let fov = ''
   if ((m = text.match(/(\d{2,3})\s*°/))) fov = m[1] + '°'
+
+  // 光学技术 / 滤镜 / 品牌名称（不是传感器型号，单独展示）
+  let optics = ''
+  if (/RYYB/i.test(text)) optics = (optics ? optics + '/' : '') + 'RYYB'
+  if (/XMAGE/i.test(text)) optics = (optics ? optics + '/' : '') + 'XMAGE'
 
   const ois = /OIS|光学防抖|传感器位移/.test(text)
   const brandTune = []
@@ -223,7 +232,7 @@ function parseCameraSegment(raw) {
   if (/哈苏|Hasselblad/i.test(text)) brandTune.push('哈苏')
   if (/理光|RICOH|GR/i.test(text)) brandTune.push('理光')
 
-  // 摘要行：像素 · 传感器 · CMOS · 光圈 · 焦距 · 变焦 · OIS
+  // 摘要行
   const summaryParts = []
   if (mp) summaryParts.push(mp)
   if (sensor) summaryParts.push(sensor)
@@ -234,6 +243,7 @@ function parseCameraSegment(raw) {
   if (zoom) summaryParts.push(zoom)
   if (fov && !focal) summaryParts.push(fov)
   if (ois) summaryParts.push('OIS')
+  if (optics) summaryParts.push(optics)
   if (brandTune.length) summaryParts.push(brandTune.join('/'))
 
   const chips = []
@@ -245,6 +255,7 @@ function parseCameraSegment(raw) {
   if (zoom) chips.push({ k: '变焦', v: zoom })
   if (fov) chips.push({ k: '视角', v: fov })
   if (ois) chips.push({ k: '防抖', v: 'OIS' })
+  if (optics) chips.push({ k: '光学技术', v: optics })
   if (brandTune.length) chips.push({ k: '调校', v: brandTune.join('/') })
 
   return {
