@@ -315,46 +315,113 @@
     </div>
 
     <!-- COMPARE -->
-    <div v-else-if="view === 'compare'" class="panel" style="padding:14px">
-      <div class="compare-head">
-        <div>
-          <h2 style="font-size:1.15rem">规格对比</h2>
-          <p style="color:var(--muted);font-size:.82rem;margin-top:4px">已选 {{ comparePhones.length }} / 4 款 · 差异项高亮</p>
+    <div v-else-if="view === 'compare'" class="compare-page">
+      <div class="panel compare-shell">
+        <div class="compare-head">
+          <div>
+            <h2>规格对比</h2>
+            <p class="compare-sub">已选 {{ comparePhones.length }} / 4 款 · 差异项高亮</p>
+          </div>
+          <div class="compare-head-actions">
+            <button class="btn" :class="{ active: compareDiffOnly }" @click="compareDiffOnly = !compareDiffOnly" v-if="comparePhones.length >= 2">
+              {{ compareDiffOnly ? '显示全部' : '只看差异' }}
+            </button>
+            <button class="btn" @click="clearCompare">清空</button>
+            <button class="btn ghost" @click="openList">返回</button>
+          </div>
         </div>
-        <div style="display:flex;gap:8px">
-          <button class="btn" @click="clearCompare">清空</button>
-          <button class="btn ghost" @click="openList">返回列表</button>
+
+        <div v-if="comparePhones.length < 2" class="empty">
+          <div class="big">📊</div>
+          至少选择 2 款机型才能对比
+          <div style="margin-top:12px">
+            <button class="btn primary" @click="openList">去列表添加</button>
+          </div>
         </div>
-      </div>
 
-      <div v-if="comparePhones.length < 2" class="empty">
-        <div class="big">📊</div>
-        至少选择 2 款机型才能对比
-      </div>
+        <template v-else>
+          <!-- 已选机型条：移动端横向滚动 -->
+          <div class="compare-phones-bar">
+            <div v-for="p in comparePhones" :key="p.id" class="compare-phone-chip">
+              <div class="chip-brand" :style="{ background: brandColor(p.brand) }">{{ p.brand }}</div>
+              <div class="chip-name">{{ brief(p).name }}</div>
+              <div class="chip-price">{{ priceText(p) }}</div>
+              <div class="chip-actions">
+                <button class="mini-btn" @click="openDetail(p.id)">详情</button>
+                <button class="mini-btn" @click="toggleCompare(p.id)">移除</button>
+              </div>
+            </div>
+          </div>
 
-      <div v-else class="compare-table-wrap">
-        <table class="compare">
-          <thead>
-            <tr>
-              <th>参数</th>
-              <th v-for="p in comparePhones" :key="p.id">
-                <div class="phone-col-title">{{ brief(p).name }}</div>
-                <div class="phone-col-sub">{{ priceText(p) }}</div>
-                <button class="mini-btn" style="margin-top:6px" @click="toggleCompare(p.id)">移除</button>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="row in compareRows" :key="row.l">
-              <td>{{ row.l }}</td>
-              <td
-                v-for="(val, idx) in row.values"
-                :key="idx"
-                :class="row.same ? 'same' : 'diff'"
-              >{{ val }}</td>
-            </tr>
-          </tbody>
-        </table>
+          <!-- 桌面：宽表 -->
+          <div class="compare-table-wrap desktop-only">
+            <table class="compare">
+              <thead>
+                <tr>
+                  <th>参数</th>
+                  <th v-for="p in comparePhones" :key="p.id">
+                    <div class="phone-col-title">{{ brief(p).name }}</div>
+                    <div class="phone-col-sub">{{ priceText(p) }}</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="row in visibleCompareRows" :key="row.l" :class="{ 'row-diff': !row.same }">
+                  <td>{{ row.l }}</td>
+                  <td
+                    v-for="(val, idx) in row.values"
+                    :key="idx"
+                    :class="row.same ? 'same' : 'diff'"
+                  >{{ val }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- 移动端：按参数分行的卡片对比 -->
+          <div class="compare-cards mobile-only">
+            <div
+              v-for="row in visibleCompareRows"
+              :key="row.l"
+              class="compare-card"
+              :class="{ same: row.same, diff: !row.same }"
+            >
+              <div class="compare-card-label">
+                <span>{{ row.l }}</span>
+                <span class="tag" v-if="!row.same">有差异</span>
+                <span class="tag same-tag" v-else>相同</span>
+              </div>
+              <div class="compare-card-values" :style="{ '--cols': comparePhones.length }">
+                <div
+                  v-for="(val, idx) in row.values"
+                  :key="idx"
+                  class="compare-card-cell"
+                  :class="row.same ? 'same' : 'diff'"
+                >
+                  <div class="cell-phone">{{ brief(comparePhones[idx]).name }}</div>
+                  <div class="cell-val">{{ val }}</div>
+                </div>
+              </div>
+            </div>
+            <div v-if="!visibleCompareRows.length" class="empty" style="padding:28px 12px">
+              当前没有差异项
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <!-- 移动端底部对比入口 -->
+    <div class="compare-dock" v-if="view === 'list' && compareList.length">
+      <div class="dock-info">
+        <strong>已选 {{ compareList.length }} 款</strong>
+        <span>最多 4 款</span>
+      </div>
+      <div class="dock-actions">
+        <button class="btn ghost" @click="clearCompare">清空</button>
+        <button class="btn primary" :disabled="compareList.length < 2" @click="openCompare">
+          {{ compareList.length < 2 ? '再选一款' : '去对比' }}
+        </button>
       </div>
     </div>
 
@@ -366,7 +433,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
   selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, selectedProtocols,
@@ -441,6 +508,8 @@ const activePills = computed(() => {
   return out
 })
 
+const compareDiffOnly = ref(false)
+
 const compareRows = computed(() => {
   const ps = comparePhones.value
   if (ps.length < 2) return []
@@ -465,6 +534,11 @@ const compareRows = computed(() => {
     const same = values.every(v => v === values[0])
     return { l: f.l, values, same }
   })
+})
+
+const visibleCompareRows = computed(() => {
+  const rows = compareRows.value
+  return compareDiffOnly.value ? rows.filter(r => !r.same) : rows
 })
 
 onMounted(async () => {
