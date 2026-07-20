@@ -99,6 +99,33 @@ const screenSummary = computed(() => {
 const ipSummary = computed(() => getIpRating(props.phone, { join: ' ', empty: '—' }))
 
 const cameraSummary = computed(() => {
+  const dc = props.phone.detailed_camera || ''
+  if (dc && dc.length > 5) {
+    // Match main camera segment: 主摄: <everything up to the first |
+    const m = dc.match(/主摄[：:]?\s*([^|]+)/)
+    if (m) {
+      const seg = m[1]
+      // Extract MP
+      let mp = ''
+      const mmp = seg.match(/(\d+)\s*MP/i) || seg.match(/(\d+(?:\.\d+)?)\s*亿/) || seg.match(/(\d+)\s*万/)
+      if (mmp) mp = mmp[0].replace(/\s*MP\s*/i, 'MP').replace('像素', '')
+      // Extract sensor model
+      let sensor = ''
+      const ms = seg.match(/(IMX\d+|LYT-?\d+|OV\d+[A-Z]?|HP[A-Z0-9]+|GN\d+|JN\d+|光影猎人\d*)/i)
+      if (ms) sensor = ms[1]
+      // Extract aperture
+      let ap = ''
+      const map = seg.match(/f\s*\/?\s*(\d+(?:\.\d+)?(?:-\d+(?:\.\d+)?)?)/i)
+      if (map) ap = 'f/' + map[1]
+      // Build short label
+      const parts = []
+      if (mp) parts.push(mp)
+      if (sensor) parts.push(sensor)
+      if (ap && ap !== 'f/') parts.push(ap)
+      if (parts.length >= 2) return parts.join(' · ')
+      if (parts.length) return parts[0]
+    }
+  }
   const cams = getCameraSpecs(props.phone)
   const rear = cams.find(s => s.l === '后置')
   if (rear?.v) {

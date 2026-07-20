@@ -153,6 +153,14 @@ a{color:inherit}
 }
 .seg button.on{background:var(--accent);color:#fff}
 
+.sort-btns{display:inline-flex;gap:4px}
+.sort-btn{
+  height:38px;padding:0 11px;border-radius:999px;border:1.5px solid var(--line);
+  background:#fff;color:var(--muted);cursor:pointer;font-weight:700;font-size:.82rem
+}
+.sort-btn:hover{border-color:var(--line-strong)}
+.sort-btn.on{background:var(--accent-soft);border-color:#7dd3c7;color:#115e59}
+
 .active-line{display:flex;flex-wrap:wrap;gap:8px;padding:0 2px 12px}
 .pill{
   display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;
@@ -462,6 +470,9 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
   .side h3{font-size:.88rem}
   .chips{gap:6px}
   .chip{font-size:.74rem;padding:6px 10px}
+  .toolbar-right{width:100%;justify-content:space-between}
+  .sort-btn{height:34px;padding:0 9px;font-size:.78rem}
+  .select{height:34px}
   .grid{grid-template-columns:1fr;gap:10px}
   .card{border-radius:18px}
   .card-body{padding:12px}

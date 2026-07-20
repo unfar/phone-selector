@@ -115,10 +115,13 @@
               <button :class="{ on: viewMode === 'cards' }" @click="setViewMode('cards')">卡片</button>
               <button :class="{ on: viewMode === 'table' }" @click="setViewMode('table')">表格</button>
             </div>
+            <div class="sort-btns">
+              <button class="sort-btn" :class="{ on: currentSort === 'newest' }" @click="setSort('newest')">最新</button>
+              <button class="sort-btn" :class="{ on: currentSort === 'price_asc' }" @click="setSort('price_asc')">价格 ↑</button>
+              <button class="sort-btn" :class="{ on: currentSort === 'price_desc' }" @click="setSort('price_desc')">价格 ↓</button>
+            </div>
             <select class="select" v-model="currentSort" @change="updateHash">
-              <option value="newest">最新发布</option>
-              <option value="price_asc">价格 ↑</option>
-              <option value="price_desc">价格 ↓</option>
+              <option value="newest" disabled>更多…</option>
               <option value="battery_desc">电池 ↓</option>
               <option value="weight_asc">重量 ↑</option>
               <option value="screen_desc">屏幕 ↓</option>
@@ -472,6 +475,7 @@ function cameraFull(p) {
 }
 
 function onSearch(e) { searchQuery.value = e.target.value; updateHash() }
+function setSort(sort) { currentSort.value = sort; updateHash() }
 function clearSearch() { searchQuery.value = ''; updateHash() }
 function toggleBrand(b) { selectedBrands.has(b) ? selectedBrands.delete(b) : selectedBrands.add(b); updateHash() }
 function toggleSet(set, v) { set.has(v) ? set.delete(v) : set.add(v); updateHash() }
