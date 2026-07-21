@@ -220,10 +220,15 @@ function parseCameraSegment(raw) {
   let fov = ''
   if ((m = text.match(/(\d{2,3})\s*°/))) fov = m[1] + '°'
 
-  // 光学技术 / 滤镜 / 品牌名称（不是传感器型号，单独展示）
-  let optics = ''
-  if (/RYYB/i.test(text)) optics = (optics ? optics + '/' : '') + 'RYYB'
-  if (/XMAGE/i.test(text)) optics = (optics ? optics + '/' : '') + 'XMAGE'
+  // 色彩滤镜阵列 CFA(不是传感器型号)
+    let cfa = ''
+    if (/RYYB/i.test(text)) cfa = 'RYYB'
+    else if (/RGGB/i.test(text)) cfa = 'RGGB'
+
+    // 影像品牌(华为XMAGE/OPPO LUMO等营销名称,非传感器型号)
+    let imagingBrand = ''
+    if (/XMAGE/i.test(text)) imagingBrand = 'XMAGE'
+    else if (/LUMO/i.test(text)) imagingBrand = 'LUMO'
 
   const ois = /OIS|光学防抖|传感器位移/.test(text)
   const brandTune = []
@@ -243,7 +248,8 @@ function parseCameraSegment(raw) {
   if (zoom) summaryParts.push(zoom)
   if (fov && !focal) summaryParts.push(fov)
   if (ois) summaryParts.push('OIS')
-  if (optics) summaryParts.push(optics)
+  if (cfa) summaryParts.push(cfa)
+  if (imagingBrand) summaryParts.push(imagingBrand)
   if (brandTune.length) summaryParts.push(brandTune.join('/'))
 
   const chips = []
@@ -255,7 +261,8 @@ function parseCameraSegment(raw) {
   if (zoom) chips.push({ k: '变焦', v: zoom })
   if (fov) chips.push({ k: '视角', v: fov })
   if (ois) chips.push({ k: '防抖', v: 'OIS' })
-  if (optics) chips.push({ k: '光学技术', v: optics })
+  if (cfa) chips.push({ k: '色彩滤镜', v: cfa })
+  if (imagingBrand) chips.push({ k: '影像品牌', v: imagingBrand })
   if (brandTune.length) chips.push({ k: '调校', v: brandTune.join('/') })
 
   return {
