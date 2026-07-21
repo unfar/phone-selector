@@ -120,8 +120,8 @@
               <button class="sort-btn" :class="{ on: currentSort === 'price_asc' }" @click="setSort('price_asc')">价格 ↑</button>
               <button class="sort-btn" :class="{ on: currentSort === 'price_desc' }" @click="setSort('price_desc')">价格 ↓</button>
             </div>
-            <select class="select" v-model="currentSort" @change="updateHash">
-              <option value="newest" disabled>更多…</option>
+            <select class="select" :value="moreSortValue" @change="onMoreSort($event)">
+              <option value="" disabled>更多…</option>
               <option value="battery_desc">电池 ↓</option>
               <option value="weight_asc">重量 ↑</option>
               <option value="screen_desc">屏幕 ↓</option>
@@ -476,6 +476,8 @@ function cameraFull(p) {
 
 function onSearch(e) { searchQuery.value = e.target.value; updateHash() }
 function setSort(sort) { currentSort.value = sort; updateHash() }
+function onMoreSort(e) { if (e.target.value) setSort(e.target.value); e.target.value = ''; }
+const moreSortValue = ref('')
 function clearSearch() { searchQuery.value = ''; updateHash() }
 function toggleBrand(b) { selectedBrands.has(b) ? selectedBrands.delete(b) : selectedBrands.add(b); updateHash() }
 function toggleSet(set, v) { set.has(v) ? set.delete(v) : set.add(v); updateHash() }
