@@ -37,7 +37,7 @@
     </header>
 
     <!-- LIST -->
-    <div v-if="view === 'list'" class="shell">
+    <div v-if="view === 'list'" class="shell" key="list-shell">
       <aside class="side desktop-only">
         <div class="panel">
           <h3>筛选条件</h3>

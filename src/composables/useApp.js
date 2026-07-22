@@ -207,39 +207,44 @@ function matchesSearch(p, rawQuery) {
 }
 
 export function matchesFilters(p) {
-  if (searchQuery.value) {
-    if (!matchesSearch(p, searchQuery.value)) return false
-  }
-  if (selectedBrands.size && !selectedBrands.has(p.brand)) return false
-  if (selectedScreen.value) {
-    const screenVal = selectedScreen.value.replace(/^\S+\s*/, '')
-    if (p.screen_form !== screenVal) return false
-  }
-  if (selectedCpu.size) {
-    let ok = false
-    for (const c of selectedCpu) if ((p.tags || []).includes(c) || (p.processor || '').includes(c)) { ok = true; break }
-    if (!ok) return false
-  }
-  for (const t of selectedTags) {
-    const inTags = (p.tags || []).includes(t)
-    const inFeatures = (p.features || []).some(f => String(f).includes(t))
-    if (!inTags && !inFeatures) return false
-  }
-  if (priceMin.value > 0 && p.price < priceMin.value) return false
-  if (priceMax.value < sliderMaxPrice.value && p.price > priceMax.value) return false
-  if (selectedScreenSizes.size) {
-    let ok = false
-    for (const s of selectedScreenSizes) {
-      const range = screenSizeRanges.find(r => r.name === s)
-      if (range && p.screen_size >= range.min && p.screen_size <= range.max) { ok = true; break }
+  try {
+    if (searchQuery.value) {
+      if (!matchesSearch(p, searchQuery.value)) return false
     }
-    if (!ok) return false
+    if (selectedBrands.size && !selectedBrands.has(p.brand)) return false
+    if (selectedScreen.value) {
+      const screenVal = selectedScreen.value.replace(/^\S+\s*/, '')
+      if (p.screen_form !== screenVal) return false
+    }
+    if (selectedCpu.size) {
+      let ok = false
+      for (const c of selectedCpu) if ((p.tags || []).includes(c) || (p.processor || '').includes(c)) { ok = true; break }
+      if (!ok) return false
+    }
+    for (const t of selectedTags) {
+      const inTags = (p.tags || []).includes(t)
+      const inFeatures = (p.features || []).some(f => String(f).includes(t))
+      if (!inTags && !inFeatures) return false
+    }
+    if (priceMin.value > 0 && p.price < priceMin.value) return false
+    if (priceMax.value < sliderMaxPrice.value && p.price > priceMax.value) return false
+    if (selectedScreenSizes.size) {
+      let ok = false
+      for (const s of selectedScreenSizes) {
+        const range = screenSizeRanges.find(r => r.name === s)
+        if (range && p.screen_size >= range.min && p.screen_size <= range.max) { ok = true; break }
+      }
+      if (!ok) return false
+    }
+    if (selectedProtocols.size) {
+      const protos = p.charge_protocols || []
+      for (const t of selectedProtocols) if (!protos.includes(t)) return false
+    }
+    return true
+  } catch (e) {
+    console.error('[matchesFilters] error', e, p)
+    return true
   }
-  if (selectedProtocols.size) {
-    const protos = p.charge_protocols || []
-    for (const t of selectedProtocols) if (!protos.includes(t)) return false
-  }
-  return true
 }
 
 export function sortPhones(list) {
