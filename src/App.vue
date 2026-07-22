@@ -298,7 +298,8 @@
             <div class="spec-row"><div class="k">充电</div><div class="v">{{ brief(detailPhone).charge }}</div></div>
             <div class="spec-row"><div class="k">USB</div><div class="v">{{ detailPhone.usb_version || '—' }}</div></div>
             <div class="spec-row"><div class="k">屏幕</div><div class="v">{{ getFoldableScreenDisplay(detailPhone) || brief(detailPhone).screen }}</div></div>
-            <div class="spec-row"><div class="k">分辨率/刷新率</div><div class="v">{{ resolutionText(detailPhone) }}</div></div>
+            <div class="spec-row"><div class="k">分辨率</div><div class="v">{{ resolutionText(detailPhone) }}</div></div>
+            <div class="spec-row"><div class="k">刷新率</div><div class="v">{{ detailPhone.refresh_hz ? detailPhone.refresh_hz + 'Hz' : '—' }}</div></div>
             <div class="spec-row"><div class="k">防尘抗水</div><div class="v">{{ brief(detailPhone).ip }}</div></div>
             <div class="spec-row"><div class="k">系统</div><div class="v">{{ detailPhone.os || '—' }}</div></div>
             <div class="spec-row full" v-if="detailPhone.charge_protocols?.length">
@@ -589,7 +590,26 @@ function priceText(p) {
   return p.price ? '¥' + p.price : '—'
 }
 function resolutionText(p) {
-  return ((p.resolution || '') + ' · ' + (p.refresh_hz ? p.refresh_hz + 'Hz' : '')).replace(/^ · /, '').replace(/ · $/, '') || '—'
+  const res = p.resolution || ''
+  // 折叠屏：内外屏都显示
+  if (p.screen_form === '折叠屏') {
+    // 有些用 / 分隔
+    const parts = res.split('/').map(s => s.trim()).filter(Boolean)
+    const main = p.screen_unfolded?.size || ''
+    const outer = p.screen_folded?.size || ''
+    if (parts.length >= 2) {
+      if (outer && main) return `${outer}″ ${parts[0]} / ${main}″ ${parts[1]}`
+      return parts.join(' / ')
+    }
+    if (parts.length === 1) {
+      if (res.includes('双屏') || !/^\d/.test(res)) return (p.screen_size ? p.screen_size + '″ ' : '') + '—'
+      return p.screen_size ? p.screen_size + '″ ' + res : res
+    }
+  }
+  // 非折叠屏
+  if (res && /^\d/.test(res)) return res
+  if (res && /[×x]/.test(res)) return res
+  return res || '—'
 }
 function cameraModules(p) {
   return getCameraModules(p)
@@ -667,7 +687,8 @@ const compareRows = computed(() => {
     { l: '电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—' },
     { l: '充电', v: p => brief(p).charge },
     { l: '屏幕', v: p => brief(p).screen },
-    { l: '分辨率/刷新率', v: p => resolutionText(p) },
+    { l: '分辨率', v: p => resolutionText(p) },
+    { l: '刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
     { l: '重量', v: p => p.weight_g ? p.weight_g + 'g' : '—' },
     { l: '防尘抗水', v: p => brief(p).ip },
     { l: 'USB', v: p => p.usb_version || '—' },
