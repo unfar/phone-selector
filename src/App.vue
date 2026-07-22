@@ -604,6 +604,7 @@ const compareDiffOnly = ref(true)
 const compareRows = computed(() => {
   const ps = comparePhones.value
   if (ps.length < 2) return []
+
   const fields = [
     { l: '价格', v: p => priceText(p) },
     { l: '处理器', v: p => p.processor || '—' },
@@ -617,15 +618,97 @@ const compareRows = computed(() => {
     { l: '防尘抗水', v: p => brief(p).ip },
     { l: 'USB', v: p => p.usb_version || '—' },
     { l: '系统', v: p => p.os || '—' },
-    { l: '影像', v: p => brief(p).cam },
     { l: '发布日期', v: p => p.release_date || '—' },
   ]
-  return fields.map(f => {
+
+  // 影像：将每个摄像头模块展开为独立行
+  const camSpecs = ps.map(p => getCameraSpecs(p))
+
+  // 后置摄像头 — 每颗镜头一行
+  const rearRows = buildCameraCompareRows('后置', camSpecs, 'rear')
+  // 前置摄像头 — 每颗镜头一行
+  const frontRows = buildCameraCompareRows('前置', camSpecs, 'front')
+
+  // 如果解析不到模块，回退到原来的摘要行
+  if (!rearRows.length && !frontRows.length) {
+    const camRows = fields.map(f => {
+      const values = new Array(ps.length)
+      for (let i = 0; i < ps.length; i++) values[i] = f.v(ps[i])
+      const same = values.every(v => v === values[0])
+      return { l: f.l, values, same }
+    })
+    // 追加影像摘要
+    camRows.push({
+      l: '影像',
+      values: ps.map(p => brief(p).cam),
+      same: false,
+    })
+    return camRows
+  }
+
+  const rows = fields.map(f => {
     const values = ps.map(p => f.v(p))
     const same = values.every(v => v === values[0])
     return { l: f.l, values, same }
   })
+
+  // 插入影像行
+  rows.push(...rearRows)
+  if (frontRows.length) rows.push(...frontRows)
+
+  return rows
 })
+
+/** 为对比表生成摄像头行：每颗镜头一行，行标签为「后置·主摄」等 */
+function buildCameraCompareRows(prefix, camSpecsArray, group) {
+  // 收集所有镜头 key（比如 main, uw, tele, periscope）
+  const allKeys = []
+  const seenKeys = new Set()
+  for (const specs of camSpecsArray) {
+    const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
+    if (spec?.modules) {
+      for (const m of spec.modules) {
+        if (!seenKeys.has(m.key)) {
+          seenKeys.add(m.key)
+          allKeys.push(m.key)
+        }
+      }
+    }
+  }
+  if (!allKeys.length) return []
+
+  // 按固定顺序排
+  const order = group === 'rear'
+    ? ['main', 'uw', 'tele', 'periscope', 'super_tele', 'macro', 'other']
+    : ['front', 'front_inner', 'front_outer', 'front_aux']
+  allKeys.sort((a, b) => {
+    const ai = order.indexOf(a), bi = order.indexOf(b)
+    return (ai >= 0 ? ai : 99) - (bi >= 0 ? bi : 99)
+  })
+
+  const rows = []
+  for (const key of allKeys) {
+    const values = camSpecsArray.map(specs => {
+      const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
+      const mod = spec?.modules?.find(m => m.key === key)
+      return mod ? `${mod.mp ? mod.mp + ' ' : ''}${mod.summary}` : '—'
+    })
+    const same = values.every(v => v === values[0])
+    // 生成友好的标签名
+    const labelMap = {
+      main: '主摄', uw: '超广角', tele: '长焦', periscope: '潜望长焦', super_tele: '超长焦',
+      macro: '微距', other: '其他',
+      front: '主自拍', front_inner: '内屏前置', front_outer: '外屏前置', front_aux: '副自拍',
+    }
+    const label = labelMap[key] || key
+    rows.push({
+      l: `${prefix}·${label}`,
+      values,
+      same,
+    })
+  }
+  return rows
+}
 
 const visibleCompareRows = computed(() => {
   const rows = compareRows.value
