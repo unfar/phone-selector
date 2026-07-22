@@ -1,15 +1,16 @@
 // ===== 配置数据 =====
-export const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen5","天玑9500","天玑8500","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"]
+export const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen5","骁龙8 至尊版","第三代骁龙8","第四代骁龙7","天玑9500","天玑9500s","天玑9500超能版","天玑8550","天玑8550 Elite","天玑8500","天玑8500 竞速版","天玑9400","天玑8系","麒麟9030","麒麟9030 Pro","麒麟9020","麒麟9010s","麒麟9010S","麒麟8020","麒麟8000","麒麟8000A","A19","A18","骁龙4 Gen 2","Helio G81-Ultra"]
 
-export const featureTags = ["潜望长焦","6500mAh+","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"]
+export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","有线投屏","散热风扇"]
 
 // 充电协议筛选（来自充电头网实测 charge_protocols 字段）
 export const protocolTags = ["5A PPS","UFCS","PPS","PD","QC","SCP","FCP","VFCP","Qi"]
 
 export const screenSizeRanges = [
-  { name: "6英寸左右", min: 5.7, max: 6.3 },
-  { name: "6.5英寸左右", min: 6.2, max: 6.8 },
-  { name: "7英寸左右", min: 6.7, max: 7.5 }
+  { name: "6.1-6.4英寸", min: 5.9, max: 6.45 },
+  { name: "6.5-6.7英寸", min: 6.35, max: 6.75 },
+  { name: "6.8-7.0英寸", min: 6.65, max: 7.05 },
+  { name: "7.0英寸以上", min: 6.85, max: 99 }
 ]
 
 export const screenTypes = ['📱 直屏','🔄 折叠屏']
