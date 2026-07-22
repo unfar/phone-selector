@@ -29,7 +29,7 @@
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
         <button v-if="view !== 'list'" class="btn ghost" @click="openList">← 返回列表</button>
-        <button class="btn" :class="{ active: compareList.length }" @click="openCompare">
+        <button class="btn desktop-only" :class="{ active: compareList.length }" @click="openCompare">
           对比
           <span v-if="compareList.length" class="badge-count">{{ compareList.length }}</span>
         </button>
@@ -492,7 +492,7 @@
       <div class="dock-actions">
         <button class="btn ghost" @click="clearCompare">清空</button>
         <button class="btn primary" :disabled="compareList.length < 2" @click="showMobileCompare = !showMobileCompare">
-          {{ showMobileCompare ? '收起' : (compareList.length < 2 ? '再选一款' : '查看对比') }}
+          {{ showMobileCompare ? '收起对比' : (compareList.length < 2 ? '再选一款' : '查看对比') }}
         </button>
       </div>
     </div>
