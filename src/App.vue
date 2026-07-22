@@ -25,6 +25,9 @@
       </div>
 
       <div class="top-actions">
+        <button class="btn ghost theme-toggle" @click="toggleTheme" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
+          {{ theme === 'dark' ? '☀️' : '🌙' }}
+        </button>
         <button v-if="view !== 'list'" class="btn ghost" @click="openList">← 返回列表</button>
         <button class="btn" :class="{ active: compareList.length }" @click="openCompare">
           对比
@@ -565,7 +568,16 @@ const visibleCompareRows = computed(() => {
   return compareDiffOnly.value ? rows.filter(r => !r.same) : rows
 })
 
+const theme = ref(localStorage.getItem('ps-theme') || 'light')
+
+function toggleTheme() {
+  theme.value = theme.value === 'dark' ? 'light' : 'dark'
+  localStorage.setItem('ps-theme', theme.value)
+  document.documentElement.setAttribute('data-theme', theme.value)
+}
+
 onMounted(async () => {
+  document.documentElement.setAttribute('data-theme', theme.value)
   try {
     const resp = await fetch('data/phones.json')
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
