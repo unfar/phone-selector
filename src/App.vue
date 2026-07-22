@@ -616,14 +616,9 @@ const fabRef = ref(null)
 const fabDragging = ref(false)
 const fabPos = ref({ x: 0, y: 0 })
 let fabDragStart = null
+let fabMoved = false
 
 function onFabClick(e) {
-  // 如果发生了拖动（移动超过 5px），不触发 click
-  if (fabDragStart) {
-    const dx = e.clientX - fabDragStart.x
-    const dy = e.clientY - fabDragStart.y
-    if (Math.abs(dx) > 5 || Math.abs(dy) > 5) return
-  }
   showFilterDrawer.value = true
 }
 const activeFilterCount = computed(() => {
@@ -796,6 +791,7 @@ onMounted(async () => {
   el.style.right = '16px'
 
   function onStart(e) {
+    fabMoved = false
     if (e.type === 'touchstart') e.preventDefault()
     const touch = e.touches ? e.touches[0] : e
     fabDragStart = { x: touch.clientX, y: touch.clientY }
@@ -808,6 +804,7 @@ onMounted(async () => {
     const dx = touch.clientX - fabDragStart.x
     const dy = touch.clientY - fabDragStart.y
     fabDragStart = { x: touch.clientX, y: touch.clientY }
+    if (Math.abs(dx) > 5 || Math.abs(dy) > 5) fabMoved = true
     let top = el.offsetTop + dy
     let left = el.offsetLeft + dx
     top = Math.max(10, Math.min(top, window.innerHeight - el.offsetHeight - 100))
@@ -818,7 +815,7 @@ onMounted(async () => {
   }
   function onEnd() {
     fabDragging.value = false
-    fabDragStart = null
+    if (!fabMoved) showFilterDrawer.value = true
     el.style.transition = 'transform .2s ease'
     const w = el.offsetWidth
     const cx = el.offsetLeft + w / 2
