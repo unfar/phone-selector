@@ -156,7 +156,7 @@
       <button
         class="filter-fab mobile-only"
         ref="fabRef"
-        v-show="view === 'list' && !showMobileCompare"
+        v-show="view === 'list'"
         @click="onFabClick"
       >
         <span v-if="hasFilters" class="fab-badge">{{ activeFilterCount }}</span>
@@ -491,63 +491,9 @@
       </div>
       <div class="dock-actions">
         <button class="btn ghost" @click="clearCompare">清空</button>
-        <button class="btn primary" :disabled="compareList.length < 2" @click="showMobileCompare = !showMobileCompare">
-          {{ showMobileCompare ? '收起对比' : (compareList.length < 2 ? '再选一款' : '查看对比') }}
+        <button class="btn primary" :disabled="compareList.length < 2" @click="openCompare">
+          {{ compareList.length < 2 ? '再选一款' : '查看对比' }}
         </button>
-      </div>
-    </div>
-
-    <!-- 移动端内嵌对比面板 -->
-    <div class="compare-inline mobile-only" v-if="view === 'list' && showMobileCompare && comparePhones.length >= 2">
-      <div class="compare-inline-head">
-        <div>
-          <strong>规格对比</strong>
-          <span class="compare-sub">已选 {{ comparePhones.length }} / 4 款</span>
-        </div>
-        <div style="display:flex;gap:6px">
-          <button class="btn" :class="{ active: compareDiffOnly }" @click="compareDiffOnly = !compareDiffOnly">
-            {{ compareDiffOnly ? '全部' : '差异' }}
-          </button>
-          <button class="btn ghost" @click="showMobileCompare = false">收起</button>
-        </div>
-      </div>
-      <div class="compare-inline-phones">
-        <div v-for="p in comparePhones" :key="p.id" class="compare-phone-chip">
-          <div class="chip-brand" :style="{ background: brandColor(p.brand) }">{{ p.brand }}</div>
-          <div class="chip-name">{{ brief(p).name }}</div>
-          <div class="chip-price">{{ priceText(p) }}</div>
-          <div class="chip-actions">
-            <button class="mini-btn" @click="toggleCompare(p.id)">移除</button>
-          </div>
-        </div>
-      </div>
-      <div class="compare-cards">
-        <div
-          v-for="row in visibleCompareRows"
-          :key="row.l"
-          class="compare-card"
-          :class="{ same: row.same, diff: !row.same }"
-        >
-          <div class="compare-card-label">
-            <span>{{ row.l }}</span>
-            <span class="tag" v-if="!row.same">有差异</span>
-            <span class="tag same-tag" v-else>相同</span>
-          </div>
-          <div class="compare-card-values" :style="{ '--cols': comparePhones.length }">
-            <div
-              v-for="(val, idx) in row.values"
-              :key="idx"
-              class="compare-card-cell"
-              :class="row.same ? 'same' : 'diff'"
-            >
-              <div class="cell-phone">{{ brief(comparePhones[idx]).name }}</div>
-              <div class="cell-val">{{ val }}</div>
-            </div>
-          </div>
-        </div>
-        <div v-if="!visibleCompareRows.length && compareDiffOnly" class="empty" style="padding:16px 8px">
-          当前没有差异项
-        </div>
       </div>
     </div>
 
@@ -666,7 +612,6 @@ const activePills = computed(() => {
 })
 
 const showFilterDrawer = ref(false)
-const showMobileCompare = ref(false)
 const fabRef = ref(null)
 const fabDragging = ref(false)
 const fabPos = ref({ x: 0, y: 0 })
