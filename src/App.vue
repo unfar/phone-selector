@@ -152,9 +152,8 @@
           </div>
         </div>
       </div>
-
       <!-- 浮动筛选按钮 -->
-      <button class="filter-fab mobile-only" @click="showFilterDrawer = true" v-show="view === 'list'">
+      <button class="filter-fab mobile-only" @click="showFilterDrawer = true" v-show="view === 'list' && !showMobileCompare">
         <span v-if="hasFilters" class="fab-badge">{{ activeFilterCount }}</span>
         🔍 筛选
       </button>
