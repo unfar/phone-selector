@@ -618,12 +618,15 @@ const fabPos = ref({ x: 0, y: 0 })
 let fabDragStart = null
 
 function onFabClick(e) {
+  console.log('[FAB] click fired', { fabDragStart })
   // 如果发生了拖动（移动超过 5px），不触发 click
   if (fabDragStart) {
     const dx = e.clientX - fabDragStart.x
     const dy = e.clientY - fabDragStart.y
+    console.log('[FAB] drag check', { dx, dy, fabDragStart })
     if (Math.abs(dx) > 5 || Math.abs(dy) > 5) return
   }
+  console.log('[FAB] opening filter drawer')
   showFilterDrawer.value = true
 }
 const activeFilterCount = computed(() => {
@@ -796,6 +799,7 @@ onMounted(async () => {
   el.style.right = '16px'
 
   function onStart(e) {
+    console.log('[FAB] onStart', e.type)
     if (e.type === 'touchstart') e.preventDefault()
     const touch = e.touches ? e.touches[0] : e
     fabDragStart = { x: touch.clientX, y: touch.clientY }
@@ -818,6 +822,7 @@ onMounted(async () => {
     el.style.right = 'auto'
   }
   function onEnd() {
+    console.log('[FAB] onEnd', { fabDragStart })
     fabDragging.value = false
     fabDragStart = null
     el.style.transition = 'transform .2s ease'
