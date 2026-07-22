@@ -796,7 +796,7 @@ onMounted(async () => {
   el.style.right = '16px'
 
   function onStart(e) {
-    e.preventDefault()
+    if (e.type === 'touchstart') e.preventDefault()
     const touch = e.touches ? e.touches[0] : e
     fabDragStart = { x: touch.clientX, y: touch.clientY }
     fabDragging.value = true
