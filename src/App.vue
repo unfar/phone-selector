@@ -152,8 +152,13 @@
           </div>
         </div>
       </div>
-      <!-- 浮动筛选按钮 -->
-      <button class="filter-fab mobile-only" @click="showFilterDrawer = true" v-show="view === 'list' && !showMobileCompare">
+      <!-- 浮动筛选按钮（可拖动） -->
+      <button
+        class="filter-fab mobile-only"
+        ref="fabRef"
+        v-show="view === 'list' && !showMobileCompare"
+        @click="onFabClick"
+      >
         <span v-if="hasFilters" class="fab-badge">{{ activeFilterCount }}</span>
         🔍 筛选
       </button>
@@ -662,6 +667,20 @@ const activePills = computed(() => {
 
 const showFilterDrawer = ref(false)
 const showMobileCompare = ref(false)
+const fabRef = ref(null)
+const fabDragging = ref(false)
+const fabPos = ref({ x: 0, y: 0 })
+let fabDragStart = null
+
+function onFabClick(e) {
+  // 如果发生了拖动（移动超过 5px），不触发 click
+  if (fabDragStart) {
+    const dx = e.clientX - fabDragStart.x
+    const dy = e.clientY - fabDragStart.y
+    if (Math.abs(dx) > 5 || Math.abs(dy) > 5) return
+  }
+  showFilterDrawer.value = true
+}
 const activeFilterCount = computed(() => {
   let n = 0
   if (selectedBrands.value.size) n++
@@ -822,5 +841,56 @@ onMounted(async () => {
     loading.value = false
     error.value = e.message
   }
+
+  // FAB 拖动
+  const el = fabRef.value
+  if (!el) return
+  // 初始定位：右侧屏幕 1/4 高度
+  const initTop = window.innerHeight * 0.25
+  el.style.top = initTop + 'px'
+  el.style.right = '16px'
+
+  function onStart(e) {
+    e.preventDefault()
+    const touch = e.touches ? e.touches[0] : e
+    fabDragStart = { x: touch.clientX, y: touch.clientY }
+    fabDragging.value = true
+    el.style.transition = 'none'
+  }
+  function onMove(e) {
+    if (!fabDragging.value) return
+    const touch = e.touches ? e.touches[0] : e
+    const dx = touch.clientX - fabDragStart.x
+    const dy = touch.clientY - fabDragStart.y
+    fabDragStart = { x: touch.clientX, y: touch.clientY }
+    let top = el.offsetTop + dy
+    let left = el.offsetLeft + dx
+    // 边界限制
+    top = Math.max(10, Math.min(top, window.innerHeight - el.offsetHeight - 100))
+    left = Math.max(0, Math.min(left, window.innerWidth - el.offsetWidth - 10))
+    el.style.top = top + 'px'
+    el.style.left = left + 'px'
+    el.style.right = 'auto'
+  }
+  function onEnd() {
+    fabDragging.value = false
+    el.style.transition = 'transform .2s ease'
+    // 贴边吸附
+    const w = el.offsetWidth
+    const cx = el.offsetLeft + w / 2
+    if (cx < window.innerWidth / 2) {
+      el.style.left = '8px'
+      el.style.right = 'auto'
+    } else {
+      el.style.left = 'auto'
+      el.style.right = '8px'
+    }
+  }
+  el.addEventListener('touchstart', onStart, { passive: false })
+  el.addEventListener('touchmove', onMove, { passive: false })
+  el.addEventListener('touchend', onEnd)
+  el.addEventListener('mousedown', onStart)
+  window.addEventListener('mousemove', onMove)
+  window.addEventListener('mouseup', onEnd)
 })
 </script>

@@ -415,12 +415,13 @@ table.compare tr.row-diff td:first-child{color:#0f766e}
 
 /* ── 移动端筛选浮动按钮 + 底部抽屉 ── */
 .filter-fab{
-  position:fixed;bottom:20px;right:16px;z-index:90;
+  position:fixed;bottom:auto;top:25vh;right:16px;z-index:90;
   height:44px;padding:0 18px;border-radius:999px;
   background:var(--accent);color:#fff;border:none;cursor:pointer;
   font-size:.88rem;font-weight:700;
   box-shadow:0 4px 20px rgba(15,118,110,.35);
   display:flex;align-items:center;gap:6px;
+  user-select:none;-webkit-user-select:none;touch-action:none;
 }
 .filter-fab .fab-badge{
   position:absolute;top:-4px;right:-4px;
