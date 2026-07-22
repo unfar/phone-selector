@@ -412,6 +412,42 @@ table.compare tr.row-diff td:first-child{color:#0f766e}
 /* mobile compare cards */
 .desktop-only{display:block}
 .mobile-only{display:none}
+
+/* ── 移动端筛选浮动按钮 + 底部抽屉 ── */
+.filter-fab{
+  position:fixed;bottom:20px;right:16px;z-index:90;
+  height:44px;padding:0 18px;border-radius:999px;
+  background:var(--accent);color:#fff;border:none;cursor:pointer;
+  font-size:.88rem;font-weight:700;
+  box-shadow:0 4px 20px rgba(15,118,110,.35);
+  display:flex;align-items:center;gap:6px;
+}
+.filter-fab .fab-badge{
+  position:absolute;top:-4px;right:-4px;
+  background:var(--accent-2);color:#fff;min-width:18px;height:18px;
+  border-radius:999px;font-size:.68rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;padding:0 5px;
+}
+.filter-overlay{
+  position:fixed;inset:0;z-index:100;
+  background:rgba(0,0,0,.45);
+  display:flex;align-items:flex-end;justify-content:center;
+  animation:fadeIn .2s ease;
+}
+.filter-drawer{
+  background:var(--bg);width:100%;max-width:500px;max-height:78vh;
+  border-radius:22px 22px 0 0;overflow-y:auto;display:flex;flex-direction:column;
+  animation:slideUp .25s ease;
+}
+.filter-drawer-head{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:14px 18px;border-bottom:1px solid var(--line);
+  position:sticky;top:0;background:var(--bg);z-index:2;
+}
+.filter-drawer-body{padding:14px 18px 24px}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+
 .compare-cards{display:grid;gap:10px}
 .compare-card{
   border:1px solid var(--line);border-radius:18px;background:#fff;
