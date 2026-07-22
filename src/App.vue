@@ -396,7 +396,7 @@
           </div>
           <div class="compare-head-actions">
             <button class="btn" :class="{ active: compareDiffOnly }" @click="compareDiffOnly = !compareDiffOnly" v-if="comparePhones.length >= 2">
-              {{ compareDiffOnly ? '显示全部' : '只看差异' }}
+              {{ compareDiffOnly ? '显示全部' : '仅看差异' }}
             </button>
             <button class="btn" @click="clearCompare">清空</button>
             <button class="btn ghost" @click="openList">返回</button>
@@ -637,7 +637,7 @@ const activeFilterCount = computed(() => {
   if (selectedScreenSizes.value.size) n++
   return n || ''
 })
-const compareDiffOnly = ref(true)
+const compareDiffOnly = ref(false)
 
 const compareRows = computed(() => {
   const ps = comparePhones.value
