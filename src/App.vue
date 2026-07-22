@@ -819,6 +819,7 @@ onMounted(async () => {
   }
   function onEnd() {
     fabDragging.value = false
+    fabDragStart = null
     el.style.transition = 'transform .2s ease'
     // 贴边吸附
     const w = el.offsetWidth
