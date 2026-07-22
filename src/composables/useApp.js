@@ -271,6 +271,23 @@ export const filteredPhones = computed(() => phones.value.filter(matchesFilters)
 export const sortedPhones = computed(() => sortPhones(filteredPhones.value))
 export const resultCount = computed(() => sortedPhones.value.length)
 export const detailPhone = computed(() => phones.value.find(p => p.id === detailId.value) || null)
+export const prevNextPhones = computed(() => {
+  const list = sortedPhones.value
+  const idx = list.findIndex(p => p.id === detailId.value)
+  if (idx < 0) return { prev: null, next: null }
+  return {
+    prev: idx > 0 ? list[idx - 1] : null,
+    next: idx < list.length - 1 ? list[idx + 1] : null,
+  }
+})
+export function prevDetail() {
+  const pn = prevNextPhones.value
+  if (pn.prev) openDetail(pn.prev.id)
+}
+export function nextDetail() {
+  const pn = prevNextPhones.value
+  if (pn.next) openDetail(pn.next.id)
+}
 export const comparePhones = computed(() => compareList.value.map(id => phones.value.find(p => p.id === id)).filter(Boolean))
 
 export function clearAllFilters() {

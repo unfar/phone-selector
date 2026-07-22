@@ -252,6 +252,9 @@ table.list .name-cell:hover{color:var(--accent)}
 .detail-hero h2{font-size:1.85rem;line-height:1.15;margin-bottom:10px;letter-spacing:-.03em}
 .detail-hero .price-lg{font-size:1.55rem;font-weight:900;color:#9a3412}
 .detail-actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.detail-nav{display:flex;align-items:center;gap:6px;margin-top:12px;font-size:.82rem;color:var(--muted)}
+.detail-nav .btn{padding:4px 10px;font-size:.78rem}
+.detail-nav .nav-pos{white-space:nowrap;opacity:.6}
 .spec-blocks{display:grid;gap:12px}
 .spec-block{padding:16px}
 .spec-block h4{

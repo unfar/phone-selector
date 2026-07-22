@@ -220,6 +220,15 @@
           <button class="btn" @click="openCompare" v-if="compareList.length >= 2">去对比页</button>
           <button class="btn ghost" @click="openList">返回列表</button>
         </div>
+        <div class="detail-nav" v-if="prevNextPhones.prev || prevNextPhones.next">
+          <button class="btn ghost" :disabled="!prevNextPhones.prev" @click="prevDetail" title="上一款">
+            ← {{ prevNextPhones.prev?.model || '—' }}
+          </button>
+          <span class="nav-pos">{{ navPos }} / {{ resultCount }}</span>
+          <button class="btn ghost" :disabled="!prevNextPhones.next" @click="nextDetail" title="下一款">
+            {{ prevNextPhones.next?.model || '—' }} →
+          </button>
+        </div>
       </section>
 
       <section class="spec-blocks">
@@ -430,7 +439,8 @@
 
     <footer>
       机选 · 浅色通透目录风 · 列表 / 详情 / 对比<br>
-      数据来源：各品牌官网 · 仅供参考 · Made with ❤️ by Lumi
+      数据来源：各品牌官网 · 截至 2026-07-19 · 共计 {{ resultCount }} 款<br>
+      Made with ❤️ by Lumi
     </footer>
   </div>
 </template>
@@ -443,9 +453,17 @@ import {
   priceMin, priceMax, sliderMaxPrice, brandList, compareList, resultCount, sortedPhones,
   detailPhone, comparePhones, openList, openDetail, openCompare, setViewMode, toggleCompare,
   clearCompare, isCompared, clearAllFilters, updateHash, restoreStateFromHash, brandColor, cardBrief,
-  featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs, getCameraModules
+  featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs, getCameraModules,
+  prevNextPhones, prevDetail, nextDetail
 } from './composables/useApp.js'
 
+const navPos = computed(() => {
+  const list = sortedPhones.value
+  const dp = detailPhone.value
+  if (!dp) return 0
+  const idx = list.findIndex(p => p.id === dp.id)
+  return idx >= 0 ? idx + 1 : 0
+})
 const today = new Date().toISOString().split('T')[0]
 const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
 const hasFilters = computed(() => !!(
