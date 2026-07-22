@@ -522,8 +522,8 @@ const navPos = computed(() => {
 const today = new Date().toISOString().split('T')[0]
 const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
 const hasFilters = computed(() => !!(
-  searchQuery.value || selectedBrands.size || selectedScreen.value || selectedCpu.size ||
-  selectedTags.size || selectedScreenSizes.size || selectedProtocols.size || priceActive.value
+  searchQuery.value || selectedBrands.value.size || selectedScreen.value || selectedCpu.value.size ||
+  selectedTags.value.size || selectedScreenSizes.value.size || selectedProtocols.value.size || priceActive.value
 ))
 
 function brief(p) { return cardBrief(p) }
@@ -552,8 +552,8 @@ function setSort(sort) { currentSort.value = sort; updateHash() }
 function onMoreSort(e) { if (e.target.value) setSort(e.target.value); e.target.value = ''; }
 const moreSortValue = ref('')
 function clearSearch() { searchQuery.value = ''; updateHash() }
-function toggleBrand(b) { selectedBrands.has(b) ? selectedBrands.delete(b) : selectedBrands.add(b); updateHash() }
-function toggleSet(set, v) { set.has(v) ? set.delete(v) : set.add(v); updateHash() }
+function toggleBrand(b) { selectedBrands.value.has(b) ? selectedBrands.value.delete(b) : selectedBrands.value.add(b); updateHash() }
+function toggleSet(set, v) { set.value.has(v) ? set.value.delete(v) : set.value.add(v); updateHash() }
 function selectScreen(s) {
   selectedScreen.value = selectedScreen.value === s ? null : s
   updateHash()
@@ -574,12 +574,12 @@ function onPriceMax(e) {
 const activePills = computed(() => {
   const out = []
   if (searchQuery.value) out.push({ label: '🔍 ' + searchQuery.value, clear: clearSearch })
-  selectedBrands.forEach(b => out.push({ label: b, clear: () => { selectedBrands.delete(b); updateHash() } }))
+  selectedBrands.value.forEach(b => out.push({ label: b, clear: () => { selectedBrands.value.delete(b); updateHash() } }))
   if (selectedScreen.value) out.push({ label: selectedScreen.value, clear: () => { selectedScreen.value = null; updateHash() } })
-  selectedCpu.forEach(c => out.push({ label: c, clear: () => { selectedCpu.delete(c); updateHash() } }))
-  selectedTags.forEach(t => out.push({ label: t, clear: () => { selectedTags.delete(t); updateHash() } }))
-  selectedProtocols.forEach(t => out.push({ label: '🔌 ' + t, clear: () => { selectedProtocols.delete(t); updateHash() } }))
-  selectedScreenSizes.forEach(s => out.push({ label: s, clear: () => { selectedScreenSizes.delete(s); updateHash() } }))
+  selectedCpu.value.forEach(c => out.push({ label: c, clear: () => { selectedCpu.value.delete(c); updateHash() } }))
+  selectedTags.value.forEach(t => out.push({ label: t, clear: () => { selectedTags.value.delete(t); updateHash() } }))
+  selectedProtocols.value.forEach(t => out.push({ label: '🔌 ' + t, clear: () => { selectedProtocols.value.delete(t); updateHash() } }))
+  selectedScreenSizes.value.forEach(s => out.push({ label: s, clear: () => { selectedScreenSizes.value.delete(s); updateHash() } }))
   if (priceActive.value) out.push({
     label: `¥${priceMin.value || 0}-${priceMax.value}`,
     clear: () => { priceMin.value = 0; priceMax.value = sliderMaxPrice.value; updateHash() }

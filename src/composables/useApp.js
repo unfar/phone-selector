@@ -1,4 +1,4 @@
-import { ref, computed, reactive } from 'vue'
+import { ref, computed } from 'vue'
 import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, cpuTags, screenTypes, screenSizeRanges } from '../utils.js'
 
 export const phones = ref([])
@@ -10,12 +10,12 @@ export const view = ref('list')
 export const viewMode = ref(localStorage.getItem('ps_view_mode') || 'cards') // cards | table
 export const detailId = ref(null)
 
-export const selectedBrands = reactive(new Set())
+export const selectedBrands = ref(new Set())
 export const selectedScreen = ref(null)
-export const selectedCpu = reactive(new Set())
-export const selectedTags = reactive(new Set())
-export const selectedScreenSizes = reactive(new Set())
-export const selectedProtocols = reactive(new Set())
+export const selectedCpu = ref(new Set())
+export const selectedTags = ref(new Set())
+export const selectedScreenSizes = ref(new Set())
+export const selectedProtocols = ref(new Set())
 export const currentSort = ref('newest')
 export const searchQuery = ref('')
 export const priceMin = ref(0)
@@ -207,44 +207,39 @@ function matchesSearch(p, rawQuery) {
 }
 
 export function matchesFilters(p) {
-  try {
-    if (searchQuery.value) {
-      if (!matchesSearch(p, searchQuery.value)) return false
-    }
-    if (selectedBrands.size && !selectedBrands.has(p.brand)) return false
-    if (selectedScreen.value) {
-      const screenVal = selectedScreen.value.replace(/^\S+\s*/, '')
-      if (p.screen_form !== screenVal) return false
-    }
-    if (selectedCpu.size) {
-      let ok = false
-      for (const c of selectedCpu) if ((p.tags || []).includes(c) || (p.processor || '').includes(c)) { ok = true; break }
-      if (!ok) return false
-    }
-    for (const t of selectedTags) {
-      const inTags = (p.tags || []).includes(t)
-      const inFeatures = (p.features || []).some(f => String(f).includes(t))
-      if (!inTags && !inFeatures) return false
-    }
-    if (priceMin.value > 0 && p.price < priceMin.value) return false
-    if (priceMax.value < sliderMaxPrice.value && p.price > priceMax.value) return false
-    if (selectedScreenSizes.size) {
-      let ok = false
-      for (const s of selectedScreenSizes) {
-        const range = screenSizeRanges.find(r => r.name === s)
-        if (range && p.screen_size >= range.min && p.screen_size <= range.max) { ok = true; break }
-      }
-      if (!ok) return false
-    }
-    if (selectedProtocols.size) {
-      const protos = p.charge_protocols || []
-      for (const t of selectedProtocols) if (!protos.includes(t)) return false
-    }
-    return true
-  } catch (e) {
-    console.error('[matchesFilters] error', e, p)
-    return true
+  if (searchQuery.value) {
+    if (!matchesSearch(p, searchQuery.value)) return false
   }
+  if (selectedBrands.value.size && !selectedBrands.value.has(p.brand)) return false
+  if (selectedScreen.value) {
+    const screenVal = selectedScreen.value.replace(/^\S+\s*/, '')
+    if (p.screen_form !== screenVal) return false
+  }
+  if (selectedCpu.value.size) {
+    let ok = false
+    for (const c of selectedCpu.value) if ((p.tags || []).includes(c) || (p.processor || '').includes(c)) { ok = true; break }
+    if (!ok) return false
+  }
+  for (const t of selectedTags.value) {
+    const inTags = (p.tags || []).includes(t)
+    const inFeatures = (p.features || []).some(f => String(f).includes(t))
+    if (!inTags && !inFeatures) return false
+  }
+  if (priceMin.value > 0 && p.price < priceMin.value) return false
+  if (priceMax.value < sliderMaxPrice.value && p.price > priceMax.value) return false
+  if (selectedScreenSizes.value.size) {
+    let ok = false
+    for (const s of selectedScreenSizes.value) {
+      const range = screenSizeRanges.find(r => r.name === s)
+      if (range && p.screen_size >= range.min && p.screen_size <= range.max) { ok = true; break }
+    }
+    if (!ok) return false
+  }
+  if (selectedProtocols.value.size) {
+    const protos = p.charge_protocols || []
+    for (const t of selectedProtocols.value) if (!protos.includes(t)) return false
+  }
+  return true
 }
 
 export function sortPhones(list) {
@@ -296,12 +291,12 @@ export function nextDetail() {
 export const comparePhones = computed(() => compareList.value.map(id => phones.value.find(p => p.id === id)).filter(Boolean))
 
 export function clearAllFilters() {
-  selectedBrands.clear()
+  selectedBrands.value.clear()
   selectedScreen.value = null
-  selectedCpu.clear()
-  selectedTags.clear()
-  selectedScreenSizes.clear()
-  selectedProtocols.clear()
+  selectedCpu.value.clear()
+  selectedTags.value.clear()
+  selectedScreenSizes.value.clear()
+  selectedProtocols.value.clear()
   priceMin.value = 0
   priceMax.value = sliderMaxPrice.value
   searchQuery.value = ''
@@ -313,12 +308,12 @@ export function updateHash() {
   if (view.value !== 'list') params.set('view', view.value)
   if (detailId.value) params.set('id', String(detailId.value))
   if (compareList.value.length) params.set('cmp', compareList.value.join(','))
-  if (selectedBrands.size) params.set('brands', [...selectedBrands].join(','))
+  if (selectedBrands.value.size) params.set('brands', [...selectedBrands.value].join(','))
   if (selectedScreen.value) params.set('screen', selectedScreen.value)
-  if (selectedCpu.size) params.set('cpu', [...selectedCpu].join(','))
-  if (selectedTags.size) params.set('tags', [...selectedTags].join(','))
-  if (selectedScreenSizes.size) params.set('screenSize', [...selectedScreenSizes].join(','))
-  if (selectedProtocols.size) params.set('proto', [...selectedProtocols].join(','))
+  if (selectedCpu.value.size) params.set('cpu', [...selectedCpu.value].join(','))
+  if (selectedTags.value.size) params.set('tags', [...selectedTags.value].join(','))
+  if (selectedScreenSizes.value.size) params.set('screenSize', [...selectedScreenSizes.value].join(','))
+  if (selectedProtocols.value.size) params.set('proto', [...selectedProtocols.value].join(','))
   if (priceMin.value > 0 || priceMax.value < sliderMaxPrice.value) {
     params.set('price', `${priceMin.value > 0 ? priceMin.value : ''}-${priceMax.value < sliderMaxPrice.value ? priceMax.value : ''}`)
   }
@@ -332,12 +327,12 @@ export function restoreStateFromHash() {
   const hash = location.hash.slice(1)
   if (!hash) return
   const params = new URLSearchParams(hash)
-  const brands = params.get('brands'); if (brands) brands.split(',').forEach(b => selectedBrands.add(b))
+  const brands = params.get('brands'); if (brands) brands.split(',').forEach(b => selectedBrands.value.add(b))
   selectedScreen.value = params.get('screen') || null
-  const cpu = params.get('cpu'); if (cpu) cpu.split(',').forEach(c => selectedCpu.add(c))
-  const tags = params.get('tags'); if (tags) tags.split(',').forEach(t => selectedTags.add(t))
-  const ss = params.get('screenSize'); if (ss) ss.split(',').forEach(s => selectedScreenSizes.add(s))
-  const proto = params.get('proto'); if (proto) proto.split(',').forEach(t => selectedProtocols.add(t))
+  const cpu = params.get('cpu'); if (cpu) cpu.split(',').forEach(c => selectedCpu.value.add(c))
+  const tags = params.get('tags'); if (tags) tags.split(',').forEach(t => selectedTags.value.add(t))
+  const ss = params.get('screenSize'); if (ss) ss.split(',').forEach(s => selectedScreenSizes.value.add(s))
+  const proto = params.get('proto'); if (proto) proto.split(',').forEach(t => selectedProtocols.value.add(t))
   const price = params.get('price')
   if (price) {
     const [a, b] = price.split('-')
