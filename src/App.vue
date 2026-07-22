@@ -661,16 +661,18 @@ const compareRows = computed(() => {
 
 /** 为对比表生成摄像头行：每颗镜头一行，行标签为「后置·主摄」等 */
 function buildCameraCompareRows(prefix, camSpecsArray, group) {
-  // 收集所有镜头 key（比如 main, uw, tele, periscope）
+  // 收集所有镜头 key（比如 main, uw, tele），潜望/超长焦统一归入 tele
   const allKeys = []
   const seenKeys = new Set()
+  const mergeMap = { periscope: 'tele', super_tele: 'tele' }
   for (const specs of camSpecsArray) {
     const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
     if (spec?.modules) {
       for (const m of spec.modules) {
-        if (!seenKeys.has(m.key)) {
-          seenKeys.add(m.key)
-          allKeys.push(m.key)
+        const k = mergeMap[m.key] || m.key
+        if (!seenKeys.has(k)) {
+          seenKeys.add(k)
+          allKeys.push(k)
         }
       }
     }
@@ -679,7 +681,7 @@ function buildCameraCompareRows(prefix, camSpecsArray, group) {
 
   // 按固定顺序排
   const order = group === 'rear'
-    ? ['main', 'uw', 'tele', 'periscope', 'super_tele', 'macro', 'other']
+    ? ['main', 'note', 'tele', 'macro', 'other']
     : ['front', 'front_inner', 'front_outer', 'front_aux']
   allKeys.sort((a, b) => {
     const ai = order.indexOf(a), bi = order.indexOf(b)
@@ -688,15 +690,19 @@ function buildCameraCompareRows(prefix, camSpecsArray, group) {
 
   const rows = []
   for (const key of allKeys) {
+    // 合并：同一 key 下所有原 key（tele 同时匹配 tele/periscope/super_tele）
+    const matchKeys = key === 'tele' ? ['tele', 'periscope', 'super_tele'] : [key]
     const values = camSpecsArray.map(specs => {
       const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
-      const mod = spec?.modules?.find(m => m.key === key)
-      return mod ? `${mod.mp ? mod.mp + ' ' : ''}${mod.summary}` : '—'
+      const mods = spec?.modules?.filter(m => matchKeys.includes(m.key)) || []
+      // 如果合并后有多个镜头，拼在一起
+      return mods.length
+        ? mods.map(m => `${m.mp ? m.mp + ' ' : ''}${m.summary}`).join('；')
+        : '—'
     })
     const same = values.every(v => v === values[0])
-    // 生成友好的标签名
     const labelMap = {
-      main: '主摄', uw: '超广角', tele: '长焦', periscope: '潜望长焦', super_tele: '超长焦',
+      main: '主摄', note: '超广角', tele: '长焦',
       macro: '微距', other: '其他',
       front: '主自拍', front_inner: '内屏前置', front_outer: '外屏前置', front_aux: '副自拍',
     }
