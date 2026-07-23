@@ -438,6 +438,7 @@
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
+import phonesData from '../data/phones.json'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
   selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, selectedProtocols,
@@ -703,8 +704,7 @@ function toggleTheme() {
 onMounted(async () => {
   document.documentElement.setAttribute('data-theme', theme.value)
   try {
-    const { default: data } = await import('../data/phones.json')
-    setPhones(data.filter(p => p.processor && p.price))
+    setPhones(phonesData.filter(p => p.processor && p.price))
     restoreStateFromHash()
     updateHash()
   } catch (e) {
