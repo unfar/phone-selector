@@ -217,7 +217,8 @@
     "resolution_source": "series-default",
     "ip_rating": "IP5X/IPX8/IPX9",
     "screen_detail": "8.02\" 内外双屏 三星M14 OLED折叠屏 120Hz 折叠屏",
-    "dimensions": "展开约157.2×145.7×4.4mm"
+    "dimensions": "展开约157.2×145.7×4.4mm",
+    "camera_rear": "200MP HPB F1.68 OIS + 50MP JN1超广角 + 50MP LYT602 3X潜望长焦 OIS"
   },
   {
     "id": 249,
@@ -13279,7 +13280,9 @@
     "source": "Notion补充更新",
     "os_source": "series-default",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
-    "price_note": "未发布，参数基于爆料"
+    "price_note": "未发布，参数基于爆料",
+    "camera_rear": "50MP主摄 + 50MP超广角",
+    "camera_front": "50MP"
   },
   {
     "id": 266,
@@ -13298,7 +13301,7 @@
     "charging": "80W有线",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "weight": null,
+    "weight": 210,
     "dimensions": null,
     "ip_rating": null,
     "camera_rear": "50MP主摄 + 50MP超广角 + 50MP长焦",
@@ -13322,6 +13325,7 @@
     "source": "Notion补充更新",
     "colors": "蓝粉黑白",
     "release_date": "2026-12-31",
-    "battery_mah": 7100
+    "battery_mah": 7100,
+    "weight_g": 210
   }
 ]
