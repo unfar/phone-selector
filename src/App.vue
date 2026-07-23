@@ -548,6 +548,7 @@ const fabDragging = ref(false)
 const fabPos = ref({ x: 0, y: 0 })
 let fabDragStart = null
 let fabMoved = false
+let fabMouseActive = false
 
 function onFabClick(e) {
   showFilterDrawer.value = true
@@ -702,9 +703,7 @@ function toggleTheme() {
 onMounted(async () => {
   document.documentElement.setAttribute('data-theme', theme.value)
   try {
-    const resp = await fetch('data/phones.json')
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
-    const data = await resp.json()
+    const { default: data } = await import('../data/phones.json')
     setPhones(data.filter(p => p.processor && p.price))
     restoreStateFromHash()
     updateHash()
@@ -723,6 +722,7 @@ onMounted(async () => {
 
   function onStart(e) {
     fabMoved = false
+    fabMouseActive = true
     if (e.type === 'touchstart') e.preventDefault()
     const touch = e.touches ? e.touches[0] : e
     fabDragStart = { x: touch.clientX, y: touch.clientY }
@@ -744,8 +744,10 @@ onMounted(async () => {
     el.style.left = left + 'px'
     el.style.right = 'auto'
   }
-  function onEnd() {
+  function onEnd(e) {
+    if (!fabDragging.value) return
     fabDragging.value = false
+    fabMouseActive = false
     if (!fabMoved) showFilterDrawer.value = true
     el.style.transition = 'transform .2s ease'
     const w = el.offsetWidth
@@ -758,11 +760,16 @@ onMounted(async () => {
       el.style.right = '8px'
     }
   }
+  function onGlobalMouseUp(e) {
+    // 只有鼠标操作起始于 FAB 时才处理
+    if (!fabMouseActive) return
+    onEnd(e)
+  }
   el.addEventListener('touchstart', onStart, { passive: false })
   el.addEventListener('touchmove', onMove, { passive: false })
   el.addEventListener('touchend', onEnd)
   el.addEventListener('mousedown', onStart)
   window.addEventListener('mousemove', onMove)
-  window.addEventListener('mouseup', onEnd)
+  window.addEventListener('mouseup', onGlobalMouseUp)
 })
 </script>
