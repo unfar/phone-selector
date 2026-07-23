@@ -13193,5 +13193,47 @@
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-flip8/specs/",
     "os": "Android"
+  },
+  {
+    "id": 264,
+    "brand": "SAMSUNG",
+    "model": "Galaxy Z Fold8 Ultra",
+    "price": 16999,
+    "price_note": "起售价",
+    "processor": "骁龙8 Elite 5 (for Galaxy)",
+    "cpu_tag": "骁龙8 Elite 5",
+    "screen_size": "8.0",
+    "screen_resolution": "2504×2256 QXGA+ (内屏) / 2520×1080 (外屏 6.5吋)",
+    "refresh_rate": "120Hz",
+    "battery": "5000",
+    "charging": "45W有线 + 15W无线",
+    "ram": "12GB (256/512GB版) / 16GB (1TB版)",
+    "storage": "256GB / 512GB / 1TB",
+    "weight": 215,
+    "dimensions": "158.4×143.2×4.1mm (展开) / 158.4×72.8×8.9mm (折叠)",
+    "ip_rating": "IP58",
+    "network_model": "5G SA/NSA + 4G LTE",
+    "camera_rear": "200MP主摄 F1.7 OIS + 50MP超广角 F1.9 + 10MP长焦 F2.4 (3倍光学+30倍数码)",
+    "camera_front": "10MP内屏前置 F2.2 + 10MP外屏自拍 F2.2",
+    "camera_capability": "8K@30fps视频, 240fps@FHD慢动作",
+    "usb": "USB 3.2 Gen 1 Type-C",
+    "nfc": true,
+    "ir": false,
+    "wireless_charging": true,
+    "features": [
+      "折叠屏",
+      "潜望长焦"
+    ],
+    "tags": [
+      "折叠屏",
+      "潜望长焦",
+      "防尘抗水",
+      "NFC",
+      "USB3.0",
+      "无线充电"
+    ],
+    "verified_at": "2026-07-22",
+    "source": "samsung.com.cn/smartphones/galaxy-z-fold8-ultra/specs/",
+    "os": "Android"
   }
 ]
