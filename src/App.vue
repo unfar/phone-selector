@@ -479,8 +479,21 @@ function setSort(sort) { currentSort.value = sort; updateHash() }
 function onMoreSort(e) { if (e.target.value) setSort(e.target.value); e.target.value = ''; }
 const moreSortValue = ref('')
 function clearSearch() { searchQuery.value = ''; updateHash() }
-function toggleBrand(b) { selectedBrands.value.has(b) ? selectedBrands.value.delete(b) : selectedBrands.value.add(b); updateHash() }
-function toggleSet(set, v) { set.value.has(v) ? set.value.delete(v) : set.value.add(v); updateHash() }
+function toggleBrand(b) {
+  const s = selectedBrands.value
+  if (s.has(b)) s.delete(b)
+  else s.add(b)
+  selectedBrands.value = new Set(s)
+  updateHash()
+}
+function toggleSet(set, v) {
+  const s = set.value
+  if (s.has(v)) s.delete(v)
+  else s.add(v)
+  // Vue 3 不追踪 Set 内部变化，需要重新赋值触发响应
+  set.value = new Set(s)
+  updateHash()
+}
 function selectScreen(s) {
   selectedScreen.value = selectedScreen.value === s ? null : s
   updateHash()
