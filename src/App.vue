@@ -78,7 +78,7 @@
               <summary>屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></summary>
               <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleSet(selectedScreenSizes, r.name)">{{ r.name }}</button></div>
             </details>
-            <button class="btn primary" style="width:100%;margin-top:10px" @click="showFilterDrawer = false">完成 · {{ resultCount }} 款</button>
+            <button class="btn primary" style="width:100%;margin-top:10px" @click="showFilterDrawer = false">查看 · {{ resultCount }} 款</button>
           </div>
         </div>
       </div>
