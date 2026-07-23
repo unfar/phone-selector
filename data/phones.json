@@ -13114,7 +13114,7 @@
     "brand": "SAMSUNG",
     "model": "Galaxy Z Fold8",
     "price": 12999,
-    "price_note": "起售价",
+    "price_note": "预售价",
     "processor": "骁龙8 Elite 5 (for Galaxy)",
     "cpu_tag": "骁龙8 Elite 5",
     "screen_size": "7.6",
@@ -13148,14 +13148,15 @@
     ],
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-fold8/specs/",
-    "os": "Android"
+    "os": "Android",
+    "release_date": "2026-07-22"
   },
   {
     "id": 263,
     "brand": "SAMSUNG",
     "model": "Galaxy Z Flip8",
     "price": 8999,
-    "price_note": "起售价",
+    "price_note": "预售价",
     "processor": "骁龙8 Elite 5 (for Galaxy)",
     "cpu_tag": "骁龙8 Elite 5",
     "screen_size": "6.8",
@@ -13190,14 +13191,15 @@
     ],
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-flip8/specs/",
-    "os": "Android"
+    "os": "Android",
+    "release_date": "2026-07-22"
   },
   {
     "id": 264,
     "brand": "SAMSUNG",
     "model": "Galaxy Z Fold8 Ultra",
     "price": 14999,
-    "price_note": "起售价",
+    "price_note": "预售价",
     "processor": "骁龙8 Elite 5 (for Galaxy)",
     "cpu_tag": "骁龙8 Elite 5",
     "screen_size": "8.0",
@@ -13232,7 +13234,8 @@
     ],
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-fold8-ultra/specs/",
-    "os": "Android"
+    "os": "Android",
+    "release_date": "2026-07-22"
   },
   {
     "id": 265,
@@ -13263,20 +13266,21 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 50MP | 超广: 50MP | 前置: 50MP",
-    "release_date": "2025-06-01",
+    "release_date": "2026-12-31",
     "price": 1999,
     "date_precision": "month",
     "completeness_score": 60,
     "source": "Notion补充更新",
     "os_source": "series-default",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "price_note": "未发布，参数基于爆料"
   },
   {
     "id": 266,
     "brand": "RedMagic",
     "model": "努比亚 navix ultra",
     "price": 4499,
-    "price_note": "推测价格（骁龙8E5 + 7100mAh）",
+    "price_note": "未发布 (豆包二代)",
     "processor": "骁龙8 Elite 5",
     "cpu_tag": "骁龙8 Elite 5",
     "screen_size": "6.78",
@@ -13310,6 +13314,7 @@
     ],
     "os": "RedMagic OS",
     "source": "Notion补充更新",
-    "colors": "蓝粉黑白"
+    "colors": "蓝粉黑白",
+    "release_date": "2026-12-31"
   }
 ]
