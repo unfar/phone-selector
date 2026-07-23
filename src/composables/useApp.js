@@ -190,6 +190,12 @@ function matchesSearch(p, rawQuery) {
       const modelBrandHit = modelCompact.includes(zc)
       if ((brandHit || modelBrandHit) && rc && modelCompact.includes(rc)) return true
     }
+    // 纯中文/英文品牌名：三星、苹果、xiaomi、真我等
+    const brandHit = brandAliasTokens(brand).some(a => {
+      const ac = compactSearchText(a)
+      return ac === tCompact || ac.includes(tCompact) || tCompact.includes(ac)
+    })
+    if (brandHit) return true
     return false
   }
 
