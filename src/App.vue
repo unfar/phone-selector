@@ -489,21 +489,25 @@ function toggleBrand(b) {
 function toggleTag(t) {
   const s = selectedTags.value
   s.has(t) ? s.delete(t) : s.add(t)
+  selectedTags.value = new Set(s)
   updateHash()
 }
 function toggleCpu(t) {
   const s = selectedCpu.value
   s.has(t) ? s.delete(t) : s.add(t)
+  selectedCpu.value = new Set(s)
   updateHash()
 }
 function toggleProtocol(t) {
   const s = selectedProtocols.value
   s.has(t) ? s.delete(t) : s.add(t)
+  selectedProtocols.value = new Set(s)
   updateHash()
 }
 function toggleScreenSize(r) {
   const s = selectedScreenSizes.value
   s.has(r) ? s.delete(r) : s.add(r)
+  selectedScreenSizes.value = new Set(s)
   updateHash()
 }
 // sections 收起/展开
