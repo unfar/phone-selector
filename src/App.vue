@@ -38,76 +38,8 @@
 
     <!-- LIST -->
     <div v-if="view === 'list'" class="shell" key="list-shell">
-      <aside class="side desktop-only">
-        <div class="panel">
-          <h3>筛选条件</h3>
 
-          <details class="section" open>
-            <summary>品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></summary>
-            <div class="chips">
-              <button
-                v-for="b in brandList" :key="b" class="chip brand"
-                :class="{ on: selectedBrands.has(b) }"
-                :style="{ '--bcolor': brandColor(b) }"
-                @click="toggleBrand(b)"
-              >{{ b }}</button>
-            </div>
-          </details>
-
-          <details class="section" open>
-            <summary>价格 <span v-if="priceActive" class="count">(已设)</span></summary>
-            <div class="price-box">
-              <div class="price-row">
-                <label>最低
-                  <input type="number" :value="priceMin" min="0" step="100" @change="onPriceMin" />
-                </label>
-                <label>最高
-                  <input type="number" :value="priceMax" min="0" step="100" @change="onPriceMax" />
-                </label>
-              </div>
-            </div>
-          </details>
-
-          <details class="section">
-            <summary>屏幕形态 <span v-if="selectedScreen" class="count">(1)</span></summary>
-            <div class="chips">
-              <button v-for="s in screenTypes" :key="s" class="chip" :class="{ on: selectedScreen === s }" @click="selectScreen(s)">{{ s }}</button>
-            </div>
-          </details>
-
-          <details class="section">
-            <summary>处理器 <span v-if="selectedCpu.size" class="count">({{ selectedCpu.size }})</span></summary>
-            <div class="chips">
-              <button v-for="t in cpuTags" :key="t" class="chip" :class="{ on: selectedCpu.has(t) }" @click="toggleSet(selectedCpu, t)">{{ t }}</button>
-            </div>
-          </details>
-
-          <details class="section">
-            <summary>特性 <span v-if="selectedTags.size" class="count">({{ selectedTags.size }})</span></summary>
-            <div class="chips">
-              <button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleSet(selectedTags, t)">{{ t }}</button>
-            </div>
-          </details>
-
-          <details class="section">
-            <summary>充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></summary>
-            <div class="chips">
-              <button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleSet(selectedProtocols, t)">{{ t }}</button>
-            </div>
-          </details>
-
-          <details class="section">
-            <summary>屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></summary>
-            <div class="chips">
-              <button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleSet(selectedScreenSizes, r.name)">{{ r.name }}</button>
-            </div>
-          </details>
-
-          <button class="btn" style="width:100%;margin-top:6px" @click="clearAllFilters">清空筛选</button>
-        </div>
-      </aside>
-
-      <!-- 移动端底部筛选抽屉 -->
+      <!-- 筛选抽屉（全端） -->
       <div class="filter-overlay" v-if="showFilterDrawer" @click.self="showFilterDrawer = false">
         <div class="filter-drawer">
           <div class="filter-drawer-head">
@@ -117,9 +49,7 @@
           <div class="filter-drawer-body">
             <details class="section" open>
               <summary>品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></summary>
-              <div class="chips">
-                <button v-for="b in brandList" :key="b" class="chip brand" :class="{ on: selectedBrands.has(b) }" :style="{ '--bcolor': brandColor(b) }" @click="toggleBrand(b)">{{ b }}</button>
-              </div>
+              <div class="chips"><button v-for="b in brandList" :key="b" class="chip brand" :class="{ on: selectedBrands.has(b) }" :style="{ '--bcolor': brandColor(b) }" @click="toggleBrand(b)">{{ b }}</button></div>
             </details>
             <details class="section" open>
               <summary>价格 <span v-if="priceActive" class="count">(已设)</span></summary>
@@ -152,9 +82,10 @@
           </div>
         </div>
       </div>
-      <!-- 浮动筛选按钮（可拖动） -->
+
+      <!-- 浮动筛选按钮（可拖动，全端） -->
       <button
-        class="filter-fab mobile-only"
+        class="filter-fab"
         ref="fabRef"
         v-show="view === 'list'"
         @click="onFabClick"
