@@ -43,37 +43,47 @@
             <button class="btn ghost" @click="showFilterDrawer = false">✕</button>
           </div>
           <div class="filter-drawer-body">
-            <details class="section" open>
-              <summary>品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></summary>
+            <div class="section open">
+              <div class="section-title">品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></div>
               <div class="chips"><button v-for="b in brandList" :key="b" class="chip brand" :class="{ on: selectedBrands.has(b) }" :style="{ '--bcolor': brandColor(b) }" @click="toggleBrand(b)">{{ b }}</button></div>
-            </details>
-            <details class="section" open>
-              <summary>价格 <span v-if="priceActive" class="count">(已设)</span></summary>
+            </div>
+            <div class="section open">
+              <div class="section-title">价格 <span v-if="priceActive" class="count">(已设)</span></div>
               <div class="price-box"><div class="price-row">
                 <label>最低<input type="number" :value="priceMin" min="0" step="100" @change="onPriceMin"/></label>
                 <label>最高<input type="number" :value="priceMax" min="0" step="100" @change="onPriceMax"/></label>
               </div></div>
-            </details>
-            <details class="section" open>
-              <summary>屏幕形态 <span v-if="selectedScreen" class="count">(1)</span></summary>
+            </div>
+            <div class="section open">
+              <div class="section-title" @click="toggleSection('screen')">屏幕形态 <span v-if="selectedScreen" class="count">(1)</span></div>
+              <div v-show="sectionOpen.screen">
               <div class="chips"><button v-for="s in screenTypes" :key="s" class="chip" :class="{ on: selectedScreen === s }" @click="selectScreen(s)">{{ s }}</button></div>
-            </details>
-            <details class="section" open>
-              <summary>处理器 <span v-if="selectedCpu.size" class="count">({{ selectedCpu.size }})</span></summary>
+            </div>
+            </div>
+            <div class="section open">
+              <div class="section-title" @click="toggleSection('cpu')">处理器 <span v-if="selectedCpu.size" class="count">({{ selectedCpu.size }})</span></div>
+              <div v-show="sectionOpen.cpu">
               <div class="chips"><button v-for="t in cpuTags" :key="t" class="chip" :class="{ on: selectedCpu.has(t) }" @click="toggleSet(selectedCpu, t)">{{ t }}</button></div>
-            </details>
-            <details class="section" open>
-              <summary>特性 <span v-if="selectedTags.size" class="count">({{ selectedTags.size }})</span></summary>
+            </div>
+            </div>
+            <div class="section open">
+              <div class="section-title" @click="toggleSection('tags')">特性 <span v-if="selectedTags.size" class="count">({{ selectedTags.size }})</span></div>
+              <div v-show="sectionOpen.tags">
               <div class="chips"><button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleSet(selectedTags, t)">{{ t }}</button></div>
-            </details>
-            <details class="section" open>
-              <summary>充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></summary>
+            </div>
+            </div>
+            <div class="section open">
+              <div class="section-title" @click="toggleSection('proto')">充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></div>
+              <div v-show="sectionOpen.proto">
               <div class="chips"><button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleSet(selectedProtocols, t)">{{ t }}</button></div>
-            </details>
-            <details class="section" open>
-              <summary>屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></summary>
+            </div>
+            </div>
+            <div class="section open">
+              <div class="section-title" @click="toggleSection('size')">屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></div>
+              <div v-show="sectionOpen.size">
               <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleSet(selectedScreenSizes, r.name)">{{ r.name }}</button></div>
-            </details>
+            </div>
+            </div>
             <button class="btn primary" style="width:100%;margin-top:10px" @click="showFilterDrawer = false">查看 · {{ resultCount }} 款 ✨</button>
           </div>
         </div>
@@ -408,7 +418,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, reactive } from 'vue'
 import phonesData from '../data/phones.json'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
@@ -494,6 +504,9 @@ function toggleSet(set, v) {
   set.value = new Set(s)
   updateHash()
 }
+// sections 收起/展开
+const sectionOpen = reactive({ screen: true, cpu: true, tags: true, proto: true, size: true })
+function toggleSection(key) { sectionOpen[key] = !sectionOpen[key] }
 function selectScreen(s) {
   selectedScreen.value = selectedScreen.value === s ? null : s
   updateHash()
