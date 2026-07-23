@@ -343,7 +343,7 @@
         </div>
 
         <template v-else>
-          <!-- 已选机型条：移动端横向滚动 -->
+          <!-- 已选机型条 -->
           <div class="compare-phones-bar">
             <div v-for="p in comparePhones" :key="p.id" class="compare-phone-chip">
               <div class="chip-brand" :style="{ background: brandColor(p.brand) }">{{ p.brand }}</div>
@@ -356,33 +356,8 @@
             </div>
           </div>
 
-          <!-- 桌面：宽表 -->
-          <div class="compare-table-wrap desktop-only">
-            <table class="compare">
-              <thead>
-                <tr>
-                  <th>参数</th>
-                  <th v-for="p in comparePhones" :key="p.id">
-                    <div class="phone-col-title">{{ brief(p).name }}</div>
-                    <div class="phone-col-sub">{{ priceText(p) }}</div>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="row in visibleCompareRows" :key="row.l" :class="{ 'row-diff': !row.same }">
-                  <td>{{ row.l }}</td>
-                  <td
-                    v-for="(val, idx) in row.values"
-                    :key="idx"
-                    :class="row.same ? 'same' : 'diff'"
-                  >{{ val }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <!-- 移动端：按参数分行的卡片对比 -->
-          <div class="compare-cards mobile-only">
+          <!-- 全端：按参数分行的卡片对比 -->
+          <div class="compare-cards">
             <div
               v-for="row in visibleCompareRows"
               :key="row.l"
