@@ -13149,7 +13149,9 @@
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-fold8/specs/",
     "os": "Android",
-    "release_date": "2026-07-22"
+    "release_date": "2026-07-22",
+    "battery_mah": 4800,
+    "weight_g": 201
   },
   {
     "id": 263,
@@ -13192,7 +13194,9 @@
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-flip8/specs/",
     "os": "Android",
-    "release_date": "2026-07-22"
+    "release_date": "2026-07-22",
+    "battery_mah": 4300,
+    "weight_g": 180
   },
   {
     "id": 264,
@@ -13235,7 +13239,9 @@
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-fold8-ultra/specs/",
     "os": "Android",
-    "release_date": "2026-07-22"
+    "release_date": "2026-07-22",
+    "battery_mah": 5000,
+    "weight_g": 218
   },
   {
     "id": 265,
@@ -13315,6 +13321,7 @@
     "os": "RedMagic OS",
     "source": "Notion补充更新",
     "colors": "蓝粉黑白",
-    "release_date": "2026-12-31"
+    "release_date": "2026-12-31",
+    "battery_mah": 7100
   }
 ]
