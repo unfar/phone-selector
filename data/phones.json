@@ -1490,7 +1490,8 @@
       "NFC",
       "有线投屏",
       "IP68",
-      "IP69"
+      "IP69",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -1499,7 +1500,8 @@
       "USB3.0",
       "NFC",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1601,7 +1603,8 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -1609,7 +1612,8 @@
       "6500mAh+",
       "≤200g",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -2033,12 +2037,14 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2078,12 +2084,14 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2285,13 +2293,15 @@
       "IPX9",
       "NFC",
       "80W闪充",
-      "7000mAh"
+      "7000mAh",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
       "≤200g",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2426,11 +2436,13 @@
     "os": "ColorOS",
     "features": [
       "IP6X",
-      "IPX4"
+      "IPX4",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2749,11 +2761,13 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2792,10 +2806,13 @@
     "detailed_camera": "主摄: 50MP f/1.8 | 前置: 16MP",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "红外遥控"
+    ],
     "tags": [
       "6500mAh+",
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2834,9 +2851,12 @@
     "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "红外遥控"
+    ],
     "tags": [
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2875,9 +2895,12 @@
     "detailed_camera": "主摄: 豪威OV50D 50MP f/1.8 | 50MP主摄 + 2MP景深",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "红外遥控"
+    ],
     "tags": [
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3483,13 +3506,15 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3693,7 +3718,8 @@
       "NFC",
       "有线投屏",
       "IP68",
-      "IP69"
+      "IP69",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -3702,7 +3728,8 @@
       "USB3.0",
       "NFC",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3746,7 +3773,8 @@
       "IPX8",
       "IPX9",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -3755,7 +3783,8 @@
       "USB3.0",
       "NFC",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -4577,12 +4606,14 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4621,11 +4652,13 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -4664,9 +4697,12 @@
     "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
     "has_tele": false,
     "os": "ColorOS",
-    "features": [],
+    "features": [
+      "红外遥控"
+    ],
     "tags": [
-      "≤200g"
+      "≤200g",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5026,11 +5062,13 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -5985,13 +6023,15 @@
     "features": [
       "IP6X",
       "IPX9",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6570,12 +6610,14 @@
     "has_tele": false,
     "os": "ColorOS 16",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6756,13 +6798,15 @@
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
       "≤200g",
       "NFC",
-      "潜望长焦"
+      "潜望长焦",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6801,11 +6845,13 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6844,11 +6890,13 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7535,7 +7583,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -7543,7 +7592,8 @@
       "USB3.0",
       "NFC",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -7598,7 +7648,8 @@
       "IP6X",
       "IPX8",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
@@ -7606,7 +7657,8 @@
       "USB3.0",
       "NFC",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -9544,14 +9596,16 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "有线投屏"
+      "有线投屏",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "USB3.0",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -9818,13 +9872,15 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -10131,14 +10187,16 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "有线投屏"
+      "有线投屏",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "USB3.0",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -10233,14 +10291,16 @@
       "IPX6",
       "IPX8",
       "IPX9",
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "潜望长焦",
       "无线充电",
       "≤200g",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -12533,12 +12593,14 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
-      "NFC"
+      "NFC",
+      "红外遥控"
     ],
     "tags": [
       "6500mAh+",
       "≤200g",
-      "NFC"
+      "NFC",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -13309,11 +13371,13 @@
     "os": "ColorOS 16",
     "features": [
       "NFC",
-      "散热风扇"
+      "散热风扇",
+      "红外遥控"
     ],
     "tags": [
       "NFC",
-      "散热风扇"
+      "散热风扇",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
