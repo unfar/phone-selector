@@ -60,19 +60,19 @@
             </div>
             <div class="section open">
               <div class="section-title" @click="toggleSection('cpu')">处理器 <span v-if="selectedCpu.size" class="count">({{ selectedCpu.size }})</span></div>
-              <div class="chips"><button v-for="t in cpuTags" :key="t" class="chip" :class="{ on: selectedCpu.has(t) }" @click="toggleSet(selectedCpu, t)">{{ t }}</button></div>
+              <div class="chips"><button v-for="t in cpuTags" :key="t" class="chip" :class="{ on: selectedCpu.has(t) }" @click="toggleCpu(t)">{{ t }}</button></div>
             </div>
             <div class="section open">
               <div class="section-title" @click="toggleSection('tags')">特性 <span v-if="selectedTags.size" class="count">({{ selectedTags.size }})</span></div>
-              <div class="chips"><button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleSet(selectedTags, t)">{{ t }}</button></div>
+              <div class="chips"><button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleTag(t)">{{ t }}</button></div>
             </div>
             <div class="section open">
               <div class="section-title" @click="toggleSection('proto')">充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></div>
-              <div class="chips"><button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleSet(selectedProtocols, t)">{{ t }}</button></div>
+              <div class="chips"><button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleProtocol(t)">{{ t }}</button></div>
             </div>
             <div class="section open">
               <div class="section-title" @click="toggleSection('size')">屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></div>
-              <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleSet(selectedScreenSizes, r.name)">{{ r.name }}</button></div>
+              <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleScreenSize(r.name)">{{ r.name }}</button></div>
             </div>
             <button class="btn primary" style="width:100%;margin-top:10px" @click="showFilterDrawer = false">查看 · {{ resultCount }} 款 ✨</button>
           </div>
@@ -486,12 +486,24 @@ function toggleBrand(b) {
   selectedBrands.value = new Set(s)
   updateHash()
 }
-function toggleSet(set, v) {
-  const s = set.value
-  if (s.has(v)) s.delete(v)
-  else s.add(v)
-  // Vue 3 不追踪 Set 内部变化，需要重新赋值触发响应
-  set.value = new Set(s)
+function toggleTag(t) {
+  const s = selectedTags.value
+  s.has(t) ? s.delete(t) : s.add(t)
+  updateHash()
+}
+function toggleCpu(t) {
+  const s = selectedCpu.value
+  s.has(t) ? s.delete(t) : s.add(t)
+  updateHash()
+}
+function toggleProtocol(t) {
+  const s = selectedProtocols.value
+  s.has(t) ? s.delete(t) : s.add(t)
+  updateHash()
+}
+function toggleScreenSize(r) {
+  const s = selectedScreenSizes.value
+  s.has(r) ? s.delete(r) : s.add(r)
   updateHash()
 }
 // sections 收起/展开
