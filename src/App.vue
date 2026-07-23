@@ -29,10 +29,6 @@
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
         <button v-if="view !== 'list'" class="btn ghost" @click="openList">← 返回列表</button>
-        <button class="btn desktop-only" :class="{ active: compareList.length }" @click="openCompare">
-          对比
-          <span v-if="compareList.length" class="badge-count">{{ compareList.length }}</span>
-        </button>
       </div>
     </header>
 
@@ -389,7 +385,7 @@
       </div>
     </div>
 
-    <!-- 移动端底部对比入口 -->
+    <!-- 底部对比入口（全端） -->
     <div class="compare-dock" v-if="view === 'list' && compareList.length">
       <div class="dock-info">
         <strong>已选 {{ compareList.length }} 款</strong>
