@@ -54,23 +54,23 @@
                 <label>最高<input type="number" :value="priceMax" min="0" step="100" @change="onPriceMax"/></label>
               </div></div>
             </details>
-            <details class="section">
+            <details class="section" open>
               <summary>屏幕形态 <span v-if="selectedScreen" class="count">(1)</span></summary>
               <div class="chips"><button v-for="s in screenTypes" :key="s" class="chip" :class="{ on: selectedScreen === s }" @click="selectScreen(s)">{{ s }}</button></div>
             </details>
-            <details class="section">
+            <details class="section" open>
               <summary>处理器 <span v-if="selectedCpu.size" class="count">({{ selectedCpu.size }})</span></summary>
               <div class="chips"><button v-for="t in cpuTags" :key="t" class="chip" :class="{ on: selectedCpu.has(t) }" @click="toggleSet(selectedCpu, t)">{{ t }}</button></div>
             </details>
-            <details class="section">
+            <details class="section" open>
               <summary>特性 <span v-if="selectedTags.size" class="count">({{ selectedTags.size }})</span></summary>
               <div class="chips"><button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleSet(selectedTags, t)">{{ t }}</button></div>
             </details>
-            <details class="section">
+            <details class="section" open>
               <summary>充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></summary>
               <div class="chips"><button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleSet(selectedProtocols, t)">{{ t }}</button></div>
             </details>
-            <details class="section">
+            <details class="section" open>
               <summary>屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></summary>
               <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleSet(selectedScreenSizes, r.name)">{{ r.name }}</button></div>
             </details>
