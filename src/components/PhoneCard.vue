@@ -173,6 +173,11 @@ const detailRows = computed(() => {
     sc.push({ ...frontSpec, l: '🤳 前置摄像头' })
   }
   otherCam.forEach(s => sc.push(s))
+  // 特殊特征展示（散热风扇等硬件特征）
+  const hwFeatures = (phone.features || []).filter(f => !['NFC', '红外', '潜望长焦', '折叠屏', '≤200g', '防尘抗水', 'USB3.0', '无线充电'].includes(f) && !/^IP/i.test(f))
+  if (hwFeatures.length) {
+    sc.push({ l: '🛠️ 特殊配置', v: hwFeatures.join(' · '), colspan: true })
+  }
   return sc
 })
 </script>
