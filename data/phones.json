@@ -188,7 +188,7 @@
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 40,
-    "usb_version": "USB 3.2",
+    "usb_version": "USB 3.2 Gen 1 (5Gbps)",
     "detailed_camera": "主摄: 三星HPB 2亿 1/1.4\" f/1.68 OIS | 超广: 50MP | 长焦: 索尼LYT-602 50MP 1/1.95\" f/2.57 3x OIS 蔡司 | 前置: 20MP",
     "release_date": "2026-06-26",
     "price": 7999,
@@ -225,7 +225,8 @@
     "bluetooth": "蓝牙6.0",
     "sim_type": "双Nano SIM卡",
     "fingerprint": "侧边指纹",
-    "charging": "80W有线 + 40W无线"
+    "charging": "80W有线 + 40W无线",
+    "refresh_rate": "120Hz (内外屏均LTPO)"
   },
   {
     "id": 249,
@@ -13170,7 +13171,9 @@
     "sim_type": "单实体SIM卡 + eSIM (双卡双待)",
     "fingerprint": "侧边指纹",
     "s_pen": false,
-    "hinge": "钛缓震层结构"
+    "hinge": "钛缓震层结构",
+    "refresh_hz": 120,
+    "usb_version": "USB 3.2 Gen 1 (5Gbps)"
   },
   {
     "id": 263,
@@ -13224,7 +13227,9 @@
     "wifi": "Wi-Fi 7 (802.11be)",
     "bluetooth": "蓝牙5.4",
     "sim_type": "单实体SIM卡 + eSIM (双卡双待)",
-    "fingerprint": "侧边指纹"
+    "fingerprint": "侧边指纹",
+    "refresh_hz": 120,
+    "usb_version": "USB 3.2 Gen 1 (5Gbps)"
   },
   {
     "id": 264,
@@ -13281,7 +13286,9 @@
     "fingerprint": "侧边指纹",
     "s_pen": true,
     "hinge": "Flex Titanium铰链 + 装甲铝中框",
-    "glass": "康宁大猩猩陶瓷玻璃3"
+    "glass": "康宁大猩猩陶瓷玻璃3",
+    "refresh_hz": 120,
+    "usb_version": "USB 3.2 Gen 1 (5Gbps)"
   },
   {
     "id": 265,
