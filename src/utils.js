@@ -115,6 +115,8 @@ export function getEnglishBrand(zh) {
 
 export function getDisplayName(p) {
   const m = p.model, b = p.brand
+  // 有自定义展示名时优先使用
+  if (p.name && p.name !== m) return p.name
   if (m.toLowerCase().startsWith(b.toLowerCase())) return m
   if (m.startsWith('iPhone') || m.startsWith('Galaxy') || m.startsWith('moto') || m.startsWith('Moto')) return m
   // 红魔/REDMAGIC/NaviX 机型名已自成体系，不加品牌前缀
