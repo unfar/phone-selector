@@ -117,6 +117,8 @@ export function getDisplayName(p) {
   const m = p.model, b = p.brand
   if (m.toLowerCase().startsWith(b.toLowerCase())) return m
   if (m.startsWith('iPhone') || m.startsWith('Galaxy') || m.startsWith('moto') || m.startsWith('Moto')) return m
+  // 红魔/REDMAGIC/NaviX 机型名已自成体系，不加品牌前缀
+  if (m.startsWith('REDMAGIC') || m.startsWith('NaviX')) return m
   if (/^[\u4e00-\u9fff]/.test(m)) {
     const stripped = m.replace(/^[\u4e00-\u9fff\s]+/, '')
     return b + (stripped ? ' ' + stripped : '')
