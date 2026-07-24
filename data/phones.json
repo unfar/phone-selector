@@ -6752,29 +6752,36 @@
     "id": 127,
     "brand": "OPPO",
     "model": "OPPO K15 Pro+",
-    "processor": "天玑9500s",
-    "screen_size": 6.73,
-    "refresh_hz": 120,
+    "processor": "天玑 9500s",
+    "screen_size": 6.78,
+    "refresh_hz": 165,
     "screen_type": "OLED",
-    "resolution": "3200×1440",
+    "resolution": "2772×1272",
     "ram": "12GB/16GB",
     "storage": "512GB/1TB",
     "battery_mah": 8000,
     "charging_w": 100,
-    "weight_g": 213,
+    "weight_g": 219,
     "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
     "os": "ColorOS 16",
     "features": [
-      "NFC",
+      "Wi-Fi 7",
+      "蓝牙5.4",
       "红外遥控",
-      "散热风扇"
+      "NFC",
+      "IPX9",
+      "散热风扇",
+      "屏下超声指纹",
+      "X轴线性马达"
     ],
     "tags": [
       "6500mAh+",
+      "散热风扇",
       "NFC",
       "红外",
-      "散热风扇"
+      "6.8-7.0英寸",
+      "防尘抗水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6787,13 +6794,14 @@
     "charge_protocols": [
       "UFCS",
       "PPS",
-      "PD",
-      "QC"
+      "PD"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "camera_rear": "5000万广角 f/1.8 OIS + 800万超广角 f/2.2 116°",
+    "camera_front": "1600万 f/2.4"
   },
   {
     "brand": "HONOR",
@@ -6950,11 +6958,11 @@
     "id": 123,
     "brand": "OPPO",
     "model": "OPPO K15 Pro",
-    "processor": "天玑8500 SUPER",
-    "screen_size": 6.73,
-    "refresh_hz": 120,
+    "processor": "天玑 8500 SUPER",
+    "screen_size": 6.59,
+    "refresh_hz": 144,
     "screen_type": "OLED",
-    "resolution": "3200×1440",
+    "resolution": "2760×1256",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "battery_mah": 7500,
@@ -6964,16 +6972,22 @@
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
-      "NFC",
+      "Wi-Fi 6",
+      "蓝牙5.4",
       "红外遥控",
-      "散热风扇"
+      "NFC",
+      "IPX9",
+      "散热风扇",
+      "屏下光学指纹",
+      "X轴线性马达"
     ],
     "tags": [
-      "6500mAh+",
       "≤200g",
+      "6500mAh+",
+      "散热风扇",
       "NFC",
       "红外",
-      "散热风扇"
+      "防尘抗水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -6986,13 +7000,14 @@
     "charge_protocols": [
       "UFCS",
       "PPS",
-      "PD",
-      "QC"
+      "PD"
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "camera_rear": "5000万广角 f/1.8 OIS + 800万超广角 f/2.2 116°",
+    "camera_front": "1600万 f/2.4"
   },
   {
     "id": 122,
