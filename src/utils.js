@@ -345,11 +345,11 @@ export function getCameraModules(p) {
     }
   }
 
-  // 去重（同 role+summary）
+  // 去重（label + 像素 + 传感器型号 作为 key，防止 summary 因格式变化漏判）
   const seen = new Set()
   const uniq = []
   for (const m of modules) {
-    const k = m.key + '|' + m.summary
+    const k = m.label + '|' + (m.mp || '') + '|' + (m.sensor || '')
     if (seen.has(k)) continue
     seen.add(k)
     uniq.push(m)
