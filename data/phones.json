@@ -4302,7 +4302,7 @@
     "battery_mah": 7000,
     "charging_w": 100,
     "weight_g": 215,
-    "camera_desc": "50MP IMX921 | 50MP JN1超广 | 50MP IMX882 3x潜望 | 32MP前置",
+    "camera_desc": "50MP IMX921 f/1.88 OIS | 50MP JN1 f/2.05超广 | 50MP IMX882 f/2.65 3x潜望 | 32MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -4333,7 +4333,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2",
-    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.88 OIS | 超广: 三星JN1 50MP | 潜望: 索尼IMX882 50MP 3x OIS 长焦微距 | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼IMX921 50MP 1/1.56\" f/1.88 OIS | 超广: 三星JN1 50MP f/2.05 | 潜望: 索尼IMX882 50MP f/2.65 3x OIS 长焦微距 | 前置: 32MP",
     "release_date": "2025-12-15",
     "price": 4199,
     "network_model": "V2505A",
