@@ -6770,11 +6770,12 @@
       "蓝牙5.4",
       "红外遥控",
       "NFC",
-      "IPX9",
       "散热风扇",
       "屏下超声指纹",
       "X轴线性马达",
-      "IP69"
+      "IP69",
+      "IP69",
+      "超声波屏下指纹"
     ],
     "tags": [
       "6500mAh+",
@@ -6788,8 +6789,8 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 50MP 1/1.95\" f/1.8 OIS | 超广: 8MP | 前置: 16MP",
-    "release_date": "2026-07-24",
-    "price": 2899,
+    "release_date": "2026-04-01",
+    "price": 3299,
     "date_precision": "month",
     "completeness_score": 88,
     "charge_protocols": [
