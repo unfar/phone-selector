@@ -1285,7 +1285,7 @@
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
     "weight_g": 216,
-    "os": "OriginOS 6",
+    "os": "OriginOS 6 (Android 16)",
     "camera_desc": "2亿像素大底主摄（CIPA 4.5防抖）+ 5000万超广角",
     "detailed_camera": "主摄: 三星HP5 2亿像素 CIPA 4.5专业级防抖 4倍无损变焦 | 超广角: 800万 | 前置: 1600万",
     "has_tele": false,
@@ -4242,7 +4242,7 @@
     "weight_g": 227,
     "camera_desc": "50MP IMX921主摄 | 50MP超广 | 50MP 3x潜望 | 32MP前置",
     "has_tele": true,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "IP6X",
       "IPX8",
@@ -4304,7 +4304,7 @@
     "weight_g": 215,
     "camera_desc": "50MP IMX921 f/1.88 OIS | 50MP JN1 f/2.05超广 | 50MP IMX882 f/2.65 3x潜望 | 32MP前置",
     "has_tele": true,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "Wi-Fi 7",
       "蓝牙6.0",
@@ -5551,7 +5551,7 @@
     "weight_g": 211,
     "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "IP6X",
       "IPX8",
@@ -7604,7 +7604,7 @@
     "weight_g": 209,
     "camera_desc": "64MP主摄 | 5000万主摄",
     "has_tele": false,
-    "os": "OriginOS",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "NFC",
       "红外"
@@ -11143,7 +11143,7 @@
     "weight_g": 207,
     "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 50MP长焦 2x | 16MP前置",
     "has_tele": true,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "NFC",
       "红外遥控"
@@ -11192,7 +11192,7 @@
     "weight_g": 212,
     "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 50MP长焦 | 16MP前置",
     "has_tele": true,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "IP6X",
       "IPX5",
@@ -11248,7 +11248,7 @@
     "weight_g": 205,
     "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "NFC",
       "红外遥控"
@@ -12834,7 +12834,7 @@
     "weight_g": 212,
     "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
-    "os": "OriginOS",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "IP6X",
       "IPX8",
@@ -12933,7 +12933,7 @@
     "weight_g": 209,
     "camera_desc": "64MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
-    "os": "OriginOS",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "IP6X",
       "IPX8",
@@ -13229,7 +13229,7 @@
     "weight_g": 213,
     "camera_desc": "50MP主摄 1/1.56 | 50MP超广 | 50MP长焦 3x | 32MP前置",
     "has_tele": true,
-    "os": "OriginOS 5",
+    "os": "OriginOS 6 (Android 16)",
     "features": [
       "IP6X",
       "IPX8",
