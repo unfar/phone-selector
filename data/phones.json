@@ -6803,7 +6803,8 @@
     "os_source": "series-default",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "camera_rear": "5000万广角 f/1.8 OIS + 800万超广角 f/2.2 116°",
-    "camera_front": "1600万 f/2.4"
+    "camera_front": "1600万 f/2.4",
+    "network_model": "PMG110"
   },
   {
     "brand": "HONOR",
@@ -7010,7 +7011,8 @@
     "os_source": "series-default",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "camera_rear": "5000万广角 f/1.8 OIS + 800万超广角 f/2.2 116°",
-    "camera_front": "1600万 f/2.4"
+    "camera_front": "1600万 f/2.4",
+    "network_model": "PMH110"
   },
   {
     "id": 122,
@@ -13834,7 +13836,8 @@
       "PD"
     ],
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "network_model": "PYD110"
   },
   {
     "id": 266,
