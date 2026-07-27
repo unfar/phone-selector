@@ -834,8 +834,8 @@
     "usb_version": "USB 2.0",
     "weight_g": 205,
     "os": "OriginOS 6 (Android 16)",
-    "camera_desc": "50MP主摄 | 50MP潜望 | 8MP超广 | 50MP前置",
-    "detailed_camera": "主摄: 50MP f/1.75 23mm OIS | 潜望长焦: 50MP f/2.65 70mm OIS | 超广: 8MP 110° | 前置: 50MP f/2.0",
+    "camera_desc": "50MP LYT-700V主摄 OIS | 50MP IMX882潜望长焦 OIS | 8MP超广角 | 50MP前置",
+    "detailed_camera": "主摄: 50MP LYT-700V 1/1.56\" f/1.75 OIS | 潜望长焦: 50MP IMX882 1/1.95\" f/2.65 3x OIS | 超广: 8MP f/2.2 | 前置: 50MP f/2.0",
     "has_tele": true,
     "screen_form": "直屏",
     "features": [
@@ -865,7 +865,9 @@
     "charge_protocols_confidence": "medium",
     "network_model": "V2571A",
     "network_model_source": "vivo-official",
-    "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz"
+    "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz",
+    "camera_rear": "50MP LYT-700V 主摄 f/1.75 OIS + 50MP IMX882 潜望长焦 f/2.65 3x OIS + 8MP超广角 f/2.2",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 11,
