@@ -830,7 +830,7 @@
     "refresh_hz": 144,
     "battery_mah": 7200,
     "charging_w": 90,
-    "wireless_charging_w": 50,
+    "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "weight_g": 205,
     "os": "OriginOS 6 (Android 16)",
@@ -845,7 +845,6 @@
     ],
     "tags": [
       "潜望长焦",
-      "无线充电",
       "6500mAh+",
       "红外",
       "NFC",
