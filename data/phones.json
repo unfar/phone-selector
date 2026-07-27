@@ -13618,52 +13618,6 @@
     "screen_detail": "6.74\" HD+ (1604×720) LCD 120Hz"
   },
   {
-    "id": 251,
-    "brand": "Huawei",
-    "model": "华为畅享90ProMax",
-    "network_model": "CHZ-AL00",
-    "processor": "麒麟8000",
-    "screen_size": 6.84,
-    "refresh_hz": 120,
-    "screen_type": "OLED",
-    "resolution": "2756×1272",
-    "ram": "8GB",
-    "storage": "128GB/256GB/512GB",
-    "battery_mah": 8500,
-    "charging_w": 40,
-    "weight_g": 232,
-    "camera_desc": "50MP主摄 | 8MP前置",
-    "has_tele": false,
-    "os": "HarmonyOS 6.0",
-    "features": [
-      "NFC",
-      "红外遥控"
-    ],
-    "tags": [
-      "6500mAh+",
-      "NFC",
-      "红外",
-      "6.8-7.0英寸"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP f/1.9 RYYB | 前置: 8MP f/2.0",
-    "release_date": "2026-06-01",
-    "price": 1699,
-    "date_precision": "month",
-    "completeness_score": 94,
-    "charge_protocols": [
-      "SCP",
-      "FCP",
-      "PD",
-      "UFCS"
-    ],
-    "charge_protocols_source": "ecosystem-huawei",
-    "charge_protocols_confidence": "medium",
-    "screen_detail": "6.84\" 2756×1272 OLED 120Hz"
-  },
-  {
     "id": 262,
     "brand": "Samsung",
     "model": "Galaxy Z Fold8",

@@ -237,6 +237,9 @@
             <div class="spec-row"><div class="k">刷新率</div><div class="v">{{ detailPhone.refresh_hz ? detailPhone.refresh_hz + 'Hz' : '—' }}</div></div>
             <div class="spec-row"><div class="k">防尘抗水</div><div class="v">{{ brief(detailPhone).ip }}</div></div>
             <div class="spec-row"><div class="k">系统</div><div class="v">{{ detailPhone.os || '—' }}</div></div>
+            <div class="spec-row full" v-if="detailPhone.tags?.length">
+              <div class="k">功能特性</div><div class="v"><span class="chip on" style="margin:2px 4px 2px 0;display:inline-block" v-for="tag in detailPhone.tags" :key="tag">{{ tag }}</span></div>
+            </div>
             <div class="spec-row full" v-if="detailPhone.charge_protocols?.length">
               <div class="k">充电协议</div><div class="v">{{ detailPhone.charge_protocols.join(' · ') }}</div>
             </div>
