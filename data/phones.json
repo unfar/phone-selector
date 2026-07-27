@@ -13899,5 +13899,56 @@
       "QC"
     ],
     "name": "NaviX Ultra［豆包手机2代］"
+  },
+  {
+    "brand": "vivo",
+    "model": "X300 E",
+    "processor": "骁龙 8 Elite Gen5",
+    "screen_size": 6.59,
+    "resolution": "2750×1260",
+    "refresh_hz": 144,
+    "screen_type": "AMOLED 144Hz 蔡司大师色彩屏",
+    "battery_mah": 7200,
+    "charging_w": 90,
+    "wireless_charging_w": 0,
+    "weight_g": 199.5,
+    "camera_rear": "50MP 蔡司主摄 f/1.88 OIS + 50MP 蔡司潜望长焦 f/2.65 OIS + 8MP超广角 f/2.2",
+    "camera_front": "32MP",
+    "camera_desc": "50MP蔡司主摄 f/1.88 | 50MP蔡司潜望长焦 f/2.65 | 8MP超广角 | 32MP前置",
+    "detailed_camera": "主摄: 50MP蔡司超感光大底 f/1.88 OIS | 潜望长焦: 50MP蔡司超级长焦 f/2.65 3x OIS | 超广: 8MP超视野超广角 f/2.2 | 前置: 32MP f/2.0",
+    "usb_version": "USB 2.0",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "charge_protocols": [
+      "PD"
+    ],
+    "ram": "12GB",
+    "storage": "256GB/512GB",
+    "price": 4799,
+    "release_date": "2026-07-15",
+    "os": "OriginOS 6 (Android 16)",
+    "features": [
+      "Wi-Fi 7",
+      "蓝牙5.4",
+      "NFC",
+      "红外遥控",
+      "3D超声波指纹",
+      "X轴线性马达",
+      "双扬声器",
+      "IP68/IP69",
+      "蔡司影像",
+      "100x数字变焦"
+    ],
+    "tags": [
+      "NFC",
+      "红外",
+      "防尘抗水",
+      "潜望长焦",
+      "6500mAh+",
+      "6.1-6.4英寸"
+    ],
+    "score": 0,
+    "verified_at": "2026-07-24",
+    "source": "https://www.vivo.com.cn/vivo/x300e/"
   }
 ]
