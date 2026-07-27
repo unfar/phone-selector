@@ -13913,9 +13913,9 @@
     "wireless_charging_w": 0,
     "weight_g": 199.5,
     "camera_rear": "50MP 蔡司主摄 f/1.88 OIS + 50MP 蔡司潜望长焦 f/2.65 OIS + 8MP超广角 f/2.2",
-    "camera_front": "32MP",
-    "camera_desc": "50MP蔡司主摄 f/1.88 | 50MP蔡司潜望长焦 f/2.65 | 8MP超广角 | 32MP前置",
-    "detailed_camera": "主摄: 50MP蔡司超感光大底 f/1.88 OIS | 潜望长焦: 50MP蔡司超级长焦 f/2.65 3x OIS | 超广: 8MP超视野超广角 f/2.2 | 前置: 32MP f/2.0",
+    "camera_front": "50MP JN1 1/2.76\" f/2.0",
+    "camera_desc": "50MP IMX921主摄 OIS | 50MP IMX882潜望长焦 OIS | 8MP超广角 | 50MP JN1前置",
+    "detailed_camera": "主摄: 50MP IMX921 1/1.56\" f/1.88 OIS | 潜望长焦: 50MP IMX882 1/1.95\" f/2.65 OIS | 超广: 8MP f/2.2 | 前置: 50MP JN1 1/2.76\" f/2.0",
     "usb_version": "USB 2.0",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
@@ -13937,7 +13937,8 @@
       "双扬声器",
       "IP68/IP69",
       "蔡司影像",
-      "100x数字变焦"
+      "100x数字变焦",
+      "50MP JN1前置 f/2.0"
     ],
     "tags": [
       "NFC",
@@ -13945,7 +13946,7 @@
       "防尘抗水",
       "潜望长焦",
       "6500mAh+",
-      "6.1-6.4英寸"
+      "6.5-6.7英寸"
     ],
     "score": 0,
     "verified_at": "2026-07-24",
