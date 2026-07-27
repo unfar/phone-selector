@@ -23,7 +23,7 @@ for (const ct of cpuTags) {
   // Phones that have this cpuTag in their tags array
   const tagMatch = phones.filter(p => (p.tags || []).some(t => norm(t) === nct));
   
-  console.log(cpuTag + ": " + procMatch.length + " phones match processor, " + tagMatch.length + " tagged");
+  console.log(ct + ": " + procMatch.length + " phones match processor, " + tagMatch.length + " tagged");
   if (procMatch.length !== tagMatch.length) {
     const missing = procMatch.filter(p => !(p.tags || []).some(t => norm(t) === nct));
     console.log("  Tagged-but-processor-different (false positives): " + 
