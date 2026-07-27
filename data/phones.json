@@ -3919,7 +3919,7 @@
     "battery_mah": 7500,
     "charging_w": 80,
     "weight_g": 224,
-    "camera_desc": "潜望长焦 50MP主摄 | 50MP超广 | 50MP 3x | 32MP前置",
+    "camera_desc": "50MP LYT-828主摄 1/1.28\" OIS | 50MP JN5超广角 | 200MP HP5潜望长焦 70mm OIS",
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
@@ -3947,7 +3947,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 OIS | 超广: 50MP f/2.0 | 长焦: 50MP 3x OIS | 前置: 32MP",
+    "detailed_camera": "主摄: 索尼LYT-828 50MP 1/1.28\" f/1.5 OIS | 超广: 三星JN5 50MP f/2.0 AF | 潜望长焦: 三星HP5 2亿 1/1.56\" f/2.1 70mm OIS",
     "release_date": "2025-10-16",
     "price": 5299,
     "completeness_score": 94,
@@ -3961,7 +3961,8 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
+    "camera_rear": "50MP LYT-828主摄 f/1.5 OIS + 50MP JN5超广 f/2.0 + 200MP HP5潜望长焦 f/2.1 70mm OIS"
   },
   {
     "id": 66,
@@ -4026,7 +4027,7 @@
     "screen_size": 6.71,
     "battery_mah": 7200,
     "weight_g": 219,
-    "camera_desc": "50MP主摄 | 50MP超广 | 50MP 3x潜望 | 50MP前置",
+    "camera_desc": "50MP OV50Q主摄 1/1.3\" OIS | 50MP超广角 | 200MP HP9潜望长焦 85mm OIS",
     "has_tele": true,
     "features": [
       "NFC",
@@ -4050,7 +4051,7 @@
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.3\" f/1.6 OIS | 超广: 50MP f/2.0 | 潜望长焦: 50MP 3x OIS | 前置: 50MP f/2.0",
+    "detailed_camera": "主摄: OV50Q(H9000) 50MP 1/1.3\" f/1.6 OIS | 超广: 50MP 1/2.88\" f/2.0 AF | 潜望长焦: 三星HP9 2亿 1/1.4\" f/2.6 85mm OIS",
     "charging_w": 120,
     "release_date": "2025-10-15",
     "price": 5199,
@@ -4072,7 +4073,8 @@
     "network_model_source": "kalvo",
     "screen_detail": "6.71\" 2800×1280 OLED 120Hz",
     "ip_rating": "IP68/IP69",
-    "dimensions": "162.00×76.91×8.80mm"
+    "dimensions": "162.00×76.91×8.80mm",
+    "camera_rear": "50MP OV50Q主摄 f/1.6 OIS + 50MP超广 f/2.0 + 200MP HP9潜望长焦 f/2.6 85mm OIS"
   },
   {
     "brand": "HONOR",
@@ -4143,7 +4145,7 @@
     "battery_mah": 6500,
     "charging_w": 90,
     "weight_g": 221,
-    "camera_desc": "潜望长焦 200MP主摄 1/1.28 | 50MP超广 | 200MP长焦 3.7x | 50MP前置",
+    "camera_desc": "50MP LYT-828主摄 1/1.28\" OIS | 50MP JN5超广角 | 200MP HPB潜望长焦 85mm OIS",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -4167,7 +4169,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼 200MP 1/1.28\" f/1.6 23mm OIS 蔡司 | 超广: 50MP f/2.0 15mm 蔡司 | 长焦: 200MP f/2.6 85mm 3.7x OIS 蔡司 | 前置: 50MP f/2.0",
+    "detailed_camera": "主摄: 索尼LYT-828 50MP 1/1.28\" f/1.57 OIS | 超广: 三星JN5 50MP f/2.0 AF | 潜望长焦: 三星HPB 2亿 1/1.4\" f/2.67 85mm OIS",
     "release_date": "2025-10-13",
     "price": 5299,
     "network_model": "V2502A",
@@ -4186,7 +4188,8 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
-    "dimensions": "161.98×75.48×7.99mm"
+    "dimensions": "161.98×75.48×7.99mm",
+    "camera_rear": "50MP LYT-828主摄 f/1.57 OIS + 50MP JN5超广 f/2.0 + 200MP HPB潜望长焦 f/2.67 85mm OIS"
   },
   {
     "id": 70,
