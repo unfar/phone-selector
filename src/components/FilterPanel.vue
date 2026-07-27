@@ -53,16 +53,6 @@
       </div>
     </div>
 
-    <div class="filter-section" :class="{ collapsed: collapsed.has('proto') }">
-      <div class="filter-label" @click="toggle('proto')">
-        🔌 充电协议 <span v-if="selectedProtocols.size" class="filter-count">({{ selectedProtocols.size }})</span>
-        <span class="arrow">▼</span><span class="filter-hint">AND</span>
-      </div>
-      <div class="filter-tags">
-        <span v-for="t in protocolTags" :key="t" :class="['tag','proto',{active:selectedProtocols.has(t)}]" @click="toggleProto(t)">{{ t }}</span>
-      </div>
-    </div>
-
     <div class="filter-section" :class="{ collapsed: collapsed.has('screensize') }">
       <div class="filter-label" @click="toggle('screensize')">
         📐 屏幕尺寸 <span v-if="selectedScreenSizes.size" class="filter-count">({{ selectedScreenSizes.size }})</span>

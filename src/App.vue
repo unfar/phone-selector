@@ -67,10 +67,6 @@
               <div class="chips"><button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleTag(t)">{{ t }}</button></div>
             </div>
             <div class="section open">
-              <div class="section-title" @click="toggleSection('proto')">充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></div>
-              <div class="chips"><button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleProtocol(t)">{{ t }}</button></div>
-            </div>
-            <div class="section open">
               <div class="section-title" @click="toggleSection('size')">屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></div>
               <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleScreenSize(r.name)">{{ r.name }}</button></div>
             </div>
