@@ -223,7 +223,11 @@ export function matchesFilters(p) {
   }
   if (selectedCpu.value.size) {
     let ok = false
-    for (const c of selectedCpu.value) if ((p.tags || []).includes(c) || (p.processor || '').includes(c)) { ok = true; break }
+    for (const c of selectedCpu.value) {
+      const normProc = (p.processor || '').replace(/\s+/g, '').toLowerCase()
+      const normCpu = c.replace(/\s+/g, '').toLowerCase()
+      if ((p.tags || []).includes(c) || normProc.includes(normCpu)) { ok = true; break }
+    }
     if (!ok) return false
   }
   for (const t of selectedTags.value) {
