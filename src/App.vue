@@ -153,9 +153,6 @@
                 <div class="metric"><div class="k">防水</div><div class="v">{{ brief(p).ip }}</div></div>
               </div>
               <div class="cam">📸 {{ brief(p).cam }}</div>
-              <div class="card-tags" v-if="brief(p).tags.length">
-                <span class="card-tag" v-for="(tag,i) in brief(p).tags" :key="i">{{ tag }}</span>
-              </div>
               <div class="card-actions">
                 <button class="btn" @click="openDetail(p.id)">详情</button>
                 <button class="btn primary" @click="toggleCompare(p.id)">{{ isCompared(p.id) ? '已加入' : '+ 对比' }}</button>
