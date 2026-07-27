@@ -372,9 +372,6 @@ export function cardBrief(p) {
   const cams = getCameraSpecs(p)
   const rear = cams.find(s => s.l === '后置')
   const cam = rear?.v?.split('\n')[0] || (p.camera_desc || '').split('|')[0].trim() || '—'
-  // 卡片标签：从 tags 中取常见功能（NFC / 红外遥控 等）
-  const cardFeatureIcons = { 'NFC':'📶', '红外':'📡','潜望长焦':'🔭','USB3.0':'💾','无线充电':'🔋','有线投屏':'🖥','散热风扇':'🌀' }
-  const cardTags = (p.tags || []).filter(t => t in cardFeatureIcons).map(t => cardFeatureIcons[t] + t)
   return {
     charge: charge.join(' · ') || '—',
     screen: screen || '—',
@@ -383,7 +380,8 @@ export function cardBrief(p) {
     ram: p.ram ? simplifyCapacity(p.ram) : '—',
     storage: p.storage ? simplifyCapacity(p.storage) : '—',
     name: getDisplayName(p),
-    tags: cardTags,
+    hasNfc: (p.tags || []).includes('NFC'),
+    hasIr: (p.tags || []).includes('红外'),
   }
 }
 
