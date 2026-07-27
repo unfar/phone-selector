@@ -5132,18 +5132,16 @@
     "screen_size": 6.79,
     "battery_mah": 7000,
     "weight_g": 216,
-    "camera_desc": "潜望长焦 50MP主摄 1/1.4 | 50MP超广 | 200MP长焦 3x 1/1.4 | 32MP前置",
+    "camera_desc": "50MP IMX906主摄 OIS | 200MP HP5潜望长焦 OIS | 50MP OV50D超广角 | 32MP前置",
     "has_tele": true,
     "features": [
-      "IP6X",
-      "IPX8",
-      "IPX9",
       "NFC",
       "红外遥控",
       "3D超声波指纹",
       "双扬声器",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "IP66/IP68/IP69"
     ],
     "screen_form": "直屏",
     "id": 91,
@@ -5152,13 +5150,13 @@
       "6500mAh+",
       "NFC",
       "红外",
-      "防尘抗水",
       "有线投屏",
-      "潜望长焦"
+      "潜望长焦",
+      "防尘抗水"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 理光GR 50MP 1/1.4\" f/1.8 24mm OIS | 超广: 50MP f/2.0 15mm | 长焦: 三星HP5 200MP 1/1.4\" f/2.6 70mm 3x OIS | 前置: 32MP f/2.0",
+    "detailed_camera": "主摄: 50MP IMX906 1/1.56\" f/1.8 OIS | 潜望长焦: 200MP HP5 1/1.56\" f/2.6 3x OIS | 超广: 50MP OV50D 1/2.88\" f/2.0 | 前置: 32MP f/2.4",
     "charging_w": 120,
     "release_date": "2025-09-01",
     "price": 3999,
@@ -5180,7 +5178,9 @@
     "charge_protocols_source": "ecosystem-realme",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz"
+    "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz",
+    "camera_rear": "50MP IMX906 主摄 f/1.8 OIS + 200MP HP5 潜望长焦 f/2.6 3x OIS + 50MP OV50D 超广角 f/2.0",
+    "camera_front": "32MP f/2.4"
   },
   {
     "id": 89,
