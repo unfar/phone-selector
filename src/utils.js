@@ -1,5 +1,5 @@
 // ===== 配置数据 =====
-export const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen3","骁龙8s Gen3","天玑9500","天玑9400","麒麟9030 Pro","麒麟9020","麒麟9010S","天玑9400+","天玑9500s","A19 Pro","A19"]
+export const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen3","天玑9500","天玑9400","麒麟9030 Pro","麒麟9020","A19 Pro","A19"]
 
 export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","有线投屏","散热风扇"]
 
