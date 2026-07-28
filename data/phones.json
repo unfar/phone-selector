@@ -1517,7 +1517,7 @@
     "battery_mah": 7050,
     "charging_w": 100,
     "weight_g": 235,
-    "camera_desc": "200MP LYT-901主摄 1\" | 50MP LYT-600超广角 | 200MP OV52A潜望 3x | 50MP JNL超长焦 10x | 50MP LYT-600前置",
+    "camera_desc": "200MP LYT-901主摄 1/1.12\" | 50MP LYT-600超广角 | 200MP OV52A潜望 3x | 50MP JNL超长焦 10x | 50MP LYT-600前置",
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [

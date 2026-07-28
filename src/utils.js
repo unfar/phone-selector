@@ -179,7 +179,7 @@ function parseCameraSegment(raw) {
 
   // 传感器代号
   let sensor = ''
-  if ((m = text.match(/(LYT-?\d+[A-Z]?|IMX\d+[A-Z]?|OV\d+[A-Z]?|HP[A-Z0-9]+|GN\d+|JN\d+|SC\d+XS?|光影猎人\d*)/i))) {
+  if ((m = text.match(/(LYT-?\d+[A-Z]?|IMX\d+[A-Z]?|OV\d+[A-Z]?|HP[A-Z0-9]+|GN\d+|JN\d+[A-Z]?|JNL|SC\d+XS?|光影猎人\d*)/i))) {
     sensor = m[1].replace(/LYT(?!-)/i, 'LYT-')
   }
 
