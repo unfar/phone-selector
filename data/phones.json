@@ -3948,7 +3948,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.0",
-    "detailed_camera": "主摄: 索尼LYT-828 50MP 1/1.28\" f/1.5 OIS | 超广: 三星JN5 50MP 1/2.76\" f/2.0 AF | 潜望长焦: 三星HP5 2亿 1/1.56\" f/2.1 70mm OIS",
+    "detailed_camera": "主摄: 索尼LYT-828 50MP 1/1.28\" f/1.5 OIS | 超广: 三星JN5 50MP 1/2.76\" f/2.0 AF | 潜望长焦: 三星HP5 2亿 1/1.56\" f/2.1 70mm 3x OIS",
     "release_date": "2025-10-16",
     "price": 5299,
     "completeness_score": 94,
@@ -3963,7 +3963,7 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
-    "camera_rear": "50MP LYT-828主摄 f/1.5 OIS + 50MP JN5超广 f/2.0 + 200MP HP5潜望长焦 f/2.1 70mm OIS"
+    "camera_rear": "50MP LYT-828主摄 f/1.5 OIS + 50MP JN5超广 f/2.0 + 200MP HP5潜望长焦 f/2.1 70mm 3x OIS"
   },
   {
     "id": 66,
