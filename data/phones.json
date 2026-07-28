@@ -1517,7 +1517,7 @@
     "battery_mah": 7050,
     "charging_w": 100,
     "weight_g": 235,
-    "camera_desc": "200MP LYT-L910主摄 1\" | 50MP LYT-600超广角 | 200MP SCC90XS潜望 3x | 50MP JNL超长焦 10x | 50MP LYT-600前置",
+    "camera_desc": "200MP LYT-L910主摄 1\" | 50MP LYT-600超广角 | 200MP OV52A潜望 3x | 50MP JNL超长焦 10x | 50MP LYT-600前置",
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
@@ -1545,7 +1545,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-L910 50MP 1\" f/1.5 OIS | 超广: 索尼LYT-600 50MP 1/1.95\" f/2.0 AF | 潜望长焦: 三星SCC90XS 200MP 1/1.28\" f/2.2 70mm 3x OIS | 超长焦: 三星JNL 50MP f/3.5 230mm 10x OIS | 前置: 索尼LYT-600 50MP f/2.0 21mm",
+    "detailed_camera": "主摄: 索尼LYT-L910 50MP 1\" f/1.5 OIS | 超广: 索尼LYT-600 50MP 1/1.95\" f/2.0 AF | 潜望长焦: 豪威OV52A 200MP 1/1.28\" f/2.2 70mm 3x OIS | 超长焦: 三星JNL 50MP f/3.5 230mm 10x OIS | 前置: 索尼LYT-600 50MP f/2.0 21mm",
     "release_date": "2026-04-20",
     "price": 8499,
     "completeness_score": 94,
@@ -1561,7 +1561,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.82\" 3168×1440 OLED 144Hz",
     "dimensions": "约162.3×76.7×8.7mm",
-    "camera_rear": "200MP LYT-L910主摄 f/1.5 OIS + 50MP LYT-600超广 f/2.0 + 200MP SCC90XS潜望 f/2.2 3x OIS + 50MP JNL超长焦 f/3.5 10x OIS"
+    "camera_rear": "200MP LYT-L910主摄 f/1.5 OIS + 50MP LYT-600超广 f/2.0 + 200MP OV52A潜望 f/2.2 3x OIS + 50MP JNL超长焦 f/3.5 10x OIS"
   },
   {
     "id": 28,
