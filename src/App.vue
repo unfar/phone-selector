@@ -200,7 +200,6 @@
             {{ isCompared(detailPhone.id) ? '已加入对比' : '+ 加入对比' }}
           </button>
           <button class="btn" @click="openCompare" v-if="compareList.length >= 2">去对比页</button>
-          <button class="btn ghost" @click="openList">返回列表</button>
         </div>
         <div class="detail-nav" v-if="prevNextPhones.prev || prevNextPhones.next">
           <button class="btn ghost" :disabled="!prevNextPhones.prev" @click="prevDetail" title="上一款">
