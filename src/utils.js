@@ -7,10 +7,10 @@ export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红�
 export const protocolTags = ["5A PPS","UFCS","PPS","PD","QC","SCP","FCP","VFCP","Qi"]
 
 export const screenSizeRanges = [
-  { name: "6.1-6.4英寸", min: 5.9, max: 6.45 },
-  { name: "6.5-6.7英寸", min: 6.35, max: 6.75 },
-  { name: "6.8-7.0英寸", min: 6.65, max: 7.05 },
-  { name: "7.0英寸以上", min: 6.85, max: 99 }
+  { name: "6.1-6.4英寸", min: 6.0, max: 6.449 },
+  { name: "6.5-6.7英寸", min: 6.45, max: 6.749 },
+  { name: "6.8-7.0英寸", min: 6.75, max: 7.049 },
+  { name: "7.0英寸以上", min: 7.05, max: 99 }
 ]
 
 export const screenTypes = ['📱 直屏','🔄 折叠屏']
