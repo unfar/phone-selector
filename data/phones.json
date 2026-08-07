@@ -81,7 +81,7 @@
       "NFC",
       "防尘抗水",
       "红外",
-      "7.0英寸以上"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2608,7 +2608,7 @@
     "ram": "6GB",
     "storage": "128GB",
     "battery_mah": 6500,
-    "charging_w": 0,
+    "charging_w": 15,
     "weight_g": 210,
     "camera_desc": "13MP主摄 | 5MP前置",
     "detailed_camera": "主摄: 1300万 f/2.2 | 前置: 500万 f/2.2",
@@ -2623,7 +2623,7 @@
       "6500mAh+",
       "防尘抗水",
       "红外",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -2736,7 +2736,8 @@
       "防尘抗水",
       "有线投屏",
       "红外",
-      "潜望长焦"
+      "潜望长焦",
+      "6.8-7.0英寸"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -3442,7 +3443,7 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3500,7 +3501,7 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3557,7 +3558,7 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3614,7 +3615,7 @@
       "红外",
       "有线投屏",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5094,7 +5095,7 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "7.0英寸以上"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -7904,7 +7905,7 @@
     "tags": [
       "≤200g",
       "红外",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -8847,7 +8848,8 @@
       "有线投屏",
       "防尘抗水",
       "红外",
-      "潜望长焦"
+      "潜望长焦",
+      "6.8-7.0英寸"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -13730,7 +13732,7 @@
     "price_note": "预售价",
     "processor": "骁龙8 Elite 5 (for Galaxy)",
     "cpu_tag": "骁龙8 Elite 5",
-    "screen_size": "7.6",
+    "screen_size": 7.6,
     "screen_resolution": "1848×2448 QXGA+ (内屏) / 1972×1248 WUXGA+ (外屏 5.5吋)",
     "refresh_rate": "120Hz",
     "battery": "4800",
@@ -13783,7 +13785,21 @@
       "PD",
       "QC",
       "Qi"
-    ]
+    ],
+    "screen_form": "折叠屏",
+    "resolution": "1848×2448 / 1972×1248",
+    "screen_type": "折叠屏",
+    "screen_unfolded": {
+      "size": 7.6,
+      "resolution": "1848×2448",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 5.5,
+      "resolution": "1972×1248",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 263,
@@ -13793,7 +13809,7 @@
     "price_note": "预售价",
     "processor": "骁龙8 Elite 5 (for Galaxy)",
     "cpu_tag": "骁龙8 Elite 5",
-    "screen_size": "6.9",
+    "screen_size": 6.9,
     "screen_resolution": "2520×1080 FHD+ (内屏) / 1048×948 (外屏 4.1吋)",
     "refresh_rate": "120Hz",
     "battery": "4300",
@@ -13845,7 +13861,21 @@
       "PD",
       "QC",
       "Qi"
-    ]
+    ],
+    "screen_form": "折叠屏",
+    "resolution": "2520×1080 / 1048×948",
+    "screen_type": "折叠屏",
+    "screen_unfolded": {
+      "size": 6.9,
+      "resolution": "2520×1080",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 4.1,
+      "resolution": "1048×948",
+      "refresh_hz": 120
+    },
+    "fold_type": "竖向折叠"
   },
   {
     "id": 264,
@@ -13855,7 +13885,7 @@
     "price_note": "预售价",
     "processor": "骁龙8 Elite 5 (for Galaxy)",
     "cpu_tag": "骁龙8 Elite 5",
-    "screen_size": "8.0",
+    "screen_size": 8.0,
     "screen_resolution": "2504×2256 QXGA+ (内屏) / 2520×1080 FHD+ (外屏 6.5吋)",
     "refresh_rate": "120Hz",
     "battery": "5000",
@@ -13910,7 +13940,21 @@
       "PD",
       "QC",
       "Qi"
-    ]
+    ],
+    "screen_form": "折叠屏",
+    "resolution": "2504×2256 / 2520×1080",
+    "screen_type": "折叠屏",
+    "screen_unfolded": {
+      "size": 8.0,
+      "resolution": "2504×2256",
+      "refresh_hz": 120
+    },
+    "screen_folded": {
+      "size": 6.5,
+      "resolution": "2520×1080",
+      "refresh_hz": 120
+    },
+    "fold_type": "横向折叠"
   },
   {
     "id": 266,
@@ -13920,7 +13964,7 @@
     "price_note": "未发布 (豆包二代)",
     "processor": "骁龙8 Elite 5",
     "cpu_tag": "骁龙8 Elite 5",
-    "screen_size": "6.78",
+    "screen_size": 6.78,
     "screen_resolution": "2780×1264 (1.5K)",
     "refresh_rate": "144Hz",
     "screen_type": "AMOLED",
@@ -13948,7 +13992,8 @@
       "1.5K",
       "USB3.0",
       "红外",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "6500mAh+"
     ],
     "os": "RedMagic OS",
     "source": "Notion补充更新",
@@ -13960,7 +14005,10 @@
       "PD",
       "QC"
     ],
-    "name": "NaviX Ultra［豆包手机2代］"
+    "name": "NaviX Ultra［豆包手机2代］",
+    "charging_w": 80,
+    "refresh_hz": 144,
+    "resolution": "2780×1264"
   },
   {
     "brand": "vivo",
@@ -14008,13 +14056,15 @@
       "防尘抗水",
       "潜望长焦",
       "6500mAh+",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "≤200g"
     ],
     "score": 0,
     "verified_at": "2026-07-24",
     "source": "https://www.vivo.com.cn/vivo/x300e/",
     "network_model": "V2612A",
-    "id": "vivo-x300e"
+    "id": "vivo-x300e",
+    "screen_form": "直屏"
   },
   {
     "id": 267,
@@ -14046,7 +14096,7 @@
       "NFC",
       "红外",
       "防尘抗水",
-      "6.5-6.7英寸"
+      "6.8-7.0英寸"
     ],
     "features": [
       "IP69K",
