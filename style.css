@@ -544,6 +544,25 @@ table.compare tr.row-diff td:first-child{color:#0f766e}
   position:sticky;top:0;background:var(--bg);z-index:2;
 }
 .filter-drawer-body{padding:14px 18px 24px}
+/* 筛选区块折叠:默认折叠,点标题展开 */
+.filter-drawer-body .section .chips,
+.filter-drawer-body .section .price-box{display:none}
+.filter-drawer-body .section.open .chips,
+.filter-drawer-body .section.open .price-box{display:flex}
+.filter-drawer-body .section.open .price-box{display:block}
+.filter-drawer-body .section-title{
+  display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none;
+  font-size:.84rem;font-weight:800;color:var(--text,#1f2937);
+  padding:7px 2px;border-radius:8px;transition:color .12s
+}
+.filter-drawer-body .section-title:hover{color:var(--accent,#0d9488)}
+.filter-drawer-body .section-title.static{cursor:default}
+.filter-drawer-body .section-title.static:hover{color:var(--text,#1f2937)}
+.filter-drawer-body .section-title.static::after{content:'';display:none}
+.filter-drawer-body .section-title::after{
+  content:'▶';margin-left:auto;font-size:.62rem;color:var(--faint,#9ca3af);transition:transform .18s
+}
+.filter-drawer-body .section.open .section-title::after{transform:rotate(90deg)}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
 

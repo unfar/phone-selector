@@ -43,12 +43,12 @@
             <button class="btn ghost" @click="showFilterDrawer = false">✕</button>
           </div>
           <div class="filter-drawer-body">
-            <div class="section open">
-              <div class="section-title">品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></div>
+            <div class="section" :class="{ open: sectionOpen.brand }">
+              <div class="section-title" @click="toggleSection('brand')">品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></div>
               <div class="chips"><button v-for="b in brandList" :key="b" class="chip brand" :class="{ on: selectedBrands.has(b) }" :style="{ '--bcolor': brandColor(b) }" @click="toggleBrand(b)">{{ b }}</button></div>
             </div>
             <div class="section open">
-              <div class="section-title">价格 <span v-if="priceActive" class="count">(已设)</span></div>
+              <div class="section-title static">价格 <span v-if="priceActive" class="count">(已设)</span></div>
               <div class="price-box"><PriceSlider /></div>
             </div>
             <div class="section open">
@@ -506,7 +506,7 @@ function toggleScreenSize(r) {
   updateHash()
 }
 // sections 收起/展开
-const sectionOpen = reactive({ screen: true, cpu: true, tags: true, proto: true, size: true })
+const sectionOpen = reactive({ brand: false, screen: true, cpu: true, tags: true, proto: true, size: true })
 function toggleSection(key) { sectionOpen[key] = !sectionOpen[key] }
 function selectScreen(s) {
   selectedScreen.value = selectedScreen.value === s ? null : s
