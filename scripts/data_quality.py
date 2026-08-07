@@ -21,6 +21,25 @@ BACKUP_DIR = ROOT / "data"
 
 IP_RE = re.compile(r"IP(?:\d{1,2}X?K?|X\d{1,2}K?)", re.I)
 
+# 已知传感器真实规格:型号 -> (像素, 尺寸),用于检测 detailed_camera 中的矛盾
+SENSOR_SPECS = {
+    "LYT-900": ("50MP", "1"), "LYT-901": ("200MP", "1/1.12"), "LYT-818": ("50MP", "1/1.28"),
+    "LYT-600": ("50MP", "1/1.95"), "LYT-808": ("50MP", "1/1.4"), "LYT-700": ("50MP", "1/1.56"),
+    "LYT-700V": ("50MP", "1/1.56"), "HP5": ("200MP", "1/1.56"),
+    "IMX903": ("48MP", "1/1.14"), "IMX921": ("50MP", "1/1.56"), "IMX906": ("50MP", "1/1.56"),
+    "IMX882": ("50MP", "1/1.95"), "IMX890": ("50MP", "1/1.56"), "IMX920": ("50MP", "1/1.56"),
+    "IMX989": ("50MP", "1"), "IMX866": ("50MP", "1/1.56"),
+    "HP2": ("200MP", "1/1.3"), "HP0": ("200MP", "1/1.4"), "HP3": ("200MP", "1/1.4"),
+    "HP9": ("200MP", "1/1.4"), "HPB": ("200MP", "1/1.4"),
+    "GN3": ("50MP", "1/1.56"), "GN2": ("50MP", "1/1.12"), "GN1": ("50MP", "1/1.31"),
+    "GN5": ("50MP", "1/1.57"), "JN5": ("50MP", "1/2.76"), "JN1": ("50MP", "1/2.76"),
+    "OV50H": ("50MP", "1/1.31"), "OV50Q": ("50MP", "1/1.3"), "OV50K": ("50MP", "1/1.3"),
+    "OV52A": ("200MP", "1/1.28"), "OV64B": ("64MP", "1/2"), "OV50E": ("50MP", "1/1.56"),
+    "JNL": ("50MP", "1/1.2"), "OV50D": ("50MP", "1/2.88"), "OV50N": ("50MP", "1/1.3"),
+    "光影猎人900": ("50MP", "1/1.3"), "光影猎人800": ("50MP", "1/1.55"), "光影猎人950": ("50MP", "1/1.31"),
+    "SC585XS": ("50MP", "1/1.28"),
+}
+
 # 处理器命名统一
 PROC_MAP = [
     (re.compile(r"第五代骁龙8\s*至尊版|骁龙8\s*Elite\s*2|骁龙8\s*Elite2"), "骁龙8 Elite 5"),
@@ -299,6 +318,27 @@ def validate(phones: list) -> dict:
         if 0 < wt <= 200 and "≤200g" not in tags:
             warnings.append(f"[标签] ID {pid} {model}: 缺 ≤200g")
 
+        # 传感器-像素-尺寸一致性检查
+        import re as _re
+        dc = p.get("detailed_camera") or ""
+        for sensor, (exp_mp, exp_size) in SENSOR_SPECS.items():
+            if sensor not in dc:
+                continue
+            for seg in dc.split("|"):
+                if sensor not in seg:
+                    continue
+                mp_m = _re.search(r"(\d+)\s*MP", seg)
+                if mp_m:
+                    actual = mp_m.group(1)
+                    exp = exp_mp.replace("MP", "")
+                    if actual != exp and not (exp == "200" and actual == "20000"):
+                        if actual not in ("20000",):  # 20000万=2亿
+                            warnings.append(f"[传感器] ID {pid} {model}: {sensor} 像素={actual}MP 应为{exp_mp} → {seg.strip()[:60]}")
+                for sz_m in _re.finditer(r"(1(?:/\d+(?:\.\d+)?)?)\s*[\"”]", seg):
+                    actual_size = sz_m.group(1)
+                    if actual_size != exp_size:
+                        warnings.append(f"[传感器] ID {pid} {model}: {sensor} 尺寸={actual_size} 应为{exp_size} → {seg.strip()[:60]}")
+
     # coverage
     fields = [
         "network_model", "os", "refresh_hz", "resolution", "usb_version",
@@ -353,10 +393,13 @@ def print_report(report: dict, title: str = "数据质量报告"):
 def sync_public(phones: list):
     save_phones(phones, DATA)
     save_phones(phones, PUBLIC)
+    DIST = ROOT / "dist" / "data" / "phones.json"
+    if DIST.parent.exists():
+        save_phones(phones, DIST)
     a = load_phones(DATA)
     b = load_phones(PUBLIC)
     if a != b:
-        raise RuntimeError("双文件同步失败：data 与 public 不一致")
+        raise RuntimeError("双文件同步失败:data 与 public 不一致")
 
 
 def main():

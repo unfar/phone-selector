@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "sync": "python3 scripts/data_quality.py normalize",
     "data:validate": "python3 scripts/data_quality.py validate",
     "data:normalize": "python3 scripts/data_quality.py normalize",
     "data:all": "python3 scripts/data_quality.py all"

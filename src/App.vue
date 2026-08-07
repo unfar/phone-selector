@@ -146,6 +146,10 @@
                 <div class="metric"><div class="k">防水</div><div class="v">{{ brief(p).ip }}</div></div>
               </div>
               <div class="cam">📸 {{ brief(p).cam }}</div>
+              <div class="score-bar" v-if="brief(p).score > 0">
+                <div class="score-fill" :style="{ width: brief(p).score + '%' }"></div>
+                <span class="score-label">数据完整度 {{ brief(p).score }}%</span>
+              </div>
               <div class="card-actions">
                 <button class="btn" @click="openDetail(p.id)">详情</button>
                 <button class="btn primary" @click="toggleCompare(p.id)">{{ isCompared(p.id) ? '已加入' : '+ 对比' }}</button>
@@ -304,6 +308,22 @@
             </div>
           </div>
         </div>
+        <div class="panel spec-block" v-if="detailPhone">
+          <h4>同价位竞品</h4>
+          <div class="rivals">
+            <div
+              v-for="r in rivalPhones"
+              :key="r.id"
+              class="rival-chip"
+              @click="openDetail(r.id)"
+            >
+              <span class="rival-brand">{{ r.brand }}</span>
+              <span class="rival-name">{{ brief(r).name }}</span>
+              <span class="rival-price">{{ priceText(r) }}</span>
+            </div>
+            <div v-if="!rivalPhones.length" class="empty-mini">暂无相近价位机型</div>
+          </div>
+        </div>
       </section>
     </div>
 
@@ -412,7 +432,7 @@ import {
   detailPhone, comparePhones, openList, openDetail, openCompare, setViewMode, toggleCompare,
   clearCompare, isCompared, clearAllFilters, updateHash, restoreStateFromHash, brandColor, cardBrief,
   featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs, getCameraModules,
-  prevNextPhones, prevDetail, nextDetail
+  prevNextPhones, prevDetail, nextDetail, rivalPhones
 } from './composables/useApp.js'
 
 const navPos = computed(() => {

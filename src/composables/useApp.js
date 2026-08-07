@@ -290,6 +290,17 @@ export const prevNextPhones = computed(() => {
     next: idx < list.length - 1 ? list[idx + 1] : null,
   }
 })
+/** 同价位竞品:价格 ±15%、不同品牌、最多 4 款(排除自身与未发布) */
+export const rivalPhones = computed(() => {
+  const dp = detailPhone.value
+  if (!dp?.price) return []
+  const lo = dp.price * 0.85
+  const hi = dp.price * 1.15
+  return phones.value
+    .filter(p => p.id !== dp.id && p.price >= lo && p.price <= hi && p.brand !== dp.brand && p.price)
+    .sort((a, b) => Math.abs(a.price - dp.price) - Math.abs(b.price - dp.price))
+    .slice(0, 4)
+})
 export function prevDetail() {
   const pn = prevNextPhones.value
   if (pn.prev) openDetail(pn.prev.id)
@@ -386,6 +397,7 @@ export function cardBrief(p) {
     name: getDisplayName(p),
     hasNfc: (p.tags || []).includes('NFC'),
     hasIr: (p.tags || []).includes('红外'),
+    score: p.completeness_score || 0,
   }
 }
 

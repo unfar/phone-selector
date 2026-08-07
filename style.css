@@ -256,6 +256,40 @@ a{color:inherit}
 .pv-sep{color:var(--faint,#9ca3af);font-weight:700}
 .pv-hint{margin-left:auto;font-size:.7rem;color:var(--faint,#9ca3af)}
 
+/* 数据完整度进度条 */
+.score-bar{
+  position:relative;margin-top:8px;height:6px;border-radius:999px;
+  background:var(--line-strong,#e5e7eb);overflow:visible
+}
+.score-fill{
+  height:100%;border-radius:999px;background:linear-gradient(90deg,#14b8a6,#0d9488);
+  transition:width .3s
+}
+[data-theme="dark"] .score-fill{background:linear-gradient(90deg,#2dd4bf,#14b8a6)}
+.score-label{
+  position:absolute;right:0;top:-18px;font-size:.62rem;font-weight:750;color:var(--faint,#9ca3af)
+}
+.score-bar:hover .score-label{color:var(--accent,#0d9488)}
+
+/* 同价位竞品 */
+.rivals{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.rival-chip{
+  display:flex;flex-direction:column;gap:3px;flex:1;min-width:120px;
+  padding:10px 12px;border:1.5px solid var(--line);border-radius:14px;
+  background:#fff;cursor:pointer;transition:all .12s
+}
+.rival-chip:hover{border-color:var(--accent);box-shadow:0 2px 8px rgba(13,148,136,.12)}
+.rival-brand{font-size:.68rem;font-weight:700;color:var(--faint,#9ca3af);text-transform:uppercase}
+.rival-name{font-size:.8rem;font-weight:800;color:var(--text,#1f2937)}
+.rival-price{font-size:.72rem;font-weight:700;color:var(--accent,#0d9488)}
+[data-theme="dark"] .rival-chip{background:var(--panel)}
+[data-theme="dark"] .rival-chip:hover{border-color:var(--accent)}
+.empty-mini{padding:14px 0;font-size:.82rem;color:var(--faint,#9ca3af);text-align:center}
+
+/* table 横向滚动 */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-wrap table{min-width:700px;width:100%}
+
 /* toolbar */
 .toolbar{
   display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;
