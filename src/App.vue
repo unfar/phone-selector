@@ -648,8 +648,9 @@ function buildCameraCompareRows(prefix, camSpecsArray, group) {
       const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
       const mods = spec?.modules?.filter(m => matchKeys.includes(m.key)) || []
       // 如果合并后有多个镜头，拼在一起
+      // summary 已包含像素(如 50MP / 2亿),不再重复前缀 m.mp
       return mods.length
-        ? mods.map(m => `${m.mp ? m.mp + ' ' : ''}${m.summary}`).join('；')
+        ? mods.map(m => m.summary).join(';')
         : '—'
     })
     const same = values.every(v => v === values[0])

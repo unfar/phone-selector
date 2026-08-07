@@ -1916,7 +1916,7 @@
     "battery_mah": 6600,
     "charging_w": 100,
     "weight_g": 229,
-    "camera_desc": "潜望长焦 200MP主摄 1/1.28 | 50MP超广 | 200MP长焦 3.7x 1/1.4 | 50MP前置",
+    "camera_desc": "潜望长焦 200MP LYT-901主摄 1/1.12 | 50MP LYT-818超广 | 200MP HP0长焦 3.7x 1/1.4 | 50MP前置",
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
@@ -1943,7 +1943,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-900 200MP 1/1.28\" f/1.6 23mm OIS 蔡司 | 超广: 50MP f/2.0 15mm 蔡司 | 长焦: 索尼 200MP 1/1.4\" f/2.6 85mm 3.7x OIS 蔡司 | 前置: 50MP f/2.0",
+    "detailed_camera": "主摄: 索尼LYT-901 200MP 1/1.12\" f/1.85 35mm OIS 蔡司 | 超广: 索尼LYT-818 50MP f/2.0 15mm 蔡司 | 长焦: 三星HP0 200MP 1/1.4\" f/2.6 85mm 3.7x OIS 蔡司 | 前置: 50MP f/2.0",
     "release_date": "2026-03-30",
     "price": 6999,
     "network_model": "V2547DA",
