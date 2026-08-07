@@ -49,10 +49,7 @@
             </div>
             <div class="section open">
               <div class="section-title">价格 <span v-if="priceActive" class="count">(已设)</span></div>
-              <div class="price-box"><div class="price-row">
-                <label>最低<input type="number" :value="priceMin" min="0" step="100" @change="onPriceMin"/></label>
-                <label>最高<input type="number" :value="priceMax" min="0" step="100" @change="onPriceMax"/></label>
-              </div></div>
+              <div class="price-box"><PriceSlider /></div>
             </div>
             <div class="section open">
               <div class="section-title" @click="toggleSection('screen')">屏幕形态 <span v-if="selectedScreen" class="count">(1)</span></div>
@@ -407,6 +404,7 @@
 <script setup>
 import { computed, onMounted, ref, reactive } from 'vue'
 import phonesData from '../data/phones.json'
+import PriceSlider from './components/PriceSlider.vue'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
   selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, selectedProtocols,
@@ -514,19 +512,6 @@ function selectScreen(s) {
   selectedScreen.value = selectedScreen.value === s ? null : s
   updateHash()
 }
-function onPriceMin(e) {
-  let v = parseInt(e.target.value || '0')
-  if (Number.isNaN(v)) v = 0
-  priceMin.value = Math.max(0, Math.min(v, priceMax.value))
-  updateHash()
-}
-function onPriceMax(e) {
-  let v = parseInt(e.target.value || String(sliderMaxPrice.value))
-  if (Number.isNaN(v)) v = sliderMaxPrice.value
-  priceMax.value = Math.max(priceMin.value, Math.min(v, sliderMaxPrice.value))
-  updateHash()
-}
-
 const activePills = computed(() => {
   const out = []
   if (searchQuery.value) out.push({ label: '🔍 ' + searchQuery.value, clear: clearSearch })
