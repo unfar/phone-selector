@@ -1184,18 +1184,19 @@
     "usb_version": "USB 2.0",
     "weight_g": 201,
     "os": "MagicOS 10 (Android 16)",
-    "camera_desc": "2亿主摄 1/1.4\" f/1.9 OIS | 1200万超广角微距 | 5000万前置",
-    "detailed_camera": "主摄: 2亿 1/1.4\" f/1.9 OIS | 超广: 1200万 f/2.2 微距 | 前置: 5000万 f/2.0",
+    "camera_desc": "2亿像素三星HP3主摄 OIS + 1200万超广角微距 + 5000万前置",
+    "detailed_camera": "主摄: 200MP 三星HP3 1/1.4\" f/1.9 24mm OIS | 超广角微距: 12MP f/2.2 | 前置: 50MP f/2.0",
     "has_tele": false,
     "has_nfc": true,
     "has_ir": true,
     "tags": [
       "无线充电",
-      "6500mAh+",
-      "NFC",
       "红外",
-      "防尘抗水",
-      "6.5-6.7英寸"
+      "6500mAh+",
+      "2亿像素",
+      "6.8-7.0英寸",
+      "NFC",
+      "有线投屏"
     ],
     "features": [
       "IP6X",
@@ -3834,7 +3835,7 @@
     "battery_mah": 6000,
     "charging_w": 80,
     "weight_g": 187,
-    "camera_desc": "5000万广角 OIS | 800万超广角 | 5000万长焦(2x)",
+    "camera_desc": "50MP索尼LYT600主摄 + 8MP超广角 + 50MP三星JN5潜望长焦3.5x + 50MP前置",
     "has_tele": true,
     "os": "ColorOS",
     "features": [
@@ -3846,16 +3847,18 @@
       "红外"
     ],
     "tags": [
-      "≤200g",
-      "NFC",
+      "无线充电",
       "红外",
-      "防尘抗水",
-      "6.5-6.7英寸"
+      "6500mAh+",
+      "潜望长焦",
+      "6.8-7.0英寸",
+      "NFC",
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 5000万 f/1.7 OIS | 超广: 800万 f/2.2 | 长焦: 5000万 f/2.4 2x | 前置: 5000万",
+    "detailed_camera": "主摄: 50MP Sony LYT600(IMX882) 1/1.95\" f/1.8 26mm | 超广: 8MP OV08D 1/4\" f/2.2 15mm | 潜望长焦: 50MP Samsung JN5 1/2.75\" f/2.8 OIS 3.5x 80mm | 前置: 50MP Samsung JN5 1/2.75\" f/2.0 21mm",
     "release_date": "2025-11-01",
     "price": 2599,
     "network_model": "PLA110",
@@ -7581,17 +7584,19 @@
     "usb_version": "USB 2.0",
     "weight_g": 185,
     "os": "OriginOS",
-    "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 50MP长焦 | 50MP前置",
-    "detailed_camera": "主摄: 50MP f/1.8 OIS | 超广: 8MP | 长焦: 50MP | 前置: 50MP",
+    "camera_desc": "50MP主摄 OIS + 8MP超广角 + 50MP潜望长焦 + 50MP前置",
+    "detailed_camera": "主摄: 50MP 1/1.5\" f/1.8 OIS | 超广: 8MP | 潜望长焦: 50MP | 前置: 50MP",
     "has_tele": true,
     "has_nfc": false,
     "has_ir": false,
     "tags": [
-      "≤200g",
-      "NFC",
+      "无线充电",
       "红外",
+      "6500mAh+",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "NFC",
+      "有线投屏"
     ],
     "features": [
       "NFC",
@@ -9436,7 +9441,7 @@
     "screen_size": 6.78,
     "battery_mah": 6400,
     "weight_g": 213,
-    "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
+    "camera_desc": "50MP索尼IMX906主摄 OIS + 8MP超广角 + 16MP前置",
     "has_tele": false,
     "features": [
       "IP6X",
@@ -9448,14 +9453,17 @@
     "screen_form": "直屏",
     "id": 164,
     "tags": [
-      "NFC",
+      "IMX906",
+      "无线充电",
       "红外",
-      "防尘抗水",
-      "6.8-7.0英寸"
+      "6500mAh+",
+      "6.8-7.0英寸",
+      "NFC",
+      "有线投屏"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼 50MP 1/1.56\" OIS | 超广: 8MP | 前置: 16MP",
+    "detailed_camera": "主摄: 50MP Sony IMX906 1/1.56\" f/1.8 OIS | 超广: 8MP | 前置: 16MP",
     "charging_w": 100,
     "release_date": "2024-12-01",
     "price": 2299,
@@ -11292,7 +11300,7 @@
     "battery_mah": 6800,
     "charging_w": 120,
     "weight_g": 212,
-    "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 50MP长焦 | 16MP前置",
+    "camera_desc": "50MP豪威OV50E主摄 OIS + 8MP超广角 + 50MP潜望长焦 + 16MP前置",
     "has_tele": true,
     "os": "OriginOS 6 (Android 16)",
     "features": [
@@ -11303,18 +11311,19 @@
       "有线投屏"
     ],
     "tags": [
-      "6500mAh+",
-      "NFC",
+      "无线充电",
       "红外",
-      "防尘抗水",
-      "有线投屏",
+      "6500mAh+",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "NFC",
+      "有线投屏",
+      "OV50E"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP f/1.9 OIS | 超广: 8MP | 长焦: 50MP | 前置: 16MP",
+    "detailed_camera": "主摄: 50MP OV50E 1/1.55\" f/1.88 23mm OIS | 超广: 8MP OV08D10 1/4\" | 潜望长焦: 50MP | 前置: 16MP GC16B3",
     "release_date": "2024-08-01",
     "price": 2999,
     "network_model": "V2424A",
@@ -11390,7 +11399,7 @@
     "screen_size": 6.67,
     "battery_mah": 6500,
     "weight_g": 205,
-    "camera_desc": "潜望长焦 4800万主摄 f/1.6",
+    "camera_desc": "50MP索尼LYT600(IMX882)主摄 1/1.95\" f/1.5 OIS | 12MP前置",
     "has_tele": false,
     "charging_w": 90,
     "wireless_charging_w": 0,
@@ -11403,17 +11412,18 @@
     "screen_form": "直屏",
     "id": 210,
     "tags": [
-      "6500mAh+",
-      "NFC",
+      "无线充电",
       "红外",
-      "潜望长焦",
-      "6.5-6.7英寸"
+      "6500mAh+",
+      "6.8-7.0英寸",
+      "NFC",
+      "有线投屏"
     ],
     "release_date": "2024-08-01",
     "price": 2299,
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "主摄: 48MP f/1.6 | 前置: 12MP",
+    "detailed_camera": "主摄: 50MP Sony LYT600(IMX882) 1/1.95\" f/1.5 26mm OIS | 前置: 12MP",
     "network_model": "24129RT7CC",
     "resolution": "2712×1220",
     "screen_type": "AMOLED",
@@ -13183,7 +13193,7 @@
     "battery_mah": 5800,
     "charging_w": 100,
     "weight_g": 192,
-    "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 50MP长焦 | 50MP前置",
+    "camera_desc": "50MP索尼IMX921主摄 OIS + 8MP超广角 + 50MP索尼IMX816长焦2x OIS + 50MP前置",
     "has_tele": true,
     "os": "OriginOS",
     "features": [
@@ -13194,17 +13204,18 @@
       "NFC"
     ],
     "tags": [
-      "≤200g",
-      "防尘抗水",
+      "无线充电",
       "红外",
+      "6500mAh+",
       "潜望长焦",
+      "6.8-7.0英寸",
       "NFC",
-      "6.8-7.0英寸"
+      "有线投屏"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP 1/1.56\" OIS | 超广: 8MP | 长焦: 50MP | 前置: 50MP",
+    "detailed_camera": "主摄: 50MP Sony IMX921 1/1.56\" f/1.88 OIS | 超广: 8MP | 长焦: 50MP Sony IMX816 1/2.93\" 2x OIS | 前置: 50MP",
     "release_date": "2023-12-01",
     "price": 2999,
     "date_precision": "month",
@@ -13988,12 +13999,13 @@
       "红外遥控"
     ],
     "tags": [
-      "7100mAh+",
-      "1.5K",
-      "USB3.0",
+      "无线充电",
       "红外",
+      "6500mAh+",
+      "云台防抖",
       "6.8-7.0英寸",
-      "6500mAh+"
+      "NFC",
+      "有线投屏"
     ],
     "os": "RedMagic OS",
     "source": "Notion补充更新",
@@ -14008,7 +14020,10 @@
     "name": "NaviX Ultra［豆包手机2代］",
     "charging_w": 80,
     "refresh_hz": 144,
-    "resolution": "2780×1264"
+    "resolution": "2780×1264",
+    "camera_desc": "50MP云台主摄 f/1.6 OIS + 50MP超广角 + 50MP长焦",
+    "detailed_camera": "主摄: 50MP 1/1.4\" f/1.6 23mm 云台OIS | 超广: 50MP | 长焦: 50MP | 前置: 50MP",
+    "has_tele": true
   },
   {
     "brand": "vivo",
