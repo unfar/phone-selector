@@ -14222,7 +14222,7 @@
     "id": 269,
     "brand": "REDMI",
     "model": "Redmi K100 Pro",
-    "processor": "骁龙8 Elite 5",
+    "processor": "骁龙8 Elite 5 V Services",
     "screen_size": 6.59,
     "refresh_hz": 185,
     "screen_type": "RGB OLED",
@@ -14243,8 +14243,7 @@
       "有线投屏",
       "3D超声波指纹",
       "Bose调音双扬",
-      "IP66/68/69",
-      "独显芯片D2"
+      "IP66/68/69"
     ],
     "tags": [
       "无线充电",
@@ -14279,7 +14278,7 @@
     "price_note": "2026-08-11发布: 12+256GB=3699元, 16+256GB=4099元, 12+512GB=4299元, 16+512GB=4699元",
     "verified_at": "2026-08-12",
     "camera_rear": null,
-    "camera_front": null,
+    "camera_front": "32MP f/2.0",
     "camera_main_mp": 200,
     "network_model": null,
     "network_model_source": null,
