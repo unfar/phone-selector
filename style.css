@@ -547,7 +547,7 @@ table.compare tr.row-diff td:first-child{color:#0f766e}
 
 /* ── 筛选浮动按钮 + 抽屉（全端） ── */
 .filter-fab{
-  position:fixed;bottom:auto;top:25vh;right:16px;z-index:90;
+  position:fixed;bottom:auto;top:50vh;right:16px;z-index:90;
   height:44px;padding:0 18px;border-radius:999px;
   background:var(--accent);color:#fff;border:none;cursor:pointer;
   font-size:.88rem;font-weight:700;
