@@ -120,7 +120,8 @@
     "esim": false,
     "sim_type": "双 nano-SIM",
     "camera_rear": "50MP f/1.8 OIS | 8MP",
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 260,
@@ -184,7 +185,10 @@
     "esim": false,
     "sim_type": "双 nano-SIM",
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 OIS | 8MP",
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 250,
@@ -270,7 +274,10 @@
     "has_ir": false,
     "esim": true,
     "reverse_charging_w": 0,
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_sensor": "三星HPB",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.68"
   },
   {
     "id": 249,
@@ -347,7 +354,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.88",
-    "camera_front": "800万 f/2.0"
+    "camera_front": "800万 f/2.0",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 1,
@@ -417,7 +425,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8",
-    "camera_front": "800万 f/2.0"
+    "camera_front": "800万 f/2.0",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 3,
@@ -482,7 +491,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8 OIS | 800万 f/2.2 112°",
-    "camera_front": null
+    "camera_front": "1600万",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 2,
@@ -541,7 +551,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 OIS | 8MP f/2.2",
-    "camera_front": null
+    "camera_front": "16MP",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 5,
@@ -609,7 +620,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 1/1.3\" f/1.6 5000万 OIS | 5000万 f/2.2 120° | 5000万徕卡5X f/3.0 115mm OIS",
-    "camera_front": null
+    "camera_front": "3200万",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 4,
@@ -678,7 +692,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 1/1.55\" f/1.7 5000万 OIS | 1200万徕卡 f/2.2 120° | 5000万徕卡5X f/3.0 115mm OIS",
-    "camera_front": null
+    "camera_front": "3200万",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 9,
@@ -752,7 +769,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "RYYB 200MP 1/1.4\" f/1.8 23mm OIS | 50MP f/2.4 85mm 3.7x OIS | 50MP f/2.2 13mm 微距",
-    "camera_front": "60MP f/2.4 + 8MP 人像"
+    "camera_front": "60MP f/2.4 + 8MP 人像",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 8,
@@ -825,7 +844,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "RYYB 50MP 1/1.56\" f/1.8 23mm OIS | 8MP f/2.2 16mm",
-    "camera_front": "60MP f/2.4"
+    "camera_front": "60MP f/2.4",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 7,
@@ -890,7 +911,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.9 | 5000万 RYYB f/2.6 OIS 3.3×",
-    "camera_front": "5000万 f/2.4"
+    "camera_front": "5000万 f/2.4",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 6,
@@ -952,7 +974,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万",
-    "camera_front": null
+    "camera_front": "5000万"
   },
   {
     "id": 12,
@@ -993,7 +1015,7 @@
     "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/param/s60",
     "verified_at": "2026-05-29",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1015,7 +1037,11 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP68/IP69",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.75",
+    "camera_main_sensor": "LYT-700V"
   },
   {
     "id": 11,
@@ -1079,7 +1105,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万像素索尼LYT700V(1/1.56\")主摄+800万像素超广角+5000万前置",
-    "camera_front": "5000万前置"
+    "camera_front": "5000万前置",
+    "camera_main_sensor": "索尼LYT700",
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 10,
@@ -1146,7 +1174,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.88 OIS | 500万",
-    "camera_front": null
+    "camera_front": "1600万",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 17,
@@ -1215,7 +1244,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 微云台 OIS | 50MP f/2.2 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "network_model": "PMK110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 16,
@@ -1283,7 +1317,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 OIS | 50MP f/2.4 3x OIS | 12MP f/2.2 微距",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 15,
@@ -1351,7 +1388,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 OIS | 50MP f/2.2 | 50MP 3x OIS",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "network_model": "PMM110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 14,
@@ -1417,7 +1459,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "200MP 三星HP3 1/1.4\" f/1.9 24mm OIS | 12MP f/2.2",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "三星HP3",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 13,
@@ -1539,7 +1584,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" CIPA 4.5专业级防抖 4倍无损变焦 | 50MP",
-    "camera_front": null
+    "camera_front": "32MP",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 22,
@@ -1608,7 +1655,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.4 3x",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 21,
@@ -1673,7 +1723,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.0 | 50MP f/2.4 3x",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 20,
@@ -1745,7 +1798,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP9 200MP 1/1.4\" f/1.65 23mm OIS | 50MP f/2.4 15mm 102° | 50MP f/2.4 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "三星HP9",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.65"
   },
   {
     "id": 29,
@@ -1793,7 +1849,7 @@
     "detailed_camera": "主摄: 索尼LYT-901 200MP 1/1.12\" f/1.5 23mm OIS | 超广: 索尼LYT-600 50MP 1/1.95\" f/2.0 AF | 潜望长焦: 豪威OV52A 200MP 1/1.28\" f/2.2 70mm 3x OIS | 超长焦: JNL 50MP f/3.5 230mm 10x OIS | 前置: 索尼LYT-600 50MP f/2.0 21mm",
     "release_date": "2026-04-20",
     "price": 8499,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1815,7 +1871,11 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_front": "索尼LYT-600 50MP f/2.0 21mm"
+    "camera_front": "索尼LYT-600 50MP f/2.0 21mm",
+    "network_model": "PMA110",
+    "camera_main_sensor": "索尼LYT-901",
+    "camera_main_size": "1/1.12\"",
+    "camera_main_aperture": "f/1.5"
   },
   {
     "id": 28,
@@ -1884,7 +1944,9 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "camera_rear": "XMAGE 50MP 1/1.28\" 可变光圈 f/1.4-4.0 24mm OIS | 50MP f/2.2 13mm | 2亿 1/1.4\" RYYB f/2.6 90mm 4x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 27,
@@ -1949,7 +2011,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 200MP 1/1.56\" f/2.6 65mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 127,
@@ -1996,7 +2061,7 @@
     "release_date": "2026-04-01",
     "price": 3299,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2016,7 +2081,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP69",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 123,
@@ -2063,7 +2131,7 @@
     "release_date": "2026-04-01",
     "price": 2699,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2083,7 +2151,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IPX9/IP69",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 26,
@@ -2149,7 +2220,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" 可变光圈 f/1.4-4.0 OIS | 50MP f/2.2 | 50MP 4x OIS",
-    "camera_front": "13MP"
+    "camera_front": "13MP",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 25,
@@ -2213,7 +2286,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.56\" f/1.8 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 85mm 3.7x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 31,
@@ -2286,7 +2361,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-901 200MP 1/1.12\" f/1.85 35mm OIS 蔡司 | 索尼LYT-818 50MP f/2.0 15mm 蔡司 | 三星HP0 200MP 1/1.4\" f/2.6 85mm 3.7x OIS 蔡司",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "索尼LYT-901",
+    "camera_main_size": "1/1.12\"",
+    "camera_main_aperture": "f/1.85"
   },
   {
     "id": 30,
@@ -2355,7 +2433,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 200MP 1/1.4\" f/1.68 23mm OIS 蔡司 | 50MP f/2.0 15mm 蔡司 | 50MP f/2.57 70mm 3x OIS 蔡司",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.68"
   },
   {
     "brand": "Huawei",
@@ -2428,7 +2508,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "Apple",
@@ -2488,7 +2570,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
-    "camera_front": "12MP f/1.9 23mm"
+    "camera_front": "12MP f/1.9 23mm",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "model": "Galaxy A57 5G",
@@ -2547,7 +2631,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 35,
@@ -2605,7 +2691,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 OIS",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "network_model": "PLT120",
+    "network_model_source": "oppo.com-official",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 34,
@@ -2663,7 +2752,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "network_model": "PKQ110",
+    "network_model_source": "pconline",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -2727,7 +2819,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP2 200MP 1/1.3\" f/1.4 24mm OIS | 50MP f/1.9 120° | 10MP f/2.4 3x OIS | 50MP f/2.9 5x OIS",
-    "camera_front": "12MP f/2.2"
+    "camera_front": "12MP f/2.2",
+    "network_model": "SM-S9480",
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "三星HP2",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "model": "Galaxy S26+",
@@ -2791,7 +2888,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 69mm 3x OIS",
-    "camera_front": "12MP f/2.2 26mm"
+    "camera_front": "12MP f/2.2 26mm",
+    "network_model": "SM-S9470",
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S26",
@@ -2855,7 +2957,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 69mm 3x OIS",
-    "camera_front": "12MP f/2.2 26mm"
+    "camera_front": "12MP f/2.2 26mm",
+    "network_model": "SM-S9420",
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 40,
@@ -2919,7 +3026,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万广角 f/1.8 OIS + 200万黑白 f/2.4",
-    "camera_front": "3200万 f/2.4"
+    "camera_front": "3200万 f/2.4",
+    "network_model": "PLL110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 42,
@@ -2983,7 +3093,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 50MP f/2.0 14mm | 50MP 1/2.5\" f/2.6 80mm 3.5x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "network_model": "BKQ-AN20",
+    "network_model_source": "mydrivers-digitalchats",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "HONOR",
@@ -3044,7 +3159,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 50MP f/2.0 14mm | 50MP f/2.4 80mm 3.5x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 43,
@@ -3105,7 +3223,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "1300万 f/2.2",
-    "camera_front": "500万 f/2.2"
+    "camera_front": "500万 f/2.2",
+    "camera_main_aperture": "f/2.2"
   },
   {
     "id": 44,
@@ -3174,7 +3293,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS | 50MP f/2.2 14mm | 50MP f/2.8 115mm 5x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 52,
@@ -3252,7 +3374,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 | 50MP 5x OIS",
-    "camera_front": "8MP f/2.2"
+    "camera_front": "8MP f/2.2",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 51,
@@ -3317,7 +3441,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP RYYB 1/1.56\" f/1.6 OIS | 12MP f/2.2 | 12MP 5x OIS",
-    "camera_front": "60MP"
+    "camera_front": "60MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 50,
@@ -3379,7 +3505,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.8 23mm OIS | 50MP f/2.2 | 50MP 3x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 49,
@@ -3438,7 +3566,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 48,
@@ -3495,7 +3625,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 47,
@@ -3553,7 +3685,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "network_model": "PLL110",
+    "network_model_source": "pconline+zol",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 46,
@@ -3610,7 +3745,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "豪威OV50D",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 45,
@@ -3646,7 +3783,7 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3665,7 +3802,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄 + 2MP景深",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "network_model": "PKL110",
+    "camera_main_sensor": "豪威OV50D",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "荣耀 500 Pro",
@@ -3706,7 +3846,7 @@
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
     "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS| 长焦: 50MP f/2.4 70mm 3x OIS | 超广: 12MP f/2.2 112° | 前置: 50MP f/2.0",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3727,7 +3867,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 50MP f/2.4 70mm 3x OIS | 12MP f/2.2 112°",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "network_model": "MEP-AN00",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "model": "荣耀 500",
@@ -3790,7 +3934,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.9 23mm OIS | 12MP f/2.2",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 65,
@@ -3866,7 +4012,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 13mm | 12MP RYYB f/3.4 5.5x OIS",
-    "camera_front": "8MP f/2.2"
+    "camera_front": "8MP f/2.2",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 64,
@@ -3938,7 +4086,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 63,
@@ -4010,7 +4160,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 61,
@@ -4078,7 +4230,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威SC585XS 50MP RYYB 1/1.28\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS | 50MP f/3.0 135mm 6x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 62,
@@ -4145,7 +4299,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威SC585XS 50MP RYYB 1/1.28\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS | 50MP f/3.0 135mm 6x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 60,
@@ -4212,7 +4368,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威SC555XS 50MP RYYB 1/1.56\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 12MP f/3.4 125mm 5.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 59,
@@ -4277,7 +4435,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS | 32MP f/2.0 | 50MP f/2.0 70mm 3.2x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 257,
@@ -4349,7 +4510,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP",
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 58,
@@ -4415,7 +4579,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.7 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 57,
@@ -4480,7 +4646,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 OIS | 8MP",
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 56,
@@ -4548,7 +4717,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP Sony LYT600(IMX882) 1/1.95\" f/1.8 26mm | 8MP OV08D 1/4\" f/2.2 15mm | 50MP Samsung JN5 1/2.75\" f/2.8 OIS 3.5x 80mm",
-    "camera_front": "50MP Samsung JN5 1/2.75\" f/2.0 21mm"
+    "camera_front": "50MP Samsung JN5 1/2.75\" f/2.0 21mm",
+    "camera_main_sensor": "IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 55,
@@ -4611,7 +4783,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP f/2.2",
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 67,
@@ -4659,7 +4834,7 @@
     "detailed_camera": "主摄: 索尼LYT-828 50MP 1/1.28\" f/1.5 OIS | 超广: 三星JN5 50MP 1/2.76\" f/2.0 AF | 潜望长焦: 三星HP5 2亿 1/1.56\" f/2.1 70mm OIS",
     "release_date": "2025-10-16",
     "price": 5299,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -4680,7 +4855,11 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_front": null
+    "camera_front": null,
+    "network_model": "PLG110",
+    "camera_main_sensor": "索尼LYT-828",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.5"
   },
   {
     "id": 66,
@@ -4746,7 +4925,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.8 23mm OIS | 50MP f/2.0 15mm",
-    "camera_front": "32MP f/2.4"
+    "camera_front": "32MP f/2.4",
+    "camera_main_sensor": "索尼LYT-600",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "HONOR",
@@ -4799,7 +4981,7 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "network_model": "BKQ-AN10",
-    "network_model_source": "kalvo",
+    "network_model_source": "suning-official+cnmo",
     "screen_detail": "6.71\" 2800×1280 OLED 120Hz",
     "ip_rating": "IP68/IP69",
     "dimensions": "162.00×76.91×8.80mm",
@@ -4812,7 +4994,10 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "OV50Q",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "HONOR",
@@ -4878,7 +5063,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.9 23mm OIS | 64MP 1/2.0\" f/2.5 70mm 3x OIS | 12MP f/2.2 13mm",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 71,
@@ -4947,7 +5135,10 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "索尼LYT-828",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 70,
@@ -5016,7 +5207,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 23mm OIS 蔡司 | 50MP f/2.0 15mm | 50MP 3x OIS",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 74,
@@ -5090,7 +5284,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.88 23mm OIS | 50MP f/2.05 15mm | 索尼IMX882 50MP 1/1.95\" f/2.65 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 72,
@@ -5163,7 +5360,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": false,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "brand": "OnePlus",
@@ -5230,7 +5430,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 8MP f/2.2 16mm",
-    "camera_front": "16MP f/2.4"
+    "camera_front": "16MP f/2.4",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 79,
@@ -5301,7 +5504,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 OIS | 50MP f/2.2 | 50MP 3x OIS",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 78,
@@ -5374,7 +5580,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 OIS | 50MP f/2.2 | 50MP 3x OIS",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 77,
@@ -5445,7 +5654,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人950 50MP 1/1.31\" f/1.67 23mm OIS | 50MP f/2.0 60mm 浮动 OIS 徕卡 | 50MP f/2.4 15mm 102° 徕卡",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人950",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.67"
   },
   {
     "brand": "Apple",
@@ -5511,7 +5723,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "camera_main_sensor": "索尼IMX903",
+    "camera_main_size": "1/1.14\"",
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -5578,7 +5793,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "camera_main_sensor": "索尼IMX903",
+    "camera_main_size": "1/1.14\"",
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -5642,7 +5860,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
-    "camera_front": "12MP f/2.0 23mm"
+    "camera_front": "12MP f/2.0 23mm",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "Apple",
@@ -5707,7 +5927,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 48MP f/2.2 13mm | 48MP f/2.8 120mm 5x OIS",
-    "camera_front": "12MP f/1.9 23mm"
+    "camera_front": "12MP f/1.9 23mm",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 82,
@@ -5764,7 +5986,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 OIS",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "network_model": "PLN110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 81,
@@ -5821,7 +6046,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "豪威OV50D",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 80,
@@ -5877,7 +6105,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 93,
@@ -5948,7 +6178,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS 徕卡 | 50MP f/2.2 14mm 徕卡 | 50MP f/2.8 115mm 5x OIS 徕卡",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 92,
@@ -6013,7 +6246,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.3\" f/1.4-4.0 24mm OIS | 12MP RYYB f/3.4 5x OIS | 8MP f/2.2 13mm",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "OnePlus",
@@ -6087,7 +6322,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼LYT-808",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "realme",
@@ -6154,7 +6392,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": false,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "camera_main_sensor": "IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 89,
@@ -6212,7 +6453,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8 | 108MP主摄 + 2MP",
-    "camera_front": "108MP"
+    "camera_front": "108MP",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 88,
@@ -6269,7 +6512,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "2亿 三星HP3 1/1.4\" f/1.6 OIS | 50MP f/2.0 | 50MP f/2.4 3x",
-    "camera_front": null
+    "camera_front": "32MP",
+    "camera_main_sensor": "三星HP3",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 87,
@@ -6307,7 +6553,7 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6326,7 +6572,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "network_model": "PKV110",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 94,
@@ -6393,7 +6642,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP3 200MP 1/1.4\" f/1.9 23mm OIS | 50MP f/2.2 15mm 微距",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "三星HP3",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "brand": "HONOR",
@@ -6457,7 +6709,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "OnePlus",
@@ -6520,7 +6774,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 50MP 1/1.56\" f/1.8 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "荣耀 WIN RT",
@@ -6584,7 +6840,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 12MP f/2.2",
-    "camera_front": "5000万像素"
+    "camera_front": "5000万像素",
+    "camera_main_sensor": "豪威OV50E",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 100,
@@ -6626,7 +6884,7 @@
     "release_date": "2025-08-01",
     "price": 3099,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6648,7 +6906,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 | 50MP f/2.2",
-    "camera_front": null
+    "camera_front": null,
+    "network_model": "V2520A",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "realme",
@@ -6714,7 +6976,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万像素理光GR防眩光主摄(f/1.8,OIS) + 800万像素超广角 + 5000万像素潜望长焦(JN5,3.5x光变)",
-    "camera_front": "1600万像素"
+    "camera_front": "1600万像素",
+    "camera_main_sensor": "JN5",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -6779,7 +7043,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 50MP 1/1.56\" f/1.8 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "REDMI",
@@ -6837,7 +7103,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50E 50MP f/1.6 | 5000万主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "豪威OV50E",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -6895,7 +7163,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50E 50MP f/1.6 | 5000万主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "豪威OV50E",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 95,
@@ -6952,7 +7222,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8",
-    "camera_front": "待确认"
+    "camera_front": "待确认",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -7024,7 +7296,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 70mm 3x OIS",
-    "camera_front": "10MP f/2.2"
+    "camera_front": "10MP f/2.2",
+    "network_model": "SM-F9680",
+    "network_model_source": "samsung.com.cn-official+onfix",
+    "camera_main_sensor": "三星HP2",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -7097,7 +7374,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm | 10MP f/2.4 3x OIS",
-    "camera_front": "10MP f/2.2"
+    "camera_front": "10MP f/2.2",
+    "network_model": "SM-F9660",
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "三星HP2",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "HONOR",
@@ -7177,7 +7459,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 64MP 1/2.0\" f/2.5 70mm 3x OIS | 50MP f/2.2 13mm 122°",
-    "camera_front": "20MP f/2.2"
+    "camera_front": "20MP f/2.2",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -7251,7 +7536,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120°",
-    "camera_front": "10MP f/2.2 23mm"
+    "camera_front": "10MP f/2.2 23mm",
+    "network_model": "SM-F7660",
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -7324,7 +7614,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm",
-    "camera_front": "10MP f/2.2 23mm"
+    "camera_front": "10MP f/2.2 23mm",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -7386,7 +7679,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "network_model": "NX809J",
+    "network_model_source": "etoren+xda+kalvo",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -7448,7 +7746,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.0 | 50MP 3x",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "network_model": "NX809J",
+    "network_model_source": "etoren+xda+cmiit+kalvo",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 109,
@@ -7511,7 +7814,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 23mm OIS | 50MP f/2.2 15mm | 50MP f/2.6 65mm OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "network_model": "PLV110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 107,
@@ -7573,7 +7881,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 OIS | 50MP f/2.2 | 50MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "network_model": "PLW110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -7631,7 +7944,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 25mm | 8MP f/2.2",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "豪威OV64B",
+    "camera_main_size": "1/2.0\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 106,
@@ -7694,7 +8010,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 50MP | 50MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "network_model": "PMD110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -7825,7 +8146,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "主摄 50MP IMX906 1/1.56\" f/1.8 OIS | 超广 8MP f/2.2 112° | 前置 16MP f/2.4",
-    "camera_front": "1600万像素"
+    "camera_front": "1600万像素",
+    "camera_main_sensor": "IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 132,
@@ -7872,7 +8196,7 @@
     "release_date": "2025-06-01",
     "price": 9999,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -7896,7 +8220,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.1 90mm 3.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "network_model": "LMR-AL10",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 131,
@@ -7973,7 +8300,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX866 50MP 1/1.56\" f/1.6 23mm OIS 蔡司 | 50MP 1/2.5\" f/2.6 70mm 3x OIS 蔡司 | 50MP f/2.1 15mm 119° 蔡司",
-    "camera_front": "20MP f/2.4"
+    "camera_front": "20MP f/2.4",
+    "camera_main_sensor": "索尼IMX866",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 130,
@@ -8041,7 +8371,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 129,
@@ -8109,7 +8441,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 128,
@@ -8172,7 +8506,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.56\" f/1.4-4.0 24mm OIS | 13MP f/2.2 13mm",
-    "camera_front": "13MP f/2.4 18mm"
+    "camera_front": "13MP f/2.4 18mm",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "HONOR",
@@ -8238,7 +8574,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.9 23mm OIS | 50MP f/2.4 70mm 3x OIS | 12MP f/2.2 112°",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "brand": "realme",
@@ -8295,7 +8634,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "HONOR",
@@ -8354,7 +8696,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 12MP f/2.2",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 122,
@@ -8412,7 +8757,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万主摄(f/1.8) + 200万黑白",
-    "camera_front": "1600万像素"
+    "camera_front": "1600万像素",
+    "network_model": "PLE110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 120,
@@ -8470,7 +8818,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 | 后置5000万主摄+200万黑白",
-    "camera_front": "1600万像素"
+    "camera_front": "1600万像素",
+    "network_model": "PLM110",
+    "network_model_source": "oppo.com-official",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 265,
@@ -8512,7 +8865,7 @@
     "release_date": "2026-07-24",
     "price": 2299,
     "date_precision": "month",
-    "completeness_score": 60,
+    "completeness_score": 100,
     "source": "Notion补充更新",
     "os_source": "series-default",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
@@ -8532,7 +8885,8 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP69"
   },
   {
     "id": 121,
@@ -8591,7 +8945,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -8713,7 +9070,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP f/1.8 | 50MP主摄 + 2MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 118,
@@ -8851,7 +9210,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 40MP f/2.2 13mm | 50MP f/2.4 3.5x OIS",
-    "camera_front": "13MP f/2.4"
+    "camera_front": "13MP f/2.4",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "HONOR",
@@ -8886,7 +9247,7 @@
     "detailed_camera": "主摄: 三星JN1 50MP f/1.8 | 5000万主摄",
     "screen_type": "LCD",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8908,7 +9269,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8 | 5000万主摄",
-    "camera_front": null
+    "camera_front": null,
+    "network_model": "SER-AN00",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 135,
@@ -8969,7 +9333,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.5\" f/1.8 OIS | 8MP | 50MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_size": "1/1.5\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 134,
@@ -9031,7 +9397,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 8MP f/2.2",
-    "camera_front": "16MP f/2.4"
+    "camera_front": "16MP f/2.4",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 133,
@@ -9088,7 +9457,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "豪威OV64B",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "Huawei",
@@ -9169,7 +9540,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 40MP f/2.2 | 50MP 3.5x OIS",
-    "camera_front": "8MP f/2.2"
+    "camera_front": "8MP f/2.2",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "model": "Galaxy A56 5G",
@@ -9205,7 +9578,7 @@
     "id": 142,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -9227,7 +9600,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 143,
@@ -9266,7 +9641,7 @@
     "screen_form": "直屏",
     "release_date": "2025-03-01",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -9286,7 +9661,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 141,
@@ -9395,7 +9773,7 @@
     },
     "fold_type": "横向折叠",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9417,7 +9795,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 200MP 1/1.4\" f/1.8 23mm OIS | 50MP f/2.0 14mm 114° | 50MP f/2.7 70mm 3x OIS",
-    "camera_front": "32MP f/2.4 21mm"
+    "camera_front": "32MP f/2.4 21mm",
+    "network_model": "CPH2765",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 145,
@@ -9494,7 +9875,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.8 24mm OIS 哈苏 | 48MP f/2.2 14mm 哈苏 | 64MP 1/2.0\" f/2.6 5x 135mm OIS 哈苏",
-    "camera_front": "8MP | 8MP"
+    "camera_front": "8MP | 8MP",
+    "camera_main_sensor": "索尼LYT-600",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -9561,7 +9945,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 50MP f/1.9 120° | 10MP f/2.4 3x OIS | 50MP f/3.4 5x OIS",
-    "camera_front": "12MP f/2.2"
+    "camera_front": "12MP f/2.2",
+    "camera_main_sensor": "三星HP2",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -9625,7 +10012,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm 120°",
-    "camera_front": "12MP f/2.2 26mm"
+    "camera_front": "12MP f/2.2 26mm",
+    "network_model": "SM-S9370",
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "三星HP2",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 159,
@@ -9673,7 +10065,7 @@
     "price": 7999,
     "source_url": "https://www.honor.com/cn/",
     "verified_at": "2026-05-24",
-    "network_model": "PTP-AN00",
+    "network_model": "PTP-AN20",
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -9697,7 +10089,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50K 50MP 1/1.3\" f/1.4-2.0 可变光圈 LOFIC OIS | 50MP f/2.0 122° | 2亿 1/1.4\" f/1.88 70mm 3x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "network_model_source": "ithome-2024-11-12+verified",
+    "camera_main_sensor": "豪威OV50K",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "model": "Galaxy S25+",
@@ -9762,7 +10158,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 69mm 3x OIS",
-    "camera_front": "12MP f/2.2"
+    "camera_front": "12MP f/2.2",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S25",
@@ -9827,7 +10226,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 3x OIS",
-    "camera_front": "12MP f/2.2"
+    "camera_front": "12MP f/2.2",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 154,
@@ -9892,7 +10294,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 OIS | 50MP | 50MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "brand": "HONOR",
@@ -9933,7 +10338,7 @@
     "detailed_camera": "主摄: 50MP 1/1.56\" f/1.6 23mm OIS | 超广: 12MP f/2.2 13mm | 长焦: 50MP f/2.4 70mm 3x OIS | 前置: 16MP f/2.0",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9956,7 +10361,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 50MP f/2.4 70mm 3x OIS",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "network_model": "PPG-AN00",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 153,
@@ -10022,7 +10430,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 23mm | 50MP f/2.2 | 50MP f/2.6 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 150,
@@ -10086,7 +10497,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 50MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "豪威OV50E",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 151,
@@ -10145,7 +10558,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50E 50MP 1/1.56\" f/1.8 OIS | 50MP f/2.2",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "豪威OV50E",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 152,
@@ -10210,7 +10626,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\""
   },
   {
     "brand": "HONOR",
@@ -10246,7 +10664,7 @@
     "detailed_camera": "主摄: 索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 超广: 12MP f/2.2 | 前置: 50MP",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10268,7 +10686,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 12MP f/2.2",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "network_model": "AMG-AN00",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 148,
@@ -10331,7 +10753,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 OIS | 50MP f/2.0 | 50MP 3x",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 147,
@@ -10395,7 +10820,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP 1/2.76\" f/1.8 | 2MP",
-    "camera_front": "8MP"
+    "camera_front": "8MP",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_size": "1/2.76\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 161,
@@ -10471,7 +10899,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 | 48MP 5x OIS",
-    "camera_front": "8MP f/2.2"
+    "camera_front": "8MP f/2.2",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 172,
@@ -10533,7 +10963,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/2.0 23mm OIS | 50MP f/3.0 87mm 3.8x OIS | 12MP f/2.2 112°",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/2.0"
   },
   {
     "id": 173,
@@ -10593,7 +11026,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 50MP f/2.4 80mm 3.5x OIS | 8MP f/2.2",
-    "camera_front": "32MP f/2.2"
+    "camera_front": "32MP f/2.2",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 171,
@@ -10656,7 +11091,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 50MP f/2.4 70mm 3x OIS",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 170,
@@ -10716,7 +11153,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.4 3x | 8MP f/2.2",
-    "camera_front": "32MP f/2.2"
+    "camera_front": "32MP f/2.2",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 169,
@@ -10778,7 +11217,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "主摄 50MP IMX906 f/1.8 OIS | 超广 8MP f/2.2 112° | 前置 16MP",
-    "camera_front": null
+    "camera_front": "16MP",
+    "camera_main_sensor": "IMX906",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 168,
@@ -10836,7 +11277,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "主摄 50MP IMX920 f/1.6 OIS | 超广 8MP | 人像长焦 50MP 2x | 前置 50MP",
-    "camera_front": null
+    "camera_front": "50MP",
+    "camera_main_sensor": "IMX920",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 166,
@@ -10898,7 +11341,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万索尼IMX906 f/1.8 OIS | 800万 f/2.2 | 200万",
-    "camera_front": null
+    "camera_front": "1600万",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 167,
@@ -10954,7 +11399,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8 | 1200万 f/2.4",
-    "camera_front": null
+    "camera_front": "800万",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "realme",
@@ -11013,7 +11459,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 8MP f/2.2",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 162,
@@ -11070,7 +11519,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.95 24mm | 12MP f/2.2",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.95"
   },
   {
     "id": 163,
@@ -11127,7 +11579,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 OIS | 8MP f/2.2",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -11193,7 +11648,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP Sony IMX906 1/1.56\" f/1.8 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 183,
@@ -11260,7 +11718,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
-    "camera_front": "13MP f/2.4 18mm"
+    "camera_front": "13MP f/2.4 18mm",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 182,
@@ -11327,7 +11787,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
-    "camera_front": "13MP f/2.4 18mm"
+    "camera_front": "13MP f/2.4 18mm",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 180,
@@ -11394,7 +11856,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
-    "camera_front": "13MP f/2.4 18mm"
+    "camera_front": "13MP f/2.4 18mm",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "Huawei",
@@ -11460,7 +11924,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
-    "camera_front": "13MP f/2.4 18mm"
+    "camera_front": "13MP f/2.4 18mm",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 178,
@@ -11526,7 +11992,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 13MP f/2.2 13mm",
-    "camera_front": "13MP f/2.4 18mm"
+    "camera_front": "13MP f/2.4 18mm",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 177,
@@ -11591,7 +12059,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 8MP f/2.2 | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "索尼LYT-808",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -11652,7 +12123,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 32MP f/2.2 | 50MP f/2.0 60mm OIS",
-    "camera_front": "20MP f/2.2"
+    "camera_front": "20MP f/2.2",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -11709,7 +12183,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP f/2.2",
-    "camera_front": "20MP"
+    "camera_front": "20MP",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -11767,7 +12244,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP f/2.2",
-    "camera_front": "20MP f/2.2"
+    "camera_front": "20MP f/2.2",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 200,
@@ -11834,7 +12314,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-900 50MP 1\" f/1.8 23mm OIS | 50MP f/2.0 14mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼LYT-900",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 201,
@@ -11901,7 +12383,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-818 50MP 1/1.28\" f/1.57 23mm OIS 蔡司 | 50MP f/2.0 15mm 蔡司 | 2亿 1/1.4\" f/2.67 85mm 3.7x OIS 蔡司",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "camera_main_sensor": "索尼LYT-818",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 202,
@@ -11972,7 +12457,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-900 50MP 1\" f/1.6 23mm OIS | 50MP f/1.8 70mm 3x OIS | 200MP f/2.6 100mm 4.3x OIS | 50MP f/2.2 14mm 115°",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼LYT-900",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 198,
@@ -12039,7 +12526,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-818 50MP 1/1.28\" f/1.57 23mm OIS 蔡司 | 三星JN1 50MP f/2.0 15mm 蔡司 | 三星HP9 200MP 1/1.4\" f/2.67 85mm 3.7x OIS 蔡司",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼LYT-818",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 199,
@@ -12109,7 +12599,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.31\" f/1.63 OIS | 50MP | 50MP 5x OIS",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.63"
   },
   {
     "id": 197,
@@ -12150,7 +12643,7 @@
     "release_date": "2024-10-01",
     "price": 4799,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -12171,7 +12664,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "network_model": "PLB110",
+    "camera_main_sensor": "索尼LYT-600",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 196,
@@ -12240,7 +12737,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼LYT-808",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 194,
@@ -12303,7 +12803,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万超动态鹰眼主摄 OV50H 1/1.31\" f/1.9 OIS + 5000万超广角122° + 5000万直立长焦3x/50x",
-    "camera_front": "5000万"
+    "camera_front": "5000万",
+    "camera_main_sensor": "OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 195,
@@ -12365,7 +12868,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP RYYB 1/1.56\" f/1.6 OIS | 12MP f/2.2 | 12MP 5x OIS",
-    "camera_front": "60MP超广角+8MP人像"
+    "camera_front": "60MP超广角+8MP人像",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 192,
@@ -12433,7 +12938,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 1/1.56\" f/1.57 5000万 OIS | 5000万 | 5000万 3x光学 OIS",
-    "camera_front": null
+    "camera_front": "3200万",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 193,
@@ -12498,7 +13006,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 23mm OIS 蔡司 | 50MP f/2.6 70mm 3x OIS 蔡司 | 50MP f/2.0 15mm 119° 蔡司",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 191,
@@ -12564,7 +13075,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.4"
+    "camera_front": "32MP f/2.4",
+    "camera_main_sensor": "索尼LYT-808",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 190,
@@ -12629,7 +13143,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.57 23mm OIS 蔡司 | 50MP f/2.0 | 50MP 3x OIS 蔡司",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "索尼LYT-600",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 189,
@@ -12671,7 +13188,7 @@
     "release_date": "2024-10-01",
     "price": 3799,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -12692,7 +13209,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "network_model": "PKT110",
+    "camera_main_sensor": "索尼LYT-600",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 187,
@@ -12758,7 +13279,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万超动态鹰眼主摄 OV50H 1/1.31\" f/1.9 OIS + 5000万超广角122° + 2亿潜望长焦三星HP3 3x/100x 1/1.4\" f/2.4",
-    "camera_front": "5000万"
+    "camera_front": "5000万",
+    "camera_main_sensor": "三星HP3",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 188,
@@ -12817,7 +13341,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "RYYB 50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 8MP f/2.4 3x OIS",
-    "camera_front": "60MP f/2.4 + 8MP 人像"
+    "camera_front": "60MP f/2.4 + 8MP 人像",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 186,
@@ -12888,7 +13414,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人900 50MP 1/1.31\" f/1.63 23mm OIS | 50MP f/2.0 60mm 浮动 OIS | 50MP f/2.2 14mm",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人900",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.63"
   },
   {
     "id": 185,
@@ -12944,7 +13473,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP RYYB f/1.6 OIS | 12MP f/2.2",
-    "camera_front": "60MP超广角"
+    "camera_front": "60MP超广角",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 184,
@@ -13002,7 +13532,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8",
-    "camera_front": "800万"
+    "camera_front": "800万",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "Apple",
@@ -13069,7 +13600,9 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_front": "12MP f/1.9"
+    "camera_front": "12MP f/1.9",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -13137,7 +13670,9 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_front": "12MP f/1.9"
+    "camera_front": "12MP f/1.9",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -13203,7 +13738,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 12MP f/2.2 13mm 120°",
-    "camera_front": "12MP f/1.9 23mm"
+    "camera_front": "12MP f/1.9 23mm",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "Apple",
@@ -13267,7 +13804,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 12MP f/2.2 13mm 120°",
-    "camera_front": "12MP f/1.9 23mm"
+    "camera_front": "12MP f/1.9 23mm",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 211,
@@ -13327,7 +13866,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.9 OIS | 8MP f/2.2 | 50MP 2x",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 212,
@@ -13394,7 +13935,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP OV50E 1/1.55\" f/1.88 23mm OIS | 8MP OV08D10 1/4\" | 50MP",
-    "camera_front": "16MP GC16B3"
+    "camera_front": "16MP GC16B3",
+    "camera_main_sensor": "OV50E",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 209,
@@ -13453,7 +13997,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.9 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "brand": "REDMI",
@@ -13514,7 +14060,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP Sony LYT600(IMX882) 1/1.95\" f/1.5 26mm OIS",
-    "camera_front": "12MP"
+    "camera_front": "12MP",
+    "camera_main_sensor": "IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.5"
   },
   {
     "id": 208,
@@ -13552,7 +14101,7 @@
     "release_date": "2024-08-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -13574,7 +14123,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 OIS | 8MP",
-    "camera_front": null
+    "camera_front": "20MP",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 207,
@@ -13631,7 +14181,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8",
-    "camera_front": "800万"
+    "camera_front": "800万",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -13704,7 +14255,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 12mm | 10MP f/2.4 3x OIS",
-    "camera_front": "10MP f/2.2"
+    "camera_front": "10MP f/2.2",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 224,
@@ -13782,7 +14336,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 40MP f/2.2 13mm | 50MP 1/2.5\" f/3.0 3x OIS",
-    "camera_front": "20MP f/2.2 | 20MP f/2.2"
+    "camera_front": "20MP f/2.2 | 20MP f/2.2",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 225,
@@ -13860,7 +14417,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 12MP f/2.2 15mm 徕卡 | 10MP f/2.9 115mm 5x OIS 徕卡",
-    "camera_front": "16MP f/2.5"
+    "camera_front": "16MP f/2.5",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -13934,7 +14494,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 12mm",
-    "camera_front": "10MP f/2.2 23mm"
+    "camera_front": "10MP f/2.2 23mm",
+    "camera_main_sensor": "三星GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 222,
@@ -14009,7 +14572,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 50MP f/2.0 47mm 2x 浮动 OIS 徕卡",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "NUBIA",
@@ -14071,7 +14637,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 220,
@@ -14147,7 +14716,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 50MP f/2.2 15mm 徕卡",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "NUBIA",
@@ -14212,7 +14784,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -14274,7 +14849,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -14339,7 +14917,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 15mm | 2MP",
-    "camera_front": "16MP f/2.0"
+    "camera_front": "16MP f/2.0",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 216,
@@ -14400,7 +14981,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP f/1.8 | 5000万像素",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 215,
@@ -14461,7 +15044,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "索尼LYT-808",
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "NUBIA",
@@ -14523,7 +15109,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP f/1.8 | 5000万主摄",
-    "camera_front": null
+    "camera_front": "16MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 213,
@@ -14582,7 +15170,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万(RYYB)",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "豪威OV64B",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 227,
@@ -14641,7 +15231,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 | 5000万索尼IMX882 1/1.95\"主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 231,
@@ -14693,7 +15286,7 @@
     },
     "fold_type": "横向折叠",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -14715,7 +15308,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 40MP f/2.2 13mm | 50MP f/3.0 3x OIS",
-    "camera_front": "20MP f/2.2"
+    "camera_front": "20MP f/2.2",
+    "network_model": "FLC-AN00",
+    "camera_main_sensor": "豪威OV50H",
+    "camera_main_size": "1/1.31\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 230,
@@ -14773,7 +15370,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "主摄 50MP 光影猎人800 f/1.6 OIS 徕卡 | 超广 12MP f/2.2 徕卡 | 长焦 50MP f/2.0 2x 徕卡 | 前置 32MP + 32MP超广双摄",
-    "camera_front": "32MP + 32MP超广双摄"
+    "camera_front": "32MP + 32MP超广双摄",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 229,
@@ -14831,7 +15430,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 8MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "豪威OV50E",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy C55 5G",
@@ -14864,7 +15465,7 @@
     "id": 228,
     "resolution": "2408×1080",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -14886,7 +15487,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星JN1 50MP f/1.8 | 后置 5000万(f/1.8 OIS)+800万(f/2.2超广角)+200万(f/2.4微距)",
-    "camera_front": "5000万像素"
+    "camera_front": "5000万像素",
+    "camera_main_sensor": "三星JN1",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 232,
@@ -14945,7 +15548,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万索尼IMX882 1/1.95\"主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "豪威OV64B",
+    "camera_main_aperture": "f/1.8",
+    "camera_main_size": "1/1.95\""
   },
   {
     "id": 235,
@@ -15004,7 +15610,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy A55 5G",
@@ -15062,7 +15671,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 233,
@@ -15129,7 +15740,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 50MP f/2.6 70mm 3x OIS | 8MP f/2.2 16mm",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -15196,7 +15810,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 3x OIS | 50MP f/3.4 5x OIS",
-    "camera_front": "12MP f/2.2"
+    "camera_front": "12MP f/2.2",
+    "camera_main_sensor": "三星HP2",
+    "camera_main_size": "1/1.3\"",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "Huawei",
@@ -15269,7 +15886,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 240,
@@ -15330,7 +15949,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\""
   },
   {
     "brand": "realme",
@@ -15389,7 +16010,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX906 50MP f/1.8 OIS | 8MP | 50MP 3.5x",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "network_model": "RMX8899",
+    "network_model_source": "ithome-2025-12-27",
+    "camera_main_sensor": "索尼IMX906",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 238,
@@ -15450,7 +16075,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "豪威OV64B",
+    "camera_main_size": "1/2.0\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 236,
@@ -15506,7 +16134,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX890 50MP 1/1.56\" f/1.8 OIS | 50MP 3x OIS | 8MP",
-    "camera_front": "32MP"
+    "camera_front": "32MP",
+    "camera_main_sensor": "索尼IMX890",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 237,
@@ -15563,7 +16194,12 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 | 5000万广角",
-    "camera_front": null
+    "camera_front": null,
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8",
+    "network_model": "PMT110",
+    "network_model_source": "oppo.com-official"
   },
   {
     "id": 244,
@@ -15630,7 +16266,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP Sony IMX921 1/1.56\" f/1.88 OIS | 8MP | 50MP Sony IMX816 1/2.93\" 2x OIS",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 243,
@@ -15689,7 +16328,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 | 8MP",
-    "camera_front": "50MP"
+    "camera_front": "50MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 245,
@@ -15750,7 +16392,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "光影猎人800",
+    "camera_main_size": "1/1.55\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 246,
@@ -15815,7 +16460,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.68 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
-    "camera_front": "32MP f/2.0"
+    "camera_front": "32MP f/2.0",
+    "camera_main_sensor": "索尼IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.68"
   },
   {
     "brand": "NUBIA",
@@ -15854,7 +16502,7 @@
     "resolution": "2480×1116",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -15883,7 +16531,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 | 2MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -15921,7 +16572,7 @@
     "resolution": "2480×1116",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -15947,7 +16598,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 | 2MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "三星GN5",
+    "camera_main_size": "1/1.57\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 253,
@@ -16004,7 +16658,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8",
-    "camera_front": "8MP f/2.0"
+    "camera_front": "8MP f/2.0",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 254,
@@ -16057,7 +16712,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8",
-    "camera_front": "8MP f/2.0"
+    "camera_front": "8MP f/2.0",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 255,
@@ -16112,7 +16768,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.9 RYYB 1/1.56\" | 2MP",
-    "camera_front": "8MP f/2.0"
+    "camera_front": "8MP f/2.0",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 256,
@@ -16230,7 +16888,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP f/1.8 | 8MP",
-    "camera_front": "16MP"
+    "camera_front": "16MP",
+    "camera_main_sensor": "豪威OV64B",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 262,
@@ -16250,7 +16910,7 @@
     "weight": 201,
     "dimensions": "123.9×161.4×4.5mm (展开) / 123.9×81.9×9.7mm (折叠)",
     "ip_rating": "IP58",
-    "network_model": "",
+    "network_model": "SM-F9710",
     "camera_rear": "50MP主摄 GN3 1/1.56\" F1.8 OIS + 50MP超广角 IMX855 F1.9",
     "camera_front": "10MP内屏前置 IMX825 F2.2 + 10MP外屏自拍 IMX825 F2.2",
     "camera_capability": "8K@30fps视频, 240fps@FHD慢动作",
@@ -16311,7 +16971,12 @@
     "has_nfc": true,
     "has_ir": false,
     "esim": false,
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "completeness_score": 88,
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 263,
@@ -16331,7 +16996,7 @@
     "weight": 180,
     "dimensions": "166.9×75.4×6.1mm (展开) / 85.7×75.4×13.1mm (折叠)",
     "ip_rating": "IP58",
-    "network_model": "",
+    "network_model": "SM-F7760",
     "camera_rear": "50MP主摄 GN3 1/1.56\" F1.8 OIS + 12MP超广角 F2.2",
     "camera_front": "10MP前置 F2.2",
     "camera_capability": "4K@60fps视频, 240fps@FHD慢动作",
@@ -16391,7 +17056,12 @@
     "has_nfc": true,
     "has_ir": false,
     "esim": false,
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "completeness_score": 88,
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "GN3",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 264,
@@ -16411,7 +17081,7 @@
     "weight": 215,
     "dimensions": "158.4×143.2×4.1mm (展开) / 158.4×72.8×8.9mm (折叠)",
     "ip_rating": "IP58",
-    "network_model": "",
+    "network_model": "SM-F9760",
     "camera_rear": "200MP主摄 HP2 F1.7 OIS + 50MP超广角 F1.9 + 10MP长焦 F2.4 (3倍光学+30倍数码)",
     "camera_front": "10MP内屏前置 F2.2 + 10MP外屏自拍 F2.2",
     "camera_capability": "8K@30fps视频, 240fps@FHD慢动作",
@@ -16474,7 +17144,11 @@
     "has_nfc": true,
     "has_ir": false,
     "esim": false,
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "completeness_score": 88,
+    "network_model_source": "samsung.com.cn-official",
+    "camera_main_sensor": "HP2",
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 266,
@@ -16497,7 +17171,7 @@
     "dimensions": null,
     "ip_rating": null,
     "camera_rear": "50MP主摄 + 50MP超广角 + 50MP长焦",
-    "camera_front": null,
+    "camera_front": "50MP",
     "usb": "USB 3.0 Type-C",
     "nfc": true,
     "ir": false,
@@ -16541,7 +17215,10 @@
     "fingerprint": "屏下光学指纹",
     "esim": false,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "completeness_score": 81,
+    "camera_main_size": "1/1.4\"",
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "vivo",
@@ -16604,7 +17281,12 @@
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP68/IP69",
+    "completeness_score": 100,
+    "camera_main_sensor": "IMX921",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 267,
@@ -16650,7 +17332,7 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-08-04",
-    "completeness_score": 95,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -16675,7 +17357,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 26mm OIS两轴防抖 | 2MP f/2.4 22mm",
-    "camera_front": "50MP f/2.0 18mm AF超广角"
+    "camera_front": "50MP f/2.0 18mm AF超广角",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 268,
@@ -16730,7 +17413,7 @@
     "release_date": "2026-08-11",
     "price": 4199,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -16756,7 +17439,11 @@
     "has_ir": true,
     "fingerprint": "屏下光学指纹",
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP66/IP68/IP69",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.68"
   },
   {
     "id": 269,
@@ -16805,7 +17492,7 @@
     "release_date": "2026-08-11",
     "price": 3699,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -16831,7 +17518,11 @@
     "has_ir": true,
     "fingerprint": "屏下光学指纹",
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP66/IP68/IP69",
+    "camera_main_sensor": "三星HP5",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.68"
   },
   {
     "id": 270,
@@ -16915,12 +17606,16 @@
     ],
     "charge_protocols_confidence": "medium",
     "charge_protocols_source": "ecosystem-honor",
-    "completeness_score": 95,
+    "completeness_score": 94,
     "source_url": null,
     "has_nfc": true,
     "has_ir": true,
     "fingerprint": "屏下光学指纹",
     "sim_type": "双 nano-SIM",
-    "reverse_charging_w": 0
+    "reverse_charging_w": 0,
+    "ip_rating": "IP54",
+    "camera_main_sensor": "豪威OV52A",
+    "camera_main_size": "1/1.28\"",
+    "camera_main_aperture": "f/1.6"
   }
 ]
