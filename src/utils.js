@@ -1,5 +1,12 @@
 // ===== 配置数据 =====
-export const cpuTags = ["骁龙8 Elite 5","天玑9500","麒麟9030","A19"]
+// cpuTags 由 useApp.js 的 setPhones() 从数据动态生成（见 normalizeProcessor）
+
+/** 处理器名称归一化：去掉 "(for Galaxy)" 等括号变体，用于筛选标签聚合与匹配 */
+export function normalizeProcessor(proc) {
+  return String(proc || '')
+    .replace(/\s*\(.*?\)\s*/g, '')
+    .trim()
+}
 
 export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","有线投屏","散热风扇"]
 
@@ -13,7 +20,8 @@ export const screenSizeRanges = [
   { name: "7.0英寸以上", min: 7.05, max: 99 }
 ]
 
-export const screenTypes = ['📱 直屏','🔄 折叠屏']
+// 屏幕形态（覆盖数据中全部 screen_form 值：直屏/折叠屏/微曲屏/曲面屏）
+export const screenTypes = ['📱 直屏','🔄 折叠屏','〰️ 微曲屏','🌊 曲面屏']
 
 export const textLogoBrands = new Set(['Samsung','OPPO','REDMI','iQOO','HONOR','vivo','realme'])
 

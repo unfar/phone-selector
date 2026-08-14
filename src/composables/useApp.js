@@ -1,5 +1,5 @@
 import { ref, computed } from 'vue'
-import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, cpuTags, screenTypes, screenSizeRanges } from '../utils.js'
+import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges } from '../utils.js'
 
 export const phones = ref([])
 export const loading = ref(true)
@@ -23,11 +23,24 @@ export const priceMax = ref(20000)
 export const sliderMaxPrice = ref(20000)
 export const brandList = ref([])
 export const compareList = ref([])
+/** 处理器筛选标签：由 setPhones() 从数据动态生成（按出现次数取前 15 个） */
+export const cpuTags = ref([])
 
 export function setPhones(data) {
   phones.value = data
   loading.value = false
   brandList.value = [...new Set(data.map(p => p.brand))].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+  // 动态生成处理器标签：归一化去变体（如 "(for Galaxy)"）后按出现次数降序取前 15
+  const counts = new Map()
+  for (const p of data) {
+    const n = normalizeProcessor(p.processor)
+    if (!n) continue
+    counts.set(n, (counts.get(n) || 0) + 1)
+  }
+  cpuTags.value = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(([name]) => name)
   const prices = data.map(p => p.price).filter(Boolean)
   if (prices.length) {
     const max = Math.ceil(Math.max(...prices) / 1000) * 1000
@@ -401,4 +414,4 @@ export function cardBrief(p) {
   }
 }
 
-export { featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay }
+export { featureTags, protocolTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay }
