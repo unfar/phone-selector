@@ -26,6 +26,34 @@ export const compareList = ref([])
 /** 处理器筛选标签：由 setPhones() 从数据动态生成（按出现次数取前 15 个） */
 export const cpuTags = ref([])
 
+// ===== 收藏（localStorage 持久化）=====
+const FAV_KEY = 'ps_favorites'
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAV_KEY)
+    const arr = raw ? JSON.parse(raw) : []
+    return arr.filter(n => Number.isFinite(n)).map(Number)
+  } catch { return [] }
+}
+export const favorites = ref(loadFavorites())
+export const showFavoritesOnly = ref(false)
+function saveFavorites() {
+  localStorage.setItem(FAV_KEY, JSON.stringify(favorites.value))
+}
+export function toggleFavorite(id) {
+  const i = favorites.value.indexOf(id)
+  if (i >= 0) favorites.value.splice(i, 1)
+  else favorites.value.push(id)
+  saveFavorites()
+}
+export function isFavorite(id) {
+  return favorites.value.includes(id)
+}
+export function clearFavorites() {
+  favorites.value = []
+  saveFavorites()
+}
+
 export function setPhones(data) {
   phones.value = data
   loading.value = false
@@ -226,6 +254,7 @@ function matchesSearch(p, rawQuery) {
 }
 
 export function matchesFilters(p) {
+  if (showFavoritesOnly.value && !isFavorite(p.id)) return false
   if (searchQuery.value) {
     if (!matchesSearch(p, searchQuery.value)) return false
   }

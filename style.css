@@ -668,6 +668,14 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
   box-shadow:var(--shadow)
 }
 
+/* 收藏按钮 */
+.fav-btn{color:#b45309}
+.fav-btn.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+[data-theme="dark"] .fav-btn.on{background:#451a03;border-color:#92400e;color:#fbbf24}
+.fav-toggle{color:#b45309}
+.fav-toggle.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+[data-theme="dark"] .fav-toggle.on{background:#451a03;border-color:#92400e;color:#fbbf24}
+
 @media(max-width:960px){
   .shell{grid-template-columns:1fr}
   .detail{grid-template-columns:1fr}

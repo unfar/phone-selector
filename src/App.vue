@@ -94,6 +94,9 @@
             <template v-else>共 <b>{{ resultCount }}</b> 款机型</template>
           </div>
           <div class="toolbar-right">
+            <button class="sort-btn fav-toggle" :class="{ on: showFavoritesOnly }" @click="showFavoritesOnly = !showFavoritesOnly" :title="showFavoritesOnly ? '显示全部' : '只看收藏'">
+              ★ 收藏{{ favorites.length ? `(${favorites.length})` : '' }}
+            </button>
             <div class="seg">
               <button :class="{ on: viewMode === 'cards' }" @click="setViewMode('cards')">卡片</button>
               <button :class="{ on: viewMode === 'table' }" @click="setViewMode('table')">表格</button>
@@ -155,6 +158,9 @@
                 <span class="score-label">数据完整度 {{ brief(p).score }}%</span>
               </div>
               <div class="card-actions">
+                <button class="btn fav-btn" :class="{ on: isFavorite(p.id) }" @click="toggleFavorite(p.id)" :title="isFavorite(p.id) ? '取消收藏' : '收藏'">
+                  {{ isFavorite(p.id) ? '★ 已收藏' : '☆ 收藏' }}
+                </button>
                 <button class="btn" @click="openDetail(p.id)">详情</button>
                 <button class="btn primary" @click="toggleCompare(p.id)">{{ isCompared(p.id) ? '已加入' : '+ 对比' }}</button>
               </div>
@@ -201,10 +207,14 @@
         <div class="price-lg">{{ priceText(detailPhone) }}</div>
         <div class="meta" style="margin-top:8px">{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</div>
         <div class="detail-actions">
+          <button class="btn fav-btn" :class="{ on: isFavorite(detailPhone.id) }" @click="toggleFavorite(detailPhone.id)">
+            {{ isFavorite(detailPhone.id) ? '★ 已收藏' : '☆ 收藏' }}
+          </button>
           <button class="btn primary" @click="toggleCompare(detailPhone.id)">
             {{ isCompared(detailPhone.id) ? '已加入对比' : '+ 加入对比' }}
           </button>
           <button class="btn" @click="openCompare" v-if="compareList.length >= 2">去对比页</button>
+          <button class="btn" @click="copyShareLink">🔗 分享</button>
         </div>
         <div class="detail-nav" v-if="prevNextPhones.prev || prevNextPhones.next">
           <button class="btn ghost" :disabled="!prevNextPhones.prev" @click="prevDetail" title="上一款">
@@ -343,6 +353,7 @@
             <button class="btn" :class="{ active: compareDiffOnly }" @click="compareDiffOnly = !compareDiffOnly" v-if="comparePhones.length >= 2">
               {{ compareDiffOnly ? '显示全部' : '仅看差异' }}
             </button>
+            <button class="btn" @click="copyShareLink" v-if="comparePhones.length >= 2">🔗 分享对比</button>
             <button class="btn" @click="clearCompare">清空</button>
             <button class="btn ghost" @click="openList">返回</button>
           </div>
@@ -436,7 +447,8 @@ import {
   detailPhone, comparePhones, openList, openDetail, openCompare, setViewMode, toggleCompare,
   clearCompare, isCompared, clearAllFilters, updateHash, restoreStateFromHash, brandColor, cardBrief,
   featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs, getCameraModules,
-  prevNextPhones, prevDetail, nextDetail, rivalPhones
+  prevNextPhones, prevDetail, nextDetail, rivalPhones,
+  favorites, showFavoritesOnly, toggleFavorite, isFavorite
 } from './composables/useApp.js'
 
 const navPos = computed(() => {
@@ -450,11 +462,37 @@ const today = new Date().toISOString().split('T')[0]
 const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
 const hasFilters = computed(() => !!(
   searchQuery.value || selectedBrands.value.size || selectedScreen.value || selectedCpu.value.size ||
-  selectedTags.value.size || selectedScreenSizes.value.size || selectedProtocols.value.size || priceActive.value
+  selectedTags.value.size || selectedScreenSizes.value.size || selectedProtocols.value.size || priceActive.value || showFavoritesOnly.value
 ))
 
 function brief(p) { return cardBrief(p) }
 function isFuture(p) { return p.release_date && p.release_date.length >= 10 && p.release_date > today }
+function copyShareLink() {
+  updateHash()
+  const url = location.origin + location.pathname + location.hash
+  const done = () => {
+    const el = document.createElement('div')
+    el.className = 'toast'
+    el.textContent = '链接已复制 ✅'
+    document.body.appendChild(el)
+    setTimeout(() => el.remove(), 2000)
+  }
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(url).then(done).catch(() => fallbackCopy(url, done))
+  } else {
+    fallbackCopy(url, done)
+  }
+}
+function fallbackCopy(text, done) {
+  const ta = document.createElement('textarea')
+  ta.value = text
+  ta.style.position = 'fixed'
+  ta.style.opacity = '0'
+  document.body.appendChild(ta)
+  ta.select()
+  try { document.execCommand('copy'); done() } catch {}
+  document.body.removeChild(ta)
+}
 function priceText(p) {
   if (isFuture(p)) {
     const [, m, d] = p.release_date.split('-')

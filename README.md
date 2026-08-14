@@ -11,27 +11,53 @@
 
 ## 功能特点
 
-- **241 款机型**：覆盖苹果、华为、小米、OPPO、vivo、三星等 14 个品牌
+- **260 款机型**：覆盖苹果、华为、小米、OPPO、vivo、三星、荣耀、一加、真我、iQOO、红魔、REDMI、摩托罗拉、联想等品牌
 - **100% 价格覆盖**：所有机型均收录官方起售价
-- **多维度筛选**：品牌、屏幕形态、处理器、特性标签（可多选叠加）
+- **多维度筛选**：品牌、价格区间、屏幕形态、处理器（按数据动态生成）、特性标签、充电协议、屏幕尺寸（均可多选叠加）
 - **丰富标签**：潜望长焦、大电池 6500mAh+、轻薄 ≤200g、防水、NFC、红外、USB3.0、无线充电、散热风扇等
 - **9 种排序**：最新发布、价格、电池容量、重量、屏幕大小、快充功率、品牌 A-Z
 - **详细参数**：处理器、屏幕、电池、充电、USB 版本、重量、系统、摄像头等
+- **智能搜索**：支持「小米17」「一加15」等中文品牌+数字连写、中英文品牌别名、多关键词
+- **规格对比**：最多 4 款机型对比，差异项高亮，摄像头逐镜头分行
+- **同价位竞品**：详情页自动推荐 ±15% 价位的跨品牌竞品
+- **URL 状态同步**：筛选/排序/对比状态写入 URL hash，可分享链接、刷新不丢
 
 ## 项目结构
 
 ```
 phone-selector/
-├── index.html          # 主入口（GitHub Pages 读取此文件）
+├── index.html              # 主入口（GitHub Pages 读取此文件）
 ├── data/
-│   └── phones.json     # 手机数据（JSON 格式，便于维护）
-├── style.css           # 样式表
-├── script.js           # 前端逻辑
-├── README.md
-└── data_validator.py   # 数据校验工具
+│   └── phones.json         # 手机数据（JSON 格式，便于维护）
+├── src/
+│   ├── main.js             # Vue 入口
+│   ├── App.vue             # 主视图（列表/详情/对比）
+│   ├── utils.js            # 配置数据与工具函数（标签、品牌色、影像解析等）
+│   ├── composables/
+│   │   └── useApp.js       # 状态与筛选/排序/搜索逻辑
+│   └── components/
+│       └── PriceSlider.vue # 价格区间滑块
+├── scripts/
+│   ├── data_quality.py     # 数据质量校验与归一化（npm run data:*）
+│   └── fetch_charge_protocols.py
+├── data_validator.py       # 数据校验工具
+├── parameter_validator.py  # 参数校验工具
+├── auto_fixer.py           # 自动纠错工具
+├── cli.py                  # 命令行查询工具
+├── vite.config.js          # 构建配置（自动同步数据到产物）
+└── .github/workflows/deploy.yml  # 推送自动构建并部署到 GitHub Pages
 ```
 
-数据存储在 `data/phones.json` 中，页面通过 fetch 异步加载，便于后续更新数据时无需修改页面逻辑。
+数据存储在 `data/phones.json` 中，构建时由 vite 插件自动同步到 `public/data/` 与 `dist/data/`，保证部署产物始终使用最新数据。
+
+## 本地开发
+
+```bash
+npm install        # 安装依赖
+npm run dev        # 本地开发（http://localhost:5173）
+npm run build      # 生产构建（输出到 dist/）
+npm run data:all   # 数据质量校验 + 归一化
+```
 
 ## 数据来源
 
@@ -50,6 +76,24 @@ phone-selector/
 - 联想商城 (shop.lenovo.com.cn)
 
 ## 更新日志
+
+### 2026-08-14
+- 筛选功能完善：处理器筛选标签改为从数据动态生成（前 15 个高频处理器，自动归并 "(for Galaxy)" 等变体）；补全充电协议筛选 UI（PD/PPS/UFCS/QC 等）；屏幕形态新增微曲屏/曲面屏，260 款机型全覆盖
+- 数据补全：合并 8 对重复字段，智能批量填充 1987 个通用字段（wifi/bluetooth/nfc/ir/fingerprint/esim/sim_type 等），字段填充率：23 个核心字段 100%
+- 新增 CLI 查询工具（cli.py）
+
+### 2026-06-30
+- 新增 REDMI K90 Ultra 原始数据（REDMI_K90_Ultra_原始数据_2026-06-30.json）
+
+### 2026-06-27
+- 新增 vivo X Fold6 原始数据（vivo_X_Fold6_原始数据_2026-06-27.json）
+
+### 2026-06-15
+- 新增荣耀 X70 Pro Max 备份（phone-select-backup-荣耀X70ProMax-2026-06-15.json）
+
+### 2026-06-12
+- 相机参数批量修正：华为 Pura 系列、OPPO Reno 系列影像字段补全与校准
+- 新增数据质量工具链（bulk_update / check / survey 系列脚本）
 
 ### 2026-05-21
 - **小米 17 Max** 官方数据修正：重量 245→225g、分辨率 3120×1440→2608×1200、USB 3.2 Gen 2→Gen 1、价格 4,999→4,799 元起、存储移除1TB选项、屏幕类型 OLED→AMOLED、摄像头参数修正（f/1.7→f/1.65 等）、补充星辰通信等特性。数据来自 mi.com 官方商城
