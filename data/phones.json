@@ -50,7 +50,17 @@
     "dimensions": "167.40×77.10×8.39mm",
     "screen_detail": "6.74\" 1600×720 LCD 120Hz，最高亮度1200nits",
     "network_model": "",
-    "os_source": "series-default"
+    "os_source": "series-default",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "800万",
+    "camera_front": "500万"
   },
   {
     "id": 259,
@@ -101,7 +111,16 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "camera_rear": "50MP f/1.8 OIS | 8MP",
+    "camera_front": "20MP"
   },
   {
     "id": 260,
@@ -135,7 +154,8 @@
       "NFC",
       "防尘抗水",
       "红外",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -155,7 +175,16 @@
       "QC"
     ],
     "charge_protocols_source": "ecosystem-redmi",
-    "charge_protocols_confidence": "medium"
+    "charge_protocols_confidence": "medium",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 OIS | 8MP",
+    "camera_front": "20MP"
   },
   {
     "id": 250,
@@ -236,7 +265,12 @@
     "sim_type": "双Nano SIM卡",
     "fingerprint": "侧边指纹",
     "charging": "80W有线 + 40W无线",
-    "refresh_rate": "120Hz (内外屏均LTPO)"
+    "refresh_rate": "120Hz (内外屏均LTPO)",
+    "has_nfc": true,
+    "has_ir": false,
+    "esim": true,
+    "reverse_charging_w": 0,
+    "camera_front": "20MP"
   },
   {
     "id": 249,
@@ -303,7 +337,17 @@
     "network_model": "BSN-AN00",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.8\" 2788×1280 OLED 120Hz"
+    "screen_detail": "6.8\" 2788×1280 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.88",
+    "camera_front": "800万 f/2.0"
   },
   {
     "id": 1,
@@ -363,7 +407,17 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.79\" 2640×1200 AMOLED 120Hz"
+    "screen_detail": "6.79\" 2640×1200 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.8",
+    "camera_front": "800万 f/2.0"
   },
   {
     "id": 3,
@@ -418,7 +472,17 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz"
+    "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.8 OIS | 800万 f/2.2 112°",
+    "camera_front": null
   },
   {
     "id": 2,
@@ -467,7 +531,17 @@
     ],
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.72\" 2400×1080 LCD 144Hz"
+    "screen_detail": "6.72\" 2400×1080 LCD 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8 OIS | 8MP f/2.2",
+    "camera_front": null
   },
   {
     "id": 5,
@@ -525,7 +599,17 @@
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.83\" 2772×1280 OLED 144Hz"
+    "screen_detail": "6.83\" 2772×1280 OLED 144Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 1/1.3\" f/1.6 5000万 OIS | 5000万 f/2.2 120° | 5000万徕卡5X f/3.0 115mm OIS",
+    "camera_front": null
   },
   {
     "id": 4,
@@ -584,7 +668,17 @@
     "network_model": "2602DPT53I",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.59\" 2756×1268 OLED 120Hz"
+    "screen_detail": "6.59\" 2756×1268 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 1/1.55\" f/1.7 5000万 OIS | 1200万徕卡 f/2.2 120° | 5000万徕卡5X f/3.0 115mm OIS",
+    "camera_front": null
   },
   {
     "id": 9,
@@ -648,7 +742,17 @@
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.84\" 2856×1320 OLED LTPO 120Hz"
+    "screen_detail": "6.84\" 2856×1320 OLED LTPO 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "RYYB 200MP 1/1.4\" f/1.8 23mm OIS | 50MP f/2.4 85mm 3.7x OIS | 50MP f/2.2 13mm 微距",
+    "camera_front": "60MP f/2.4 + 8MP 人像"
   },
   {
     "id": 8,
@@ -711,7 +815,17 @@
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX5",
-    "screen_detail": "6.84\" 2856×1320 OLED LTPO 120Hz"
+    "screen_detail": "6.84\" 2856×1320 OLED LTPO 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "RYYB 50MP 1/1.56\" f/1.8 23mm OIS | 8MP f/2.2 16mm",
+    "camera_front": "60MP f/2.4"
   },
   {
     "id": 7,
@@ -766,7 +880,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.68\" 2800×1280 OLED 120Hz"
+    "screen_detail": "6.68\" 2800×1280 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.9 | 5000万 RYYB f/2.6 OIS 3.3×",
+    "camera_front": "5000万 f/2.4"
   },
   {
     "id": 6,
@@ -818,7 +942,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万",
+    "camera_front": null
   },
   {
     "id": 12,
@@ -853,7 +987,8 @@
       "6500mAh+",
       "红外",
       "NFC",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/param/s60",
@@ -872,7 +1007,15 @@
     "network_model_source": "vivo-official",
     "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz",
     "camera_rear": "50MP LYT-700V 主摄 f/1.75 OIS + 50MP IMX882 潜望长焦 f/2.65 3x OIS + 8MP超广角 f/2.2",
-    "camera_front": "50MP f/2.0"
+    "camera_front": "50MP f/2.0",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 11,
@@ -926,7 +1069,17 @@
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz"
+    "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万像素索尼LYT700V(1/1.56\")主摄+800万像素超广角+5000万前置",
+    "camera_front": "5000万前置"
   },
   {
     "id": 10,
@@ -983,7 +1136,17 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.79\" 2640×1200 AMOLED 120Hz"
+    "screen_detail": "6.79\" 2640×1200 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.88 OIS | 500万",
+    "camera_front": null
   },
   {
     "id": 17,
@@ -1044,7 +1207,15 @@
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 2772×1272 OLED 120Hz"
+    "screen_detail": "6.78\" 2772×1272 OLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 微云台 OIS | 50MP f/2.2 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 16,
@@ -1104,7 +1275,15 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz"
+    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 OIS | 50MP f/2.4 3x OIS | 12MP f/2.2 微距",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 15,
@@ -1164,7 +1343,15 @@
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.32\" 2640×1216 OLED 120Hz"
+    "screen_detail": "6.32\" 2640×1216 OLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 OIS | 50MP f/2.2 | 50MP 3x OIS",
+    "camera_front": "50MP"
   },
   {
     "id": 14,
@@ -1222,7 +1409,15 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz"
+    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "200MP 三星HP3 1/1.4\" f/1.9 24mm OIS | 12MP f/2.2",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 13,
@@ -1275,7 +1470,15 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz"
+    "screen_detail": "6.57\" 2728×1264 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万索尼超清",
+    "camera_front": "5000万"
   },
   {
     "id": 18,
@@ -1326,7 +1529,17 @@
     "completeness_score": 94,
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.82\" 3186×1440 OLED 144Hz"
+    "screen_detail": "6.82\" 3186×1440 OLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" CIPA 4.5专业级防抖 4倍无损变焦 | 50MP",
+    "camera_front": null
   },
   {
     "id": 22,
@@ -1385,7 +1598,17 @@
     "os": "RedMagic OS",
     "os_source": "series-default",
     "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.4 3x",
+    "camera_front": "16MP f/2.0"
   },
   {
     "id": 21,
@@ -1440,7 +1663,17 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.0 | 50MP f/2.4 3x",
+    "camera_front": "16MP f/2.0"
   },
   {
     "id": 20,
@@ -1502,7 +1735,17 @@
     "network_model": "2605EPN8EC",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.9\" 2608×1200 AMOLED 120Hz"
+    "screen_detail": "6.9\" 2608×1200 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP9 200MP 1/1.4\" f/1.65 23mm OIS | 50MP f/2.4 15mm 102° | 50MP f/2.4 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 29,
@@ -1541,7 +1784,8 @@
       "有线投屏",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1562,7 +1806,16 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.82\" 3168×1440 OLED 144Hz",
     "dimensions": "约162.3×76.7×8.7mm",
-    "camera_rear": "200MP LYT-901主摄 f/1.5 OIS + 50MP LYT-600超广 f/2.0 + 200MP OV52A潜望 f/2.2 3x OIS + 50MP JNL超长焦 f/3.5 10x OIS"
+    "camera_rear": "200MP LYT-901主摄 f/1.5 OIS + 50MP LYT-600超广 f/2.0 + 200MP OV52A潜望 f/2.2 3x OIS + 50MP JNL超长焦 f/3.5 10x OIS",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_front": "索尼LYT-600 50MP f/2.0 21mm"
   },
   {
     "id": 28,
@@ -1596,7 +1849,8 @@
       "NFC",
       "红外",
       "防尘抗水",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -1621,7 +1875,16 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2880×1308 OLED 120Hz",
-    "dimensions": "约163.5×77.0×8.5mm"
+    "dimensions": "约163.5×77.0×8.5mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "camera_rear": "XMAGE 50MP 1/1.28\" 可变光圈 f/1.4-4.0 24mm OIS | 50MP f/2.2 13mm | 2亿 1/1.4\" RYYB f/2.6 90mm 4x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 27,
@@ -1676,7 +1939,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.32\" 2780×1264 OLED 144Hz"
+    "screen_detail": "6.32\" 2780×1264 OLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 200MP 1/1.56\" f/2.6 65mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 127,
@@ -1713,7 +1986,8 @@
       "NFC",
       "红外",
       "6.8-7.0英寸",
-      "防尘抗水"
+      "防尘抗水",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -1734,7 +2008,15 @@
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "camera_rear": "5000万广角 f/1.8 OIS + 800万超广角 f/2.2 116°",
     "camera_front": "1600万 f/2.4",
-    "network_model": "PMG110"
+    "network_model": "PMG110",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 123,
@@ -1771,7 +2053,8 @@
       "NFC",
       "红外",
       "防尘抗水",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -1792,7 +2075,15 @@
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "camera_rear": "5000万广角 f/1.8 OIS + 800万超广角 f/2.2 116°",
     "camera_front": "1600万 f/2.4",
-    "network_model": "PMH110"
+    "network_model": "PMH110",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 26,
@@ -1824,7 +2115,8 @@
       "NFC",
       "红外",
       "防尘抗水",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -1847,7 +2139,17 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.6\" 2760×1256 OLED 120Hz",
-    "dimensions": "约162.0×75.5×8.2mm"
+    "dimensions": "约162.0×75.5×8.2mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" 可变光圈 f/1.4-4.0 OIS | 50MP f/2.2 | 50MP 4x OIS",
+    "camera_front": "13MP"
   },
   {
     "id": 25,
@@ -1901,7 +2203,17 @@
     "charge_protocols_source": "chongdiantou",
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.8\" 2856×1320 OLED 120Hz"
+    "screen_detail": "6.8\" 2856×1320 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.56\" f/1.8 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 85mm 3.7x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 31,
@@ -1939,7 +2251,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -1963,7 +2276,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
-    "dimensions": "约163.7×76.6×8.5mm"
+    "dimensions": "约163.7×76.6×8.5mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-901 200MP 1/1.12\" f/1.85 35mm OIS 蔡司 | 索尼LYT-818 50MP f/2.0 15mm 蔡司 | 三星HP0 200MP 1/1.4\" f/2.6 85mm 3.7x OIS 蔡司",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 30,
@@ -2022,7 +2345,17 @@
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.78\" 3168×1440 OLED 144Hz",
-    "dimensions": "161.98×75.48×8.00mm"
+    "dimensions": "161.98×75.48×8.00mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 200MP 1/1.4\" f/1.68 23mm OIS 蔡司 | 50MP f/2.0 15mm 蔡司 | 50MP f/2.57 70mm 3x OIS 蔡司",
+    "camera_front": "32MP f/2.0"
   },
   {
     "brand": "Huawei",
@@ -2058,7 +2391,8 @@
       "防尘抗水",
       "有线投屏",
       "6.8-7.0英寸",
-      "散热风扇"
+      "散热风扇",
+      "防水"
     ],
     "release_date": "2026-03-23",
     "price": 8499,
@@ -2084,7 +2418,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2720×1260 LTPO OLED 120Hz",
-    "dimensions": "约163.5×78.5×8.3mm"
+    "dimensions": "约163.5×78.5×8.3mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "brand": "Apple",
@@ -2134,7 +2478,17 @@
     "os": "iOS 26",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.1\" 2532×1170 OLED 60Hz"
+    "screen_detail": "6.1\" 2532×1170 OLED 60Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
+    "camera_front": "12MP f/1.9 23mm"
   },
   {
     "model": "Galaxy A57 5G",
@@ -2183,7 +2537,17 @@
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2340×1080 Super AMOLED+ 120Hz",
-    "dimensions": "162.5×77.5×8.2mm"
+    "dimensions": "162.5×77.5×8.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
+    "camera_front": "32MP"
   },
   {
     "id": 35,
@@ -2231,7 +2595,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8 OIS",
+    "camera_front": "32MP"
   },
   {
     "id": 34,
@@ -2279,7 +2653,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8",
+    "camera_front": "16MP"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -2311,7 +2695,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB/16GB",
@@ -2332,7 +2717,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.8\" 3088×1440 OLED 120Hz",
-    "dimensions": "约162.8×77.6×8.2mm"
+    "dimensions": "约162.8×77.6×8.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP2 200MP 1/1.3\" f/1.4 24mm OIS | 50MP f/1.9 120° | 10MP f/2.4 3x OIS | 50MP f/2.9 5x OIS",
+    "camera_front": "12MP f/2.2"
   },
   {
     "model": "Galaxy S26+",
@@ -2364,7 +2759,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB",
@@ -2385,7 +2781,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.8\" 3120×1440 OLED 120Hz",
-    "dimensions": "约158.4×75.7×7.3mm"
+    "dimensions": "约158.4×75.7×7.3mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 69mm 3x OIS",
+    "camera_front": "12MP f/2.2 26mm"
   },
   {
     "model": "Galaxy S26",
@@ -2417,7 +2823,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB/16GB",
@@ -2438,7 +2845,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.8\" 2340×1080 OLED 120Hz",
-    "dimensions": "149.6×71.7×7.2mm"
+    "dimensions": "149.6×71.7×7.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 69mm 3x OIS",
+    "camera_front": "12MP f/2.2 26mm"
   },
   {
     "id": 40,
@@ -2492,7 +2909,17 @@
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX9",
-    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz"
+    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万广角 f/1.8 OIS + 200万黑白 f/2.4",
+    "camera_front": "3200万 f/2.4"
   },
   {
     "id": 42,
@@ -2526,7 +2953,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -2545,7 +2973,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.58\" 2400×1080 OLED 120Hz",
     "ip_rating": "IP68",
-    "dimensions": "约161.0×75.5×8.0mm"
+    "dimensions": "约161.0×75.5×8.0mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 50MP f/2.0 14mm | 50MP 1/2.5\" f/2.6 80mm 3.5x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "brand": "HONOR",
@@ -2575,7 +3013,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "release_date": "2026-01-19",
     "price": 5699,
@@ -2595,7 +3034,17 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.71\" 2800×1280 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 50MP f/2.0 14mm | 50MP f/2.4 80mm 3.5x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 43,
@@ -2646,7 +3095,17 @@
     "network_model": "PMC110",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX4",
-    "screen_detail": "6.75\" 1570×720 LCD 120Hz"
+    "screen_detail": "6.75\" 1570×720 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "1300万 f/2.2",
+    "camera_front": "500万 f/2.2"
   },
   {
     "id": 44,
@@ -2684,7 +3143,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -2704,7 +3164,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
-    "dimensions": "约161.5×75.5×9.0mm"
+    "dimensions": "约161.5×75.5×9.0mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS | 50MP f/2.2 14mm | 50MP f/2.8 115mm 5x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 52,
@@ -2772,7 +3242,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏",
-    "dimensions": "展开约156.8×144.0×4.5mm"
+    "dimensions": "展开约156.8×144.0×4.5mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 | 50MP 5x OIS",
+    "camera_front": "8MP f/2.2"
   },
   {
     "id": 51,
@@ -2827,7 +3307,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.84\" 2856×1320 OLED 120Hz"
+    "screen_detail": "6.84\" 2856×1320 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP RYYB 1/1.56\" f/1.6 OIS | 12MP f/2.2 | 12MP 5x OIS",
+    "camera_front": "60MP"
   },
   {
     "id": 50,
@@ -2879,7 +3369,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.84\" 2856×1320 OLED 120Hz"
+    "screen_detail": "6.84\" 2856×1320 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.8 23mm OIS | 50MP f/2.2 | 50MP 3x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 49,
@@ -2928,7 +3428,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
+    "camera_front": null
   },
   {
     "id": 48,
@@ -2975,7 +3485,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
+    "camera_front": "50MP"
   },
   {
     "id": 47,
@@ -3023,7 +3543,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8",
+    "camera_front": "16MP"
   },
   {
     "id": 46,
@@ -3070,7 +3600,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄",
+    "camera_front": "50MP"
   },
   {
     "id": 45,
@@ -3115,7 +3655,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 1600×720 LCD 90Hz"
+    "screen_detail": "6.7\" 1600×720 LCD 90Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄 + 2MP景深",
+    "camera_front": "50MP"
   },
   {
     "model": "荣耀 500 Pro",
@@ -3167,7 +3717,17 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.78\" 2800×1264 OLED 120Hz"
+    "screen_detail": "6.78\" 2800×1264 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 50MP f/2.4 70mm 3x OIS | 12MP f/2.2 112°",
+    "camera_front": "50MP f/2.0"
   },
   {
     "model": "荣耀 500",
@@ -3220,7 +3780,17 @@
     "network_model": "MEY-AN00",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.7\" 2800×1264 OLED 120Hz"
+    "screen_detail": "6.7\" 2800×1264 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.9 23mm OIS | 12MP f/2.2",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 65,
@@ -3288,7 +3858,15 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.9\" 2400×1080 折叠屏 120Hz 折叠屏",
     "ip_rating": "IPX8",
-    "dimensions": "展开约156.7×143.9×4.8mm"
+    "dimensions": "展开约156.7×143.9×4.8mm",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 13mm | 12MP RYYB f/3.4 5.5x OIS",
+    "camera_front": "8MP f/2.2"
   },
   {
     "id": 64,
@@ -3324,7 +3902,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3349,7 +3928,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2720×1260 OLED 120Hz",
-    "dimensions": "约162.0×76.0×8.4mm"
+    "dimensions": "约162.0×76.0×8.4mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 63,
@@ -3385,7 +3974,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -3410,7 +4000,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2848×1320 双层OLED 120Hz",
-    "dimensions": "约163.5×78.5×8.3mm"
+    "dimensions": "约163.5×78.5×8.3mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 61,
@@ -3468,7 +4068,17 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.75\" 2832×1280 OLED 120Hz"
+    "screen_detail": "6.75\" 2832×1280 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威SC585XS 50MP RYYB 1/1.28\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS | 50MP f/3.0 135mm 6x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 62,
@@ -3525,7 +4135,17 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.75\" 2832×1316 OLED 120Hz"
+    "screen_detail": "6.75\" 2832×1316 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威SC585XS 50MP RYYB 1/1.28\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS | 50MP f/3.0 135mm 6x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 60,
@@ -3582,7 +4202,17 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.75\" 2720×1260 OLED 120Hz"
+    "screen_detail": "6.75\" 2720×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威SC555XS 50MP RYYB 1/1.56\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 12MP f/3.4 125mm 5.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 59,
@@ -3640,7 +4270,14 @@
     "esim": false,
     "wifi": "Wi-Fi 7",
     "price_note": "2026-08-02涨价至4299",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS | 32MP f/2.0 | 50MP f/2.0 70mm 3.2x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 257,
@@ -3705,7 +4342,14 @@
     "esim": false,
     "wifi": "Wi-Fi 7",
     "price_note": "2026-08-02涨价至3299",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP",
+    "camera_front": "20MP"
   },
   {
     "id": 58,
@@ -3761,7 +4405,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.83\" 2772×1240 OLED 120Hz"
+    "screen_detail": "6.83\" 2772×1240 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.7 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 57,
@@ -3819,7 +4473,14 @@
     "esim": false,
     "wifi": "Wi-Fi 7",
     "price_note": "2026-08-02涨价至3799",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 OIS | 8MP",
+    "camera_front": "20MP"
   },
   {
     "id": 56,
@@ -3853,7 +4514,8 @@
       "潜望长焦",
       "6.8-7.0英寸",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3876,7 +4538,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.59\" 2760×1256 OLED 120Hz"
+    "screen_detail": "6.59\" 2760×1256 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP Sony LYT600(IMX882) 1/1.95\" f/1.8 26mm | 8MP OV08D 1/4\" f/2.2 15mm | 50MP Samsung JN5 1/2.75\" f/2.8 OIS 3.5x 80mm",
+    "camera_front": "50MP Samsung JN5 1/2.75\" f/2.0 21mm"
   },
   {
     "id": 55,
@@ -3932,7 +4604,14 @@
     "esim": false,
     "wifi": "Wi-Fi 7",
     "price_note": "2026-08-02涨价至2899",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP f/2.2",
+    "camera_front": "20MP"
   },
   {
     "id": 67,
@@ -3971,7 +4650,8 @@
       "有线投屏",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -3991,7 +4671,16 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
-    "camera_rear": "50MP LYT-828主摄 f/1.5 OIS + 50MP JN5超广 f/2.0 + 200MP HP5潜望长焦 f/2.1 70mm OIS"
+    "camera_rear": "50MP LYT-828主摄 f/1.5 OIS + 50MP JN5超广 f/2.0 + 200MP HP5潜望长焦 f/2.1 70mm OIS",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_front": null
   },
   {
     "id": 66,
@@ -4047,7 +4736,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.59\" 2760×1256 OLED 120Hz"
+    "screen_detail": "6.59\" 2760×1256 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.8 23mm OIS | 50MP f/2.0 15mm",
+    "camera_front": "32MP f/2.4"
   },
   {
     "brand": "HONOR",
@@ -4076,7 +4775,8 @@
       "红外",
       "有线投屏",
       "防尘抗水",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
@@ -4103,7 +4803,16 @@
     "screen_detail": "6.71\" 2800×1280 OLED 120Hz",
     "ip_rating": "IP68/IP69",
     "dimensions": "162.00×76.91×8.80mm",
-    "camera_rear": "50MP OV50Q主摄 f/1.6 OIS + 50MP超广 f/2.0 + 200MP HP9潜望长焦 f/2.6 85mm OIS"
+    "camera_rear": "50MP OV50Q主摄 f/1.6 OIS + 50MP超广 f/2.0 + 200MP HP9潜望长焦 f/2.6 85mm OIS",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_front": null
   },
   {
     "brand": "HONOR",
@@ -4131,7 +4840,8 @@
       "红外",
       "有线投屏",
       "防尘抗水",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 3.0",
@@ -4158,7 +4868,17 @@
     "network_model_source": "kalvo",
     "screen_detail": "6.58\" 2800×1280 OLED 120Hz",
     "ip_rating": "IP68",
-    "dimensions": "157.12×74.03×7.95mm"
+    "dimensions": "157.12×74.03×7.95mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.9 23mm OIS | 64MP 1/2.0\" f/2.5 70mm 3x OIS | 12MP f/2.2 13mm",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 71,
@@ -4218,7 +4938,16 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
     "dimensions": "161.98×75.48×7.99mm",
-    "camera_rear": "50MP LYT-828主摄 f/1.57 OIS + 50MP JN5超广 f/2.0 + 200MP HPB潜望长焦 f/2.67 85mm OIS"
+    "camera_rear": "50MP LYT-828主摄 f/1.57 OIS + 50MP JN5超广 f/2.0 + 200MP HPB潜望长焦 f/2.67 85mm OIS",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_front": null
   },
   {
     "id": 70,
@@ -4251,7 +4980,8 @@
       "有线投屏",
       "红外",
       "NFC",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -4276,7 +5006,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.31\" 2800×1260 OLED 120Hz",
-    "dimensions": "150.57×71.92×7.95mm"
+    "dimensions": "150.57×71.92×7.95mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 23mm OIS 蔡司 | 50MP f/2.0 15mm | 50MP 3x OIS",
+    "camera_front": "50MP"
   },
   {
     "id": 74,
@@ -4316,7 +5056,8 @@
       "防尘抗水",
       "有线投屏",
       "散热风扇",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -4339,7 +5080,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
-    "dimensions": "约163.5×76.5×8.4mm"
+    "dimensions": "约163.5×76.5×8.4mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.88 23mm OIS | 50MP f/2.05 15mm | 索尼IMX882 50MP 1/1.95\" f/2.65 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 72,
@@ -4381,7 +5132,8 @@
       "USB3.0",
       "无线充电",
       "6500mAh+",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -4405,7 +5157,13 @@
     "camera_rear": "50MP IMX921 OIS + 50MP JN1超广角 + 50MP IMX882 1/1.95\" 3x潜望 OIS",
     "camera_front": "32MP",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "6.0"
+    "bluetooth": "6.0",
+    "has_nfc": true,
+    "has_ir": false,
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "brand": "OnePlus",
@@ -4462,7 +5220,17 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.32\" 2640×1216 OLED 165Hz"
+    "screen_detail": "6.32\" 2640×1216 OLED 165Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 8MP f/2.2 16mm",
+    "camera_front": "16MP f/2.4"
   },
   {
     "id": 79,
@@ -4501,7 +5269,8 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -4522,7 +5291,17 @@
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2608×1200 OLED 120Hz",
     "price_note": "2026-08-02涨价至6499",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 OIS | 50MP f/2.2 | 50MP 3x OIS",
+    "camera_front": "32MP"
   },
   {
     "id": 78,
@@ -4561,7 +5340,8 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -4584,7 +5364,17 @@
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.3\" 2656×1220 OLED 120Hz",
     "price_note": "2026-08-02涨价至5399",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 OIS | 50MP f/2.2 | 50MP 3x OIS",
+    "camera_front": "32MP"
   },
   {
     "id": 77,
@@ -4645,7 +5435,17 @@
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.3\" 2656×1220 OLED 120Hz",
     "price_note": "2026-08-02涨价至4799",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人950 50MP 1/1.31\" f/1.67 23mm OIS | 50MP f/2.0 60mm 浮动 OIS 徕卡 | 50MP f/2.4 15mm 102° 徕卡",
+    "camera_front": "32MP f/2.0"
   },
   {
     "brand": "Apple",
@@ -4674,7 +5474,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -4702,7 +5503,15 @@
     "screen_detail": "6.9\" 2868×1320 OLED 120Hz",
     "dimensions": "约163.4×78.0×8.75mm",
     "camera_rear": "48MP IMX903主摄 f/1.78 OIS + 48MP IMX972超广 f/2.2 + 48MP IMX973 潜望 f/2.8 4x OIS",
-    "camera_front": "12MP f/1.9"
+    "camera_front": "12MP f/1.9",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "brand": "Apple",
@@ -4732,7 +5541,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -4760,7 +5570,15 @@
     "screen_detail": "6.3\" 2622×1206 OLED 120Hz",
     "dimensions": "约150.0×71.9×8.75mm",
     "camera_rear": "48MP IMX903主摄 f/1.78 OIS + 48MP IMX972超广 f/2.2 + 48MP IMX973 潜望 f/2.8 4x OIS",
-    "camera_front": "12MP f/1.9"
+    "camera_front": "12MP f/1.9",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "brand": "Apple",
@@ -4787,7 +5605,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -4813,7 +5632,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2700×1220 OLED 120Hz",
-    "dimensions": "约156.2×74.7×5.5mm"
+    "dimensions": "约156.2×74.7×5.5mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
+    "camera_front": "12MP f/2.0 23mm"
   },
   {
     "brand": "Apple",
@@ -4842,7 +5671,8 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -4867,7 +5697,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.1\" 2556×1179 OLED 120Hz",
-    "dimensions": "约147.6×71.6×7.8mm"
+    "dimensions": "约147.6×71.6×7.8mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 48MP f/2.2 13mm | 48MP f/2.8 120mm 5x OIS",
+    "camera_front": "12MP f/1.9 23mm"
   },
   {
     "id": 82,
@@ -4914,7 +5754,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8 OIS",
+    "camera_front": "32MP"
   },
   {
     "id": 81,
@@ -4961,7 +5811,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄",
+    "camera_front": "50MP"
   },
   {
     "id": 80,
@@ -5007,7 +5867,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.6\" 1600×720 LCD 90Hz"
+    "screen_detail": "6.6\" 1600×720 LCD 90Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
+    "camera_front": "50MP"
   },
   {
     "id": 93,
@@ -5046,7 +5916,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5067,7 +5938,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
-    "dimensions": "约161.5×75.5×9.2mm"
+    "dimensions": "约161.5×75.5×9.2mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.3\" f/1.6 23mm OIS 徕卡 | 50MP f/2.2 14mm 徕卡 | 50MP f/2.8 115mm 5x OIS 徕卡",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 92,
@@ -5098,7 +5979,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -5121,7 +6003,17 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.0\" 2760×1320 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.3\" f/1.4-4.0 24mm OIS | 12MP RYYB f/3.4 5x OIS | 8MP f/2.2 13mm",
+    "camera_front": "13MP f/2.4"
   },
   {
     "brand": "OnePlus",
@@ -5155,7 +6047,8 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
@@ -5184,7 +6077,17 @@
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 1272×2772 OLED 120Hz",
-    "dimensions": "约161.8×75.6×8.2mm"
+    "dimensions": "约161.8×75.6×8.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "brand": "realme",
@@ -5214,7 +6117,8 @@
       "有线投屏",
       "潜望长焦",
       "防尘抗水",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 2.0",
@@ -5242,7 +6146,15 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz",
     "camera_rear": "50MP IMX906 主摄 f/1.8 OIS + 200MP HP5 潜望长焦 f/2.6 3x OIS + 50MP OV50D 超广角 f/2.0",
-    "camera_front": "32MP f/2.4"
+    "camera_front": "32MP f/2.4",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 89,
@@ -5290,7 +6202,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2412×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2412×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8 | 108MP主摄 + 2MP",
+    "camera_front": "108MP"
   },
   {
     "id": 88,
@@ -5337,7 +6259,17 @@
     ],
     "charge_protocols_source": "ecosystem-redmi",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "2亿 三星HP3 1/1.4\" f/1.6 OIS | 50MP f/2.0 | 50MP f/2.4 3x",
+    "camera_front": null
   },
   {
     "id": 87,
@@ -5384,7 +6316,17 @@
     ],
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
+    "camera_front": "50MP"
   },
   {
     "id": 94,
@@ -5441,7 +6383,17 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP5X/IPX8/IPX9",
-    "screen_detail": "6.82\" 2868×1232 OLED 120Hz 折叠屏"
+    "screen_detail": "6.82\" 2868×1232 OLED 120Hz 折叠屏",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP3 200MP 1/1.4\" f/1.9 23mm OIS | 50MP f/2.2 15mm 微距",
+    "camera_front": "50MP f/2.0"
   },
   {
     "brand": "HONOR",
@@ -5471,7 +6423,8 @@
       "NFC",
       "红外",
       "6.8-7.0英寸",
-      "散热风扇"
+      "散热风扇",
+      "防水"
     ],
     "release_date": "2025-08-01",
     "price": 3999,
@@ -5494,7 +6447,17 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "screen_detail": "6.83\" 2800×1264 AMOLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm",
+    "camera_front": "50MP f/2.0"
   },
   {
     "brand": "OnePlus",
@@ -5547,7 +6510,17 @@
     "os": "ColorOS",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 2780×1264 OLED 165Hz"
+    "screen_detail": "6.78\" 2780×1264 OLED 165Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 50MP 1/1.56\" f/1.8 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "model": "荣耀 WIN RT",
@@ -5601,7 +6574,17 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.83\" 2800×1264 OLED 120Hz"
+    "screen_detail": "6.83\" 2800×1264 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 12MP f/2.2",
+    "camera_front": "5000万像素"
   },
   {
     "id": 100,
@@ -5655,7 +6638,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.78\" 2800×1260 OLED 144Hz"
+    "screen_detail": "6.78\" 2800×1260 OLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 | 50MP f/2.2",
+    "camera_front": null
   },
   {
     "brand": "realme",
@@ -5711,7 +6704,17 @@
     "charge_protocols_source": "ecosystem-realme",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz"
+    "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万像素理光GR防眩光主摄(f/1.8,OIS) + 800万像素超广角 + 5000万像素潜望长焦(JN5,3.5x光变)",
+    "camera_front": "1600万像素"
   },
   {
     "brand": "OnePlus",
@@ -5766,7 +6769,17 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.83\" 2800×1272 OLED 165Hz"
+    "screen_detail": "6.83\" 2800×1272 OLED 165Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 50MP 1/1.56\" f/1.8 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "REDMI",
@@ -5814,7 +6827,17 @@
     "refresh_hz_source": "series-default",
     "screen_detail": "6.67\" 2712×1220 AMOLED 120Hz",
     "price_note": "2026-08-02涨价至2599",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50E 50MP f/1.6 | 5000万主摄",
+    "camera_front": null
   },
   {
     "brand": "REDMI",
@@ -5862,7 +6885,17 @@
     "refresh_hz_source": "series-default",
     "screen_detail": "6.67\" 2712×1220 AMOLED 120Hz",
     "price_note": "2026-08-02涨价至2599",
-    "verified_at": "2026-08-05"
+    "verified_at": "2026-08-05",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50E 50MP f/1.6 | 5000万主摄",
+    "camera_front": null
   },
   {
     "id": 95,
@@ -5909,7 +6942,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8",
+    "camera_front": "待确认"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -5971,7 +7014,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "10.0\" 2400×1916 / 2520×1080 Dynamic AMOLED 2X 120Hz 折叠屏",
-    "dimensions": "展开态约158×143×4.9mm"
+    "dimensions": "展开态约158×143×4.9mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 70mm 3x OIS",
+    "camera_front": "10MP f/2.2"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -6034,7 +7087,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "7.6\" 2160×1856 / 2376×968 折叠屏 120Hz 折叠屏",
-    "dimensions": "展开约158.0×143.2×4.5mm"
+    "dimensions": "展开约158.0×143.2×4.5mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm | 10MP f/2.4 3x OIS",
+    "camera_front": "10MP f/2.2"
   },
   {
     "brand": "HONOR",
@@ -6067,7 +7130,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "7.0英寸以上"
+      "7.0英寸以上",
+      "防水"
     ],
     "release_date": "2025-07-01",
     "price": 8999,
@@ -6103,7 +7167,17 @@
     "refresh_hz_source": "series-default",
     "screen_detail": "7.95\" 2376×1060 折叠屏 120Hz 折叠屏",
     "dimensions": "展开约156.7×145.6×4.0mm",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 64MP 1/2.0\" f/2.5 70mm 3x OIS | 50MP f/2.2 13mm 122°",
+    "camera_front": "20MP f/2.2"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -6167,7 +7241,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2640×1080 / 1066×1056 折叠屏 120Hz 折叠屏",
-    "dimensions": "展开约166.7×75.1×6.5mm"
+    "dimensions": "展开约166.7×75.1×6.5mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120°",
+    "camera_front": "10MP f/2.2 23mm"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -6230,7 +7314,17 @@
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2640×1080 / 1066×1056 折叠屏 120Hz 折叠屏",
-    "dimensions": "展开165.1×71.9×6.9mm"
+    "dimensions": "展开165.1×71.9×6.9mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm",
+    "camera_front": "10MP f/2.2 23mm"
   },
   {
     "brand": "NUBIA",
@@ -6282,7 +7376,17 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
+    "camera_front": "16MP f/2.0"
   },
   {
     "brand": "NUBIA",
@@ -6334,7 +7438,17 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.0 | 50MP 3x",
+    "camera_front": "16MP"
   },
   {
     "id": 109,
@@ -6387,7 +7501,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX9",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 23mm OIS | 50MP f/2.2 15mm | 50MP f/2.6 65mm OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 107,
@@ -6439,7 +7563,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX9",
-    "screen_detail": "6.32\" 2760×1256 OLED 120Hz"
+    "screen_detail": "6.32\" 2760×1256 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 OIS | 50MP f/2.2 | 50MP",
+    "camera_front": "32MP"
   },
   {
     "brand": "NUBIA",
@@ -6487,7 +7621,17 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.85\" 2480×1116 AMOLED 144Hz"
+    "screen_detail": "6.85\" 2480×1116 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 25mm | 8MP f/2.2",
+    "camera_front": "16MP f/2.0"
   },
   {
     "id": 106,
@@ -6540,7 +7684,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX9",
-    "screen_detail": "6.59\" 2760×1256 OLED 120Hz"
+    "screen_detail": "6.59\" 2760×1256 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 50MP | 50MP",
+    "camera_front": "32MP"
   },
   {
     "brand": "OnePlus",
@@ -6597,7 +7751,17 @@
     "network_model": "PLU110",
     "network_model_source": "kalvo",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 2780×1264 OLED 165Hz"
+    "screen_detail": "6.78\" 2780×1264 OLED 165Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万像素索尼主摄",
+    "camera_front": "1600万像素"
   },
   {
     "brand": "OnePlus",
@@ -6651,7 +7815,17 @@
     "charge_protocols_source": "ecosystem-oneplus",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.83\" 1272×2800 OLED 165Hz"
+    "screen_detail": "6.83\" 1272×2800 OLED 165Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "主摄 50MP IMX906 1/1.56\" f/1.8 OIS | 超广 8MP f/2.2 112° | 前置 16MP f/2.4",
+    "camera_front": "1600万像素"
   },
   {
     "id": 132,
@@ -6688,7 +7862,8 @@
       "有线投屏",
       "NFC",
       "红外",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -6711,7 +7886,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.8\" 2844×1312 OLED 120Hz",
-    "dimensions": "约163.0×76.1×8.3mm"
+    "dimensions": "约163.0×76.1×8.3mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.1 90mm 3.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 131,
@@ -6778,7 +7963,17 @@
     "network_model_source": "vivo-official",
     "screen_detail": "8.03\" 2480×2200 / 2748×1172 OLED折叠屏 120Hz 折叠屏",
     "dimensions": "展开约159.7×142.3×4.3mm",
-    "ip_rating": "IP58"
+    "ip_rating": "IP58",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX866 50MP 1/1.56\" f/1.6 23mm OIS 蔡司 | 50MP 1/2.5\" f/2.6 70mm 3x OIS 蔡司 | 50MP f/2.1 15mm 119° 蔡司",
+    "camera_front": "20MP f/2.4"
   },
   {
     "id": 130,
@@ -6811,7 +8006,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6835,7 +8031,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.8\" 2848×1276 OLED 120Hz",
     "ip_rating": "IP68",
-    "dimensions": "约163.0×76.1×8.3mm"
+    "dimensions": "约163.0×76.1×8.3mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 129,
@@ -6868,7 +8074,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -6892,7 +8099,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.8\" 2848×1276 OLED 120Hz",
     "ip_rating": "IP68",
-    "dimensions": "约162.5×75.6×8.0mm"
+    "dimensions": "约162.5×75.6×8.0mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "id": 128,
@@ -6945,7 +8162,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.6\" 2700×1224 OLED 120Hz"
+    "screen_detail": "6.6\" 2700×1224 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.56\" f/1.4-4.0 24mm OIS | 13MP f/2.2 13mm",
+    "camera_front": "13MP f/2.4 18mm"
   },
   {
     "brand": "HONOR",
@@ -6971,7 +8198,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
@@ -7000,7 +8228,17 @@
     "refresh_hz_source": "series-default",
     "screen_detail": "6.55\" 2800×1264 AMOLED 120Hz",
     "dimensions": "160.8×76.1×8.1mm",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.9 23mm OIS | 50MP f/2.4 70mm 3x OIS | 12MP f/2.2 112°",
+    "camera_front": "50MP f/2.0"
   },
   {
     "brand": "realme",
@@ -7047,7 +8285,17 @@
     "refresh_hz_source": "series-default",
     "os": "realme UI",
     "os_source": "series-default",
-    "screen_detail": "6.8\" 2772×1240 AMOLED 120Hz"
+    "screen_detail": "6.8\" 2772×1240 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "HONOR",
@@ -7096,7 +8344,17 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
-    "screen_detail": "6.55\" 2664×1200 AMOLED 120Hz"
+    "screen_detail": "6.55\" 2664×1200 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 12MP f/2.2",
+    "camera_front": "50MP"
   },
   {
     "id": 122,
@@ -7144,7 +8402,17 @@
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz"
+    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万主摄(f/1.8) + 200万黑白",
+    "camera_front": "1600万像素"
   },
   {
     "id": 120,
@@ -7192,7 +8460,17 @@
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz"
+    "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 | 后置5000万主摄+200万黑白",
+    "camera_front": "1600万像素"
   },
   {
     "id": 265,
@@ -7224,7 +8502,8 @@
       "NFC",
       "红外",
       "防尘抗水",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -7247,7 +8526,13 @@
     ],
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
-    "network_model": "PYD110"
+    "network_model": "PYD110",
+    "has_nfc": true,
+    "has_ir": false,
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 121,
@@ -7298,7 +8583,15 @@
     "refresh_hz_source": "series-default",
     "os_source": "series-default",
     "usb_version_source": "series-default",
-    "screen_detail": "6.78\" 2772×1240 AMOLED 120Hz"
+    "screen_detail": "6.78\" 2772×1240 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "OnePlus",
@@ -7351,7 +8644,17 @@
     "os": "ColorOS 16 / Android 16",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz"
+    "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万像素主摄",
+    "camera_front": "800万像素"
   },
   {
     "id": 117,
@@ -7400,7 +8703,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.56\" 1612×720 LCD 90Hz"
+    "screen_detail": "6.56\" 1612×720 LCD 90Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP f/1.8 | 50MP主摄 + 2MP",
+    "camera_front": "50MP"
   },
   {
     "id": 118,
@@ -7448,7 +8761,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.56\" 1612×720 LCD 90Hz"
+    "screen_detail": "6.56\" 1612×720 LCD 90Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP主摄 | 5MP前置",
+    "camera_front": "P前置"
   },
   {
     "brand": "Huawei",
@@ -7479,7 +8802,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "7.0英寸以上"
+      "7.0英寸以上",
+      "防水"
     ],
     "release_date": "2026-04-20",
     "price": 10999,
@@ -7517,7 +8841,17 @@
     "charge_protocols_confidence": "high",
     "screen_detail": "7.7\" 2960×1376 折叠屏 120Hz 折叠屏",
     "ip_rating": "IP68",
-    "dimensions": "展开约150.0×165.0×7.2mm"
+    "dimensions": "展开约150.0×165.0×7.2mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 40MP f/2.2 13mm | 50MP f/2.4 3.5x OIS",
+    "camera_front": "13MP f/2.4"
   },
   {
     "brand": "HONOR",
@@ -7564,7 +8898,17 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
-    "screen_detail": "6.79\" 2412×1080 LCD 120Hz"
+    "screen_detail": "6.79\" 2412×1080 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8 | 5000万主摄",
+    "camera_front": null
   },
   {
     "id": 135,
@@ -7596,7 +8940,8 @@
       "潜望长焦",
       "6.8-7.0英寸",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "≤200g"
     ],
     "features": [
       "NFC",
@@ -7616,7 +8961,15 @@
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.78\" 2800×1260 AMOLED 120Hz"
+    "screen_detail": "6.78\" 2800×1260 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.5\" f/1.8 OIS | 8MP | 50MP",
+    "camera_front": "50MP"
   },
   {
     "id": 134,
@@ -7668,7 +9021,17 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX5",
     "screen_detail": "6.32\" 2640×1216 OLED 120Hz",
-    "dimensions": "150.83×71.97×8.06mm"
+    "dimensions": "150.83×71.97×8.06mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 8MP f/2.2",
+    "camera_front": "16MP f/2.4"
   },
   {
     "id": 133,
@@ -7715,7 +9078,17 @@
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万主摄",
+    "camera_front": null
   },
   {
     "brand": "Huawei",
@@ -7747,7 +9120,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "release_date": "2025-03-20",
     "price": 7499,
@@ -7785,7 +9159,17 @@
     "refresh_hz_source": "series-default",
     "screen_detail": "6.5\" 2700×1224 LTPO OLED 120Hz 折叠屏",
     "ip_rating": "IP68",
-    "dimensions": "展开约144.0×162.0×7.0mm"
+    "dimensions": "展开约144.0×162.0×7.0mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 40MP f/2.2 | 50MP 3.5x OIS",
+    "camera_front": "8MP f/2.2"
   },
   {
     "model": "Galaxy A56 5G",
@@ -7833,7 +9217,17 @@
     "ip_rating": "IP6X/IPX7",
     "screen_detail": "6.7\" 2340×1080 Super AMOLED 120Hz",
     "dimensions": "162.2×77.5×7.4mm",
-    "network_model": "SM-A5660"
+    "network_model": "SM-A5660",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
+    "camera_front": "32MP"
   },
   {
     "id": 143,
@@ -7884,7 +9278,15 @@
     "screen_detail": "6.7\" 2340×1080 Super AMOLED 120Hz",
     "ip_rating": "IP67",
     "dimensions": "162.2×77.5×7.4mm",
-    "network_model": "SM-A5660"
+    "network_model": "SM-A5660",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
+    "camera_front": "32MP"
   },
   {
     "id": 141,
@@ -7930,7 +9332,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.75\" 1600×720 LCD 90Hz"
+    "screen_detail": "6.75\" 1600×720 LCD 90Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万",
+    "camera_front": "500万"
   },
   {
     "id": 146,
@@ -7995,7 +9407,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "8.12\" 2480×2248 OLED折叠屏 120Hz 折叠屏",
-    "dimensions": "展开约160.9×145.5×4.3mm"
+    "dimensions": "展开约160.9×145.5×4.3mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 200MP 1/1.4\" f/1.8 23mm OIS | 50MP f/2.0 14mm 114° | 50MP f/2.7 70mm 3x OIS",
+    "camera_front": "32MP f/2.4 21mm"
   },
   {
     "id": 145,
@@ -8062,7 +9484,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "8.12\" 2480×2248 / 2700×1220 OLED折叠屏 120Hz 折叠屏",
-    "dimensions": "展开约160.9×145.5×4.2mm"
+    "dimensions": "展开约160.9×145.5×4.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.8 24mm OIS 哈苏 | 48MP f/2.2 14mm 哈苏 | 64MP 1/2.0\" f/2.6 5x 135mm OIS 哈苏",
+    "camera_front": "8MP | 8MP"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -8095,7 +9527,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB",
@@ -8118,7 +9551,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP68",
     "screen_detail": "6.9\" 2340×1080 Dynamic AMOLED 2X 120Hz",
-    "dimensions": "162.8×77.6×8.2mm"
+    "dimensions": "162.8×77.6×8.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 50MP f/1.9 120° | 10MP f/2.4 3x OIS | 50MP f/3.4 5x OIS",
+    "camera_front": "12MP f/2.2"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -8148,7 +9591,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB",
@@ -8171,7 +9615,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz",
-    "dimensions": "约151.3×71.2×5.8mm"
+    "dimensions": "约151.3×71.2×5.8mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm 120°",
+    "camera_front": "12MP f/2.2 26mm"
   },
   {
     "id": 159,
@@ -8209,7 +9663,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "微曲屏",
     "wireless_charging_w": 80,
@@ -8232,7 +9687,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.8\" 2800×1280 OLED 120Hz 微曲屏",
-    "dimensions": "约162.3×76.5×8.1mm"
+    "dimensions": "约162.3×76.5×8.1mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50K 50MP 1/1.3\" f/1.4-2.0 可变光圈 LOFIC OIS | 50MP f/2.0 122° | 2亿 1/1.4\" f/1.88 70mm 3x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "model": "Galaxy S25+",
@@ -8262,7 +9727,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB",
@@ -8286,7 +9752,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2340×1080 Dynamic AMOLED 2X 120Hz",
-    "dimensions": "158.4×75.7×7.3mm"
+    "dimensions": "158.4×75.7×7.3mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 69mm 3x OIS",
+    "camera_front": "12MP f/2.2"
   },
   {
     "model": "Galaxy S25",
@@ -8316,7 +9792,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB",
@@ -8340,7 +9817,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.2\" 2340×1080 Dynamic AMOLED 2X 120Hz",
-    "dimensions": "146.9×70.5×7.2mm"
+    "dimensions": "146.9×70.5×7.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 3x OIS",
+    "camera_front": "12MP f/2.2"
   },
   {
     "id": 154,
@@ -8395,7 +9882,17 @@
     "network_model": "V2527A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.31\" 2640×1216 OLED 120Hz"
+    "screen_detail": "6.31\" 2640×1216 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 OIS | 50MP | 50MP",
+    "camera_front": "50MP"
   },
   {
     "brand": "HONOR",
@@ -8425,7 +9922,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "release_date": "2025-01-01",
     "price": 3699,
@@ -8448,7 +9946,17 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "screen_detail": "6.78\" 2800×1264 AMOLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 50MP f/2.4 70mm 3x OIS",
+    "camera_front": "16MP f/2.0"
   },
   {
     "id": 153,
@@ -8506,7 +10014,15 @@
     "network_model": "V2516A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" f/1.7 23mm | 50MP f/2.2 | 50MP f/2.6 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 150,
@@ -8560,7 +10076,17 @@
     "network_model": "V2465A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.31\" 2640×1216 OLED 120Hz"
+    "screen_detail": "6.31\" 2640×1216 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 50MP",
+    "camera_front": "50MP"
   },
   {
     "id": 151,
@@ -8609,7 +10135,17 @@
     "os_source": "series-default",
     "network_model": "V2464A",
     "network_model_source": "vivo-official",
-    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50E 50MP 1/1.56\" f/1.8 OIS | 50MP f/2.2",
+    "camera_front": "50MP"
   },
   {
     "id": 152,
@@ -8664,7 +10200,17 @@
     "network_model": "V2506A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.7\" 2388×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2388×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "HONOR",
@@ -8712,7 +10258,17 @@
     "charge_protocols_confidence": "medium",
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
-    "screen_detail": "6.78\" 2664×1200 AMOLED 120Hz"
+    "screen_detail": "6.78\" 2664×1200 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 12MP f/2.2",
+    "camera_front": "50MP"
   },
   {
     "id": 148,
@@ -8765,7 +10321,17 @@
     "network_model": "V2528A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 OIS | 50MP f/2.0 | 50MP 3x",
+    "camera_front": "50MP"
   },
   {
     "id": 147,
@@ -8821,7 +10387,15 @@
     "network_model": "V2561A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.83\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.83\" 2400×1080 OLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP 1/2.76\" f/1.8 | 2MP",
+    "camera_front": "8MP"
   },
   {
     "id": 161,
@@ -8887,7 +10461,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.75\" 2832×1280 OLED 120Hz 折叠屏",
     "dimensions": "展开约156.7×143.9×4.6mm",
-    "ip_rating": "IPX8"
+    "ip_rating": "IPX8",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 | 48MP 5x OIS",
+    "camera_front": "8MP f/2.2"
   },
   {
     "id": 172,
@@ -8939,7 +10523,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 2700×1224 OLED 120Hz",
     "dimensions": "163.8×75.3×8.2mm",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/2.0 23mm OIS | 50MP f/3.0 87mm 3.8x OIS | 12MP f/2.2 112°",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 173,
@@ -8989,7 +10583,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.81\" 2776×1224 OLED 120Hz"
+    "screen_detail": "6.81\" 2776×1224 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 50MP f/2.4 80mm 3.5x OIS | 8MP f/2.2",
+    "camera_front": "32MP f/2.2"
   },
   {
     "id": 171,
@@ -9020,7 +10624,8 @@
       "NFC",
       "红外",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -9041,7 +10646,17 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 2700×1224 OLED 120Hz",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 50MP f/2.4 70mm 3x OIS",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 170,
@@ -9091,7 +10706,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.78\" 2776×1224 OLED 120Hz"
+    "screen_detail": "6.78\" 2776×1224 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.4 3x | 8MP f/2.2",
+    "camera_front": "32MP f/2.2"
   },
   {
     "id": 169,
@@ -9143,7 +10768,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX5",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
-    "dimensions": "162.36×75.08×8.42mm"
+    "dimensions": "162.36×75.08×8.42mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "主摄 50MP IMX906 f/1.8 OIS | 超广 8MP f/2.2 112° | 前置 16MP",
+    "camera_front": null
   },
   {
     "id": 168,
@@ -9191,7 +10826,17 @@
     ],
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "主摄 50MP IMX920 f/1.6 OIS | 超广 8MP | 人像长焦 50MP 2x | 前置 50MP",
+    "camera_front": null
   },
   {
     "id": 166,
@@ -9243,7 +10888,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX5",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
-    "dimensions": "162.36×75.08×8.42mm"
+    "dimensions": "162.36×75.08×8.42mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万索尼IMX906 f/1.8 OIS | 800万 f/2.2 | 200万",
+    "camera_front": null
   },
   {
     "id": 167,
@@ -9289,7 +10944,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.8 | 1200万 f/2.4",
+    "camera_front": null
   },
   {
     "brand": "realme",
@@ -9338,7 +11003,17 @@
     "refresh_hz_source": "series-default",
     "os": "realme UI 6.0 / Android 15",
     "os_source": "series-default",
-    "screen_detail": "6.8\" 2780×1264 AMOLED 120Hz"
+    "screen_detail": "6.8\" 2780×1264 AMOLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 8MP f/2.2",
+    "camera_front": "16MP"
   },
   {
     "id": 162,
@@ -9385,7 +11060,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.95 24mm | 12MP f/2.2",
+    "camera_front": "50MP"
   },
   {
     "id": 163,
@@ -9432,7 +11117,17 @@
     ],
     "charge_protocols_source": "ecosystem-vivo-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 OIS | 8MP f/2.2",
+    "camera_front": "50MP"
   },
   {
     "brand": "OnePlus",
@@ -9488,7 +11183,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX5",
     "screen_detail": "6.78\" 2780×1264 AMOLED 120Hz",
-    "dimensions": "162.36×75.08×8.39mm"
+    "dimensions": "162.36×75.08×8.39mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP Sony IMX906 1/1.56\" f/1.8 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "id": 183,
@@ -9545,7 +11250,17 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.82\" 2848×1312 OLED 120Hz",
-    "dimensions": "约163.2×79.5×8.2mm"
+    "dimensions": "约163.2×79.5×8.2mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
+    "camera_front": "13MP f/2.4 18mm"
   },
   {
     "id": 182,
@@ -9602,7 +11317,17 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.82\" 2848×1312 OLED 120Hz",
-    "dimensions": "约164.6×79.5×8.2mm"
+    "dimensions": "约164.6×79.5×8.2mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
+    "camera_front": "13MP f/2.4 18mm"
   },
   {
     "id": 180,
@@ -9659,7 +11384,17 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2832×1316 OLED 120Hz",
-    "dimensions": "约164.6×79.5×8.1mm"
+    "dimensions": "约164.6×79.5×8.1mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
+    "camera_front": "13MP f/2.4 18mm"
   },
   {
     "brand": "Huawei",
@@ -9715,7 +11450,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.82\" 2688×1216 LTPO OLED 120Hz",
-    "dimensions": "约164.6×79.5×8.1mm"
+    "dimensions": "约164.6×79.5×8.1mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
+    "camera_front": "13MP f/2.4 18mm"
   },
   {
     "id": 178,
@@ -9771,7 +11516,17 @@
     "charge_protocols_confidence": "high",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2688×1216 OLED 120Hz",
-    "dimensions": "约160.9×75.3×7.95mm"
+    "dimensions": "约160.9×75.3×7.95mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 13MP f/2.2 13mm",
+    "camera_front": "13MP f/2.4 18mm"
   },
   {
     "id": 177,
@@ -9826,7 +11581,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
-    "dimensions": "162.45×76.89×8.55mm"
+    "dimensions": "162.45×76.89×8.55mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 8MP f/2.2 | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "16MP"
   },
   {
     "brand": "REDMI",
@@ -9877,7 +11642,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.67\" 3200×1440 OLED 120Hz",
     "dimensions": "160.26×74.95×8.39mm",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 32MP f/2.2 | 50MP f/2.0 60mm OIS",
+    "camera_front": "20MP f/2.2"
   },
   {
     "brand": "REDMI",
@@ -9924,7 +11699,17 @@
     "screen_detail": "6.67\" 3200×1440 OLED 120Hz",
     "dimensions": "160.26×74.95×8.05mm",
     "network_model": "",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP f/2.2",
+    "camera_front": "20MP"
   },
   {
     "brand": "REDMI",
@@ -9972,7 +11757,17 @@
     "detailed_camera": "主摄: 光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 超广: 8MP f/2.2 | 前置: 20MP f/2.2",
     "screen_detail": "6.67\" FHD+ OLED 120Hz",
     "dimensions": "160.26×74.95×8.12mm",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP f/2.2",
+    "camera_front": "20MP f/2.2"
   },
   {
     "id": 200,
@@ -10029,7 +11824,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
-    "dimensions": "约162.2×76.8×8.8mm"
+    "dimensions": "约162.2×76.8×8.8mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-900 50MP 1\" f/1.8 23mm OIS | 50MP f/2.0 14mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 201,
@@ -10063,7 +11868,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -10085,7 +11891,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 3168×1440 OLED 120Hz",
     "ip_rating": "IP68",
-    "dimensions": "约163.1×76.7×8.7mm"
+    "dimensions": "约163.1×76.7×8.7mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-818 50MP 1/1.28\" f/1.57 23mm OIS 蔡司 | 50MP f/2.0 15mm 蔡司 | 2亿 1/1.4\" f/2.67 85mm 3.7x OIS 蔡司",
+    "camera_front": "50MP f/2.0"
   },
   {
     "id": 202,
@@ -10122,7 +11938,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -10145,7 +11962,17 @@
     "network_model_source": "kalvo",
     "ip_rating": "IP68",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
-    "dimensions": "161.3×75.3×9.4mm"
+    "dimensions": "161.3×75.3×9.4mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-900 50MP 1\" f/1.6 23mm OIS | 50MP f/1.8 70mm 3x OIS | 200MP f/2.6 100mm 4.3x OIS | 50MP f/2.2 14mm 115°",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 198,
@@ -10202,7 +12029,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.78\" 3168×1440 OLED 120Hz",
-    "dimensions": "162.61×75.83×8.36mm"
+    "dimensions": "162.61×75.83×8.36mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-818 50MP 1/1.28\" f/1.57 23mm OIS 蔡司 | 三星JN1 50MP f/2.0 15mm 蔡司 | 三星HP9 200MP 1/1.4\" f/2.67 85mm 3.7x OIS 蔡司",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 199,
@@ -10239,7 +12076,8 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 80,
@@ -10261,7 +12099,17 @@
     "network_model": "2410DPN6CC",
     "network_model_source": "restored",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.73\" 3200×1440 OLED 120Hz"
+    "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.31\" f/1.63 OIS | 50MP | 50MP 5x OIS",
+    "camera_front": "32MP"
   },
   {
     "id": 197,
@@ -10313,7 +12161,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.82\" 2760×1256 OLED 120Hz"
+    "screen_detail": "6.82\" 2760×1256 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 196,
@@ -10350,7 +12208,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -10371,7 +12230,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
-    "dimensions": "约162.9×76.5×8.5mm"
+    "dimensions": "约162.9×76.5×8.5mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 194,
@@ -10424,7 +12293,17 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.78\" 2800×1264 OLED 120Hz"
+    "screen_detail": "6.78\" 2800×1264 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万超动态鹰眼主摄 OV50H 1/1.31\" f/1.9 OIS + 5000万超广角122° + 5000万直立长焦3x/50x",
+    "camera_front": "5000万"
   },
   {
     "id": 195,
@@ -10476,7 +12355,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.78\" 2652×1200 OLED 120Hz"
+    "screen_detail": "6.78\" 2652×1200 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP RYYB 1/1.56\" f/1.6 OIS | 12MP f/2.2 | 12MP 5x OIS",
+    "camera_front": "60MP超广角+8MP人像"
   },
   {
     "id": 192,
@@ -10534,7 +12423,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.31\" 2640×1216 OLED 120Hz",
-    "dimensions": "150.83×71.76×7.99mm"
+    "dimensions": "150.83×71.76×7.99mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 1/1.56\" f/1.57 5000万 OIS | 5000万 | 5000万 3x光学 OIS",
+    "camera_front": null
   },
   {
     "id": 193,
@@ -10564,7 +12463,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -10588,7 +12488,17 @@
     "network_model_source": "vivo-official",
     "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
     "dimensions": "160×74.3×8mm",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.57 23mm OIS 蔡司 | 50MP f/2.6 70mm 3x OIS 蔡司 | 50MP f/2.0 15mm 119° 蔡司",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 191,
@@ -10644,7 +12554,17 @@
     "charge_protocols_source": "ecosystem-oppo",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.78\" 2780×1264 OLED 120Hz"
+    "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.4"
   },
   {
     "id": 190,
@@ -10699,7 +12619,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
-    "dimensions": "161.98×75.48×7.99mm"
+    "dimensions": "161.98×75.48×7.99mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.57 23mm OIS 蔡司 | 50MP f/2.0 | 50MP 3x OIS 蔡司",
+    "camera_front": "32MP"
   },
   {
     "id": 189,
@@ -10752,7 +12682,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
-    "screen_detail": "6.59\" 2640×1216 OLED 120Hz"
+    "screen_detail": "6.59\" 2640×1216 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-600 50MP 1/1.95\" f/1.6 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 187,
@@ -10808,7 +12748,17 @@
     "charge_protocols_source": "ecosystem-honor",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.78\" 2800×1264 OLED 120Hz 微曲屏"
+    "screen_detail": "6.78\" 2800×1264 OLED 120Hz 微曲屏",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万超动态鹰眼主摄 OV50H 1/1.31\" f/1.9 OIS + 5000万超广角122° + 2亿潜望长焦三星HP3 3x/100x 1/1.4\" f/2.4",
+    "camera_front": "5000万"
   },
   {
     "id": 188,
@@ -10857,7 +12807,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.78\" 2652×1200 OLED 120Hz"
+    "screen_detail": "6.78\" 2652×1200 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "RYYB 50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 8MP f/2.4 3x OIS",
+    "camera_front": "60MP f/2.4 + 8MP 人像"
   },
   {
     "id": 186,
@@ -10895,7 +12855,8 @@
       "红外",
       "防尘抗水",
       "有线投屏",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -10917,7 +12878,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.36\" 2670×1200 OLED 120Hz",
-    "dimensions": "约152.3×71.2×8.1mm"
+    "dimensions": "约152.3×71.2×8.1mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人900 50MP 1/1.31\" f/1.63 23mm OIS | 50MP f/2.0 60mm 浮动 OIS | 50MP f/2.2 14mm",
+    "camera_front": "32MP f/2.0"
   },
   {
     "id": 185,
@@ -10963,7 +12934,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei-nova",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2412×1084 OLED 120Hz"
+    "screen_detail": "6.7\" 2412×1084 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP RYYB f/1.6 OIS | 12MP f/2.2",
+    "camera_front": "60MP超广角"
   },
   {
     "id": 184,
@@ -11011,7 +12992,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 2400×1080 OLED 120Hz"
+    "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.8",
+    "camera_front": "800万"
   },
   {
     "brand": "Apple",
@@ -11040,7 +13031,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -11068,7 +13060,16 @@
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.9\" 2868×1320 OLED 120Hz",
     "dimensions": "163×77.6×8.25mm",
-    "camera_rear": "48MP主摄 f/1.78 OIS + 48MP超广 f/2.2 + 48MP 5x长焦 f/2.8 OIS"
+    "camera_rear": "48MP主摄 f/1.78 OIS + 48MP超广 f/2.2 + 48MP 5x长焦 f/2.8 OIS",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_front": "12MP f/1.9"
   },
   {
     "brand": "Apple",
@@ -11098,7 +13099,8 @@
       "防尘抗水",
       "有线投屏",
       "潜望长焦",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 3.0",
@@ -11126,7 +13128,16 @@
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.3\" 2622×1206 OLED 120Hz",
     "dimensions": "149.6×71.5×8.25mm",
-    "camera_rear": "48MP主摄 f/1.78 OIS + 48MP超广 f/2.2 + 48MP 5x长焦 f/2.8 OIS"
+    "camera_rear": "48MP主摄 f/1.78 OIS + 48MP超广 f/2.2 + 48MP 5x长焦 f/2.8 OIS",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_front": "12MP f/1.9"
   },
   {
     "brand": "Apple",
@@ -11153,7 +13164,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "wireless_charging_w": 15,
     "usb_version": "USB 2.0",
@@ -11181,7 +13193,17 @@
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2556×1179 OLED 120Hz",
-    "dimensions": "160.9×77.8×7.8mm"
+    "dimensions": "160.9×77.8×7.8mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 12MP f/2.2 13mm 120°",
+    "camera_front": "12MP f/1.9 23mm"
   },
   {
     "brand": "Apple",
@@ -11208,7 +13230,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.1-6.4英寸"
+      "6.1-6.4英寸",
+      "防水"
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
@@ -11234,7 +13257,17 @@
     "resolution_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.1\" 2556×1179 OLED 120Hz",
-    "dimensions": "147.6×71.6×7.8mm"
+    "dimensions": "147.6×71.6×7.8mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 12MP f/2.2 13mm 120°",
+    "camera_front": "12MP f/1.9 23mm"
   },
   {
     "id": 211,
@@ -11284,7 +13317,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 2800×1260 OLED 144Hz",
     "dimensions": "163.22×75.88×7.94mm",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.9 OIS | 8MP f/2.2 | 50MP 2x",
+    "camera_front": "16MP"
   },
   {
     "id": 212,
@@ -11341,7 +13384,17 @@
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX5",
     "screen_detail": "6.82\" 3200×1440 AMOLED 120Hz",
-    "dimensions": "163.22×75.88×7.94mm"
+    "dimensions": "163.22×75.88×7.94mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP OV50E 1/1.55\" f/1.88 23mm OIS | 8MP OV08D10 1/4\" | 50MP",
+    "camera_front": "16MP GC16B3"
   },
   {
     "id": 209,
@@ -11390,7 +13443,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 2800×1260 OLED 144Hz",
     "dimensions": "163.22×75.88×7.94mm",
-    "ip_rating": "IP55"
+    "ip_rating": "IP55",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.9 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "REDMI",
@@ -11441,7 +13504,17 @@
     "refresh_hz_source": "series-default",
     "screen_detail": "6.67\" 2712×1220 AMOLED 120Hz",
     "dimensions": "161.11×74.47×8.08mm",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP Sony LYT600(IMX882) 1/1.95\" f/1.5 26mm OIS",
+    "camera_front": "12MP"
   },
   {
     "id": 208,
@@ -11491,7 +13564,17 @@
     "screen_detail": "6.67\" 2712×1220 OLED 120Hz",
     "dimensions": "161.11×74.47×8.06mm",
     "network_model": "24129RT7CC",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8 OIS | 8MP",
+    "camera_front": null
   },
   {
     "id": 207,
@@ -11538,7 +13621,17 @@
     ],
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.8\" 1600×720 LCD 90Hz"
+    "screen_detail": "6.8\" 1600×720 LCD 90Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "5000万 f/1.8",
+    "camera_front": "800万"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -11601,7 +13694,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "7.6\" 2160×1856 / 2376×968 Dynamic AMOLED 2X 120Hz 折叠屏",
-    "dimensions": "展开153.5×132.6×5.6mm"
+    "dimensions": "展开153.5×132.6×5.6mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 12mm | 10MP f/2.4 3x OIS",
+    "camera_front": "10MP f/2.2"
   },
   {
     "id": 224,
@@ -11635,7 +13738,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "7.0英寸以上"
+      "7.0英寸以上",
+      "防水"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -11668,7 +13772,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏",
     "ip_rating": "IP68",
-    "dimensions": "展开约156.6×145.3×4.4mm"
+    "dimensions": "展开约156.6×145.3×4.4mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 40MP f/2.2 13mm | 50MP 1/2.5\" f/3.0 3x OIS",
+    "camera_front": "20MP f/2.2 | 20MP f/2.2"
   },
   {
     "id": 225,
@@ -11736,7 +13850,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.98\" 2488×2224 OLED折叠屏 120Hz 折叠屏",
     "dimensions": "展开约159.4×143.3×4.6mm",
-    "ip_rating": "IPX8"
+    "ip_rating": "IPX8",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 12MP f/2.2 15mm 徕卡 | 10MP f/2.9 115mm 5x OIS 徕卡",
+    "camera_front": "16MP f/2.5"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -11800,7 +13924,17 @@
     "refresh_hz_source": "series-default",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.7\" 2640×1080 / 748×720 Dynamic AMOLED 2X 120Hz 折叠屏",
-    "dimensions": "展开165.1×71.9×6.9mm"
+    "dimensions": "展开165.1×71.9×6.9mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.2 12mm",
+    "camera_front": "10MP f/2.2 23mm"
   },
   {
     "id": 222,
@@ -11865,7 +13999,17 @@
     "refresh_hz_source": "series-default",
     "network_model": "2405CPX3DC",
     "network_model_source": "restored",
-    "screen_detail": "6.86\" 2912×1224 / 1392×1208 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "6.86\" 2912×1224 / 1392×1208 OLED折叠屏 120Hz 折叠屏",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 50MP f/2.0 47mm 2x 浮动 OIS 徕卡",
+    "camera_front": "32MP f/2.0"
   },
   {
     "brand": "NUBIA",
@@ -11917,7 +14061,17 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
+    "camera_front": "16MP f/2.0"
   },
   {
     "id": 220,
@@ -11983,7 +14137,17 @@
     "refresh_hz_source": "series-default",
     "network_model": "2405CPX3DC",
     "network_model_source": "restored",
-    "screen_detail": "6.86\" 2912×1224 OLED折叠屏 120Hz 折叠屏"
+    "screen_detail": "6.86\" 2912×1224 OLED折叠屏 120Hz 折叠屏",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.7 23mm OIS 徕卡 | 50MP f/2.2 15mm 徕卡",
+    "camera_front": "32MP f/2.0"
   },
   {
     "brand": "NUBIA",
@@ -12038,7 +14202,17 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
     "dimensions": "163.98×76.35×8.9mm",
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
+    "camera_front": "16MP f/2.0"
   },
   {
     "brand": "NUBIA",
@@ -12090,7 +14264,17 @@
     "refresh_hz_source": "series-default",
     "os": "RedMagic OS",
     "os_source": "series-default",
-    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
+    "camera_front": "16MP f/2.0"
   },
   {
     "brand": "NUBIA",
@@ -12145,7 +14329,17 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
     "dimensions": "163.98×76.35×8.9mm",
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 15mm | 2MP",
+    "camera_front": "16MP f/2.0"
   },
   {
     "id": 216,
@@ -12198,7 +14392,15 @@
     "refresh_hz_source": "series-default",
     "os_source": "series-default",
     "usb_version_source": "series-default",
-    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz"
+    "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP f/1.8 | 5000万像素",
+    "camera_front": "16MP"
   },
   {
     "id": 215,
@@ -12251,7 +14453,15 @@
     "usb_version_source": "series-default",
     "screen_detail": "6.78\" 2780×1264 AMOLED 120Hz",
     "dimensions": "162.15×75.12×8.6mm",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼LYT-808 50MP 1/1.4\" f/1.6 OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "NUBIA",
@@ -12303,7 +14513,17 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
     "dimensions": "163.98×76.35×8.9mm",
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP f/1.8 | 5000万主摄",
+    "camera_front": null
   },
   {
     "id": 213,
@@ -12354,7 +14574,15 @@
     "charge_protocols_source": "ecosystem-honor-mid",
     "charge_protocols_confidence": "medium",
     "usb_version_source": "series-default",
-    "screen_detail": "6.78\" 2700×1224 AMOLED 120Hz"
+    "screen_detail": "6.78\" 2700×1224 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万(RYYB)",
+    "camera_front": null
   },
   {
     "id": 227,
@@ -12403,7 +14631,17 @@
     "network_model_source": "kalvo",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
     "dimensions": "162.15×75.12×8.6mm",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 | 5000万索尼IMX882 1/1.95\"主摄",
+    "camera_front": null
   },
   {
     "id": 231,
@@ -12434,7 +14672,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "7.0英寸以上"
+      "7.0英寸以上",
+      "防水"
     ],
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
@@ -12466,7 +14705,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "7.92\" 2156×1984 OLED折叠屏 120Hz 折叠屏",
     "ip_rating": "IP68",
-    "dimensions": "展开约157.0×145.0×4.6mm"
+    "dimensions": "展开约157.0×145.0×4.6mm",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 40MP f/2.2 13mm | 50MP f/3.0 3x OIS",
+    "camera_front": "20MP f/2.2"
   },
   {
     "id": 230,
@@ -12514,7 +14763,17 @@
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.55\" 2750×1236 OLED 120Hz"
+    "screen_detail": "6.55\" 2750×1236 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "主摄 50MP 光影猎人800 f/1.6 OIS 徕卡 | 超广 12MP f/2.2 徕卡 | 长焦 50MP f/2.0 2x 徕卡 | 前置 32MP + 32MP超广双摄",
+    "camera_front": "32MP + 32MP超广双摄"
   },
   {
     "id": 229,
@@ -12564,7 +14823,15 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "usb_version_source": "series-default",
-    "screen_detail": "6.67\" 2800×1260 AMOLED 120Hz"
+    "screen_detail": "6.67\" 2800×1260 AMOLED 120Hz",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 8MP",
+    "camera_front": "50MP"
   },
   {
     "model": "Galaxy C55 5G",
@@ -12609,7 +14876,17 @@
     "screen_detail": "6.7\" 2408×1080 Super AMOLED+ 120Hz",
     "dimensions": "163.6×76.6×8.5mm",
     "network_model": "SM-C5560",
-    "ip_rating": "无"
+    "ip_rating": "无",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星JN1 50MP f/1.8 | 后置 5000万(f/1.8 OIS)+800万(f/2.2超广角)+200万(f/2.4微距)",
+    "camera_front": "5000万像素"
   },
   {
     "id": 232,
@@ -12658,7 +14935,17 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 2800×1260 OLED 144Hz",
     "dimensions": "163.72×75.88×7.98mm",
-    "ip_rating": "IP55"
+    "ip_rating": "IP55",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万索尼IMX882 1/1.95\"主摄",
+    "camera_front": null
   },
   {
     "id": 235,
@@ -12709,7 +14996,15 @@
     "usb_version_source": "series-default",
     "screen_detail": "6.6\" 2340×1080 Super AMOLED 120Hz",
     "ip_rating": "IP67",
-    "dimensions": "161.1×77.4×8.2mm"
+    "dimensions": "161.1×77.4×8.2mm",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
+    "camera_front": "32MP"
   },
   {
     "model": "Galaxy A55 5G",
@@ -12757,7 +15052,17 @@
     "network_model_source": "sibling-alias",
     "ip_rating": "IP6X/IPX7",
     "screen_detail": "6.6\" 2340×1080 Super AMOLED 120Hz",
-    "dimensions": "161.1×77.4×8.2mm"
+    "dimensions": "161.1×77.4×8.2mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
+    "camera_front": "32MP"
   },
   {
     "id": 233,
@@ -12789,7 +15094,8 @@
       "潜望长焦",
       "红外",
       "USB3.0",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "features": [
       "IP68",
@@ -12815,7 +15121,15 @@
     "usb_version_source": "series-default",
     "screen_detail": "6.7\" 2780×1264 AMOLED 120Hz",
     "dimensions": "163.5×77.3×8mm",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 50MP f/2.6 70mm 3x OIS | 8MP f/2.2 16mm",
+    "camera_front": "32MP f/2.0"
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -12846,7 +15160,8 @@
       "NFC",
       "防尘抗水",
       "有线投屏",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "brand": "Samsung",
     "ram": "12GB",
@@ -12871,7 +15186,17 @@
     "network_model_source": "public-known",
     "ip_rating": "IP68",
     "screen_detail": "6.8\" 3088×1440 Dynamic AMOLED 2X 120Hz",
-    "dimensions": "162.3×79×8.6mm"
+    "dimensions": "162.3×79×8.6mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP2 200MP 1/1.3\" f/1.7 24mm OIS | 12MP f/2.2 13mm 120° | 10MP f/2.4 3x OIS | 50MP f/3.4 5x OIS",
+    "camera_front": "12MP f/2.2"
   },
   {
     "brand": "Huawei",
@@ -12899,7 +15224,8 @@
       "防尘抗水",
       "NFC",
       "红外",
-      "6.5-6.7英寸"
+      "6.5-6.7英寸",
+      "防水"
     ],
     "release_date": "2024-01-01",
     "price": 3488,
@@ -12933,7 +15259,17 @@
     "refresh_hz": 120,
     "refresh_hz_source": "series-default",
     "screen_detail": "6.5\" 2790×1188 / 512×340 OLED 120Hz 折叠屏",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
+    "camera_front": null
   },
   {
     "id": 240,
@@ -12984,7 +15320,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.72\" 2400×1080 LCD 120Hz"
+    "screen_detail": "6.72\" 2400×1080 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星HP5 200MP 1/1.56\" | 8MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "realme",
@@ -13033,7 +15379,17 @@
     "os": "realme UI",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8",
-    "screen_detail": "6.6\" 2780×1264 OLED 120Hz"
+    "screen_detail": "6.6\" 2780×1264 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX906 50MP f/1.8 OIS | 8MP | 50MP 3.5x",
+    "camera_front": "16MP"
   },
   {
     "id": 238,
@@ -13084,7 +15440,17 @@
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.72\" 2400×1080 LCD 120Hz"
+    "screen_detail": "6.72\" 2400×1080 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 | 8MP",
+    "camera_front": "16MP"
   },
   {
     "id": 236,
@@ -13130,7 +15496,17 @@
     ],
     "charge_protocols_source": "ecosystem-realme",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.7\" 2412×1080 OLED 120Hz"
+    "screen_detail": "6.7\" 2412×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX890 50MP 1/1.56\" f/1.8 OIS | 50MP 3x OIS | 8MP",
+    "camera_front": "32MP"
   },
   {
     "id": 237,
@@ -13177,7 +15553,17 @@
     "charge_protocols_source": "ecosystem-oppo-mid",
     "charge_protocols_confidence": "medium",
     "os_source": "series-default",
-    "screen_detail": "6.57\" 2412×1080 OLED 120Hz"
+    "screen_detail": "6.57\" 2412×1080 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX882 1/1.95\" 50MP f/1.8 | 5000万广角",
+    "camera_front": null
   },
   {
     "id": 244,
@@ -13210,7 +15596,8 @@
       "潜望长焦",
       "6.8-7.0英寸",
       "NFC",
-      "有线投屏"
+      "有线投屏",
+      "≤200g"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -13233,7 +15620,17 @@
     "network_model": "V2362A",
     "network_model_source": "vivo-official",
     "ip_rating": "IP6X/IPX8/IPX9",
-    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP Sony IMX921 1/1.56\" f/1.88 OIS | 8MP | 50MP Sony IMX816 1/2.93\" 2x OIS",
+    "camera_front": "50MP"
   },
   {
     "id": 243,
@@ -13282,7 +15679,17 @@
     "os_source": "series-default",
     "network_model": "V2364A",
     "network_model_source": "vivo-official",
-    "screen_detail": "6.78\" 2800×1260 OLED 120Hz"
+    "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 | 8MP",
+    "camera_front": "50MP"
   },
   {
     "id": 245,
@@ -13333,7 +15740,17 @@
     "network_model_source": "kalvo",
     "screen_detail": "6.67\" 2712×1220 OLED 144Hz",
     "dimensions": "160.46×75.74×8.05mm",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 23mm OIS | 8MP",
+    "camera_front": "16MP"
   },
   {
     "id": 246,
@@ -13388,7 +15805,17 @@
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.82\" 3168×1440 OLED 144Hz",
-    "dimensions": "162.95×76.5×8.15mm"
+    "dimensions": "162.95×76.5×8.15mm",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "索尼IMX921 50MP 1/1.56\" f/1.68 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
+    "camera_front": "32MP f/2.0"
   },
   {
     "brand": "NUBIA",
@@ -13446,7 +15873,17 @@
     "screen_detail": "6.8\" 2480×1116 AMOLED 144Hz",
     "dimensions": "163.98×76.35×8.9mm",
     "network_model": "NX769J",
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 | 2MP",
+    "camera_front": "16MP"
   },
   {
     "brand": "NUBIA",
@@ -13500,7 +15937,17 @@
     "screen_detail": "6.8\" 2480×1116 AMOLED 144Hz",
     "dimensions": "163.98×76.35×8.9mm",
     "network_model": "NX769J",
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 | 2MP",
+    "camera_front": "16MP"
   },
   {
     "id": 253,
@@ -13547,7 +15994,17 @@
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX4",
-    "screen_detail": "6.67\" 1604×720 LCD 120Hz"
+    "screen_detail": "6.67\" 1604×720 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8",
+    "camera_front": "8MP f/2.0"
   },
   {
     "id": 254,
@@ -13590,7 +16047,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.67\" 1604×720 LCD 120Hz"
+    "screen_detail": "6.67\" 1604×720 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8",
+    "camera_front": "8MP f/2.0"
   },
   {
     "id": 255,
@@ -13635,7 +16102,17 @@
     ],
     "charge_protocols_source": "ecosystem-huawei",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.78\" 2700×1224 AMOLED 120Hz 曲面屏"
+    "screen_detail": "6.78\" 2700×1224 AMOLED 120Hz 曲面屏",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.9 RYYB 1/1.56\" | 2MP",
+    "camera_front": "8MP f/2.0"
   },
   {
     "id": 256,
@@ -13681,7 +16158,17 @@
     ],
     "charge_protocols_source": "ecosystem-xiaomi",
     "charge_protocols_confidence": "medium",
-    "screen_detail": "6.88\" 1640×720 LCD 120Hz"
+    "screen_detail": "6.88\" 1640×720 LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": true,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "1300万",
+    "camera_front": "500万"
   },
   {
     "id": 258,
@@ -13733,7 +16220,17 @@
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
     "ip_rating": "IP6X/IPX5",
-    "screen_detail": "6.74\" HD+ (1604×720) LCD 120Hz"
+    "screen_detail": "6.74\" HD+ (1604×720) LCD 120Hz",
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "豪威OV64B 64MP f/1.8 | 8MP",
+    "camera_front": "16MP"
   },
   {
     "id": 262,
@@ -13810,7 +16307,11 @@
       "resolution": "1972×1248",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "has_nfc": true,
+    "has_ir": false,
+    "esim": false,
+    "reverse_charging_w": 0
   },
   {
     "id": 263,
@@ -13886,7 +16387,11 @@
       "resolution": "1048×948",
       "refresh_hz": 120
     },
-    "fold_type": "竖向折叠"
+    "fold_type": "竖向折叠",
+    "has_nfc": true,
+    "has_ir": false,
+    "esim": false,
+    "reverse_charging_w": 0
   },
   {
     "id": 264,
@@ -13965,7 +16470,11 @@
       "resolution": "2520×1080",
       "refresh_hz": 120
     },
-    "fold_type": "横向折叠"
+    "fold_type": "横向折叠",
+    "has_nfc": true,
+    "has_ir": false,
+    "esim": false,
+    "reverse_charging_w": 0
   },
   {
     "id": 266,
@@ -13988,7 +16497,7 @@
     "dimensions": null,
     "ip_rating": null,
     "camera_rear": "50MP主摄 + 50MP超广角 + 50MP长焦",
-    "camera_front": "50MP",
+    "camera_front": null,
     "usb": "USB 3.0 Type-C",
     "nfc": true,
     "ir": false,
@@ -14023,7 +16532,16 @@
     "resolution": "2780×1264",
     "camera_desc": "50MP云台主摄 f/1.6 OIS + 50MP超广角 + 50MP长焦",
     "detailed_camera": "主摄: 50MP 1/1.4\" f/1.6 23mm 云台OIS | 超广: 50MP | 长焦: 50MP | 前置: 50MP",
-    "has_tele": true
+    "has_tele": true,
+    "wireless_charging_w": null,
+    "has_nfc": true,
+    "has_ir": false,
+    "wifi": "WiFi 6",
+    "bluetooth": "Bluetooth 5.3",
+    "fingerprint": "屏下光学指纹",
+    "esim": false,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "brand": "vivo",
@@ -14072,14 +16590,21 @@
       "潜望长焦",
       "6500mAh+",
       "6.5-6.7英寸",
-      "≤200g"
+      "≤200g",
+      "防水"
     ],
     "score": 0,
     "verified_at": "2026-07-24",
     "source": "https://www.vivo.com.cn/vivo/x300e/",
     "network_model": "V2612A",
     "id": "vivo-x300e",
-    "screen_form": "直屏"
+    "screen_form": "直屏",
+    "has_nfc": true,
+    "has_ir": false,
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 267,
@@ -14111,7 +16636,8 @@
       "NFC",
       "红外",
       "防尘抗水",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "features": [
       "IP69K",
@@ -14143,7 +16669,13 @@
     "verified_at": "2026-08-05",
     "date_precision": "day",
     "bluetooth": "5.1",
-    "wifi": "Wi-Fi 5"
+    "wifi": "Wi-Fi 5",
+    "fingerprint": "屏下光学指纹",
+    "esim": true,
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0,
+    "camera_rear": "50MP f/1.8 26mm OIS两轴防抖 | 2MP f/2.4 22mm",
+    "camera_front": "50MP f/2.0 18mm AF超广角"
   },
   {
     "id": 268,
@@ -14188,7 +16720,8 @@
       "红外",
       "有线投屏",
       "潜望长焦",
-      "6.8-7.0英寸"
+      "6.8-7.0英寸",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -14214,11 +16747,16 @@
     "price_note": "2026-08-11发布: 12+256GB=4199元, 16+256GB=4599元, 12+512GB=4799元, 16+512GB=5199元, 16+1TB=5999元(限量2万台)",
     "verified_at": "2026-08-13",
     "camera_rear": "200MP HP5 1/1.56\" OIS主摄 + 50MP 17mm超广角 + 50MP 5X潜望长焦(120mm OIS, 100X超级变焦)",
-    "camera_front": "32MP",
+    "camera_front": null,
     "camera_main_mp": 200,
     "network_model": null,
     "network_model_source": null,
-    "source_url": null
+    "source_url": null,
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 269,
@@ -14257,7 +16795,8 @@
       "红外",
       "有线投屏",
       "6.5-6.7英寸",
-      "直屏"
+      "直屏",
+      "防水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -14283,11 +16822,16 @@
     "price_note": "2026-08-11发布: 12+256GB=3699元, 16+256GB=4099元, 12+512GB=4299元, 16+512GB=4699元",
     "verified_at": "2026-08-13",
     "camera_rear": "200MP HP5 1/1.56\" OIS主摄 + 8MP超广角 + 50MP OIS直立长焦(2.5X, 10cm长焦微距)",
-    "camera_front": "32MP",
+    "camera_front": null,
     "camera_main_mp": 200,
     "network_model": null,
     "network_model_source": null,
-    "source_url": null
+    "source_url": null,
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   },
   {
     "id": 270,
@@ -14311,7 +16855,7 @@
     "charging_w": 120,
     "wireless_charging_w": 50,
     "camera_main_mp": 200,
-    "camera_front": "50MP f/2.0 广角",
+    "camera_front": "50MP",
     "camera_rear": "200MP OV52A 1/1.28\" f/1.6 OIS+云台双防抖主摄(4X无损) + 200MP潜望长焦 1/1.4\" f/2.6 2.7X OIS 20cm微距 + 50MP超广角 122° f/2.0 自动对焦2.5cm微距",
     "camera_desc": "4DoF钛合金灵巧云台 200MP OV52A主摄 1/1.28\" f/1.6 | 200MP潜望长焦 1/1.4\" f/2.6 2.7X | 50MP超广角122° | 前置50MP",
     "detailed_camera": "主摄: 豪威OV52A 200MP 1/1.28\" f/1.6 23mm OIS+云台双防抖 CIPA7.5级 4X无损变焦 | 潜望长焦: 200MP 1/1.4\" f/2.6 2.7X OIS 20cm微距 | 超广角: 50MP 122° f/2.0 自动对焦2.5cm微距 | 前置: 50MP广角",
@@ -14372,6 +16916,11 @@
     "charge_protocols_confidence": "medium",
     "charge_protocols_source": "ecosystem-honor",
     "completeness_score": 95,
-    "source_url": null
+    "source_url": null,
+    "has_nfc": true,
+    "has_ir": true,
+    "fingerprint": "屏下光学指纹",
+    "sim_type": "双 nano-SIM",
+    "reverse_charging_w": 0
   }
 ]
