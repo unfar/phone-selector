@@ -21,11 +21,11 @@
       <div class="search" v-if="view === 'list'">
         <span class="ico">🔍</span>
         <input :value="searchQuery" @input="onSearch" placeholder="搜索机型 / 品牌 / 处理器" />
-        <span class="x" v-if="searchQuery" @click="clearSearch">✕</span>
+        <span class="x" v-if="searchQuery" @click="clearSearch" role="button" aria-label="清除搜索">✕</span>
       </div>
 
       <div class="top-actions">
-        <button class="btn ghost theme-toggle" @click="toggleTheme" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
+        <button class="btn ghost theme-toggle" @click="toggleTheme" :aria-label="theme === 'dark' ? '切换浅色' : '切换暗色'" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
         <button v-if="view !== 'list'" class="btn ghost" @click="openList">← 返回列表</button>
@@ -40,7 +40,7 @@
         <div class="filter-drawer">
           <div class="filter-drawer-head">
             <strong>筛选条件</strong>
-            <button class="btn ghost" @click="showFilterDrawer = false">✕</button>
+            <button class="btn ghost" @click="showFilterDrawer = false" aria-label="关闭筛选">✕</button>
           </div>
           <div class="filter-drawer-body">
             <div class="section" :class="{ open: sectionOpen.brand }">
@@ -119,13 +119,16 @@
 
         <div class="active-line" v-if="activePills.length">
           <span class="pill" v-for="(p,i) in activePills" :key="i">
-            {{ p.label }} <button @click="p.clear">✕</button>
+            {{ p.label }} <button @click="p.clear" aria-label="移除筛选条件 {{ p.label }}">✕</button>
           </span>
           <button class="btn ghost" style="height:30px" @click="clearAllFilters">全部清空</button>
         </div>
 
         <div v-if="loading" class="empty"><div class="big">⏳</div>加载中…</div>
-        <div v-else-if="error" class="empty"><div class="big">😢</div>{{ error }}</div>
+        <div v-else-if="error" class="empty">
+          <div class="big">😢</div>{{ error }}
+          <div style="margin-top:12px"><button class="btn primary" @click="reloadData">重新加载</button></div>
+        </div>
         <div v-else-if="!sortedPhones.length" class="empty">
           <div class="big">{{ showFavoritesOnly ? '⭐' : '😕' }}</div>
           <template v-if="showFavoritesOnly">
@@ -441,6 +444,9 @@
       </div>
     </div>
 
+    <!-- 返回顶部（滚动超出一屏时显示） -->
+    <button v-show="showBackTop" class="back-top" @click="scrollToTop" aria-label="返回顶部">↑</button>
+
     <footer>
       机选 · 浅色通透目录风 · 列表 / 详情 / 对比<br>
       数据来源：各品牌官网 · 截至 {{ dataDate }} · 共计 {{ resultCount }} 款<br>
@@ -544,11 +550,20 @@ function cameraFull(p) {
   return p.camera_desc || p.detailed_camera || '—'
 }
 
-function onSearch(e) { searchQuery.value = e.target.value; updateHash() }
+let searchTimer = null
+function onSearch(e) {
+  const v = e.target.value
+  // 防抖 300ms：避免输入法组合阶段反复过滤，也减少高频输入开销
+  clearTimeout(searchTimer)
+  searchTimer = setTimeout(() => {
+    searchQuery.value = v
+    updateHash()
+  }, 300)
+}
 function setSort(sort) { currentSort.value = sort; updateHash() }
 function onMoreSort(e) { if (e.target.value) setSort(e.target.value); e.target.value = ''; }
 const moreSortValue = ref('')
-function clearSearch() { searchQuery.value = ''; updateHash() }
+function clearSearch() { clearTimeout(searchTimer); searchQuery.value = ''; updateHash() }
 function toggleBrand(b) {
   const s = selectedBrands.value
   if (s.has(b)) s.delete(b)
@@ -604,6 +619,9 @@ const activePills = computed(() => {
 })
 
 const showFilterDrawer = ref(false)
+const showBackTop = ref(false)
+function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }) }
+function onScroll() { showBackTop.value = window.scrollY > 600 }
 const fabRef = ref(null)
 const fabDragging = ref(false)
 const fabPos = ref({ x: 0, y: 0 })
@@ -769,6 +787,19 @@ function toggleTheme() {
   applyTheme(theme.value)
 }
 
+/** 加载/重新加载数据（错误态"重新加载"按钮复用） */
+function reloadData() {
+  loading.value = true
+  error.value = null
+  try {
+    setPhones(phonesData.filter(p => p.processor && p.price))
+    restoreStateFromHash()
+    updateHash()
+  } finally {
+    loading.value = false
+  }
+}
+
 onMounted(async () => {
   applyTheme(theme.value)
   // 用户未手动选择时，跟随系统明暗切换
@@ -779,21 +810,34 @@ onMounted(async () => {
     }
   })
   try {
-    setPhones(phonesData.filter(p => p.processor && p.price))
-    restoreStateFromHash()
-    updateHash()
+    reloadData()
   } catch (e) {
     loading.value = false
     error.value = e.message
   }
 
-  // FAB 拖动
+  // 返回顶部按钮显隐
+  window.addEventListener('scroll', onScroll, { passive: true })
+
+  // FAB 拖动（阈值 10px 防误触，位置 localStorage 持久化）
   const el = fabRef.value
   if (!el) return
-  // 初始定位：右侧屏幕 1/4 高度
-  const initTop = window.innerHeight * 0.25
-  el.style.top = initTop + 'px'
-  el.style.right = '16px'
+  const FAB_POS_KEY = 'ps_fab_pos'
+  let savedPos = null
+  try { savedPos = JSON.parse(localStorage.getItem(FAB_POS_KEY) || 'null') } catch {}
+  // 初始定位：优先用记忆位置，否则右侧屏幕 1/4 高度
+  if (savedPos && savedPos.side) {
+    el.style.top = savedPos.top + 'px'
+    if (savedPos.side === 'left') { el.style.left = '8px'; el.style.right = 'auto' }
+    else { el.style.right = '8px'; el.style.left = 'auto' }
+  } else {
+    const initTop = window.innerHeight * 0.25
+    el.style.top = initTop + 'px'
+    el.style.right = '16px'
+  }
+  function saveFabPos(side) {
+    try { localStorage.setItem(FAB_POS_KEY, JSON.stringify({ top: el.offsetTop, side })) } catch {}
+  }
 
   function onStart(e) {
     fabMoved = false
@@ -810,7 +854,7 @@ onMounted(async () => {
     const dx = touch.clientX - fabDragStart.x
     const dy = touch.clientY - fabDragStart.y
     fabDragStart = { x: touch.clientX, y: touch.clientY }
-    if (Math.abs(dx) > 5 || Math.abs(dy) > 5) fabMoved = true
+    if (Math.abs(dx) > 10 || Math.abs(dy) > 10) fabMoved = true
     let top = el.offsetTop + dy
     let left = el.offsetLeft + dx
     top = Math.max(10, Math.min(top, window.innerHeight - el.offsetHeight - 100))
@@ -830,9 +874,11 @@ onMounted(async () => {
     if (cx < window.innerWidth / 2) {
       el.style.left = '8px'
       el.style.right = 'auto'
+      saveFabPos('left')
     } else {
       el.style.left = 'auto'
       el.style.right = '8px'
+      saveFabPos('right')
     }
   }
   function onGlobalMouseUp(e) {
