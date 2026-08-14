@@ -166,7 +166,7 @@
               </div>
               <div class="card-actions">
                 <button class="btn fav-btn" :class="{ on: isFavorite(p.id) }" @click="toggleFavorite(p.id)" :title="isFavorite(p.id) ? '取消收藏' : '收藏'">
-                  {{ isFavorite(p.id) ? '★ 已收藏' : '☆ 收藏' }}
+                  {{ isFavorite(p.id) ? '★' : '☆' }}
                 </button>
                 <button class="btn" @click="openDetail(p.id)">详情</button>
                 <button class="btn primary" @click="toggleCompare(p.id)">{{ isCompared(p.id) ? '已加入' : '+ 对比' }}</button>

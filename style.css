@@ -379,7 +379,9 @@ a{color:inherit}
   border:1px solid #bae6fd;border-radius:999px;padding:3px 9px;white-space:nowrap
 }
 .card-actions{display:flex;gap:8px;margin-top:auto}
-.card-actions .btn{flex:1;justify-content:center;height:38px}
+.card-actions .btn{flex:1;justify-content:center;height:38px;min-width:0;white-space:nowrap;overflow:hidden}
+/* 卡片收藏按钮：紧凑星形图标，不参与 flex 均分，避免文字按钮挤爆布局 */
+.card-actions .fav-btn{flex:0 0 40px;width:40px;padding:0}
 
 /* table */
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:20px;background:#fff}
@@ -721,6 +723,7 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
   .metric .v{font-size:.8rem}
   .card-actions{flex-direction:row}
   .card-actions .btn{width:auto;height:36px;font-size:.82rem}
+  .card-actions .fav-btn{flex:0 0 36px;width:36px;padding:0}
   .detail-hero{padding:16px;border-radius:22px}
   .detail-hero h2{font-size:1.35rem}
   .detail-hero .price-lg{font-size:1.25rem}
