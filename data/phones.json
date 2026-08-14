@@ -16197,7 +16197,9 @@
     "camera_front": null,
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8"
+    "camera_main_aperture": "f/1.8",
+    "network_model": "PMT110",
+    "network_model_source": "oppo.com-official"
   },
   {
     "id": 244,
