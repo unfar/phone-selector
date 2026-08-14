@@ -1,0 +1,26 @@
+{
+  "name": "机选 · 智能手机选购助手",
+  "short_name": "机选",
+  "description": "国行智能手机参数筛选、影像对比与选购决策助手",
+  "lang": "zh-CN",
+  "start_url": "/phone-selector/",
+  "scope": "/phone-selector/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f766e",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/phone-selector/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/phone-selector/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

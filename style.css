@@ -505,6 +505,7 @@ table.list .name-cell:hover{color:var(--accent)}
 .compare-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px;flex-wrap:wrap}
 .compare-head h2{font-size:1.15rem}
 .compare-sub{color:var(--muted);font-size:.82rem;margin-top:4px}
+.compare-sub .diff-count{color:#dc2626}
 .compare-head-actions{display:flex;gap:8px;flex-wrap:wrap}
 .compare-table-wrap{overflow:auto;border:1px solid var(--line);border-radius:20px;background:#fff}
 table.compare{width:100%;border-collapse:separate;border-spacing:0;min-width:720px}

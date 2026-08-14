@@ -126,7 +126,14 @@
 
         <div v-if="loading" class="empty"><div class="big">⏳</div>加载中…</div>
         <div v-else-if="error" class="empty"><div class="big">😢</div>{{ error }}</div>
-        <div v-else-if="!sortedPhones.length" class="empty"><div class="big">😕</div>没有符合条件的机型</div>
+        <div v-else-if="!sortedPhones.length" class="empty">
+          <div class="big">{{ showFavoritesOnly ? '⭐' : '😕' }}</div>
+          <template v-if="showFavoritesOnly">
+            {{ favorites.length ? '收藏列表中没有符合条件的机型' : '还没有收藏任何机型' }}
+            <div style="margin-top:10px;font-size:.85rem;color:var(--muted)">在卡片或详情页点击 ☆ 即可收藏心仪机型</div>
+          </template>
+          <template v-else>没有符合条件的机型</template>
+        </div>
 
         <!-- cards -->
         <div v-else-if="viewMode === 'cards'" class="grid">
@@ -187,6 +194,7 @@
                 <td>{{ p.weight_g ? p.weight_g + 'g' : '—' }}</td>
                 <td>{{ brief(p).ip }}</td>
                 <td>
+                  <button class="mini-btn" :class="{ on: isFavorite(p.id) }" @click="toggleFavorite(p.id)" :title="isFavorite(p.id) ? '取消收藏' : '收藏'">{{ isFavorite(p.id) ? '★' : '☆' }}</button>
                   <button class="mini-btn" @click="openDetail(p.id)">详情</button>
                   <button class="mini-btn" :class="{ on: isCompared(p.id) }" @click="toggleCompare(p.id)">
                     {{ isCompared(p.id) ? '已选' : '对比' }}
@@ -347,7 +355,12 @@
         <div class="compare-head">
           <div>
             <h2>规格对比</h2>
-            <p class="compare-sub">已选 {{ comparePhones.length }} / 4 款 · 差异项高亮</p>
+            <p class="compare-sub">
+              已选 {{ comparePhones.length }} / 4 款
+              <template v-if="comparePhones.length >= 2">
+                · <b class="diff-count">{{ diffCount }}</b> 项有差异
+              </template>
+            </p>
           </div>
           <div class="compare-head-actions">
             <button class="btn" :class="{ active: compareDiffOnly }" @click="compareDiffOnly = !compareDiffOnly" v-if="comparePhones.length >= 2">
@@ -735,22 +748,36 @@ const visibleCompareRows = computed(() => {
   const rows = compareRows.value
   return compareDiffOnly.value ? rows.filter(r => !r.same) : rows
 })
+/** 差异项数量（供"仅看差异"徽标显示） */
+const diffCount = computed(() => compareRows.value.filter(r => !r.same).length)
 
 const dataDate = computed(() => {
   // Use the most recent verified_at date from phones
   const dates = phones.value.map(p => p.verified_at).filter(Boolean).sort().reverse()
   return dates[0] || '—'
 })
-const theme = ref(localStorage.getItem('ps-theme') || 'light')
+// 主题：优先用用户手动选择，否则跟随系统偏好
+const systemDark = window.matchMedia?.('(prefers-color-scheme: dark)')
+const theme = ref(localStorage.getItem('ps-theme') || (systemDark?.matches ? 'dark' : 'light'))
 
+function applyTheme(t) {
+  document.documentElement.setAttribute('data-theme', t)
+}
 function toggleTheme() {
   theme.value = theme.value === 'dark' ? 'light' : 'dark'
   localStorage.setItem('ps-theme', theme.value)
-  document.documentElement.setAttribute('data-theme', theme.value)
+  applyTheme(theme.value)
 }
 
 onMounted(async () => {
-  document.documentElement.setAttribute('data-theme', theme.value)
+  applyTheme(theme.value)
+  // 用户未手动选择时，跟随系统明暗切换
+  systemDark?.addEventListener?.('change', e => {
+    if (!localStorage.getItem('ps-theme')) {
+      theme.value = e.matches ? 'dark' : 'light'
+      applyTheme(theme.value)
+    }
+  })
   try {
     setPhones(phonesData.filter(p => p.processor && p.price))
     restoreStateFromHash()
