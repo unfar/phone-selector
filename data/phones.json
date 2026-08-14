@@ -1195,8 +1195,8 @@
     "usb_version": "USB 2.0",
     "weight_g": 207,
     "os": "ColorOS 16",
-    "camera_desc": "200MP主摄 1/1.4 | 50MP超广 | 50MP潜望 3x | 50MP前置",
-    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.7 微云台 OIS| 超广: 50MP f/2.2 15mm | 潜望: 50MP f/2.6 70mm 3x OIS | 前置: 50MP f/2.0",
+    "camera_desc": "2亿主摄(云台OIS) f/1.8 | 5000万超广角 f/2.0 | 5000万长焦 f/2.8 3.5x",
+    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.8 24mm 云台OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 80mm 3.5x OIS | 前置: 5000万 f/2.0 18mm",
     "has_tele": true,
     "has_nfc": true,
     "has_ir": false,
@@ -1249,7 +1249,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.7"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 16,
