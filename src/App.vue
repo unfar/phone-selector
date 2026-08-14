@@ -76,9 +76,16 @@
         </div>
       </div>
 
-      <!-- 浮动筛选按钮（可拖动，全端） -->
+      <!-- 移动端：顶部筛选栏（替代悬浮FAB，避免遮挡工具栏） -->
+      <button class="mobile-filter-bar" @click="showFilterDrawer = true" aria-label="打开筛选">
+        <span class="mfb-icon">🔍</span>
+        <span class="mfb-text">筛选</span>
+        <span v-if="activeFilterCount" class="mfb-count">{{ activeFilterCount }}</span>
+      </button>
+
+      <!-- 桌面端：浮动筛选按钮（可拖动） -->
       <button
-        class="filter-fab"
+        class="filter-fab desktop-only"
         ref="fabRef"
         v-show="view === 'list'"
         @click="onFabClick"
@@ -95,25 +102,25 @@
           </div>
           <div class="toolbar-right">
             <button class="sort-btn fav-toggle" :class="{ on: showFavoritesOnly }" @click="showFavoritesOnly = !showFavoritesOnly" :title="showFavoritesOnly ? '显示全部' : '只看收藏'">
-              ★ 收藏{{ favorites.length ? `(${favorites.length})` : '' }}
+              <span class="fav-full">★ 收藏{{ favorites.length ? `(${favorites.length})` : '' }}</span>
+              <span class="fav-mini">★{{ favorites.length ? ` ${favorites.length}` : '' }}</span>
             </button>
-            <div class="seg">
+            <div class="seg desktop-only">
               <button :class="{ on: viewMode === 'cards' }" @click="setViewMode('cards')">卡片</button>
               <button :class="{ on: viewMode === 'table' }" @click="setViewMode('table')">表格</button>
             </div>
             <div class="sort-btns">
               <button class="sort-btn" :class="{ on: currentSort === 'newest' }" @click="setSort('newest')">最新</button>
-              <button class="sort-btn" :class="{ on: currentSort === 'price_asc' }" @click="setSort('price_asc')">价格 ↑</button>
-              <button class="sort-btn" :class="{ on: currentSort === 'price_desc' }" @click="setSort('price_desc')">价格 ↓</button>
+              <button class="sort-btn mobile-sort-btn" :class="{ on: currentSort === 'price_asc' || currentSort === 'price_desc' }" @click="togglePriceSort">价格 {{ currentSort === 'price_desc' ? '↓' : currentSort === 'price_asc' ? '↑' : '' }}</button>
+              <select class="select mobile-sort-select" :value="moreSortValue" @change="onMoreSort($event)">
+                <option value="" disabled>更多…</option>
+                <option value="battery_desc">电池 ↓</option>
+                <option value="weight_asc">重量 ↑</option>
+                <option value="screen_desc">屏幕 ↓</option>
+                <option value="charging_desc">快充 ↓</option>
+                <option value="brand_asc">品牌 A-Z</option>
+              </select>
             </div>
-            <select class="select" :value="moreSortValue" @change="onMoreSort($event)">
-              <option value="" disabled>更多…</option>
-              <option value="battery_desc">电池 ↓</option>
-              <option value="weight_asc">重量 ↑</option>
-              <option value="screen_desc">屏幕 ↓</option>
-              <option value="charging_desc">快充 ↓</option>
-              <option value="brand_asc">品牌 A-Z</option>
-            </select>
           </div>
         </div>
 
@@ -218,14 +225,15 @@
         <div class="price-lg">{{ priceText(detailPhone) }}</div>
         <div class="meta" style="margin-top:8px">{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</div>
         <div class="detail-actions">
-          <button class="btn fav-btn" :class="{ on: isFavorite(detailPhone.id) }" @click="toggleFavorite(detailPhone.id)">
-            {{ isFavorite(detailPhone.id) ? '★ 已收藏' : '☆ 收藏' }}
+          <button class="btn fav-btn" :class="{ on: isFavorite(detailPhone.id) }" @click="toggleFavorite(detailPhone.id)" :aria-label="isFavorite(detailPhone.id) ? '取消收藏' : '收藏'">
+            <span class="fav-full">{{ isFavorite(detailPhone.id) ? '★ 已收藏' : '☆ 收藏' }}</span>
+            <span class="fav-mini">{{ isFavorite(detailPhone.id) ? '★' : '☆' }}</span>
           </button>
-          <button class="btn primary" @click="toggleCompare(detailPhone.id)">
+          <button class="btn primary detail-compare-btn" @click="toggleCompare(detailPhone.id)">
             {{ isCompared(detailPhone.id) ? '已加入对比' : '+ 加入对比' }}
           </button>
-          <button class="btn" @click="openCompare" v-if="compareList.length >= 2">去对比页</button>
-          <button class="btn" @click="copyShareLink">🔗 分享</button>
+          <button class="btn detail-gocompare-btn" @click="openCompare" v-if="compareList.length >= 2">去对比</button>
+          <button class="btn detail-share-btn" @click="copyShareLink" aria-label="分享链接">🔗 分享</button>
         </div>
         <div class="detail-nav" v-if="prevNextPhones.prev || prevNextPhones.next">
           <button class="btn ghost" :disabled="!prevNextPhones.prev" @click="prevDetail" title="上一款">
@@ -397,8 +405,8 @@
             </div>
           </div>
 
-          <!-- 全端：按参数分行的卡片对比 -->
-          <div class="compare-cards">
+          <!-- 全端：按参数分行的卡片对比（桌面） -->
+          <div class="compare-cards desktop-only">
             <div
               v-for="row in visibleCompareRows"
               :key="row.l"
@@ -422,6 +430,30 @@
                 </div>
               </div>
             </div>
+            <div v-if="!visibleCompareRows.length" class="empty" style="padding:28px 12px">
+              当前没有差异项
+            </div>
+          </div>
+
+          <!-- 移动端：横向滑动对比表（机型为列，参数为行，首列吸顶） -->
+          <div class="compare-table-wrap mobile-only">
+            <table class="compare compare-mobile">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th v-for="(p, idx) in comparePhones" :key="p.id" class="phone-col-title">
+                    {{ brief(p).name }}
+                    <div class="phone-col-sub">{{ priceText(p) }}</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="row in visibleCompareRows" :key="row.l" :class="{ 'row-diff': !row.same }">
+                  <td>{{ row.l }}</td>
+                  <td v-for="(val, idx) in row.values" :key="idx" :class="row.same ? 'same' : 'diff'">{{ val }}</td>
+                </tr>
+              </tbody>
+            </table>
             <div v-if="!visibleCompareRows.length" class="empty" style="padding:28px 12px">
               当前没有差异项
             </div>
@@ -561,6 +593,11 @@ function onSearch(e) {
   }, 300)
 }
 function setSort(sort) { currentSort.value = sort; updateHash() }
+/** 移动端价格排序：在 升/降 之间切换 */
+function togglePriceSort() {
+  if (currentSort.value === 'price_asc') setSort('price_desc')
+  else setSort('price_asc')
+}
 function onMoreSort(e) { if (e.target.value) setSort(e.target.value); e.target.value = ''; }
 const moreSortValue = ref('')
 function clearSearch() { clearTimeout(searchTimer); searchQuery.value = ''; updateHash() }
