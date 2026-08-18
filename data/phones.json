@@ -7376,9 +7376,9 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "detailed_camera": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2 | 前置: 1600万 f/2.45",
-    "release_date": "2025-10-01",
+    "release_date": "2025-10-31",
     "price": 3599,
-    "date_precision": "month",
+    "date_precision": "day",
     "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
@@ -7409,7 +7409,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "dimensions": "163.37×76.71×8.05mm",
-    "camera_front_aperture": "f/2.45"
+    "camera_front_aperture": "f/2.45",
+    "price_note": "2025-10-31发布: 12+256GB=3599元, 16+256GB=3999元, 12+512GB=4099元, 16+512GB=4499元, 16+1TB=5599元 (发布会到手价2599元起)"
   },
   {
     "brand": "realme",
@@ -18823,8 +18824,8 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "release_date": "2026-08-01",
-    "date_precision": "month",
+    "release_date": "2026-08-18",
+    "date_precision": "day",
     "price": 3699,
     "network_model": "V2573A",
     "network_model_source": "vivo.com.cn-official",
@@ -18837,6 +18838,7 @@
     "charge_protocols_confidence": "high",
     "verified_at": "2026-08-15",
     "completeness_score": 94,
-    "source_url": "https://m.vivo.com.cn/vivo/param/iqooneo11zun"
+    "source_url": "https://m.vivo.com.cn/vivo/param/iqooneo11zun",
+    "price_note": "2026-08-18发布: 12+256GB=3699元, 16+256GB=4099元, 12+512GB=4299元, 16+512GB=4699元 (国补到手价2899元起)"
   }
 ]
