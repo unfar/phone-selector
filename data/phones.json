@@ -1279,7 +1279,7 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1436,7 +1436,7 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2849,7 +2849,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2911,7 +2911,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2978,7 +2978,7 @@
     "id": 39,
     "refresh_hz": 120,
     "resolution": "3088×1440",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -3053,7 +3053,7 @@
     "id": 38,
     "refresh_hz": 120,
     "resolution": "3120×1440",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -3130,7 +3130,7 @@
     "id": 37,
     "refresh_hz": 120,
     "resolution": "2340×1080",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -3207,7 +3207,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3275,7 +3275,7 @@
     "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 超广: 50MP f/2.0 14mm | 潜望长焦: 50MP 1/2.5\" f/2.6 80mm 3.5x OIS | 前置: 50MP f/2.0",
     "release_date": "2026-01-19",
     "price": 7999,
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3910,7 +3910,7 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6408,7 +6408,7 @@
     "price": 1709,
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -7343,17 +7343,17 @@
     "id": 100,
     "brand": "iQOO",
     "model": "iQOO Neo11",
-    "processor": "骁龙8 Elite 5",
-    "screen_size": 6.78,
+    "processor": "骁龙8至尊版 (4.32GHz×2+3.53GHz×6, 3nm)",
+    "screen_size": 6.82,
     "refresh_hz": 144,
     "screen_type": "OLED",
-    "resolution": "2800×1260",
+    "resolution": "3168×1440",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "battery_mah": 7500,
-    "charging_w": 120,
+    "charging_w": 100,
     "weight_g": 211,
-    "camera_desc": "5000万主摄 | 5000万超广角",
+    "camera_desc": "5000万 LYT700V 超防抖主摄 f/1.88 + 800万超广角",
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
@@ -7375,9 +7375,9 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼IMX882 50MP 1/1.95\" f/1.8 | 超广: 50MP f/2.2",
-    "release_date": "2025-08-01",
-    "price": 3099,
+    "detailed_camera": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2 | 前置: 1600万 f/2.45",
+    "release_date": "2025-10-01",
+    "price": 3599,
     "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
@@ -7401,13 +7401,15 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 | 50MP f/2.2",
-    "camera_front": null,
+    "camera_front": "1600万 f/2.45",
     "network_model": "V2520A",
-    "camera_main_sensor": "索尼IMX882",
-    "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
+    "camera_main_sensor": "索尼LYT700V",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.88",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "dimensions": "163.37×76.71×8.05mm",
+    "camera_front_aperture": "f/2.45"
   },
   {
     "brand": "realme",
@@ -7782,7 +7784,7 @@
     "fold_type": "三折叠",
     "resolution": "2400×1916 / 2520×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -7867,7 +7869,7 @@
     "fold_type": "横向折叠",
     "resolution": "2160×1856 / 2376×968",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -8045,7 +8047,7 @@
     "fold_type": "纵向折叠",
     "resolution": "2640×1080 / 1066×1056",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -8197,7 +8199,7 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8269,7 +8271,7 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8341,7 +8343,7 @@
     "release_date": "2025-07-01",
     "price": 4799,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8416,7 +8418,7 @@
     "release_date": "2025-07-01",
     "price": 3699,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8551,7 +8553,7 @@
     "release_date": "2025-07-01",
     "price": 3299,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9356,7 +9358,7 @@
     "release_date": "2025-06-01",
     "price": 2199,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9418,7 +9420,7 @@
     "release_date": "2025-06-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -10663,7 +10665,7 @@
     "id": 158,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -17070,7 +17072,7 @@
     "screen_type": "OLED",
     "resolution": "2780×1264",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -17261,7 +17263,7 @@
     "release_date": "2024-01-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 88,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -18089,7 +18091,7 @@
     "has_ir": false,
     "esim": false,
     "reverse_charging_w": 0,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "GN3",
     "camera_main_size": "1/1.56\"",
@@ -18179,7 +18181,7 @@
     "has_ir": false,
     "esim": false,
     "reverse_charging_w": 0,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "GN3",
     "camera_main_size": "1/1.56\"",
@@ -18270,7 +18272,7 @@
     "has_ir": false,
     "esim": false,
     "reverse_charging_w": 0,
-    "completeness_score": 88,
+    "completeness_score": 94,
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "HP2",
     "camera_main_aperture": "f/1.7",
@@ -18779,5 +18781,62 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_size": "1/1.4\"",
     "camera_tele_zoom": "2.7x"
+  },
+  {
+    "id": 271,
+    "brand": "iQOO",
+    "model": "iQOO Neo11 至尊版",
+    "processor": "天玑9500M",
+    "screen_size": 6.83,
+    "refresh_hz": 144,
+    "screen_type": "AMOLED",
+    "resolution": "3200×1440",
+    "ram": "12GB / 16GB LPDDR5X Ultra",
+    "storage": "256GB / 512GB UFS4.1",
+    "battery_mah": 9100,
+    "charging_w": 100,
+    "weight_g": 225,
+    "dimensions": "163.42×75.88×8.6mm",
+    "camera_desc": "5000万 LYT700V 超防抖主摄 f/1.88 + 800万超广角",
+    "detailed_camera": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2 | 前置: 1600万 f/2.45",
+    "camera_main_sensor": "索尼LYT700V",
+    "camera_main_size": "1/1.56\"",
+    "camera_main_aperture": "f/1.88",
+    "camera_main_mp": 50,
+    "camera_uw_aperture": "f/2.2",
+    "camera_front": "1600万 f/2.45",
+    "camera_front_aperture": "f/2.45",
+    "has_tele": false,
+    "os": "OriginOS 6 (Android 16)",
+    "features": [
+      "NFC",
+      "红外遥控",
+      "X轴线性马达",
+      "超声波3D指纹",
+      "双扬声器"
+    ],
+    "tags": [
+      "6500mAh+",
+      "NFC",
+      "红外"
+    ],
+    "screen_form": "直屏",
+    "wireless_charging_w": 0,
+    "usb_version": "USB 2.0",
+    "release_date": "2026-08-01",
+    "date_precision": "month",
+    "price": 3699,
+    "network_model": "V2573A",
+    "network_model_source": "vivo.com.cn-official",
+    "charge_protocols": [
+      "PPS",
+      "PD",
+      "QC"
+    ],
+    "charge_protocols_source": "vivo-official",
+    "charge_protocols_confidence": "high",
+    "verified_at": "2026-08-15",
+    "completeness_score": 94,
+    "source_url": "https://m.vivo.com.cn/vivo/param/iqooneo11zun"
   }
 ]
