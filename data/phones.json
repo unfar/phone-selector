@@ -1395,7 +1395,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.8",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "曜石黑|幸运星|青苹果|光羽蓝"
   },
   {
     "id": 15,
@@ -1549,7 +1550,8 @@
     "camera_main_mp": 200,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "曜石黑|幸运星|青苹果|光羽蓝"
   },
   {
     "id": 13,
@@ -1611,7 +1613,8 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万索尼超清",
     "camera_front": "5000万",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "曜石黑|幸运星|青苹果|光羽蓝"
   },
   {
     "id": 18,
@@ -2076,7 +2079,8 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|晨曦金|霞光紫|橘子海|翡翠湖"
   },
   {
     "id": 27,
@@ -2366,7 +2370,8 @@
     "camera_main_aperture": "f/1.4",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "4x"
+    "camera_tele_zoom": "4x",
+    "colors": "桑果黑|椰青白|橘子汽水|粉红芭乐"
   },
   {
     "id": 25,
@@ -2440,7 +2445,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "罗兰紫|丝绒黑|雪域白"
   },
   {
     "id": 31,
@@ -3319,7 +3325,8 @@
     "camera_tele_size": "1/2.5\"",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": null
   },
   {
     "brand": "HONOR",
@@ -3391,7 +3398,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": null
   },
   {
     "id": 43,
@@ -5226,7 +5234,8 @@
     "camera_tele_aperture": "f/2.1",
     "camera_tele_sensor": "三星HP5",
     "camera_tele_size": "1/1.56\"",
-    "camera_tele_focal": "70mm"
+    "camera_tele_focal": "70mm",
+    "colors": "绒砂钛|绒光钛|霜白|雾黑"
   },
   {
     "id": 66,
@@ -5300,7 +5309,8 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.0",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "绒砂钛|绒光钛|霜白|雾黑"
   },
   {
     "brand": "HONOR",
@@ -5375,7 +5385,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_sensor": "三星HP9",
     "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm"
+    "camera_tele_focal": "85mm",
+    "colors": "旭日金砂|天青色|雪域白|绒黑色"
   },
   {
     "brand": "HONOR",
@@ -5453,7 +5464,8 @@
     "camera_tele_size": "1/2.0\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "旭日金|天青釉|雪域白|绒黑色"
   },
   {
     "id": 71,
@@ -5532,7 +5544,8 @@
     "camera_tele_aperture": "f/2.67",
     "camera_tele_sensor": "三星HPB",
     "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm"
+    "camera_tele_focal": "85mm",
+    "colors": "旷野棕|简单白|自在蓝|纯粹黑"
   },
   {
     "id": 70,
@@ -5609,7 +5622,8 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.0",
     "camera_uw_focal": "15mm",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "幸运彩|惬意紫|自在蓝|纯粹黑"
   },
   {
     "id": 74,
@@ -5696,7 +5710,8 @@
     "camera_tele_size": "1/1.95\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "2077流光橙|2049寒光蓝"
   },
   {
     "id": 72,
@@ -5778,7 +5793,8 @@
     "camera_uw_sensor": "三星JN1",
     "camera_tele_aperture": "f/2.65",
     "camera_tele_sensor": "索尼IMX882",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "传奇版|赛道版|凌云|旷野"
   },
   {
     "brand": "OnePlus",
@@ -6172,7 +6188,8 @@
     "camera_tele_sensor": "IMX973",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "colors": "星宇橙|暗夜蓝|暖银|黑色"
   },
   {
     "brand": "Apple",
@@ -6252,7 +6269,8 @@
     "camera_tele_sensor": "IMX973",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "colors": "星宇橙|暗夜蓝|暖银|黑色"
   },
   {
     "brand": "Apple",
