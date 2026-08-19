@@ -955,7 +955,8 @@
     "camera_main_mp": 50,
     "camera_tele_aperture": "f/2.6",
     "camera_tele_zoom": "3.3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "ip_rating": "IP65"
   },
   {
     "id": 6,
@@ -1018,7 +1019,8 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万",
     "camera_front": "5000万",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68"
   },
   {
     "id": 12,
@@ -2872,7 +2874,8 @@
     "network_model": "PLT120",
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP69"
   },
   {
     "id": 34,
@@ -2934,7 +2937,8 @@
     "network_model": "PKQ110",
     "network_model_source": "pconline",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -3680,7 +3684,8 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "ip_rating": "IP68/IP69"
   },
   {
     "id": 50,
@@ -3749,7 +3754,8 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "ip_rating": "IP65"
   },
   {
     "id": 49,
@@ -3811,7 +3817,8 @@
     "camera_front": null,
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP65"
   },
   {
     "id": 48,
@@ -3871,7 +3878,8 @@
     "camera_front": "50MP",
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69K"
   },
   {
     "id": 47,
@@ -3933,7 +3941,8 @@
     "network_model": "PLL110",
     "network_model_source": "pconline+zol",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP69"
   },
   {
     "id": 46,
@@ -3993,7 +4002,8 @@
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP64"
   },
   {
     "id": 45,
@@ -4052,7 +4062,8 @@
     "network_model": "PKL110",
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP54"
   },
   {
     "model": "荣耀 500 Pro",
@@ -4749,7 +4760,8 @@
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3.2x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "ip_rating": "IP68"
   },
   {
     "id": 257,
@@ -4971,7 +4983,8 @@
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69"
   },
   {
     "id": 56,
@@ -5123,7 +5136,8 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "ip_rating": "IP68"
   },
   {
     "id": 67,
@@ -6431,7 +6445,8 @@
     "network_model": "PLN110",
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69"
   },
   {
     "id": 81,
@@ -6492,7 +6507,8 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69"
   },
   {
     "id": 80,
@@ -6551,7 +6567,8 @@
     "camera_front": "50MP",
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP65"
   },
   {
     "id": 93,
@@ -6995,7 +7012,8 @@
     "camera_main_mp": 200,
     "camera_uw_aperture": "f/2.0",
     "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "ip_rating": "IP68"
   },
   {
     "id": 87,
@@ -7056,7 +7074,8 @@
     "network_model": "PKV110",
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69"
   },
   {
     "id": 94,
@@ -7613,7 +7632,8 @@
     "camera_front": null,
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68"
   },
   {
     "brand": "REDMI",
@@ -7674,7 +7694,8 @@
     "camera_front": null,
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68"
   },
   {
     "id": 95,
@@ -9071,7 +9092,9 @@
     "features": [
       "有线投屏",
       "红外遥控",
-      "NFC"
+      "NFC",
+      "IP68",
+      "IP69"
     ],
     "tags": [
       "无线充电",
@@ -9080,7 +9103,8 @@
       "有线投屏",
       "红外",
       "6.5-6.7英寸",
-      "NFC"
+      "NFC",
+      "防尘抗水"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -9119,7 +9143,8 @@
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "ip_rating": "IP68/IP69"
   },
   {
     "brand": "HONOR",
@@ -9321,7 +9346,8 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "ip_rating": "IP68/IP69"
   },
   {
     "id": 122,
@@ -9383,7 +9409,8 @@
     "network_model": "PLE110",
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68"
   },
   {
     "id": 120,
@@ -9447,7 +9474,8 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IPX6/IPX8/IPX9"
   },
   {
     "id": 265,
@@ -9911,7 +9939,8 @@
     "network_model": "SER-AN00",
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69/IP69K"
   },
   {
     "id": 135,
@@ -10104,7 +10133,8 @@
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_mp": 64,
+    "ip_rating": "IP65"
   },
   {
     "brand": "Huawei",
@@ -11415,7 +11445,8 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "ip_rating": "IP65"
   },
   {
     "id": 148,
@@ -11774,7 +11805,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "ip_rating": "IP68/IP69"
   },
   {
     "id": 171,
@@ -11915,7 +11947,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "ip_rating": "IP65"
   },
   {
     "id": 169,
@@ -12296,7 +12329,8 @@
     "camera_main_aperture": "f/1.95",
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "ip_rating": "IP65"
   },
   {
     "id": 163,
@@ -14482,7 +14516,8 @@
     "camera_rear": "5000万 f/1.8",
     "camera_front": "800万",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP69"
   },
   {
     "brand": "Apple",
@@ -17297,7 +17332,8 @@
     "camera_main_aperture": "f/1.8",
     "network_model": "PMT110",
     "network_model_source": "oppo.com-official",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP66/IP68/IP69K"
   },
   {
     "id": 244,
