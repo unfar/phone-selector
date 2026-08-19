@@ -11875,7 +11875,8 @@
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
     "camera_front_aperture": "f/2.2",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "金色|紫色|白色|黑色"
   },
   {
     "id": 171,
@@ -12017,7 +12018,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.2",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "金色|紫色|白色|黑色"
   },
   {
     "id": 169,
@@ -12271,7 +12273,8 @@
     "camera_front": "800万",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_tele_aperture": "f/2.4"
+    "camera_tele_aperture": "f/2.4",
+    "colors": "金色|紫色|白色|黑色"
   },
   {
     "brand": "realme",
@@ -13874,7 +13877,8 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "colors": "洛登绿|羽砂紫|羽砂白|星耀黑"
   },
   {
     "id": 192,
@@ -14391,7 +14395,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "洛登绿|羽砂紫|羽砂白|星耀黑"
   },
   {
     "id": 186,
@@ -14531,7 +14536,8 @@
     "camera_front": "60MP超广角",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "colors": "洛登绿|羽砂紫|羽砂白|星耀黑"
   },
   {
     "id": 184,
