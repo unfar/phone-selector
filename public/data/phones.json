@@ -3637,7 +3637,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "曜石黑|云锦蓝|云锦白|寰宇红|幻影紫"
   },
   {
     "id": 51,
@@ -9941,7 +9942,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "幻夜黑|零度白|星际蓝|橄榄金|活力橙"
   },
   {
     "brand": "HONOR",
@@ -10284,7 +10286,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "月影灰|零度白|幻夜黑"
   },
   {
     "model": "Galaxy A56 5G",
@@ -11734,7 +11737,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "星云灰|星云白|曜石黑|寰宇红|深海蓝"
   },
   {
     "id": 172,
