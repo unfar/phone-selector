@@ -2898,7 +2898,8 @@
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP69"
+    "ip_rating": "IP69",
+    "colors": "曙光金|暮光蓝|海贝白"
   },
   {
     "id": 34,
@@ -3909,7 +3910,8 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69K"
+    "ip_rating": "IP66/IP68/IP69K",
+    "colors": "冰川白|栗绒棕"
   },
   {
     "id": 47,
@@ -6563,7 +6565,8 @@
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69"
+    "ip_rating": "IP66/IP68/IP69",
+    "colors": "粉梦生花|蓝海浮光|丝绒灰"
   },
   {
     "id": 80,
@@ -6623,7 +6626,8 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "云雾白|午夜黑"
   },
   {
     "id": 93,
