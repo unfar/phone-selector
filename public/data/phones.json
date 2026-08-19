@@ -17438,7 +17438,8 @@
     "network_model": "PMT110",
     "network_model_source": "oppo.com-official",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69K"
+    "ip_rating": "IP66/IP68/IP69K",
+    "colors": "云岫白|青峦灰|墨岑黑"
   },
   {
     "id": 244,
@@ -18657,7 +18658,8 @@
     "camera_main_focal": "26mm",
     "camera_uw_aperture": "f/2.0",
     "camera_uw_focal": "18mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "乘风破浪蓝|前橙似锦橙|远山黑"
   },
   {
     "id": 268,
