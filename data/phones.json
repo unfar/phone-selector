@@ -8881,7 +8881,8 @@
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "鎏光金|鎏光黑"
   },
   {
     "id": 131,
@@ -9048,7 +9049,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "釉青|釉红|釉白|釉黑"
   },
   {
     "id": 129,
@@ -9125,7 +9127,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "釉金|釉白|釉黑"
   },
   {
     "id": 128,
@@ -9199,7 +9202,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
     "camera_front_aperture": "f/2.4",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "丝绒黑|丝绒白|丝绒金|丝绒绿"
   },
   {
     "brand": "HONOR",
