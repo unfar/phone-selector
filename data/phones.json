@@ -1100,7 +1100,8 @@
     "camera_tele_sensor": "IMX882",
     "camera_tele_size": "1/1.95\"",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星星海|初夏绿|仲夏夜"
   },
   {
     "id": 11,
@@ -1169,7 +1170,8 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_mp": 50,
     "camera_uw_sensor": "索尼LYT700V",
-    "camera_front_sensor": "索尼LYT700V"
+    "camera_front_sensor": "索尼LYT700V",
+    "colors": "星星海|初夏绿|仲夏夜"
   },
   {
     "id": 10,
@@ -1320,7 +1322,8 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "怦然星动|梦境蓝|星河紫|月夜黑"
   },
   {
     "id": 16,
@@ -1478,7 +1481,8 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "怦然星动|梦境蓝|星河紫|月夜黑"
   },
   {
     "id": 14,
@@ -3331,7 +3335,7 @@
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
     "camera_front_aperture": "f/2.0",
-    "colors": null
+    "colors": "月光石|板岩灰"
   },
   {
     "brand": "HONOR",
@@ -3404,7 +3408,7 @@
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
     "camera_front_aperture": "f/2.0",
-    "colors": null
+    "colors": "仙紫|轻橙|羽白|影黑"
   },
   {
     "id": 43,
@@ -7259,7 +7263,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
     "camera_front_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.4"
+    "camera_tele_aperture": "f/2.4",
+    "colors": "快开黑|指定赢|不怕蓝"
   },
   {
     "brand": "OnePlus",
@@ -7393,7 +7398,8 @@
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "colors": "快开黑|指定赢|不怕蓝"
   },
   {
     "id": 100,
