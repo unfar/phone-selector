@@ -60,8 +60,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "800万",
-    "camera_front": "500万",
-    "camera_main_mp": 8
+    "camera_front": "500万"
   },
   {
     "id": 259,
@@ -122,8 +121,7 @@
     "sim_type": "双 nano-SIM",
     "camera_rear": "50MP f/1.8 OIS | 8MP",
     "camera_front": "20MP",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 260,
@@ -190,8 +188,7 @@
     "camera_front": "20MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 250,
@@ -280,12 +277,7 @@
     "camera_front": "20MP",
     "camera_main_sensor": "三星HPB",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.68",
-    "camera_main_mp": 200,
-    "camera_tele_aperture": "f/2.57",
-    "camera_tele_sensor": "索尼LYT-602",
-    "camera_tele_size": "1/1.95\"",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.68"
   },
   {
     "id": 249,
@@ -363,9 +355,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.88",
     "camera_front": "800万 f/2.0",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 1,
@@ -436,9 +426,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8",
     "camera_front": "800万 f/2.0",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 3,
@@ -504,9 +492,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8 OIS | 800万 f/2.2 112°",
     "camera_front": "1600万",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 2,
@@ -566,9 +552,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 OIS | 8MP f/2.2",
     "camera_front": "16MP",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 5,
@@ -639,12 +623,7 @@
     "camera_front": "3200万",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 4,
@@ -716,12 +695,7 @@
     "camera_front": "3200万",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 9,
@@ -797,15 +771,7 @@
     "camera_rear": "RYYB 200MP 1/1.4\" f/1.8 23mm OIS | 50MP f/2.4 85mm 3.7x OIS | 50MP f/2.2 13mm 微距",
     "camera_front": "60MP f/2.4 + 8MP 人像",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "85mm",
-    "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 8,
@@ -880,12 +846,7 @@
     "camera_rear": "RYYB 50MP 1/1.56\" f/1.8 23mm OIS | 8MP f/2.2 16mm",
     "camera_front": "60MP f/2.4",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "16mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 7,
@@ -951,11 +912,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.9 | 5000万 RYYB f/2.6 OIS 3.3×",
     "camera_front": "5000万 f/2.4",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50,
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_zoom": "3.3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 6,
@@ -1017,8 +974,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万",
-    "camera_front": "5000万",
-    "camera_main_mp": 50
+    "camera_front": "5000万"
   },
   {
     "id": 12,
@@ -1084,15 +1040,7 @@
     "reverse_charging_w": 0,
     "ip_rating": "IP68/IP69",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.75",
-    "camera_main_sensor": "LYT-700V",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.65",
-    "camera_tele_sensor": "IMX882",
-    "camera_tele_size": "1/1.95\"",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.75"
   },
   {
     "id": 11,
@@ -1158,10 +1106,7 @@
     "camera_rear": "5000万像素索尼LYT700V(1/1.56\")主摄+800万像素超广角+5000万前置",
     "camera_front": "5000万前置",
     "camera_main_sensor": "索尼LYT700",
-    "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 50,
-    "camera_uw_sensor": "索尼LYT700V",
-    "camera_front_sensor": "索尼LYT700V"
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 10,
@@ -1229,8 +1174,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.88 OIS | 500万",
     "camera_front": "1600万",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 17,
@@ -1250,8 +1194,8 @@
     "usb_version": "USB 2.0",
     "weight_g": 207,
     "os": "ColorOS 16",
-    "camera_desc": "2亿主摄(云台OIS) f/1.8 | 5000万超广角 f/2.0 | 5000万长焦 f/2.8 3.5x",
-    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.8 24mm 云台OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 80mm 3.5x OIS | 前置: 5000万 f/2.0 18mm",
+    "camera_desc": "200MP主摄 1/1.4 | 50MP超广 | 50MP潜望 3x | 50MP前置",
+    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.7 微云台 OIS| 超广: 50MP f/2.2 15mm | 潜望: 50MP f/2.6 70mm 3x OIS | 前置: 50MP f/2.0",
     "has_tele": true,
     "has_nfc": true,
     "has_ir": false,
@@ -1279,7 +1223,7 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1304,15 +1248,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "16mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 16,
@@ -1333,7 +1269,7 @@
     "weight_g": 202,
     "os": "MagicOS 10 (Android 16)",
     "camera_desc": "200MP主摄 1/1.4 | 50MP潜望 3x | 12MP超广 | 50MP前置",
-    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.9 OIS | 潜望长焦: 5000万 f/2.8 OIS",
+    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.7 OIS| 潜望: 50MP f/2.4 3x OIS | 超广: 12MP f/2.2 微距 | 前置: 50MP f/2.0",
     "has_tele": true,
     "has_nfc": true,
     "has_ir": true,
@@ -1383,12 +1319,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 200,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 15,
@@ -1408,8 +1339,8 @@
     "usb_version": "USB 2.0",
     "weight_g": 189,
     "os": "ColorOS 16",
-    "camera_desc": "2亿主摄 OIS f/1.8 | 5000万超广角 f/2.0 | 5000万长焦 f/2.8 3.5x",
-    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.8 24mm OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 80mm 3.5x OIS | 前置: 5000万 f/2.0 18mm",
+    "camera_desc": "200MP主摄 1/1.4 | 50MP超广 | 50MP潜望 3x | 50MP前置",
+    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.7 OIS| 超广: 50MP f/2.2 | 潜望: 50MP 3x OIS | 前置: 50MP",
     "has_tele": true,
     "has_nfc": true,
     "has_ir": false,
@@ -1436,7 +1367,7 @@
     ],
     "screen_form": "直屏",
     "release_date": "2026-05-25",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -1461,15 +1392,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "16mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 14,
@@ -1538,11 +1461,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "三星HP3",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 13,
@@ -1603,8 +1522,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万索尼超清",
-    "camera_front": "5000万",
-    "camera_main_mp": 50
+    "camera_front": "5000万"
   },
   {
     "id": 18,
@@ -1667,8 +1585,7 @@
     "camera_rear": "三星HP5 200MP 1/1.56\" CIPA 4.5专业级防抖 4倍无损变焦 | 50MP",
     "camera_front": "32MP",
     "camera_main_sensor": "三星HP5",
-    "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 200
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 22,
@@ -1740,14 +1657,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 21,
@@ -1815,13 +1725,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 20,
@@ -1896,15 +1800,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "三星HP9",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.65",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.4",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.65"
   },
   {
     "id": 29,
@@ -1978,18 +1874,7 @@
     "network_model": "PMA110",
     "camera_main_sensor": "索尼LYT-901",
     "camera_main_size": "1/1.12\"",
-    "camera_main_aperture": "f/1.5",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_sensor": "索尼LYT-600",
-    "camera_tele_aperture": "f/2.2",
-    "camera_tele_sensor": "豪威OV52A",
-    "camera_tele_size": "1/1.28\"",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "索尼LYT-600"
+    "camera_main_aperture": "f/1.5"
   },
   {
     "id": 28,
@@ -2060,16 +1945,7 @@
     "camera_rear": "XMAGE 50MP 1/1.28\" 可变光圈 f/1.4-4.0 24mm OIS | 50MP f/2.2 13mm | 2亿 1/1.4\" RYYB f/2.6 90mm 4x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 27,
@@ -2137,16 +2013,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_size": "1/1.56\"",
-    "camera_tele_focal": "65mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 127,
@@ -2216,8 +2083,7 @@
     "reverse_charging_w": 0,
     "ip_rating": "IP69",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 123,
@@ -2287,8 +2153,7 @@
     "reverse_charging_w": 0,
     "ip_rating": "IPX9/IP69",
     "camera_main_sensor": "索尼IMX906",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 26,
@@ -2356,10 +2221,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" 可变光圈 f/1.4-4.0 OIS | 50MP f/2.2 | 50MP 4x OIS",
     "camera_front": "13MP",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "4x"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 25,
@@ -2425,15 +2287,7 @@
     "camera_rear": "XMAGE 50MP 1/1.56\" f/1.8 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 85mm 3.7x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "85mm",
-    "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 31,
@@ -2509,18 +2363,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "索尼LYT-901",
     "camera_main_size": "1/1.12\"",
-    "camera_main_aperture": "f/1.85",
-    "camera_main_mp": 200,
-    "camera_main_focal": "35mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_sensor": "索尼LYT-818",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_sensor": "三星HP0",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm",
-    "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.85"
   },
   {
     "id": 30,
@@ -2591,15 +2434,7 @@
     "camera_rear": "索尼 200MP 1/1.4\" f/1.68 23mm OIS 蔡司 | 50MP f/2.0 15mm 蔡司 | 50MP f/2.57 70mm 3x OIS 蔡司",
     "camera_front": "32MP f/2.0",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.68",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.57",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.68"
   },
   {
     "brand": "Huawei",
@@ -2674,15 +2509,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "Apple",
@@ -2744,10 +2571,7 @@
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
     "camera_front": "12MP f/1.9 23mm",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 48,
-    "camera_main_focal": "26mm",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "model": "Galaxy A57 5G",
@@ -2808,9 +2632,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 35,
@@ -2849,7 +2671,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2871,8 +2693,7 @@
     "camera_front": "32MP",
     "network_model": "PLT120",
     "network_model_source": "oppo.com-official",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 34,
@@ -2911,7 +2732,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -2933,8 +2754,7 @@
     "camera_front": "16MP",
     "network_model": "PKQ110",
     "network_model_source": "pconline",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -2978,7 +2798,7 @@
     "id": 39,
     "refresh_hz": 120,
     "resolution": "3088×1440",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -3003,13 +2823,7 @@
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "三星HP2",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/1.9",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "model": "Galaxy S26+",
@@ -3053,7 +2867,7 @@
     "id": 38,
     "refresh_hz": 120,
     "resolution": "3120×1440",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -3078,15 +2892,7 @@
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "69mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S26",
@@ -3130,7 +2936,7 @@
     "id": 37,
     "refresh_hz": 120,
     "resolution": "2340×1080",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -3155,15 +2961,7 @@
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "69mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 40,
@@ -3207,7 +3005,7 @@
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3230,9 +3028,7 @@
     "camera_front": "3200万 f/2.4",
     "network_model": "PLL110",
     "network_model_source": "oppo.com-official",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 42,
@@ -3275,7 +3071,7 @@
     "detailed_camera": "主摄: 豪威OV50H 50MP 1/1.31\" f/1.6 23mm OIS | 超广: 50MP f/2.0 14mm | 潜望长焦: 50MP 1/2.5\" f/2.6 80mm 3.5x OIS | 前置: 50MP f/2.0",
     "release_date": "2026-01-19",
     "price": 7999,
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "5A PPS",
       "UFCS",
@@ -3301,16 +3097,7 @@
     "network_model_source": "mydrivers-digitalchats",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_size": "1/2.5\"",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "HONOR",
@@ -3374,15 +3161,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 43,
@@ -3444,9 +3223,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "1300万 f/2.2",
     "camera_front": "500万 f/2.2",
-    "camera_main_aperture": "f/2.2",
-    "camera_main_mp": 13,
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/2.2"
   },
   {
     "id": 44,
@@ -3518,15 +3295,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 52,
@@ -3606,11 +3375,7 @@
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 | 50MP 5x OIS",
     "camera_front": "8MP f/2.2",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 51,
@@ -3677,10 +3442,7 @@
     "camera_rear": "50MP RYYB 1/1.56\" f/1.6 OIS | 12MP f/2.2 | 12MP 5x OIS",
     "camera_front": "60MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 50,
@@ -3744,12 +3506,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.8 23mm OIS | 50MP f/2.2 | 50MP 3x OIS",
     "camera_front": "50MP f/2.0",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 49,
@@ -3810,8 +3567,7 @@
     "camera_rear": "1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
     "camera_front": null,
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 48,
@@ -3870,8 +3626,7 @@
     "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
     "camera_front": "50MP",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 47,
@@ -3910,7 +3665,7 @@
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -3932,8 +3687,7 @@
     "camera_front": "16MP",
     "network_model": "PLL110",
     "network_model_source": "pconline+zol",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 46,
@@ -3992,8 +3746,7 @@
     "camera_rear": "豪威OV50D 50MP f/1.8 | 50MP主摄",
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50D",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 45,
@@ -4051,8 +3804,7 @@
     "camera_front": "50MP",
     "network_model": "PKL110",
     "camera_main_sensor": "豪威OV50D",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "荣耀 500 Pro",
@@ -4118,14 +3870,7 @@
     "network_model": "MEP-AN00",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "model": "荣耀 500",
@@ -4190,11 +3935,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.9 23mm OIS | 12MP f/2.2",
     "camera_front": "50MP f/2.0",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 65,
@@ -4272,13 +4013,7 @@
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 13mm | 12MP RYYB f/3.4 5.5x OIS",
     "camera_front": "8MP f/2.2",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.4",
-    "camera_tele_zoom": "5.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 64,
@@ -4352,15 +4087,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 63,
@@ -4434,15 +4161,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 61,
@@ -4512,15 +4231,7 @@
     "camera_rear": "思特威SC585XS 50MP RYYB 1/1.28\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS | 50MP f/3.0 135mm 6x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 62,
@@ -4589,15 +4300,7 @@
     "camera_rear": "思特威SC585XS 50MP RYYB 1/1.28\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS | 50MP f/3.0 135mm 6x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 60,
@@ -4666,15 +4369,7 @@
     "camera_rear": "思特威SC555XS 50MP RYYB 1/1.56\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 12MP f/3.4 125mm 5.5x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.4",
-    "camera_tele_focal": "125mm",
-    "camera_tele_zoom": "5.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 59,
@@ -4742,14 +4437,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3.2x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 257,
@@ -4824,9 +4512,7 @@
     "camera_front": "20MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 58,
@@ -4894,15 +4580,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.7 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.6 70mm 3x OIS",
     "camera_front": "50MP f/2.0",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 57,
@@ -4970,8 +4648,7 @@
     "camera_front": "20MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 56,
@@ -5042,19 +4719,7 @@
     "camera_front": "50MP Samsung JN5 1/2.75\" f/2.0 21mm",
     "camera_main_sensor": "IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "26mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_sensor": "OV08D",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_sensor": "JN5",
-    "camera_tele_size": "1/2.75\"",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "JN5"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 55,
@@ -5120,10 +4785,7 @@
     "camera_front": "20MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 67,
@@ -5196,14 +4858,7 @@
     "network_model": "PLG110",
     "camera_main_sensor": "索尼LYT-828",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.5",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_sensor": "三星JN5",
-    "camera_tele_aperture": "f/2.1",
-    "camera_tele_sensor": "三星HP5",
-    "camera_tele_size": "1/1.56\"",
-    "camera_tele_focal": "70mm"
+    "camera_main_aperture": "f/1.5"
   },
   {
     "id": 66,
@@ -5272,12 +4927,7 @@
     "camera_front": "32MP f/2.4",
     "camera_main_sensor": "索尼LYT-600",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "HONOR",
@@ -5346,13 +4996,7 @@
     "camera_front": null,
     "camera_main_sensor": "OV50Q",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_sensor": "三星HP9",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "HONOR",
@@ -5421,16 +5065,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.5",
-    "camera_tele_size": "1/2.0\"",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 71,
@@ -5502,14 +5137,7 @@
     "camera_front": null,
     "camera_main_sensor": "索尼LYT-828",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_sensor": "三星JN5",
-    "camera_tele_aperture": "f/2.67",
-    "camera_tele_sensor": "三星HPB",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 70,
@@ -5581,12 +5209,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 74,
@@ -5663,17 +5286,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.05",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.65",
-    "camera_tele_sensor": "索尼IMX882",
-    "camera_tele_size": "1/1.95\"",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 72,
@@ -5749,13 +5362,7 @@
     "reverse_charging_w": 0,
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.05",
-    "camera_uw_sensor": "三星JN1",
-    "camera_tele_aperture": "f/2.65",
-    "camera_tele_sensor": "索尼IMX882",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.88"
   },
   {
     "brand": "OnePlus",
@@ -5825,12 +5432,7 @@
     "camera_front": "16MP f/2.4",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "16mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 79,
@@ -5904,10 +5506,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 78,
@@ -5983,10 +5582,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 77,
@@ -6060,14 +5656,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人950",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.67",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.4",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_focal": "60mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.67"
   },
   {
     "brand": "Apple",
@@ -6136,17 +5725,7 @@
     "reverse_charging_w": 0,
     "camera_main_sensor": "索尼IMX903",
     "camera_main_size": "1/1.14\"",
-    "camera_main_aperture": "f/1.78",
-    "camera_main_mp": 48,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_sensor": "IMX972",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_sensor": "IMX973",
-    "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -6216,17 +5795,7 @@
     "reverse_charging_w": 0,
     "camera_main_sensor": "索尼IMX903",
     "camera_main_size": "1/1.14\"",
-    "camera_main_aperture": "f/1.78",
-    "camera_main_mp": 48,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_sensor": "IMX972",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_sensor": "IMX973",
-    "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -6292,10 +5861,7 @@
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
     "camera_front": "12MP f/2.0 23mm",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 48,
-    "camera_main_focal": "26mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "Apple",
@@ -6362,15 +5928,7 @@
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 48MP f/2.2 13mm | 48MP f/2.8 120mm 5x OIS",
     "camera_front": "12MP f/1.9 23mm",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 48,
-    "camera_main_focal": "26mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 82,
@@ -6408,7 +5966,7 @@
     "price": 1709,
     "source_url": "https://www.opposhop.cn/",
     "verified_at": "2026-05-24",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -6430,8 +5988,7 @@
     "camera_front": "32MP",
     "network_model": "PLN110",
     "network_model_source": "oppo.com-official",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 81,
@@ -6491,8 +6048,7 @@
     "camera_front": "50MP",
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "豪威OV50D",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 80,
@@ -6550,8 +6106,7 @@
     "camera_rear": "三星JN1 50MP f/1.8 | 50MP主摄 + 2MP",
     "camera_front": "50MP",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 93,
@@ -6625,15 +6180,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 92,
@@ -6700,14 +6247,7 @@
     "camera_rear": "50MP 1/1.3\" f/1.4-4.0 24mm OIS | 12MP RYYB f/3.4 5x OIS | 8MP f/2.2 13mm",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.4",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "OnePlus",
@@ -6746,7 +6286,7 @@
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2 Gen 1",
-    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.8 24mm OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 85mm 3.5x OIS",
+    "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 23mm OIS | 超广: 50MP f/2.0 15mm | 长焦: 50MP f/2.6 70mm 3x OIS | 前置: 32MP f/2.0",
     "charging_w": 120,
     "release_date": "2025-09-01",
     "price": 3999,
@@ -6784,15 +6324,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼LYT-808",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "realme",
@@ -6862,15 +6394,7 @@
     "reverse_charging_w": 0,
     "camera_main_sensor": "IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_sensor": "OV50D",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_sensor": "HP5",
-    "camera_tele_size": "1/1.56\"",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 89,
@@ -6930,8 +6454,7 @@
     "camera_rear": "三星JN1 50MP f/1.8 | 108MP主摄 + 2MP",
     "camera_front": "108MP",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 88,
@@ -6991,11 +6514,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "三星HP3",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 200,
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 87,
@@ -7055,8 +6574,7 @@
     "camera_front": "50MP",
     "network_model": "PKV110",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 94,
@@ -7126,12 +6644,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "三星HP3",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "brand": "HONOR",
@@ -7169,7 +6682,7 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB",
     "resolution": "2800×1264",
-    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.95 OIS | 长焦: 5000万 f/2.4 OIS | 超广角: 1200万 f/2.2 112° 微距",
+    "detailed_camera": "主摄: 50MP 1/1.56\" f/1.6 23mm OIS | 超广: 12MP f/2.2 13mm | 前置: 50MP f/2.0",
     "screen_type": "AMOLED",
     "date_precision": "month",
     "completeness_score": 94,
@@ -7197,13 +6710,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm",
     "camera_front": "50MP f/2.0",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.95",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "OnePlus",
@@ -7268,8 +6775,7 @@
     "camera_rear": "索尼 50MP 1/1.56\" f/1.8 OIS | 8MP",
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "荣耀 WIN RT",
@@ -7335,25 +6841,23 @@
     "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 12MP f/2.2",
     "camera_front": "5000万像素",
     "camera_main_sensor": "豪威OV50E",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 100,
     "brand": "iQOO",
     "model": "iQOO Neo11",
-    "processor": "骁龙8至尊版 (4.32GHz×2+3.53GHz×6, 3nm)",
-    "screen_size": 6.82,
+    "processor": "骁龙8 Elite 5",
+    "screen_size": 6.78,
     "refresh_hz": 144,
     "screen_type": "OLED",
-    "resolution": "3168×1440",
+    "resolution": "2800×1260",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "battery_mah": 7500,
-    "charging_w": 100,
+    "charging_w": 120,
     "weight_g": 211,
-    "camera_desc": "5000万 LYT700V 超防抖主摄 f/1.88 + 800万超广角",
+    "camera_desc": "5000万主摄 | 5000万超广角",
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
@@ -7375,10 +6879,10 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2 | 前置: 1600万 f/2.45",
-    "release_date": "2025-10-31",
-    "price": 3599,
-    "date_precision": "day",
+    "detailed_camera": "主摄: 索尼IMX882 50MP 1/1.95\" f/1.8 | 超广: 50MP f/2.2",
+    "release_date": "2025-08-01",
+    "price": 3099,
+    "date_precision": "month",
     "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
@@ -7401,16 +6905,11 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼IMX882 50MP 1/1.95\" f/1.8 | 50MP f/2.2",
-    "camera_front": "1600万 f/2.45",
+    "camera_front": null,
     "network_model": "V2520A",
-    "camera_main_sensor": "索尼LYT700V",
-    "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "dimensions": "163.37×76.71×8.05mm",
-    "camera_front_aperture": "f/2.45",
-    "price_note": "2025-10-31发布: 12+256GB=3599元, 16+256GB=3999元, 12+512GB=4099元, 16+512GB=4499元, 16+1TB=5599元 (发布会到手价2599元起)"
+    "camera_main_sensor": "索尼IMX882",
+    "camera_main_size": "1/1.95\"",
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "realme",
@@ -7478,13 +6977,7 @@
     "camera_rear": "5000万像素理光GR防眩光主摄(f/1.8,OIS) + 800万像素超广角 + 5000万像素潜望长焦(JN5,3.5x光变)",
     "camera_front": "1600万像素",
     "camera_main_sensor": "JN5",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/1.8",
-    "camera_uw_sensor": "JN5",
-    "camera_tele_aperture": "f/1.8",
-    "camera_tele_sensor": "JN5",
-    "camera_tele_zoom": "3.5x"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -7551,8 +7044,7 @@
     "camera_rear": "索尼 50MP 1/1.56\" f/1.8 OIS | 8MP",
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "REDMI",
@@ -7612,8 +7104,7 @@
     "camera_rear": "豪威OV50E 50MP f/1.6 | 5000万主摄",
     "camera_front": null,
     "camera_main_sensor": "豪威OV50E",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -7673,8 +7164,7 @@
     "camera_rear": "豪威OV50E 50MP f/1.6 | 5000万主摄",
     "camera_front": null,
     "camera_main_sensor": "豪威OV50E",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 95,
@@ -7733,8 +7223,7 @@
     "camera_rear": "三星JN1 50MP f/1.8",
     "camera_front": "待确认",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -7785,7 +7274,7 @@
     "fold_type": "三折叠",
     "resolution": "2400×1916 / 2520×1080",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD"
@@ -7811,15 +7300,7 @@
     "network_model_source": "samsung.com.cn-official+onfix",
     "camera_main_sensor": "三星HP2",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -7870,7 +7351,7 @@
     "fold_type": "横向折叠",
     "resolution": "2160×1856 / 2376×968",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -7897,14 +7378,7 @@
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "三星HP2",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "HONOR",
@@ -7987,16 +7461,7 @@
     "camera_front": "20MP f/2.2",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.5",
-    "camera_tele_size": "1/2.0\"",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -8048,7 +7513,7 @@
     "fold_type": "纵向折叠",
     "resolution": "2640×1080 / 1066×1056",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -8075,12 +7540,7 @@
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -8156,12 +7616,7 @@
     "camera_front": "10MP f/2.2 23mm",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -8200,7 +7655,7 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8228,12 +7683,7 @@
     "network_model_source": "etoren+xda+kalvo",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -8272,7 +7722,7 @@
     "resolution": "2688×1216",
     "screen_type": "AMOLED",
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8300,11 +7750,7 @@
     "network_model_source": "etoren+xda+cmiit+kalvo",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 109,
@@ -8320,7 +7766,7 @@
     "battery_mah": 5410,
     "charging_w": 90,
     "weight_g": 205,
-    "camera_desc": "2亿主摄 OIS f/1.8 | 5000万超广角 f/2.0 | 5000万长焦 f/2.8 3.5x",
+    "camera_desc": "潜望长焦 200MP主摄 1/1.4 | 50MP超广 | 50MP长焦 | 50MP前置",
     "has_tele": true,
     "os": "ColorOS 16",
     "features": [
@@ -8340,11 +7786,11 @@
     "screen_form": "直屏",
     "wireless_charging_w": 80,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.8 24mm OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 80mm 3.5x OIS | 前置: 5000万 f/2.0 18mm",
+    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.7 23mm OIS| 超广: 50MP f/2.2 15mm | 长焦: 50MP f/2.6 65mm OIS | 前置: 50MP f/2.0",
     "release_date": "2025-07-01",
     "price": 4799,
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8372,15 +7818,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "16mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 107,
@@ -8419,7 +7857,7 @@
     "release_date": "2025-07-01",
     "price": 3699,
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8447,9 +7885,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -8510,11 +7946,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "豪威OV64B",
     "camera_main_size": "1/2.0\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64,
-    "camera_main_focal": "25mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 106,
@@ -8554,7 +7986,7 @@
     "release_date": "2025-07-01",
     "price": 3299,
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -8582,8 +8014,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -8617,7 +8048,7 @@
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼 50MP f/1.88 26mm OIS | 黑白: 200万 f/2.4 22mm",
+    "detailed_camera": "后置: 5000万像素索尼主摄 | 前置: 1600万像素",
     "charging_w": 80,
     "release_date": "2025-07-01",
     "price": 2499,
@@ -8650,10 +8081,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万像素索尼主摄",
-    "camera_front": "1600万像素",
-    "camera_main_mp": 50,
-    "camera_main_aperture": "f/1.88",
-    "camera_main_focal": "26mm"
+    "camera_front": "1600万像素"
   },
   {
     "brand": "OnePlus",
@@ -8720,10 +8148,7 @@
     "camera_front": "1600万像素",
     "camera_main_sensor": "IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 132,
@@ -8797,15 +8222,7 @@
     "camera_front": "13MP f/2.4",
     "network_model": "LMR-AL10",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.1",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 131,
@@ -8885,16 +8302,7 @@
     "camera_front": "20MP f/2.4",
     "camera_main_sensor": "索尼IMX866",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.1",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_size": "1/2.5\"",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 130,
@@ -8964,15 +8372,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 50MP f/2.4 80mm 3.5x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 129,
@@ -9042,14 +8442,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.1",
-    "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 128,
@@ -9114,12 +8507,7 @@
     "camera_rear": "XMAGE 50MP 1/1.56\" f/1.4-4.0 24mm OIS | 13MP f/2.2 13mm",
     "camera_front": "13MP f/2.4 18mm",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "HONOR",
@@ -9188,14 +8576,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "brand": "realme",
@@ -9255,8 +8636,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "HONOR",
@@ -9318,10 +8698,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 122,
@@ -9359,7 +8736,7 @@
     "release_date": "2025-06-01",
     "price": 2199,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9382,8 +8759,7 @@
     "camera_front": "1600万像素",
     "network_model": "PLE110",
     "network_model_source": "oppo.com-official",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 120,
@@ -9421,7 +8797,7 @@
     "release_date": "2025-06-01",
     "price": 2099,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -9446,8 +8822,7 @@
     "network_model_source": "oppo.com-official",
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 265,
@@ -9510,8 +8885,7 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "ip_rating": "IP69",
-    "camera_main_mp": 50
+    "ip_rating": "IP69"
   },
   {
     "id": 121,
@@ -9573,8 +8947,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -9605,7 +8978,7 @@
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP f/1.8 27mm OIS | 黑白: 200万 f/2.4 22mm",
+    "detailed_camera": "后置: 5000万像素主摄 | 前置: 800万像素",
     "charging_w": 80,
     "release_date": "2025-06-01",
     "price": 1999,
@@ -9637,10 +9010,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万像素主摄",
-    "camera_front": "800万像素",
-    "camera_main_mp": 50,
-    "camera_main_aperture": "f/1.8",
-    "camera_main_focal": "27mm"
+    "camera_front": "800万像素"
   },
   {
     "id": 117,
@@ -9701,8 +9071,7 @@
     "camera_rear": "三星GN5 50MP f/1.8 | 50MP主摄 + 2MP",
     "camera_front": "50MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 118,
@@ -9760,9 +9129,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "50MP主摄 | 5MP前置",
-    "camera_front": "P前置",
-    "camera_main_mp": 50,
-    "camera_main_aperture": "f/1.8"
+    "camera_front": "P前置"
   },
   {
     "brand": "Huawei",
@@ -9844,13 +9211,7 @@
     "camera_rear": "XMAGE 50MP 1/1.3\" RYYB f/1.4-4.0 OIS | 40MP f/2.2 13mm | 50MP f/2.4 3.5x OIS",
     "camera_front": "13MP f/2.4",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "HONOR",
@@ -9910,8 +9271,7 @@
     "camera_front": null,
     "network_model": "SER-AN00",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 135,
@@ -9974,8 +9334,7 @@
     "camera_rear": "50MP 1/1.5\" f/1.8 OIS | 8MP | 50MP",
     "camera_front": "50MP",
     "camera_main_size": "1/1.5\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 134,
@@ -10040,11 +9399,7 @@
     "camera_front": "16MP f/2.4",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 133,
@@ -10103,8 +9458,7 @@
     "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万主摄",
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "Huawei",
@@ -10187,11 +9541,7 @@
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 40MP f/2.2 | 50MP 3.5x OIS",
     "camera_front": "8MP f/2.2",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "model": "Galaxy A56 5G",
@@ -10251,9 +9601,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 143,
@@ -10315,9 +9663,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 141,
@@ -10373,8 +9719,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万",
-    "camera_front": "500万",
-    "camera_main_mp": 50
+    "camera_front": "500万"
   },
   {
     "id": 146,
@@ -10452,15 +9797,7 @@
     "camera_front": "32MP f/2.4 21mm",
     "network_model": "CPH2765",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.7",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 145,
@@ -10540,15 +9877,7 @@
     "camera_front": "8MP | 8MP",
     "camera_main_sensor": "索尼LYT-600",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_size": "1/2.0\"",
-    "camera_tele_focal": "135mm",
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -10618,13 +9947,7 @@
     "camera_front": "12MP f/2.2",
     "camera_main_sensor": "三星HP2",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/1.9",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -10666,7 +9989,7 @@
     "id": 158,
     "resolution": "2340×1080",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "PPS",
       "PD",
@@ -10693,12 +10016,7 @@
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "三星HP2",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 159,
@@ -10774,14 +10092,7 @@
     "network_model_source": "ithome-2024-11-12+verified",
     "camera_main_sensor": "豪威OV50K",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_aperture": "f/1.88",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "model": "Galaxy S25+",
@@ -10849,15 +10160,7 @@
     "camera_front": "12MP f/2.2",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "69mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S25",
@@ -10925,14 +10228,7 @@
     "camera_front": "12MP f/2.2",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 154,
@@ -11000,8 +10296,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.57"
   },
   {
     "brand": "HONOR",
@@ -11068,15 +10363,7 @@
     "camera_front": "16MP f/2.0",
     "network_model": "PPG-AN00",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 153,
@@ -11145,13 +10432,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 150,
@@ -11217,8 +10498,7 @@
     "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 50MP",
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50E",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 151,
@@ -11280,9 +10560,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50E",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 152,
@@ -11349,8 +10627,7 @@
     "camera_rear": "三星HP5 200MP 1/1.56\" | 8MP",
     "camera_front": "16MP",
     "camera_main_sensor": "三星HP5",
-    "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 200
+    "camera_main_size": "1/1.56\""
   },
   {
     "brand": "HONOR",
@@ -11412,10 +10689,7 @@
     "network_model": "AMG-AN00",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 148,
@@ -11481,10 +10755,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 147,
@@ -11551,8 +10822,7 @@
     "camera_front": "8MP",
     "camera_main_sensor": "三星JN1",
     "camera_main_size": "1/2.76\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 161,
@@ -11630,11 +10900,7 @@
     "camera_rear": "XMAGE 50MP 1/1.56\" RYYB f/1.4-4.0 OIS | 13MP f/2.2 | 48MP 5x OIS",
     "camera_front": "8MP f/2.2",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 172,
@@ -11699,14 +10965,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/2.0",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "87mm",
-    "camera_tele_zoom": "3.8x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/2.0"
   },
   {
     "id": 173,
@@ -11768,13 +11027,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 50MP f/2.4 80mm 3.5x OIS | 8MP f/2.2",
     "camera_front": "32MP f/2.2",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "80mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 171,
@@ -11839,15 +11092,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 50MP f/2.4 70mm 3x OIS",
     "camera_front": "50MP f/2.0",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 170,
@@ -11909,13 +11154,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.8 23mm OIS | 12MP f/2.4 3x | 8MP f/2.2",
     "camera_front": "32MP f/2.2",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 169,
@@ -11979,9 +11218,7 @@
     "camera_rear": "主摄 50MP IMX906 f/1.8 OIS | 超广 8MP f/2.2 112° | 前置 16MP",
     "camera_front": "16MP",
     "camera_main_sensor": "IMX906",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 168,
@@ -12041,9 +11278,7 @@
     "camera_rear": "主摄 50MP IMX920 f/1.6 OIS | 超广 8MP | 人像长焦 50MP 2x | 前置 50MP",
     "camera_front": "50MP",
     "camera_main_sensor": "IMX920",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_tele_zoom": "2x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 166,
@@ -12107,9 +11342,7 @@
     "camera_rear": "5000万索尼IMX906 f/1.8 OIS | 800万 f/2.2 | 200万",
     "camera_front": "1600万",
     "camera_main_sensor": "索尼IMX906",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 167,
@@ -12166,9 +11399,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8 | 1200万 f/2.4",
     "camera_front": "800万",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_tele_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "realme",
@@ -12230,10 +11461,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 162,
@@ -12293,10 +11521,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.95",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.95"
   },
   {
     "id": 163,
@@ -12356,9 +11581,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "OnePlus",
@@ -12427,8 +11650,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 183,
@@ -12497,15 +11719,7 @@
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
     "camera_front": "13MP f/2.4 18mm",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 182,
@@ -12574,15 +11788,7 @@
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/3.0 90mm 3.5x OIS",
     "camera_front": "13MP f/2.4 18mm",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_focal": "90mm",
-    "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 180,
@@ -12651,14 +11857,7 @@
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
     "camera_front": "13MP f/2.4 18mm",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.1",
-    "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "brand": "Huawei",
@@ -12726,14 +11925,7 @@
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 40MP f/2.2 13mm | 48MP f/2.1 90mm OIS",
     "camera_front": "13MP f/2.4 18mm",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.1",
-    "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 178,
@@ -12801,12 +11993,7 @@
     "camera_rear": "思特威 RYYB 50MP 1/1.3\" f/1.4-4.0 24mm OIS | 13MP f/2.2 13mm",
     "camera_front": "13MP f/2.4 18mm",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.4",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.4"
   },
   {
     "id": 177,
@@ -12874,13 +12061,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "索尼LYT-808",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -12944,13 +12125,7 @@
     "camera_front": "20MP f/2.2",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_focal": "60mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -13010,10 +12185,7 @@
     "camera_front": "20MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "REDMI",
@@ -13074,11 +12246,7 @@
     "camera_front": "20MP f/2.2",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 200,
@@ -13147,15 +12315,7 @@
     "camera_rear": "索尼LYT-900 50MP 1\" f/1.8 23mm OIS | 50MP f/2.0 14mm | 50MP f/2.6 70mm 3x OIS",
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼LYT-900",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 201,
@@ -13225,16 +12385,7 @@
     "camera_front": "50MP f/2.0",
     "camera_main_sensor": "索尼LYT-818",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.67",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm",
-    "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 202,
@@ -13307,15 +12458,7 @@
     "camera_rear": "索尼LYT-900 50MP 1\" f/1.6 23mm OIS | 50MP f/1.8 70mm 3x OIS | 200MP f/2.6 100mm 4.3x OIS | 50MP f/2.2 14mm 115°",
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼LYT-900",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/1.8",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 198,
@@ -13385,18 +12528,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼LYT-818",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_sensor": "三星JN1",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.67",
-    "camera_tele_sensor": "三星HP9",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm",
-    "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 199,
@@ -13469,9 +12601,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.63",
-    "camera_main_mp": 50,
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.63"
   },
   {
     "id": 197,
@@ -13537,15 +12667,7 @@
     "network_model": "PLB110",
     "camera_main_sensor": "索尼LYT-600",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 196,
@@ -13617,15 +12739,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼LYT-808",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 194,
@@ -13691,14 +12805,7 @@
     "camera_front": "5000万",
     "camera_main_sensor": "OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/1.9",
-    "camera_uw_sensor": "OV50H",
-    "camera_tele_aperture": "f/1.9",
-    "camera_tele_sensor": "OV50H",
-    "camera_tele_size": "1/1.31\"",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 195,
@@ -13762,10 +12869,7 @@
     "camera_rear": "50MP RYYB 1/1.56\" f/1.6 OIS | 12MP f/2.2 | 12MP 5x OIS",
     "camera_front": "60MP超广角+8MP人像",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 192,
@@ -13836,9 +12940,7 @@
     "camera_front": "3200万",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 193,
@@ -13906,15 +13008,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 191,
@@ -13983,15 +13077,7 @@
     "camera_front": "32MP f/2.4",
     "camera_main_sensor": "索尼LYT-808",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 190,
@@ -14059,11 +13145,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "索尼LYT-600",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.57"
   },
   {
     "id": 189,
@@ -14130,15 +13212,7 @@
     "network_model": "PKT110",
     "camera_main_sensor": "索尼LYT-600",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 187,
@@ -14207,14 +13281,7 @@
     "camera_front": "5000万",
     "camera_main_sensor": "三星HP3",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 200,
-    "camera_uw_aperture": "f/1.9",
-    "camera_uw_sensor": "三星HP3",
-    "camera_tele_aperture": "f/1.9",
-    "camera_tele_sensor": "三星HP3",
-    "camera_tele_size": "1/1.31\"",
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 188,
@@ -14275,14 +13342,7 @@
     "camera_rear": "RYYB 50MP 1/1.56\" f/1.6 23mm OIS | 12MP f/2.2 13mm | 8MP f/2.4 3x OIS",
     "camera_front": "60MP f/2.4 + 8MP 人像",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 186,
@@ -14356,14 +13416,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人900",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.63",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "14mm",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_focal": "60mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.63"
   },
   {
     "id": 185,
@@ -14420,9 +13473,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "50MP RYYB f/1.6 OIS | 12MP f/2.2",
     "camera_front": "60MP超广角",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 184,
@@ -14481,8 +13532,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8",
     "camera_front": "800万",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "Apple",
@@ -14551,15 +13601,7 @@
     "reverse_charging_w": 0,
     "camera_front": "12MP f/1.9",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.78",
-    "camera_main_mp": 48,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -14629,15 +13671,7 @@
     "reverse_charging_w": 0,
     "camera_front": "12MP f/1.9",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.78",
-    "camera_main_mp": 48,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.8",
-    "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.78"
   },
   {
     "brand": "Apple",
@@ -14705,12 +13739,7 @@
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 12MP f/2.2 13mm 120°",
     "camera_front": "12MP f/1.9 23mm",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 48,
-    "camera_main_focal": "26mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "Apple",
@@ -14776,12 +13805,7 @@
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS | 12MP f/2.2 13mm 120°",
     "camera_front": "12MP f/1.9 23mm",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 48,
-    "camera_main_focal": "26mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/1.9"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 211,
@@ -14843,10 +13867,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.9 OIS | 8MP f/2.2 | 50MP 2x",
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "2x"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 212,
@@ -14916,9 +13937,7 @@
     "camera_front": "16MP GC16B3",
     "camera_main_sensor": "OV50E",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 209,
@@ -14979,8 +13998,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.9 OIS | 8MP",
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.9"
   },
   {
     "brand": "REDMI",
@@ -15044,9 +14062,7 @@
     "camera_front": "12MP",
     "camera_main_sensor": "IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.5",
-    "camera_main_mp": 50,
-    "camera_main_focal": "26mm"
+    "camera_main_aperture": "f/1.5"
   },
   {
     "id": 208,
@@ -15107,8 +14123,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 OIS | 8MP",
     "camera_front": "20MP",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 207,
@@ -15166,8 +14181,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.8",
     "camera_front": "800万",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -15243,14 +14257,7 @@
     "camera_front": "10MP f/2.2",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "12mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 224,
@@ -15331,15 +14338,7 @@
     "camera_front": "20MP f/2.2 | 20MP f/2.2",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_size": "1/2.5\"",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 225,
@@ -15420,15 +14419,7 @@
     "camera_front": "16MP f/2.5",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.9",
-    "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.5"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -15505,12 +14496,7 @@
     "camera_front": "10MP f/2.2 23mm",
     "camera_main_sensor": "三星GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "12mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 222,
@@ -15588,13 +14574,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_focal": "47mm",
-    "camera_tele_zoom": "2x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "NUBIA",
@@ -15659,12 +14639,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 220,
@@ -15743,12 +14718,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "NUBIA",
@@ -15816,12 +14786,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -15886,12 +14851,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -15959,12 +14919,7 @@
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 216,
@@ -16027,8 +14982,7 @@
     "camera_rear": "三星GN5 50MP f/1.8 | 5000万像素",
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 215,
@@ -16092,8 +15046,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "索尼LYT-808",
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "NUBIA",
@@ -16157,8 +15110,7 @@
     "camera_rear": "三星GN5 50MP f/1.8 | 5000万主摄",
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 213,
@@ -16219,8 +15171,7 @@
     "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万(RYYB)",
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 227,
@@ -16282,8 +15233,7 @@
     "camera_front": null,
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 231,
@@ -16361,14 +15311,7 @@
     "network_model": "FLC-AN00",
     "camera_main_sensor": "豪威OV50H",
     "camera_main_size": "1/1.31\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 230,
@@ -16428,11 +15371,7 @@
     "camera_rear": "主摄 50MP 光影猎人800 f/1.6 OIS 徕卡 | 超广 12MP f/2.2 徕卡 | 长焦 50MP f/2.0 2x 徕卡 | 前置 32MP + 32MP超广双摄",
     "camera_front": "32MP + 32MP超广双摄",
     "camera_main_sensor": "光影猎人800",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_zoom": "2x"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 229,
@@ -16492,8 +15431,7 @@
     "camera_rear": "豪威OV50E 50MP f/1.8 OIS | 8MP",
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50E",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy C55 5G",
@@ -16550,9 +15488,7 @@
     "camera_rear": "三星JN1 50MP f/1.8 | 后置 5000万(f/1.8 OIS)+800万(f/2.2超广角)+200万(f/2.4微距)",
     "camera_front": "5000万像素",
     "camera_main_sensor": "三星JN1",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/1.8"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 232,
@@ -16613,9 +15549,7 @@
     "camera_rear": "豪威OV64B 64MP f/1.8 | 5000万索尼IMX882 1/1.95\"主摄",
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_size": "1/1.95\"",
-    "camera_main_mp": 64
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 235,
@@ -16677,9 +15611,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy A55 5G",
@@ -16739,9 +15671,7 @@
     "camera_rear": "50MP 1/1.56\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 233,
@@ -16811,15 +15741,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "16mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -16889,14 +15811,7 @@
     "camera_front": "12MP f/2.2",
     "camera_main_sensor": "三星HP2",
     "camera_main_size": "1/1.3\"",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_focal": "13mm",
-    "camera_tele_aperture": "f/2.4",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "brand": "Huawei",
@@ -16971,31 +15886,31 @@
     "camera_rear": "1/1.56\" RYYB 50MP f/1.9 | 5000万主摄",
     "camera_front": null,
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 240,
     "brand": "iQOO",
     "model": "iQOO Z11 Turbo",
-    "processor": "第五代骁龙8",
-    "screen_size": 6.59,
+    "processor": "骁龙8s Gen3",
+    "screen_size": 6.72,
     "refresh_hz": 120,
     "screen_type": "LCD",
-    "resolution": "2750×1260",
-    "ram": "12GB / 16GB",
-    "storage": "256GB / 512GB / 1TB",
-    "battery_mah": 7600,
-    "charging_w": 100,
+    "resolution": "2400×1080",
+    "ram": "12GB",
+    "storage": "256GB/512GB",
+    "battery_mah": 6000,
+    "charging_w": 80,
     "weight_g": 212,
-    "camera_desc": "2亿大底超级主摄 + 800万超广角 | 3200万前置",
+    "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
+      "IP6X",
+      "IPX8",
+      "IPX9",
       "NFC",
-      "红外遥控",
-      "X轴线性马达",
-      "3D超声波单点指纹"
+      "红外"
     ],
     "tags": [
       "NFC",
@@ -17004,11 +15919,11 @@
       "6.5-6.7英寸"
     ],
     "screen_form": "直屏",
-    "detailed_camera": "主摄: 2亿大底超级主摄 (40倍数字变焦) | 超广角: 800万 | 前置: 3200万",
+    "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\"| 超广: 8MP | 前置: 16MP",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "release_date": "2026-01-01",
-    "price": 2999,
+    "release_date": "2024-01-01",
+    "price": 2699,
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -17032,14 +15947,9 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "三星HP5 200MP 1/1.56\" | 8MP",
-    "camera_front": "3200万",
+    "camera_front": "16MP",
     "camera_main_sensor": "三星HP5",
-    "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 200,
-    "dimensions": "157.61×74.42×8.1mm",
-    "price_note": "2026-01发布: 12+256GB=2999元, 16+256GB=3299元, 12+512GB=3599元, 16+512GB=3999元, 16+1TB=4599元",
-    "network_model": "V2536A",
-    "network_model_source": "vivo.com.cn-official"
+    "camera_main_size": "1/1.56\""
   },
   {
     "brand": "realme",
@@ -17076,7 +15986,7 @@
     "screen_type": "OLED",
     "resolution": "2780×1264",
     "date_precision": "month",
-    "completeness_score": 100,
+    "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -17102,25 +16012,23 @@
     "network_model": "RMX8899",
     "network_model_source": "ithome-2025-12-27",
     "camera_main_sensor": "索尼IMX906",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_tele_zoom": "3.5x"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 238,
     "brand": "iQOO",
     "model": "iQOO Z11",
-    "processor": "天玑8500 满血版",
-    "screen_size": 6.83,
+    "processor": "天玑9400",
+    "screen_size": 6.72,
     "refresh_hz": 120,
     "screen_type": "LCD",
-    "resolution": "2800×1260",
-    "ram": "8GB / 12GB / 16GB",
-    "storage": "256GB / 512GB",
-    "battery_mah": 9020,
-    "charging_w": 90,
+    "resolution": "2400×1080",
+    "ram": "8GB/12GB",
+    "storage": "128GB/256GB",
+    "battery_mah": 6000,
+    "charging_w": 80,
     "weight_g": 209,
-    "camera_desc": "5000万主摄 + 200万景深 | 1600万前置",
+    "camera_desc": "64MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
@@ -17139,9 +16047,9 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 5000万 (10倍数字变焦) | 景深: 200万 | 前置: 1600万",
-    "release_date": "2026-03-01",
-    "price": 2499,
+    "detailed_camera": "主摄: 豪威OV64B 64MP 1/2.0\" f/1.8 | 超广: 8MP | 前置: 16MP",
+    "release_date": "2024-01-01",
+    "price": 2099,
     "date_precision": "month",
     "completeness_score": 94,
     "charge_protocols": [
@@ -17165,15 +16073,10 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 | 8MP",
-    "camera_front": "1600万",
+    "camera_front": "16MP",
     "camera_main_sensor": "豪威OV64B",
     "camera_main_size": "1/2.0\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "dimensions": "163.72×76.17×8.25mm",
-    "price_note": "2026-03发布: 8+256GB=2499元, 12+256GB=2699元, 16+256GB=2999元, 12+512GB=3199元, 16+512GB=3599元",
-    "network_model": "V2551A",
-    "network_model_source": "vivo.com.cn-official"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 236,
@@ -17232,9 +16135,7 @@
     "camera_front": "32MP",
     "camera_main_sensor": "索尼IMX890",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_tele_zoom": "3x"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 237,
@@ -17271,7 +16172,7 @@
     "release_date": "2024-01-01",
     "price": 1999,
     "date_precision": "month",
-    "completeness_score": 94,
+    "completeness_score": 88,
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -17294,10 +16195,7 @@
     "camera_front": null,
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
-    "camera_main_aperture": "f/1.8",
-    "network_model": "PMT110",
-    "network_model_source": "oppo.com-official",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 244,
@@ -17367,11 +16265,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_tele_sensor": "IMX816",
-    "camera_tele_size": "1/2.93\"",
-    "camera_tele_zoom": "2x"
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 243,
@@ -17433,8 +16327,7 @@
     "camera_front": "50MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 245,
@@ -17498,9 +16391,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "id": 246,
@@ -17568,15 +16459,7 @@
     "camera_front": "32MP f/2.0",
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.68",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.68"
   },
   {
     "brand": "NUBIA",
@@ -17647,10 +16530,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "brand": "NUBIA",
@@ -17717,10 +16597,7 @@
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 253,
@@ -17778,9 +16655,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8",
     "camera_front": "8MP f/2.0",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 254,
@@ -17834,9 +16709,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8",
     "camera_front": "8MP f/2.0",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 255,
@@ -17893,9 +16766,7 @@
     "camera_rear": "50MP f/1.9 RYYB 1/1.56\" | 2MP",
     "camera_front": "8MP f/2.0",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.9"
   },
   {
     "id": 256,
@@ -17951,8 +16822,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "1300万",
-    "camera_front": "500万",
-    "camera_main_mp": 13
+    "camera_front": "500万"
   },
   {
     "id": 258,
@@ -18016,8 +16886,7 @@
     "camera_rear": "豪威OV64B 64MP f/1.8 | 8MP",
     "camera_front": "16MP",
     "camera_main_sensor": "豪威OV64B",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 262,
@@ -18099,16 +16968,11 @@
     "has_ir": false,
     "esim": false,
     "reverse_charging_w": 0,
-    "completeness_score": 94,
+    "completeness_score": 88,
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/1.9",
-    "camera_uw_sensor": "IMX855",
-    "camera_front_aperture": "f/2.2",
-    "camera_front_sensor": "IMX825"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 263,
@@ -18189,14 +17053,11 @@
     "has_ir": false,
     "esim": false,
     "reverse_charging_w": 0,
-    "completeness_score": 94,
+    "completeness_score": 88,
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "GN3",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 264,
@@ -18280,14 +17141,10 @@
     "has_ir": false,
     "esim": false,
     "reverse_charging_w": 0,
-    "completeness_score": 94,
+    "completeness_score": 88,
     "network_model_source": "samsung.com.cn-official",
     "camera_main_sensor": "HP2",
-    "camera_main_aperture": "f/1.7",
-    "camera_main_mp": 200,
-    "camera_uw_aperture": "f/1.9",
-    "camera_tele_aperture": "f/2.4",
-    "camera_front_aperture": "f/2.2"
+    "camera_main_aperture": "f/1.7"
   },
   {
     "id": 266,
@@ -18357,9 +17214,7 @@
     "reverse_charging_w": 0,
     "completeness_score": 81,
     "camera_main_size": "1/1.4\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_aperture": "f/1.6"
   },
   {
     "brand": "vivo",
@@ -18427,14 +17282,7 @@
     "completeness_score": 100,
     "camera_main_sensor": "IMX921",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_tele_aperture": "f/2.65",
-    "camera_tele_sensor": "IMX882",
-    "camera_tele_size": "1/1.95\"",
-    "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "JN1"
+    "camera_main_aperture": "f/1.88"
   },
   {
     "id": 267,
@@ -18506,12 +17354,7 @@
     "reverse_charging_w": 0,
     "camera_rear": "50MP f/1.8 26mm OIS两轴防抖 | 2MP f/2.4 22mm",
     "camera_front": "50MP f/2.0 18mm AF超广角",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_main_focal": "26mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_uw_focal": "18mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_main_aperture": "f/1.8"
   },
   {
     "id": 268,
@@ -18596,13 +17439,7 @@
     "ip_rating": "IP66/IP68/IP69",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.68",
-    "camera_uw_focal": "17mm",
-    "camera_tele_aperture": "f/3.0",
-    "camera_tele_sensor": "三星JN5",
-    "camera_tele_size": "1/2.75\"",
-    "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "5x"
+    "camera_main_aperture": "f/1.68"
   },
   {
     "id": 269,
@@ -18681,15 +17518,7 @@
     "ip_rating": "IP66/IP68/IP69",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.68",
-    "camera_uw_aperture": "f/2.2",
-    "camera_uw_sensor": "豪威OV08F",
-    "camera_uw_focal": "15mm",
-    "camera_tele_aperture": "f/2.0",
-    "camera_tele_sensor": "三星JN5",
-    "camera_tele_size": "1/2.75\"",
-    "camera_tele_focal": "60mm",
-    "camera_tele_zoom": "2.5x"
+    "camera_main_aperture": "f/1.68"
   },
   {
     "id": 270,
@@ -18783,152 +17612,6 @@
     "ip_rating": "IP54",
     "camera_main_sensor": "豪威OV52A",
     "camera_main_size": "1/1.28\"",
-    "camera_main_aperture": "f/1.6",
-    "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.6",
-    "camera_tele_size": "1/1.4\"",
-    "camera_tele_zoom": "2.7x"
-  },
-  {
-    "id": 271,
-    "brand": "iQOO",
-    "model": "iQOO Neo11 至尊版",
-    "processor": "天玑9500M",
-    "screen_size": 6.83,
-    "refresh_hz": 144,
-    "screen_type": "AMOLED",
-    "resolution": "3200×1440",
-    "ram": "12GB / 16GB LPDDR5X Ultra",
-    "storage": "256GB / 512GB UFS4.1",
-    "battery_mah": 9100,
-    "charging_w": 100,
-    "weight_g": 225,
-    "dimensions": "163.42×75.88×8.6mm",
-    "camera_desc": "5000万 LYT700V 超防抖主摄 f/1.88 + 800万超广角",
-    "detailed_camera": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2 | 前置: 1600万 f/2.45",
-    "camera_main_sensor": "索尼LYT700V",
-    "camera_main_size": "1/1.56\"",
-    "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2",
-    "camera_front": "1600万 f/2.45",
-    "camera_front_aperture": "f/2.45",
-    "has_tele": false,
-    "os": "OriginOS 6 (Android 16)",
-    "features": [
-      "NFC",
-      "红外遥控",
-      "X轴线性马达",
-      "超声波3D指纹",
-      "双扬声器",
-      "IP68",
-      "IP69"
-    ],
-    "tags": [
-      "6500mAh+",
-      "NFC",
-      "红外",
-      "防尘抗水"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "release_date": "2026-08-18",
-    "date_precision": "day",
-    "price": 3699,
-    "network_model": "V2573A",
-    "network_model_source": "vivo.com.cn-official",
-    "charge_protocols": [
-      "PPS",
-      "PD",
-      "QC"
-    ],
-    "charge_protocols_source": "vivo-official",
-    "charge_protocols_confidence": "high",
-    "verified_at": "2026-08-15",
-    "completeness_score": 94,
-    "source_url": "https://m.vivo.com.cn/vivo/param/iqooneo11zun",
-    "price_note": "2026-08-18发布: 12+256GB=3699元, 16+256GB=4099元, 12+512GB=4299元, 16+512GB=4699元 (国补到手价2899元起)",
-    "ip_rating": "IP68/IP69",
-    "colors": "乘风|疾影黑|驰光白",
-    "has_nfc": true,
-    "has_ir": true,
-    "wifi": "WiFi 7",
-    "bluetooth": "Bluetooth 5.4",
-    "sim_type": "双 nano-SIM",
-    "esim": true,
-    "fingerprint": "超声波3D指纹",
-    "reverse_charging_w": 10,
-    "screen_detail": "6.83\" 3200×1440 AMOLED 144Hz 2K 珠峰屏",
-    "camera_rear": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2"
-  },
-  {
-    "id": 272,
-    "brand": "iQOO",
-    "model": "iQOO Z11S",
-    "processor": "天玑7500 满血版",
-    "screen_size": 6.83,
-    "refresh_hz": 144,
-    "screen_type": "AMOLED",
-    "resolution": "2800×1260",
-    "ram": "8GB / 12GB LPDDR4X",
-    "storage": "128GB / 256GB / 512GB UFS3.1",
-    "battery_mah": 10000,
-    "charging_w": 44,
-    "weight_g": 225,
-    "dimensions": "163.90×76.50×8.59mm",
-    "camera_desc": "5000万主摄 f/1.8 | 800万前置",
-    "detailed_camera": "主摄: 5000万 f/1.8 (10倍数字变焦) | 前置: 800万 f/2.05",
-    "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50,
-    "camera_front": "800万 f/2.05",
-    "camera_front_aperture": "f/2.05",
-    "has_tele": false,
-    "os": "OriginOS 6 (Android 16)",
-    "features": [
-      "NFC",
-      "屏下光学指纹",
-      "OTG反向充电",
-      "后置闪光灯",
-      "IP68",
-      "IP69"
-    ],
-    "tags": [
-      "6500mAh+",
-      "NFC",
-      "防尘抗水"
-    ],
-    "screen_form": "直屏",
-    "wireless_charging_w": 0,
-    "usb_version": "USB 2.0",
-    "release_date": "2026-08-18",
-    "date_precision": "day",
-    "price": 1999,
-    "price_note": "2026-08-18发布: 8+128GB=1999元, 8+256GB=2199元, 12+256GB=2499元, 12+512GB=2899元 (首销1799元起)",
-    "network_model": "V2603A",
-    "network_model_source": "vivo.com.cn-official",
-    "charge_protocols": [
-      "PPS",
-      "PD",
-      "QC"
-    ],
-    "charge_protocols_source": "vivo-official",
-    "charge_protocols_confidence": "high",
-    "verified_at": "2026-08-19",
-    "completeness_score": 94,
-    "source_url": "https://m.vivo.com.cn/vivo/param/iqooz11s",
-    "ip_rating": "IP68/IP69",
-    "colors": "万里浮光|雪屿白|墨岩黑",
-    "has_nfc": true,
-    "has_ir": false,
-    "wifi": "WiFi 6",
-    "bluetooth": "Bluetooth 5.3",
-    "sim_type": "双 nano-SIM",
-    "esim": false,
-    "fingerprint": "屏下光学指纹",
-    "reverse_charging_w": 5,
-    "screen_detail": "6.83\" 2800×1260 AMOLED 144Hz",
-    "camera_rear": "主摄: 5000万 f/1.8 | 前置: 800万 f/2.05"
+    "camera_main_aperture": "f/1.6"
   }
 ]
