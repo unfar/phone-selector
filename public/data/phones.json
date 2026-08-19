@@ -9268,7 +9268,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "海风蓝|揽月银|流沙粉|幻夜黑"
   },
   {
     "brand": "realme",
@@ -9396,7 +9397,8 @@
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "海风蓝|揽月银|流沙粉|幻夜黑"
   },
   {
     "id": 122,
@@ -14572,7 +14574,8 @@
     "camera_front": "800万",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP69"
+    "ip_rating": "IP69",
+    "colors": "幻夜黑|竹韵青|朱砂红|月影白|旭日金"
   },
   {
     "brand": "Apple",
