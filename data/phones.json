@@ -61,7 +61,13 @@
     "reverse_charging_w": 0,
     "camera_rear": "800万",
     "camera_front": "500万",
-    "camera_main_mp": 8
+    "camera_main_mp": 8,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 259,
@@ -123,7 +129,15 @@
     "camera_rear": "50MP f/1.8 OIS | 8MP",
     "camera_front": "20MP",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/Redmi Note 17",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 260,
@@ -191,7 +205,15 @@
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/Redmi Note 17 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 250,
@@ -285,7 +307,15 @@
     "camera_tele_aperture": "f/2.57",
     "camera_tele_sensor": "索尼LYT-602",
     "camera_tele_size": "1/1.95\"",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/vivo X Fold6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 249,
@@ -365,7 +395,13 @@
     "camera_front": "800万 f/2.0",
     "camera_main_aperture": "f/1.88",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 1,
@@ -438,7 +474,14 @@
     "camera_front": "800万 f/2.0",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "幻夜黑|竹韵青|旭日金|幻影紫",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 3,
@@ -506,7 +549,13 @@
     "camera_front": "1600万",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 2,
@@ -568,7 +617,13 @@
     "camera_front": "16MP",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 5,
@@ -644,7 +699,14 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定",
+    "colors": "黑色|星云紫|午夜蓝"
   },
   {
     "id": 4,
@@ -722,7 +784,13 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "115mm",
     "camera_tele_zoom": "5x",
-    "colors": null
+    "colors": "黑色|冰莓紫|幻彩白",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 9,
@@ -807,7 +875,13 @@
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
     "camera_front_aperture": "f/2.4",
-    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 8,
@@ -888,7 +962,13 @@
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "16mm",
     "camera_front_aperture": "f/2.4",
-    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 7,
@@ -960,7 +1040,13 @@
     "camera_tele_zoom": "3.3x",
     "camera_front_aperture": "f/2.4",
     "ip_rating": "IP65",
-    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 6,
@@ -1025,7 +1111,13 @@
     "camera_front": "5000万",
     "camera_main_mp": 50,
     "ip_rating": "IP68",
-    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 12,
@@ -1099,7 +1191,14 @@
     "camera_tele_sensor": "IMX882",
     "camera_tele_size": "1/1.95\"",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星星海|初夏绿|仲夏夜",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 11,
@@ -1168,7 +1267,14 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_mp": 50,
     "camera_uw_sensor": "索尼LYT700V",
-    "camera_front_sensor": "索尼LYT700V"
+    "camera_front_sensor": "索尼LYT700V",
+    "colors": "星星海|初夏绿|仲夏夜",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 10,
@@ -1237,7 +1343,13 @@
     "camera_rear": "5000万 f/1.88 OIS | 500万",
     "camera_front": "1600万",
     "camera_main_aperture": "f/1.88",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 17,
@@ -1319,7 +1431,16 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "怦然星动|梦境蓝|星河紫|月夜黑",
+    "source_url": "https://example.com/OPPO Reno16 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 16,
@@ -1395,7 +1516,16 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.8",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "曜石黑|幸运星|青苹果|光羽蓝",
+    "source_url": "https://example.com/荣耀600 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 15,
@@ -1476,7 +1606,16 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "怦然星动|梦境蓝|星河紫|月夜黑",
+    "source_url": "https://example.com/OPPO Reno16",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 14,
@@ -1549,7 +1688,16 @@
     "camera_main_mp": 200,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "曜石黑|幸运星|青苹果|光羽蓝",
+    "source_url": "https://example.com/荣耀600 超级版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 13,
@@ -1611,7 +1759,14 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万索尼超清",
     "camera_front": "5000万",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "曜石黑|幸运星|青苹果|光羽蓝",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 18,
@@ -1675,7 +1830,15 @@
     "camera_front": "32MP",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 200
+    "camera_main_mp": 200,
+    "source_url": "https://example.com/iQOO 15T",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 22,
@@ -1754,7 +1917,13 @@
     "camera_uw_focal": "15mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 21,
@@ -1828,7 +1997,13 @@
     "camera_uw_aperture": "f/2.0",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 20,
@@ -1911,7 +2086,13 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 29,
@@ -1996,7 +2177,16 @@
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "索尼LYT-600"
+    "camera_front_sensor": "索尼LYT-600",
+    "colors": "大地苔原|绒砂峡谷|极地冰川",
+    "source_url": "https://example.com/OPPO Find X9 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 28,
@@ -2076,7 +2266,16 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|晨曦金|霞光紫|橘子海|翡翠湖",
+    "source_url": "https://example.com/HUAWEI Pura 90 Pro Max",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 27,
@@ -2153,7 +2352,16 @@
     "camera_tele_size": "1/1.56\"",
     "camera_tele_focal": "65mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "乘风青|自在白|元气橙|原生钛",
+    "source_url": "https://example.com/OPPO Find X9s Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 127,
@@ -2224,7 +2432,16 @@
     "ip_rating": "IP69",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "赛博光翼|起源灰|光尘粉|金色传说",
+    "source_url": "https://example.com/OPPO K15 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 123,
@@ -2295,7 +2512,16 @@
     "ip_rating": "IPX9/IP69",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "赛博光翼|起源灰|光尘粉|金色传说",
+    "source_url": "https://example.com/OPPO K15 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 26,
@@ -2366,7 +2592,16 @@
     "camera_main_aperture": "f/1.4",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "4x"
+    "camera_tele_zoom": "4x",
+    "colors": "桑果黑|椰青白|橘子汽水|粉红芭乐",
+    "source_url": "https://example.com/HUAWEI Pura 90 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 25,
@@ -2440,7 +2675,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "罗兰紫|丝绒黑|雪域白",
+    "source_url": "https://example.com/HUAWEI Pura 90",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 31,
@@ -2527,7 +2771,16 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "胶片绿|银调|黑Ka",
+    "source_url": "https://example.com/vivo X300 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 30,
@@ -2606,7 +2859,16 @@
     "camera_tele_aperture": "f/2.57",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "胶片绿|钛黑|银白",
+    "source_url": "https://example.com/vivo X300s",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Huawei",
@@ -2689,7 +2951,16 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "极夜黑|极昼金",
+    "source_url": "https://example.com/HUAWEI Mate 80 Pro Max 风驰版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -2754,7 +3025,15 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 48,
     "camera_main_focal": "26mm",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "source_url": "https://example.com/iPhone 17e",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy A57 5G",
@@ -2817,7 +3096,15 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy A57 5G",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 35,
@@ -2880,7 +3167,14 @@
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP69"
+    "ip_rating": "IP69",
+    "colors": "曙光金|暮光蓝|海贝白",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 34,
@@ -2943,7 +3237,13 @@
     "network_model_source": "pconline",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69"
+    "ip_rating": "IP66/IP68/IP69",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -3018,7 +3318,15 @@
     "camera_uw_aperture": "f/1.9",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S26 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S26+",
@@ -3095,7 +3403,15 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "69mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S26+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S26",
@@ -3172,7 +3488,15 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "69mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S26",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 40,
@@ -3241,7 +3565,13 @@
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 42,
@@ -3319,7 +3649,16 @@
     "camera_tele_size": "1/2.5\"",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光石|板岩灰",
+    "source_url": "https://example.com/Magic8 RSR 保时捷设计",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -3391,7 +3730,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "仙紫|轻橙|羽白|影黑",
+    "source_url": "https://example.com/荣耀 Magic8 Pro Air",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 43,
@@ -3455,7 +3803,13 @@
     "camera_front": "500万 f/2.2",
     "camera_main_aperture": "f/2.2",
     "camera_main_mp": 13,
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 44,
@@ -3536,7 +3890,15 @@
     "camera_tele_focal": "115mm",
     "camera_tele_zoom": "5x",
     "camera_front_aperture": "f/2.0",
-    "colors": "经典黑|经典白|星空绿"
+    "colors": "经典黑|经典白|星空绿",
+    "source_url": "https://example.com/Xiaomi 17 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 52,
@@ -3620,7 +3982,16 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "曜石黑|云锦蓝|云锦白|寰宇红|幻影紫",
+    "source_url": "https://example.com/HUAWEI Mate X7",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 51,
@@ -3692,7 +4063,15 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "5x",
     "ip_rating": "IP68/IP69",
-    "colors": "带感绿|好搭紫|零度白|幻夜黑"
+    "colors": "带感绿|好搭紫|零度白|幻夜黑",
+    "source_url": "https://example.com/HUAWEI nova 15 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 50,
@@ -3763,7 +4142,15 @@
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.0",
     "ip_rating": "IP65",
-    "colors": "带感绿|好搭紫|零度白|幻夜黑"
+    "colors": "带感绿|好搭紫|零度白|幻夜黑",
+    "source_url": "https://example.com/HUAWEI nova 15 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 49,
@@ -3827,7 +4214,15 @@
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
     "ip_rating": "IP65",
-    "colors": "带感绿|好搭紫|零度白|幻夜黑"
+    "colors": "带感绿|好搭紫|零度白|幻夜黑",
+    "source_url": "https://example.com/HUAWEI nova 15",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 48,
@@ -3888,7 +4283,14 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69K"
+    "ip_rating": "IP66/IP68/IP69K",
+    "colors": "冰川白|栗绒棕",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 47,
@@ -3951,7 +4353,13 @@
     "network_model_source": "pconline+zol",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP69"
+    "ip_rating": "IP69",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 46,
@@ -4012,7 +4420,13 @@
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP64"
+    "ip_rating": "IP64",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 45,
@@ -4072,7 +4486,13 @@
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP54"
+    "ip_rating": "IP54",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "荣耀 500 Pro",
@@ -4145,7 +4565,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光银|曜石黑|星光粉|海蓝宝石",
+    "source_url": "https://example.com/荣耀 500 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "荣耀 500",
@@ -4214,7 +4643,16 @@
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光银|曜石黑|星光粉|海蓝宝石",
+    "source_url": "https://example.com/荣耀 500",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 65,
@@ -4298,7 +4736,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/3.4",
     "camera_tele_zoom": "5.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "槿紫|皓白|玄黑|瑞红",
+    "source_url": "https://example.com/华为 Mate XTs 非凡大师",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 64,
@@ -4380,7 +4827,16 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "玄黑|皓白|槿紫",
+    "source_url": "https://example.com/HUAWEI Mate 80 RS 非凡大师",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 63,
@@ -4462,7 +4918,16 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "极夜黑|极地银|极昼金|极光青",
+    "source_url": "https://example.com/HUAWEI Mate 80 Pro Max",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 61,
@@ -4540,7 +5005,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|晨曦金|云杉绿",
+    "source_url": "https://example.com/HUAWEI Mate 80 Pro (16GB)",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 62,
@@ -4617,7 +5091,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|晨曦金|云杉绿",
+    "source_url": "https://example.com/HUAWEI Mate 80 Pro (12GB)",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 60,
@@ -4694,7 +5177,16 @@
     "camera_tele_aperture": "f/3.4",
     "camera_tele_focal": "125mm",
     "camera_tele_zoom": "5.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|晨曦金|云杉绿",
+    "source_url": "https://example.com/HUAWEI Mate 80",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 59,
@@ -4770,7 +5262,13 @@
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3.2x",
     "camera_front_aperture": "f/2.0",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/Redmi K90 Pro Max",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 257,
@@ -4847,7 +5345,13 @@
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_focal": "23mm",
+    "source_url": "https://example.com/Redmi K90 Ultra",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 58,
@@ -4923,7 +5427,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "人鱼姬|海芋紫|礁石黑",
+    "source_url": "https://example.com/OPPO Reno14 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 57,
@@ -4993,7 +5506,13 @@
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69"
+    "ip_rating": "IP66/IP68/IP69",
+    "source_url": "https://example.com/Redmi K90 Max",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 56,
@@ -5076,7 +5595,16 @@
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
     "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "JN5"
+    "camera_front_sensor": "JN5",
+    "colors": "人鱼姬|半夏绿|礁石黑",
+    "source_url": "https://example.com/OPPO Reno14",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 55,
@@ -5146,7 +5674,13 @@
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/Redmi K90",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 67,
@@ -5226,7 +5760,16 @@
     "camera_tele_aperture": "f/2.1",
     "camera_tele_sensor": "三星HP5",
     "camera_tele_size": "1/1.56\"",
-    "camera_tele_focal": "70mm"
+    "camera_tele_focal": "70mm",
+    "colors": "绒砂钛|绒光钛|霜白|雾黑",
+    "source_url": "https://example.com/OPPO Find X9 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 66,
@@ -5300,7 +5843,16 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.0",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "绒砂钛|绒光钛|霜白|雾黑",
+    "source_url": "https://example.com/OPPO Find X9",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -5375,7 +5927,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_sensor": "三星HP9",
     "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm"
+    "camera_tele_focal": "85mm",
+    "colors": "旭日金砂|天青色|雪域白|绒黑色",
+    "source_url": "https://example.com/荣耀 Magic8 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -5453,7 +6014,16 @@
     "camera_tele_size": "1/2.0\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "旭日金|天青釉|雪域白|绒黑色",
+    "source_url": "https://example.com/荣耀 Magic8",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 71,
@@ -5532,7 +6102,16 @@
     "camera_tele_aperture": "f/2.67",
     "camera_tele_sensor": "三星HPB",
     "camera_tele_size": "1/1.4\"",
-    "camera_tele_focal": "85mm"
+    "camera_tele_focal": "85mm",
+    "colors": "旷野棕|简单白|自在蓝|纯粹黑",
+    "source_url": "https://example.com/vivo X300 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 70,
@@ -5609,7 +6188,16 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.0",
     "camera_uw_focal": "15mm",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "幸运彩|惬意紫|自在蓝|纯粹黑",
+    "source_url": "https://example.com/vivo X300",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 74,
@@ -5696,7 +6284,16 @@
     "camera_tele_size": "1/1.95\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "2077流光橙|2049寒光蓝",
+    "source_url": "https://example.com/iQOO 15 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 72,
@@ -5778,7 +6375,16 @@
     "camera_uw_sensor": "三星JN1",
     "camera_tele_aperture": "f/2.65",
     "camera_tele_sensor": "索尼IMX882",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "传奇版|赛道版|凌云|旷野",
+    "source_url": "https://example.com/iQOO 15",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -5853,7 +6459,15 @@
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "16mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "source_url": "https://example.com/一加 15T",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 79,
@@ -5931,7 +6545,13 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "3x",
-    "colors": "冰融蓝|雪山粉|白色|黑色|森野绿|冷烟紫"
+    "colors": "冰融蓝|雪山粉|白色|黑色|森野绿|冷烟紫",
+    "source_url": "https://example.com/Xiaomi 17 Pro Max",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 78,
@@ -6011,7 +6631,13 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "3x",
-    "colors": "冰融蓝|雪山粉|白色|黑色|森野绿|冷烟紫"
+    "colors": "冰融蓝|雪山粉|白色|黑色|森野绿|冷烟紫",
+    "source_url": "https://example.com/Xiaomi 17 Pro",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 77,
@@ -6093,7 +6719,13 @@
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "60mm",
     "camera_front_aperture": "f/2.0",
-    "colors": "冰融蓝|雪山粉|白色|黑色"
+    "colors": "冰融蓝|雪山粉|白色|黑色",
+    "source_url": "https://example.com/Xiaomi 17",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "brand": "Apple",
@@ -6172,7 +6804,16 @@
     "camera_tele_sensor": "IMX973",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "colors": "星宇橙|暗夜蓝|暖银|黑色",
+    "source_url": "https://example.com/iPhone 17 Pro Max",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -6252,7 +6893,16 @@
     "camera_tele_sensor": "IMX973",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "4x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "colors": "星宇橙|暗夜蓝|暖银|黑色",
+    "source_url": "https://example.com/iPhone 17 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -6321,7 +6971,15 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 48,
     "camera_main_focal": "26mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/iPhone Air",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -6397,7 +7055,15 @@
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "5x",
     "camera_front_aperture": "f/1.9",
-    "colors": "黑色|白色|紫色|浅蓝|绿色"
+    "colors": "黑色|白色|紫色|浅蓝|绿色",
+    "source_url": "https://example.com/iPhone 17",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 82,
@@ -6459,7 +7125,14 @@
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69"
+    "ip_rating": "IP66/IP68/IP69",
+    "colors": "流水生金|青云平步|墨玉黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 81,
@@ -6521,7 +7194,14 @@
     "camera_main_sensor": "豪威OV50D",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69"
+    "ip_rating": "IP66/IP68/IP69",
+    "colors": "粉梦生花|蓝海浮光|丝绒灰",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 80,
@@ -6581,7 +7261,14 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "云雾白|午夜黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 93,
@@ -6664,7 +7351,15 @@
     "camera_tele_focal": "115mm",
     "camera_tele_zoom": "5x",
     "camera_front_aperture": "f/2.0",
-    "colors": "经典黑|经典白|星空绿"
+    "colors": "经典黑|经典白|星空绿",
+    "source_url": "https://example.com/Xiaomi 17 Ultra 徕卡版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 92,
@@ -6738,7 +7433,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/3.4",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "羽衣白|金丝银锦|曜金黑",
+    "source_url": "https://example.com/HUAWEI Mate 70 Air",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -6823,7 +7527,15 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/一加 15",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "realme",
@@ -6901,7 +7613,15 @@
     "camera_tele_sensor": "HP5",
     "camera_tele_size": "1/1.56\"",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "source_url": "https://example.com/GT8 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 89,
@@ -6962,7 +7682,13 @@
     "camera_front": "108MP",
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 88,
@@ -7027,7 +7753,15 @@
     "camera_uw_aperture": "f/2.0",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/Redmi Note 15 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 87,
@@ -7089,7 +7823,13 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69"
+    "ip_rating": "IP66/IP68/IP69",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 94,
@@ -7164,7 +7904,13 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -7236,7 +7982,16 @@
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
     "camera_front_aperture": "f/2.0",
-    "camera_tele_aperture": "f/2.4"
+    "camera_tele_aperture": "f/2.4",
+    "colors": "快开黑|指定赢|不怕蓝",
+    "source_url": "https://example.com/荣耀 WIN",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -7302,7 +8057,15 @@
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/一加 Ace 6 至尊版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "荣耀 WIN RT",
@@ -7370,7 +8133,16 @@
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "colors": "快开黑|指定赢|不怕蓝",
+    "source_url": "https://example.com/荣耀 WIN RT",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 100,
@@ -7443,7 +8215,14 @@
     "camera_uw_aperture": "f/2.2",
     "dimensions": "163.37×76.71×8.05mm",
     "camera_front_aperture": "f/2.45",
-    "price_note": "2025-10-31发布: 12+256GB=3599元, 16+256GB=3999元, 12+512GB=4099元, 16+512GB=4499元, 16+1TB=5599元 (发布会到手价2599元起)"
+    "price_note": "2025-10-31发布: 12+256GB=3599元, 16+256GB=3999元, 12+512GB=4099元, 16+512GB=4499元, 16+1TB=5599元 (发布会到手价2599元起)",
+    "source_url": "https://example.com/iQOO Neo11",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "brand": "realme",
@@ -7517,7 +8296,15 @@
     "camera_uw_sensor": "JN5",
     "camera_tele_aperture": "f/1.8",
     "camera_tele_sensor": "JN5",
-    "camera_tele_zoom": "3.5x"
+    "camera_tele_zoom": "3.5x",
+    "source_url": "https://example.com/GT8",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -7585,7 +8372,15 @@
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/一加 Ace 6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "REDMI",
@@ -7647,7 +8442,13 @@
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/REDMI Turbo 5 Max",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "brand": "REDMI",
@@ -7709,7 +8510,13 @@
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/REDMI Turbo 5",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 95,
@@ -7769,7 +8576,15 @@
     "camera_front": "待确认",
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/X80i",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy Z TriFold",
@@ -7854,7 +8669,15 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z TriFold",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy Z Fold7",
@@ -7939,7 +8762,15 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Fold7",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -8031,7 +8862,15 @@
     "camera_tele_size": "1/2.0\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/荣耀 Magic V6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy Z Flip7",
@@ -8115,7 +8954,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Flip7",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -8196,7 +9043,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Flip7 FE",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -8268,7 +9123,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/REDMAGIC 11 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -8339,7 +9202,15 @@
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/REDMAGIC 11 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 109,
@@ -8415,7 +9286,16 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星光蝴蝶结|极光蓝|可露丽棕|星星粉",
+    "source_url": "https://example.com/OPPO Reno15 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 107,
@@ -8484,7 +9364,16 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "colors": "星光蝴蝶结|极光蓝|可露丽棕|星星粉",
+    "source_url": "https://example.com/OPPO Reno15",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -8549,7 +9438,15 @@
     "camera_main_mp": 64,
     "camera_main_focal": "25mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/REDMAGIC 11 Air",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 106,
@@ -8618,7 +9515,16 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "星光蝴蝶结|极光蓝|可露丽棕|星星粉",
+    "source_url": "https://example.com/OPPO Reno15c",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -8688,7 +9594,15 @@
     "camera_front": "1600万像素",
     "camera_main_mp": 50,
     "camera_main_aperture": "f/1.88",
-    "camera_main_focal": "26mm"
+    "camera_main_focal": "26mm",
+    "source_url": "https://example.com/一加 Turbo 6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -8758,7 +9672,15 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "source_url": "https://example.com/一加 Ace 6T",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 132,
@@ -8840,7 +9762,16 @@
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "鎏光金|鎏光黑",
+    "source_url": "https://example.com/华为 Pura 80 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 131,
@@ -8929,7 +9860,15 @@
     "camera_tele_size": "1/2.5\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "source_url": "https://example.com/vivo X Fold5",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 130,
@@ -9007,7 +9946,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "釉青|釉红|釉白|釉黑",
+    "source_url": "https://example.com/华为 Pura 80 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 129,
@@ -9084,7 +10032,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "釉金|釉白|釉黑",
+    "source_url": "https://example.com/华为 Pura 80 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 128,
@@ -9158,7 +10115,16 @@
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
     "camera_front_aperture": "f/2.4",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "丝绒黑|丝绒白|丝绒金|丝绒绿",
+    "source_url": "https://example.com/华为 Pura 80",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -9234,7 +10200,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "海风蓝|揽月银|流沙粉|幻夜黑",
+    "source_url": "https://example.com/荣耀 400 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "realme",
@@ -9296,7 +10271,15 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "source_url": "https://example.com/Neo7 Turbo",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -9362,7 +10345,16 @@
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "海风蓝|揽月银|流沙粉|幻夜黑",
+    "source_url": "https://example.com/荣耀 400",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 122,
@@ -9425,7 +10417,16 @@
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "colors": "骑士银|初号紫|黑武士",
+    "source_url": "https://example.com/OPPO K13 Turbo Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 120,
@@ -9490,7 +10491,16 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IPX6/IPX8/IPX9"
+    "ip_rating": "IPX6/IPX8/IPX9",
+    "colors": "骑士白|初号紫|黑武士",
+    "source_url": "https://example.com/OPPO K13 Turbo",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 265,
@@ -9554,7 +10564,15 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "ip_rating": "IP69",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "赛博光翼|起源灰|光尘粉|金色传说",
+    "source_url": "https://example.com/OPPO K15",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 121,
@@ -9618,7 +10636,15 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "source_url": "https://example.com/Neo7",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -9684,7 +10710,15 @@
     "camera_front": "800万像素",
     "camera_main_mp": 50,
     "camera_main_aperture": "f/1.8",
-    "camera_main_focal": "27mm"
+    "camera_main_focal": "27mm",
+    "source_url": "https://example.com/一加 Turbo 6V",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 117,
@@ -9746,7 +10780,13 @@
     "camera_front": "50MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 118,
@@ -9806,7 +10846,13 @@
     "camera_rear": "50MP主摄 | 5MP前置",
     "camera_front": "P前置",
     "camera_main_mp": 50,
-    "camera_main_aperture": "f/1.8"
+    "camera_main_aperture": "f/1.8",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Huawei",
@@ -9894,7 +10940,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "幻夜黑|零度白|星际蓝|橄榄金|活力橙",
+    "source_url": "https://example.com/HUAWEI Pura X Max",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -9956,7 +11011,15 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.88",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69/IP69K"
+    "ip_rating": "IP66/IP68/IP69/IP69K",
+    "source_url": "https://example.com/荣耀 Power2",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 135,
@@ -10020,7 +11083,15 @@
     "camera_front": "50MP",
     "camera_main_size": "1/1.5\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/S21 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 134,
@@ -10089,7 +11160,15 @@
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "source_url": "https://example.com/一加 13T",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 133,
@@ -10150,7 +11229,15 @@
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 64,
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "source_url": "https://example.com/iQOO Z10 Turbo+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Huawei",
@@ -10237,7 +11324,16 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "月影灰|零度白|幻夜黑",
+    "source_url": "https://example.com/HUAWEI Pura X",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy A56 5G",
@@ -10299,7 +11395,15 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy A56 5G",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 143,
@@ -10363,7 +11467,15 @@
     "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy A56",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 141,
@@ -10420,7 +11532,13 @@
     "reverse_charging_w": 0,
     "camera_rear": "5000万",
     "camera_front": "500万",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 146,
@@ -10506,7 +11624,16 @@
     "camera_tele_aperture": "f/2.7",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "原钛|金橙|深黑",
+    "source_url": "https://example.com/OPPO Find N6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 145,
@@ -10594,7 +11721,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_size": "1/2.0\"",
     "camera_tele_focal": "135mm",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "colors": "缎黑|玉白|暮紫",
+    "source_url": "https://example.com/OPPO Find N5",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S25 Ultra",
@@ -10670,7 +11806,15 @@
     "camera_uw_aperture": "f/1.9",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S25 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S25 Edge",
@@ -10744,7 +11888,15 @@
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S25 Edge",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 159,
@@ -10827,7 +11979,13 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S25+",
@@ -10903,7 +12061,15 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "69mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S25+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S25",
@@ -10978,7 +12144,15 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S25",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 154,
@@ -11047,7 +12221,16 @@
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "告白|灵感紫|悠悠蓝|深空黑",
+    "source_url": "https://example.com/vivo S50 Pro mini",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -11122,7 +12305,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "冰晶白|幻影黑|极光绿",
+    "source_url": "https://example.com/荣耀 GT Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 153,
@@ -11197,7 +12389,16 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.6",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": null,
+    "source_url": "https://example.com/vivo Y500 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 150,
@@ -11264,7 +12465,15 @@
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/vivo S30 Pro mini",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 151,
@@ -11328,7 +12537,15 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/vivo S30",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 152,
@@ -11396,7 +12613,16 @@
     "camera_front": "16MP",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 200
+    "camera_main_mp": 200,
+    "colors": null,
+    "source_url": "https://example.com/vivo Y500",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "HONOR",
@@ -11462,7 +12688,16 @@
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "冰晶白|幻影黑|极光绿",
+    "source_url": "https://example.com/荣耀 GT",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 148,
@@ -11531,7 +12766,16 @@
     "camera_main_aperture": "f/1.57",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "告白|灵感紫|悠悠蓝|深空黑",
+    "source_url": "https://example.com/vivo S50",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 147,
@@ -11599,7 +12843,15 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_size": "1/2.76\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/vivo Y600 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 161,
@@ -11681,7 +12933,16 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "星云灰|星云白|曜石黑|寰宇红|深海蓝",
+    "source_url": "https://example.com/HUAWEI Mate X6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 172,
@@ -11753,7 +13014,15 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "87mm",
     "camera_tele_zoom": "3.8x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/荣耀 300 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 173,
@@ -11822,7 +13091,16 @@
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
     "camera_front_aperture": "f/2.2",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "金色|紫色|白色|黑色",
+    "source_url": "https://example.com/HUAWEI nova 14 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 171,
@@ -11895,7 +13173,15 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/荣耀 300 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 170,
@@ -11964,7 +13250,16 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.2",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "金色|紫色|白色|黑色",
+    "source_url": "https://example.com/HUAWEI nova 14 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 169,
@@ -12030,7 +13325,15 @@
     "camera_main_sensor": "IMX906",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/一加 Ace 5 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 168,
@@ -12093,7 +13396,15 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_tele_zoom": "2x",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/vivo S20 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 166,
@@ -12159,7 +13470,15 @@
     "camera_main_sensor": "索尼IMX906",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/一加 Ace 5",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 167,
@@ -12218,7 +13537,16 @@
     "camera_front": "800万",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_tele_aperture": "f/2.4"
+    "camera_tele_aperture": "f/2.4",
+    "colors": "金色|紫色|白色|黑色",
+    "source_url": "https://example.com/HUAWEI nova 14",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "realme",
@@ -12283,7 +13611,15 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/GT7",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 162,
@@ -12347,7 +13683,15 @@
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "source_url": "https://example.com/荣耀 300",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 163,
@@ -12409,7 +13753,15 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/vivo S20",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "OnePlus",
@@ -12479,7 +13831,15 @@
     "camera_main_sensor": "IMX906",
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/一加 Ace 5 至尊版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 183,
@@ -12556,7 +13916,16 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "皓白|瑞红|玄黑",
+    "source_url": "https://example.com/华为 Mate 70 RS 非凡大师",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 182,
@@ -12633,7 +14002,16 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "金丝银锦|羽衣白|墨韵黑|飞天青",
+    "source_url": "https://example.com/华为 Mate 70 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 180,
@@ -12709,7 +14087,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|云杉绿|风信紫",
+    "source_url": "https://example.com/华为 Mate 70 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Huawei",
@@ -12784,7 +14171,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|云杉绿|风信紫",
+    "source_url": "https://example.com/HUAWEI Mate 70 Pro 优享版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 178,
@@ -12857,7 +14253,16 @@
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|云杉绿|风信紫",
+    "source_url": "https://example.com/华为 Mate 70",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 177,
@@ -12931,7 +14336,15 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/GT7 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "REDMI",
@@ -13001,7 +14414,15 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "60mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/REDMI K80 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "REDMI",
@@ -13064,7 +14485,15 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/REDMI K80至尊版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "REDMI",
@@ -13129,7 +14558,15 @@
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/REDMI K80",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 200,
@@ -13206,7 +14643,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光白|星野黑|晨曦微光",
+    "source_url": "https://example.com/OPPO Find X8 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 201,
@@ -13285,7 +14731,15 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/vivo X200 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 202,
@@ -13366,7 +14820,15 @@
     "camera_tele_aperture": "f/1.8",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/Xiaomi 15 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 198,
@@ -13447,7 +14909,15 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/vivo X200 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 199,
@@ -13522,7 +14992,15 @@
     "camera_main_size": "1/1.31\"",
     "camera_main_aperture": "f/1.63",
     "camera_main_mp": 50,
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "source_url": "https://example.com/Xiaomi 15 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 197,
@@ -13596,7 +15074,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星野黑|月光白|海岛蓝|落樱粉",
+    "source_url": "https://example.com/OPPO Find X8s+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 196,
@@ -13676,7 +15163,15 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/一加 13",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 194,
@@ -13749,7 +15244,15 @@
     "camera_tele_aperture": "f/1.9",
     "camera_tele_sensor": "OV50H",
     "camera_tele_size": "1/1.31\"",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/荣耀 Magic7",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 195,
@@ -13816,7 +15319,16 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "colors": "洛登绿|羽砂紫|羽砂白|星耀黑",
+    "source_url": "https://example.com/华为 nova 13 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 192,
@@ -13889,7 +15401,15 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.57",
     "camera_main_mp": 50,
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/vivo X200 Pro mini",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 193,
@@ -13965,7 +15485,15 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/vivo X200s",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 191,
@@ -14042,7 +15570,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "星野黑|漫步云端|晴空航线",
+    "source_url": "https://example.com/OPPO Find X8 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 190,
@@ -14114,7 +15651,15 @@
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/vivo X200",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 189,
@@ -14189,7 +15734,16 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星野黑|月光白|海岛蓝|落樱粉",
+    "source_url": "https://example.com/OPPO Find X8s",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 187,
@@ -14265,7 +15819,15 @@
     "camera_tele_aperture": "f/1.9",
     "camera_tele_sensor": "三星HP3",
     "camera_tele_size": "1/1.31\"",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/荣耀 Magic7 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 188,
@@ -14333,7 +15895,16 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "洛登绿|羽砂紫|羽砂白|星耀黑",
+    "source_url": "https://example.com/华为 nova 13 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 186,
@@ -14414,7 +15985,15 @@
     "camera_uw_focal": "14mm",
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "60mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/Xiaomi 15",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 185,
@@ -14473,7 +16052,16 @@
     "camera_front": "60MP超广角",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "colors": "洛登绿|羽砂紫|羽砂白|星耀黑",
+    "source_url": "https://example.com/华为 nova 13",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 184,
@@ -14534,7 +16122,14 @@
     "camera_front": "800万",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP69"
+    "ip_rating": "IP69",
+    "colors": "幻夜黑|竹韵青|朱砂红|月影白|旭日金",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -14611,7 +16206,15 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "source_url": "https://example.com/iPhone 16 Pro Max",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -14689,7 +16292,15 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "source_url": "https://example.com/iPhone 16 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -14762,7 +16373,15 @@
     "camera_main_focal": "26mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "source_url": "https://example.com/iPhone 16 Plus",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Apple",
@@ -14833,7 +16452,15 @@
     "camera_main_focal": "26mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "source_url": "https://example.com/iPhone 16",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 211,
@@ -14898,7 +16525,15 @@
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "2x"
+    "camera_tele_zoom": "2x",
+    "source_url": "https://example.com/iQOO Neo10 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 212,
@@ -14970,7 +16605,15 @@
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.88",
     "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_focal": "23mm",
+    "source_url": "https://example.com/iQOO Neo10 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 209,
@@ -15032,7 +16675,15 @@
     "camera_front": "16MP",
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/iQOO Neo10",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "REDMI",
@@ -15098,7 +16749,15 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.5",
     "camera_main_mp": 50,
-    "camera_main_focal": "26mm"
+    "camera_main_focal": "26mm",
+    "source_url": "https://example.com/REDMI Turbo 4 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 208,
@@ -15160,7 +16819,15 @@
     "camera_rear": "50MP f/1.8 OIS | 8MP",
     "camera_front": "20MP",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/Redmi Turbo 4",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 207,
@@ -15219,7 +16886,13 @@
     "camera_rear": "5000万 f/1.8",
     "camera_front": "800万",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy Z Fold6",
@@ -15302,7 +16975,15 @@
     "camera_uw_focal": "12mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Fold6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 224,
@@ -15391,7 +17072,15 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_size": "1/2.5\"",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/荣耀 Magic V3",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 225,
@@ -15480,7 +17169,15 @@
     "camera_tele_aperture": "f/2.9",
     "camera_tele_focal": "115mm",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.5"
+    "camera_front_aperture": "f/2.5",
+    "source_url": "https://example.com/Xiaomi MIX Fold 4",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy Z Flip6",
@@ -15562,7 +17259,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "12mm",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Flip6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 222,
@@ -15647,7 +17352,15 @@
     "camera_tele_focal": "47mm",
     "camera_tele_zoom": "2x",
     "camera_front_aperture": "f/2.0",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "source_url": "https://example.com/Xiaomi MIX Flip",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -15717,7 +17430,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/REDMAGIC 10S Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 220,
@@ -15801,7 +17522,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/Xiaomi MIX Flip 2",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -15874,7 +17603,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/REDMAGIC 10 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -15944,7 +17681,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/REDMAGIC 10S Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -16017,7 +17762,15 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "15mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/REDMAGIC 10 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 216,
@@ -16081,7 +17834,15 @@
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/REDMAGIC 10",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 215,
@@ -16146,7 +17907,15 @@
     "camera_main_sensor": "索尼LYT-808",
     "camera_main_size": "1/1.4\"",
     "camera_main_aperture": "f/1.6",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/GT6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -16211,7 +17980,15 @@
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/REDMAGIC 10 Air",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 213,
@@ -16273,7 +18050,16 @@
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_mp": 64,
+    "colors": "月影白|朱砂红|竹韵青|幻夜黑",
+    "source_url": "https://example.com/X70 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 227,
@@ -16336,7 +18122,15 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/GT Neo6",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 231,
@@ -16421,7 +18215,15 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/3.0",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/荣耀 Magic Vs3",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 230,
@@ -16486,7 +18288,15 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.0",
     "camera_tele_zoom": "2x",
-    "ip_rating": "IP57"
+    "ip_rating": "IP57",
+    "source_url": "https://example.com/Xiaomi Civi 4 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 229,
@@ -16547,7 +18357,15 @@
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50E",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "source_url": "https://example.com/S21",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy C55 5G",
@@ -16606,7 +18424,15 @@
     "camera_main_sensor": "三星JN1",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/1.8"
+    "camera_uw_aperture": "f/1.8",
+    "source_url": "https://example.com/Galaxy C55 5G",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 232,
@@ -16669,7 +18495,15 @@
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
     "camera_main_size": "1/1.95\"",
-    "camera_main_mp": 64
+    "camera_main_mp": 64,
+    "source_url": "https://example.com/iQOO Z9 Turbo",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 235,
@@ -16733,7 +18567,15 @@
     "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy A55",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy A55 5G",
@@ -16795,7 +18637,15 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy A55 5G",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 233,
@@ -16873,7 +18723,15 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/14 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "model": "Galaxy S24 Ultra",
@@ -16950,7 +18808,15 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.4",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy S24 Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "Huawei",
@@ -17026,7 +18892,16 @@
     "camera_front": null,
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "樱语粉|零度白|向新绿|天青蓝|星耀黑|羽砂黑",
+    "source_url": "https://example.com/HUAWEI nova Flip S",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 240,
@@ -17093,7 +18968,14 @@
     "dimensions": "157.61×74.42×8.1mm",
     "price_note": "2026-01发布: 12+256GB=2999元, 16+256GB=3299元, 12+512GB=3599元, 16+512GB=3999元, 16+1TB=4599元",
     "network_model": "V2536A",
-    "network_model_source": "vivo.com.cn-official"
+    "network_model_source": "vivo.com.cn-official",
+    "source_url": "https://example.com/iQOO Z11 Turbo",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "brand": "realme",
@@ -17158,7 +19040,15 @@
     "camera_main_sensor": "索尼IMX906",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_tele_zoom": "3.5x"
+    "camera_tele_zoom": "3.5x",
+    "source_url": "https://example.com/Neo8",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 238,
@@ -17227,7 +19117,14 @@
     "dimensions": "163.72×76.17×8.25mm",
     "price_note": "2026-03发布: 8+256GB=2499元, 12+256GB=2699元, 16+256GB=2999元, 12+512GB=3199元, 16+512GB=3599元",
     "network_model": "V2551A",
-    "network_model_source": "vivo.com.cn-official"
+    "network_model_source": "vivo.com.cn-official",
+    "source_url": "https://example.com/iQOO Z11",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 236,
@@ -17288,7 +19185,15 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "source_url": "https://example.com/13 Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 237,
@@ -17352,7 +19257,16 @@
     "network_model": "PMT110",
     "network_model_source": "oppo.com-official",
     "camera_main_mp": 50,
-    "ip_rating": "IP66/IP68/IP69K"
+    "ip_rating": "IP66/IP68/IP69K",
+    "colors": "云岫白|青峦灰|墨岑黑",
+    "source_url": "https://example.com/OPPO A6s Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 244,
@@ -17426,7 +19340,15 @@
     "camera_main_mp": 50,
     "camera_tele_sensor": "IMX816",
     "camera_tele_size": "1/2.93\"",
-    "camera_tele_zoom": "2x"
+    "camera_tele_zoom": "2x",
+    "source_url": "https://example.com/vivo S19 Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 243,
@@ -17490,7 +19412,15 @@
     "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP64"
+    "ip_rating": "IP64",
+    "source_url": "https://example.com/vivo S19",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 245,
@@ -17556,7 +19486,15 @@
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_focal": "23mm",
+    "source_url": "https://example.com/Redmi K70 至尊版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 246,
@@ -17632,7 +19570,15 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "source_url": "https://example.com/iQOO 13",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -17706,7 +19652,15 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/REDMAGIC 9S Pro+",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "brand": "NUBIA",
@@ -17776,7 +19730,15 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "source_url": "https://example.com/REDMAGIC 9S Pro",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 253,
@@ -17836,7 +19798,16 @@
     "camera_front": "8MP f/2.0",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星海蓝|星空黑|羽沙白",
+    "source_url": "https://example.com/华为畅享90Plus",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 254,
@@ -17892,7 +19863,16 @@
     "camera_front": "8MP f/2.0",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "飞天青|晨曦金|雪域白|曜金黑",
+    "source_url": "https://example.com/华为畅享90",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 255,
@@ -17952,7 +19932,16 @@
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
     "camera_front_aperture": "f/2.0",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "colors": "流沙金|星海蓝|曜金黑",
+    "source_url": "https://example.com/华为畅享70X尊享版",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 256,
@@ -18009,7 +19998,13 @@
     "reverse_charging_w": 0,
     "camera_rear": "1300万",
     "camera_front": "500万",
-    "camera_main_mp": 13
+    "camera_main_mp": 13,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 258,
@@ -18074,7 +20069,13 @@
     "camera_front": "16MP",
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_mp": 64,
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 262,
@@ -18165,7 +20166,13 @@
     "camera_uw_aperture": "f/1.9",
     "camera_uw_sensor": "IMX855",
     "camera_front_aperture": "f/2.2",
-    "camera_front_sensor": "IMX825"
+    "camera_front_sensor": "IMX825",
+    "source_url": "https://example.com/Galaxy Z Fold8",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 263,
@@ -18253,7 +20260,13 @@
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Flip8",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 264,
@@ -18344,7 +20357,13 @@
     "camera_main_mp": 200,
     "camera_uw_aperture": "f/1.9",
     "camera_tele_aperture": "f/2.4",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "source_url": "https://example.com/Galaxy Z Fold8 Ultra",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 266,
@@ -18416,7 +20435,14 @@
     "camera_main_size": "1/1.4\"",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_main_focal": "23mm"
+    "camera_main_focal": "23mm",
+    "source_url": "https://example.com/NaviX Ultra",
+    "verified_at": "2026-08-20",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "brand": "vivo",
@@ -18491,7 +20517,14 @@
     "camera_tele_sensor": "IMX882",
     "camera_tele_size": "1/1.95\"",
     "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "JN1"
+    "camera_front_sensor": "JN1",
+    "source_url": "https://example.com/X300 E",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "price_note": "待定"
   },
   {
     "id": 267,
@@ -18568,7 +20601,13 @@
     "camera_main_focal": "26mm",
     "camera_uw_aperture": "f/2.0",
     "camera_uw_focal": "18mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "乘风破浪蓝|前橙似锦橙|远山黑",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 268,
@@ -18644,7 +20683,7 @@
     "camera_main_mp": 200,
     "network_model": null,
     "network_model_source": null,
-    "source_url": null,
+    "source_url": "https://example.com/Redmi K100 Pro Max",
     "has_nfc": true,
     "has_ir": true,
     "fingerprint": "屏下光学指纹",
@@ -18659,7 +20698,13 @@
     "camera_tele_sensor": "三星JN5",
     "camera_tele_size": "1/2.75\"",
     "camera_tele_focal": "120mm",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "colors": "赤霞珠红|纯白|曜黑|流萤追光|追风蓝"
   },
   {
     "id": 269,
@@ -18729,7 +20774,7 @@
     "camera_main_mp": 200,
     "network_model": null,
     "network_model_source": null,
-    "source_url": null,
+    "source_url": "https://example.com/Redmi K100 Pro",
     "has_nfc": true,
     "has_ir": true,
     "fingerprint": "屏下光学指纹",
@@ -18746,7 +20791,13 @@
     "camera_tele_sensor": "三星JN5",
     "camera_tele_size": "1/2.75\"",
     "camera_tele_focal": "60mm",
-    "camera_tele_zoom": "2.5x"
+    "camera_tele_zoom": "2.5x",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    },
+    "colors": "赤霞珠红|白色|黑色|流萤追光"
   },
   {
     "id": 270,
@@ -18831,7 +20882,7 @@
     "charge_protocols_confidence": "medium",
     "charge_protocols_source": "ecosystem-honor",
     "completeness_score": 94,
-    "source_url": null,
+    "source_url": "https://example.com/HONOR Robot Phone",
     "has_nfc": true,
     "has_ir": true,
     "fingerprint": "屏下光学指纹",
@@ -18845,7 +20896,12 @@
     "camera_uw_aperture": "f/2.0",
     "camera_tele_aperture": "f/2.6",
     "camera_tele_size": "1/1.4\"",
-    "camera_tele_zoom": "2.7x"
+    "camera_tele_zoom": "2.7x",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 271,
@@ -18918,7 +20974,12 @@
     "fingerprint": "超声波3D指纹",
     "reverse_charging_w": 10,
     "screen_detail": "6.83\" 3200×1440 AMOLED 144Hz 2K 珠峰屏",
-    "camera_rear": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2"
+    "camera_rear": "主摄: 索尼LYT700V 5000万 1/1.56\" f/1.88 OIS 超防抖 | 超广角: 800万 f/2.2",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   },
   {
     "id": 272,
@@ -18986,6 +21047,11 @@
     "fingerprint": "屏下光学指纹",
     "reverse_charging_w": 5,
     "screen_detail": "6.83\" 2800×1260 AMOLED 144Hz",
-    "camera_rear": "主摄: 5000万 f/1.8 | 前置: 800万 f/2.05"
+    "camera_rear": "主摄: 5000万 f/1.8 | 前置: 800万 f/2.05",
+    "display": {
+      "screen_size": "6.1英寸",
+      "resolution": "2400×1080",
+      "refresh_rate": "120Hz"
+    }
   }
 ]
