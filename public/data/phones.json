@@ -4399,7 +4399,8 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "玄黑|皓白|槿紫"
   },
   {
     "id": 63,
@@ -4481,7 +4482,8 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "极夜黑|极地银|极昼金|极光青"
   },
   {
     "id": 61,
@@ -4559,7 +4561,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|晨曦金|云杉绿"
   },
   {
     "id": 62,
@@ -4636,7 +4639,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|晨曦金|云杉绿"
   },
   {
     "id": 60,
@@ -4713,7 +4717,8 @@
     "camera_tele_aperture": "f/3.4",
     "camera_tele_focal": "125mm",
     "camera_tele_zoom": "5.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|晨曦金|云杉绿"
   },
   {
     "id": 59,
@@ -12600,7 +12605,8 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "皓白|瑞红|玄黑"
   },
   {
     "id": 182,
@@ -12677,7 +12683,8 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "金丝银锦|羽衣白|墨韵黑|飞天青"
   },
   {
     "id": 180,
@@ -12753,7 +12760,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|云杉绿|风信紫"
   },
   {
     "brand": "Huawei",
@@ -12828,7 +12836,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/2.1",
     "camera_tele_focal": "90mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|云杉绿|风信紫"
   },
   {
     "id": 178,
@@ -12901,7 +12910,8 @@
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "13mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "曜石黑|雪域白|云杉绿|风信紫"
   },
   {
     "id": 177,
