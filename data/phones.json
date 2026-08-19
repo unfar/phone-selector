@@ -4942,7 +4942,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "人鱼姬|海芋紫|礁石黑"
   },
   {
     "id": 57,
@@ -5095,7 +5096,8 @@
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
     "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "JN5"
+    "camera_front_sensor": "JN5",
+    "colors": "人鱼姬|半夏绿|礁石黑"
   },
   {
     "id": 55,
@@ -11159,7 +11161,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "冰晶白|幻影黑|极光绿"
   },
   {
     "id": 153,
@@ -11501,7 +11504,8 @@
     "camera_main_mp": 50,
     "camera_main_focal": "24mm",
     "camera_uw_aperture": "f/2.2",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "冰晶白|幻影黑|极光绿"
   },
   {
     "id": 148,
