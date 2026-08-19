@@ -13274,7 +13274,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光白|星野黑|晨曦微光"
   },
   {
     "id": 201,
@@ -13664,7 +13665,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星野黑|月光白|海岛蓝|落樱粉"
   },
   {
     "id": 196,
@@ -14111,7 +14113,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "星野黑|漫步云端|晴空航线"
   },
   {
     "id": 190,
@@ -14258,7 +14261,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星野黑|月光白|海岛蓝|落樱粉"
   },
   {
     "id": 187,
