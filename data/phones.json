@@ -4162,7 +4162,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光银|曜石黑|星光粉|海蓝宝石"
   },
   {
     "model": "荣耀 500",
@@ -4231,7 +4232,8 @@
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "月光银|曜石黑|星光粉|海蓝宝石"
   },
   {
     "id": 65,
@@ -8444,7 +8446,8 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "80mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星光蝴蝶结|极光蓝|可露丽棕|星星粉"
   },
   {
     "id": 107,
@@ -8513,7 +8516,8 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_uw_aperture": "f/2.2"
+    "camera_uw_aperture": "f/2.2",
+    "colors": "星光蝴蝶结|极光蓝|可露丽棕|星星粉"
   },
   {
     "brand": "NUBIA",
@@ -8647,7 +8651,8 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "星光蝴蝶结|极光蓝|可露丽棕|星星粉"
   },
   {
     "brand": "OnePlus",
@@ -11076,7 +11081,8 @@
     "camera_main_sensor": "索尼IMX921",
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.57",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "告白|灵感紫|悠悠蓝|深空黑"
   },
   {
     "brand": "HONOR",
@@ -11226,7 +11232,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.6",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": null
   },
   {
     "id": 150,
@@ -11425,7 +11432,8 @@
     "camera_front": "16MP",
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
-    "camera_main_mp": 200
+    "camera_main_mp": 200,
+    "colors": null
   },
   {
     "brand": "HONOR",
@@ -11560,7 +11568,8 @@
     "camera_main_aperture": "f/1.57",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.0",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "告白|灵感紫|悠悠蓝|深空黑"
   },
   {
     "id": 147,
