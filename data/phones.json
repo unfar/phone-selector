@@ -9281,7 +9281,8 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68/IP69"
   },
   {
     "brand": "HONOR",
@@ -9602,7 +9603,8 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68/IP69"
   },
   {
     "brand": "OnePlus",
@@ -12076,7 +12078,8 @@
     "camera_main_sensor": "IMX920",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_tele_zoom": "2x"
+    "camera_tele_zoom": "2x",
+    "ip_rating": "IP68"
   },
   {
     "id": 166,
@@ -17470,7 +17473,8 @@
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP64"
   },
   {
     "id": 245,
