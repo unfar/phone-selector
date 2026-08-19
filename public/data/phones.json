@@ -15632,7 +15632,8 @@
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "47mm",
     "camera_tele_zoom": "2x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "ip_rating": "IP68"
   },
   {
     "brand": "NUBIA",
@@ -16470,7 +16471,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.0",
-    "camera_tele_zoom": "2x"
+    "camera_tele_zoom": "2x",
+    "ip_rating": "IP57"
   },
   {
     "id": 229,
@@ -17935,7 +17937,8 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "ip_rating": "IP68"
   },
   {
     "id": 256,
