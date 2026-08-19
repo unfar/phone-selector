@@ -2704,7 +2704,8 @@
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "90mm",
     "camera_tele_zoom": "3.5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "极夜黑|极昼金"
   },
   {
     "brand": "Apple",
@@ -4318,7 +4319,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/3.4",
     "camera_tele_zoom": "5.5x",
-    "camera_front_aperture": "f/2.2"
+    "camera_front_aperture": "f/2.2",
+    "colors": "槿紫|皓白|玄黑|瑞红"
   },
   {
     "id": 64,
@@ -6775,7 +6777,8 @@
     "camera_uw_focal": "13mm",
     "camera_tele_aperture": "f/3.4",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "羽衣白|金丝银锦|曜金黑"
   },
   {
     "brand": "OnePlus",
@@ -17096,7 +17099,8 @@
     "camera_front": null,
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "樱语粉|零度白|向新绿|天青蓝|星耀黑|羽砂黑"
   },
   {
     "id": 240,
@@ -17906,7 +17910,8 @@
     "camera_front": "8MP f/2.0",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "星海蓝|星空黑|羽沙白"
   },
   {
     "id": 254,
@@ -17962,7 +17967,8 @@
     "camera_front": "8MP f/2.0",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "飞天青|晨曦金|雪域白|曜金黑"
   },
   {
     "id": 255,
@@ -18022,7 +18028,8 @@
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
     "camera_front_aperture": "f/2.0",
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "colors": "流沙金|星海蓝|曜金黑"
   },
   {
     "id": 256,
