@@ -721,7 +721,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/3.0",
     "camera_tele_focal": "115mm",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "colors": null
   },
   {
     "id": 9,
@@ -805,7 +806,8 @@
     "camera_tele_aperture": "f/2.4",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
   },
   {
     "id": 8,
@@ -885,7 +887,8 @@
     "camera_main_focal": "23mm",
     "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "16mm",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
   },
   {
     "id": 7,
@@ -956,7 +959,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_zoom": "3.3x",
     "camera_front_aperture": "f/2.4",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
   },
   {
     "id": 6,
@@ -1020,7 +1024,8 @@
     "camera_rear": "5000万",
     "camera_front": "5000万",
     "camera_main_mp": 50,
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "colors": "晴空蓝|幻彩贝母|天际白|星空黑"
   },
   {
     "id": 12,
@@ -3530,7 +3535,8 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "115mm",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "经典黑|经典白|星空绿"
   },
   {
     "id": 52,
@@ -3685,7 +3691,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "5x",
-    "ip_rating": "IP68/IP69"
+    "ip_rating": "IP68/IP69",
+    "colors": "带感绿|好搭紫|零度白|幻夜黑"
   },
   {
     "id": 50,
@@ -3755,7 +3762,8 @@
     "camera_uw_aperture": "f/2.2",
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.0",
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "带感绿|好搭紫|零度白|幻夜黑"
   },
   {
     "id": 49,
@@ -3818,7 +3826,8 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
-    "ip_rating": "IP65"
+    "ip_rating": "IP65",
+    "colors": "带感绿|好搭紫|零度白|幻夜黑"
   },
   {
     "id": 48,
@@ -5921,7 +5930,8 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "冰融蓝|雪山粉|白色|黑色|森野绿|冷烟紫"
   },
   {
     "id": 78,
@@ -6000,7 +6010,8 @@
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
-    "camera_tele_zoom": "3x"
+    "camera_tele_zoom": "3x",
+    "colors": "冰融蓝|雪山粉|白色|黑色|森野绿|冷烟紫"
   },
   {
     "id": 77,
@@ -6081,7 +6092,8 @@
     "camera_uw_focal": "15mm",
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "60mm",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "冰融蓝|雪山粉|白色|黑色"
   },
   {
     "brand": "Apple",
@@ -6384,7 +6396,8 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "120mm",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/1.9"
+    "camera_front_aperture": "f/1.9",
+    "colors": "黑色|白色|紫色|浅蓝|绿色"
   },
   {
     "id": 82,
@@ -6650,7 +6663,8 @@
     "camera_tele_aperture": "f/2.8",
     "camera_tele_focal": "115mm",
     "camera_tele_zoom": "5x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "经典黑|经典白|星空绿"
   },
   {
     "id": 92,
@@ -9281,7 +9295,8 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68/IP69"
   },
   {
     "brand": "HONOR",
@@ -9602,7 +9617,8 @@
     "camera_main_sensor": "索尼IMX882",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP68/IP69"
   },
   {
     "brand": "OnePlus",
@@ -12076,7 +12092,8 @@
     "camera_main_sensor": "IMX920",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 50,
-    "camera_tele_zoom": "2x"
+    "camera_tele_zoom": "2x",
+    "ip_rating": "IP68"
   },
   {
     "id": 166,
@@ -15629,7 +15646,8 @@
     "camera_tele_aperture": "f/2.0",
     "camera_tele_focal": "47mm",
     "camera_tele_zoom": "2x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "ip_rating": "IP68"
   },
   {
     "brand": "NUBIA",
@@ -16467,7 +16485,8 @@
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
     "camera_tele_aperture": "f/2.0",
-    "camera_tele_zoom": "2x"
+    "camera_tele_zoom": "2x",
+    "ip_rating": "IP57"
   },
   {
     "id": 229,
@@ -17470,7 +17489,8 @@
     "camera_main_sensor": "三星GN5",
     "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "ip_rating": "IP64"
   },
   {
     "id": 245,
@@ -17931,7 +17951,8 @@
     "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.9",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "ip_rating": "IP68"
   },
   {
     "id": 256,
