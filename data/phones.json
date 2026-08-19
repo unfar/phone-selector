@@ -438,7 +438,8 @@
     "camera_front": "800万 f/2.0",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "幻夜黑|竹韵青|旭日金|幻影紫"
   },
   {
     "id": 3,
@@ -1999,7 +2000,8 @@
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.0",
-    "camera_front_sensor": "索尼LYT-600"
+    "camera_front_sensor": "索尼LYT-600",
+    "colors": "大地苔原|绒砂峡谷|极地冰川"
   },
   {
     "id": 28,
@@ -2157,7 +2159,8 @@
     "camera_tele_size": "1/1.56\"",
     "camera_tele_focal": "65mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "乘风青|自在白|元气橙|原生钛"
   },
   {
     "id": 127,
@@ -2533,7 +2536,8 @@
     "camera_tele_size": "1/1.4\"",
     "camera_tele_focal": "85mm",
     "camera_tele_zoom": "3.7x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "胶片绿|银调|黑Ka"
   },
   {
     "id": 30,
@@ -2612,7 +2616,8 @@
     "camera_tele_aperture": "f/2.57",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.0"
+    "camera_front_aperture": "f/2.0",
+    "colors": "胶片绿|钛黑|银白"
   },
   {
     "brand": "Huawei",
