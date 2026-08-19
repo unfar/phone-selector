@@ -2235,7 +2235,8 @@
     "ip_rating": "IP69",
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "赛博光翼|起源灰|光尘粉|金色传说"
   },
   {
     "id": 123,
@@ -2306,7 +2307,8 @@
     "ip_rating": "IPX9/IP69",
     "camera_main_sensor": "索尼IMX906",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "赛博光翼|起源灰|光尘粉|金色传说"
   },
   {
     "id": 26,
@@ -9476,7 +9478,8 @@
     "network_model_source": "oppo.com-official",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IP68"
+    "ip_rating": "IP68",
+    "colors": "骑士银|初号紫|黑武士"
   },
   {
     "id": 120,
@@ -9541,7 +9544,8 @@
     "camera_main_size": "1/1.95\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
-    "ip_rating": "IPX6/IPX8/IPX9"
+    "ip_rating": "IPX6/IPX8/IPX9",
+    "colors": "骑士白|初号紫|黑武士"
   },
   {
     "id": 265,
@@ -9605,7 +9609,8 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "ip_rating": "IP69",
-    "camera_main_mp": 50
+    "camera_main_mp": 50,
+    "colors": "赛博光翼|起源灰|光尘粉|金色传说"
   },
   {
     "id": 121,
@@ -10559,7 +10564,8 @@
     "camera_tele_aperture": "f/2.7",
     "camera_tele_focal": "70mm",
     "camera_tele_zoom": "3x",
-    "camera_front_aperture": "f/2.4"
+    "camera_front_aperture": "f/2.4",
+    "colors": "原钛|金橙|深黑"
   },
   {
     "id": 145,
@@ -10647,7 +10653,8 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_size": "1/2.0\"",
     "camera_tele_focal": "135mm",
-    "camera_tele_zoom": "5x"
+    "camera_tele_zoom": "5x",
+    "colors": "缎黑|玉白|暮紫"
   },
   {
     "model": "Galaxy S25 Ultra",
