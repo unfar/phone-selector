@@ -16273,7 +16273,8 @@
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
-    "camera_main_mp": 64
+    "camera_main_mp": 64,
+    "colors": "月影白|朱砂红|竹韵青|幻夜黑"
   },
   {
     "id": 227,
