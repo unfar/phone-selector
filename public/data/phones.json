@@ -12419,7 +12419,7 @@
     "camera_tele_aperture": "f/2.6",
     "camera_tele_zoom": "3x",
     "camera_front_aperture": "f/2.0",
-    "colors": null,
+    "colors": "冰川蓝|龙晶紫|玄武黑",
     "source_url": "https://example.com/vivo Y500 Pro",
     "verified_at": "2026-08-20",
     "display": {
@@ -12645,7 +12645,7 @@
     "camera_main_sensor": "三星HP5",
     "camera_main_size": "1/1.56\"",
     "camera_main_mp": 200,
-    "colors": null,
+    "colors": "冰川蓝|龙晶紫|玄武黑",
     "source_url": "https://example.com/vivo Y500",
     "verified_at": "2026-08-20",
     "display": {
@@ -12882,7 +12882,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "colors": "皓月黑|浩渺蓝|星曜紫"
   },
   {
     "id": 161,
@@ -19389,7 +19390,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "colors": "烟雨青|桃花扇|千山翠|松烟墨|剑影灰"
   },
   {
     "id": 243,
@@ -19461,7 +19463,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "colors": "烟雨青|桃花扇|千山翠|松烟墨|剑影灰"
   },
   {
     "id": 245,
