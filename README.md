@@ -59,6 +59,24 @@ npm run build      # 生产构建（输出到 dist/）
 npm run data:all   # 数据质量校验 + 归一化
 ```
 
+## 项目状态
+
+**✅ 已完成部分:**
+- 项目结构已建立，包含 Vue.js 应用、数据处理脚本和文档
+- 核心功能实现：品牌筛选、价格区间筛选、屏幕形态筛选、处理器筛选、特性标签筛选、充电协议筛选、屏幕尺寸筛选
+- 搜索功能支持品牌+数字连写、多关键词 AND 搜索
+- 对比功能支持最多 4 款机型对比
+- 数据完整度：260+ 款机型覆盖，100% 价格覆盖
+- 移动端与桌面端适配，响应式设计
+
+**🔄 进行中任务:**
+- 部署到 GitHub Pages ([https://unfar.github.io/phone-selector/](https://unfar.github.io/phone-selector/))
+- 数据质量校验与持续更新
+- 自动化构建流程验证
+
+**📋 完成计划:**
+详见 [COMPLETION_PLAN.md](./COMPLETION_PLAN.md)
+
 ## 数据来源
 
 - 苹果官网 (apple.com.cn)
