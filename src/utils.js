@@ -1,34 +1,22 @@
 // ===== 配置数据 =====
-// cpuTags 由 useApp.js 的 setPhones() 从数据动态生成（见 normalizeProcessor）
+export const cpuTags = ["骁龙8 Elite 5","骁龙8 Elite 1","骁龙8 Gen5","天玑9500","天玑8500","麒麟9050 Pro","麒麟9030","麒麟9020","天玑9400","麒麟9010s","A19","A18"]
 
-/** 处理器名称归一化：去掉 "(for Galaxy)" 等括号变体，用于筛选标签聚合与匹配 */
-export function normalizeProcessor(proc) {
-  return String(proc || '')
-    .replace(/\s*\(.*?\)\s*/g, '')
-    .trim()
-}
-
-export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","有线投屏","散热风扇"]
-
-// 充电协议筛选（来自充电头网实测 charge_protocols 字段）
-export const protocolTags = ["5A PPS","UFCS","PPS","PD","QC","SCP","FCP","VFCP","Qi"]
+export const featureTags = ["潜望长焦","6500mAh+","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","散热风扇","有线投屏"]
 
 export const screenSizeRanges = [
-  { name: "6.1-6.4英寸", min: 6.0, max: 6.449 },
-  { name: "6.5-6.7英寸", min: 6.45, max: 6.749 },
-  { name: "6.8-7.0英寸", min: 6.75, max: 7.049 },
-  { name: "7.0英寸以上", min: 7.05, max: 99 }
+  { name: "6英寸左右", min: 5.7, max: 6.3 },
+  { name: "6.5英寸左右", min: 6.2, max: 6.8 },
+  { name: "7英寸左右", min: 6.7, max: 7.5 }
 ]
 
-// 屏幕形态（覆盖数据中全部 screen_form 值：直屏/折叠屏/微曲屏/曲面屏）
-export const screenTypes = ['📱 直屏','🔄 折叠屏','〰️ 微曲屏','🌊 曲面屏']
+export const screenTypes = ['📱 直屏','🔄 折叠屏']
 
 export const textLogoBrands = new Set(['Samsung','OPPO','REDMI','iQOO','HONOR','vivo','realme'])
 
 export const largeLogoBrands = new Set(['OPPO','vivo','RedMagic'])
 
 export function getLogoStyle(brand) {
-  return 'height:22px;width:auto'
+  return largeLogoBrands.has(brand) ? 'height:32px;width:auto' : 'height:22px;width:auto'
 }
 
 // ===== 品牌标签颜色 =====
@@ -50,7 +38,7 @@ export const brandLogos = {
   'OPPO': 'data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIgdmlld0JveD0iMCAwIDI4IDI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxyZWN0IHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIgcng9IjQiIGZpbGw9IiNmZmYiLz4KICA8cGF0aCBmaWxsPSIjMDAwIiBkPSJNMy44NSAxNS43ODZoLS4wMDFDMi42MzkgMTUuNzc0IDEuODU4IDE1LjIgMS44NTggMTQuMzIxcy43ODEtMS40NTIgMS45OS0xLjQ2NWMxLjIxLjAxMyAxLjk5Mi41ODggMS45OTIgMS40NjVzLS43ODIgMS40NTMtMS45OSAxLjQ2NXptLjAzNC0zLjYzOGgtLjA3M0MyLjE1NiAxMi4xNzUgMSAxMy4wNjggMSAxNC4zMnMxLjE1NiAyLjE0NyAyLjgxMSAyLjE3NGguMDczYzEuNjU1LS4wMjcgMi44MTEtLjkyMSAyLjgxMS0yLjE3NHMtMS4xNTYtMi4xNDYtMi44MTEtMi4xNzN6bTE4LjI3IDMuNjM4Yy0xLjIxLS4wMTItMS45OTItLjU4Ny0xLjk5Mi0xLjQ2NXMuNzgyLTEuNDUyIDEuOTkxLTEuNDY1YzEuMjEuMDEzIDEuOTkxLjU4OCAxLjk5MSAxLjQ2NXMtLjc4MSAxLjQ1My0xLjk5IDEuNDY1em0uMDM1LTMuNjM4aC0uMDczYy0xLjY1NS4wMjctMi44MTEuOTItMi44MTEgMi4xNzNzMS4xNTYgMi4xNDcgMi44MTEgMi4xNzRoLjA3M0MyMy44NDQgMTYuNDY4IDI1IDE1LjU3NCAyNSAxNC4zMnMtMS4xNTYtMi4xNDYtMi44MTEtMi4xNzN6bS02LjEyNiAzLjYzOGMtMS4yMS0uMDEyLTEuOTktLjU4Ny0xLjk5LTEuNDY1cy43OC0xLjQ1MiAxLjk5LTEuNDY1YzEuMjEuMDEzIDEuOTkxLjU4OCAxLjk5MSAxLjQ2NXMtLjc4MSAxLjQ1My0xLjk5IDEuNDY1em0uMDM2LTMuNjM4aC0uMDczYy0uNzg5LjAxMy0xLjQ2NC4yMjItMS45NTUuNTc0di0uMzdoLS44NTd2NS41aC44NTd2LTEuOTMxYy40OS4zNTEgMS4xNjYuNTYgMS45NTQuNTc0aC4wNzRjMS42NTUtLjAyNyAyLjgxLS45MjEgMi44MS0yLjE3NHMtMS4xNTUtMi4xNDYtMi44MS0yLjE3M3ptLTYuMTQ0IDMuNjM4Yy0xLjIxLS4wMTItMS45OS0uNTg3LTEuOTktMS40NjVzLjc4LTEuNDUyIDEuOTktMS40NjVjMS4yMS4wMTMgMS45OTEuNTg4IDEuOTkxIDEuNDY1cy0uNzgxIDEuNDUzLTEuOTkgMS40NjV6bS4wMzctMy42MzhoLS4wNzNjLS43ODkuMDEzLTEuNDY0LjIyMi0xLjk1NS41NzR2LS4zN2gtLjg1NnY1LjVoLjg1NnYtMS45MzFjLjQ5MS4zNTEgMS4xNjYuNTYgMS45NTUuNTc0YTMuNzI4IDMuNzI4IDAgMCAwIC4wNzMgMGMxLjY1NS0uMDI3IDIuODExLS45MjEgMi44MTEtMi4xNzRzLTEuMTU2LTIuMTQ2LTIuODEtMi4xNzN6Ii8+Cjwvc3ZnPg==',
   'OnePlus': 'data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5PbmVQbHVzPC90aXRsZT48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAzLjc0VjI0aDIwLjI2VjEyLjQyOGgtMi4yNTZ2OS4zMTdIMi4yNTRWNS45OTVoOS4zMThWMy43NDJ6TTE4LjAwNCAwdjMuNzRoLTMuNzU4djIuMjU2aDMuNzU4djMuNzU4aDIuMjU1VjUuOTk2SDI0VjMuNzRoLTMuNzU4VjB6bS02LjQ1IDE4Ljc1NlY4Ljg2Mkg5LjU2MmMwIC42ODItLjIyOCAxLjE4OS0uNTc3IDEuNTA0LS4zNjcuMjk3LS45MS40MzctMS41NTYuNDM3aC0uMjQ1djEuNjI1aDIuMTMzdjYuMzFoMi4yMzd6Ii8+PC9zdmc+',
   'REDMI': 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDY4IDI0Ij4KICA8cmVjdCB3aWR0aD0iNjgiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiLz4KICA8dGV4dCB4PSIzNCIgeT0iMTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE3IiBmaWxsPSIjZmZmIiBsZXR0ZXItc3BhY2luZz0iMiI+UkVETUk8L3RleHQ+Cjwvc3ZnPgo=',
-  'RedMagic': 'data:image/png;base64,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',
+  'RedMagic': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAJGVYSWZJSSoAA',
   'Xiaomi': 'data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZT5YaWFvbWk8L3RpdGxlPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMiAwQzguMDE2IDAgNC43NTYuMjU1IDIuNDkzIDIuNTE2LjIzIDQuNzc2IDAgOC4wMzMgMCAxMi4wMTJjMCAzLjk4LjIzIDcuMjM1IDIuNDk0IDkuNDk3QzQuNzU3IDIzLjc3IDguMDE3IDI0IDEyIDI0YzMuOTgzIDAgNy4yNDMtLjIzIDkuNTA2LTIuNDkxQzIzLjc3IDE5LjI0NyAyNCAxNS45OSAyNCAxMi4wMTJjMC0zLjk4NC0uMjMzLTcuMjQzLTIuNTAyLTkuNTA0QzE5LjIzNC4yNTIgMTUuOTc4IDAgMTIgMHpNNC45MDYgNy40MDVoNS42MjRjMS40NyAwIDMuMDA3LjA2OCAzLjc2NC44MjcuNzQ2Ljc0Ni44MjcgMi4yMzMuODMgMy42NzZ2NC41NGEuMTUuMTUgMCAwIDEtLjE1Mi4xNDdoLTEuOTQ3YS4xNS4xNSAwIDAgMS0uMTUyLS4xNDhWMTEuODNjLS4wMDItLjgwNi0uMDQ4LTEuNjM0LS40NjQtMi4wNTEtLjM1OC0uMzYtMS4wMjYtLjQ0MS0xLjcyLS40NThINy4xNThhLjE1LjE1IDAgMCAwLS4xNTEuMTQ3djYuOThhLjE1LjE1IDAgMCAxLS4xNTIuMTQ4SDQuOTA2YS4xNS4xNSAwIDAgMS0uMTUtLjE0OFY3LjU1NGEuMTUuMTUgMCAwIDEgLjE1LS4xNDl6bTEyLjEzMSAwaDEuOTQ5YS4xNS4xNSAwIDAgMSAuMTUuMTV2OC44OTJhLjE1LjE1IDAgMCAxLS4xNS4xNDhoLTEuOTQ5YS4xNS4xNSAwIDAgMS0uMTUxLS4xNDhWNy41NTRhLjE1LjE1IDAgMCAxIC4xNTEtLjE0OXpNOC45MiAxMC45NDhoMi4wNDZjLjA4MyAwIC4xNS4wNjYuMTUuMTQ3djUuMzUyYS4xNS4xNSAwIDAgMS0uMTUuMTQ4SDguOTJhLjE1LjE1IDAgMCAxLS4xNTItLjE0OHYtNS4zNTJhLjE1LjE1IDAgMCAxIC4xNTItLjE0N1oiLz48L3N2Zz4=',
   'iQOO': 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDY0IDI0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiLz4KICA8dGV4dCB4PSIzMiIgeT0iMTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjIwIiBmaWxsPSIjMDAwIiBsZXR0ZXItc3BhY2luZz0iMiI+aVFPTzwvdGV4dD4KPC9zdmc+Cg==',
   'realme': 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MiIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDcyIDI0Ij4KICA8cmVjdCB3aWR0aD0iNzIiIGhlaWdodD0iMjQiIHJ4PSI0IiBmaWxsPSIjZmZmIi8+CiAgPHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIi8+CiAgPHRleHQgeD0iMzYiIHk9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzAwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPnJlYWxtZTwvdGV4dD4KPC9zdmc+Cg==',
@@ -87,35 +75,6 @@ export function simplifyCapacity(s) {
   return m ? m[1] : s
 }
 
-/**
- * 从 features 提取 IP 防尘抗水等级。
- * 兼容两种历史写法：
- *  - 原始码: "IP68", "IP69K", "IP5X", "IPX8"
- *  - 拆分标注: "防尘: IP6X", "防水: IPX8"
- * 返回去重后的等级数组，如 ["IP66","IP68","IP69K"]
- */
-export function getIpLevels(phone) {
-  const feats = phone?.features || []
-  const levels = []
-  for (const f of feats) {
-    if (typeof f !== 'string') continue
-    // 匹配 IP68 / IP69K / IP5X / IPX8 / IPX9 等
-    const matches = f.match(/IP(?:\d{1,2}X?K?|X\d{1,2}K?)/gi)
-    if (matches) {
-      for (const m of matches) levels.push(m.toUpperCase())
-    }
-  }
-  return [...new Set(levels)]
-}
-
-/** 卡片/对比用：返回展示字符串，无数据时回退 tags「防尘抗水」→「支持」 */
-export function getIpRating(phone, { join = ' ', empty = '—', supportFallback = true } = {}) {
-  const levels = getIpLevels(phone)
-  if (levels.length > 0) return levels.join(join)
-  if (supportFallback && phone?.tags?.includes('防尘抗水')) return '支持'
-  return empty
-}
-
 export function getEnglishBrand(zh) {
   const map = { "苹果": "Apple", "三星": "Samsung", "摩托罗拉": "Motorola" }
   return map[zh] || zh
@@ -123,12 +82,8 @@ export function getEnglishBrand(zh) {
 
 export function getDisplayName(p) {
   const m = p.model, b = p.brand
-  // 有自定义展示名时优先使用
-  if (p.name && p.name !== m) return p.name
   if (m.toLowerCase().startsWith(b.toLowerCase())) return m
   if (m.startsWith('iPhone') || m.startsWith('Galaxy') || m.startsWith('moto') || m.startsWith('Moto')) return m
-  // 红魔/REDMAGIC/NaviX 机型名已自成体系，不加品牌前缀
-  if (m.startsWith('REDMAGIC') || m.startsWith('NaviX')) return m
   if (/^[\u4e00-\u9fff]/.test(m)) {
     const stripped = m.replace(/^[\u4e00-\u9fff\s]+/, '')
     return b + (stripped ? ' ' + stripped : '')
@@ -164,242 +119,78 @@ export function getFoldableRefreshDisplay(phone) {
   return phone.refresh_hz ? phone.refresh_hz + 'Hz' : '—'
 }
 
-/** 解析单段镜头文本，尽量抽出像素/传感器/CMOS/光圈/焦距/变焦/OIS/品牌 */
-function parseCameraSegment(raw) {
-  const text = String(raw || '').replace(/\s+/g, ' ').trim()
-  if (!text) return null
+export function getCameraSpecs(p) {
+  const dc = p.detailed_camera || ''
+  const cd = p.camera_desc || ''
+  const specs = []
 
-  // 像素：优先 亿/万/MP
-  let mp = ''
-  let m
-  if ((m = text.match(/(\d+(?:\.\d+)?)\s*亿/))) {
-    const yi = parseFloat(m[1])
-    mp = Number.isInteger(yi) ? `${yi}亿` : `${yi}亿`
-  } else if ((m = text.match(/(\d+)\s*万(?:像素)?/))) {
-    const wan = parseInt(m[1], 10)
-    // 10000万 = 1亿；>=10000 万 转亿
-    mp = wan >= 10000 ? `${wan / 10000}亿` : `${wan}万`
-  } else if ((m = text.match(/(\d+)\s*MP/i))) {
-    const n = parseInt(m[1], 10)
-    // 200MP ≈ 2亿；50MP 保持 50MP
-    mp = n >= 100 ? `${n / 100}亿` : `${n}MP`
+  function fmtMp(num) {
+    const n = parseInt(num)
+    if (!n) return ''
+    return n >= 100 ? n + '万' : n + 'MP'
   }
 
-  // 传感器代号
-  let sensor = ''
-  if ((m = text.match(/(LYT-?\d+[A-Z]?|IMX\d+[A-Z]?|OV\d+[A-Z]?|HP[A-Z0-9]+|GN\d+|JN\d+[A-Z]?|JNL|SC\d+XS?|光影猎人\d*)/i))) {
-    sensor = m[1].replace(/LYT(?!-)/i, 'LYT-')
+  function extractBrief(s) {
+    let mp = (s.match(/(\d+)\s*[万M]/) || [])[1] || ''
+    let cmos = (s.match(/[\u4e00-\u9fff]*?(LYT[-\w]+|IMX\w+|HP\d|OV\w+|索尼\w*|三星\w*|徕卡\w*|光影猎人\w*)/) || [])[1] || ''
+    let aperture = (s.match(/[fF]\s*\/?\s*[\d.]+/) || [])[0] || ''
+    if (aperture) { aperture = aperture.replace(/^F\s*/i, 'f/'); aperture = aperture.replace(/^f\/\//, 'f/') }
+    let parts = []
+    if (mp) parts.push(fmtMp(mp))
+    if (cmos) parts.push(cmos)
+    if (aperture) parts.push(aperture)
+    return parts.join(' ') || s.substring(0, 20)
   }
 
-  // 传感器品牌线索（无具体代号时，注意 RYYB/XMAGE 不是型号）
-  let brand = ''
-  if (/索尼|Sony/i.test(text)) brand = '索尼'
-  else if (/三星|Samsung/i.test(text)) brand = '三星'
-  else if (/豪威|OmniVision|OV/i.test(text) && !sensor) brand = '豪威'
-  else if (/思特威|SmartSens/i.test(text)) brand = '思特威'
-  // 不再把 RYYB/XMAGE 拼进 brand
-
-  // CMOS 尺寸
-  let size = ''
-  if ((m = text.match(/\b1["”]/))) size = '1"'
-  else if ((m = text.match(/(1\/\d+(?:\.\d+)?)["”]?/))) size = m[1] + (/"/.test(m[0]) || /”/.test(m[0]) ? '"' : '"')
-  // normalize 1/1.3" style
-  size = size.replace(/”/g, '"')
-  if (size && !size.endsWith('"') && /^1\//.test(size)) size += '"'
-
-  // 光圈（支持可变 f/1.4-4.0）
-  let aperture = ''
-  if ((m = text.match(/f\s*\/?\s*(\d+(?:\.\d+)?)\s*[-~～到至]\s*f?\s*\/?\s*(\d+(?:\.\d+)?)/i))) {
-    aperture = `f/${m[1]}-${m[2]}`
-  } else if ((m = text.match(/[fF]\s*\/?\s*(\d+(?:\.\d+)?)/))) {
-    aperture = `f/${m[1]}`
-  }
-
-  // 焦距 mm
-  let focal = ''
-  if ((m = text.match(/(\d{2,3})\s*mm/i))) focal = m[1] + 'mm'
-
-  // 光学变焦（排除传感器尾号：SC585XS 不会误识别 585x；只匹配常见 2x~120x）
-  let zoom = ''
-  if ((m = text.match(/(\d+(?:\.\d+)?)\s*[xX×]/))) {
-    const zv = parseFloat(m[1])
-    if (zv <= 120) zoom = m[1] + 'x'
-  } else if ((m = text.match(/\b(\d+(?:\.\d+)?)\s*[xX×]/))) {
-    const zv = parseFloat(m[1])
-    if (zv >= 1 && zv <= 120) zoom = m[1] + 'x'
-  }
-
-  // 视场角
-  let fov = ''
-  if ((m = text.match(/(\d{2,3})\s*°/))) fov = m[1] + '°'
-
-  // 色彩滤镜阵列 CFA(不是传感器型号)
-    let cfa = ''
-    if (/RYYB/i.test(text)) cfa = 'RYYB'
-    else if (/RGGB/i.test(text)) cfa = 'RGGB'
-
-    // 影像品牌(华为XMAGE/OPPO LUMO等营销名称,非传感器型号)
-    let imagingBrand = ''
-    if (/XMAGE/i.test(text)) imagingBrand = 'XMAGE'
-    else if (/LUMO/i.test(text)) imagingBrand = 'LUMO'
-
-  const ois = /OIS|光学防抖|传感器位移/.test(text)
-  const brandTune = []
-  if (/徕卡|Leica/i.test(text)) brandTune.push('徕卡')
-  if (/蔡司|Zeiss/i.test(text)) brandTune.push('蔡司')
-  if (/哈苏|Hasselblad/i.test(text)) brandTune.push('哈苏')
-  if (/理光|RICOH|GR/i.test(text)) brandTune.push('理光')
-
-  // 摘要行
-  const summaryParts = []
-  if (mp) summaryParts.push(mp)
-  if (sensor) summaryParts.push(sensor)
-  else if (brand) summaryParts.push(brand)
-  if (size) summaryParts.push(size)
-  if (aperture) summaryParts.push(aperture)
-  if (focal) summaryParts.push(focal)
-  if (zoom) summaryParts.push(zoom)
-  if (fov && !focal) summaryParts.push(fov)
-  if (ois) summaryParts.push('OIS')
-  if (cfa) summaryParts.push(cfa)
-  if (imagingBrand) summaryParts.push(imagingBrand)
-  if (brandTune.length) summaryParts.push(brandTune.join('/'))
-
-  const chips = []
-  if (mp) chips.push({ k: '像素', v: mp })
-  if (sensor || brand) chips.push({ k: '传感器型号', v: sensor || brand })
-  if (size) chips.push({ k: '传感器尺寸', v: size })
-  if (aperture) chips.push({ k: '光圈', v: aperture })
-  if (focal) chips.push({ k: '焦距', v: focal })
-  if (zoom) chips.push({ k: '变焦', v: zoom })
-  if (fov) chips.push({ k: '视角', v: fov })
-  if (ois) chips.push({ k: '防抖', v: 'OIS' })
-  if (cfa) chips.push({ k: '色彩滤镜', v: cfa })
-  if (imagingBrand) chips.push({ k: '影像品牌', v: imagingBrand })
-  if (brandTune.length) chips.push({ k: '调校', v: brandTune.join('/') })
-
-  return {
-    mp, sensor, brand, size, aperture, focal, zoom, fov, ois,
-    brandTune,
-    summary: summaryParts.join(' · ') || text.slice(0, 36),
-    chips,
-    raw: text,
-  }
-}
-
-function detectCameraRole(sec) {
-  const s = String(sec || '')
-  if (/前置|内屏前置|外屏前置|selfie/i.test(s)) {
-    if (/内屏/.test(s)) return { key: 'front_inner', label: '内屏前置', group: 'front' }
-    if (/外屏/.test(s)) return { key: 'front_outer', label: '外屏前置', group: 'front' }
-    return { key: 'front', label: '前置', group: 'front' }
-  }
-  if (/超长焦/.test(s)) return { key: 'super_tele', label: '超长焦', group: 'rear' }
-  if (/潜望/.test(s)) return { key: 'periscope', label: '潜望长焦', group: 'rear' }
-  if (/长焦|tele/i.test(s)) return { key: 'tele', label: '长焦', group: 'rear' }
-  if (/超广|超广角|ultrawide/i.test(s)) return { key: 'uw', label: '超广角', group: 'rear' }
-  if (/微距|macro/i.test(s)) return { key: 'macro', label: '微距', group: 'rear' }
-  if (/主摄|广角|后置|wide/i.test(s)) return { key: 'main', label: '主摄', group: 'rear' }
-  return { key: 'other', label: '镜头', group: 'rear' }
-}
-
-/**
- * 结构化影像模块：供详情页卡片 / 列表摘要 / 对比页使用
- * @returns {{ modules: Array, rear: Array, front: Array, summary: string, lines: string[] }}
- */
-export function getCameraModules(p) {
-  const dc = p?.detailed_camera || ''
-  const cd = p?.camera_desc || ''
-  const modules = []
-
-  if (dc && dc.length > 3) {
+  if (dc && dc.length > 5) {
     const sections = dc.split('|').map(s => s.trim()).filter(Boolean)
+    let rearCams = []
+    let frontTxt = ''
+
     for (const sec of sections) {
-      // 兼容 “后置: A + B + C”
-      if (/^后置/.test(sec) && sec.includes('+')) {
-        const body = sec.replace(/^[^：:]*[：:]\s*/, '')
-        for (const sub of body.split('+').map(x => x.trim()).filter(Boolean)) {
-          const role = detectCameraRole(sub)
-          const parsed = parseCameraSegment(sub)
-          if (parsed) modules.push({ ...role, ...parsed })
+      const clean = sec.replace(/^[^：:]*[：:]\s*/, '').trim()
+      if (/^前置/.test(sec)) { frontTxt = extractBrief(clean); continue }
+      if (/^后置/.test(sec)) {
+        const subs = clean.split('+').map(x => x.trim()).filter(Boolean)
+        for (const sub of subs) {
+          let t = ''
+          if (/主摄/.test(sub)) t = '主'
+          else if (/超广角/.test(sub)) t = '广'
+          else if (/长焦/.test(sub) || /潜望/.test(sub)) t = sub.includes('超长焦') ? '超长' : '长'
+          else if (/微距/.test(sub)) t = '微'
+          else t = '镜'
+          const subClean = sub.replace(/(主摄|超广角|潜望长焦|潜望|长焦|超长焦|微距|黑白)/g, '').trim()
+          const brief = extractBrief(subClean)
+          if (brief) rearCams.push({t, d: brief})
         }
         continue
       }
-      const role = detectCameraRole(sec)
-      const body = sec.replace(/^[^：:]*[：:]\s*/, '').trim() || sec
-      // 双前置 "60MP超广角+8MP人像"
-      if (role.group === 'front' && body.includes('+') && /MP|万|亿/.test(body)) {
-        const parts = body.split('+').map(x => x.trim()).filter(Boolean)
-        if (parts.length >= 2) {
-          parts.forEach((part, idx) => {
-            const parsed = parseCameraSegment(part)
-            if (parsed) {
-              modules.push({
-                key: idx === 0 ? 'front' : 'front_aux',
-                label: idx === 0 ? '前置' : '前置副摄',
-                group: 'front',
-                ...parsed,
-              })
-            }
-          })
-          continue
-        }
+      let type = ''
+      if (/主摄/.test(sec)) type = '主'
+      else if (/超广角/.test(sec)) type = '广'
+      else if (/长焦/.test(sec) || /潜望/.test(sec)) type = sec.includes('超长焦') ? '超长' : '长'
+      if (type) rearCams.push({t: type, d: extractBrief(clean)})
+    }
+
+    if (rearCams.length === 0 && frontTxt === '') {
+      for (const sec of sections) {
+        const cs = sec.replace(/^[^：:]*[：:]\s*/, '').trim()
+        if (/前置/.test(sec)) frontTxt = extractBrief(cs)
+        else if (/主摄/.test(sec)) rearCams.push({t:'主', d: extractBrief(cs)})
+        else if (/超广角/.test(sec)) rearCams.push({t:'广', d: extractBrief(cs)})
+        else if (/长焦/.test(sec) || /潜望/.test(sec)) rearCams.push({t:'长', d: extractBrief(cs)})
       }
-      const parsed = parseCameraSegment(body)
-      if (parsed) modules.push({ ...role, ...parsed })
+    }
+
+    if (rearCams.length > 0) {
+      specs.push({ l: '后置', v: rearCams.map(c => c.t + c.d).join(' + ') })
+    }
+    if (frontTxt) {
+      specs.push({ l: '前置', v: frontTxt })
     }
   } else if (cd) {
-    // 退化：从 camera_desc 拆
-    for (const sec of cd.split('|').map(s => s.trim()).filter(Boolean)) {
-      const role = detectCameraRole(sec)
-      const parsed = parseCameraSegment(sec)
-      if (parsed) modules.push({ ...role, ...parsed })
-    }
+    const brief = cd.replace(/\|/g, ' · ').trim().substring(0, 25)
+    if (brief) specs.push({ l: '影像', v: brief })
   }
-
-  // 去重（label + 像素 + 传感器型号 作为 key，防止 summary 因格式变化漏判）
-  const seen = new Set()
-  const uniq = []
-  for (const m of modules) {
-    const k = m.label + '|' + (m.mp || '') + '|' + (m.sensor || '')
-    if (seen.has(k)) continue
-    seen.add(k)
-    uniq.push(m)
-  }
-
-  const order = { main: 0, uw: 1, tele: 2, periscope: 3, super_tele: 4, macro: 5, other: 6, front: 10, front_inner: 11, front_outer: 12, front_aux: 13 }
-  uniq.sort((a, b) => (order[a.key] ?? 50) - (order[b.key] ?? 50))
-
-  const rear = uniq.filter(m => m.group === 'rear')
-  const front = uniq.filter(m => m.group === 'front')
-  const lines = uniq.map(m => `${m.label} ${m.summary}`)
-  const summary = rear[0]?.summary || uniq[0]?.summary || cd || '—'
-
-  return { modules: uniq, rear, front, summary, lines }
-}
-
-export function getCameraSpecs(p) {
-  const { rear, front, lines, summary } = getCameraModules(p)
-  const specs = []
-  if (rear.length) {
-    specs.push({
-      l: '后置',
-      v: rear.map(m => `${m.label} ${m.summary}`).join('\n'),
-      colspan: true,
-      modules: rear,
-    })
-  }
-  if (front.length) {
-    specs.push({
-      l: '前置',
-      v: front.map(m => front.length > 1 ? `${m.label} ${m.summary}` : m.summary).join('\n'),
-      modules: front,
-    })
-  }
-  if (!specs.length && summary && summary !== '—') {
-    specs.push({ l: '影像', v: summary })
-  }
-  // 附加完整行，详情页可用
-  if (lines.length) specs._lines = lines
   return specs
 }
