@@ -7267,7 +7267,11 @@
     "price": 4699,
     "source_url": "https://www.honor.com/cn/phones/honor-magic-v-flip2/",
     "verified_at": "2026-06-07",
-    "screen_unfolded": {},
+    "screen_unfolded": {
+      "size": 6.82,
+      "resolution": "2868×1232",
+      "refresh_hz": 120
+    },
     "completeness_score": 94,
     "charge_protocols": [
       "UFCS",
@@ -7303,7 +7307,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "screen_folded": {
+      "size": 4.0,
+      "resolution": "1200×1092",
+      "refresh_hz": 120
+    }
   },
   {
     "id": 95,
@@ -22095,7 +22104,7 @@
     "battery_mah": 6000,
     "charging_w": 67,
     "weight_g": 219,
-    "camera_desc": "徕卡2亿主摄 | 徕卡50MP潜望长焦 3.5x | 徕卡50MP超广 | 20MP前置",
+    "camera_desc": "徕卡200MP主摄 | 徕卡50MP潜望长焦 3.5x | 徕卡50MP超广 | 20MP前置",
     "has_tele": true,
     "os": "HyperOS 4",
     "features": [
@@ -22121,7 +22130,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2",
-    "detailed_camera": "主摄: 200MP 徕卡 1/1.56\" f/1.7 OIS | 潜望长焦: 50MP f/2.8 3.5x OIS | 超广: 50MP",
+    "detailed_camera": "主摄: 200MP 徕卡 1/1.56\" f/1.7 OIS | 潜望长焦: 50MP f/2.8 3.5x OIS | 超广: 50MP f/2.2 | 前置: 20MP",
     "release_date": "2026-09-07",
     "price": 10999,
     "camera_main_sensor": "光影猎人900",
@@ -22149,7 +22158,7 @@
       "resolution": "2520×1080",
       "refresh_hz": 120
     },
-    "ip_rating": "IP58",
+    "ip_rating": "IP58/IP59",
     "fingerprint": "侧边指纹",
     "esim": true,
     "has_nfc": true,
@@ -22171,6 +22180,12 @@
     "charge_wireless": "50W",
     "ram_rom": "12GB+256GB/12GB+512GB/16GB+512GB/16GB+1TB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "camera_front": "20MP",
+    "charge_protocols": [
+      "PD",
+      "PPS",
+      "小米澎湃秒充"
+    ]
   }
 ]
