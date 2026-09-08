@@ -21381,13 +21381,13 @@
     "ram": "12GB",
     "storage": "256GB/512GB",
     "battery_mah": 7000,
-    "charging_w": null,
-    "wireless_charging_w": 0,
+    "charging_w": 66,
+    "wireless_charging_w": 50,
     "usb_version": "USB 3.1 Gen 1",
     "weight_g": 201,
     "dimensions": "厚度6.68mm",
-    "camera_desc": "50MP主摄 | 超广角 | 50MP潜望长焦 | 前置待公布",
-    "detailed_camera": "主摄: 50MP | 超广角 | 潜望长焦 | 前置待公布(发布会9/7揭晓)",
+    "camera_desc": "200MP超聚光主摄 | 8MP超广微距 | 50MP 3.7x潜望长焦 | 50MP前置",
+    "detailed_camera": "主摄: 200MP 1/1.28\" f/1.8 OIS | 超广: 8MP f/2.2 | 潜望长焦: 50MP f/2.6 3.7x OIS | 前置: 50MP f/2.4",
     "camera_rear": "50MP主摄 + 超广角 + 潜望长焦",
     "camera_front": "待公布",
     "has_tele": true,
@@ -21399,7 +21399,8 @@
       "HarmonyOS 7",
       "潜望长焦",
       "6500nits峰值亮度",
-      "NFC"
+      "NFC",
+      "阔直板"
     ],
     "tags": [
       "麒麟9030",
@@ -22117,7 +22118,7 @@
       "防尘抗水",
       "徕卡"
     ],
-    "screen_form": "直屏",
+    "screen_form": "折叠屏",
     "wireless_charging_w": 50,
     "usb_version": "USB 3.2",
     "detailed_camera": "主摄: 200MP 徕卡 1/1.56\" f/1.7 OIS | 潜望长焦: 50MP f/2.8 3.5x OIS | 超广: 50MP",
@@ -22137,7 +22138,7 @@
     "camera_front_mp": 20,
     "camera_front_aperture": "f/2.2",
     "price_note": "10999起售，14999 (16GB+1TB)",
-    "fold_type": "中折叠(内折)",
+    "fold_type": "左右折叠(内折)",
     "screen_unfolded": {
       "size": 7.58,
       "resolution": "2364×1672",
