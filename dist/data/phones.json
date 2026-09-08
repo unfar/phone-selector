@@ -1763,7 +1763,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "12GB+256GB/12GB+512GB/16GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 26,
@@ -1842,7 +1847,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "12GB+256GB/12GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 27,
@@ -1928,7 +1938,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "50W",
+    "ram_rom": "12GB+256GB/16GB+512GB",
+    "nfc": true,
+    "ir": false
   },
   {
     "id": 28,
@@ -2016,7 +2031,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "12GB+512GB/16GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 29,
@@ -2109,7 +2129,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "50W",
+    "ram_rom": "16GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": false
   },
   {
     "id": 30,
@@ -2383,7 +2408,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "16GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": true
   },
   {
     "brand": "Apple",
@@ -2456,7 +2486,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "25W",
+    "charge_wireless": "15W",
+    "ram_rom": "8GB+128GB/8GB+256GB/8GB+512GB",
+    "nfc": true,
+    "ir": false
   },
   {
     "id": 34,
@@ -2524,7 +2559,11 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "45W",
+    "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB",
+    "nfc": false,
+    "ir": true
   },
   {
     "id": 35,
@@ -2593,7 +2632,11 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "45W",
+    "ram_rom": "8GB+128GB/8GB+256GB",
+    "nfc": false,
+    "ir": false
   },
   {
     "model": "Galaxy A57 5G",
@@ -2665,7 +2708,12 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "远海蓝|雾岩灰|冷川蓝|冰芋紫"
+    "colors": "远海蓝|雾岩灰|冷川蓝|冰芋紫",
+    "charge_wired": "25W",
+    "charge_wireless": "15W",
+    "ram_rom": "8GB+128GB/8GB+256GB",
+    "nfc": true,
+    "ir": false
   },
   {
     "model": "Galaxy S26",
@@ -2751,7 +2799,12 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "黑色|白色|天空蓝|钴紫色"
+    "colors": "黑色|白色|天空蓝|钴紫色",
+    "charge_wired": "25W",
+    "charge_wireless": "15W",
+    "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB",
+    "nfc": true,
+    "ir": false
   },
   {
     "model": "Galaxy S26+",
@@ -2837,7 +2890,12 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "黑色|白色|天空蓝|钴紫色"
+    "colors": "黑色|白色|天空蓝|钴紫色",
+    "charge_wired": "45W",
+    "charge_wireless": "20W",
+    "ram_rom": "8GB+256GB/12GB+256GB/12GB+512GB",
+    "nfc": true,
+    "ir": false
   },
   {
     "model": "Galaxy S26 Ultra",
@@ -2920,7 +2978,12 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "黑色|白色|天空蓝|钴紫|银影|粉金"
+    "colors": "黑色|白色|天空蓝|钴紫|银影|粉金",
+    "charge_wired": "60W",
+    "charge_wireless": "25W",
+    "ram_rom": "12GB+256GB/12GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": false
   },
   {
     "id": 40,
@@ -2994,7 +3057,11 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "80W",
+    "ram_rom": "8GB+256GB/12GB+256GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -3228,7 +3295,11 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "45W",
+    "ram_rom": "8GB+128GB/8GB+256GB",
+    "nfc": false,
+    "ir": false
   },
   {
     "id": 44,
@@ -4556,7 +4627,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "50W",
+    "ram_rom": "16GB+256GB/16GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 61,
@@ -4819,7 +4895,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "16GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 64,
@@ -5085,7 +5166,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "50W",
+    "ram_rom": "12GB+256GB/12GB+512GB",
+    "nfc": true,
+    "ir": false
   },
   {
     "id": 67,
@@ -10623,7 +10709,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "16GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 141,
@@ -19091,10 +19182,10 @@
     "usb_version": "USB 2.0",
     "weight_g": 203,
     "camera_desc": "5000万主摄 f/1.88 | 800万前置",
-    "detailed_camera": "主摄: 5000万 f/1.88 | 前置: 800万 f/2.0",
+    "detailed_camera": "主摄:50MP OIS",
     "has_tele": false,
     "has_ultrawide": false,
-    "os": "MagicOS 11 (Android 17)",
+    "os": "MagicOS 10",
     "screen_form": "直屏",
     "features": [
       "IP6X",
@@ -19137,7 +19228,7 @@
     "charge_protocols_confidence": "medium",
     "network_model": "BSN-AN00",
     "network_model_source": "kalvo",
-    "ip_rating": "IP6X/IPX8/IPX9",
+    "ip_rating": "IP68/IP69/IP69K",
     "screen_detail": "6.8\" 2788×1280 OLED 120Hz",
     "has_nfc": true,
     "has_ir": true,
@@ -19148,7 +19239,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "5000万 f/1.88",
-    "camera_front": "800万 f/2.0",
+    "camera_front": "8MP",
     "camera_main_aperture": "f/1.88",
     "camera_main_mp": 50,
     "camera_front_aperture": "f/2.0",
@@ -19157,13 +19248,17 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "90W",
+    "ram_rom": "8GB+128GB/8GB+256GB/8GB+512GB/12GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 250,
     "brand": "vivo",
     "model": "vivo X Fold6",
-    "processor": "天玑9500 + V3+影像芯片",
+    "processor": "天玑9500 Super",
     "screen_size": 8.02,
     "refresh_hz": 120,
     "screen_type": "三星M14 OLED折叠屏",
@@ -19172,10 +19267,10 @@
     "storage": "256GB/512GB/1TB",
     "battery_mah": 7000,
     "charging_w": 80,
-    "weight_g": 235,
+    "weight_g": 228,
     "camera_desc": "2亿主摄 1/1.4 | 50MP超广 | 50MP长焦 3x 1/1.95 | 20MP前置",
     "has_tele": true,
-    "os": "OriginOS 6 Fold",
+    "os": "OriginOS 6",
     "features": [
       "IP5X",
       "IPX8",
@@ -19201,7 +19296,7 @@
     "screen_form": "折叠屏",
     "wireless_charging_w": 40,
     "usb_version": "USB 3.2 Gen 1 (5Gbps)",
-    "detailed_camera": "主摄: 三星HPB 2亿 1/1.4\" f/1.68 OIS | 超广: 50MP | 长焦: 索尼LYT-602 50MP 1/1.95\" f/2.57 3x OIS 蔡司 | 前置: 20MP",
+    "detailed_camera": "主摄:200MP ZEISS 1/1.4\" OIS | 长焦:50MP 3x OIS | 超广:50MP",
     "release_date": "2026-06-26",
     "price": 7999,
     "screen_unfolded": {
@@ -19215,7 +19310,7 @@
       "refresh_hz": 120
     },
     "fold_type": "横向折叠",
-    "network_model": "V2429A",
+    "network_model": "V2545A",
     "completeness_score": 100,
     "charge_protocols": [
       "UFCS",
@@ -19227,7 +19322,7 @@
     "charge_protocols_source": "ecosystem-vivo",
     "charge_protocols_confidence": "medium",
     "resolution_source": "series-default",
-    "ip_rating": "IP5X/IPX8/IPX9",
+    "ip_rating": "IP58/IP59",
     "screen_detail": "8.02\" 内外双屏 三星M14 OLED折叠屏 120Hz 折叠屏",
     "dimensions": "展开约157.2×145.7×4.4mm",
     "camera_rear": "200MP HPB F1.68 OIS + 50MP JN1超广角 + 50MP LYT602 3X潜望长焦 OIS",
@@ -19243,7 +19338,7 @@
     "has_ir": false,
     "esim": true,
     "reverse_charging_w": 0,
-    "camera_front": "20MP",
+    "camera_front": "20MP(内外屏各一)",
     "camera_main_sensor": "三星HPB",
     "camera_main_size": "1/1.4\"",
     "camera_main_aperture": "f/1.68",
@@ -19260,7 +19355,16 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "蓝洞|盐湖|极夜|黑金"
+    "colors": "蓝洞|盐湖|极夜|黑金",
+    "charge_wired": "80W",
+    "charge_wireless": "40W",
+    "ram_rom": "12GB+256GB/12GB+512GB/16GB+512GB/16GB+1TB",
+    "nfc": true,
+    "ir": true,
+    "size_unfolded": "157.2 x 145.7 x 4.4-4.8 mm",
+    "folded_size": "157.2 x 74.3 x 9.4-9.9 mm",
+    "screen_size_inner": 8.02,
+    "screen_size_outer": 6.51
   },
   {
     "id": 253,
@@ -19328,7 +19432,11 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "22.5W",
+    "ram_rom": "8GB+128GB",
+    "nfc": false,
+    "ir": false
   },
   {
     "id": 254,
@@ -19392,7 +19500,12 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "charge_wired": "22.5W",
+    "ram_rom": "8GB+128GB",
+    "ip_rating": "IP53",
+    "nfc": false,
+    "ir": false
   },
   {
     "id": 255,
@@ -19541,7 +19654,7 @@
     "weight_g": 227,
     "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 20MP前置",
     "has_tele": false,
-    "os": "Xiaomi HyperOS 3",
+    "os": "HyperOS 3",
     "features": [
       "IP6X",
       "IPX8",
@@ -19605,14 +19718,18 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "colors": "暗影黑|太空银|天际蓝"
+    "colors": "暗影黑|太空银|天际蓝",
+    "charge_wired": "100W",
+    "ram_rom": "12GB+256GB/16GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 258,
     "brand": "iQOO",
     "model": "iQOO Z11i",
-    "processor": "骁龙4 Gen 2",
-    "screen_size": 6.74,
+    "processor": "天玑8400",
+    "screen_size": 6.72,
     "refresh_hz": 120,
     "screen_type": "LCD",
     "resolution": "HD+ (1604×720)",
@@ -19624,7 +19741,7 @@
     "weight_g": 205,
     "camera_desc": "64MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
-    "os": "OriginOS 6 (Android 16)",
+    "os": "OriginOS 6",
     "features": [
       "IP6X",
       "IPX5",
@@ -19642,7 +19759,7 @@
     "usb_version": "USB Type-C",
     "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 超广: 8MP | 前置: 16MP",
     "release_date": "2026-07-03",
-    "price": 1299,
+    "price": 1499,
     "source_url": "https://www.gsmarena.com/iqoo_z11i_debuts_with_a_6500mah_battery_snapdragon_4_gen_2_soc-news-65950.php",
     "verified_at": "2026-07-05",
     "completeness_score": 94,
@@ -19655,7 +19772,7 @@
     ],
     "charge_protocols_source": "ecosystem-iqoo",
     "charge_protocols_confidence": "medium",
-    "ip_rating": "IP6X/IPX5",
+    "ip_rating": "IP68/IP69",
     "screen_detail": "6.74\" HD+ (1604×720) LCD 120Hz",
     "has_nfc": true,
     "has_ir": false,
@@ -19676,14 +19793,18 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "青峰|沙漠金|墨影"
+    "colors": "青峰|沙漠金|墨影",
+    "charge_wired": "100W",
+    "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB/12GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 259,
     "brand": "REDMI",
     "model": "Redmi Note 17",
-    "processor": "第四代骁龙4",
-    "screen_size": 7.0,
+    "processor": "骁龙6s Gen4",
+    "screen_size": 6.83,
     "refresh_hz": 120,
     "screen_type": "OLED",
     "resolution": "FHD",
@@ -19694,7 +19815,7 @@
     "weight_g": 225,
     "camera_desc": "50MP主摄 | 8MP超广 | 20MP前置",
     "has_tele": false,
-    "os": "小米澎湃OS",
+    "os": "澎湃OS 3",
     "features": [
       "IP65",
       "NFC",
@@ -19746,13 +19867,17 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "浅水青|黑色|流星紫"
+    "colors": "浅水青|黑色|流星紫",
+    "charge_wired": "45W",
+    "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 260,
     "brand": "REDMI",
     "model": "Redmi Note 17 Pro",
-    "processor": "第四代骁龙6s",
+    "processor": "骁龙6s Gen4",
     "screen_size": 6.83,
     "refresh_hz": 120,
     "screen_type": "OLED",
@@ -19764,7 +19889,7 @@
     "weight_g": 226,
     "camera_desc": "50MP主摄 | 8MP超广 | 20MP前置",
     "has_tele": false,
-    "os": "小米澎湃OS",
+    "os": "澎湃OS 3",
     "features": [
       "IP66",
       "IP68",
@@ -19784,12 +19909,12 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 光影猎人800 50MP 1/1.55\" f/1.6 OIS | 超广: 8MP | 前置: 20MP",
+    "detailed_camera": "主摄:50MP f/1.8 OIS",
     "release_date": "2026-07-14",
     "price": 1599,
     "screen_detail": "6.83\" 1280P OLED 120Hz，康宁大猩猩Victus 2，3840Hz高频PWM，峰值3500nits",
     "dimensions": "163.45×78.27×8.46mm",
-    "ip_rating": "IP68/IP69K",
+    "ip_rating": "IP66/IP68/IP69/IP69K",
     "reverse_charging_w": 22.5,
     "completeness_score": 94,
     "charge_protocols": [
@@ -19808,7 +19933,7 @@
     "esim": false,
     "sim_type": "双 nano-SIM",
     "camera_rear": "光影猎人800 50MP 1/1.55\" f/1.6 OIS | 8MP",
-    "camera_front": "20MP",
+    "camera_front": "8MP",
     "camera_main_sensor": "光影猎人800",
     "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.6",
@@ -19821,13 +19946,17 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "晴空蓝|星云紫|黑色|白色"
+    "colors": "晴空蓝|星云紫|黑色|白色",
+    "charge_wired": "67W",
+    "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB/8GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 261,
     "brand": "vivo",
     "model": "vivo Y6c",
-    "processor": "展锐 T7225",
+    "processor": "紫光展锐T7225",
     "screen_size": 6.74,
     "refresh_hz": 120,
     "screen_type": "LCD",
@@ -19836,7 +19965,7 @@
     "storage": "128GB",
     "battery_mah": 6500,
     "charging_w": 15,
-    "weight_g": 209,
+    "weight_g": 199,
     "camera_desc": "800万主摄 | 500万前置",
     "has_tele": false,
     "os": "OriginOS 6",
@@ -19854,7 +19983,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 800万 | 前置: 500万",
+    "detailed_camera": "主摄:8MP",
     "release_date": "2026-07-15",
     "price": 899,
     "source_url": "https://www.ithome.com/0/978/581.htm",
@@ -19883,7 +20012,7 @@
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
     "camera_rear": "800万",
-    "camera_front": "500万",
+    "camera_front": "5MP",
     "camera_main_mp": 8,
     "display": {
       "screen_size": "6.1英寸",
@@ -19891,7 +20020,11 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "霞光蓝|暮夜黑|流云"
+    "colors": "霞光蓝|暮夜黑|流云",
+    "charge_wired": "15W",
+    "ram_rom": "4GB+128GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 262,
@@ -19991,7 +20124,8 @@
     "size_unfolded": "161.4 x 123.9 x 4.5 mm",
     "folded_size": "123.9 x 81.9 x 9.7 mm",
     "screen_size_inner": 7.6,
-    "screen_size_outer": 5.5
+    "screen_size_outer": 5.5,
+    "charge_wireless": "20W"
   },
   {
     "id": 263,
@@ -20088,7 +20222,8 @@
     "size_unfolded": "165.1 x 71.9 x 6.9 mm",
     "folded_size": "85.5 x 71.9 x 14.9 mm",
     "screen_size_inner": 6.7,
-    "screen_size_outer": 3.4
+    "screen_size_outer": 3.4,
+    "charge_wireless": "15W"
   },
   {
     "id": 264,
@@ -20187,13 +20322,14 @@
     "size_unfolded": "158.4 x 143.2 x 4.1 mm",
     "folded_size": "158.4 x 72.8 x 8.9 mm",
     "screen_size_inner": 7.6,
-    "screen_size_outer": 6.2
+    "screen_size_outer": 6.2,
+    "charge_wireless": "20W"
   },
   {
     "id": 265,
     "brand": "OPPO",
     "model": "OPPO K15",
-    "processor": "天玑 7360 SUPER",
+    "processor": "天玑7360 SUPER",
     "screen_size": 6.59,
     "refresh_hz": 120,
     "screen_type": "AMOLED 直面屏",
@@ -20223,7 +20359,7 @@
     "screen_form": "直屏",
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 50MP | 超广: 50MP | 前置: 50MP",
+    "detailed_camera": "主摄:50MP OIS | 超广:50MP",
     "release_date": "2026-07-24",
     "price": 2299,
     "date_precision": "month",
@@ -20233,7 +20369,7 @@
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "price_note": "未发布，参数基于爆料",
     "camera_rear": "5000万广角 f/1.8 OIS 26mm + 5000万超广角 f/2.2 143°",
-    "camera_front": "5000万 f/2.0 AF",
+    "camera_front": "50MP",
     "charge_protocols": [
       "UFCS",
       "PPS",
@@ -20248,7 +20384,7 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "ip_rating": "IP69",
+    "ip_rating": "IP69K",
     "camera_main_mp": 50,
     "colors": "赛博光翼|起源灰|光尘粉|金色传说",
     "source_url": "https://example.com/OPPO K15",
@@ -20257,7 +20393,11 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "charge_wired": "80W",
+    "ram_rom": "12GB+256GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 266,
@@ -20415,7 +20555,11 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "charge_wired": "80W",
+    "ram_rom": "12GB+256GB/12GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 268,
@@ -21096,7 +21240,7 @@
     ],
     "charge_protocols_source": "huawei-supercharge",
     "charge_protocols_confidence": "medium",
-    "os": null,
+    "os": "HarmonyOS 7",
     "os_source": "series-default",
     "resolution": "2800x1260",
     "resolution_source": "series-default",
@@ -21136,7 +21280,12 @@
     },
     "price_note": "预计5000-5500元起，全系涨价500-1200元",
     "source": "华为发布会爆料/多源核实",
-    "camera_front_sensor": "Unknown"
+    "camera_front_sensor": "Unknown",
+    "charge_wired": "100W",
+    "charge_wireless": "80W",
+    "ram_rom": "12GB+256GB/12GB+512GB",
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 274,
@@ -21271,7 +21420,7 @@
     "charge_protocols_source": "huawei-supercharge-series",
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.39\\\" 2232×1320 OLED 120Hz 16:9.5 6500nits 2160Hz PWM",
-    "ip_rating": null,
+    "ip_rating": "IP68/IP69",
     "has_nfc": true,
     "has_ir": false,
     "wifi": "WiFi 6E",
@@ -21297,7 +21446,13 @@
       "screen_size": "6.39英寸",
       "resolution": "2232×1320",
       "refresh_rate": "120Hz"
-    }
+    },
+    "charge_wired": "66W",
+    "charge_wireless": "50W",
+    "ram_rom": "12GB+256GB/12GB+512GB/12GB+1TB",
+    "nfc": true,
+    "ir": true,
+    "network_model": ""
   },
   {
     "id": 276,
