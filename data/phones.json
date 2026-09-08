@@ -126,7 +126,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.72\" 2400×1080 LCD 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -144,7 +144,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "白里挑一|星耀黑|踏青云"
+    "colors": "白里挑一|星耀黑|踏青云",
+    "ir": true
   },
   {
     "id": 3,
@@ -200,7 +201,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -218,7 +219,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "心想事橙|跃马黑"
+    "colors": "心想事橙|跃马黑",
+    "ir": true
   },
   {
     "id": 4,
@@ -821,7 +823,8 @@
       "6500mAh+",
       "≤200g",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/s60",
@@ -839,7 +842,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.59\" 2750×1260 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -859,7 +862,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 12,
@@ -895,7 +899,8 @@
       "潜望长焦",
       "6500mAh+",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "release_date": "2026-05-29",
     "source_url": "https://www.vivo.com.cn/vivo/param/s60",
@@ -916,7 +921,7 @@
     "camera_rear": "50MP LYT-700V 主摄 f/1.75 OIS + 50MP IMX882 潜望长焦 f/2.65 3x OIS + 8MP超广角 f/2.2",
     "camera_front": "50MP f/2.0",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -940,7 +945,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 13,
@@ -964,7 +970,7 @@
     "detailed_camera": "主摄: 5000万索尼超清 | 前置: 5000万",
     "has_tele": false,
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "tags": [
       "6500mAh+",
       "≤200g",
@@ -1008,7 +1014,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 14,
@@ -1113,7 +1120,7 @@
     "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.8 24mm OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 80mm 3.5x OIS | 前置: 5000万 f/2.0 18mm",
     "has_tele": true,
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "tags": [
       "潜望长焦",
       "6500mAh+",
@@ -1178,7 +1185,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 16,
@@ -1286,7 +1294,7 @@
     "detailed_camera": "主摄: 三星HP5 200MP 1/1.56\" f/1.8 24mm 云台OIS | 超广角: 5000万 f/2.0 16mm 116° | 长焦: 5000万 f/2.8 80mm 3.5x OIS | 前置: 5000万 f/2.0 18mm",
     "has_tele": true,
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "tags": [
       "天玑9500",
       "潜望长焦",
@@ -1353,7 +1361,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 18,
@@ -1406,7 +1415,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.82\" 3186×1440 OLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -1426,7 +1435,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "赛道版|传奇版|青云"
+    "colors": "赛道版|传奇版|青云",
+    "ir": true
   },
   {
     "id": 20,
@@ -1574,7 +1584,7 @@
     "os_source": "series-default",
     "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -1597,7 +1607,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 22,
@@ -1659,7 +1671,7 @@
     "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
     "ip_rating": "IP54",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -1683,7 +1695,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 25,
@@ -1911,7 +1925,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.32\" 2780×1264 OLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -1945,7 +1959,7 @@
     "charge_wireless": "50W",
     "ram_rom": "12GB+256GB/16GB+512GB",
     "nfc": true,
-    "ir": false
+    "ir": true
   },
   {
     "id": 28,
@@ -2100,7 +2114,7 @@
     "dimensions": "约162.3×76.7×8.7mm",
     "camera_rear": "200MP LYT-901主摄 f/1.5 OIS + 50MP LYT-600超广 f/2.0 + 200MP OV52A潜望 f/2.2 3x OIS + 50MP JNL超长焦 f/3.5 10x OIS",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -2136,7 +2150,7 @@
     "charge_wireless": "50W",
     "ram_rom": "16GB+512GB/16GB+1TB",
     "nfc": true,
-    "ir": false
+    "ir": true
   },
   {
     "id": 30,
@@ -2170,7 +2184,8 @@
       "USB3.0",
       "红外",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -2197,7 +2212,7 @@
     "screen_detail": "6.78\" 3168×1440 OLED 144Hz",
     "dimensions": "161.98×75.48×8.00mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -2224,7 +2239,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 31,
@@ -2288,7 +2304,7 @@
     "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
     "dimensions": "约163.7×76.6×8.5mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -2319,7 +2335,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "Huawei",
@@ -2567,7 +2584,7 @@
     "price_note": "待定",
     "charge_wired": "45W",
     "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB",
-    "nfc": false,
+    "nfc": true,
     "ir": true
   },
   {
@@ -2618,7 +2635,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -2641,8 +2658,8 @@
     "price_note": "待定",
     "charge_wired": "45W",
     "ram_rom": "8GB+128GB/8GB+256GB",
-    "nfc": false,
-    "ir": false
+    "nfc": true,
+    "ir": true
   },
   {
     "model": "Galaxy A57 5G",
@@ -2750,7 +2767,6 @@
       "≤200g",
       "USB3.0",
       "NFC",
-      "红外",
       "防尘抗水",
       "有线投屏"
     ],
@@ -2841,7 +2857,6 @@
       "≤200g",
       "USB3.0",
       "NFC",
-      "红外",
       "防尘抗水",
       "有线投屏"
     ],
@@ -2931,7 +2946,6 @@
       "无线充电",
       "USB3.0",
       "NFC",
-      "红外",
       "防尘抗水",
       "有线投屏"
     ],
@@ -3260,7 +3274,8 @@
     "tags": [
       "6500mAh+",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3284,7 +3299,7 @@
     "ip_rating": "IP6X/IPX4",
     "screen_detail": "6.75\" 1570×720 LCD 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -3304,8 +3319,8 @@
     "price_note": "待定",
     "charge_wired": "45W",
     "ram_rom": "8GB+128GB/8GB+256GB",
-    "nfc": false,
-    "ir": false
+    "nfc": true,
+    "ir": true
   },
   {
     "id": 44,
@@ -3419,7 +3434,8 @@
     ],
     "tags": [
       "≤200g",
-      "红外"
+      "红外",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -3440,7 +3456,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.7\" 1600×720 LCD 90Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -3459,7 +3475,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 46,
@@ -3508,7 +3525,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -3526,7 +3543,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 47,
@@ -3576,7 +3594,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -3595,7 +3613,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 48,
@@ -3646,7 +3665,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -3665,7 +3684,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 49,
@@ -4285,7 +4305,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.59\" 2760×1256 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -4317,7 +4337,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 57,
@@ -4452,7 +4473,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.83\" 2772×1240 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -4479,7 +4500,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 59,
@@ -5162,7 +5184,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.59\" 2760×1256 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -5192,7 +5214,7 @@
     "charge_wireless": "50W",
     "ram_rom": "12GB+256GB/12GB+512GB",
     "nfc": true,
-    "ir": false
+    "ir": true
   },
   {
     "id": 67,
@@ -5253,7 +5275,7 @@
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
     "camera_rear": "50MP LYT-828主摄 f/1.5 OIS + 50MP JN5超广 f/2.0 + 200MP HP5潜望长焦 f/2.1 70mm OIS",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -5280,7 +5302,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -5483,7 +5506,8 @@
       "USB3.0",
       "红外",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -5510,7 +5534,7 @@
     "screen_detail": "6.31\" 2800×1260 OLED 120Hz",
     "dimensions": "150.57×71.92×7.95mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -5535,7 +5559,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 71,
@@ -5569,7 +5594,8 @@
       "USB3.0",
       "红外",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 40,
@@ -5596,7 +5622,7 @@
     "dimensions": "161.98×75.48×7.99mm",
     "camera_rear": "50MP LYT-828主摄 f/1.57 OIS + 50MP JN5超广 f/2.0 + 200MP HPB潜望长焦 f/2.67 85mm OIS",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -5622,7 +5648,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 72,
@@ -5692,7 +5719,7 @@
     "wifi": "Wi-Fi 7",
     "bluetooth": "6.0",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "fingerprint": "屏下光学指纹",
     "esim": false,
     "sim_type": "双 nano-SIM",
@@ -5714,7 +5741,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "OnePlus",
@@ -5772,7 +5800,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.32\" 2640×1216 OLED 165Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -5797,7 +5825,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "松弛抹茶|治愈白巧|纯粹可可"
+    "colors": "松弛抹茶|治愈白巧|纯粹可可",
+    "ir": true
   },
   {
     "id": 74,
@@ -5862,7 +5891,7 @@
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "dimensions": "约163.5×76.5×8.4mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -5892,7 +5921,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 77,
@@ -6197,7 +6227,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.6\" 1600×720 LCD 90Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -6216,7 +6246,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 81,
@@ -6267,7 +6298,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -6287,7 +6318,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 82,
@@ -6338,7 +6370,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.7\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -6358,7 +6390,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "Apple",
@@ -6743,7 +6776,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.67\" 2400×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -6762,7 +6795,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 88,
@@ -6967,7 +7001,7 @@
     "screen_detail": "6.78\" 1272×2772 OLED 120Hz",
     "dimensions": "约161.8×75.6×8.2mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -6995,7 +7029,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "原色沙丘|绝对黑|雾光紫"
+    "colors": "原色沙丘|绝对黑|雾光紫",
+    "ir": true
   },
   {
     "brand": "realme",
@@ -7058,7 +7093,7 @@
     "camera_rear": "50MP IMX906 主摄 f/1.8 OIS + 200MP HP5 潜望长焦 f/2.6 3x OIS + 50MP OV50D 超广角 f/2.0",
     "camera_front": "32MP f/2.4",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -7083,7 +7118,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 92,
@@ -7605,7 +7641,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.83\" 2800×1272 OLED 165Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -7625,7 +7661,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "快银|闪白|竞黑"
+    "colors": "快银|闪白|竞黑",
+    "ir": true
   },
   {
     "brand": "realme",
@@ -7683,7 +7720,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.79\" 1440×3136 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -7707,7 +7744,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 100,
@@ -7923,7 +7961,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 2780×1264 OLED 165Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -7943,7 +7981,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "王牌觉醒|金属风暴"
+    "colors": "王牌觉醒|金属风暴",
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -8079,7 +8118,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.83\" 1272×2800 OLED 165Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8102,7 +8141,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "掠影绿|电光紫|闪速黑"
+    "colors": "掠影绿|电光紫|闪速黑",
+    "ir": true
   },
   {
     "brand": "OnePlus",
@@ -8160,7 +8200,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 2780×1264 OLED 165Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8180,7 +8220,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "追光银|旷野绿|独行黑"
+    "colors": "追光银|旷野绿|独行黑",
+    "ir": true
   },
   {
     "id": 106,
@@ -8235,7 +8276,7 @@
     "ip_rating": "IP6X/IPX9",
     "screen_detail": "6.59\" 2760×1256 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8258,7 +8299,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 107,
@@ -8312,7 +8354,7 @@
     "ip_rating": "IP6X/IPX9",
     "screen_detail": "6.32\" 2760×1256 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8336,7 +8378,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "NUBIA",
@@ -8358,7 +8401,8 @@
       "6500mAh+",
       "USB3.0",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -8386,7 +8430,7 @@
     "os_source": "series-default",
     "screen_detail": "6.85\" 2480×1116 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8409,7 +8453,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 109,
@@ -8463,7 +8509,7 @@
     "ip_rating": "IP6X/IPX9",
     "screen_detail": "6.73\" 3200×1440 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8493,7 +8539,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "NUBIA",
@@ -8548,7 +8595,7 @@
     "os_source": "series-default",
     "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8573,7 +8620,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "NUBIA",
@@ -8627,7 +8676,7 @@
     "os_source": "series-default",
     "screen_detail": "6.85\" 2688×1216 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -8653,7 +8702,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "model": "Galaxy Z Flip7 FE",
@@ -9310,7 +9361,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 1272×2772 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -9330,7 +9381,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "无畏蓝|新星白|独行黑"
+    "colors": "无畏蓝|新星白|独行黑",
+    "ir": true
   },
   {
     "id": 120,
@@ -9379,7 +9431,7 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -9403,7 +9455,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 121,
@@ -9426,8 +9479,8 @@
     "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
     "detailed_camera": "主摄: 索尼IMX882 1/1.95\" 50MP f/1.8 OIS | 超广: 8MP | 前置: 16MP",
     "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "天玑9400",
       "6500mAh+",
@@ -9477,7 +9530,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 122,
@@ -9527,7 +9582,7 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2800×1280 AMOLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -9549,7 +9604,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 123,
@@ -9609,7 +9665,7 @@
     "camera_front": "1600万 f/2.4",
     "network_model": "PMH110",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -9628,7 +9684,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -9755,7 +9812,7 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2772×1240 AMOLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -9776,7 +9833,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -9917,7 +9975,7 @@
     "camera_front": "1600万 f/2.4",
     "network_model": "PMG110",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -9936,7 +9994,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 128,
@@ -10259,7 +10318,7 @@
     "dimensions": "展开约159.7×142.3×4.3mm",
     "ip_rating": "IP58",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -10288,7 +10347,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "青松绿|明白银|钛度灰"
+    "colors": "青松绿|明白银|钛度灰",
+    "ir": true
   },
   {
     "id": 132,
@@ -10428,7 +10488,7 @@
     "os_source": "series-default",
     "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -10448,7 +10508,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 134,
@@ -10502,7 +10563,7 @@
     "screen_detail": "6.32\" 2640×1216 OLED 120Hz",
     "dimensions": "150.83×71.97×8.06mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -10526,7 +10587,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "晨雾灰|怦然粉|黑色"
+    "colors": "晨雾灰|怦然粉|黑色",
+    "ir": true
   },
   {
     "id": 135,
@@ -10549,8 +10611,8 @@
     "camera_desc": "50MP主摄 OIS + 8MP超广角 + 50MP潜望长焦 + 50MP前置",
     "detailed_camera": "主摄: 50MP 1/1.5\" f/1.8 OIS | 超广: 8MP | 潜望长焦: 50MP | 前置: 50MP",
     "has_tele": true,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "潜望长焦",
       "≤200g",
@@ -10595,7 +10657,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "HONOR",
@@ -10794,7 +10858,8 @@
     ],
     "tags": [
       "≤200g",
-      "红外"
+      "红外",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -10924,7 +10989,7 @@
     "camera_desc": "50MP主摄 | 12MP超广 | 5MP长焦 | 32MP前置",
     "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 OIS| 超广: 12MP f/2.2 | 长焦: 5MP | 前置: 32MP",
     "has_tele": true,
-    "has_nfc": false,
+    "has_nfc": true,
     "has_ir": false,
     "tags": [
       "潜望长焦",
@@ -10973,7 +11038,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "nfc": true
   },
   {
     "brand": "Huawei",
@@ -11136,7 +11202,7 @@
     "screen_detail": "8.12\" 2480×2248 / 2700×1220 OLED折叠屏 120Hz 折叠屏",
     "dimensions": "展开约160.9×145.5×4.2mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11164,7 +11230,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 146,
@@ -11232,7 +11299,7 @@
     "screen_detail": "8.12\" 2480×2248 OLED折叠屏 120Hz 折叠屏",
     "dimensions": "展开约160.9×145.5×4.3mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11260,7 +11327,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 147,
@@ -11365,7 +11433,8 @@
       "潜望长焦",
       "≤200g",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -11390,7 +11459,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11413,7 +11482,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -11517,7 +11587,8 @@
     "tags": [
       "≤200g",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -11542,7 +11613,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.31\" 2640×1216 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11562,7 +11633,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "酷莓粉|薄荷青|柠檬黄|可可黑"
+    "colors": "酷莓粉|薄荷青|柠檬黄|可可黑",
+    "ir": true
   },
   {
     "id": 151,
@@ -11612,7 +11684,7 @@
     "network_model_source": "vivo-official",
     "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11634,7 +11706,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "桃桃粉|薄荷青|柠檬黄|可可黑"
+    "colors": "桃桃粉|薄荷青|柠檬黄|可可黑",
+    "ir": true
   },
   {
     "id": 152,
@@ -11690,7 +11763,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.7\" 2388×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11710,7 +11783,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 153,
@@ -11823,7 +11897,8 @@
       "无线充电",
       "≤200g",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -11848,7 +11923,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.31\" 2640×1216 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -11869,7 +11944,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "HONOR",
@@ -12321,7 +12397,6 @@
       "无线充电",
       "USB3.0",
       "NFC",
-      "红外",
       "防尘抗水",
       "有线投屏"
     ],
@@ -12374,7 +12449,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "钛黑|钛蓝|钛灰|钛银"
+    "colors": "钛黑|钛蓝|钛灰|钛银",
+    "ir": false
   },
   {
     "id": 161,
@@ -12585,7 +12661,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -12607,7 +12683,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "凤羽金|紫气东来|玉露白|松烟墨"
+    "colors": "凤羽金|紫气东来|玉露白|松烟墨",
+    "ir": true
   },
   {
     "brand": "OnePlus",
@@ -12663,7 +12740,7 @@
     "screen_detail": "6.78\" 2780×1264 AMOLED 120Hz",
     "dimensions": "162.36×75.08×8.39mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -12683,7 +12760,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "realme",
@@ -12734,7 +12812,7 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2780×1264 AMOLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -12756,7 +12834,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 166,
@@ -12809,7 +12888,7 @@
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
     "dimensions": "162.36×75.08×8.42mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -12829,7 +12908,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 167,
@@ -12947,7 +13027,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -12969,7 +13049,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "凤羽金|紫气东来|玉露白|松烟墨"
+    "colors": "凤羽金|紫气东来|玉露白|松烟墨",
+    "ir": true
   },
   {
     "id": 169,
@@ -13022,7 +13103,7 @@
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
     "dimensions": "162.36×75.08×8.42mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -13042,7 +13123,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 170,
@@ -13615,7 +13697,8 @@
       "6500mAh+",
       "红外",
       "防尘抗水",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 50,
@@ -13638,7 +13721,7 @@
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
     "dimensions": "162.45×76.89×8.55mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -13663,7 +13746,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 178,
@@ -14526,7 +14610,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.59\" 2640×1216 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -14555,7 +14639,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 190,
@@ -14613,7 +14698,7 @@
     "screen_detail": "6.67\" 2800×1260 OLED 120Hz",
     "dimensions": "161.98×75.48×7.99mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -14637,7 +14722,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "宝石蓝|钛色|白月光|辰夜黑"
+    "colors": "宝石蓝|钛色|白月光|辰夜黑",
+    "ir": true
   },
   {
     "id": 191,
@@ -14695,7 +14781,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.78\" 2780×1264 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -14723,7 +14809,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 192,
@@ -14783,7 +14870,7 @@
     "screen_detail": "6.31\" 2640×1216 OLED 120Hz",
     "dimensions": "150.83×71.76×7.99mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -14805,7 +14892,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "粉色|青色|黑色|白色|淡紫"
+    "colors": "粉色|青色|黑色|白色|淡紫",
+    "ir": true
   },
   {
     "id": 193,
@@ -14862,7 +14950,7 @@
     "dimensions": "160×74.3×8mm",
     "ip_rating": "IP68/IP69",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -14890,7 +14978,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "淡紫|薄荷蓝|直白|简黑"
+    "colors": "淡紫|薄荷蓝|直白|简黑",
+    "ir": true
   },
   {
     "id": 194,
@@ -15108,7 +15197,7 @@
     "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
     "dimensions": "约162.9×76.5×8.5mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -15135,7 +15224,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 197,
@@ -15190,7 +15280,7 @@
     "ip_rating": "IP6X/IPX6/IPX8/IPX9",
     "screen_detail": "6.82\" 2760×1256 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -15219,7 +15309,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 198,
@@ -15278,7 +15369,7 @@
     "screen_detail": "6.78\" 3168×1440 OLED 120Hz",
     "dimensions": "162.61×75.83×8.36mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -15309,7 +15400,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "宝石蓝|钛色|白月光|辰夜黑"
+    "colors": "宝石蓝|钛色|白月光|辰夜黑",
+    "ir": true
   },
   {
     "id": 199,
@@ -15450,7 +15542,7 @@
     "screen_detail": "6.82\" 3168×1440 OLED 120Hz",
     "dimensions": "约162.2×76.8×8.8mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -15477,7 +15569,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 201,
@@ -15535,7 +15628,7 @@
     "ip_rating": "IP68",
     "dimensions": "约163.1×76.7×8.7mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -15564,7 +15657,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "银调|红圈|黑卡"
+    "colors": "银调|红圈|黑卡",
+    "ir": true
   },
   {
     "id": 202,
@@ -16165,7 +16259,7 @@
     "dimensions": "163.22×75.88×7.94mm",
     "ip_rating": "IP55",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16184,7 +16278,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "REDMI",
@@ -16310,7 +16405,7 @@
     "dimensions": "163.22×75.88×7.94mm",
     "ip_rating": "IP68",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16331,7 +16426,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 212,
@@ -16389,7 +16485,7 @@
     "screen_detail": "6.82\" 3200×1440 AMOLED 120Hz",
     "dimensions": "163.22×75.88×7.94mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16410,7 +16506,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 213,
@@ -16433,8 +16530,8 @@
     "camera_desc": "潜望长焦 5000万(RYYB)",
     "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万(RYYB)",
     "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "≤200g",
       "USB3.0",
@@ -16479,7 +16576,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "NUBIA",
@@ -16503,7 +16602,8 @@
       "USB3.0",
       "红外",
       "散热风扇",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -16534,7 +16634,7 @@
     "dimensions": "163.98×76.35×8.9mm",
     "ip_rating": "IP54",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16553,7 +16653,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 215,
@@ -16576,8 +16678,8 @@
     "camera_desc": "50MP主摄 1/1.4 | 8MP超广 | 16MP前置",
     "detailed_camera": "主摄: 索尼LYT-808 50MP 1/1.4\" f/1.6 OIS | 超广: 8MP | 前置: 16MP",
     "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "USB3.0",
       "NFC",
@@ -16626,7 +16728,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 216,
@@ -16649,8 +16753,8 @@
     "camera_desc": "50MP主摄 | 5000万像素 | 16MP前置",
     "detailed_camera": "主摄: 三星GN5 50MP f/1.8 | 5000万像素 | 前置: 16MP",
     "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "骁龙8 Gen5",
       "6500mAh+",
@@ -16698,7 +16802,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "NUBIA",
@@ -16756,7 +16862,7 @@
     "dimensions": "163.98×76.35×8.9mm",
     "ip_rating": "IP54",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16780,7 +16886,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "NUBIA",
@@ -16834,7 +16942,7 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16858,7 +16966,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "NUBIA",
@@ -16916,7 +17026,7 @@
     "dimensions": "163.98×76.35×8.9mm",
     "ip_rating": "IP54",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -16940,7 +17050,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 220,
@@ -17086,7 +17198,7 @@
     "os_source": "series-default",
     "screen_detail": "6.8\" 2688×1216 AMOLED 144Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -17110,7 +17222,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 222,
@@ -17628,7 +17742,7 @@
     "dimensions": "162.15×75.12×8.6mm",
     "ip_rating": "IP65",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -17648,7 +17762,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "model": "Galaxy C55 5G",
@@ -17737,8 +17852,8 @@
     "camera_desc": "50MP主摄 | 8MP超广 | 50MP前置",
     "detailed_camera": "主摄: 豪威OV50E 50MP f/1.8 OIS | 超广: 8MP | 前置: 50MP",
     "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "≤200g",
       "NFC",
@@ -17782,7 +17897,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 230,
@@ -17997,7 +18114,7 @@
     "dimensions": "163.72×75.88×7.98mm",
     "ip_rating": "IP55",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18017,7 +18134,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 233,
@@ -18040,8 +18158,8 @@
     "camera_desc": "50MP主摄 1/1.56 | 50MP潜望 3x | 8MP超广 | 32MP前置",
     "detailed_camera": "主摄: 索尼IMX906 50MP 1/1.56\" f/1.8 24mm OIS | 潜望: 50MP f/2.6 70mm 3x OIS | 超广: 8MP f/2.2 16mm | 前置: 32MP f/2.0",
     "has_tele": true,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
       "潜望长焦",
       "≤200g",
@@ -18101,7 +18219,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "model": "Galaxy A55 5G",
@@ -18194,7 +18314,7 @@
     "camera_desc": "50MP主摄 | 12MP超广 | 5MP长焦 | 32MP前置",
     "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 OIS| 超广: 12MP f/2.2 | 长焦: 5MP | 前置: 32MP",
     "has_tele": true,
-    "has_nfc": false,
+    "has_nfc": true,
     "has_ir": false,
     "tags": [
       "潜望长焦",
@@ -18243,7 +18363,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "nfc": true
   },
   {
     "id": 236,
@@ -18290,7 +18411,7 @@
     "charge_protocols_confidence": "medium",
     "screen_detail": "6.7\" 2412×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18311,7 +18432,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 237,
@@ -18362,7 +18484,7 @@
     "os_source": "series-default",
     "screen_detail": "6.57\" 2412×1080 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18386,7 +18508,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 238,
@@ -18439,7 +18562,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.72\" 2400×1080 LCD 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18462,7 +18585,8 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "ir": true
   },
   {
     "brand": "realme",
@@ -18484,7 +18608,8 @@
       "骁龙8 Elite 5",
       "潜望长焦",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "wireless_charging_w": 0,
     "usb_version": "USB 2.0",
@@ -18512,7 +18637,7 @@
     "ip_rating": "IP6X/IPX8",
     "screen_detail": "6.6\" 2780×1264 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18534,7 +18659,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "id": 240,
@@ -18586,7 +18712,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.72\" 2400×1080 LCD 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18608,7 +18734,8 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "ir": true
   },
   {
     "brand": "Huawei",
@@ -18826,7 +18953,7 @@
     "network_model_source": "vivo-official",
     "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18848,7 +18975,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "烟雨青|桃花扇|千山翠|松烟墨|剑影灰"
+    "colors": "烟雨青|桃花扇|千山翠|松烟墨|剑影灰",
+    "ir": true
   },
   {
     "id": 244,
@@ -18905,7 +19033,7 @@
     "ip_rating": "IP6X/IPX8/IPX9",
     "screen_detail": "6.78\" 2800×1260 OLED 120Hz",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -18929,7 +19057,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "烟雨青|桃花扇|千山翠|松烟墨|剑影灰"
+    "colors": "烟雨青|桃花扇|千山翠|松烟墨|剑影灰",
+    "ir": true
   },
   {
     "id": 245,
@@ -19062,7 +19191,7 @@
     "screen_detail": "6.82\" 3168×1440 OLED 144Hz",
     "dimensions": "162.95×76.5×8.15mm",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -19089,7 +19218,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true
   },
   {
     "brand": "NUBIA",
@@ -19145,7 +19275,7 @@
     "network_model": "NX769J",
     "ip_rating": "IP54",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -19167,7 +19297,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "brand": "NUBIA",
@@ -19227,7 +19359,7 @@
     "network_model": "NX769J",
     "ip_rating": "IP54",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -19249,7 +19381,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 249,
@@ -19476,8 +19610,8 @@
     ],
     "tags": [
       "6500mAh+",
-      "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
@@ -19521,7 +19655,7 @@
     "price_note": "待定",
     "charge_wired": "22.5W",
     "ram_rom": "8GB+128GB",
-    "nfc": false,
+    "nfc": true,
     "ir": false
   },
   {
@@ -19547,7 +19681,7 @@
     ],
     "tags": [
       "6500mAh+",
-      "红外"
+      "NFC"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
@@ -19591,7 +19725,7 @@
     "charge_wired": "22.5W",
     "ram_rom": "8GB+128GB",
     "ip_rating": "IP53",
-    "nfc": false,
+    "nfc": true,
     "ir": false
   },
   {
@@ -19688,7 +19822,8 @@
       "红外遥控"
     ],
     "tags": [
-      "红外"
+      "红外",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -19841,7 +19976,8 @@
     "tags": [
       "6500mAh+",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "usb_version": "USB Type-C",
@@ -20066,7 +20202,8 @@
     "tags": [
       "6500mAh+",
       "红外",
-      "防尘抗水"
+      "防尘抗水",
+      "NFC"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -20148,7 +20285,8 @@
     "tags": [
       "骁龙8 Elite 5",
       "无线充电",
-      "USB3.0"
+      "USB3.0",
+      "NFC"
     ],
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-fold8/specs/",
@@ -20251,7 +20389,8 @@
       "骁龙8 Elite 5",
       "无线充电",
       "≤200g",
-      "USB3.0"
+      "USB3.0",
+      "NFC"
     ],
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-flip8/specs/",
@@ -20349,7 +20488,8 @@
     "tags": [
       "骁龙8 Elite 5",
       "无线充电",
-      "USB3.0"
+      "USB3.0",
+      "NFC"
     ],
     "verified_at": "2026-07-22",
     "source": "samsung.com.cn/smartphones/galaxy-z-fold8-ultra/specs/",
@@ -20514,7 +20654,7 @@
     "camera_front": "50MP",
     "usb": "USB 3.0 Type-C",
     "nfc": true,
-    "ir": false,
+    "ir": true,
     "wireless_charging": false,
     "features": [
       "7100mAh超大电池",
@@ -20526,7 +20666,8 @@
       "潜望长焦",
       "6500mAh+",
       "红外",
-      "有线投屏"
+      "有线投屏",
+      "NFC"
     ],
     "os": "RedMagic OS",
     "source": "Notion补充更新",
@@ -20547,7 +20688,7 @@
     "has_tele": true,
     "wireless_charging_w": 0,
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "wifi": "WiFi 6",
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
@@ -21077,7 +21218,8 @@
     "tags": [
       "6500mAh+",
       "NFC",
-      "防尘抗水"
+      "防尘抗水",
+      "红外"
     ],
     "screen_form": "直屏",
     "wireless_charging_w": 0,
@@ -21259,7 +21401,7 @@
     "id": "vivo-x300e",
     "screen_form": "直屏",
     "has_nfc": true,
-    "has_ir": false,
+    "has_ir": true,
     "fingerprint": "屏下光学指纹",
     "esim": true,
     "sim_type": "双 nano-SIM",
@@ -21283,7 +21425,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "colors": "月光白|日光橙|辰夜黑"
+    "colors": "月光白|日光橙|辰夜黑",
+    "ir": true
   },
   {
     "brand": "Huawei",
@@ -21313,7 +21456,9 @@
       "卫星通信",
       "防尘抗水",
       "无线充电",
-      "大屏"
+      "大屏",
+      "NFC",
+      "红外"
     ],
     "wireless_charging_w": 50,
     "usb_version": "USB Type-C 3.2",
@@ -21502,7 +21647,8 @@
       "鸿蒙",
       "6500mAh+",
       "NFC",
-      "USB3.0"
+      "USB3.0",
+      "红外"
     ],
     "release_date": "2026-09-07",
     "price": 5699,
@@ -21681,7 +21827,8 @@
       "6500mAh+",
       "NFC",
       "USB3.0",
-      "有线投屏"
+      "有线投屏",
+      "红外"
     ],
     "usb_version": "USB 3.0",
     "wireless_charging_w": 0,
@@ -21689,7 +21836,11 @@
     "release_date": "2024-07",
     "price": 5499,
     "ram": "12GB/16GB",
-    "storage": "256GB/512GB"
+    "storage": "256GB/512GB",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": true,
+    "has_ir": true
   },
   {
     "id": 334,
@@ -21742,14 +21893,18 @@
     "camera_desc": "5000万像素",
     "detailed_camera": null,
     "has_tele": false,
-    "has_nfc": false,
-    "has_ir": false,
+    "has_nfc": true,
+    "has_ir": true,
     "tags": [
-      "6500mAh+"
+      "6500mAh+",
+      "红外",
+      "NFC"
     ],
     "features": [],
     "screen_form": null,
-    "release_date": "2024-07"
+    "release_date": "2024-07",
+    "ir": true,
+    "nfc": true
   },
   {
     "id": 368,
@@ -21784,7 +21939,11 @@
     "ram": "12GB",
     "storage": "256GB",
     "source_url": "https://www.ithome.com/0/951/889.htm",
-    "verified_at": "2026-05-18"
+    "verified_at": "2026-05-18",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": true,
+    "has_ir": true
   },
   {
     "id": 369,
@@ -21820,7 +21979,11 @@
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "source_url": "https://www.ithome.com/0/951/889.htm",
-    "verified_at": "2026-05-18"
+    "verified_at": "2026-05-18",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": true,
+    "has_ir": true
   },
   {
     "id": 370,
@@ -21863,7 +22026,9 @@
       "refresh_hz": 90
     },
     "source_url": "https://item.lenovo.com.cn/product/1045227.html",
-    "verified_at": "2026-05-19"
+    "verified_at": "2026-05-19",
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 373,
@@ -21911,7 +22076,11 @@
       "refresh_hz": 165
     },
     "source_url": "https://item.lenovo.com.cn/product/1045220.html",
-    "verified_at": "2026-05-19"
+    "verified_at": "2026-05-19",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 374,
@@ -21959,7 +22128,11 @@
       "refresh_hz": 165
     },
     "source_url": "https://item.lenovo.com.cn/product/1050410.html",
-    "verified_at": "2026-05-19"
+    "verified_at": "2026-05-19",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 381,
@@ -21992,7 +22165,9 @@
     "release_date": "2025-10",
     "price": 799,
     "source_url": "https://item.lenovo.com.cn/product/1046970.html",
-    "verified_at": "2026-05-19"
+    "verified_at": "2026-05-19",
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 384,
@@ -22031,7 +22206,11 @@
     "release_date": "2025-10",
     "price": 2699,
     "source_url": "https://item.lenovo.com.cn/product/1050680.html",
-    "verified_at": "2026-05-19"
+    "verified_at": "2026-05-19",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 398,
@@ -22070,7 +22249,9 @@
     "release_date": "2026-05",
     "price": 2599,
     "source_url": "https://shop.lenovo.com.cn/",
-    "verified_at": "2026-05-19"
+    "verified_at": "2026-05-19",
+    "nfc": true,
+    "has_nfc": true
   },
   {
     "id": 403,
@@ -22120,7 +22301,11 @@
       "refresh_hz": 165
     },
     "source_url": "https://item.lenovo.com.cn/product/1053466.html",
-    "verified_at": "2026-05-27"
+    "verified_at": "2026-05-27",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 404,
@@ -22175,7 +22360,11 @@
       "refresh_hz": 165
     },
     "source_url": "https://shop.lenovo.com.cn/",
-    "verified_at": "2026-05-27"
+    "verified_at": "2026-05-27",
+    "nfc": true,
+    "has_nfc": true,
+    "ir": false,
+    "has_ir": false
   },
   {
     "id": 438,
