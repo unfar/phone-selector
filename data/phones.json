@@ -409,6 +409,7 @@
     "os": "HarmonyOS 6.1",
     "screen_form": "直屏",
     "features": [
+      "IP68",
       "NFC",
       "侧边指纹",
       "立体声双扬声器",
@@ -479,6 +480,7 @@
     "os": "HarmonyOS 7",
     "screen_form": "直屏",
     "features": [
+      "IP65",
       "NFC",
       "红外",
       "侧边指纹",
@@ -2516,6 +2518,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -2588,6 +2593,7 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69",
       "NFC",
       "红外遥控"
     ],
@@ -3408,6 +3414,7 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP54",
       "红外遥控"
     ],
     "tags": [
@@ -3473,6 +3480,7 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP64",
       "红外遥控",
       "NFC"
     ],
@@ -3539,6 +3547,7 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69",
       "红外遥控",
       "NFC"
     ],
@@ -3607,6 +3616,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69K",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -3673,6 +3685,7 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
+      "IP65",
       "NFC",
       "红外"
     ],
@@ -3745,6 +3758,7 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
+      "IP65",
       "NFC",
       "红外",
       "有线投屏"
@@ -3823,6 +3837,8 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
+      "IP69",
+      "IP68",
       "NFC",
       "红外",
       "有线投屏"
@@ -4154,6 +4170,7 @@
     "has_tele": false,
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控",
       "5G",
@@ -4320,6 +4337,9 @@
     "has_tele": false,
     "os": "小米澎湃OS",
     "features": [
+      "IP69",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控",
       "5G",
@@ -4479,6 +4499,7 @@
     "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控",
       "5G",
@@ -6149,6 +6170,7 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP65",
       "红外遥控",
       "NFC"
     ],
@@ -6215,6 +6237,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -6283,6 +6308,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -6685,6 +6713,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -6751,6 +6782,7 @@
     "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控",
       "5G",
@@ -7395,6 +7427,7 @@
     "usb_version": "USB 2.0",
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外"
     ],
@@ -7463,6 +7496,7 @@
     "usb_version": "USB 2.0",
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外"
     ],
@@ -9402,6 +9436,8 @@
       "红外"
     ],
     "features": [
+      "IP69",
+      "IP68",
       "NFC",
       "红外遥控"
     ],
@@ -9461,6 +9497,7 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控",
       "散热风扇"
@@ -9603,6 +9640,8 @@
     "camera_desc": "50MP主摄 | 12MP超广 | 50MP前置",
     "has_tele": false,
     "features": [
+      "IP69",
+      "IP68",
       "NFC",
       "红外遥控"
     ],
@@ -9677,6 +9716,8 @@
     "camera_desc": "50MP主摄 | 8MP超广 | 16MP前置",
     "has_tele": false,
     "features": [
+      "IP69",
+      "IP68",
       "NFC",
       "红外遥控"
     ],
@@ -10357,6 +10398,7 @@
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
+      "IP65",
       "NFC",
       "红外"
     ],
@@ -10569,6 +10611,10 @@
     "usb_version": "USB 2.0",
     "os": "MagicOS",
     "features": [
+      "IP69K",
+      "IP69",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -11383,6 +11429,7 @@
     "usb_version": "USB 2.0",
     "os": "MagicOS",
     "features": [
+      "IP65",
       "NFC",
       "红外遥控"
     ],
@@ -12438,6 +12485,7 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [
+      "IP65",
       "NFC",
       "红外遥控"
     ],
@@ -12869,6 +12917,7 @@
     "has_tele": true,
     "os": "OriginOS 5",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控"
     ],
@@ -13013,6 +13062,7 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
+      "IP65",
       "NFC",
       "红外",
       "有线投屏"
@@ -13248,6 +13298,8 @@
     "has_tele": true,
     "os": "HarmonyOS 6.1",
     "features": [
+      "IP69",
+      "IP68",
       "NFC",
       "红外",
       "有线投屏"
@@ -13321,6 +13373,7 @@
     "usb_version": "USB 2.0",
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外"
     ],
@@ -13393,6 +13446,7 @@
     "usb_version": "USB 2.0",
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外"
     ],
@@ -13464,6 +13518,8 @@
     "usb_version": "USB 2.0",
     "os": "小米澎湃OS",
     "features": [
+      "IP69",
+      "IP68",
       "NFC",
       "红外",
       "有线投屏"
@@ -14051,6 +14107,7 @@
     "has_tele": false,
     "os": "MagicOS",
     "features": [
+      "IP69",
       "NFC",
       "红外遥控"
     ],
@@ -16006,6 +16063,7 @@
     "has_tele": false,
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控",
       "5G",
@@ -16075,6 +16133,7 @@
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
+      "IP55",
       "NFC",
       "红外遥控"
     ],
@@ -16141,6 +16200,7 @@
     "usb_version": "USB 2.0",
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外"
     ],
@@ -16217,6 +16277,7 @@
     "has_tele": true,
     "os": "OriginOS 6 (Android 16)",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控"
     ],
@@ -16430,6 +16491,7 @@
     "camera_desc": "5000万主摄 | 800万超广角",
     "has_tele": false,
     "features": [
+      "IP54",
       "有线投屏",
       "红外遥控",
       "散热风扇"
@@ -16522,6 +16584,7 @@
       "红外"
     ],
     "features": [
+      "IP65",
       "NFC",
       "红外遥控"
     ],
@@ -16647,6 +16710,7 @@
     "camera_desc": "50MP主摄 1/1.57 | 50MP超广 | 2MP微距 | 16MP前置",
     "has_tele": false,
     "features": [
+      "IP54",
       "有线投屏",
       "红外遥控",
       "内置散热风扇",
@@ -16806,6 +16870,7 @@
     "camera_desc": "50MP主摄 1/1.57 | 8MP超广 | 16MP前置",
     "has_tele": false,
     "features": [
+      "IP54",
       "有线投屏",
       "红外遥控",
       "内置散热风扇",
@@ -17065,6 +17130,7 @@
     "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "5G",
       "有线投屏",
@@ -17531,6 +17597,7 @@
     "has_tele": false,
     "os": "realme UI 5.0",
     "features": [
+      "IP65",
       "NFC",
       "红外遥控"
     ],
@@ -17735,6 +17802,7 @@
     "has_tele": true,
     "os": "小米澎湃OS",
     "features": [
+      "IP57",
       "NFC",
       "5G",
       "红外遥控"
@@ -17898,6 +17966,7 @@
     "has_tele": false,
     "os": "OriginOS 4",
     "features": [
+      "IP55",
       "NFC",
       "红外遥控"
     ],
@@ -18262,6 +18331,9 @@
     "has_tele": false,
     "os": "ColorOS",
     "features": [
+      "IP69K",
+      "IP68",
+      "IP66",
       "NFC",
       "红外遥控"
     ],
@@ -18482,6 +18554,7 @@
     "has_tele": false,
     "os": "OriginOS 6 (Android 16)",
     "features": [
+      "IP6X",
       "NFC",
       "红外遥控",
       "X轴线性马达",
@@ -18722,6 +18795,7 @@
     "has_tele": false,
     "os": "OriginOS",
     "features": [
+      "IP64",
       "NFC",
       "红外遥控"
     ],
@@ -18875,6 +18949,7 @@
     "has_tele": false,
     "os": "小米澎湃OS",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控",
       "5G",
@@ -19026,6 +19101,7 @@
     "camera_desc": "50MP主摄 1/1.57 | 8MP超广 | 2MP微距 | 16MP前置",
     "has_tele": false,
     "features": [
+      "IP54",
       "有线投屏",
       "红外遥控",
       "散热风扇",
@@ -19103,6 +19179,7 @@
     "camera_desc": "50MP主摄 1/1.57 | 50MP超广 | 2MP微距 | 16MP前置",
     "has_tele": false,
     "features": [
+      "IP54",
       "有线投屏",
       "红外遥控",
       "散热风扇",
@@ -19465,6 +19542,7 @@
     "has_tele": false,
     "os": "HarmonyOS 6.0",
     "features": [
+      "IP53",
       "红外遥控"
     ],
     "tags": [
@@ -19534,6 +19612,7 @@
     "has_tele": false,
     "os": "HarmonyOS 4.2",
     "features": [
+      "IP68",
       "NFC",
       "红外遥控"
     ],
@@ -20062,6 +20141,7 @@
     "ir": false,
     "wireless_charging": true,
     "features": [
+      "IP48",
       "折叠屏",
       "潜望长焦"
     ],
@@ -20163,6 +20243,7 @@
     "ir": false,
     "wireless_charging": true,
     "features": [
+      "IP48",
       "折叠屏",
       "≤200g"
     ],
@@ -20261,6 +20342,7 @@
     "ir": false,
     "wireless_charging": true,
     "features": [
+      "IP48",
       "折叠屏",
       "潜望长焦"
     ],
@@ -21061,6 +21143,7 @@
     "os": "HarmonyOS 6.1",
     "screen_form": "直屏",
     "features": [
+      "IP65",
       "NFC",
       "红外",
       "侧边指纹",
@@ -21403,6 +21486,8 @@
     "os": "HarmonyOS 7",
     "screen_form": "直屏",
     "features": [
+      "IP69",
+      "IP68",
       "阔直板16:9.5",
       "7000mAh",
       "HarmonyOS 7",
