@@ -1,0 +1,96 @@
+{
+  "confirmed": {
+    "262": {
+      "model": "Galaxy Z Fold8",
+      "main": "三星GN3 50MP 1/1.56\" f/1.8 23mm OIS",
+      "src": "GSMArena+SamMobile"
+    },
+    "264": {
+      "model": "Galaxy Z Fold8 Ultra",
+      "main": "三星HP2 200MP 1/1.3\" f/1.7 OIS",
+      "src": "GSMArena+SamMobile+9to5Google"
+    },
+    "98": {
+      "model": "一加 Ace 6",
+      "main": "索尼IMX906 50MP 1/1.56\" f/1.8 OIS",
+      "src": "太平洋+九锋一致"
+    },
+    "155": {
+      "model": "荣耀 GT Pro",
+      "main": "索尼IMX906 50MP 1/1.56\" f/1.6 OIS",
+      "src": "九锋+太平洋一致"
+    },
+    "171": {
+      "model": "荣耀 300 Pro",
+      "main": "索尼IMX906 50MP 1/1.56\" f/1.6 OIS",
+      "src": "九锋"
+    },
+    "211": {
+      "model": "iQOO Neo10 Pro",
+      "main": "索尼IMX921 50MP 1/1.56\" f/1.9 OIS",
+      "src": "ZOL+九锋(双版本需careful,我们库里是 Neo10 Pro,非 +)"
+    }
+  },
+  "pending": [
+    {
+      "id": 3,
+      "model": "一加 Turbo 6X Pro",
+      "hint": "豪威OV50D40 1/2.88\" (太平洋)",
+      "need": "型号 OV50D40 不常见,需复核是否 OV50D 或 OV50D40"
+    },
+    {
+      "id": 102,
+      "model": "一加 Ace 6 至尊版",
+      "hint": "主摄不明,前置 IMX480,长焦 HP5/HP9 传闻",
+      "need": "主摄实证"
+    },
+    {
+      "id": 260,
+      "model": "Redmi Note 17 Pro",
+      "hint": "HP5 1/1.4\" (360 AI) vs HP3/HP9",
+      "need": "实证 HP5 是否 1/1.4 或 1/1.56"
+    },
+    {
+      "id": 100,
+      "model": "iQOO Neo11",
+      "hint": "LYT-700V(太平洋)",
+      "need": "复核并入库"
+    },
+    {
+      "id": 181,
+      "model": "红魔 10S Pro+",
+      "hint": "未实证"
+    },
+    {
+      "id": 266,
+      "model": "NaviX Ultra",
+      "hint": "未实证(机型未发布)"
+    },
+    {
+      "id": 1,
+      "model": "荣耀X70 Pro Max",
+      "hint": "未实证"
+    },
+    {
+      "id": 249,
+      "model": "荣耀X80 Pro Max",
+      "hint": "未实证"
+    },
+    {
+      "id": 103,
+      "model": "荣耀 WIN",
+      "hint": "未实证"
+    },
+    {
+      "id": 207,
+      "model": "荣耀畅玩70 Plus",
+      "hint": "旗舰筛选误入,可排除"
+    },
+    {
+      "id": 253,
+      "model": "华为畅享90Plus",
+      "hint": "旗舰筛选误入,可排除"
+    }
+  ],
+  "no_evidence": []
+}
