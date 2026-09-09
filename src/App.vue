@@ -76,8 +76,9 @@
         </div>
       </div>
 
-      <!-- 浮动筛选按钮（可拖动，全端） -->
+      <!-- 浮动筛选按钮（可拖动，仅移动端） -->
       <button
+        v-if="isTouchDevice"
         class="filter-fab"
         ref="fabRef"
         v-show="view === 'list'"
@@ -115,11 +116,14 @@
               <option value="brand_asc">品牌 A-Z</option>
             </select>
           </div>
+          <div class="sort-status" v-if="currentSort !== 'newest'" :title="'当前排序：' + sortLabel">
+            当前：{{ sortLabel }}
+          </div>
         </div>
 
         <div class="active-line" v-if="activePills.length">
           <span class="pill" v-for="(p,i) in activePills" :key="i">
-            {{ p.label }} <button @click="p.clear" aria-label="移除筛选条件 {{ p.label }}">✕</button>
+            {{ p.label }} <button @click="p.clear" :aria-label="'移除筛选条件 ' + p.label">✕</button>
           </span>
           <button class="btn ghost" style="height:30px" @click="clearAllFilters">全部清空</button>
         </div>
@@ -397,8 +401,31 @@
             </div>
           </div>
 
-          <!-- 全端：按参数分行的卡片对比 -->
-          <div class="compare-cards">
+          <!-- 桌面端: 横向表格 -->
+          <div class="compare-table-wrap desktop-only">
+            <table class="compare">
+              <thead>
+                <tr>
+                  <th style="width:120px">参数</th>
+                  <th v-for="p in comparePhones" :key="p.id">
+                    <div class="chip-brand" :style="{ background: brandColor(p.brand) }" style="display:inline-block;padding:3px 10px;border-radius:999px;color:#fff;font-size:.7rem">{{ p.brand }}</div>
+                    <div style="margin-top:4px">{{ brief(p).name }}</div>
+                    <div style="color:var(--accent);font-size:.86rem">{{ priceText(p) }}</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="row in visibleCompareRows" :key="row.l" :class="{ 'row-diff': !row.same }">
+                  <td>{{ row.l }}</td>
+                  <td v-for="(v, i) in row.values" :key="i" :class="row.same ? 'same' : 'diff'">{{ v || '—' }}</td>
+                </tr>
+              </tbody>
+            </table>
+            <div v-if="!visibleCompareRows.length" style="text-align:center;padding:32px;color:var(--muted)">当前没有差异项</div>
+          </div>
+
+          <!-- 移动端: 竖排卡片 -->
+          <div class="compare-cards mobile-only">
             <div
               v-for="row in visibleCompareRows"
               :key="row.l"
@@ -449,14 +476,14 @@
 
     <footer>
       机选 · 浅色通透目录风 · 列表 / 详情 / 对比<br>
-      数据来源：各品牌官网 · 截至 {{ dataDate }} · 共计 {{ resultCount }} 款<br>
+      数据来源：各品牌官网 · 截至 {{ dataDate }} · 库内 {{ phones.length }} 款，当前显示 {{ resultCount }} 款<br>
       Made with ❤️ by Lumi
     </footer>
   </div>
 </template>
 
 <script setup>
-import { computed, onMounted, ref, reactive } from 'vue'
+import { computed, onMounted, onUnmounted, ref, reactive } from 'vue'
 import PriceSlider from './components/PriceSlider.vue'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
@@ -560,8 +587,24 @@ function onSearch(e) {
   }, 300)
 }
 function setSort(sort) { currentSort.value = sort; updateHash() }
-function onMoreSort(e) { if (e.target.value) setSort(e.target.value); e.target.value = ''; }
-const moreSortValue = ref('')
+function onMoreSort(e) { if (e.target.value) setSort(e.target.value) }
+// 排序下拉值直接绑定 currentSort;若是 5 个常用排序之一(select 里没有 option)就显示空
+const MORE_SORTS = new Set(['battery_desc','weight_asc','screen_desc','charging_desc','brand_asc'])
+const moreSortValue = computed({
+  get: () => MORE_SORTS.has(currentSort.value) ? currentSort.value : '',
+  set: () => {}
+})
+const SORT_LABELS = {
+  newest: '最新发布',
+  price_asc: '价格 ↑',
+  price_desc: '价格 ↓',
+  battery_desc: '电池 ↓',
+  weight_asc: '重量 ↑',
+  screen_desc: '屏幕 ↓',
+  charging_desc: '快充 ↓',
+  brand_asc: '品牌 A-Z',
+}
+const sortLabel = computed(() => SORT_LABELS[currentSort.value] || currentSort.value)
 function clearSearch() { clearTimeout(searchTimer); searchQuery.value = ''; updateHash() }
 function toggleBrand(b) {
   const s = selectedBrands.value
@@ -628,6 +671,13 @@ let fabDragStart = null
 let fabMoved = false
 let fabMouseActive = false
 let suppressNextFabClick = false
+// 是否触屏设备 → 桌面不渲染 FAB
+const isTouchDevice = computed(() =>
+  typeof window !== 'undefined' && (navigator.maxTouchPoints > 0 || 'ontouchstart' in window)
+)
+// 保存需要清理的 listener 引用,在 onUnmounted 里清理
+const _cleanup = []
+function trackCleanup(remove) { _cleanup.push(remove) }
 
 function onFabClick(e) {
   // drag 结束时 onEnd 已打开,此处防止 click 重复
@@ -818,8 +868,21 @@ onMounted(async () => {
   })
   reloadData()
 
+  // 浏览器返回/前进 — popstate 恢复状态
+  const onPopstate = () => restoreStateFromHash()
+  window.addEventListener('popstate', onPopstate)
+  trackCleanup(() => window.removeEventListener('popstate', onPopstate))
+
+  // Esc 关闭抽屉(P1-10 a11y)
+  const onKeydown = (e) => {
+    if (e.key === 'Escape' && showFilterDrawer.value) showFilterDrawer.value = false
+  }
+  window.addEventListener('keydown', onKeydown)
+  trackCleanup(() => window.removeEventListener('keydown', onKeydown))
+
   // 返回顶部按钮显隐
   window.addEventListener('scroll', onScroll, { passive: true })
+  trackCleanup(() => window.removeEventListener('scroll', onScroll))
 
   // FAB 拖动（阈值 10px 防误触，位置 localStorage 持久化）
   const el = fabRef.value
@@ -894,5 +957,12 @@ onMounted(async () => {
   el.addEventListener('mousedown', onStart)
   window.addEventListener('mousemove', onMove)
   window.addEventListener('mouseup', onGlobalMouseUp)
+  trackCleanup(() => el.removeEventListener('mousedown', onStart))
+  trackCleanup(() => window.removeEventListener('mousemove', onMove))
+  trackCleanup(() => window.removeEventListener('mouseup', onGlobalMouseUp))
+})
+
+onUnmounted(() => {
+  _cleanup.forEach(fn => fn())
 })
 </script>

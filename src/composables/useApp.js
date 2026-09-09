@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+import { ref, computed, nextTick } from 'vue'
 import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges } from '../utils.js'
 
 export const phones = ref([])
@@ -81,17 +81,22 @@ export function brandColor(brand) {
   return brandAccentColors[brand] || '#4f8cff'
 }
 
+// 滚动位置记录（详情→列表）
+let savedListScroll = 0
+
 export function openDetail(id) {
+  savedListScroll = window.scrollY
   detailId.value = id
   view.value = 'detail'
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-  updateHash()
+  window.scrollTo({ top: 0, behavior: 'instant' })
+  updateHash('push')
 }
 
 export function openList() {
   view.value = 'list'
   detailId.value = null
-  updateHash()
+  nextTick(() => window.scrollTo({ top: savedListScroll, behavior: 'instant' }))
+  updateHash('push')
 }
 
 export function openCompare() {
@@ -99,9 +104,10 @@ export function openCompare() {
     toast(compareList.value.length ? '再选 1 款即可对比' : '请先在列表中加入至少 2 款对比')
     return
   }
+  savedListScroll = window.scrollY
   view.value = 'compare'
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-  updateHash()
+  window.scrollTo({ top: 0, behavior: 'instant' })
+  updateHash('push')
 }
 
 export function setViewMode(mode) {
@@ -366,7 +372,7 @@ export function clearAllFilters() {
   updateHash()
 }
 
-export function updateHash() {
+export function updateHash(mode = 'replace') {
   const params = new URLSearchParams()
   if (view.value !== 'list') params.set('view', view.value)
   if (detailId.value) params.set('id', String(detailId.value))
@@ -383,12 +389,32 @@ export function updateHash() {
   if (currentSort.value !== 'newest') params.set('sort', currentSort.value)
   if (searchQuery.value) params.set('q', searchQuery.value)
   if (viewMode.value !== 'cards') params.set('mode', viewMode.value)
-  history.replaceState(null, '', `#${params.toString()}`)
+  const url = `#${params.toString()}`
+  const cur = location.hash
+  if (mode === 'push' || url !== cur) {
+    if (mode === 'push') history.pushState(null, '', url)
+    else history.replaceState(null, '', url)
+  }
 }
 
 export function restoreStateFromHash() {
   const hash = location.hash.slice(1)
-  if (!hash) return
+  // 先全部清空,避免重复 restore 时叠加(P2 单例 Set 修补)
+  selectedBrands.value.clear()
+  selectedScreen.value = null
+  selectedCpu.value.clear()
+  selectedTags.value.clear()
+  selectedScreenSizes.value.clear()
+  selectedProtocols.value.clear()
+  priceMin.value = 0
+  priceMax.value = sliderMaxPrice.value
+  searchQuery.value = ''
+  currentSort.value = 'newest'
+  if (!hash) {
+    view.value = 'list'
+    detailId.value = null
+    return
+  }
   const params = new URLSearchParams(hash)
   const brands = params.get('brands'); if (brands) brands.split(',').forEach(b => selectedBrands.value.add(b))
   selectedScreen.value = params.get('screen') || null
@@ -406,8 +432,8 @@ export function restoreStateFromHash() {
   searchQuery.value = params.get('q') || ''
   viewMode.value = params.get('mode') || viewMode.value
   const cmp = params.get('cmp'); if (cmp) compareList.value = cmp.split(',').map(n => Number(n)).filter(Boolean)
-  const id = params.get('id'); if (id) detailId.value = Number(id)
-  const v = params.get('view'); if (v === 'detail' || v === 'compare' || v === 'list') view.value = v
+  const id = params.get('id'); if (id) detailId.value = Number(id); else detailId.value = null
+  const v = params.get('view'); if (v === 'detail' || v === 'compare' || v === 'list') view.value = v; else view.value = 'list'
 }
 
 function toast(msg) {

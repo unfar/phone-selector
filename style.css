@@ -343,6 +343,12 @@ a{color:inherit}
 .sort-btn:hover{border-color:var(--line-strong)}
 .sort-btn.on{background:var(--accent-soft);border-color:#7dd3c7;color:var(--accent-deep)}
 
+.sort-status{
+  display:inline-flex;align-items:center;height:28px;padding:0 10px;margin-left:6px;
+  background:var(--accent-soft);color:var(--accent-deep);border-radius:999px;
+  font-size:.72rem;font-weight:700;border:1px solid var(--line)
+}
+
 .active-line{display:flex;flex-wrap:wrap;gap:8px;padding:0 2px 12px}
 .pill{
   display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;
@@ -614,6 +620,21 @@ table.compare tr.row-diff td:first-child{color:var(--accent)}
 .filter-drawer-body .section.open .chips,
 .filter-drawer-body .section.open .price-box{display:flex}
 .filter-drawer-body .section.open .price-box{display:block}
+
+/* 桌面端: 抽屉变左侧侧栏,不遮挡列表,勾选实时可见 */
+@media (min-width: 1024px){
+  .filter-overlay{
+    align-items:stretch;justify-content:flex-start;
+    background:rgba(0,0,0,.20);
+  }
+  .filter-drawer{
+    width:340px;max-width:340px;max-height:100vh;height:100vh;
+    border-radius:0 20px 20px 0;
+    border-right:1px solid var(--line);
+    animation:slideInRight .25s ease;
+  }
+}
+@keyframes slideInRight{from{transform:translateX(-100%)}to{transform:translateX(0)}}
 .filter-drawer-body .section-title{
   display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none;
   font-size:.84rem;font-weight:800;color:var(--text,#1f2937);
