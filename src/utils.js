@@ -20,8 +20,8 @@ export const screenSizeRanges = [
   { name: "7.0英寸以上", min: 7.05, max: 99 }
 ]
 
-// 屏幕形态（覆盖数据中全部 screen_form 值：直屏/折叠屏/微曲屏/曲面屏）
-export const screenTypes = ['📱 直屏','🔄 折叠屏','〰️ 微曲屏','🌊 曲面屏']
+// 屏幕形态（覆盖数据中全部 screen_form 值）
+export const screenTypes = ['📱 直屏','🔄 折叠屏']
 
 export const textLogoBrands = new Set(['Samsung','OPPO','REDMI','iQOO','HONOR','vivo','realme'])
 
