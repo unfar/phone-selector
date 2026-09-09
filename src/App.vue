@@ -457,7 +457,6 @@
 
 <script setup>
 import { computed, onMounted, ref, reactive } from 'vue'
-import phonesData from '../data/phones.json'
 import PriceSlider from './components/PriceSlider.vue'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
@@ -628,8 +627,11 @@ const fabPos = ref({ x: 0, y: 0 })
 let fabDragStart = null
 let fabMoved = false
 let fabMouseActive = false
+let suppressNextFabClick = false
 
 function onFabClick(e) {
+  // drag 结束时 onEnd 已打开,此处防止 click 重复
+  if (suppressNextFabClick) { suppressNextFabClick = false; return }
   showFilterDrawer.value = true
 }
 const activeFilterCount = computed(() => {
@@ -788,13 +790,18 @@ function toggleTheme() {
 }
 
 /** 加载/重新加载数据（错误态"重新加载"按钮复用） */
-function reloadData() {
+async function reloadData() {
   loading.value = true
   error.value = null
   try {
+    const resp = await fetch(import.meta.env.BASE_URL + 'data/phones.json')
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
+    const phonesData = await resp.json()
     setPhones(phonesData.filter(p => p.processor && p.price))
     restoreStateFromHash()
     updateHash()
+  } catch (e) {
+    error.value = e?.message || '数据加载失败'
   } finally {
     loading.value = false
   }
@@ -809,12 +816,7 @@ onMounted(async () => {
       applyTheme(theme.value)
     }
   })
-  try {
-    reloadData()
-  } catch (e) {
-    loading.value = false
-    error.value = e.message
-  }
+  reloadData()
 
   // 返回顶部按钮显隐
   window.addEventListener('scroll', onScroll, { passive: true })
@@ -867,7 +869,7 @@ onMounted(async () => {
     if (!fabDragging.value) return
     fabDragging.value = false
     fabMouseActive = false
-    if (!fabMoved) showFilterDrawer.value = true
+    if (!fabMoved) { showFilterDrawer.value = true; suppressNextFabClick = true }
     el.style.transition = 'transform .2s ease'
     const w = el.offsetWidth
     const cx = el.offsetLeft + w / 2
