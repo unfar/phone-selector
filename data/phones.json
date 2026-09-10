@@ -1594,7 +1594,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.0 | 50MP f/2.4 3x",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -1681,7 +1681,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.4 3x",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -3476,7 +3476,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.88\""
   },
   {
     "id": 46,
@@ -3544,7 +3545,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.88\""
   },
   {
     "id": 47,
@@ -3685,7 +3687,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.76\""
   },
   {
     "id": 49,
@@ -6247,7 +6250,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.76\""
   },
   {
     "id": 81,
@@ -6319,7 +6323,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.88\""
   },
   {
     "id": 82,
@@ -6796,7 +6801,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.76\""
   },
   {
     "id": 88,
@@ -6936,7 +6942,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/2.76\""
   },
   {
     "brand": "OnePlus",
@@ -7447,7 +7454,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/2.76\""
   },
   {
     "brand": "REDMI",
@@ -7516,7 +7524,8 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "camera_main_size": "1/1.55\""
   },
   {
     "brand": "REDMI",
@@ -7584,7 +7593,8 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "camera_main_size": "1/1.55\""
   },
   {
     "brand": "OnePlus",
@@ -7745,7 +7755,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2.76\""
   },
   {
     "id": 100,
@@ -7906,7 +7917,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/1.55\""
   },
   {
     "brand": "OnePlus",
@@ -8440,7 +8452,7 @@
     "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 25mm | 8MP f/2.2",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "豪威OV64B",
-    "camera_main_size": "1/2.0\"",
+    "camera_main_size": "1/2\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 64,
     "camera_main_focal": "25mm",
@@ -8607,7 +8619,7 @@
     "network_model": "NX809J",
     "network_model_source": "etoren+xda+cmiit+kalvo",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -8688,7 +8700,7 @@
     "network_model": "NX809J",
     "network_model_source": "etoren+xda+kalvo",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -9242,7 +9254,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 118,
@@ -10509,7 +10522,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2\""
   },
   {
     "id": 134,
@@ -10732,7 +10746,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/2.76\""
   },
   {
     "brand": "Huawei",
@@ -11027,7 +11042,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
@@ -11634,7 +11649,8 @@
     },
     "price_note": "待定",
     "colors": "酷莓粉|薄荷青|柠檬黄|可可黑",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/1.55\""
   },
   {
     "id": 151,
@@ -11694,7 +11710,7 @@
     "camera_rear": "豪威OV50E 50MP 1/1.56\" f/1.8 OIS | 50MP f/2.2",
     "camera_front": "50MP",
     "camera_main_sensor": "豪威OV50E",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.55\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
@@ -15570,7 +15586,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1\""
   },
   {
     "id": 201,
@@ -15746,7 +15763,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1\""
   },
   {
     "brand": "Apple",
@@ -16578,7 +16596,8 @@
     },
     "price_note": "待定",
     "ir": true,
-    "nfc": true
+    "nfc": true,
+    "camera_main_size": "1/2\""
   },
   {
     "brand": "NUBIA",
@@ -16655,7 +16674,8 @@
     },
     "price_note": "",
     "ir": true,
-    "nfc": true
+    "nfc": true,
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 215,
@@ -16804,7 +16824,8 @@
     },
     "price_note": "",
     "ir": true,
-    "nfc": true
+    "nfc": true,
+    "camera_main_size": "1/1.56\""
   },
   {
     "brand": "NUBIA",
@@ -16872,7 +16893,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 15mm | 2MP",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -16952,7 +16973,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -17036,7 +17057,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -17208,7 +17229,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -17829,7 +17850,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/2.76\""
   },
   {
     "id": 229,
@@ -17899,7 +17921,8 @@
     },
     "price_note": "待定",
     "ir": true,
-    "nfc": true
+    "nfc": true,
+    "camera_main_size": "1/1.55\""
   },
   {
     "id": 230,
@@ -17972,7 +17995,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_size": "1/1.55\""
   },
   {
     "id": 231,
@@ -18125,7 +18149,7 @@
     "camera_front": null,
     "camera_main_sensor": "豪威OV64B",
     "camera_main_aperture": "f/1.8",
-    "camera_main_size": "1/1.95\"",
+    "camera_main_size": "1/2\"",
     "camera_main_mp": 64,
     "source_url": "https://example.com/iQOO Z9 Turbo",
     "verified_at": "2026-08-20",
@@ -18352,7 +18376,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
@@ -18572,7 +18596,7 @@
     "camera_rear": "豪威OV64B 64MP 1/2.0\" f/1.8 | 8MP",
     "camera_front": "1600万",
     "camera_main_sensor": "豪威OV64B",
-    "camera_main_size": "1/2.0\"",
+    "camera_main_size": "1/2\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "dimensions": "163.72×76.17×8.25mm",
@@ -18963,7 +18987,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 | 8MP",
     "camera_front": "50MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "ip_rating": "IP64",
@@ -19285,7 +19309,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 | 2MP",
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -19369,7 +19393,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 | 2MP",
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.57\"",
+    "camera_main_size": "1/1.56\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -20021,7 +20045,8 @@
     "charge_wired": "100W",
     "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB/12GB+512GB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/2\""
   },
   {
     "id": 259,
