@@ -20770,8 +20770,8 @@
     "id": 267,
     "brand": "OPPO",
     "model": "OPPO A7 Pro Max",
-    "price": 1999,
-    "price_note": "2026-08-04发布，预约阶段，2K档位预估",
+    "price": 2199,
+    "price_note": "8-7 开售; 8+128GB ¥2199 / 12+256GB ¥2699 / 12+512GB ¥2999 (新浪官方报道)",
     "processor": "骁龙4 Gen5",
     "ram": "8GB/12GB",
     "storage": "128GB/256GB/512GB",
@@ -20849,7 +20849,10 @@
     "charge_wired": "80W",
     "ram_rom": "12GB+256GB/12GB+512GB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "price_min": 2199,
+    "price_max": 2999,
+    "sale_date": "2026-08-07"
   },
   {
     "id": 268,
