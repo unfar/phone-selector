@@ -4253,7 +4253,9 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 2899,
+    "price_max": 2899
   },
   {
     "id": 56,
@@ -4423,7 +4425,9 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 3799,
+    "price_max": 3799
   },
   {
     "id": 58,
@@ -4591,7 +4595,9 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 4299,
+    "price_max": 4299
   },
   {
     "id": 60,
@@ -6022,7 +6028,9 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 4799,
+    "price_max": 4799
   },
   {
     "id": 78,
@@ -6107,7 +6115,9 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 5399,
+    "price_max": 5399
   },
   {
     "id": 79,
@@ -6190,7 +6200,9 @@
       "screen_size": "6.1英寸",
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 6499,
+    "price_max": 6499
   },
   {
     "id": 80,
@@ -7542,7 +7554,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "camera_main_size": "1/1.55\""
+    "camera_main_size": "1/1.55\"",
+    "price_min": 2599,
+    "price_max": 2599
   },
   {
     "brand": "REDMI",
@@ -7611,7 +7625,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "camera_main_size": "1/1.55\""
+    "camera_main_size": "1/1.55\"",
+    "price_min": 2599,
+    "price_max": 2599
   },
   {
     "brand": "OnePlus",
@@ -7859,7 +7875,9 @@
     "charge_wired": "100W",
     "ram_rom": "12GB+256GB/16GB+256GB/16GB+512GB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "price_min": 3599,
+    "price_max": 5599
   },
   {
     "model": "荣耀 WIN RT",
@@ -9206,7 +9224,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "16+512GB ¥19999 / 16+1TB ¥21999 (三星中国官网)",
+    "price_min": 19999,
+    "price_max": 21999
   },
   {
     "id": 117,
@@ -18640,7 +18660,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "ir": true
+    "ir": true,
+    "price_min": 2499,
+    "price_max": 3599
   },
   {
     "brand": "realme",
@@ -18790,7 +18812,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "ir": true
+    "ir": true,
+    "price_min": 2999,
+    "price_max": 4599
   },
   {
     "brand": "Huawei",
@@ -20000,7 +20024,9 @@
     "charge_wired": "100W",
     "ram_rom": "12GB+256GB/16GB+512GB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "price_min": 3299,
+    "price_max": 3299
   },
   {
     "id": 258,
@@ -20955,7 +20981,9 @@
     "charge_wireless": "50W",
     "ram_rom": "12GB+256GB/16GB+512GB/16GB+1TB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "price_min": 4199,
+    "price_max": 5999
   },
   {
     "id": 269,
@@ -21055,7 +21083,9 @@
     "ram_rom": "12GB+256GB/16GB+512GB/16GB+1TB",
     "nfc": true,
     "ir": true,
-    "camera_uw_size": "1/4\""
+    "camera_uw_size": "1/4\"",
+    "price_min": 3699,
+    "price_max": 4699
   },
   {
     "id": 270,
@@ -21161,7 +21191,9 @@
     "colors": "星轨银|月影灰",
     "charge_wired": "120W",
     "charge_wireless": "50W",
-    "ram_rom": "12GB+512GB/16GB+1TB"
+    "ram_rom": "12GB+512GB/16GB+1TB",
+    "price_min": 9999,
+    "price_max": 12999
   },
   {
     "id": 271,
@@ -21244,7 +21276,9 @@
     "charge_wired": "100W",
     "ram_rom": "12GB+256GB/16GB+256GB/16GB+512GB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "price_min": 3699,
+    "price_max": 4699
   },
   {
     "id": 272,
@@ -21322,7 +21356,9 @@
     "charge_wired": "44W",
     "ram_rom": "8GB+128GB/8GB+256GB/12GB+256GB/12GB+512GB",
     "nfc": true,
-    "ir": true
+    "ir": true,
+    "price_min": 1999,
+    "price_max": 2899
   },
   {
     "id": 273,
@@ -21667,7 +21703,9 @@
       "screen_size": "6.59英寸",
       "resolution": "2750×1260",
       "refresh_rate": "120Hz"
-    }
+    },
+    "price_min": 2999,
+    "price_max": 3299
   },
   {
     "id": 275,
@@ -21877,7 +21915,9 @@
     "nfc": true,
     "ir": true,
     "camera_main_sensor": "1/1.28\"",
-    "screen_resolution": "2232x3184"
+    "screen_resolution": "2232x3184",
+    "price_min": 19999,
+    "price_max": 29999
   },
   {
     "id": 334,
@@ -22386,7 +22426,9 @@
       "PD",
       "PPS",
       "小米澎湃秒充"
-    ]
+    ],
+    "price_min": 10999,
+    "price_max": 14999
   },
   {
     "id": 439,
