@@ -4345,7 +4345,7 @@
     },
     "price_note": "待定",
     "ir": true,
-    "camera_uw_size": ""
+    "camera_uw_size": "1/4\""
   },
   {
     "id": 57,
@@ -14508,7 +14508,7 @@
     "camera_uw_sensor": "三星HP3",
     "camera_tele_aperture": "f/1.9",
     "camera_tele_sensor": "三星HP3",
-    "camera_tele_size": "",
+    "camera_tele_size": "1/1.4\"",
     "camera_tele_zoom": "3x",
     "source_url": "https://example.com/荣耀 Magic7 Pro",
     "verified_at": "2026-08-20",
@@ -14518,7 +14518,7 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_uw_size": ""
+    "camera_uw_size": "1/1.4\""
   },
   {
     "id": 188,
@@ -15092,7 +15092,7 @@
     "camera_uw_sensor": "OV50H",
     "camera_tele_aperture": "f/1.9",
     "camera_tele_sensor": "OV50H",
-    "camera_tele_size": "",
+    "camera_tele_size": "1/1.3\"",
     "camera_tele_zoom": "3x",
     "source_url": "https://example.com/荣耀 Magic7",
     "verified_at": "2026-08-20",
@@ -15102,7 +15102,7 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_uw_size": ""
+    "camera_uw_size": "1/1.3\""
   },
   {
     "id": 195,
@@ -20409,7 +20409,7 @@
     "screen_size_inner": 7.6,
     "screen_size_outer": 5.5,
     "charge_wireless": "20W",
-    "camera_uw_size": ""
+    "camera_uw_size": "1/2.55\""
   },
   {
     "id": 263,
@@ -21052,7 +21052,7 @@
     "ram_rom": "12GB+256GB/16GB+512GB/16GB+1TB",
     "nfc": true,
     "ir": true,
-    "camera_uw_size": ""
+    "camera_uw_size": "1/4\""
   },
   {
     "id": 270,
