@@ -1594,7 +1594,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.0 | 50MP f/2.4 3x",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -1681,7 +1681,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm OIS | 50MP f/2.0 15mm | 50MP f/2.4 3x",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -8619,7 +8619,7 @@
     "network_model": "NX809J",
     "network_model_source": "etoren+xda+cmiit+kalvo",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -8700,7 +8700,7 @@
     "network_model": "NX809J",
     "network_model_source": "etoren+xda+kalvo",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -9255,7 +9255,7 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_size": "1/1.56\""
+    "camera_main_size": "1/1.57\""
   },
   {
     "id": 118,
@@ -9698,7 +9698,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/1.56\""
   },
   {
     "brand": "HONOR",
@@ -11042,7 +11043,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
@@ -12925,7 +12926,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 167,
@@ -15587,7 +15589,7 @@
     },
     "price_note": "待定",
     "ir": true,
-    "camera_main_size": "1\""
+    "camera_main_size": "1/0.98\""
   },
   {
     "id": 201,
@@ -15764,7 +15766,7 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_size": "1\""
+    "camera_main_size": "1/0.98\""
   },
   {
     "brand": "Apple",
@@ -16675,7 +16677,7 @@
     "price_note": "",
     "ir": true,
     "nfc": true,
-    "camera_main_size": "1/1.56\""
+    "camera_main_size": "1/1.57\""
   },
   {
     "id": 215,
@@ -16825,7 +16827,7 @@
     "price_note": "",
     "ir": true,
     "nfc": true,
-    "camera_main_size": "1/1.56\""
+    "camera_main_size": "1/1.57\""
   },
   {
     "brand": "NUBIA",
@@ -16893,7 +16895,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 15mm | 2MP",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -16973,7 +16975,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -17057,7 +17059,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -17229,7 +17231,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 15mm",
     "camera_front": "16MP f/2.0",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -18376,7 +18378,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
     "camera_front": "32MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_uw_aperture": "f/2.2",
@@ -18684,7 +18686,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_main_size": "1/1.56\""
   },
   {
     "id": 240,
@@ -18987,7 +18990,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 | 8MP",
     "camera_front": "50MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "ip_rating": "IP64",
@@ -19309,7 +19312,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 8MP f/2.2 | 2MP",
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
@@ -19393,7 +19396,7 @@
     "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 23mm | 50MP f/2.2 | 2MP",
     "camera_front": "16MP",
     "camera_main_sensor": "三星GN5",
-    "camera_main_size": "1/1.56\"",
+    "camera_main_size": "1/1.57\"",
     "camera_main_aperture": "f/1.8",
     "camera_main_mp": 50,
     "camera_main_focal": "23mm",
