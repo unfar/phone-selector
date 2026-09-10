@@ -21676,7 +21676,7 @@
     "screen_type": "OLED",
     "resolution": "2232×1320",
     "ram": "12GB",
-    "storage": "256GB/512GB",
+    "storage": "256GB/512GB/1TB",
     "battery_mah": 7000,
     "charging_w": 66,
     "wireless_charging_w": 50,
@@ -21710,9 +21710,9 @@
       "USB3.0",
       "红外"
     ],
-    "release_date": "2026-09-07",
-    "price": 5699,
-    "price_note": "2026-09-07正式发布(未上市); 12+256GB预估价5699-6499元",
+    "release_date": "2026-09-09",
+    "price": 5999,
+    "price_note": "9-9 上市; 12+256GB ¥5999 / 12+512GB ¥6999 / 12+1TB ¥8499 (华为商城官方)",
     "date_precision": "day",
     "completeness_score": 76,
     "charge_protocols": [
@@ -21742,7 +21742,6 @@
     "camera_front_aperture": "f/2.4",
     "colors": "幻夜黑|零度白|亚麻灰|跃影红",
     "source_url": "https://consumer.huawei.com/cn/phones/pura-x-view/",
-    "verified_at": "2026-09-08",
     "display": {
       "screen_size": "6.39英寸",
       "resolution": "2232×1320",
@@ -21755,7 +21754,10 @@
     "ir": true,
     "network_model": "",
     "camera_tele_mp": 50,
-    "camera_front_mp": 50
+    "camera_front_mp": 50,
+    "price_min": 5999,
+    "price_max": 8499,
+    "sale_date": "2026-09-09"
   },
   {
     "id": 276,
