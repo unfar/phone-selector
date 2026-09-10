@@ -5310,7 +5310,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_uw_size": "1/2.76\""
   },
   {
     "brand": "HONOR",
@@ -5656,7 +5657,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "ir": true
+    "ir": true,
+    "camera_uw_size": "1/2.76\""
   },
   {
     "id": 72,
@@ -5750,7 +5752,8 @@
     },
     "price_note": "待定",
     "ir": true,
-    "camera_tele_size": "1/1.95\""
+    "camera_tele_size": "1/1.95\"",
+    "camera_uw_size": "1/2.76\""
   },
   {
     "brand": "OnePlus",
@@ -15439,7 +15442,8 @@
     },
     "price_note": "待定",
     "colors": "宝石蓝|钛色|白月光|辰夜黑",
-    "ir": true
+    "ir": true,
+    "camera_uw_size": "1/2.76\""
   },
   {
     "id": 199,
