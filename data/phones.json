@@ -2441,10 +2441,9 @@
     "screen_size": 6.1,
     "battery_mah": 4000,
     "weight_g": 170,
-    "camera_desc": "48MP主摄 1/1.56 | 12MP前置",
+    "camera_desc": "48MP 主摄 OIS | 18MP 前置",
     "has_tele": false,
     "features": [
-      "IP6X",
       "IPX8",
       "NFC",
       "Face ID",
@@ -2462,7 +2461,7 @@
     ],
     "wireless_charging_w": 15,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 前置: 12MP f/1.9 23mm",
+    "detailed_camera": "主摄: 48MP f/1.6 26mm OIS | 前置: 18MP f/1.9",
     "charging_w": 45,
     "release_date": "2026-03-11",
     "price": 4499,
@@ -2491,9 +2490,9 @@
     "esim": true,
     "sim_type": "双 nano-SIM",
     "reverse_charging_w": 0,
-    "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
-    "camera_front": "12MP f/1.9 23mm",
-    "camera_main_size": "1/1.56\"",
+    "camera_rear": "48MP 主摄 26mm f/1.6 OIS",
+    "camera_front": "18MP f/1.9",
+    "camera_main_size": "",
     "camera_main_aperture": "f/1.6",
     "camera_main_mp": 48,
     "camera_main_focal": "26mm",
@@ -2510,7 +2509,8 @@
     "charge_wireless": "15W",
     "ram_rom": "8GB+128GB/8GB+256GB/8GB+512GB",
     "nfc": true,
-    "ir": false
+    "ir": false,
+    "camera_main_sensor": ""
   },
   {
     "id": 34,
@@ -6429,7 +6429,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 超广: 48MP f/2.2 13mm | 长焦: 48MP f/2.8 120mm 5x OIS | 前置: 12MP f/1.9 23mm",
+    "detailed_camera": "主摄: 索尼IMX904 1/1.56\" 48MP f/1.6 26mm OIS | 超广: IMX972 48MP f/2.2 13mm | 前置: 18MP f/1.9",
     "charging_w": 45,
     "release_date": "2025-09-09",
     "price": 5999,
@@ -6481,7 +6481,8 @@
     },
     "price_note": "待定",
     "camera_main_sensor": "索尼IMX904",
-    "camera_uw_sensor": "IMX972"
+    "camera_uw_sensor": "IMX972",
+    "camera_uw_size": "1/2.55\""
   },
   {
     "brand": "Apple",
@@ -6512,7 +6513,7 @@
     ],
     "wireless_charging_w": 25,
     "usb_version": "USB 2.0",
-    "detailed_camera": "主摄: 索尼 48MP 1/1.56\" f/1.6 26mm OIS | 前置: 12MP f/2.0 23mm",
+    "detailed_camera": "主摄: 索尼IMX904 1/1.56\" 48MP f/1.6 26mm OIS | 前置: 18MP f/1.9",
     "charging_w": 30,
     "release_date": "2025-09-09",
     "price": 7999,
@@ -6646,7 +6647,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_uw_size": "1/2.55\"",
+    "camera_tele_size": "1/2.55\""
   },
   {
     "brand": "Apple",
@@ -6733,7 +6736,9 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_uw_size": "1/2.55\"",
+    "camera_tele_size": "1/2.55\""
   },
   {
     "id": 87,
@@ -15847,7 +15852,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_sensor": "索尼IMX904"
   },
   {
     "brand": "Apple",
@@ -15927,7 +15933,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_sensor": "索尼IMX904"
   },
   {
     "brand": "Apple",
@@ -16012,7 +16019,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_sensor": "索尼IMX903"
   },
   {
     "brand": "Apple",
@@ -16096,7 +16104,8 @@
       "resolution": "2400×1080",
       "refresh_rate": "120Hz"
     },
-    "price_note": "待定"
+    "price_note": "待定",
+    "camera_main_sensor": "索尼IMX903"
   },
   {
     "id": 207,
@@ -22437,7 +22446,9 @@
     "detailed_camera": "主摄: 索尼IMX905 1/1.28\" 48MP f/1.6-4.0可变光圈 24mm OIS | 超广: IMX972 48MP f/2.2 13mm | 潜望长焦: IMX973 48MP f/2.8 100mm 4x OIS | 前置: 24MP f/1.9",
     "camera_desc": "48MP IMX905 可变光圈主摄 OIS | 48MP IMX972 超广 | 48MP IMX973 潜望长焦 4x OIS | 24MP 前置",
     "camera_rear": "48MP IMX905 可变光圈主摄 24mm OIS + 48MP IMX972 超广 13mm f/2.2 + 48MP IMX973 潜望 100mm f/2.8 4x OIS",
-    "source_url": "https://www.apple.com/iphone-18-pro/"
+    "source_url": "https://www.apple.com/iphone-18-pro/",
+    "camera_uw_size": "1/2.55\"",
+    "camera_tele_size": "1/2.55\""
   },
   {
     "id": 440,
@@ -22522,7 +22533,9 @@
     "detailed_camera": "主摄: 索尼IMX905 1/1.28\" 48MP f/1.6-4.0可变光圈 24mm OIS | 超广: IMX972 48MP f/2.2 13mm | 潜望长焦: IMX973 48MP f/2.8 100mm 4x OIS | 前置: 24MP f/1.9",
     "camera_desc": "48MP IMX905 可变光圈主摄 OIS | 48MP IMX972 超广 | 48MP IMX973 潜望长焦 4x OIS | 24MP 前置",
     "camera_rear": "48MP IMX905 可变光圈主摄 24mm OIS + 48MP IMX972 超广 13mm f/2.2 + 48MP IMX973 潜望 100mm f/2.8 4x OIS",
-    "source_url": "https://www.apple.com/iphone-18-pro/"
+    "source_url": "https://www.apple.com/iphone-18-pro/",
+    "camera_uw_size": "1/2.55\"",
+    "camera_tele_size": "1/2.55\""
   },
   {
     "id": 441,
@@ -22684,6 +22697,7 @@
     "camera_desc": "48MP IMX905 主摄 OIS | 48MP IMX972 超广 | 24MP 前置",
     "camera_rear": "48MP IMX905 主摄 24mm OIS + 48MP IMX972 超广 13mm f/2.2",
     "completeness_score": 0,
-    "source_url": "https://www.apple.com/iphone-18/"
+    "source_url": "https://www.apple.com/iphone-18/",
+    "camera_uw_size": "1/2.55\""
   }
 ]
