@@ -1,10 +1,11 @@
 // ===== 配置数据 =====
 // cpuTags 由 useApp.js 的 setPhones() 从数据动态生成（见 normalizeProcessor）
 
-/** 处理器名称归一化：去掉 "(for Galaxy)" 等括号变体，用于筛选标签聚合与匹配 */
+/** 处理器名称归一化：去掉 "(for Galaxy)" 等括号变体；合并 Elite Gen N → Elite N、去中端标签用 */
 export function normalizeProcessor(proc) {
   return String(proc || '')
     .replace(/\s*\(.*?\)\s*/g, '')
+    .replace(/Elite\s*Gen\s*(\d+)/i, 'Elite $1')  // "骁龙8 Elite Gen 5" → "骁龙8 Elite 5"
     .trim()
 }
 
