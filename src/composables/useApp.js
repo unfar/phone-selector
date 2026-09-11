@@ -61,7 +61,7 @@ export function setPhones(data) {
   // 动态生成处理器标签：归一化去变体后按出现次数降序取前 15
   // 用户指定的"重点常驻"处理器永远在最前,不受出现次数影响
   const PINNED_CPU = ['麒麟9030', '麒麟9050 Pro', '骁龙8 Elite 5', '天玑9500', 'A19']
-  const EXCLUDE_CPU_RE = /^骁龙(7|7s|7\+|8s)|^天玑[68]|^麒麟90(10|20)/i  // 排除骁龙 7 系全部+8s/天玑 6-8 系/麒麟 9010-9020
+  const EXCLUDE_CPU_RE = /骁龙(7|7s|7\+|8s)|天玑[678]|麒麟(90(10|20)|8\d)/i  // 排除骁龙 7 系+8s、天玑 6-8 系、麒麟 9010/9020 + 8 系（去空格后匹配）
   const counts = new Map()
   for (const p of data) {
     const n = normalizeProcessor(p.processor)
