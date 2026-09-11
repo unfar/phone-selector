@@ -22621,7 +22621,11 @@
     "features": [
       "NFC",
       "无线充电",
-      "折叠屏"
+      "折叠屏",
+      "IP68",
+      "外屏",
+      "内屏",
+      "前置双"
     ],
     "tags": [
       "A20 Pro",
@@ -22629,14 +22633,14 @@
       "无线充电",
       "NFC"
     ],
-    "weight_g": 0,
+    "weight_g": null,
     "dimensions": "",
-    "colors": "未公开",
+    "colors": "夜空黑|星空白",
     "battery_mah": 0,
     "charging_w": 0,
     "wireless_charging_w": 25,
     "reverse_charging_w": 0,
-    "price_note": "256GB ¥15999 / 512GB ¥17999 / 1TB ¥19999；10-23 发售",
+    "price_note": "256GB ¥15999/512GB ¥17999/1TB ¥19999;10-23 发售(熊猫版 Pearl+Air)",
     "network_model": "",
     "usb_version": "USB-C",
     "bluetooth": "Bluetooth 6",
@@ -22648,7 +22652,7 @@
     "price": 15999,
     "processor": "A20 Pro",
     "screen_size": 7.6,
-    "screen_form": "折叠屏",
+    "screen_form": "折叠内折",
     "fold_type": "外7.6\"+内5.4\"",
     "screen_type": "OLED",
     "refresh_hz": 120,
@@ -22659,7 +22663,7 @@
       "resolution": "",
       "refresh_rate": "1-120Hz"
     },
-    "screen_detail": "7.6\" 纳米纹理内屏 + 5.4\" 外屏",
+    "screen_detail": "外: 5.4\" OLED | 内: 7.6\" OLED 7.6\" (UA Nano-Textured) 双屏下 FaceTime",
     "charge_protocols": [
       "PD",
       "Qi2"
@@ -22671,23 +22675,30 @@
     "camera_main_aperture": "",
     "camera_main_focal": "",
     "camera_uw_sensor": "",
-    "camera_uw_aperture": "",
+    "camera_uw_aperture": "f/2.2",
     "camera_uw_focal": "",
     "camera_tele_sensor": "",
     "camera_tele_aperture": "",
     "camera_tele_focal": "",
     "camera_tele_zoom": "",
-    "camera_front": "",
+    "camera_front": "12MP (对外) + 12MP 内屏 FaceTime",
     "camera_front_aperture": "",
     "has_tele": null,
-    "ip_rating": "",
-    "fingerprint": "",
+    "ip_rating": "IP68",
+    "fingerprint": "Touch ID 电源键",
     "storage": "256GB/512GB/1TB",
-    "detailed_camera": "",
-    "camera_desc": "",
+    "detailed_camera": "主摄: 48MP f/1.6 | 超广: 48MP f/2.2 | 前置: 12MP + 内屏 12MP",
+    "camera_desc": "48MP 主摄 + 48MP 超广 | 前 12MP + 内屏 FaceTime 12MP",
     "camera_rear": "",
     "source_url": "https://www.apple.com/iphone-duo/",
     "price_min": 15999,
-    "price_max": 21499
+    "price_max": 21499,
+    "camera_uw_size": "",
+    "camera_uw_mp": 48,
+    "camera_tele_size": "",
+    "camera_tele_mp": null,
+    "camera_front_mp": 12,
+    "screen_size_out": 5.4,
+    "sim": "双卡双待"
   }
 ]
