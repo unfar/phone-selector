@@ -1,12 +1,36 @@
 // ===== 配置数据 =====
 // cpuTags 由 useApp.js 的 setPhones() 从数据动态生成（见 normalizeProcessor）
 
-/** 处理器名称归一化：去掉 "(for Galaxy)" 等括号变体；合并 Elite Gen N → Elite N、去中端标签用 */
+/** 处理器名称归一化 —— 只用于 **CPU 筛选标签的生成与匹配**。
+ *  卡片/详情页/对比表仍渲染原始 processor,细则不丢(标签只显示一个系列名,细则看页面)。
+ *  规则(逐条实测过全库 83 种写法):
+ *  1) 去括号变体       "骁龙8 Elite 1 (for Galaxy)" → "骁龙8 Elite 1"
+ *  2) Elite Gen N     "骁龙8 Elite Gen 5"          → "骁龙8 Elite 5"
+ *  3) 中文代次 → 阿拉伯 "第五代骁龙8至尊版VSeries"      → "骁龙8 Elite 5"、"第三代骁龙7" → "骁龙7"
+ *  4) 去协处理器尾巴    "天玑 9500M+Q2电竞芯片"        → "天玑9500"
+ *  5) 系列变体折叠      "天玑9500s/9500 Super/9500 Monster" → "天9500"
+ *                     "麒麟9030S/9030Pro/9030 Pro"  → "麒麟9030"
+ *  ⚠️ 骁龙不折叠变体("骁龙8s Gen 3" ≠ "骁龙8"),天玑/麒麟才折叠(用户指定)。
+ */
+const DITAI_VARIANT = /^(天玑)\s*(\d{4})\s*(?:M|s|S|\+|Super|SUPER|Monster|Elite|Ultra|MAX|Max|竞速版|满血版)$/i
+const KIRIN_VARIANT = /^(麒麟)\s*(\d{4})\s*(?:S|s|Pro\+?|Pro|\+)$/i
+
 export function normalizeProcessor(proc) {
-  return String(proc || '')
+  let s = String(proc || '')
     .replace(/\s*\(.*?\)\s*/g, '')
-    .replace(/Elite\s*Gen\s*(\d+)/i, 'Elite $1')  // "骁龙8 Elite Gen 5" → "骁龙8 Elite 5"
+    .replace(/Elite\s*Gen\s*(\d+)/i, 'Elite $1')
+    .replace(/第[一二三四五六七八九十两]代\s*骁龙\s*8\s*至尊版.*/i, '骁龙8 Elite 5')
+    .replace(/骁龙\s*8\s*至尊版.*/i, '骁龙8 Elite 5')
+    .replace(/第[一二三四五六七八九十两]代\s*骁龙\s*(\d+)/i, '骁龙$1')
+    .replace(/第[一二三四五六七八九十两]代\s*骁龙/i, '骁龙')
+    .replace(/\s*\+.*$/, '')
+    .replace(/\s*(电竞芯片|独显芯片|影像芯片).*$/, '')
     .trim()
+  s = s.replace(DITAI_VARIANT, '$1$2').replace(KIRIN_VARIANT, '$1$2')
+  // "麒麟9030 Pro/麒麟9030"、"天玑 9500M+Q2..." 这类复合写法的兜底
+  const dup = s.match(/^(骁龙|天玑|麒麟)\s*(\d{3,4})\s*[A-Za-z+]*\s*\/.*$/)
+  if (dup) s = dup[1] + dup[2]
+  return s.replace(/^(骁龙|天玑|麒麟)\s*(\d)/, '$1$2').trim()
 }
 
 export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","DP","散热风扇","星闪","卫星通信","可变光圈"]

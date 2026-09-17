@@ -1,5 +1,6 @@
 import { ref, computed, nextTick } from 'vue'
 import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges } from '../utils.js'
+import { PINNED_CPU, EXCLUDE_CPU_RE, EXCLUDE_CPU_EXACT } from '../cpuTags.config.js'
 
 export const phones = ref([])
 export const loading = ref(true)
@@ -58,11 +59,8 @@ export function setPhones(data) {
   phones.value = data
   loading.value = false
   brandList.value = [...new Set(data.map(p => p.brand))].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
-  // 动态生成处理器标签：归一化去变体后按出现次数降序取前 15
-  // 用户指定的"重点常驻"处理器永远在最前,不受出现次数影响
-  const PINNED_CPU = ['麒麟9030', '麒麟9050 Pro', '骁龙8 Elite 5', '天玑9500', 'A19']
-  const EXCLUDE_CPU_RE = /骁龙([4-7]|7s|7\+|8s)|天玑[678]|麒麟(90[01]\d|8\d)/i  // 排除骁龙 4-7 系+8s、天玑 6-8 系、麒麟 9010/9020/8 系
-  const EXCLUDE_CPU_EXACT = new Set(['Q2电竞芯片', '电竞芯片'])  // 非 CPU 特殊芯片
+  // 动态生成处理器标签:同一系列归一成一个标签(变体看页面细则),按出现次数降序取前 15
+  // 置顶项与排除规则见 src/cpuTags.config.js —— 名字必须是归一化后的形式
   const counts = new Map()
   for (const p of data) {
     const n = normalizeProcessor(p.processor)
@@ -73,8 +71,8 @@ export function setPhones(data) {
     .filter(([name]) => !PINNED_CPU.includes(name) && !EXCLUDE_CPU_RE.test(name) && !EXCLUDE_CPU_EXACT.has(name) && !/电竞芯片/.test(name))
     .sort((a, b) => b[1] - a[1])
     .map(([name]) => name)
-  // 常驻置顶(即使数据里还没有 9050 Pro 机器),后面接其他处理器取前 N
-  cpuTags.value = [...PINNED_CPU, ...rest].slice(0, 18)
+  // 常驻置顶(即使数据里还没有该芯片的机器),后面接其他处理器取前 N
+  cpuTags.value = [...new Set([...PINNED_CPU, ...rest])].slice(0, 18)
   const prices = data.map(p => p.price).filter(Boolean)
   if (prices.length) {
     const max = Math.ceil(Math.max(...prices) / 1000) * 1000
@@ -278,9 +276,13 @@ export function matchesFilters(p) {
   if (selectedCpu.value.size) {
     let ok = false
     for (const c of selectedCpu.value) {
+      // ⚠️ 必须用 normalizeProcessor 归一后比对:标签是系列名(天玑9500),而 processor 可能是
+      //    变体写法(天 9500M+Q2电竞芯片 / 第五代骁龙8至尊版VSeries / 骁龙8 Elite 5 (for Galaxy)),
+      //    直接 includes 会漏掉这些机型。同时保留原始串的宽松兜底(历史标签如「麒麟芯片」)。
+      const normed = normalizeProcessor(p.processor).replace(/\s+/g, '').toLowerCase()
       const normProc = (p.processor || '').replace(/\s+/g, '').toLowerCase()
       const normCpu = c.replace(/\s+/g, '').toLowerCase()
-      if ((p.tags || []).includes(c) || normProc.includes(normCpu)) { ok = true; break }
+      if ((p.tags || []).includes(c) || normed.includes(normCpu) || normProc.includes(normCpu)) { ok = true; break }
     }
     if (!ok) return false
   }
