@@ -1,6 +1,6 @@
 import { ref, computed, nextTick } from 'vue'
 import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges } from '../utils.js'
-import { PINNED_CPU, EXCLUDE_CPU_RE, EXCLUDE_CPU_EXACT } from '../cpuTags.config.js'
+import { PINNED_CPU, EXCLUDE_CPU_RE, EXCLUDE_CPU_EXACT, CPU_VENDORS, cpuVendorOrder, buildCpuTagOrder } from '../cpuTags.config.js'
 
 export const phones = ref([])
 export const loading = ref(true)
@@ -59,20 +59,20 @@ export function setPhones(data) {
   phones.value = data
   loading.value = false
   brandList.value = [...new Set(data.map(p => p.brand))].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
-  // 动态生成处理器标签:同一系列归一成一个标签(变体看页面细则),按出现次数降序取前 15
-  // 置顶项与排除规则见 src/cpuTags.config.js —— 名字必须是归一化后的形式
+  // 动态生成处理器标签:同一系列归一成一个标签(变体看页面细则)
+  // 排序:① 按厂商分组 —— Apple A 系 → 华为麒麟 → 高通骁龙 → 联发科天玑 → 三星猎户座 → 其它
+  //       ② 组内按出现台数降序;③ 每组至少保留 1 个,保证各厂商在标签云里都有代表。
+  // 置顶项(排最前)与排除规则见 src/cpuTags.config.js —— 名字必须是归一化后的形式。
   const counts = new Map()
   for (const p of data) {
     const n = normalizeProcessor(p.processor)
     if (!n) continue
     counts.set(n, (counts.get(n) || 0) + 1)
   }
-  const rest = [...counts.entries()]
-    .filter(([name]) => !PINNED_CPU.includes(name) && !EXCLUDE_CPU_RE.test(name) && !EXCLUDE_CPU_EXACT.has(name) && !/电竞芯片/.test(name))
-    .sort((a, b) => b[1] - a[1])
-    .map(([name]) => name)
-  // 常驻置顶(即使数据里还没有该芯片的机器),后面接其他处理器取前 N
-  cpuTags.value = [...new Set([...PINNED_CPU, ...rest])].slice(0, 18)
+  const candidates = [...counts.entries()]
+    .filter(([name]) => !EXCLUDE_CPU_RE.test(name) && !EXCLUDE_CPU_EXACT.has(name) && !/电竞芯片/.test(name))
+    .map(([name, n]) => ({ name, n }))
+  cpuTags.value = buildCpuTagOrder(candidates).slice(0, 18)
   const prices = data.map(p => p.price).filter(Boolean)
   if (prices.length) {
     const max = Math.ceil(Math.max(...prices) / 1000) * 1000
