@@ -21745,7 +21745,7 @@
     "battery_mah": 7000,
     "charging_w": 66,
     "wireless_charging_w": 50,
-    "usb_version": "USB 3.1 Gen 1",
+    "usb_version": "USB 2.0",
     "weight_g": 201,
     "dimensions": "厚度6.68mm",
     "camera_desc": "200MP超聚光主摄 | 8MP超广微距 | 50MP 3.7x潜望长焦 | 50MP前置",
@@ -21772,14 +21772,13 @@
       "鸿蒙",
       "6500mAh+",
       "NFC",
-      "USB3.0",
       "红外"
     ],
     "release_date": "2026-09-09",
     "price": 5999,
     "price_note": "9-9 上市; 12+256GB ¥5999 / 12+512GB ¥6999 / 12+1TB ¥8499 (华为商城官方)",
     "date_precision": "day",
-    "completeness_score": 76,
+    "completeness_score": 100,
     "charge_protocols": [
       "华为SuperCharge 66W"
     ],
@@ -21817,12 +21816,13 @@
     "ram_rom": "12GB+256GB/12GB+512GB/12GB+1TB",
     "nfc": true,
     "ir": true,
-    "network_model": "",
+    "network_model": "VOL-AL00",
     "camera_tele_mp": 50,
     "camera_front_mp": 50,
     "price_min": 5999,
     "price_max": 8499,
-    "sale_date": "2026-09-09"
+    "sale_date": "2026-09-09",
+    "verified_at": "2026-09-16"
   },
   {
     "id": 276,
