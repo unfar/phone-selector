@@ -9,7 +9,7 @@ export function normalizeProcessor(proc) {
     .trim()
 }
 
-export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","DP","散热风扇","星闪"]
+export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红外","USB3.0","无线充电","DP","散热风扇","星闪","卫星通信","可变光圈"]
 
 // 充电协议筛选（来自充电头网实测 charge_protocols 字段）
 export const protocolTags = ["5A PPS","UFCS","PPS","PD","QC","SCP","FCP","VFCP","Qi"]
