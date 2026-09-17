@@ -8,28 +8,38 @@
  *  2) Elite Gen N     "骁龙8 Elite Gen 5"          → "骁龙8 Elite 5"
  *  3) 中文代次 → 阿拉伯 "第五代骁龙8至尊版VSeries"      → "骁龙8 Elite 5"、"第三代骁龙7" → "骁龙7"
  *  4) 去协处理器尾巴    "天玑 9500M+Q2电竞芯片"        → "天玑9500"
- *  5) 系列变体折叠      "天玑9500s/9500 Super/9500 Monster" → "天9500"
+ *  5) 系列变体折叠      "天玑9500s/9500 Super/9500 Monster" → "天玑9500"
  *                     "麒麟9030S/9030Pro/9030 Pro"  → "麒麟9030"
- *  ⚠️ 骁龙不折叠变体("骁龙8s Gen 3" ≠ "骁龙8"),天玑/麒麟才折叠(用户指定)。
+ *  6) Apple A 系列去后缀 "A19 Pro" → "A19"、"A20 Pro" → "A20"(用户指定)
+ *  7) 天玑 4 位数折叠到首位 "天玑9400+"、"天玑9400e" → "天玑9400"(用户指定:9400 系合并)
+ *  ⚠️ 骁龙不折叠变体("骁龙8s Gen 3" ≠ "骁龙8"),只折叠 天玑/麒麟/A。
+ *  ⚠️ 天 4 位数首位折叠仅对 9 系(9400+/9400e);7 系 天玑7300/7300e 保持区分。
  */
 const DITAI_VARIANT = /^(天玑)\s*(\d{4})\s*(?:M|s|S|\+|Super|SUPER|Monster|Elite|Ultra|MAX|Max|竞速版|满血版)$/i
 const KIRIN_VARIANT = /^(麒麟)\s*(\d{4})\s*(?:S|s|Pro\+?|Pro|\+)$/i
+const APPLE_VARIANT = /^(A\d{2})\s*(?:Pro|Max|Plus|Bionic)$/i
 
 export function normalizeProcessor(proc) {
+  const CN = {一:'1',二:'2',三:'3',四:'4',五:'5',六:'6',七:'7',八:'8',九:'9',十:'10',两:'2'}
   let s = String(proc || '')
     .replace(/\s*\(.*?\)\s*/g, '')
     .replace(/Elite\s*Gen\s*(\d+)/i, 'Elite $1')
-    .replace(/第[一二三四五六七八九十两]代\s*骁龙\s*8\s*至尊版.*/i, '骁龙8 Elite 5')
+    .replace(/第([一二三四五六七八九十两])代\s*骁龙\s*8\s*至尊版.*/i, '骁龙8 Elite 5')
     .replace(/骁龙\s*8\s*至尊版.*/i, '骁龙8 Elite 5')
-    .replace(/第[一二三四五六七八九十两]代\s*骁龙\s*(\d+)/i, '骁龙$1')
+    // "第五代骁龙8" 是非至尊版(骁龙8 Gen 5),不能归一成裸 "骁龙8" —— 否则与 骁龙8 Elite/Gen 系列子串撞车
+    .replace(/第([一二三四五六七八九十两])代\s*骁龙\s*8(?!\s*Elite)/i, (m, n) => `骁龙8 Gen ${CN[n] || n}`)
+    .replace(/第([一二三四五六七八九十两])代\s*骁龙\s*(\d+)/i, (m, cn, d) => `骁龙${d}`)
     .replace(/第[一二三四五六七八九十两]代\s*骁龙/i, '骁龙')
     .replace(/\s*\+.*$/, '')
     .replace(/\s*(电竞芯片|独显芯片|影像芯片).*$/, '')
     .trim()
-  s = s.replace(DITAI_VARIANT, '$1$2').replace(KIRIN_VARIANT, '$1$2')
+  s = s.replace(DITAI_VARIANT, '$1$2').replace(KIRIN_VARIANT, '$1$2').replace(APPLE_VARIANT, '$1')
   // "麒麟9030 Pro/麒麟9030"、"天玑 9500M+Q2..." 这类复合写法的兜底
   const dup = s.match(/^(骁龙|天玑|麒麟)\s*(\d{3,4})\s*[A-Za-z+]*\s*\/.*$/)
   if (dup) s = dup[1] + dup[2]
+  // 天玑 9 系 4 位数:去掉尾部小写字母变体(天玑9400e → 天玑9400)
+  const dt = s.match(/^(天玑)\s*(9\d{3})[A-Za-z]*$/)
+  if (dt) s = dt[1] + dt[2]
   return s.replace(/^(骁龙|天玑|麒麟)\s*(\d)/, '$1$2').trim()
 }
 

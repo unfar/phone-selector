@@ -278,11 +278,17 @@ export function matchesFilters(p) {
     for (const c of selectedCpu.value) {
       // ⚠️ 必须用 normalizeProcessor 归一后比对:标签是系列名(天玑9500),而 processor 可能是
       //    变体写法(天 9500M+Q2电竞芯片 / 第五代骁龙8至尊版VSeries / 骁龙8 Elite 5 (for Galaxy)),
-      //    直接 includes 会漏掉这些机型。同时保留原始串的宽松兜底(历史标签如「麒麟芯片」)。
+      //    直接 includes 会漏掉这些机型。
+      // ️ 中文数字系列(骁龙8 / 骁龙7)必须用「相等」判断:includes 会让「骁龙8」误命中断崖式的
+      //    「骁龙8 Elite 5」(用户明确要求 Elite 与裸数字分开)。带英文代次的系列(骁龙8 Elite 5)
+      //    才用 includes,以便覆盖历史数据里的粗写。
       const normed = normalizeProcessor(p.processor).replace(/\s+/g, '').toLowerCase()
       const normProc = (p.processor || '').replace(/\s+/g, '').toLowerCase()
       const normCpu = c.replace(/\s+/g, '').toLowerCase()
-      if ((p.tags || []).includes(c) || normed.includes(normCpu) || normProc.includes(normCpu)) { ok = true; break }
+      const isCnNumSeries = /^(骁龙|天玑|麒麟)\d$/.test(c) && !/Elite|Gen/i.test(c)
+      const numHit = isCnNumSeries ? normed === normCpu : normed.includes(normCpu)
+      const rawHit = isCnNumSeries ? normProc === normCpu : normProc.includes(normCpu)
+      if ((p.tags || []).includes(c) || numHit || rawHit) { ok = true; break }
     }
     if (!ok) return false
   }
