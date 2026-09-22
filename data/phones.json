@@ -22569,12 +22569,12 @@
     "id": 441,
     "brand": "Apple",
     "model": "iPhone Duo",
-    "release_date": "2026-10-23",
+    "release_date": "2026-09-09",
     "os": "iOS 27",
     "os_source": "official-2026-09-09",
     "esim": true,
     "sim_type": "双 eSIM",
-    "verified_at": "2026-09-18",
+    "verified_at": "2026-09-22",
     "features": [
       "IP68",
       "NFC",
@@ -22601,7 +22601,7 @@
     "charging_w": 0,
     "wireless_charging_w": 15,
     "reverse_charging_w": 0,
-    "price_note": "官方价: 256GB ¥15999 / 512GB ¥17999 / 1TB ¥21499 / 2TB ¥26499；10-16 预售 10-23 发售",
+    "price_note": "官方价(apple.com.cn): 256GB ¥15999 / 512GB ¥17999 / 1TB ¥21499 / 2TB ¥26499；2026-09-09 发布",
     "network_model": "A3518",
     "usb_version": "USB-C",
     "bluetooth": "Bluetooth 6",
@@ -22660,7 +22660,9 @@
     "camera_tele_mp": 12,
     "camera_front_mp": 12,
     "screen_size_out": 5.4,
-    "sim": "双卡双待"
+    "sim": "双卡双待",
+    "date_precision": "day",
+    "status": "published"
   },
   {
     "id": 442,
