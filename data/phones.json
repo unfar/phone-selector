@@ -21508,7 +21508,7 @@
     "usb_version": "USB Type-C 3.2",
     "detailed_camera": "主摄: 思特威SC595XS 50MP 1/1.28\" RYYB f/1.4-f/4.0 可变光圈 24mm| 超广: 12MP f/2.2 13mm | 潜望长焦: 12MP f/3.4 95mm 4.4x OIS | 前置: 13MP f/2.2 21mm",
     "charging_w": 66,
-    "release_date": "2026-09-23",
+    "release_date": "2026-10-01",
     "price": 5499,
     "ram": "16GB",
     "storage": "512GB/1TB/2TB",
@@ -21567,7 +21567,8 @@
     "ram_rom": "12GB+256GB/12GB+512GB",
     "nfc": true,
     "ir": true,
-    "camera_tele_size": "1/2\""
+    "camera_tele_size": "1/2\"",
+    "date_precision": "day"
   },
   {
     "id": 274,
