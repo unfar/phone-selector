@@ -31,7 +31,7 @@
         <button class="btn ghost theme-toggle" @click="toggleTheme" :aria-label="theme === 'dark' ? '切换浅色' : '切换暗色'" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
-        <button v-if="view !== 'list'" class="btn ghost" @click="openList">← 返回列表</button>
+        <button v-if="view !== 'list'" class="btn ghost" @click="openList" title="返回上一层视图">← 返回</button>
       </div>
     </header>
 
@@ -466,7 +466,7 @@
     </div>
 
     <!-- 底部对比入口（全端） -->
-    <div class="compare-dock" v-if="view === 'list' && compareList.length">
+    <div class="compare-dock" v-if="(view === 'list' || view === 'detail') && compareList.length">
       <div class="dock-info">
         <strong>已选 {{ compareList.length }} 款</strong>
         <span>最多 4 款</span>

@@ -720,7 +720,11 @@ table.compare tr.row-diff td:first-child{color:var(--accent)}
 .compare-dock .dock-info strong{font-size:.9rem}
 .compare-dock .dock-info span{font-size:.72rem;color:var(--muted)}
 .compare-dock .dock-actions{display:flex;gap:8px}
-.compare-dock .btn{height:38px;padding:0 14px}
+/* 详情页显示 dock 时,hero 操作区避开遮挡 */
+.detail .detail-actions{margin-bottom:8px}
+@media (min-width:768px){
+  .detail .detail-hero{padding-bottom:96px}
+}
 
 /* 移动端内嵌对比面板 */
 .compare-inline{margin:12px 0;background:var(--bg);border:1px solid var(--line);border-radius:18px;overflow:hidden}

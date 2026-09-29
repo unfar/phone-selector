@@ -85,11 +85,13 @@ export function brandColor(brand) {
   return brandAccentColors[brand] || '#4f8cff'
 }
 
-// 滚动位置记录（详情→列表）
+// 滚动位置记录（详情→列表）+ 视图来源(返回时按原路退回)
 let savedListScroll = 0
+let lastView = 'list'  // openDetail/openCompare 时的来源视图
 
 export function openDetail(id) {
-  savedListScroll = window.scrollY
+  lastView = view.value
+  if (view.value === 'list') savedListScroll = window.scrollY
   detailId.value = id
   view.value = 'detail'
   window.scrollTo({ top: 0, behavior: 'instant' })
@@ -97,6 +99,15 @@ export function openDetail(id) {
 }
 
 export function openList() {
+  // 从详情页返回时,按原路退回:compare→detail→list 的链路应回到上一层视图
+  // (此前一律回 list,从对比页钻进详情再返回会跳到列表,对比上下文丢失)
+  if (view.value === 'detail' && lastView === 'compare') {
+    view.value = 'compare'
+    detailId.value = null
+    window.scrollTo({ top: 0, behavior: 'instant' })
+    updateHash('push')
+    return
+  }
   view.value = 'list'
   detailId.value = null
   nextTick(() => window.scrollTo({ top: savedListScroll, behavior: 'instant' }))
@@ -108,7 +119,10 @@ export function openCompare() {
     toast(compareList.value.length ? '再选 1 款即可对比' : '请先在列表中加入至少 2 款对比')
     return
   }
-  savedListScroll = window.scrollY
+  // ⚠️ 只有从列表进对比时才覆盖列表滚动位置;
+  // 从详情页进对比(详情页的「去对比页」按钮)不能覆盖,否则 list→detail→compare→返回会丢掉原列表位置
+  if (view.value === 'list') savedListScroll = window.scrollY
+  lastView = view.value
   view.value = 'compare'
   window.scrollTo({ top: 0, behavior: 'instant' })
   updateHash('push')
