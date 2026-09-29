@@ -2430,7 +2430,7 @@
     "model": "iPhone 17e",
     "processor": "A19",
     "screen_size": 6.1,
-    "battery_mah": 4000,
+    "battery_mah": 4005,
     "weight_g": 170,
     "camera_desc": "48MP 主摄 OIS | 18MP 前置",
     "has_tele": false,
@@ -2500,7 +2500,8 @@
     "ram_rom": "8GB+128GB/8GB+256GB/8GB+512GB",
     "nfc": true,
     "ir": false,
-    "camera_main_sensor": ""
+    "camera_main_sensor": "",
+    "battery_wh": 15.556
   },
   {
     "id": 34,
@@ -6398,7 +6399,7 @@
     "model": "iPhone 17",
     "processor": "A19",
     "screen_size": 6.1,
-    "battery_mah": 4850,
+    "battery_mah": 3692,
     "weight_g": 177,
     "camera_desc": "潜望长焦 48MP主摄 | 48MP超广 | 48MP 5x长焦 | 12MP前置",
     "has_tele": true,
@@ -6476,14 +6477,15 @@
     "price_note": "待定",
     "camera_main_sensor": "索尼IMX904",
     "camera_uw_sensor": "IMX972",
-    "camera_uw_size": "1/2.55\""
+    "camera_uw_size": "1/2.55\"",
+    "battery_wh": 14.351
   },
   {
     "brand": "Apple",
     "model": "iPhone Air",
     "processor": "A19",
     "screen_size": 6.7,
-    "battery_mah": 4500,
+    "battery_mah": 3149,
     "weight_g": 145,
     "camera_desc": "48MP主摄 | 12MP前置",
     "has_tele": false,
@@ -6535,7 +6537,7 @@
     "bluetooth": "Bluetooth 5.3",
     "fingerprint": "屏下光学指纹",
     "esim": true,
-    "sim_type": "双 nano-SIM",
+    "sim_type": "仅 eSIM",
     "reverse_charging_w": 0,
     "camera_rear": "索尼 48MP 1/1.56\" f/1.6 26mm OIS",
     "camera_front": "18MP f/1.9",
@@ -6552,14 +6554,15 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_sensor": "索尼IMX904"
+    "camera_main_sensor": "索尼IMX904",
+    "battery_wh": 12.263
   },
   {
     "brand": "Apple",
     "model": "iPhone 17 Pro",
     "processor": "A19 Pro",
     "screen_size": 6.3,
-    "battery_mah": 4850,
+    "battery_mah": 3988,
     "weight_g": 199,
     "camera_desc": "48MP IMX903 1/1.14\"主摄 OIS | 48MP IMX972超广角 | 48MP IMX973 潜望长焦 OIS | 12MP前置",
     "has_tele": true,
@@ -6641,14 +6644,15 @@
     },
     "price_note": "待定",
     "camera_uw_size": "1/2.55\"",
-    "camera_tele_size": "1/2.55\""
+    "camera_tele_size": "1/2.55\"",
+    "battery_wh": 15.534
   },
   {
     "brand": "Apple",
     "model": "iPhone 17 Pro Max",
     "processor": "A19 Pro",
     "screen_size": 6.9,
-    "battery_mah": 4850,
+    "battery_mah": 4823,
     "weight_g": 231,
     "camera_desc": "48MP IMX903 1/1.14\"主摄 OIS | 48MP IMX972超广角 | 48MP IMX973 潜望长焦 OIS | 12MP前置",
     "has_tele": true,
@@ -6729,7 +6733,8 @@
     },
     "price_note": "待定",
     "camera_uw_size": "1/2.55\"",
-    "camera_tele_size": "1/2.55\""
+    "camera_tele_size": "1/2.55\"",
+    "battery_wh": 18.748
   },
   {
     "id": 87,
@@ -15751,7 +15756,7 @@
     "model": "iPhone 16",
     "processor": "A18",
     "screen_size": 6.1,
-    "battery_mah": 4685,
+    "battery_mah": 3561,
     "weight_g": 170,
     "camera_desc": "48MP主摄 | 12MP超广 | 12MP前置",
     "has_tele": false,
@@ -15822,7 +15827,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_sensor": "索尼IMX904"
+    "camera_main_sensor": "索尼IMX904",
+    "battery_wh": 13.839
   },
   {
     "brand": "Apple",
@@ -15902,14 +15908,15 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_sensor": "索尼IMX904"
+    "camera_main_sensor": "索尼IMX904",
+    "battery_wh": 18.112
   },
   {
     "brand": "Apple",
     "model": "iPhone 16 Pro",
     "processor": "A18 Pro",
     "screen_size": 6.3,
-    "battery_mah": 4685,
+    "battery_mah": 3582,
     "weight_g": 199,
     "camera_desc": "48MP主摄 1/1.28\" | 48MP超广 | 48MP 5x长焦 | 12MP前置",
     "has_tele": true,
@@ -15987,7 +15994,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_sensor": "索尼IMX903"
+    "camera_main_sensor": "索尼IMX903",
+    "battery_wh": 13.942
   },
   {
     "brand": "Apple",
@@ -16071,7 +16079,8 @@
       "refresh_rate": "120Hz"
     },
     "price_note": "待定",
-    "camera_main_sensor": "索尼IMX903"
+    "camera_main_sensor": "索尼IMX903",
+    "battery_wh": 18.169
   },
   {
     "id": 207,
@@ -22420,7 +22429,7 @@
     "weight_g": 197,
     "dimensions": "",
     "colors": "黑色|银|冰川|勃艮第",
-    "battery_mah": 4288,
+    "battery_mah": 4056,
     "charging_w": 45,
     "wireless_charging_w": 25,
     "reverse_charging_w": 0,
@@ -22477,7 +22486,8 @@
     "camera_uw_size": "1/2.55\"",
     "camera_tele_size": "1/2.55\"",
     "price_min": 9999,
-    "price_max": 20499
+    "price_max": 20499,
+    "battery_wh": 15.855
   },
   {
     "id": 440,
@@ -22507,7 +22517,7 @@
     "weight_g": 220,
     "dimensions": "",
     "colors": "黑色|银|冰川|勃艮第",
-    "battery_mah": 5567,
+    "battery_mah": 5391,
     "charging_w": 45,
     "wireless_charging_w": 25,
     "reverse_charging_w": 0,
@@ -22564,7 +22574,8 @@
     "camera_uw_size": "1/2.55\"",
     "camera_tele_size": "1/2.55\"",
     "price_min": 10999,
-    "price_max": 21499
+    "price_max": 21499,
+    "battery_wh": 21.063
   },
   {
     "id": 441,
