@@ -226,6 +226,7 @@
         <div class="price-lg" :class="{ future: isFuture(detailPhone) }">{{ priceText(detailPhone) }}</div>
         <div class="meta" style="margin-top:8px">
           <span v-if="isFuture(detailPhone)" class="future-inline">⚠ {{ detailPhone.release_date }} 发布,尚未开售 · 官方未公布价格</span>
+          <template v-else-if="!detailPhone.price && detailPhone.price_note"><span class="future-inline">⚠ 官方未公布价格:{{ detailPhone.price_note }}</span></template>
           <template v-else>{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</template>
         </div>
         <div class="detail-actions">
@@ -550,7 +551,7 @@ function priceText(p) {
     const [, m, d] = p.release_date.split('-')
     return `${m}/${d}`
   }
-  return p.price ? '¥' + p.price : '—'
+  return p.price ? '¥' + p.price : (p.price_note ? '待公布' : '—')
 }
 function resolutionText(p) {
   const res = p.resolution || ''
