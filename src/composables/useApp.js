@@ -297,8 +297,8 @@ export function matchesFilters(p) {
     const inFeatures = (p.features || []).some(f => String(f).includes(t))
     if (!inTags && !inFeatures) return false
   }
-  if (priceMin.value > 0 && p.price < priceMin.value) return false
-  if (priceMax.value < sliderMaxPrice.value && p.price > priceMax.value) return false
+  if (priceMin.value > 0 && (!p.price || p.price < priceMin.value)) return false
+  if (priceMax.value < sliderMaxPrice.value && (!p.price || p.price > priceMax.value)) return false
   if (selectedScreenSizes.value.size) {
     let ok = false
     for (const s of selectedScreenSizes.value) {
@@ -314,11 +314,21 @@ export function matchesFilters(p) {
   return true
 }
 
+export const TODAY = new Date().toISOString().slice(0, 10)
+
+export function isFuturePhone(p) {
+  return p.release_date && p.release_date.length >= 10 && p.release_date > TODAY
+}
 export function sortPhones(list) {
   const s = [...list]
   switch (currentSort.value) {
     case 'newest':
+      // 未发布机排已发布机之后:当下「最新」对买家意味着"已上市/已开售",
+      // 尚未发布的机器(发布日期在未来)对今天就要买的人是噪声,放后面更合理。
       s.sort((a, b) => {
+        const fa = isFuturePhone(a) ? 1 : 0
+        const fb = isFuturePhone(b) ? 1 : 0
+        if (fa !== fb) return fa - fb
         const d = normDate(b.release_date).localeCompare(normDate(a.release_date))
         if (d) return d
         const sa = a.brand + '|' + getSeriesName(a.model)

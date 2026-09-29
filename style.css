@@ -122,7 +122,27 @@ a{color:inherit}
 .search input:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(15,118,110,.12)}
 .search .ico{position:absolute;left:15px;top:50%;transform:translateY(-50%);opacity:.55}
 .search .x{position:absolute;right:14px;top:50%;transform:translateY(-50%);cursor:pointer;color:var(--muted);font-weight:700}
+/* 未发布角标(价格位置已显示发布日期如 09/29,角标进一步强调状态) */
+.future-badge{
+  position:absolute;top:10px;right:10px;
+  background:var(--warn);color:#fff;
+  font-size:.62rem;font-weight:800;letter-spacing:.05em;
+  padding:2px 7px;border-radius:999px;
+}
+.card{position:relative}
+.future-badge ~ .card-top-row .price.future{color:var(--warn)}
+.future-inline{color:var(--warn);font-weight:700}
+.price-lg.future{color:var(--warn)}
 .top-actions{display:flex;gap:8px;align-items:center}
+/* 桌面端筛选入口(FAB 仅触屏渲染,台式机靠这个按钮打开抽屉) */
+.filter-entry{position:relative;display:inline-flex;align-items:center;gap:5px}
+.filter-entry .fab-badge-static{
+  position:absolute;top:-5px;right:-7px;
+  background:var(--accent-2);color:var(--panel-solid);
+  min-width:17px;height:17px;border-radius:999px;
+  font-size:.64rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;padding:0 4px;
+}
 .theme-toggle{font-size:1.1rem;width:42px;justify-content:center;padding:0;border-color:var(--line);background:var(--panel)}
 /* ── 暗色模式：覆盖硬编码颜色 ── */
 [data-theme="dark"] .logo h1{color:var(--text)}

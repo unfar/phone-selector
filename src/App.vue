@@ -25,6 +25,9 @@
       </div>
 
       <div class="top-actions">
+        <button v-if="view === 'list' && !isTouchDevice" class="btn ghost filter-entry" @click="showFilterDrawer = true" :title="'筛选 · ' + activeFilterCount + ' 项'">
+          ⚙ 筛选<span v-if="activeFilterCount" class="fab-badge-static">{{ activeFilterCount }}</span>
+        </button>
         <button class="btn ghost theme-toggle" @click="toggleTheme" :aria-label="theme === 'dark' ? '切换浅色' : '切换暗色'" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
@@ -156,6 +159,7 @@
               </div>
               <div class="name">{{ brief(p).name }}</div>
               <div class="meta" v-if="p.release_date">{{ p.release_date }} 发布</div>
+              <div class="future-badge" v-if="isFuture(p)">未发布</div>
             </div>
             <div class="card-body">
               <div class="metrics">
@@ -219,8 +223,11 @@
       <section class="detail-hero" :style="{ '--bcolor': brandColor(detailPhone.brand) }">
         <div class="brand">{{ detailPhone.brand }}</div>
         <h2>{{ brief(detailPhone).name }}</h2>
-        <div class="price-lg">{{ priceText(detailPhone) }}</div>
-        <div class="meta" style="margin-top:8px">{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</div>
+        <div class="price-lg" :class="{ future: isFuture(detailPhone) }">{{ priceText(detailPhone) }}</div>
+        <div class="meta" style="margin-top:8px">
+          <span v-if="isFuture(detailPhone)" class="future-inline">⚠ {{ detailPhone.release_date }} 发布,尚未开售 · 官方未公布价格</span>
+          <template v-else>{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</template>
+        </div>
         <div class="detail-actions">
           <button class="btn fav-btn" :class="{ on: isFavorite(detailPhone.id) }" @click="toggleFavorite(detailPhone.id)">
             {{ isFavorite(detailPhone.id) ? '★ 已收藏' : '☆ 收藏' }}
@@ -847,7 +854,10 @@ async function reloadData() {
     const resp = await fetch(import.meta.env.BASE_URL + 'data/phones.json')
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
     const phonesData = await resp.json()
-    setPhones(phonesData.filter(p => p.processor && p.price))
+    // ⚠️ 不再按 price 过滤:未发布/官方未公布价格的机型(如 iQOO16、小米18 标准版)
+    //   对用户同样有参考价值,应在列表里以「未发布」角标展示,而不是被彻底丢弃。
+    //   仅过滤缺 processor 的脏数据。
+    setPhones(phonesData.filter(p => p.processor))
     restoreStateFromHash()
     updateHash()
   } catch (e) {
