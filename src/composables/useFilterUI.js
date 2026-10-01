@@ -5,7 +5,7 @@
  * 顶部工具栏、页头筛选入口三处都要用，抽成独立 composable 避免来回传 props。
  * 只放"交互层"，筛选判定逻辑仍在 useApp.js 的 matchesFilters。
  */
-import { computed, reactive, ref } from 'vue'
+import { computed, reactive, ref, watch } from 'vue'
 import {
   searchQuery, currentSort, selectedBrands, selectedScreen, selectedCpu, selectedTags,
   selectedScreenSizes, selectedProtocols, priceMin, priceMax, sliderMaxPrice,
@@ -23,28 +23,80 @@ export const hasFilters = computed(() => !!(
 /** 抽屉开合（页头入口 / FAB / Esc 都操作它） */
 export const showFilterDrawer = ref(false)
 
+/**
+ * 窄屏形态（< 1024px）：抽屉式；宽屏（>= 1024px）：常驻侧边栏。
+ *
+ * ⚠️ 之前用 `navigator.maxTouchPoints > 0 || 'ontouchstart' in window` 判断触屏，
+ *    触控笔记本 / Surface / 一体机都会被误判成移动设备 —— 桌面用户看不到页头的
+ *    「筛选」按钮，只剩一个悬浮的移动端 FAB，且筛选一打开就是全屏遮罩挡住列表。
+ *    断点只应取决于视口宽度，与设备是否支持触摸无关。
+ */
+export const isNarrow = ref(false)
+if (typeof window !== 'undefined') {
+  const mq = window.matchMedia('(max-width: 1023px)')
+  isNarrow.value = mq.matches
+  mq.addEventListener('change', (e) => { isNarrow.value = e.matches })
+}
+
+/** 宽屏下筛选侧栏是否展开（默认展开，用户可收起让列表占满宽度） */
+export const filterPinned = ref(true)
+export function toggleFilterPinned() { filterPinned.value = !filterPinned.value }
+
+/** 筛选面板当前是否可见：窄屏看抽屉开合，宽屏看侧栏是否展开 */
+export const filterPanelVisible = computed(() =>
+  isNarrow.value ? showFilterDrawer.value : filterPinned.value
+)
+
 /** 抽屉内各分组的展开状态 */
 export const sectionOpen = reactive({
-  brand: false, screen: true, cpu: true, tags: true, proto: true, size: true,
+  brand: true, screen: true, cpu: true, tags: true, proto: true, size: true,
 })
 export function toggleSection(key) { sectionOpen[key] = !sectionOpen[key] }
 
-// ===== 搜索（300ms 防抖）=====
+// ===== 搜索（300ms 防抖 + 输入法组合保护）=====
+/**
+ * ⚠️ 输入框不能用 searchQuery 做受控绑定。
+ * 之前是 `:value="searchQuery"` + 300ms 防抖：中文输入法组合阶段（打"xiaomi"还没上屏），
+ * input 已触发但 searchQuery 要 300ms 后才更新，这期间 Vue 会把 DOM value 回写成旧的
+ * searchQuery —— 直接打断输入法组合，用户打的字被吞掉。
+ *
+ * 现在的做法：DOM value 绑定本地 inputText（输入时立刻同步，Vue 不会回写不同值），
+ * 防抖只作用于真正驱动筛选的 searchQuery；组合期间完全不触发筛选。
+ */
+export const inputText = ref(searchQuery.value)
 let searchTimer = null
-export function onSearch(e) {
-  const v = e.target.value
-  // 防抖 300ms：避免输入法组合阶段反复过滤，也减少高频输入开销
+let composing = false
+
+/** 防抖提交到真正的筛选状态 */
+function commitSearch(v) {
   clearTimeout(searchTimer)
   searchTimer = setTimeout(() => {
     searchQuery.value = v
     updateHash()
   }, 300)
 }
+
+export function onSearchInput(e) {
+  // 关键：先让本地值与 DOM 保持一致，避免 Vue 回写打断输入
+  inputText.value = e.target.value
+  if (composing) return          // 组合期不上屏，等 compositionend
+  commitSearch(inputText.value)
+}
+export function onCompositionStart() { composing = true }
+export function onCompositionEnd(e) {
+  composing = false
+  inputText.value = e.target.value
+  commitSearch(inputText.value)
+}
 export function clearSearch() {
   clearTimeout(searchTimer)
+  inputText.value = ''
   searchQuery.value = ''
   updateHash()
 }
+
+// 外部改动（hash 恢复 / 浏览器前进后退 / 全部清空）时同步回输入框
+watch(searchQuery, (v) => { if (v !== inputText.value) inputText.value = v })
 
 // ===== 排序 =====
 export function setSort(sort) { currentSort.value = sort; updateHash() }

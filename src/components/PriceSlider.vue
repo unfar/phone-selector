@@ -42,10 +42,14 @@ const fillStyle = computed(() => {
   return { left: pctMin + '%', width: Math.max(0, pctMax - pctMin) + '%' }
 })
 
+// 拖动手柄时 input 每秒能触发几十次。筛选结果要实时跟随（所以 priceMin/Max 立即写），
+// 但写 URL 的 replaceState 没必要同频——防抖一下，避免高频操作历史与字符串序列化。
+let hashTimer = null
 function sync() {
   priceMin.value = minVal.value
   priceMax.value = maxVal.value
-  updateHash()
+  clearTimeout(hashTimer)
+  hashTimer = setTimeout(updateHash, 150)
 }
 
 function onMinInput() {

@@ -99,6 +99,11 @@ export function openDetail(id) {
 }
 
 export function openList() {
+  // 已经在列表页(例如点页头 logo):只回到顶部,不要压入一条一模一样的历史记录
+  if (view.value === 'list') {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    return
+  }
   // 从详情页返回时,按原路退回:compare→detail→list 的链路应回到上一层视图
   // (此前一律回 list,从对比页钻进详情再返回会跳到列表,对比上下文丢失)
   if (view.value === 'detail' && lastView === 'compare') {

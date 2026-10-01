@@ -20,15 +20,28 @@
 
       <div class="search" v-if="view === 'list'">
         <span class="ico">🔍</span>
-        <input :value="searchQuery" @input="onSearch" placeholder="搜索机型 / 品牌 / 处理器" aria-label="搜索机型" />
-        <span class="x" v-if="searchQuery" @click="clearSearch" role="button" aria-label="清除搜索">✕</span>
+        <!--
+          用 inputText 而非 searchQuery 做受控值：searchQuery 有 300ms 防抖，
+          若拿它绑定 :value，中文输入法组合期间会被 Vue 回写成旧值而吞字。
+          组合事件保证拼音上屏后才触发筛选。详见 useFilterUI.js。
+        -->
+        <input
+          :value="inputText"
+          @input="onSearchInput"
+          @compositionstart="onCompositionStart"
+          @compositionend="onCompositionEnd"
+          @keydown.enter="onSearchEnter"
+          placeholder="搜索机型 / 品牌 / 处理器"
+          aria-label="搜索机型"
+        />
+        <span class="x" v-if="inputText" @click="clearSearch" role="button" tabindex="0" @keydown.enter="clearSearch" aria-label="清除搜索">✕</span>
       </div>
 
       <div class="top-actions">
-        <button v-if="view === 'list' && !isTouchDevice" class="btn ghost filter-entry" @click="showFilterDrawer = true" :title="'筛选 · ' + activeFilterCount + ' 项'">
+        <button v-if="view === 'list' && !isNarrow" class="btn ghost filter-entry" @click="toggleFilterPanel" :aria-pressed="filterPinned" :title="filterPinned ? '收起筛选 · ' + activeFilterCount + ' 项' : '展开筛选 · ' + activeFilterCount + ' 项'">
           ⚙ 筛选<span v-if="activeFilterCount" class="fab-badge-static">{{ activeFilterCount }}</span>
         </button>
-        <button class="btn ghost theme-toggle" @click="toggleTheme" :aria-label="theme === 'dark' ? '切换浅色' : '切换暗色'" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
+        <button class="btn ghost theme-toggle" @click="toggleTheme" :aria-pressed="theme === 'dark'" :aria-label="theme === 'dark' ? '切换浅色' : '切换暗色'" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
         <button v-if="view !== 'list'" class="btn ghost" @click="openList" title="返回上一层视图">← 返回</button>
@@ -36,12 +49,12 @@
     </header>
 
     <!-- LIST -->
-    <div v-if="view === 'list'" class="shell">
-      <FilterDrawer v-if="showFilterDrawer" />
+    <div v-if="view === 'list'" class="shell" :class="{ 'has-sidebar': !isNarrow && filterPinned }">
+      <FilterDrawer />
 
-      <!-- 浮动筛选按钮（可拖动，仅移动端） -->
+      <!-- 浮动筛选按钮（可拖动，仅窄屏） -->
       <button
-        v-if="isTouchDevice"
+        v-show="isNarrow"
         class="filter-fab"
         ref="fabRef"
         @click="onFabClick"
@@ -91,7 +104,11 @@
       </div>
       <div class="dock-actions">
         <button class="btn ghost" @click="clearCompare">清空</button>
-        <button class="btn primary" :disabled="compareList.length < 2" @click="openCompare">
+        <!-- 不用 disabled：禁用按钮点了毫无反馈。改成可点击，由 openCompare 弹提示引导 -->
+        <button
+          class="btn primary" :class="{ off: compareList.length < 2 }" @click="openCompare"
+          :title="compareList.length < 2 ? '至少选 2 款才能对比' : '查看对比'"
+        >
           {{ compareList.length < 2 ? '再选一款' : '查看对比' }}
         </button>
       </div>
@@ -126,8 +143,21 @@ import {
   clearCompare, restoreStateFromHash, updateHash, showFavoritesOnly, favorites,
 } from './composables/useApp.js'
 import {
-  showFilterDrawer, activeFilterCount, hasFilters, onSearch, clearSearch,
+  showFilterDrawer, activeFilterCount, hasFilters, clearSearch,
+  isNarrow, filterPinned, toggleFilterPinned,
+  inputText, onSearchInput, onCompositionStart, onCompositionEnd,
 } from './composables/useFilterUI.js'
+
+/** 页头筛选入口：窄屏开抽屉，宽展开合常驻侧栏 */
+function toggleFilterPanel() {
+  if (isNarrow.value) showFilterDrawer.value = true
+  else toggleFilterPinned()
+}
+/** 回车立即提交搜索，不必等防抖 */
+function onSearchEnter() {
+  searchQuery.value = inputText.value
+  updateHash()
+}
 
 const dataDate = computed(() => {
   // 取库内最新的 verified_at 作为数据截止日
@@ -157,10 +187,6 @@ let fabDragStart = null
 let fabMoved = false
 let fabMouseActive = false
 let suppressNextFabClick = false
-// 是否触屏设备 → 桌面不渲染 FAB
-const isTouchDevice = computed(() =>
-  typeof window !== 'undefined' && (navigator.maxTouchPoints > 0 || 'ontouchstart' in window)
-)
 
 function onFabClick() {
   // onEnd() 每次都会置 suppressNextFabClick：轻点时它已开过抽屉，

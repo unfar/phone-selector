@@ -459,6 +459,11 @@ table.list th{
 table.list tr:hover td{background:#fcfaf5}
 table.list .name-cell{font-weight:800;cursor:pointer;color:var(--text-strong)}
 table.list .name-cell:hover{color:var(--accent)}
+table.list .name-cell:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* 禁用态要有视觉区分,否则用户点了没反应会以为是卡了 */
+.btn:disabled,.mini-btn:disabled{opacity:.45;cursor:not-allowed}
+/* 未选满 2 款的「再选一款」:可点击(点了给提示),但视觉上弱化 */
+.btn.primary.off{opacity:.55}
 .mini-btn{
   height:32px;padding:0 11px;border-radius:999px;border:1.5px solid var(--line);
   background:var(--panel-solid);color:var(--text);cursor:pointer;font-size:.76rem;font-weight:750
@@ -644,39 +649,50 @@ table.compare tr.row-diff td:first-child{color:var(--accent)}
 }
 .filter-drawer-body{padding:14px 18px 24px}
 /* 筛选区块折叠:默认折叠,点标题展开 */
-.filter-drawer-body .section .chips,
-.filter-drawer-body .section .price-box{display:none}
-.filter-drawer-body .section.open .chips,
-.filter-drawer-body .section.open .price-box{display:flex}
-.filter-drawer-body .section.open .price-box{display:block}
+.filter-body .section .chips,
+.filter-body .section .price-box{display:none}
+.filter-body .section.open .chips,
+.filter-body .section.open .price-box{display:flex}
+.filter-body .section.open .price-box{display:block}
 
-/* 桌面端: 抽屉变左侧侧栏,不遮挡列表,勾选实时可见 */
-@media (min-width: 1024px){
-  .filter-overlay{
-    align-items:stretch;justify-content:flex-start;
-    background:rgba(0,0,0,.20);
-  }
-  .filter-drawer{
-    width:340px;max-width:340px;max-height:100vh;height:100vh;
-    border-radius:0 20px 20px 0;
-    border-right:1px solid var(--line);
-    animation:slideInRight .25s ease;
-  }
+/* 宽屏(>=1024px):筛选是常驻左侧栏,非模态,勾选后右侧列表立刻联动 */
+.shell.has-sidebar{grid-template-columns:296px minmax(0,1fr)}
+.filter-sidebar{
+  position:sticky;top:12px;align-self:start;
+  max-height:calc(100vh - 24px);
+  display:flex;flex-direction:column;overflow:hidden;
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);
 }
-@keyframes slideInRight{from{transform:translateX(-100%)}to{transform:translateX(0)}}
-.filter-drawer-body .section-title{
+.filter-sidebar-head{
+  flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;gap:8px;
+  padding:12px 14px;border-bottom:1px solid var(--line);font-size:.88rem;
+}
+.filter-sidebar-head-actions{display:flex;align-items:center;gap:2px}
+.filter-sidebar-body{flex:1 1 auto;padding:12px 14px 18px;overflow-y:auto}
+.link-btn{
+  background:none;border:0;padding:4px 7px;border-radius:8px;cursor:pointer;
+  color:var(--muted);font-size:.78rem;font-weight:700;
+  transition:color .15s ease,background-color .15s ease;
+}
+.link-btn:hover{color:var(--accent);background:var(--accent-soft)}
+.filter-done,.filter-clear{width:100%;margin-top:12px}
+.filter-body .section-title{
   display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none;
   font-size:.84rem;font-weight:800;color:var(--text,#1f2937);
-  padding:7px 2px;border-radius:8px;transition:color .12s
+  padding:7px 2px;border-radius:8px;transition:color .12s;
+  /* 折叠标题是 <button>,需要抹掉浏览器默认外观 */
+  width:100%;background:none;border:0;font-family:inherit;text-align:left;
 }
-.filter-drawer-body .section-title:hover{color:var(--accent,var(--accent-mid))}
-.filter-drawer-body .section-title.static{cursor:default}
-.filter-drawer-body .section-title.static:hover{color:var(--text,#1f2937)}
-.filter-drawer-body .section-title.static::after{content:'';display:none}
-.filter-drawer-body .section-title::after{
+.filter-body .section-title:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filter-body .section-title:hover{color:var(--accent,var(--accent-mid))}
+.filter-body .section-title.static{cursor:default}
+.filter-body .section-title.static:hover{color:var(--text,#1f2937)}
+.filter-body .section-title.static::after{content:'';display:none}
+.filter-body .section-title::after{
   content:'▶';margin-left:auto;font-size:.62rem;color:var(--faint,#9ca3af);transition:transform .18s
 }
-.filter-drawer-body .section.open .section-title::after{transform:rotate(90deg)}
+.filter-body .section.open .section-title::after{transform:rotate(90deg)}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
 
