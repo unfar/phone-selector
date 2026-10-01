@@ -526,6 +526,11 @@ table.list .name-cell:focus-visible{outline:2px solid var(--accent);outline-offs
 }
 .spec-row .k{font-size:.72rem;color:var(--faint);font-weight:700}
 .spec-row .v{font-size:.92rem;font-weight:800;margin-top:3px;white-space:pre-line;color:var(--text-strong)}
+/* 处理器细则（如「12GB 版为麒麟9050 / 16GB 版为麒麟9050 Pro」） */
+.spec-row .proc-note{
+  display:block;margin-top:4px;font-size:.74rem;font-weight:600;line-height:1.5;
+  color:var(--muted);white-space:normal
+}
 .spec-row.full{grid-column:1/-1}
 
 /* camera structured modules */

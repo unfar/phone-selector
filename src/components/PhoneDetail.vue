@@ -35,7 +35,13 @@
         <h4>核心参数</h4>
         <div class="spec-rows">
           <div class="spec-row"><div class="k">入网型号</div><div class="v">{{ detailPhone.network_model || '—' }}</div></div>
-          <div class="spec-row"><div class="k">处理器</div><div class="v">{{ detailPhone.processor || '—' }}</div></div>
+          <div class="spec-row">
+            <div class="k">处理器</div>
+            <div class="v">
+              {{ detailPhone.processor || '—' }}
+              <span class="proc-note" v-if="detailPhone.processor_note">{{ detailPhone.processor_note }}</span>
+            </div>
+          </div>
           <div class="spec-row"><div class="k">内存</div><div class="v">{{ b.ram }}</div></div>
           <div class="spec-row"><div class="k">存储</div><div class="v">{{ b.storage }}</div></div>
           <div class="spec-row"><div class="k">电池</div><div class="v">{{ detailPhone.battery_mah ? detailPhone.battery_mah + 'mAh' : '—' }}</div></div>

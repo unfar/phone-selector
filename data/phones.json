@@ -24212,7 +24212,7 @@
     "id": 459,
     "brand": "Huawei",
     "model": "HUAWEI Mate 90 Pro Max",
-    "processor": "麒麟9050 Pro/麒麟9050",
+    "processor": "麒麟9050 / 麒麟9050 Pro",
     "screen_size": 6.9,
     "refresh_hz": 120,
     "screen_type": "双层OLED",
@@ -24309,7 +24309,8 @@
     "camera_tele_zoom": "4x",
     "camera_tele_mp": 200,
     "camera_tele_size": "1/1.28\"",
-    "price_ref": "https://consumer.huawei.com/cn/phones/mate90-pro-max/specs/"
+    "price_ref": "https://consumer.huawei.com/cn/phones/mate90-pro-max/specs/",
+    "processor_note": "12GB+512GB 版本搭载麒麟9050；16GB+512GB 版本升级为麒麟9050 Pro"
   },
   {
     "id": 460,
@@ -24412,7 +24413,8 @@
     "camera_tele_zoom": "4x",
     "camera_tele_mp": 200,
     "camera_tele_size": "1/1.28\"",
-    "price_ref": "https://consumer.huawei.com/cn/phones/mate90-pro-max/specs/"
+    "price_ref": "https://consumer.huawei.com/cn/phones/mate90-pro-max/specs/",
+    "processor_note": "典藏版标配 16GB，搭载麒麟9050 Pro"
   },
   {
     "id": 461,
@@ -24519,6 +24521,7 @@
     "camera_tele_mp": 200,
     "camera_tele_size": "1/1.28\"",
     "price_ref": "https://consumer.huawei.com/cn/phones/mate90-rs-ultimate-design/specs/",
-    "screen_glass_note": "玄武昆仑玻璃"
+    "screen_glass_note": "玄武昆仑玻璃",
+    "processor_note": "RS 非凡大师标配 16GB，搭载麒麟9050 Pro"
   }
 ]
