@@ -48,7 +48,13 @@ export function clearSearch() {
 
 // ===== 排序 =====
 export function setSort(sort) { currentSort.value = sort; updateHash() }
-export function onMoreSort(e) { if (e.target.value) setSort(e.target.value) }
+/** 恢复默认排序（最新发布） */
+export function resetSort() { setSort('newest') }
+/**
+ * 下拉选「更多排序」：选到占位项（空值）即视为取消排序，回到默认的「最新发布」。
+ * 注：占位项必须可选，否则从下拉里选了非常用排序后就没有取消入口。
+ */
+export function onMoreSort(e) { setSort(e.target.value || 'newest') }
 
 // 下拉只放 5 个非常用排序；若当前是常用排序之一（select 里没对应 option）就显示空
 const MORE_SORTS = new Set(['battery_desc', 'weight_asc', 'screen_desc', 'charging_desc', 'brand_asc'])

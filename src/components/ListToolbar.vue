@@ -18,7 +18,7 @@
         <button class="sort-btn" :class="{ on: currentSort === 'price_desc' }" @click="setSort('price_desc')">价格 ↓</button>
       </div>
       <select class="select" :value="moreSortValue" @change="onMoreSort($event)" aria-label="更多排序方式">
-        <option value="" disabled>更多…</option>
+        <option value="">默认排序</option>
         <option value="battery_desc">电池 ↓</option>
         <option value="weight_asc">重量 ↑</option>
         <option value="screen_desc">屏幕 ↓</option>
@@ -28,6 +28,7 @@
     </div>
     <div class="sort-status" v-if="currentSort !== 'newest'" :title="'当前排序：' + sortLabel">
       当前：{{ sortLabel }}
+      <button @click="resetSort" aria-label="取消排序，恢复默认" title="取消排序">✕</button>
     </div>
   </div>
 
@@ -45,6 +46,6 @@ import {
   favorites, showFavoritesOnly,
 } from '../composables/useApp.js'
 import {
-  hasFilters, activePills, setSort, onMoreSort, moreSortValue, sortLabel,
+  hasFilters, activePills, setSort, resetSort, onMoreSort, moreSortValue, sortLabel,
 } from '../composables/useFilterUI.js'
 </script>
