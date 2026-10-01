@@ -20,7 +20,7 @@
 
       <div class="search" v-if="view === 'list'">
         <span class="ico">🔍</span>
-        <input :value="searchQuery" @input="onSearch" placeholder="搜索机型 / 品牌 / 处理器" />
+        <input :value="searchQuery" @input="onSearch" placeholder="搜索机型 / 品牌 / 处理器" aria-label="搜索机型" />
         <span class="x" v-if="searchQuery" @click="clearSearch" role="button" aria-label="清除搜索">✕</span>
       </div>
 
@@ -36,55 +36,14 @@
     </header>
 
     <!-- LIST -->
-    <div v-if="view === 'list'" class="shell" key="list-shell">
-
-      <!-- 筛选抽屉（全端） -->
-      <div class="filter-overlay" v-if="showFilterDrawer" @click.self="showFilterDrawer = false">
-        <div class="filter-drawer">
-          <div class="filter-drawer-head">
-            <strong>筛选条件</strong>
-            <button class="btn ghost" @click="showFilterDrawer = false" aria-label="关闭筛选">✕</button>
-          </div>
-          <div class="filter-drawer-body">
-            <div class="section" :class="{ open: sectionOpen.brand }">
-              <div class="section-title" @click="toggleSection('brand')">品牌 <span v-if="selectedBrands.size" class="count">({{ selectedBrands.size }})</span></div>
-              <div class="chips"><button v-for="b in brandList" :key="b" class="chip brand" :class="{ on: selectedBrands.has(b) }" :style="{ '--bcolor': brandColor(b) }" @click="toggleBrand(b)">{{ b }}</button></div>
-            </div>
-            <div class="section open">
-              <div class="section-title static">价格 <span v-if="priceActive" class="count">(已设)</span></div>
-              <div class="price-box"><PriceSlider /></div>
-            </div>
-            <div class="section" :class="{ open: sectionOpen.screen }">
-              <div class="section-title" @click="toggleSection('screen')">屏幕形态 <span v-if="selectedScreen" class="count">(1)</span></div>
-              <div class="chips"><button v-for="s in screenTypes" :key="s" class="chip" :class="{ on: selectedScreen === s }" @click="selectScreen(s)">{{ s }}</button></div>
-            </div>
-            <div class="section" :class="{ open: sectionOpen.cpu }">
-              <div class="section-title" @click="toggleSection('cpu')">处理器 <span v-if="selectedCpu.size" class="count">({{ selectedCpu.size }})</span></div>
-              <div class="chips"><button v-for="t in cpuTags" :key="t" class="chip" :class="{ on: selectedCpu.has(t) }" @click="toggleCpu(t)">{{ t }}</button></div>
-            </div>
-            <div class="section" :class="{ open: sectionOpen.tags }">
-              <div class="section-title" @click="toggleSection('tags')">特性 <span v-if="selectedTags.size" class="count">({{ selectedTags.size }})</span></div>
-              <div class="chips"><button v-for="t in featureTags" :key="t" class="chip" :class="{ on: selectedTags.has(t) }" @click="toggleTag(t)">{{ t }}</button></div>
-            </div>
-            <div class="section" :class="{ open: sectionOpen.proto }">
-              <div class="section-title" @click="toggleSection('proto')">充电协议 <span v-if="selectedProtocols.size" class="count">({{ selectedProtocols.size }})</span></div>
-              <div class="chips"><button v-for="t in protocolTags" :key="t" class="chip" :class="{ on: selectedProtocols.has(t) }" @click="toggleProtocol(t)">{{ t }}</button></div>
-            </div>
-            <div class="section" :class="{ open: sectionOpen.size }">
-              <div class="section-title" @click="toggleSection('size')">屏幕尺寸 <span v-if="selectedScreenSizes.size" class="count">({{ selectedScreenSizes.size }})</span></div>
-              <div class="chips"><button v-for="r in screenSizeRanges" :key="r.name" class="chip" :class="{ on: selectedScreenSizes.has(r.name) }" @click="toggleScreenSize(r.name)">{{ r.name }}</button></div>
-            </div>
-            <button class="btn primary" style="width:100%;margin-top:10px" @click="showFilterDrawer = false">查看 · {{ resultCount }} 款 ✨</button>
-          </div>
-        </div>
-      </div>
+    <div v-if="view === 'list'" class="shell">
+      <FilterDrawer v-if="showFilterDrawer" />
 
       <!-- 浮动筛选按钮（可拖动，仅移动端） -->
       <button
         v-if="isTouchDevice"
         class="filter-fab"
         ref="fabRef"
-        v-show="view === 'list'"
         @click="onFabClick"
       >
         <span v-if="hasFilters" class="fab-badge">{{ activeFilterCount }}</span>
@@ -92,44 +51,7 @@
       </button>
 
       <main class="main">
-        <div class="panel toolbar">
-          <div class="stats">
-            <template v-if="hasFilters">筛选后 <b>{{ resultCount }}</b> / {{ phones.length }} 款</template>
-            <template v-else>共 <b>{{ resultCount }}</b> 款机型</template>
-          </div>
-          <div class="toolbar-right">
-            <button class="sort-btn fav-toggle" :class="{ on: showFavoritesOnly }" @click="showFavoritesOnly = !showFavoritesOnly" :title="showFavoritesOnly ? '显示全部' : '只看收藏'">
-              ★ 收藏{{ favorites.length ? `(${favorites.length})` : '' }}
-            </button>
-            <div class="seg">
-              <button :class="{ on: viewMode === 'cards' }" @click="setViewMode('cards')">卡片</button>
-              <button :class="{ on: viewMode === 'table' }" @click="setViewMode('table')">表格</button>
-            </div>
-            <div class="sort-btns">
-              <button class="sort-btn" :class="{ on: currentSort === 'newest' }" @click="setSort('newest')">最新</button>
-              <button class="sort-btn" :class="{ on: currentSort === 'price_asc' }" @click="setSort('price_asc')">价格 ↑</button>
-              <button class="sort-btn" :class="{ on: currentSort === 'price_desc' }" @click="setSort('price_desc')">价格 ↓</button>
-            </div>
-            <select class="select" :value="moreSortValue" @change="onMoreSort($event)">
-              <option value="" disabled>更多…</option>
-              <option value="battery_desc">电池 ↓</option>
-              <option value="weight_asc">重量 ↑</option>
-              <option value="screen_desc">屏幕 ↓</option>
-              <option value="charging_desc">快充 ↓</option>
-              <option value="brand_asc">品牌 A-Z</option>
-            </select>
-          </div>
-          <div class="sort-status" v-if="currentSort !== 'newest'" :title="'当前排序：' + sortLabel">
-            当前：{{ sortLabel }}
-          </div>
-        </div>
-
-        <div class="active-line" v-if="activePills.length">
-          <span class="pill" v-for="(p,i) in activePills" :key="i">
-            {{ p.label }} <button @click="p.clear" :aria-label="'移除筛选条件 ' + p.label">✕</button>
-          </span>
-          <button class="btn ghost" style="height:30px" @click="clearAllFilters">全部清空</button>
-        </div>
+        <ListToolbar />
 
         <div v-if="loading" class="empty"><div class="big">⏳</div>加载中…</div>
         <div v-else-if="error" class="empty">
@@ -147,323 +69,19 @@
 
         <!-- cards -->
         <div v-else-if="viewMode === 'cards'" class="grid">
-          <article
-            v-for="p in sortedPhones" :key="p.id"
-            class="card" :class="{ selected: isCompared(p.id) }"
-            :style="{ '--bcolor': brandColor(p.brand) }"
-          >
-            <div class="card-top">
-              <div class="card-top-row">
-                <span class="brand">{{ p.brand }}</span>
-                <span class="price" :class="{ future: isFuture(p) }">{{ priceText(p) }}</span>
-              </div>
-              <div class="name">{{ brief(p).name }}</div>
-              <div class="meta" v-if="p.release_date">{{ p.release_date }} 发布</div>
-              <div class="future-badge" v-if="isFuture(p)">未发布</div>
-            </div>
-            <div class="card-body">
-              <div class="metrics">
-                <div class="metric"><div class="k">芯片</div><div class="v">{{ p.processor || '—' }}</div></div>
-                <div class="metric"><div class="k">电池</div><div class="v">{{ p.battery_mah ? p.battery_mah + 'mAh' : '—' }}</div></div>
-                <div class="metric"><div class="k">充电</div><div class="v">{{ brief(p).charge }}</div></div>
-                <div class="metric"><div class="k">重量</div><div class="v">{{ p.weight_g ? p.weight_g + 'g' : '—' }}</div></div>
-                <div class="metric"><div class="k">屏幕</div><div class="v">{{ brief(p).screen }}</div></div>
-                <div class="metric"><div class="k">防水</div><div class="v">{{ brief(p).ip }}</div></div>
-              </div>
-              <div class="cam">📸 {{ brief(p).cam }}</div>
-              <div class="score-bar" v-if="brief(p).score > 0">
-                <div class="score-fill" :style="{ width: brief(p).score + '%' }"></div>
-                <span class="score-label">数据完整度 {{ brief(p).score }}%</span>
-              </div>
-              <div class="card-actions">
-                <button class="btn fav-btn" :class="{ on: isFavorite(p.id) }" @click="toggleFavorite(p.id)" :title="isFavorite(p.id) ? '取消收藏' : '收藏'">
-                  {{ isFavorite(p.id) ? '★' : '☆' }}
-                </button>
-                <button class="btn" @click="openDetail(p.id)">详情</button>
-                <button class="btn primary" @click="toggleCompare(p.id)">{{ isCompared(p.id) ? '已加入' : '+ 对比' }}</button>
-              </div>
-            </div>
-          </article>
+          <PhoneCard v-for="p in sortedPhones" :key="p.id" :phone="p" />
         </div>
 
         <!-- table -->
-        <div v-else class="table-wrap panel">
-          <table class="list">
-            <thead>
-              <tr>
-                <th>机型</th><th>价格</th><th>芯片</th><th>电池</th><th>充电</th><th>屏幕</th><th>重量</th><th>防水</th><th>操作</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="p in sortedPhones" :key="p.id">
-                <td class="name-cell" @click="openDetail(p.id)">{{ brief(p).name }}</td>
-                <td>{{ priceText(p) }}</td>
-                <td>{{ p.processor || '—' }}</td>
-                <td>{{ p.battery_mah ? p.battery_mah + 'mAh' : '—' }}</td>
-                <td>{{ brief(p).charge }}</td>
-                <td>{{ brief(p).screen }}</td>
-                <td>{{ p.weight_g ? p.weight_g + 'g' : '—' }}</td>
-                <td>{{ brief(p).ip }}</td>
-                <td>
-                  <button class="mini-btn" :class="{ on: isFavorite(p.id) }" @click="toggleFavorite(p.id)" :title="isFavorite(p.id) ? '取消收藏' : '收藏'">{{ isFavorite(p.id) ? '★' : '☆' }}</button>
-                  <button class="mini-btn" @click="openDetail(p.id)">详情</button>
-                  <button class="mini-btn" :class="{ on: isCompared(p.id) }" @click="toggleCompare(p.id)">
-                    {{ isCompared(p.id) ? '已选' : '对比' }}
-                  </button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <PhoneTable v-else :phones="sortedPhones" />
       </main>
     </div>
 
     <!-- DETAIL -->
-    <div v-else-if="view === 'detail' && detailPhone" class="detail">
-      <section class="detail-hero" :style="{ '--bcolor': brandColor(detailPhone.brand) }">
-        <div class="brand">{{ detailPhone.brand }}</div>
-        <h2>{{ brief(detailPhone).name }}</h2>
-        <div class="price-lg" :class="{ future: isFuture(detailPhone) }">{{ priceText(detailPhone) }}</div>
-        <div class="meta" style="margin-top:8px">
-          <span v-if="isFuture(detailPhone)" class="future-inline">⚠ {{ detailPhone.release_date }} 发布,尚未开售 · 官方未公布价格</span>
-          <template v-else-if="!detailPhone.price && detailPhone.price_note"><span class="future-inline">⚠ 官方未公布价格:{{ detailPhone.price_note }}</span></template>
-          <template v-else>{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</template>
-        </div>
-        <div class="detail-actions">
-          <button class="btn fav-btn" :class="{ on: isFavorite(detailPhone.id) }" @click="toggleFavorite(detailPhone.id)">
-            {{ isFavorite(detailPhone.id) ? '★ 已收藏' : '☆ 收藏' }}
-          </button>
-          <button class="btn primary" @click="toggleCompare(detailPhone.id)">
-            {{ isCompared(detailPhone.id) ? '已加入对比' : '+ 加入对比' }}
-          </button>
-          <button class="btn" @click="openCompare" v-if="compareList.length >= 2">去对比页</button>
-          <button class="btn" @click="copyShareLink">🔗 分享</button>
-        </div>
-        <div class="detail-nav" v-if="prevNextPhones.prev || prevNextPhones.next">
-          <button class="btn ghost" :disabled="!prevNextPhones.prev" @click="prevDetail" title="上一款">
-            ← {{ prevNextPhones.prev?.model || '—' }}
-          </button>
-          <span class="nav-pos">{{ navPos }} / {{ resultCount }}</span>
-          <button class="btn ghost" :disabled="!prevNextPhones.next" @click="nextDetail" title="下一款">
-            {{ prevNextPhones.next?.model || '—' }} →
-          </button>
-        </div>
-      </section>
-
-      <section class="spec-blocks">
-        <div class="panel spec-block">
-          <h4>核心参数</h4>
-          <div class="spec-rows">
-            <div class="spec-row"><div class="k">入网型号</div><div class="v">{{ detailPhone.network_model || '—' }}</div></div>
-            <div class="spec-row"><div class="k">处理器</div><div class="v">{{ detailPhone.processor || '—' }}</div></div>
-            <div class="spec-row"><div class="k">内存</div><div class="v">{{ brief(detailPhone).ram }}</div></div>
-            <div class="spec-row"><div class="k">存储</div><div class="v">{{ brief(detailPhone).storage }}</div></div>
-            <div class="spec-row"><div class="k">电池</div><div class="v">{{ detailPhone.battery_mah ? detailPhone.battery_mah + 'mAh' : '—' }}</div></div>
-            <div class="spec-row"><div class="k">重量</div><div class="v">{{ detailPhone.weight_g ? detailPhone.weight_g + 'g' : '—' }}</div></div>
-            <div class="spec-row"><div class="k">充电</div><div class="v">{{ brief(detailPhone).charge }}</div></div>
-            <div class="spec-row"><div class="k">USB</div><div class="v">{{ detailPhone.usb_version || '—' }}</div></div>
-            <div class="spec-row"><div class="k">屏幕</div><div class="v">{{ getFoldableScreenDisplay(detailPhone) || brief(detailPhone).screen }}</div></div>
-            <div class="spec-row"><div class="k">分辨率</div><div class="v">{{ resolutionText(detailPhone) }}</div></div>
-            <div class="spec-row"><div class="k">刷新率</div><div class="v">{{ detailPhone.refresh_hz ? detailPhone.refresh_hz + 'Hz' : '—' }}</div></div>
-            <div class="spec-row"><div class="k">防尘抗水</div><div class="v">{{ brief(detailPhone).ip }}</div></div>
-            <div class="spec-row"><div class="k">系统</div><div class="v">{{ detailPhone.os || '—' }}</div></div>
-            <div class="spec-row"><div class="k">NFC</div><div class="v">{{ brief(detailPhone).hasNfc ? '✅ 支持' : '—' }}</div></div>
-            <div class="spec-row"><div class="k">红外遥控</div><div class="v">{{ brief(detailPhone).hasIr ? '✅ 支持' : '—' }}</div></div>
-            <div class="spec-row full" v-if="detailPhone.charge_protocols?.length">
-              <div class="k">充电协议</div><div class="v">{{ detailPhone.charge_protocols.join(' · ') }}</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel spec-block camera-block" v-if="cameraModules(detailPhone).modules.length">
-          <h4>影像系统</h4>
-
-          <div class="cam-section" v-if="cameraModules(detailPhone).rear.length">
-            <div class="cam-section-title">
-              <span class="cam-section-icon">📸</span>
-              <span>后置摄像头</span>
-              <span class="cam-section-count">{{ cameraModules(detailPhone).rear.length }} 颗</span>
-            </div>
-            <div class="cam-module-grid">
-              <div
-                v-for="(m, idx) in cameraModules(detailPhone).rear"
-                :key="'r' + m.key + idx"
-                class="cam-module"
-                :class="'role-' + m.key"
-              >
-                <div class="cam-module-head">
-                  <span class="cam-role">{{ m.label }}</span>
-                  <span class="cam-mp" v-if="m.mp">{{ m.mp }}</span>
-                </div>
-                <div class="cam-summary">{{ m.summary }}</div>
-                <div class="cam-chips" v-if="m.chips?.length">
-                  <span v-for="c in m.chips" :key="c.k" class="cam-chip">
-                    <em>{{ c.k }}</em>{{ c.v }}
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="cam-section cam-section-front" v-if="cameraModules(detailPhone).front.length">
-            <div class="cam-section-title front">
-              <span class="cam-section-icon">🤳</span>
-              <span>前置摄像头</span>
-              <span class="cam-section-count">{{ cameraModules(detailPhone).front.length }} 颗</span>
-            </div>
-            <div class="cam-module-grid" :class="{ single: cameraModules(detailPhone).front.length === 1 }">
-              <div
-                v-for="(m, idx) in cameraModules(detailPhone).front"
-                :key="'f' + m.key + idx"
-                class="cam-module role-front"
-              >
-                <div class="cam-module-head">
-                  <span class="cam-role">{{ m.label }}</span>
-                  <span class="cam-mp" v-if="m.mp">{{ m.mp }}</span>
-                </div>
-                <div class="cam-summary">{{ m.summary }}</div>
-                <div class="cam-chips" v-if="m.chips?.length">
-                  <span v-for="c in m.chips" :key="c.k" class="cam-chip">
-                    <em>{{ c.k }}</em>{{ c.v }}
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="cam-raw" v-if="detailPhone.detailed_camera">
-            <span class="k">原始参数</span>
-            <span class="v">{{ detailPhone.detailed_camera }}</span>
-          </div>
-        </div>
-        <div class="panel spec-block" v-else>
-          <h4>影像系统</h4>
-          <div class="spec-rows">
-            <div class="spec-row full">
-              <div class="k">影像</div>
-              <div class="v">{{ detailPhone.camera_desc || detailPhone.detailed_camera || '—' }}</div>
-            </div>
-          </div>
-        </div>
-        <div class="panel spec-block" v-if="detailPhone">
-          <h4>同价位竞品</h4>
-          <div class="rivals">
-            <div
-              v-for="r in rivalPhones"
-              :key="r.id"
-              class="rival-chip"
-              @click="openDetail(r.id)"
-            >
-              <span class="rival-brand">{{ r.brand }}</span>
-              <span class="rival-name">{{ brief(r).name }}</span>
-              <span class="rival-price">{{ priceText(r) }}</span>
-            </div>
-            <div v-if="!rivalPhones.length" class="empty-mini">暂无相近价位机型</div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <PhoneDetail v-else-if="view === 'detail' && detailPhone" />
 
     <!-- COMPARE -->
-    <div v-else-if="view === 'compare'" class="compare-page">
-      <div class="panel compare-shell">
-        <div class="compare-head">
-          <div>
-            <h2>规格对比</h2>
-            <p class="compare-sub">
-              已选 {{ comparePhones.length }} / 4 款
-              <template v-if="comparePhones.length >= 2">
-                · <b class="diff-count">{{ diffCount }}</b> 项有差异
-              </template>
-            </p>
-          </div>
-          <div class="compare-head-actions">
-            <button class="btn" :class="{ active: compareDiffOnly }" @click="compareDiffOnly = !compareDiffOnly" v-if="comparePhones.length >= 2">
-              {{ compareDiffOnly ? '显示全部' : '仅看差异' }}
-            </button>
-            <button class="btn" @click="copyShareLink" v-if="comparePhones.length >= 2">🔗 分享对比</button>
-            <button class="btn" @click="clearCompare">清空</button>
-            <button class="btn ghost" @click="openList">返回</button>
-          </div>
-        </div>
-
-        <div v-if="comparePhones.length < 2" class="empty">
-          <div class="big">📊</div>
-          至少选择 2 款机型才能对比
-          <div style="margin-top:12px">
-            <button class="btn primary" @click="openList">去列表添加</button>
-          </div>
-        </div>
-
-        <template v-else>
-          <!-- 已选机型条 -->
-          <div class="compare-phones-bar">
-            <div v-for="p in comparePhones" :key="p.id" class="compare-phone-chip">
-              <div class="chip-brand" :style="{ background: brandColor(p.brand) }">{{ p.brand }}</div>
-              <div class="chip-name">{{ brief(p).name }}</div>
-              <div class="chip-price">{{ priceText(p) }}</div>
-              <div class="chip-actions">
-                <button class="mini-btn" @click="openDetail(p.id)">详情</button>
-                <button class="mini-btn" @click="toggleCompare(p.id)">移除</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- 桌面端: 横向表格 -->
-          <div class="compare-table-wrap desktop-only">
-            <table class="compare">
-              <thead>
-                <tr>
-                  <th style="width:120px">参数</th>
-                  <th v-for="p in comparePhones" :key="p.id">
-                    <div class="chip-brand" :style="{ background: brandColor(p.brand) }" style="display:inline-block;padding:3px 10px;border-radius:999px;color:#fff;font-size:.7rem">{{ p.brand }}</div>
-                    <div style="margin-top:4px">{{ brief(p).name }}</div>
-                    <div style="color:var(--accent);font-size:.86rem">{{ priceText(p) }}</div>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="row in visibleCompareRows" :key="row.l" :class="{ 'row-diff': !row.same }">
-                  <td>{{ row.l }}</td>
-                  <td v-for="(v, i) in row.values" :key="i" :class="row.same ? 'same' : 'diff'">{{ v || '—' }}</td>
-                </tr>
-              </tbody>
-            </table>
-            <div v-if="!visibleCompareRows.length" style="text-align:center;padding:32px;color:var(--muted)">当前没有差异项</div>
-          </div>
-
-          <!-- 移动端: 竖排卡片 -->
-          <div class="compare-cards mobile-only">
-            <div
-              v-for="row in visibleCompareRows"
-              :key="row.l"
-              class="compare-card"
-              :class="{ same: row.same, diff: !row.same }"
-            >
-              <div class="compare-card-label">
-                <span>{{ row.l }}</span>
-                <span class="tag" v-if="!row.same">有差异</span>
-                <span class="tag same-tag" v-else>相同</span>
-              </div>
-              <div class="compare-card-values" :style="{ '--cols': comparePhones.length }">
-                <div
-                  v-for="(val, idx) in row.values"
-                  :key="idx"
-                  class="compare-card-cell"
-                  :class="row.same ? 'same' : 'diff'"
-                >
-                  <div class="cell-phone">{{ brief(comparePhones[idx]).name }}</div>
-                  <div class="cell-val">{{ val }}</div>
-                </div>
-              </div>
-            </div>
-            <div v-if="!visibleCompareRows.length" class="empty" style="padding:28px 12px">
-              当前没有差异项
-            </div>
-          </div>
-        </template>
-      </div>
-    </div>
+    <CompareView v-else-if="view === 'compare'" />
 
     <!-- 底部对比入口（全端） -->
     <div class="compare-dock" v-if="(view === 'list' || view === 'detail') && compareList.length">
@@ -491,190 +109,50 @@
 </template>
 
 <script setup>
-import { computed, onMounted, onUnmounted, ref, reactive } from 'vue'
-import PriceSlider from './components/PriceSlider.vue'
+/**
+ * App.vue 只保留应用外壳：页头、视图路由、常驻浮层（FAB / 对比条 / 返回顶部）与生命周期。
+ * 四个视图各自拆到 components/，共享状态走 composables/，不再塞在一个 979 行的文件里。
+ */
+import { computed, onMounted, onUnmounted, ref } from 'vue'
+import FilterDrawer from './components/FilterDrawer.vue'
+import ListToolbar from './components/ListToolbar.vue'
+import PhoneCard from './components/PhoneCard.vue'
+import PhoneTable from './components/PhoneTable.vue'
+import PhoneDetail from './components/PhoneDetail.vue'
+import CompareView from './components/CompareView.vue'
 import {
-  phones, loading, error, setPhones, view, viewMode, searchQuery, currentSort,
-  selectedBrands, selectedScreen, selectedCpu, selectedTags, selectedScreenSizes, selectedProtocols,
-  priceMin, priceMax, sliderMaxPrice, brandList, compareList, resultCount, sortedPhones,
-  detailPhone, comparePhones, openList, openDetail, openCompare, setViewMode, toggleCompare,
-  clearCompare, isCompared, clearAllFilters, updateHash, restoreStateFromHash, brandColor, cardBrief,
-  featureTags, protocolTags, cpuTags, screenTypes, screenSizeRanges, getFoldableScreenDisplay, getCameraSpecs, getCameraModules,
-  prevNextPhones, prevDetail, nextDetail, rivalPhones,
-  favorites, showFavoritesOnly, toggleFavorite, isFavorite
+  phones, loading, error, setPhones, view, viewMode, searchQuery,
+  sortedPhones, resultCount, detailPhone, compareList, openList, openCompare,
+  clearCompare, restoreStateFromHash, updateHash, showFavoritesOnly, favorites,
 } from './composables/useApp.js'
+import {
+  showFilterDrawer, activeFilterCount, hasFilters, onSearch, clearSearch,
+} from './composables/useFilterUI.js'
 
-const navPos = computed(() => {
-  const list = sortedPhones.value
-  const dp = detailPhone.value
-  if (!dp) return 0
-  const idx = list.findIndex(p => p.id === dp.id)
-  return idx >= 0 ? idx + 1 : 0
-})
-const today = new Date().toISOString().split('T')[0]
-const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
-const hasFilters = computed(() => !!(
-  searchQuery.value || selectedBrands.value.size || selectedScreen.value || selectedCpu.value.size ||
-  selectedTags.value.size || selectedScreenSizes.value.size || selectedProtocols.value.size || priceActive.value || showFavoritesOnly.value
-))
-
-function brief(p) { return cardBrief(p) }
-function isFuture(p) { return p.release_date && p.release_date.length >= 10 && p.release_date > today }
-function copyShareLink() {
-  updateHash()
-  const url = location.origin + location.pathname + location.hash
-  const done = () => {
-    const el = document.createElement('div')
-    el.className = 'toast'
-    el.textContent = '链接已复制 ✅'
-    document.body.appendChild(el)
-    setTimeout(() => el.remove(), 2000)
-  }
-  if (navigator.clipboard?.writeText) {
-    navigator.clipboard.writeText(url).then(done).catch(() => fallbackCopy(url, done))
-  } else {
-    fallbackCopy(url, done)
-  }
-}
-function fallbackCopy(text, done) {
-  const ta = document.createElement('textarea')
-  ta.value = text
-  ta.style.position = 'fixed'
-  ta.style.opacity = '0'
-  document.body.appendChild(ta)
-  ta.select()
-  try { document.execCommand('copy'); done() } catch {}
-  document.body.removeChild(ta)
-}
-function priceText(p) {
-  if (isFuture(p)) {
-    const [, m, d] = p.release_date.split('-')
-    return `${m}/${d}`
-  }
-  return p.price ? '¥' + p.price : (p.price_note ? '待公布' : '—')
-}
-function resolutionText(p) {
-  const res = p.resolution || ''
-  // 折叠屏：内外屏都显示
-  if (p.screen_form === '折叠屏') {
-    // 有些用 / 分隔
-    const parts = res.split('/').map(s => s.trim()).filter(Boolean)
-    const main = p.screen_unfolded?.size || ''
-    const outer = p.screen_folded?.size || ''
-    if (parts.length >= 2) {
-      if (outer && main) return `${outer}″ ${parts[0]} / ${main}″ ${parts[1]}`
-      return parts.join(' / ')
-    }
-    if (parts.length === 1) {
-      if (res.includes('双屏') || !/^\d/.test(res)) return (p.screen_size ? p.screen_size + '″ ' : '') + '—'
-      return p.screen_size ? p.screen_size + '″ ' + res : res
-    }
-  }
-  // 非折叠屏
-  if (res && /^\d/.test(res)) return res
-  if (res && /[×x]/.test(res)) return res
-  return res || '—'
-}
-function cameraModules(p) {
-  return getCameraModules(p)
-}
-function cameraFull(p) {
-  const mods = getCameraModules(p)
-  if (mods.lines?.length) return mods.lines.join('\n')
-  return p.camera_desc || p.detailed_camera || '—'
-}
-
-let searchTimer = null
-function onSearch(e) {
-  const v = e.target.value
-  // 防抖 300ms：避免输入法组合阶段反复过滤，也减少高频输入开销
-  clearTimeout(searchTimer)
-  searchTimer = setTimeout(() => {
-    searchQuery.value = v
-    updateHash()
-  }, 300)
-}
-function setSort(sort) { currentSort.value = sort; updateHash() }
-function onMoreSort(e) { if (e.target.value) setSort(e.target.value) }
-// 排序下拉值直接绑定 currentSort;若是 5 个常用排序之一(select 里没有 option)就显示空
-const MORE_SORTS = new Set(['battery_desc','weight_asc','screen_desc','charging_desc','brand_asc'])
-const moreSortValue = computed({
-  get: () => MORE_SORTS.has(currentSort.value) ? currentSort.value : '',
-  set: () => {}
-})
-const SORT_LABELS = {
-  newest: '最新发布',
-  price_asc: '价格 ↑',
-  price_desc: '价格 ↓',
-  battery_desc: '电池 ↓',
-  weight_asc: '重量 ↑',
-  screen_desc: '屏幕 ↓',
-  charging_desc: '快充 ↓',
-  brand_asc: '品牌 A-Z',
-}
-const sortLabel = computed(() => SORT_LABELS[currentSort.value] || currentSort.value)
-function clearSearch() { clearTimeout(searchTimer); searchQuery.value = ''; updateHash() }
-function toggleBrand(b) {
-  const s = selectedBrands.value
-  if (s.has(b)) s.delete(b)
-  else s.add(b)
-  selectedBrands.value = new Set(s)
-  updateHash()
-}
-function toggleTag(t) {
-  const s = selectedTags.value
-  s.has(t) ? s.delete(t) : s.add(t)
-  selectedTags.value = new Set(s)
-  updateHash()
-}
-function toggleCpu(t) {
-  const s = selectedCpu.value
-  s.has(t) ? s.delete(t) : s.add(t)
-  selectedCpu.value = new Set(s)
-  updateHash()
-}
-function toggleProtocol(t) {
-  const s = selectedProtocols.value
-  s.has(t) ? s.delete(t) : s.add(t)
-  selectedProtocols.value = new Set(s)
-  updateHash()
-}
-function toggleScreenSize(r) {
-  const s = selectedScreenSizes.value
-  s.has(r) ? s.delete(r) : s.add(r)
-  selectedScreenSizes.value = new Set(s)
-  updateHash()
-}
-// sections 收起/展开
-const sectionOpen = reactive({ brand: false, screen: true, cpu: true, tags: true, proto: true, size: true })
-function toggleSection(key) { sectionOpen[key] = !sectionOpen[key] }
-function selectScreen(s) {
-  selectedScreen.value = selectedScreen.value === s ? null : s
-  updateHash()
-}
-const activePills = computed(() => {
-  const out = []
-  if (searchQuery.value) out.push({ label: '🔍 ' + searchQuery.value, clear: clearSearch })
-  selectedBrands.value.forEach(b => out.push({ label: b, clear: () => { selectedBrands.value.delete(b); updateHash() } }))
-  if (selectedScreen.value) out.push({ label: selectedScreen.value, clear: () => { selectedScreen.value = null; updateHash() } })
-  selectedCpu.value.forEach(c => out.push({ label: c, clear: () => { selectedCpu.value.delete(c); updateHash() } }))
-  selectedTags.value.forEach(t => out.push({ label: t, clear: () => { selectedTags.value.delete(t); updateHash() } }))
-  selectedProtocols.value.forEach(t => out.push({ label: '🔌 ' + t, clear: () => { selectedProtocols.value.delete(t); updateHash() } }))
-  selectedScreenSizes.value.forEach(s => out.push({ label: s, clear: () => { selectedScreenSizes.value.delete(s); updateHash() } }))
-  if (priceActive.value) out.push({
-    label: `¥${priceMin.value || 0}-${priceMax.value}`,
-    clear: () => { priceMin.value = 0; priceMax.value = sliderMaxPrice.value; updateHash() }
-  })
-  return out
+const dataDate = computed(() => {
+  // 取库内最新的 verified_at 作为数据截止日
+  const dates = phones.value.map(p => p.verified_at).filter(Boolean).sort().reverse()
+  return dates[0] || '—'
 })
 
-const showFilterDrawer = ref(false)
+// ===== 主题：优先用用户手动选择，否则跟随系统偏好 =====
+const systemDark = window.matchMedia?.('(prefers-color-scheme: dark)')
+const theme = ref(localStorage.getItem('ps-theme') || (systemDark?.matches ? 'dark' : 'light'))
+function applyTheme(t) { document.documentElement.setAttribute('data-theme', t) }
+function toggleTheme() {
+  theme.value = theme.value === 'dark' ? 'light' : 'dark'
+  localStorage.setItem('ps-theme', theme.value)
+  applyTheme(theme.value)
+}
+
+// ===== 返回顶部 =====
 const showBackTop = ref(false)
 function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }) }
 function onScroll() { showBackTop.value = window.scrollY > 600 }
+
+// ===== 移动端 FAB（可拖动，位置持久化） =====
 const fabRef = ref(null)
 const fabDragging = ref(false)
-const fabPos = ref({ x: 0, y: 0 })
 let fabDragStart = null
 let fabMoved = false
 let fabMouseActive = false
@@ -683,168 +161,12 @@ let suppressNextFabClick = false
 const isTouchDevice = computed(() =>
   typeof window !== 'undefined' && (navigator.maxTouchPoints > 0 || 'ontouchstart' in window)
 )
-// 保存需要清理的 listener 引用,在 onUnmounted 里清理
-const _cleanup = []
-function trackCleanup(remove) { _cleanup.push(remove) }
 
-function onFabClick(e) {
-  // drag 结束时 onEnd 已打开,此处防止 click 重复
+function onFabClick() {
+  // onEnd() 每次都会置 suppressNextFabClick：轻点时它已开过抽屉，
+  // 拖动时它什么都没开 —— 两种情况都不该再由 click 打开一次。
   if (suppressNextFabClick) { suppressNextFabClick = false; return }
   showFilterDrawer.value = true
-}
-const activeFilterCount = computed(() => {
-  let n = 0
-  if (selectedBrands.value.size) n++
-  if (priceActive.value) n++
-  if (selectedScreen.value) n++
-  if (selectedCpu.value.size) n++
-  if (selectedTags.value.size) n++
-  if (selectedProtocols.value.size) n++
-  if (selectedScreenSizes.value.size) n++
-  return n || ''
-})
-const compareDiffOnly = ref(false)
-
-const compareRows = computed(() => {
-  const ps = comparePhones.value
-  if (ps.length < 2) return []
-
-  const fields = [
-    { l: '价格', v: p => priceText(p) },
-    { l: '处理器', v: p => p.processor || '—' },
-    { l: '内存', v: p => brief(p).ram },
-    { l: '存储', v: p => brief(p).storage },
-    { l: '电池', v: p => p.battery_mah ? p.battery_mah + 'mAh' : '—' },
-    { l: '充电', v: p => brief(p).charge },
-    { l: '屏幕', v: p => brief(p).screen },
-    { l: '分辨率', v: p => resolutionText(p) },
-    { l: '刷新率', v: p => p.refresh_hz ? p.refresh_hz + 'Hz' : '—' },
-    { l: '重量', v: p => p.weight_g ? p.weight_g + 'g' : '—' },
-    { l: '防尘抗水', v: p => brief(p).ip },
-    { l: 'USB', v: p => p.usb_version || '—' },
-    { l: '系统', v: p => p.os || '—' },
-    { l: '发布日期', v: p => p.release_date || '—' },
-  ]
-
-  // 影像：将每个摄像头模块展开为独立行
-  const camSpecs = ps.map(p => getCameraSpecs(p))
-
-  // 后置摄像头 — 每颗镜头一行
-  const rearRows = buildCameraCompareRows('后置', camSpecs, 'rear')
-  // 前置摄像头 — 每颗镜头一行
-  const frontRows = buildCameraCompareRows('前置', camSpecs, 'front')
-
-  // 如果解析不到模块，回退到原来的摘要行
-  if (!rearRows.length && !frontRows.length) {
-    const camRows = fields.map(f => {
-      const values = new Array(ps.length)
-      for (let i = 0; i < ps.length; i++) values[i] = f.v(ps[i])
-      const same = values.every(v => v === values[0])
-      return { l: f.l, values, same }
-    })
-    // 追加影像摘要
-    camRows.push({
-      l: '影像',
-      values: ps.map(p => brief(p).cam),
-      same: false,
-    })
-    return camRows
-  }
-
-  const rows = fields.map(f => {
-    const values = ps.map(p => f.v(p))
-    const same = values.every(v => v === values[0])
-    return { l: f.l, values, same }
-  })
-
-  // 插入影像行
-  rows.push(...rearRows)
-  if (frontRows.length) rows.push(...frontRows)
-
-  return rows
-})
-
-/** 为对比表生成摄像头行：每颗镜头一行，行标签为「后置·主摄」等 */
-function buildCameraCompareRows(prefix, camSpecsArray, group) {
-  // 收集所有镜头 key（比如 main, uw, tele），潜望/超长焦统一归入 tele
-  const allKeys = []
-  const seenKeys = new Set()
-  const mergeMap = { periscope: 'tele', super_tele: 'tele' }
-  for (const specs of camSpecsArray) {
-    const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
-    if (spec?.modules) {
-      for (const m of spec.modules) {
-        const k = mergeMap[m.key] || m.key
-        if (!seenKeys.has(k)) {
-          seenKeys.add(k)
-          allKeys.push(k)
-        }
-      }
-    }
-  }
-  if (!allKeys.length) return []
-
-  // 按固定顺序排
-  const order = group === 'rear'
-    ? ['main', 'note', 'tele', 'macro', 'other']
-    : ['front', 'front_inner', 'front_outer', 'front_aux']
-  allKeys.sort((a, b) => {
-    const ai = order.indexOf(a), bi = order.indexOf(b)
-    return (ai >= 0 ? ai : 99) - (bi >= 0 ? bi : 99)
-  })
-
-  const rows = []
-  for (const key of allKeys) {
-    // 合并：同一 key 下所有原 key（tele 同时匹配 tele/periscope/super_tele）
-    const matchKeys = key === 'tele' ? ['tele', 'periscope', 'super_tele'] : [key]
-    const values = camSpecsArray.map(specs => {
-      const spec = specs.find(s => s.modules && s.l === (group === 'rear' ? '后置' : '前置'))
-      const mods = spec?.modules?.filter(m => matchKeys.includes(m.key)) || []
-      // 如果合并后有多个镜头，拼在一起
-      // summary 已包含像素(如 50MP / 2亿),不再重复前缀 m.mp
-      return mods.length
-        ? mods.map(m => m.summary).join(';')
-        : '—'
-    })
-    const same = values.every(v => v === values[0])
-    const labelMap = {
-      main: '主摄', note: '超广角', tele: '长焦',
-      macro: '微距', other: '其他',
-      front: '主自拍', front_inner: '内屏前置', front_outer: '外屏前置', front_aux: '副自拍',
-    }
-    const label = labelMap[key] || key
-    rows.push({
-      l: `${prefix}·${label}`,
-      values,
-      same,
-    })
-  }
-  return rows
-}
-
-const visibleCompareRows = computed(() => {
-  const rows = compareRows.value
-  return compareDiffOnly.value ? rows.filter(r => !r.same) : rows
-})
-/** 差异项数量（供"仅看差异"徽标显示） */
-const diffCount = computed(() => compareRows.value.filter(r => !r.same).length)
-
-const dataDate = computed(() => {
-  // Use the most recent verified_at date from phones
-  const dates = phones.value.map(p => p.verified_at).filter(Boolean).sort().reverse()
-  return dates[0] || '—'
-})
-// 主题：优先用用户手动选择，否则跟随系统偏好
-const systemDark = window.matchMedia?.('(prefers-color-scheme: dark)')
-const theme = ref(localStorage.getItem('ps-theme') || (systemDark?.matches ? 'dark' : 'light'))
-
-function applyTheme(t) {
-  document.documentElement.setAttribute('data-theme', t)
-}
-function toggleTheme() {
-  theme.value = theme.value === 'dark' ? 'light' : 'dark'
-  localStorage.setItem('ps-theme', theme.value)
-  applyTheme(theme.value)
 }
 
 /** 加载/重新加载数据（错误态"重新加载"按钮复用） */
@@ -855,11 +177,12 @@ async function reloadData() {
     const resp = await fetch(import.meta.env.BASE_URL + 'data/phones.json')
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
     const phonesData = await resp.json()
-    // ⚠️ 不再按 price 过滤:未发布/官方未公布价格的机型(如 iQOO16、小米18 标准版)
-    //   对用户同样有参考价值,应在列表里以「未发布」角标展示,而不是被彻底丢弃。
-    //   仅过滤缺 processor 的脏数据。
+    // ⚠️ 不再按 price 过滤：未发布 / 官方未公布价格的机型（如 iQOO16、小米18 标准版）
+    //    对用户同样有参考价值，应在列表里以「未发布」角标展示，而不是被彻底丢弃。
+    //    仅过滤缺 processor 的脏数据。
     setPhones(phonesData.filter(p => p.processor))
     restoreStateFromHash()
+    // 还原后再写一次，把 URL 规范化（例如缺省排序、价格上限被数据实际最大值收窄）
     updateHash()
   } catch (e) {
     error.value = e?.message || '数据加载失败'
@@ -868,15 +191,22 @@ async function reloadData() {
   }
 }
 
-onMounted(async () => {
+// 保存需要清理的 listener 引用，在 onUnmounted 里统一清理
+const _cleanup = []
+function trackCleanup(remove) { _cleanup.push(remove) }
+
+onMounted(() => {
   applyTheme(theme.value)
   // 用户未手动选择时，跟随系统明暗切换
-  systemDark?.addEventListener?.('change', e => {
+  const onSystemThemeChange = (e) => {
     if (!localStorage.getItem('ps-theme')) {
       theme.value = e.matches ? 'dark' : 'light'
       applyTheme(theme.value)
     }
-  })
+  }
+  systemDark?.addEventListener?.('change', onSystemThemeChange)
+  trackCleanup(() => systemDark?.removeEventListener?.('change', onSystemThemeChange))
+
   reloadData()
 
   // 浏览器返回/前进 — popstate 恢复状态
@@ -884,7 +214,14 @@ onMounted(async () => {
   window.addEventListener('popstate', onPopstate)
   trackCleanup(() => window.removeEventListener('popstate', onPopstate))
 
-  // Esc 关闭抽屉(P1-10 a11y)
+  // 手动改地址栏 hash / 点站内锚点会触发 hashchange 而非 popstate。
+  // 应用自身的 updateHash() 走 history.replaceState/pushState，不会触发 hashchange，
+  // 所以这里不会和自己打架。
+  const onHashChange = () => restoreStateFromHash()
+  window.addEventListener('hashchange', onHashChange)
+  trackCleanup(() => window.removeEventListener('hashchange', onHashChange))
+
+  // Esc 关闭抽屉
   const onKeydown = (e) => {
     if (e.key === 'Escape' && showFilterDrawer.value) showFilterDrawer.value = false
   }
@@ -907,8 +244,7 @@ onMounted(async () => {
     if (savedPos.side === 'left') { el.style.left = '8px'; el.style.right = 'auto' }
     else { el.style.right = '8px'; el.style.left = 'auto' }
   } else {
-    const initTop = window.innerHeight * 0.25
-    el.style.top = initTop + 'px'
+    el.style.top = window.innerHeight * 0.25 + 'px'
     el.style.right = '16px'
   }
   function saveFabPos(side) {
@@ -931,22 +267,24 @@ onMounted(async () => {
     const dy = touch.clientY - fabDragStart.y
     fabDragStart = { x: touch.clientX, y: touch.clientY }
     if (Math.abs(dx) > 10 || Math.abs(dy) > 10) fabMoved = true
-    let top = el.offsetTop + dy
-    let left = el.offsetLeft + dx
-    top = Math.max(10, Math.min(top, window.innerHeight - el.offsetHeight - 100))
-    left = Math.max(0, Math.min(left, window.innerWidth - el.offsetWidth - 10))
+    const top = Math.max(10, Math.min(el.offsetTop + dy, window.innerHeight - el.offsetHeight - 100))
+    const left = Math.max(0, Math.min(el.offsetLeft + dx, window.innerWidth - el.offsetWidth - 10))
     el.style.top = top + 'px'
     el.style.left = left + 'px'
     el.style.right = 'auto'
   }
-  function onEnd(e) {
+  function onEnd() {
     if (!fabDragging.value) return
     fabDragging.value = false
     fabMouseActive = false
-    if (!fabMoved) { showFilterDrawer.value = true; suppressNextFabClick = true }
+    // ⚠️ 无论是否拖动都要吞掉随后的 click：
+    //   ① 轻点 → 这里直接开抽屉，click 不能再开一次（否则闪烁）
+    //   ② 拖动 → 拖动结束不应弹抽屉，click 必须被吞掉（此前漏了这条，
+    //      导致拖完 FAB 会莫名弹出筛选抽屉）
+    suppressNextFabClick = true
+    if (!fabMoved) showFilterDrawer.value = true
     el.style.transition = 'transform .2s ease'
-    const w = el.offsetWidth
-    const cx = el.offsetLeft + w / 2
+    const cx = el.offsetLeft + el.offsetWidth / 2
     if (cx < window.innerWidth / 2) {
       el.style.left = '8px'
       el.style.right = 'auto'
@@ -957,10 +295,10 @@ onMounted(async () => {
       saveFabPos('right')
     }
   }
-  function onGlobalMouseUp(e) {
+  function onGlobalMouseUp() {
     // 只有鼠标操作起始于 FAB 时才处理
     if (!fabMouseActive) return
-    onEnd(e)
+    onEnd()
   }
   el.addEventListener('touchstart', onStart, { passive: false })
   el.addEventListener('touchmove', onMove, { passive: false })

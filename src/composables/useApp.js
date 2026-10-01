@@ -333,6 +333,19 @@ export const TODAY = new Date().toISOString().slice(0, 10)
 export function isFuturePhone(p) {
   return p.release_date && p.release_date.length >= 10 && p.release_date > TODAY
 }
+
+/**
+ * 价格展示串：未发布机型显示发布月日，无价机型显示「待公布」。
+ * 卡片 / 表格 / 详情 / 对比 / 竞品条都要用，原先只写在 App.vue 里，
+ * 拆组件后收进 store 供各处共享。
+ */
+export function priceText(p) {
+  if (isFuturePhone(p)) {
+    const [, m, d] = p.release_date.split('-')
+    return `${m}/${d}`
+  }
+  return p.price ? '¥' + p.price : (p.price_note ? '待公布' : '—')
+}
 export function sortPhones(list) {
   const s = [...list]
   switch (currentSort.value) {
@@ -483,7 +496,25 @@ function toast(msg) {
   setTimeout(() => el.remove(), 2200)
 }
 
+/**
+ * cardBrief 结果缓存。
+ * 列表里每张卡片要读 6 个字段（name/charge/screen/ip/cam/score），
+ * 每次都会重跑 getCameraSpecs + getIpRating。结果只依赖 phone 对象本身，
+ * 可以安全缓存；用 WeakMap 保证数据重新加载后旧对象能被回收。
+ */
+const briefCache = new WeakMap()
+
+const EMPTY_BRIEF = Object.freeze({
+  charge: '—', screen: '—', ip: '—', cam: '—',
+  ram: '—', storage: '—', name: '—',
+  hasNfc: false, hasIr: false, score: 0,
+})
+
 export function cardBrief(p) {
+  if (!p || typeof p !== 'object') return EMPTY_BRIEF
+  const cached = briefCache.get(p)
+  if (cached) return cached
+
   const charge = []
   if (p.charging_w) charge.push(p.charging_w + 'W')
   if (p.wireless_charging_w) charge.push(p.wireless_charging_w + 'W无线')
@@ -493,7 +524,7 @@ export function cardBrief(p) {
   const cams = getCameraSpecs(p)
   const rear = cams.find(s => s.l === '后置')
   const cam = rear?.v?.split('\n')[0] || (p.camera_desc || '').split('|')[0].trim() || '—'
-  return {
+  const brief = {
     charge: charge.join(' · ') || '—',
     screen: screen || '—',
     ip: getIpRating(p),
@@ -505,6 +536,8 @@ export function cardBrief(p) {
     hasIr: (p.tags || []).includes('红外'),
     score: p.completeness_score || 0,
   }
+  briefCache.set(p, brief)
+  return brief
 }
 
 export { featureTags, protocolTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay }

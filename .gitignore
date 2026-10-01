@@ -2,4 +2,8 @@ node_modules
 dist
 *.local
 .DS_Store
+# 数据备份：留在工作区做回滚用，但不进版本库
 data/*.bak*
+data/*.keep
+# 误放在仓库根的构建产物（Vite 输出在 dist/），已清理
+/assets/
