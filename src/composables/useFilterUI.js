@@ -7,7 +7,7 @@
  */
 import { computed, reactive, ref, watch } from 'vue'
 import {
-  searchQuery, currentSort, selectedBrands, selectedScreen, selectedCpu, selectedTags,
+  searchQuery, sortKeys, selectedBrands, selectedScreen, selectedCpu, selectedTags,
   selectedScreenSizes, selectedProtocols, priceMin, priceMax, sliderMaxPrice,
   showFavoritesOnly, updateHash,
 } from './useApp.js'
@@ -98,24 +98,68 @@ export function clearSearch() {
 // 外部改动（hash 恢复 / 浏览器前进后退 / 全部清空）时同步回输入框
 watch(searchQuery, (v) => { if (v !== inputText.value) inputText.value = v })
 
-// ===== 排序 =====
-export function setSort(sort) { currentSort.value = sort; updateHash() }
-/** 恢复默认排序（最新发布） */
-export function resetSort() { setSort('newest') }
-/**
- * 下拉选「更多排序」：选到占位项（空值）即视为取消排序，回到默认的「最新发布」。
- * 注：占位项必须可选，否则从下拉里选了非常用排序后就没有取消入口。
- */
-export function onMoreSort(e) { setSort(e.target.value || 'newest') }
+// ===== 排序（多关键字链，可叠加）=====
 
-// 下拉只放 5 个非常用排序；若当前是常用排序之一（select 里没对应 option）就显示空
+/**
+ * 排序键所属维度。同一维度内互斥（价格 ↑ 和价格 ↓ 不可能同时成立），
+ * 不同维度才可叠加（电池 + 最新可以同时生效）。
+ */
+const SORT_DIM = {
+  newest: 'date', price_asc: 'price', price_desc: 'price',
+  battery_desc: 'battery', weight_asc: 'weight', screen_desc: 'screen',
+  charging_desc: 'charging', brand_asc: 'brand',
+}
+
+/**
+ * 点击一个排序键的行为：
+ * - 它是当前主排序（链首）→ 取消它；链空了就回落到默认的「最新发布」
+ * - 它已在链中但不是主排序 → 提到链首，成为主排序
+ * - 它不在链中 → 插入链首，成为主排序，其余键自动降级为次要排序
+ *
+ * 「后点的为主」最符合直觉：用户最后点的那个通常是当下最关心的维度。
+ * 想换优先级，再点一次已在链中的键就能把它提上来。
+ * 例如先点「最新」再选「电池 ↓」→ ['battery_desc','newest']：
+ * 先按电池降序，电池相同的再按发布时间降序 —— 两个条件都生效。
+ */
+export function setSort(key) {
+  const dim = SORT_DIM[key]
+  // 同维度互斥：换「价格 ↓」时把链里的「价格 ↑」顶掉，而不是堆在一起
+  const rest = sortKeys.value.filter(k => k !== key && SORT_DIM[k] !== dim)
+  const next = sortKeys.value[0] === key
+    ? rest                    // 点主排序 = 取消它
+    : [key, ...rest]          // 已在链中则提前，否则插入，都作为主排序
+  sortKeys.value = next.length ? next : ['newest']   // 链空则回落到默认
+  updateHash()
+}
+
+/** 只移除链中某个键（排序状态条上的 ✕） */
+export function removeSort(key) {
+  const next = sortKeys.value.filter(k => k !== key)
+  sortKeys.value = next.length ? next : ['newest']
+  updateHash()
+}
+
+/** 恢复默认排序（最新发布） */
+export function resetSort() { sortKeys.value = ['newest']; updateHash() }
+
+/**
+ * 下拉选「更多排序」：选到占位项（空值）视为恢复默认。
+ * 注：占位项必须可选，否则选了非常用排序后就没有取消入口。
+ */
+export function onMoreSort(e) {
+  const v = e.target.value
+  if (v) setSort(v)
+  else resetSort()
+}
+
+// 下拉只放 5 个非常用排序；链里命中哪个就显示哪个（取优先级最高的那个）
 const MORE_SORTS = new Set(['battery_desc', 'weight_asc', 'screen_desc', 'charging_desc', 'brand_asc'])
 export const moreSortValue = computed({
-  get: () => MORE_SORTS.has(currentSort.value) ? currentSort.value : '',
+  get: () => sortKeys.value.find(k => MORE_SORTS.has(k)) || '',
   set: () => {},
 })
-const SORT_LABELS = {
-  newest: '最新发布',
+export const SORT_LABELS = {
+  newest: '最新',
   price_asc: '价格 ↑',
   price_desc: '价格 ↓',
   battery_desc: '电池 ↓',
@@ -124,7 +168,20 @@ const SORT_LABELS = {
   charging_desc: '快充 ↓',
   brand_asc: '品牌 A-Z',
 }
-export const sortLabel = computed(() => SORT_LABELS[currentSort.value] || currentSort.value)
+/** 单个键的中文名 */
+export function sortKeyLabel(k) { return SORT_LABELS[k] || k }
+/** 整条链的文案，如「电池 ↓ › 最新」 */
+export const sortLabel = computed(() => sortKeys.value.map(sortKeyLabel).join(' › '))
+/** 是否处于非默认排序（决定要不要显示排序状态条） */
+export const hasCustomSort = computed(() => {
+  const k = sortKeys.value
+  return !(k.length === 1 && k[0] === 'newest')
+})
+/** 该键在链中的优先级序号（1 起）；不在链中返回 0 */
+export function sortRank(k) {
+  const i = sortKeys.value.indexOf(k)
+  return i < 0 ? 0 : i + 1
+}
 
 // ===== 各筛选维度的开合 =====
 /** 往 Set 型筛选里增删一项。重建 Set 是为了让依赖它的 computed 稳定失效。 */

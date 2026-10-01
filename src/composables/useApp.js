@@ -17,7 +17,16 @@ export const selectedCpu = ref(new Set())
 export const selectedTags = ref(new Set())
 export const selectedScreenSizes = ref(new Set())
 export const selectedProtocols = ref(new Set())
-export const currentSort = ref('newest')
+/**
+ * 排序链（多关键字排序）：按优先级从高到低排列。
+ * 例如 ['battery_desc', 'newest'] = 先按电池容量降序，电池相同的再按发布时间降序。
+ * 空数组语义上等价于默认的 ['newest']。
+ *
+ * ⚠️ 此前是单值 currentSort，多个排序控件互斥：点「最新」再选「电池 ↓」，
+ *    后者直接覆盖前者，UI 上「最新」的高亮也消失 —— 用户以为两个都选了，
+ *    实际只有一个生效。现在改成链，可叠加。
+ */
+export const sortKeys = ref(['newest'])
 export const searchQuery = ref('')
 export const priceMin = ref(0)
 export const priceMax = ref(20000)
@@ -351,34 +360,51 @@ export function priceText(p) {
   }
   return p.price ? '¥' + p.price : (p.price_note ? '待公布' : '—')
 }
+/**
+ * 各排序键的比较器。多关键字排序时按 sortKeys 的顺序依次调用，
+ * 第一个返回非 0 的键决定顺序。
+ */
+export const SORT_COMPARATORS = {
+  newest: (a, b) => {
+    // 未发布机排已发布机之后:当下「最新」对买家意味着"已上市/已开售",
+    // 尚未发布的机器(发布日期在未来)对今天就要买的人是噪声,放后面更合理。
+    const fa = isFuturePhone(a) ? 1 : 0
+    const fb = isFuturePhone(b) ? 1 : 0
+    if (fa !== fb) return fa - fb
+    return normDate(b.release_date).localeCompare(normDate(a.release_date))
+  },
+  price_asc: (a, b) => (a.price || 99999) - (b.price || 99999),
+  price_desc: (a, b) => (b.price || 0) - (a.price || 0),
+  battery_desc: (a, b) => (b.battery_mah || 0) - (a.battery_mah || 0),
+  weight_asc: (a, b) => (a.weight_g || 9999) - (b.weight_g || 9999),
+  screen_desc: (a, b) => (b.screen_size || 0) - (a.screen_size || 0),
+  charging_desc: (a, b) => (b.charging_w || 0) - (a.charging_w || 0),
+  brand_asc: (a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model),
+}
+/** 合法排序键清单：URL 参数回读时用它过滤脏数据 */
+export const SORT_KEYS = Object.keys(SORT_COMPARATORS)
+
 export function sortPhones(list) {
-  const s = [...list]
-  switch (currentSort.value) {
-    case 'newest':
-      // 未发布机排已发布机之后:当下「最新」对买家意味着"已上市/已开售",
-      // 尚未发布的机器(发布日期在未来)对今天就要买的人是噪声,放后面更合理。
-      s.sort((a, b) => {
-        const fa = isFuturePhone(a) ? 1 : 0
-        const fb = isFuturePhone(b) ? 1 : 0
-        if (fa !== fb) return fa - fb
-        const d = normDate(b.release_date).localeCompare(normDate(a.release_date))
-        if (d) return d
-        const sa = a.brand + '|' + getSeriesName(a.model)
-        const sb = b.brand + '|' + getSeriesName(b.model)
-        const sc = sa.localeCompare(sb)
-        if (sc) return sc
-        return (a.price || 99999) - (b.price || 99999)
-      })
-      break
-    case 'price_asc': s.sort((a, b) => (a.price || 99999) - (b.price || 99999)); break
-    case 'price_desc': s.sort((a, b) => (b.price || 0) - (a.price || 0)); break
-    case 'battery_desc': s.sort((a, b) => (b.battery_mah || 0) - (a.battery_mah || 0)); break
-    case 'weight_asc': s.sort((a, b) => (a.weight_g || 9999) - (b.weight_g || 9999)); break
-    case 'screen_desc': s.sort((a, b) => (b.screen_size || 0) - (a.screen_size || 0)); break
-    case 'charging_desc': s.sort((a, b) => (b.charging_w || 0) - (a.charging_w || 0)); break
-    case 'brand_asc': s.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model)); break
-  }
-  return s
+  const keys = sortKeys.value.length ? sortKeys.value : ['newest']
+  // 过滤掉无效键（例如旧链接里的已下线排序），全空则回落到默认
+  const cmps = keys.map(k => SORT_COMPARATORS[k]).filter(Boolean)
+  if (!cmps.length) cmps.push(SORT_COMPARATORS.newest)
+
+  return [...list].sort((a, b) => {
+    for (const cmp of cmps) {
+      const d = cmp(a, b)
+      if (d) return d          // 0 视为「这一键分不出胜负」，继续用下一个键
+    }
+    // 所有关键字都分不出时的稳定兜底（原先写在 newest 分支里；
+    // 多关键字下它必须下沉到链尾，否则 newest 作为次要键时会吃掉后面的键）
+    const sa = a.brand + '|' + getSeriesName(a.model)
+    const sb = b.brand + '|' + getSeriesName(b.model)
+    const sc = sa.localeCompare(sb)
+    if (sc) return sc
+    const pc = (a.price || 99999) - (b.price || 99999)
+    if (pc) return pc
+    return (a.id || 0) - (b.id || 0)
+  })
 }
 
 export const filteredPhones = computed(() => phones.value.filter(matchesFilters))
@@ -442,7 +468,9 @@ export function updateHash(mode = 'replace') {
   if (priceMin.value > 0 || priceMax.value < sliderMaxPrice.value) {
     params.set('price', `${priceMin.value > 0 ? priceMin.value : ''}-${priceMax.value < sliderMaxPrice.value ? priceMax.value : ''}`)
   }
-  if (currentSort.value !== 'newest') params.set('sort', currentSort.value)
+  // 排序链按优先级顺序逗号分隔，例如 sort=battery_desc,newest
+  const sortStr = sortKeys.value.join(',')
+  if (sortStr !== 'newest') params.set('sort', sortStr)
   if (searchQuery.value) params.set('q', searchQuery.value)
   if (viewMode.value !== 'cards') params.set('mode', viewMode.value)
   const url = `#${params.toString()}`
@@ -465,7 +493,7 @@ export function restoreStateFromHash() {
   priceMin.value = 0
   priceMax.value = sliderMaxPrice.value
   searchQuery.value = ''
-  currentSort.value = 'newest'
+  sortKeys.value = ['newest']
   if (!hash) {
     view.value = 'list'
     detailId.value = null
@@ -484,7 +512,12 @@ export function restoreStateFromHash() {
     if (a) priceMin.value = parseInt(a)
     if (b) priceMax.value = parseInt(b)
   }
-  currentSort.value = params.get('sort') || 'newest'
+  // 兼容旧的单个排序值（sort=battery_desc）与新的排序链（sort=battery_desc,newest）
+  const sortParam = params.get('sort')
+  sortKeys.value = sortParam
+    ? sortParam.split(',').map(s => s.trim()).filter(k => SORT_KEYS.includes(k))
+    : []
+  if (!sortKeys.value.length) sortKeys.value = ['newest']
   searchQuery.value = params.get('q') || ''
   viewMode.value = params.get('mode') || viewMode.value
   const cmp = params.get('cmp'); if (cmp) compareList.value = cmp.split(',').map(n => Number(n)).filter(Boolean)
