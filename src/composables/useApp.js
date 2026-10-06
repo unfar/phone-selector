@@ -42,7 +42,8 @@ function loadFavorites() {
   try {
     const raw = localStorage.getItem(FAV_KEY)
     const arr = raw ? JSON.parse(raw) : []
-    return arr.filter(n => Number.isFinite(n)).map(Number)
+    // 老格式存的是数字 id,新格式统一字符串 → 一律转字符串,兼容两种历史数据
+    return arr.filter(v => v !== null && v !== undefined && String(v).length).map(String)
   } catch { return [] }
 }
 export const favorites = ref(loadFavorites())
@@ -51,13 +52,15 @@ function saveFavorites() {
   localStorage.setItem(FAV_KEY, JSON.stringify(favorites.value))
 }
 export function toggleFavorite(id) {
-  const i = favorites.value.indexOf(id)
+  const key = String(id)
+  const i = favorites.value.findIndex(f => String(f) === key)
   if (i >= 0) favorites.value.splice(i, 1)
-  else favorites.value.push(id)
+  else favorites.value.push(key)
   saveFavorites()
 }
 export function isFavorite(id) {
-  return favorites.value.includes(id)
+  const key = String(id)
+  return favorites.value.some(f => String(f) === key)
 }
 export function clearFavorites() {
   favorites.value = []
@@ -65,7 +68,10 @@ export function clearFavorites() {
 }
 
 export function setPhones(data) {
-  phones.value = data
+  // id 统一成字符串:数据里既有数字 id(1、2、3…)又有 slug id(huawei-mate-90)。
+  // URL 里读回来的永远是字符串,严格相等会在数字 id 上失配(点开的详情直接找不到机型),
+  // 所以这里一次性归一,之后所有比较(detailPhone / isCompared / 收藏)都用字符串。
+  phones.value = data.map(p => (typeof p.id === 'string' ? p : { ...p, id: String(p.id) }))
   loading.value = false
   brandList.value = [...new Set(data.map(p => p.brand))].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
   // 动态生成处理器标签:同一系列归一成一个标签(变体看页面细则)
@@ -403,7 +409,8 @@ export function sortPhones(list) {
     if (sc) return sc
     const pc = (a.price || 99999) - (b.price || 99999)
     if (pc) return pc
-    return (a.id || 0) - (b.id || 0)
+    // id 已统一为字符串(含 slug),不能再做数值相减
+    return String(a.id ?? '').localeCompare(String(b.id ?? ''))
   })
 }
 
@@ -451,6 +458,8 @@ export function clearAllFilters() {
   priceMin.value = 0
   priceMax.value = sliderMaxPrice.value
   searchQuery.value = ''
+  // 收藏也是筛选维度:不清掉它,「全部清空」之后列表会莫名仍然是空的
+  showFavoritesOnly.value = false
   updateHash()
 }
 
@@ -483,6 +492,7 @@ export function updateHash(mode = 'replace') {
 
 export function restoreStateFromHash() {
   const hash = location.hash.slice(1)
+  const prevView = view.value
   // 先全部清空,避免重复 restore 时叠加(P2 单例 Set 修补)
   selectedBrands.value.clear()
   selectedScreen.value = null
@@ -497,6 +507,7 @@ export function restoreStateFromHash() {
   if (!hash) {
     view.value = 'list'
     detailId.value = null
+    restoreListScrollIfReturning(prevView)
     return
   }
   const params = new URLSearchParams(hash)
@@ -520,9 +531,31 @@ export function restoreStateFromHash() {
   if (!sortKeys.value.length) sortKeys.value = ['newest']
   searchQuery.value = params.get('q') || ''
   viewMode.value = params.get('mode') || viewMode.value
-  const cmp = params.get('cmp'); if (cmp) compareList.value = cmp.split(',').map(n => Number(n)).filter(Boolean)
-  const id = params.get('id'); if (id) detailId.value = Number(id); else detailId.value = null
+  const cmp = params.get('cmp')
+  // 对比上限 4 款:URL 可能被手改或被旧的分享链接塞进更多,恢复时同样要收敛
+  if (cmp) compareList.value = cmp.split(',').filter(Boolean).slice(0, 4)
+  const id = params.get('id'); if (id) detailId.value = id
   const v = params.get('view'); if (v === 'detail' || v === 'compare' || v === 'list') view.value = v; else view.value = 'list'
+  // 兜底:view=detail 但机型不存在(改过 id / 机型下线 / 旧分享链接)→ 回落列表并提示,
+  // 否则 App.vue 的三个 v-if 分支全不匹配,整页只剩页头页脚(白屏)。
+  if (view.value === 'detail' && phones.value.length && !detailPhone.value) {
+    toast('该机型不存在或已下线')
+    view.value = 'list'
+    detailId.value = null
+    updateHash()
+  }
+  restoreListScrollIfReturning(prevView)
+}
+
+/**
+ * 浏览器返回/前进(或手改 hash)回到列表时,恢复进入详情前的滚动位置。
+ * 应用内「← 返回」按钮走 openList() 已经有这段逻辑,但 popstate 走的是
+ * restoreStateFromHash(),此前不恢复 → 长列表用系统返回手势会被弹回顶部。
+ */
+function restoreListScrollIfReturning(prevView) {
+  if (prevView !== 'list' && view.value === 'list' && savedListScroll) {
+    nextTick(() => window.scrollTo({ top: savedListScroll, behavior: 'instant' }))
+  }
 }
 
 function toast(msg) {

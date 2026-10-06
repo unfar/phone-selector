@@ -207,6 +207,7 @@ export function selectScreen(s) {
 export const activePills = computed(() => {
   const out = []
   if (searchQuery.value) out.push({ label: '🔍 ' + searchQuery.value, clear: clearSearch })
+  if (showFavoritesOnly.value) out.push({ label: '★ 仅看收藏', clear: () => { showFavoritesOnly.value = false; updateHash() } })
   selectedBrands.value.forEach(b => out.push({ label: b, clear: () => { selectedBrands.value.delete(b); updateHash() } }))
   if (selectedScreen.value) out.push({ label: selectedScreen.value, clear: () => { selectedScreen.value = null; updateHash() } })
   selectedCpu.value.forEach(c => out.push({ label: c, clear: () => { selectedCpu.value.delete(c); updateHash() } }))
@@ -230,5 +231,6 @@ export const activeFilterCount = computed(() => {
   if (selectedTags.value.size) n++
   if (selectedProtocols.value.size) n++
   if (selectedScreenSizes.value.size) n++
+  if (showFavoritesOnly.value) n++
   return n || ''
 })

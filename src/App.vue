@@ -96,6 +96,12 @@
     <!-- COMPARE -->
     <CompareView v-else-if="view === 'compare'" />
 
+    <!-- 兜底：view 指向详情但机型不存在时，不要白屏（正常流程已由 restoreStateFromHash 回落） -->
+    <div v-else class="empty">
+      <div class="big">😕</div>该机型不存在或已下线
+      <div style="margin-top:12px"><button class="btn primary" @click="openList">返回列表</button></div>
+    </div>
+
     <!-- 底部对比入口（全端） -->
     <div class="compare-dock" v-if="(view === 'list' || view === 'detail') && compareList.length">
       <div class="dock-info">
@@ -223,6 +229,10 @@ function trackCleanup(remove) { _cleanup.push(remove) }
 
 onMounted(() => {
   applyTheme(theme.value)
+  // 手动接管滚动恢复:Chrome 默认按历史条目记录的位置恢复,
+  // 而进详情前应用已把列表滚到顶部 → 浏览器返回时它会把列表也恢复到 0,
+  // 覆盖我们在 restoreStateFromHash 里的恢复逻辑。交给应用自己管,两条返回路径才一致。
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
   // 用户未手动选择时，跟随系统明暗切换
   const onSystemThemeChange = (e) => {
     if (!localStorage.getItem('ps-theme')) {
