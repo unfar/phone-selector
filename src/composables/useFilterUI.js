@@ -9,7 +9,7 @@ import { computed, reactive, ref, watch } from 'vue'
 import {
   searchQuery, sortKeys, selectedBrands, selectedScreen, selectedCpu, selectedTags,
   selectedScreenSizes, selectedProtocols, priceMin, priceMax, sliderMaxPrice,
-  showFavoritesOnly, updateHash,
+  updateHash,
 } from './useApp.js'
 
 export const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
@@ -17,7 +17,7 @@ export const priceActive = computed(() => priceMin.value > 0 || priceMax.value <
 export const hasFilters = computed(() => !!(
   searchQuery.value || selectedBrands.value.size || selectedScreen.value || selectedCpu.value.size ||
   selectedTags.value.size || selectedScreenSizes.value.size || selectedProtocols.value.size ||
-  priceActive.value || showFavoritesOnly.value
+  priceActive.value
 ))
 
 /** 抽屉开合（页头入口 / FAB / Esc 都操作它） */
@@ -207,7 +207,6 @@ export function selectScreen(s) {
 export const activePills = computed(() => {
   const out = []
   if (searchQuery.value) out.push({ label: '🔍 ' + searchQuery.value, clear: clearSearch })
-  if (showFavoritesOnly.value) out.push({ label: '★ 仅看收藏', clear: () => { showFavoritesOnly.value = false; updateHash() } })
   selectedBrands.value.forEach(b => out.push({ label: b, clear: () => { selectedBrands.value.delete(b); updateHash() } }))
   if (selectedScreen.value) out.push({ label: selectedScreen.value, clear: () => { selectedScreen.value = null; updateHash() } })
   selectedCpu.value.forEach(c => out.push({ label: c, clear: () => { selectedCpu.value.delete(c); updateHash() } }))
@@ -231,6 +230,5 @@ export const activeFilterCount = computed(() => {
   if (selectedTags.value.size) n++
   if (selectedProtocols.value.size) n++
   if (selectedScreenSizes.value.size) n++
-  if (showFavoritesOnly.value) n++
   return n || ''
 })

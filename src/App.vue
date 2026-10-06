@@ -72,12 +72,8 @@
           <div style="margin-top:12px"><button class="btn primary" @click="reloadData">重新加载</button></div>
         </div>
         <div v-else-if="!sortedPhones.length" class="empty">
-          <div class="big">{{ showFavoritesOnly ? '⭐' : '😕' }}</div>
-          <template v-if="showFavoritesOnly">
-            {{ favorites.length ? '收藏列表中没有符合条件的机型' : '还没有收藏任何机型' }}
-            <div style="margin-top:10px;font-size:.85rem;color:var(--muted)">在卡片或详情页点击 ☆ 即可收藏心仪机型</div>
-          </template>
-          <template v-else>没有符合条件的机型</template>
+          <div class="big">😕</div>
+          没有符合条件的机型
         </div>
 
         <!-- cards -->
@@ -96,6 +92,39 @@
     <!-- COMPARE -->
     <CompareView v-else-if="view === 'compare'" />
 
+    <!-- FAVORITES：独立收藏页（不再是列表上的筛选维度） -->
+    <div v-else-if="view === 'favorites'" class="shell">
+      <main class="main">
+        <div class="panel toolbar">
+          <div class="stats">
+            ⭐ 我的收藏 · <b>{{ favoritePhones.length }}</b> 款
+            <span v-if="favorites.length > favoritePhones.length" style="color:var(--muted);font-size:.85rem">
+              （{{ favorites.length - favoritePhones.length }} 款已下线）
+            </span>
+          </div>
+          <div class="toolbar-right">
+            <button
+              v-if="favoritePhones.length"
+              class="btn ghost"
+              :class="{ danger: favClearArmed }"
+              @click="onClearFavorites"
+            >{{ favClearArmed ? '再点一次确认清空' : '清空收藏' }}</button>
+            <button class="btn ghost" @click="openList">去列表看看</button>
+          </div>
+        </div>
+
+        <div v-if="!favoritePhones.length" class="empty">
+          <div class="big">⭐</div>
+          还没有收藏任何机型
+          <div style="margin-top:10px;font-size:.85rem;color:var(--muted)">在卡片或详情页点击 ☆ 即可收藏心仪机型</div>
+          <div style="margin-top:12px"><button class="btn primary" @click="openList">去列表看看</button></div>
+        </div>
+        <div v-else class="grid">
+          <PhoneCard v-for="p in favoritePhones" :key="p.id" :phone="p" />
+        </div>
+      </main>
+    </div>
+
     <!-- 兜底：view 指向详情但机型不存在时，不要白屏（正常流程已由 restoreStateFromHash 回落） -->
     <div v-else class="empty">
       <div class="big">😕</div>该机型不存在或已下线
@@ -103,7 +132,7 @@
     </div>
 
     <!-- 底部对比入口（全端） -->
-    <div class="compare-dock" v-if="(view === 'list' || view === 'detail') && compareList.length">
+    <div class="compare-dock" v-if="(view === 'list' || view === 'detail' || view === 'favorites') && compareList.length">
       <div class="dock-info">
         <strong>已选 {{ compareList.length }} 款</strong>
         <span>最多 4 款</span>
@@ -146,7 +175,8 @@ import CompareView from './components/CompareView.vue'
 import {
   phones, loading, error, setPhones, view, viewMode, searchQuery,
   sortedPhones, resultCount, detailPhone, compareList, openList, openCompare,
-  clearCompare, restoreStateFromHash, updateHash, showFavoritesOnly, favorites,
+  clearCompare, restoreStateFromHash, updateHash, favorites, favoritePhones,
+  clearFavorites,
 } from './composables/useApp.js'
 import {
   showFilterDrawer, activeFilterCount, hasFilters, clearSearch,
@@ -163,6 +193,21 @@ function toggleFilterPanel() {
 function onSearchEnter() {
   searchQuery.value = inputText.value
   updateHash()
+}
+
+// ===== 收藏页：清空需二次确认（收藏是用户手工攒的，一次误点就全没了）=====
+const favClearArmed = ref(false)
+let favClearTimer = null
+function onClearFavorites() {
+  if (!favClearArmed.value) {
+    favClearArmed.value = true
+    clearTimeout(favClearTimer)
+    favClearTimer = setTimeout(() => { favClearArmed.value = false }, 3000)
+    return
+  }
+  clearTimeout(favClearTimer)
+  favClearArmed.value = false
+  clearFavorites()
 }
 
 const dataDate = computed(() => {

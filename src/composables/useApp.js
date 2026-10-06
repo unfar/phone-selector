@@ -6,7 +6,7 @@ export const phones = ref([])
 export const loading = ref(true)
 export const error = ref(null)
 
-// view: list | detail | compare
+// view: list | detail | compare | favorites
 export const view = ref('list')
 export const viewMode = ref(localStorage.getItem('ps_view_mode') || 'cards') // cards | table
 export const detailId = ref(null)
@@ -47,7 +47,6 @@ function loadFavorites() {
   } catch { return [] }
 }
 export const favorites = ref(loadFavorites())
-export const showFavoritesOnly = ref(false)
 function saveFavorites() {
   localStorage.setItem(FAV_KEY, JSON.stringify(favorites.value))
 }
@@ -119,10 +118,18 @@ export function openList() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
     return
   }
-  // 从详情页返回时,按原路退回:compare→detail→list 的链路应回到上一层视图
+  // 从详情页返回时,按原路退回:compare→detail→list / favorites→detail 的链路应回到上一层视图
   // (此前一律回 list,从对比页钻进详情再返回会跳到列表,对比上下文丢失)
   if (view.value === 'detail' && lastView === 'compare') {
     view.value = 'compare'
+    detailId.value = null
+    window.scrollTo({ top: 0, behavior: 'instant' })
+    updateHash('push')
+    return
+  }
+  // 从收藏页点进详情再返回,应回到收藏页(而不是列表),否则用户的收藏上下文丢失
+  if (view.value === 'detail' && lastView === 'favorites') {
+    view.value = 'favorites'
     detailId.value = null
     window.scrollTo({ top: 0, behavior: 'instant' })
     updateHash('push')
@@ -144,6 +151,20 @@ export function openCompare() {
   if (view.value === 'list') savedListScroll = window.scrollY
   lastView = view.value
   view.value = 'compare'
+  window.scrollTo({ top: 0, behavior: 'instant' })
+  updateHash('push')
+}
+
+/**
+ * 收藏独立页:收藏不再是列表上的一个筛选维度(showFavoritesOnly 已移除),
+ * 而是和 list/detail/compare 平级的第四个视图。参考 PhoneArena 等竞品的「我的对比」页,
+ * 收藏页展示全部收藏机型(不受列表筛选条件影响),点卡片照常进详情。
+ */
+export function openFavorites() {
+  if (view.value === 'favorites') return
+  lastView = view.value
+  if (view.value === 'list') savedListScroll = window.scrollY
+  view.value = 'favorites'
   window.scrollTo({ top: 0, behavior: 'instant' })
   updateHash('push')
 }
@@ -298,7 +319,6 @@ function matchesSearch(p, rawQuery) {
 }
 
 export function matchesFilters(p) {
-  if (showFavoritesOnly.value && !isFavorite(p.id)) return false
   if (searchQuery.value) {
     if (!matchesSearch(p, searchQuery.value)) return false
   }
@@ -447,6 +467,11 @@ export function nextDetail() {
   if (pn.next) openDetail(pn.next.id)
 }
 export const comparePhones = computed(() => compareList.value.map(id => phones.value.find(p => p.id === id)).filter(Boolean))
+/** 收藏页数据:全部收藏机型(跳过已下线的),沿用当前排序链 */
+export const favoritePhones = computed(() => {
+  const fav = new Set(favorites.value.map(String))
+  return sortPhones(phones.value.filter(p => fav.has(String(p.id))))
+})
 
 export function clearAllFilters() {
   selectedBrands.value.clear()
@@ -458,8 +483,6 @@ export function clearAllFilters() {
   priceMin.value = 0
   priceMax.value = sliderMaxPrice.value
   searchQuery.value = ''
-  // 收藏也是筛选维度:不清掉它,「全部清空」之后列表会莫名仍然是空的
-  showFavoritesOnly.value = false
   updateHash()
 }
 
@@ -535,7 +558,7 @@ export function restoreStateFromHash() {
   // 对比上限 4 款:URL 可能被手改或被旧的分享链接塞进更多,恢复时同样要收敛
   if (cmp) compareList.value = cmp.split(',').filter(Boolean).slice(0, 4)
   const id = params.get('id'); if (id) detailId.value = id
-  const v = params.get('view'); if (v === 'detail' || v === 'compare' || v === 'list') view.value = v; else view.value = 'list'
+  const v = params.get('view'); if (v === 'detail' || v === 'compare' || v === 'list' || v === 'favorites') view.value = v; else view.value = 'list'
   // 兜底:view=detail 但机型不存在(改过 id / 机型下线 / 旧分享链接)→ 回落列表并提示,
   // 否则 App.vue 的三个 v-if 分支全不匹配,整页只剩页头页脚(白屏)。
   if (view.value === 'detail' && phones.value.length && !detailPhone.value) {

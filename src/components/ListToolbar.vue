@@ -5,7 +5,7 @@
       <template v-else>共 <b>{{ resultCount }}</b> 款机型</template>
     </div>
     <div class="toolbar-right">
-      <button class="sort-btn fav-toggle" :class="{ on: showFavoritesOnly }" @click="showFavoritesOnly = !showFavoritesOnly" :title="showFavoritesOnly ? '显示全部' : '只看收藏'">
+      <button class="sort-btn fav-toggle" @click="openFavorites" :title="favorites.length ? `查看我的收藏 · ${favorites.length} 款` : '查看我的收藏（还没有收藏机型）'">
         ★ 收藏{{ favorites.length ? `(${favorites.length})` : '' }}
       </button>
       <div class="seg">
@@ -55,7 +55,7 @@
 import { computed } from 'vue'
 import {
   phones, viewMode, sortKeys, resultCount, setViewMode, clearAllFilters,
-  favorites, showFavoritesOnly,
+  favorites, openFavorites,
 } from '../composables/useApp.js'
 import {
   hasFilters, activePills, setSort, removeSort, resetSort, onMoreSort, moreSortValue,
