@@ -13,19 +13,25 @@
         <button class="btn fav-btn" :class="{ on: isFavorite(detailPhone.id) }" @click="toggleFavorite(detailPhone.id)">
           {{ isFavorite(detailPhone.id) ? '★ 已收藏' : '☆ 收藏' }}
         </button>
-        <button class="btn primary" @click="toggleCompare(detailPhone.id)">
-          {{ isCompared(detailPhone.id) ? '已加入对比' : '+ 加入对比' }}
+        <button
+          class="btn primary"
+          :disabled="compareFull"
+          :aria-pressed="isCompared(detailPhone.id)"
+          :title="compareFull ? '对比栏已满 4 款，请先移除一款' : (isCompared(detailPhone.id) ? '从对比中移除' : '加入对比')"
+          @click="toggleCompare(detailPhone.id)"
+        >
+          {{ detailCompareText }}
         </button>
         <button class="btn" @click="openCompare" v-if="compareList.length >= 2">去对比页</button>
         <button class="btn" @click="copyShareLink">🔗 分享</button>
       </div>
       <div class="detail-nav" v-if="prevNextPhones.prev || prevNextPhones.next">
         <button class="btn ghost" :disabled="!prevNextPhones.prev" @click="prevDetail" title="上一款">
-          ← {{ prevNextPhones.prev?.model || '—' }}
+          ← {{ prevLabel }}
         </button>
         <span class="nav-pos">{{ navPos }} / {{ resultCount }}</span>
         <button class="btn ghost" :disabled="!prevNextPhones.next" @click="nextDetail" title="下一款">
-          {{ prevNextPhones.next?.model || '—' }} →
+          {{ nextLabel }} →
         </button>
       </div>
     </section>
@@ -171,4 +177,14 @@ const navPos = computed(() => {
   const idx = sortedPhones.value.findIndex(p => p.id === detailPhone.value?.id)
   return idx >= 0 ? idx + 1 : 0
 })
+/** 对比上限 4 款：本机未入选且已满 → 禁用按钮（与卡片/表格保持一致） */
+const compareFull = computed(() => compareList.value.length >= 4 && !isCompared(detailPhone.value?.id))
+const detailCompareText = computed(() => {
+  if (isCompared(detailPhone.value?.id)) return '已加入对比'
+  return compareFull.value ? '已满 4 款' : '+ 加入对比'
+})
+/** 上/下一款用展示名（getDisplayName），与卡片、标题保持一致；
+ *  此前直接用 model，会出现同一页里「HONOR X70 Pro Max」和「荣耀X80 Pro Max」两种写法 */
+const prevLabel = computed(() => prevNextPhones.value.prev ? cardBrief(prevNextPhones.value.prev).name : '—')
+const nextLabel = computed(() => prevNextPhones.value.next ? cardBrief(prevNextPhones.value.next).name : '—')
 </script>
