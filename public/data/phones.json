@@ -24616,5 +24616,49 @@
   "charge_protocols_confidence": "high",
   "release_note": "10-15 14:30 发布,18:00 现货开售",
   "completeness_score": 94
+ },
+ {
+  "id": 463,
+  "brand": "Huawei",
+  "model": "HUAWEI Pura 90 Plus",
+  "processor": "麒麟9025",
+  "screen_size": 6.8,
+  "refresh_hz": 120,
+  "screen_type": "LTPO OLED",
+  "resolution": "2848×1276",
+  "ram": "12GB",
+  "storage": "256GB/512GB/1TB",
+  "ram_rom": "12GB+256GB/12GB+512GB/12GB+1TB",
+  "screen_form": "曲面屏",
+  "os": "HarmonyOS 7.0",
+  "screen_detail": "6.8\" 2848×1276 1.5K+ LTPO OLED 120Hz 等深四曲屏",
+  "camera_desc": "50MP 1英寸 RYYB 可变光圈主摄",
+  "camera_rear": "50MP 1\" RYYB 可变光圈主摄",
+  "detailed_camera": "主摄: 50MP 1英寸 RYYB 可变光圈(其余镜头待发布会)",
+  "camera_main_mp": 50,
+  "camera_main_size": "1\"",
+  "camera_main_aperture": "可变光圈",
+  "features": [
+   "NFC",
+   "红外遥控"
+  ],
+  "release_date": "2026-10-28",
+  "date_precision": "day",
+  "status": "unreleased",
+  "price": null,
+  "price_min": null,
+  "price_max": null,
+  "price_note": "10-23 10:08 已开启预订,10-28 14:30 发布会公布价格;参数为用户提供口径,待发布会与官网参数页核验",
+  "source_url": "https://www.ithome.com/1/016/786.htm",
+  "verified_at": "2026-10-23",
+  "has_nfc": true,
+  "has_ir": true,
+  "nfc": true,
+  "ir": true,
+  "tags": [
+   "NFC",
+   "红外"
+  ],
+  "completeness_score": 56
  }
 ]
