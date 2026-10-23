@@ -94,8 +94,18 @@ export function getSeriesName(model) {
 
 export function simplifyCapacity(s) {
   if (!s) return ''
-  const m = s.match(/(\d+GB(?:\s*\/\s*\d+GB)?)/)
-  return m ? m[1] : s
+  const str = String(s).trim()
+  const cap = '\\d+(?:\\.\\d+)?(?:GB|TB)'
+  // RAM+ROM 组合档位（12GB+256GB/…）：内存那一栏只显示 RAM，存储那一栏要的是各档 ROM
+  if (str.includes('+')) {
+    const roms = [...str.matchAll(new RegExp('\\+\\s*(' + cap + ')', 'g'))].map((m) => m[1])
+    if (roms.length) return [...new Set(roms)].join('/')
+  }
+  // 只取开头连续的容量列表，后面的 LPDDR5X / UFS4.0 之类标注丢掉；
+  // 旧实现固定最多匹配两个容量，会把 1TB / 24GB 这类最高档吞掉。
+  const run = str.match(new RegExp('^' + cap + '(?:\\s*[/、]\\s*' + cap + ')*'))
+  if (!run) return str
+  return run[0].split(/[/、]/).map((t) => t.trim()).join('/')
 }
 
 /**
