@@ -66,8 +66,9 @@
           <div v-if="!visibleCompareRows.length" style="text-align:center;padding:32px;color:var(--muted)">当前没有差异项</div>
         </div>
 
-        <!-- 移动端: 竖排卡片 -->
-        <div class="compare-cards mobile-only">
+        <!-- 移动端: 竖排卡片（只在窄屏渲染；之前仅靠 CSS，被 .compare-cards{display:grid}
+             覆盖后桌面端会重复渲染一整份移动端卡片，这里用 v-if 彻底从 DOM 移除） -->
+        <div class="compare-cards mobile-only" v-if="isNarrow">
           <div
             v-for="row in visibleCompareRows"
             :key="row.l"
@@ -106,5 +107,6 @@ import {
   openList, openDetail, toggleCompare, clearCompare,
 } from '../composables/useApp.js'
 import { compareDiffOnly, visibleCompareRows, diffCount } from '../composables/useCompare.js'
+import { isNarrow } from '../composables/useFilterUI.js'
 import { copyShareLink } from '../composables/useShare.js'
 </script>

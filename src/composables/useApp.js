@@ -1,5 +1,5 @@
 import { ref, computed, nextTick } from 'vue'
-import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges } from '../utils.js'
+import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges, normalizeScreenForm, normalizeScreenFormValue, screenFormLabel } from '../utils.js'
 import { PINNED_CPU, EXCLUDE_CPU_RE, EXCLUDE_CPU_EXACT, CPU_VENDORS, cpuVendorOrder, buildCpuTagOrder } from '../cpuTags.config.js'
 
 export const phones = ref([])
@@ -220,33 +220,26 @@ const BRAND_ALIASES = {
   oneplus: ['oneplus', '一加'],
   realme: ['realme', '真我'],
   samsung: ['samsung', '三星', 'galaxy'],
-  redmagic: ['redmagic', '红魔', 'nubia', '努比亚'],
+  // 数据里 NUBIA 的红魔机型 model 是 "REDMAGIC 11S Pro"，中文品牌别名必须成组存在
+  nubia: ['nubia', '努比亚', '红魔', 'redmagic'],
+  motorola: ['motorola', '摩托罗拉', 'moto'],
+  lenovo: ['lenovo', '联想', '拯救者'],
 }
 
+/**
+ * 品牌别名：数据 brand 大小写不统一（NUBIA / HONOR / REDMI / OnePlus / Motorola…），
+ * 统一小写后先精确匹配，再按包含关系兜底。
+ * ⚠️ 之前这里维护了一份与 BRAND_ALIASES 重复的 map，且 nubia/motorola/lenovo 缺失，
+ *    导致中文搜索「红魔 / 努比亚 / 摩托罗拉 / 联想」命中 0 条。
+ */
 function brandAliasTokens(brand) {
   const key = String(brand || '').toLowerCase()
-  // exact map first
+  if (!key) return []
   if (BRAND_ALIASES[key]) return BRAND_ALIASES[key]
-  // common brand casing in data: HONOR / REDMI / OnePlus / RedMagic
-  const map = {
-    honor: BRAND_ALIASES.honor,
-    redmi: BRAND_ALIASES.redmi,
-    oneplus: BRAND_ALIASES.oneplus,
-    redmagic: BRAND_ALIASES.redmagic,
-    huawei: BRAND_ALIASES.huawei,
-    xiaomi: BRAND_ALIASES.xiaomi,
-    samsung: BRAND_ALIASES.samsung,
-    apple: BRAND_ALIASES.apple,
-    oppo: BRAND_ALIASES.oppo,
-    vivo: BRAND_ALIASES.vivo,
-    iqoo: BRAND_ALIASES.iqoo,
-    realme: BRAND_ALIASES.realme,
-  }
-  if (map[key]) return map[key]
   for (const [k, aliases] of Object.entries(BRAND_ALIASES)) {
-    if (key.includes(k)) return aliases
+    if (key.includes(k) || aliases.some(a => a.toLowerCase() === key)) return aliases
   }
-  return [key].filter(Boolean)
+  return [key]
 }
 
 /** 机型搜索：支持空格差异、中英文品牌别名、多关键词 AND */
@@ -324,8 +317,8 @@ export function matchesFilters(p) {
   }
   if (selectedBrands.value.size && !selectedBrands.value.has(p.brand)) return false
   if (selectedScreen.value) {
-    const screenVal = selectedScreen.value.replace(/^\S+\s*/, '')
-    if (p.screen_form !== screenVal) return false
+    // 稳定 value（flat/curved/foldable）与归一化后的数据值比较，避免「折叠内折/微曲屏/缺失」漏筛
+    if (normalizeScreenForm(p) !== selectedScreen.value) return false
   }
   if (selectedCpu.value.size) {
     let ok = false
@@ -370,16 +363,31 @@ export function matchesFilters(p) {
 
 export const TODAY = new Date().toISOString().slice(0, 10)
 
+/**
+ * 数据侧约定：status === 'unreleased' 即「未发布/未开售」。
+ * 这类机型的 release_date 可能已经过去（如延期发布），仅靠日期判断会误当成已发布。
+ */
+export function isUnreleased(p) {
+  return p?.status === 'unreleased'
+}
+
 export function isFuturePhone(p) {
-  return p.release_date && p.release_date.length >= 10 && p.release_date > TODAY
+  if (isUnreleased(p)) return true
+  return !!(p?.release_date && p.release_date.length >= 10 && p.release_date > TODAY)
 }
 
 /**
- * 价格展示串：未发布机型显示发布月日，无价机型显示「待公布」。
+ * 价格展示串：
+ *  - 未发布（status=unreleased）：有价显示价格，无价显示「待公布」；
+ *  - 发布日期在未来的：显示发布月日（保留原行为）；
+ *  - 其余：有价显示价格，无价但有 price_note 显示「待公布」，否则「—」。
  * 卡片 / 表格 / 详情 / 对比 / 竞品条都要用，原先只写在 App.vue 里，
  * 拆组件后收进 store 供各处共享。
  */
 export function priceText(p) {
+  if (isUnreleased(p)) {
+    return p.price ? '¥' + p.price : '待公布'
+  }
   if (isFuturePhone(p)) {
     const [, m, d] = p.release_date.split('-')
     return `${m}/${d}`
@@ -511,6 +519,7 @@ export function updateHash(mode = 'replace') {
     if (mode === 'push') history.pushState(null, '', url)
     else history.replaceState(null, '', url)
   }
+  syncDocumentTitle()
 }
 
 export function restoreStateFromHash() {
@@ -530,12 +539,14 @@ export function restoreStateFromHash() {
   if (!hash) {
     view.value = 'list'
     detailId.value = null
+    syncDocumentTitle()
     restoreListScrollIfReturning(prevView)
     return
   }
   const params = new URLSearchParams(hash)
   const brands = params.get('brands'); if (brands) brands.split(',').forEach(b => selectedBrands.value.add(b))
-  selectedScreen.value = params.get('screen') || null
+  // screen 参数现在存稳定 value（flat/curved/foldable）；旧链接里的 emoji/中文值仍能还原
+  selectedScreen.value = normalizeScreenFormValue(params.get('screen'))
   const cpu = params.get('cpu'); if (cpu) cpu.split(',').forEach(c => selectedCpu.value.add(c))
   const tags = params.get('tags'); if (tags) tags.split(',').forEach(t => selectedTags.value.add(t))
   const ss = params.get('screenSize'); if (ss) ss.split(',').forEach(s => selectedScreenSizes.value.add(s))
@@ -553,7 +564,9 @@ export function restoreStateFromHash() {
     : []
   if (!sortKeys.value.length) sortKeys.value = ['newest']
   searchQuery.value = params.get('q') || ''
-  viewMode.value = params.get('mode') || viewMode.value
+  // mode 只接受已知值：旧链接/手改 URL 里的脏值不再写回（此前 mode=garbage 会渲染成表格并回写脏值）
+  const modeParam = params.get('mode')
+  if (modeParam === 'cards' || modeParam === 'table') viewMode.value = modeParam
   const cmp = params.get('cmp')
   // 对比上限 4 款:URL 可能被手改或被旧的分享链接塞进更多,恢复时同样要收敛
   if (cmp) compareList.value = cmp.split(',').filter(Boolean).slice(0, 4)
@@ -567,6 +580,7 @@ export function restoreStateFromHash() {
     detailId.value = null
     updateHash()
   }
+  syncDocumentTitle()
   restoreListScrollIfReturning(prevView)
 }
 
@@ -591,6 +605,24 @@ function toast(msg) {
 }
 
 /**
+ * 浏览器标签页 / 分享标题随视图变化。
+ * 之前 document.title 永远是 index.html 里的站点名，详情页分享出去看不到机型名。
+ * 依赖 detailPhone / view，只在浏览器运行时调用（无 SSR）。
+ */
+function syncDocumentTitle() {
+  if (typeof document === 'undefined') return
+  let title = '机选 · 智能手机选购助手'
+  if (view.value === 'detail' && detailPhone.value) {
+    title = `${getDisplayName(detailPhone.value)} · 机选`
+  } else if (view.value === 'compare') {
+    title = '规格对比 · 机选'
+  } else if (view.value === 'favorites') {
+    title = '我的收藏 · 机选'
+  }
+  if (document.title !== title) document.title = title
+}
+
+/**
  * cardBrief 结果缓存。
  * 列表里每张卡片要读 6 个字段（name/charge/screen/ip/cam/score），
  * 每次都会重跑 getCameraSpecs + getIpRating。结果只依赖 phone 对象本身，
@@ -612,7 +644,7 @@ export function cardBrief(p) {
   const charge = []
   if (p.charging_w) charge.push(p.charging_w + 'W')
   if (p.wireless_charging_w) charge.push(p.wireless_charging_w + 'W无线')
-  const screen = p.screen_form === '折叠屏'
+  const screen = normalizeScreenForm(p) === 'foldable'
     ? ((p.screen_unfolded?.size || p.screen_size || '') + '″折叠')
     : [p.screen_size ? p.screen_size + '″' : '', p.refresh_hz ? p.refresh_hz + 'Hz' : ''].filter(Boolean).join(' ')
   const cams = getCameraSpecs(p)
@@ -634,4 +666,4 @@ export function cardBrief(p) {
   return brief
 }
 
-export { featureTags, protocolTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay }
+export { featureTags, protocolTags, screenTypes, screenSizeRanges, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, normalizeScreenForm, screenFormLabel }

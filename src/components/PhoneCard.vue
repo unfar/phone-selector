@@ -9,7 +9,7 @@
         <span class="price" :class="{ future: isFuture(phone) }">{{ priceText(phone) }}</span>
       </div>
       <div class="name">{{ b.name }}</div>
-      <div class="meta" v-if="phone.release_date">{{ phone.release_date }} 发布</div>
+      <div class="meta" v-if="phone.release_date">{{ metaText }}</div>
       <div class="future-badge" v-if="isFuture(phone)">未发布</div>
     </div>
     <div class="card-body">
@@ -51,13 +51,27 @@
 <script setup>
 import { computed } from 'vue'
 import {
-  cardBrief, priceText, isFuturePhone as isFuture, brandColor, compareList,
+  cardBrief, priceText, isFuturePhone as isFuture, isUnreleased, TODAY, brandColor, compareList,
   openDetail, toggleCompare, isCompared, toggleFavorite, isFavorite,
 } from '../composables/useApp.js'
 
 const props = defineProps({ phone: { type: Object, required: true } })
 // cardBrief 内部有 WeakMap 缓存，重复取字段不会重复解析影像串
 const b = computed(() => cardBrief(props.phone))
+
+/**
+ * 发布日期文案：
+ *  - 未发布且日期未到 → 「预计 YYYY-MM-DD 发布」
+ *  - 未发布但日期已过（延期发布）→ 「官宣 YYYY-MM-DD」，避免出现「预计」过去的日期
+ *  - 已发布 → 「YYYY-MM-DD 发布」
+ */
+const metaText = computed(() => {
+  const d = props.phone.release_date
+  if (isUnreleased(props.phone)) {
+    return d > TODAY ? `预计 ${d} 发布` : `官宣 ${d}`
+  }
+  return `${isFuture(props.phone) ? '预计 ' : ''}${d} 发布`
+})
 
 const compareFull = computed(() => compareList.value.length >= 4 && !isCompared(props.phone.id))
 const compareBtnText = computed(() => {

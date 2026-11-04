@@ -5,7 +5,8 @@
       <h2>{{ b.name }}</h2>
       <div class="price-lg" :class="{ future: isFuture(detailPhone) }">{{ priceText(detailPhone) }}</div>
       <div class="meta" style="margin-top:8px">
-        <span v-if="isFuture(detailPhone)" class="future-inline">⚠ {{ detailPhone.release_date }} 发布,尚未开售 · 官方未公布价格</span>
+        <span v-if="isUnreleased(detailPhone)" class="future-inline" :title="detailPhone.price_note || ''">⚠ 尚未开售 · {{ detailPhone.price_note || ('预计 ' + (detailPhone.release_date || '—') + ' 发布，官方未公布价格') }}</span>
+        <span v-else-if="isFuture(detailPhone)" class="future-inline">⚠ {{ detailPhone.release_date }} 发布,尚未开售 · 官方未公布价格</span>
         <template v-else-if="!detailPhone.price && detailPhone.price_note"><span class="future-inline">⚠ 官方未公布价格:{{ detailPhone.price_note }}</span></template>
         <template v-else>{{ detailPhone.release_date || '—' }} 发布 · {{ detailPhone.os || '系统待补' }}</template>
       </div>
@@ -162,7 +163,7 @@
 import { computed } from 'vue'
 import {
   detailPhone, sortedPhones, resultCount, compareList,
-  cardBrief, priceText, isFuturePhone as isFuture, brandColor,
+  cardBrief, priceText, isFuturePhone as isFuture, isUnreleased, brandColor,
   openDetail, openCompare, toggleCompare, isCompared, toggleFavorite, isFavorite,
   prevNextPhones, prevDetail, nextDetail, rivalPhones,
   getFoldableScreenDisplay, getCameraModules,

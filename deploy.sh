@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# deploy.sh — 一键构建 + 校验 + 发布脚本
+# deploy.sh — 本地一键发布：数据校验 → 构建 → 推送 main
+# 推送后由 GitHub Actions 自动构建并发布到 GitHub Pages（见 .github/workflows/deploy.yml）
+#
+# 用法：./deploy.sh "feat(data): 新增 XXX（2026-XX-XX 发布）"
 
 set -euo pipefail
 
@@ -13,30 +16,29 @@ cd "$PROJECT_ROOT"
 
 COMMIT_MSG="${1:-feat: update phone data and rebuild site $(date +'%Y-%m-%d')}"
 
-echo -e "${YELLOW}📦 步骤 1: 数据校验...${NC}"
-if ! python3 data_validator.py; then
-    echo -e "${RED}❌ 数据校验失败，终止部署${NC}"
+echo -e "${YELLOW}📦 步骤 1/3: 数据校验...${NC}"
+# 注意：编辑数据后请先跑 npm run sync，把 data/phones.json 同步到 public/data/phones.json
+if ! python3 scripts/data_quality.py validate; then
+    echo -e "${RED}❌ 数据校验未通过，终止发布${NC}"
     exit 1
 fi
 echo -e "${GREEN}✅ 数据校验通过${NC}"
 
-echo -e "${YELLOW}📦 步骤 2: 参数格式校验...${NC}"
-if ! python3 parameter_validator.py; then
-    echo -e "${RED}❌ 参数格式校验失败，终止部署${NC}"
-    exit 1
-fi
-echo -e "${GREEN}✅ 参数格式校验通过${NC}"
-
-echo -e "${YELLOW}📦 步骤 3: 前端构建...${NC}"
+echo -e "${YELLOW}📦 步骤 2/3: 前端构建...${NC}"
 if ! npm run build; then
-    echo -e "${RED}❌ 前端构建失败，终止部署${NC}"
+    echo -e "${RED}❌ 前端构建失败，终止发布${NC}"
     exit 1
 fi
-echo -e "${GREEN}✅ 前端构建成功${NC}"
+echo -e "${GREEN}✅ 构建成功${NC}"
 
-echo -e "${YELLOW}📦 步骤 4: Git 推送...${NC}"
+echo -e "${YELLOW}📦 步骤 3/3: 提交并推送 main...${NC}"
 git add -A
-git commit -m "$COMMIT_MSG" || echo -e "${YELLOW}⚠️  无新更改${NC}"
-git push
+if git diff --cached --quiet; then
+    echo -e "${YELLOW}⚠️  无改动可提交，跳过推送${NC}"
+else
+    git commit -m "$COMMIT_MSG"
+    git push origin main
+fi
 
-echo -e "${GREEN}🎉 部署完成！请检查 https://unfar.github.io/phone-selector/${NC}"
+echo -e "${GREEN}🎉 已推送，GitHub Actions 将自动部署（约 1 分钟）${NC}"
+echo -e "${GREEN}   线上地址: https://unfar.github.io/phone-selector/${NC}"

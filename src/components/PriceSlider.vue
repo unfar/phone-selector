@@ -2,8 +2,16 @@
   <div class="price-slider">
     <div class="price-slider-track">
       <div class="price-slider-fill" :style="fillStyle"></div>
-      <input type="range" class="ps-range ps-min" :min="0" :max="sliderMaxPrice" step="100" v-model.number="minVal" @input="onMinInput">
-      <input type="range" class="ps-range ps-max" :min="0" :max="sliderMaxPrice" step="100" v-model.number="maxVal" @input="onMaxInput">
+      <input
+        type="range" class="ps-range ps-min" :min="0" :max="sliderMaxPrice" step="100"
+        v-model.number="minVal" @input="onMinInput"
+        aria-label="最低价格" :aria-valuetext="minVal > 0 ? '¥' + minVal : '不限'"
+      >
+      <input
+        type="range" class="ps-range ps-max" :min="0" :max="sliderMaxPrice" step="100"
+        v-model.number="maxVal" @input="onMaxInput"
+        aria-label="最高价格" :aria-valuetext="maxVal < sliderMaxPrice ? '¥' + maxVal : '不限'"
+      >
     </div>
     <div class="price-slider-values">
       <span class="pv-item" :class="{ on: minVal > 0 }">{{ minVal > 0 ? '¥' + minVal : '不限' }}</span>

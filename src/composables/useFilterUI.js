@@ -9,7 +9,7 @@ import { computed, reactive, ref, watch } from 'vue'
 import {
   searchQuery, sortKeys, selectedBrands, selectedScreen, selectedCpu, selectedTags,
   selectedScreenSizes, selectedProtocols, priceMin, priceMax, sliderMaxPrice,
-  updateHash,
+  updateHash, screenFormLabel,
 } from './useApp.js'
 
 export const priceActive = computed(() => priceMin.value > 0 || priceMax.value < sliderMaxPrice.value)
@@ -199,6 +199,7 @@ export function toggleProtocol(t) { toggleSet(selectedProtocols, t) }
 export function toggleScreenSize(r) { toggleSet(selectedScreenSizes, r) }
 
 export function selectScreen(s) {
+  // s 为稳定 value（flat/curved/foldable），URL 里不再存 emoji 展示名
   selectedScreen.value = selectedScreen.value === s ? null : s
   updateHash()
 }
@@ -208,7 +209,7 @@ export const activePills = computed(() => {
   const out = []
   if (searchQuery.value) out.push({ label: '🔍 ' + searchQuery.value, clear: clearSearch })
   selectedBrands.value.forEach(b => out.push({ label: b, clear: () => { selectedBrands.value.delete(b); updateHash() } }))
-  if (selectedScreen.value) out.push({ label: selectedScreen.value, clear: () => { selectedScreen.value = null; updateHash() } })
+  if (selectedScreen.value) out.push({ label: screenFormLabel(selectedScreen.value), clear: () => { selectedScreen.value = null; updateHash() } })
   selectedCpu.value.forEach(c => out.push({ label: c, clear: () => { selectedCpu.value.delete(c); updateHash() } }))
   selectedTags.value.forEach(t => out.push({ label: t, clear: () => { selectedTags.value.delete(t); updateHash() } }))
   selectedProtocols.value.forEach(t => out.push({ label: '🔌 ' + t, clear: () => { selectedProtocols.value.delete(t); updateHash() } }))

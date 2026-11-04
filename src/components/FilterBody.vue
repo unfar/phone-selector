@@ -19,7 +19,7 @@
         屏幕形态 <span v-if="selectedScreen" class="count">(1)</span>
       </button>
       <div class="chips">
-        <button v-for="s in screenTypes" :key="s" class="chip" :class="{ on: selectedScreen === s }" @click="selectScreen(s)" :aria-pressed="selectedScreen === s">{{ s }}</button>
+        <button v-for="s in screenTypes" :key="s.value" class="chip" :class="{ on: selectedScreen === s.value }" @click="selectScreen(s.value)" :aria-pressed="selectedScreen === s.value">{{ s.label }}</button>
       </div>
     </div>
 

@@ -10,6 +10,7 @@ import argparse
 import json
 import re
 import shutil
+import sys
 from collections import Counter
 from copy import deepcopy
 from pathlib import Path
@@ -42,6 +43,17 @@ SENSOR_SPECS = {
     "SC585XS": ("50MP", "1/1.28"),
 }
 
+# 光学尺寸写法归一（OV50H 官方 1/1.3"，历史数据常写 1/1.31"）: 视为等价
+SIZE_EQUIV = {
+    "1/1.3": {"1/1.3", "1/1.31"},
+    "1/1.31": {"1/1.3", "1/1.31"},
+}
+
+
+def sizes_equal(actual: str, expected: str) -> bool:
+    return actual == expected or actual in SIZE_EQUIV.get(expected, set())
+
+
 # 处理器命名统一
 PROC_MAP = [
     (re.compile(r"第五代骁龙8\s*至尊版|骁龙8\s*Elite\s*2|骁龙8\s*Elite2"), "骁龙8 Elite 5"),
@@ -59,7 +71,9 @@ def load_phones(path: Path = DATA) -> list:
 def save_phones(phones: list, path: Path):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
-        json.dump(phones, f, ensure_ascii=False, indent=2)
+        # 与仓库现有 phones.json 的缩进风格保持一致（indent=1），
+        # 否则每次 normalize 都会把整个文件重排，产生淹没真实改动的巨型 diff。
+        json.dump(phones, f, ensure_ascii=False, indent=1)
         f.write("\n")
 
 
@@ -130,13 +144,26 @@ def normalize_processor(proc: str | None) -> str | None:
     return s.strip()
 
 
+def camera_text(p: dict) -> str:
+    """影像描述文本：用于判断是否真有「潜望」长焦。
+
+    has_tele 只表示"有长焦"（含直立长焦），不能直接当潜望标签；
+    潜望标签一律以描述文本里是否出现"潜望"为准。
+    """
+    return " ".join(str(p.get(k) or "") for k in ("detailed_camera", "camera_desc", "camera_rear"))
+
+
+def has_periscope(p: dict) -> bool:
+    return "潜望" in camera_text(p)
+
+
 def rebuild_tags(p: dict) -> list:
     tags = []
     feats = " ".join(str(f) for f in (p.get("features") or []))
     proc = str(p.get("processor") or "")
 
     # 功能标签
-    if p.get("has_tele"):
+    if has_periscope(p):
         tags.append("潜望长焦")
     ww = p.get("wireless_charging_w") or 0
     try:
@@ -283,7 +310,8 @@ def validate(phones: list) -> dict:
 
     for p in phones:
         pid, brand, model = p.get("id"), p.get("brand"), p.get("model")
-        if not p.get("price"):
+        # 未发布机型（status=unreleased）或有 price_note 说明的，价格空属预期，不算错误
+        if not p.get("price") and not (p.get("status") == "unreleased" or p.get("price_note")):
             errors.append(f"[缺失] ID {pid} {brand} {model}: 价格为空")
         if not p.get("processor"):
             errors.append(f"[缺失] ID {pid} {brand} {model}: 处理器为空")
@@ -315,31 +343,36 @@ def validate(phones: list) -> dict:
             warnings.append(f"[标签] ID {pid} {model}: 缺 6500mAh+")
         if ww > 0 and "无线充电" not in tags:
             warnings.append(f"[标签] ID {pid} {model}: 缺 无线充电")
-        if p.get("has_tele") and "潜望长焦" not in tags:
-            warnings.append(f"[标签] ID {pid} {model}: 缺 潜望长焦")
+        # 潜望标签语义 = "是否潜望长焦"，与 has_tele（是否有长焦）解耦
+        if has_periscope(p) and "潜望长焦" not in tags:
+            warnings.append(f"[标签] ID {pid} {model}: 描述含潜望但缺 潜望长焦 标签")
+        if "潜望长焦" in tags and not has_periscope(p):
+            warnings.append(f"[标签] ID {pid} {model}: 有 潜望长焦 标签但描述无潜望")
         if 0 < wt <= 200 and "≤200g" not in tags:
             warnings.append(f"[标签] ID {pid} {model}: 缺 ≤200g")
 
         # 传感器-像素-尺寸一致性检查
-        import re as _re
+        # 按镜头段（先 | 再 +）切分，且只在"该段只含一个已知传感器"时校验，
+        # 避免同一段里多个传感器/多个尺寸互相交叉匹配造成误报（如 Magic7 Pro）。
         dc = p.get("detailed_camera") or ""
-        for sensor, (exp_mp, exp_size) in SENSOR_SPECS.items():
-            if sensor not in dc:
-                continue
-            for seg in dc.split("|"):
-                if sensor not in seg:
+        for seg in dc.split("|"):
+            for chunk in seg.split("+"):
+                sensors = [s for s in SENSOR_SPECS if s in chunk]
+                if len(sensors) != 1:
                     continue
-                mp_m = _re.search(r"(\d+)\s*MP", seg)
+                sensor = sensors[0]
+                exp_mp, exp_size = SENSOR_SPECS[sensor]
+                mp_m = re.search(r"(\d+)\s*MP", chunk)
                 if mp_m:
                     actual = mp_m.group(1)
                     exp = exp_mp.replace("MP", "")
                     if actual != exp and not (exp == "200" and actual == "20000"):
                         if actual not in ("20000",):  # 20000万=2亿
-                            warnings.append(f"[传感器] ID {pid} {model}: {sensor} 像素={actual}MP 应为{exp_mp} → {seg.strip()[:60]}")
-                for sz_m in _re.finditer(r"(1(?:/\d+(?:\.\d+)?)?)\s*[\"”]", seg):
+                            warnings.append(f"[传感器] ID {pid} {model}: {sensor} 像素={actual}MP 应为{exp_mp} → {chunk.strip()[:60]}")
+                for sz_m in re.finditer(r"(1(?:/\d+(?:\.\d+)?)?)\s*[\"”]", chunk):
                     actual_size = sz_m.group(1)
-                    if actual_size != exp_size:
-                        warnings.append(f"[传感器] ID {pid} {model}: {sensor} 尺寸={actual_size} 应为{exp_size} → {seg.strip()[:60]}")
+                    if not sizes_equal(actual_size, exp_size):
+                        warnings.append(f"[传感器] ID {pid} {model}: {sensor} 尺寸={actual_size} 应为{exp_size} → {chunk.strip()[:60]}")
 
     # coverage
     fields = [
@@ -410,9 +443,12 @@ def main():
     args = parser.parse_args()
 
     phones = load_phones()
+    exit_code = 0
     if args.action in ("validate", "all"):
         report = validate(phones)
         print_report(report, "校验（标准化前）" if args.action == "all" else "校验")
+        if args.action == "validate" and report["errors"]:
+            exit_code = 1
 
     if args.action in ("normalize", "all"):
         bak = backup(DATA)
@@ -425,6 +461,11 @@ def main():
         report2 = validate(normalized)
         print_report(report2, "校验（标准化后）")
         print("\n✅ 已写入 data/phones.json 与 public/data/phones.json")
+        if report2["errors"]:
+            exit_code = 1
+
+    # 有 error 时以非 0 退出，便于 CI / 发布脚本做门禁
+    sys.exit(exit_code)
 
 
 if __name__ == "__main__":

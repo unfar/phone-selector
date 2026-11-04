@@ -296,7 +296,10 @@ a{color:inherit}
   border:3px solid var(--accent,var(--accent-mid));box-shadow:0 2px 6px rgba(0,0,0,.22)
 }
 .ps-range:focus{outline:none}
+/* 键盘用户需要可见焦点：之前只有 :focus{outline:none} 且仅 WebKit 有 thumb 阴影，Firefox 完全看不到焦点 */
+.ps-range:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:999px}
 .ps-range:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 4px rgba(13,148,136,.22)}
+.ps-range:focus-visible::-moz-range-thumb{box-shadow:0 0 0 4px rgba(13,148,136,.22)}
 [data-theme="dark"] .ps-range::-webkit-slider-thumb{background:#f9fafb}
 .price-slider-values{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:.82rem}
 .pv-item{font-weight:800;color:var(--muted,#6b7280);background:var(--panel-2,#f3f4f6);border-radius:8px;padding:3px 9px}
@@ -649,7 +652,10 @@ table.compare tr.row-diff td:first-child{color:var(--accent)}
 .chip-actions{display:flex;gap:6px;margin-top:8px}
 .chip-actions .mini-btn{flex:1}
 
-/* mobile compare cards */
+/* mobile compare cards
+   ⚠️ 之前 .compare-cards{display:grid} 写在 .mobile-only{display:none} 之后，
+      同权重后者被覆盖 → 桌面端会同时渲染表格和整份移动端卡片（内容重复、DOM 翻倍）。
+      现在基础态由 .mobile-only 隐藏，只在窄屏媒体查询里用更高权重打开。 */
 .desktop-only{display:block}
 .mobile-only{display:none}
 
@@ -734,7 +740,9 @@ table.compare tr.row-diff td:first-child{color:var(--accent)}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
 
-.compare-cards{display:grid;gap:10px}
+/* 移动端对比卡片：基础态不设 display（否则覆盖 .mobile-only{display:none}），
+   只在窄屏媒体查询（文件底部 @media(max-width:1023px)）里用 .compare-cards.mobile-only 打开。 */
+.compare-cards{gap:10px}
 .compare-card{
   border:1px solid var(--line);border-radius:18px;background:var(--panel-solid);
   overflow:hidden;box-shadow:var(--shadow-sm)
@@ -814,7 +822,9 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
 .fav-toggle:hover{background:#fffbeb;border-color:#fcd34d;color:#92400e}
 [data-theme="dark"] .fav-toggle:hover{background:#451a03;border-color:#92400e;color:#fbbf24}
 
-@media(max-width:960px){
+/* 断点与 JS 的 isNarrow 保持一致（useFilterUI.js 用 max-width:1023px 判定窄屏），
+   避免 961–1023px 出现「app 按窄屏渲染、对比页却显示桌面表格」的形态错位。 */
+@media(max-width:1023px){
   .shell{grid-template-columns:1fr}
   .detail{grid-template-columns:1fr}
   .top{position:static}
@@ -822,9 +832,10 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
   .desktop-only{display:none}
   .mobile-only{display:block}
   .compare-table-wrap.desktop-only{display:none}
+  .compare-cards.mobile-only{display:grid}
 }
 
-@media(min-width:961px){
+@media(min-width:1024px){
   /* PC端 drawer 居中弹出 */
   .filter-overlay{align-items:center}
   .filter-drawer{border-radius:22px;max-height:85vh;animation:fadeIn .25s ease}
@@ -862,8 +873,10 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
   .detail-hero{padding:16px;border-radius:22px}
   .detail-hero h2{font-size:1.35rem}
   .detail-hero .price-lg{font-size:1.25rem}
-  .detail-actions{gap:8px}
-  .detail-actions .btn{flex:1;justify-content:center}
+  /* 操作按钮改 2×2 栅格：之前 4 个按钮挤一行、flex:1 且高度固定 42px，
+     390px 下「收藏/已加入对比/去对比页/分享」会被压成 2–3 行并裁切。 */
+  .detail-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+  .detail-actions .btn{width:100%;min-width:0;height:40px;padding:0 8px;justify-content:center;white-space:nowrap;font-size:.86rem;overflow:hidden;text-overflow:ellipsis}
   .spec-rows{grid-template-columns:1fr}
   .spec-row{padding:11px}
   .cam-module-grid{grid-template-columns:1fr}
@@ -895,6 +908,6 @@ footer{margin-top:30px;text-align:center;color:var(--faint);font-size:.76rem;lin
 }
 .back-top:hover{transform:translateY(-3px)}
 [data-theme="dark"] .back-top{background:var(--panel);color:#5eead4}
-@media(max-width:960px){
+@media(max-width:1023px){
   .back-top{width:40px;height:40px;right:12px;bottom:96px}
 }

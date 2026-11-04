@@ -57,8 +57,59 @@ export const screenSizeRanges = [
   { name: "7.0英寸以上", min: 7.05, max: 99 }
 ]
 
-// 屏幕形态（覆盖数据中全部 screen_form 值）
-export const screenTypes = ['📱 直屏','🔄 折叠屏']
+/**
+ * 屏幕形态归一化。
+ *
+ * 数据里 screen_form 实际出现过：直屏 / 折叠屏 / 微曲屏 / 曲面屏 / 折叠内折 / 缺失。
+ * 之前筛选只有「直屏、折叠屏」两个选项且用严格相等比较，导致：
+ *  - iPhone Duo（折叠内折）、Pocket 70 Pro（缺失）被「折叠屏」漏掉；
+ *  - 曲面屏/微曲屏既不算直屏也不算折叠屏，任何筛选项都命中不了（6 台机型“消失”）。
+ * 现在统一收敛成 flat / curved / foldable 三个稳定值，缺失按直屏处理，保证全覆盖。
+ */
+export function normalizeScreenForm(rawOrPhone) {
+  const raw = rawOrPhone && typeof rawOrPhone === 'object' ? rawOrPhone.screen_form : rawOrPhone
+  const rawStr = String(raw || '').trim()
+  const lower = rawStr.toLowerCase()
+  // 数据里也可能直接写成稳定 value（未来的数据清洗/接口）
+  if (lower === 'flat' || lower === 'curved' || lower === 'foldable') return lower
+  const s = rawStr.replace(/^[^\u4e00-\u9fff]+/, '').trim()
+  if (!s) return 'flat'
+  if (/折叠/.test(s)) return 'foldable'
+  if (/曲面|微曲/.test(s)) return 'curved'
+  if (/直屏|直板/.test(s)) return 'flat'
+  return 'flat'
+}
+
+/**
+ * URL 参数 / 旧链接兼容：把稳定 value、带 emoji 的旧展示名（如「🔄 折叠屏」）、
+ * 中文原文（如「折叠内折」）统一转成稳定 value；识别不了返回 null。
+ * ⚠️ 必须先判断稳定 value 再剥 emoji/非中文前缀 —— 'foldable' 全是拉丁字母，
+ *    先剥前缀会被削成空串（曾导致 `#screen=foldable` 分享链接丢失筛选）。
+ */
+export function normalizeScreenFormValue(raw) {
+  const rawStr = String(raw || '').trim()
+  if (!rawStr) return null
+  const lower = rawStr.toLowerCase()
+  if (lower === 'flat' || lower === 'curved' || lower === 'foldable') return lower
+  const s = rawStr.replace(/^[^\u4e00-\u9fff]+/, '').trim()
+  if (!s) return null
+  if (/折叠/.test(s)) return 'foldable'
+  if (/曲面|微曲/.test(s)) return 'curved'
+  if (/直屏|直板/.test(s)) return 'flat'
+  return null
+}
+
+/** 屏幕形态筛选项：value 存 URL（稳定、无 emoji），label 只用于展示 */
+export const screenTypes = [
+  { value: 'flat', label: '📱 直屏' },
+  { value: 'curved', label: '🌊 曲面屏' },
+  { value: 'foldable', label: '🔄 折叠屏' },
+]
+
+/** 稳定 value → 展示文案（筛选胶囊、详情等共用） */
+export function screenFormLabel(value) {
+  return screenTypes.find(t => t.value === value)?.label || ''
+}
 
 // ===== 品牌标签颜色 =====
 export const brandAccentColors = {
@@ -161,8 +212,8 @@ export function getDisplayName(p) {
  */
 export function getResolutionDisplay(p) {
   const res = p.resolution || ''
-  // 折叠屏：内外屏都显示
-  if (p.screen_form === '折叠屏') {
+  // 折叠屏（含「折叠内折/折叠外折」等历史写法，统一走 normalizeScreenForm）
+  if (normalizeScreenForm(p) === 'foldable') {
     // 有些用 / 分隔
     const parts = res.split('/').map(s => s.trim()).filter(Boolean)
     const main = p.screen_unfolded?.size || ''

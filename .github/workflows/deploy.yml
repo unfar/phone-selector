@@ -28,6 +28,11 @@ jobs:
           cache: 'npm'
           
       - run: npm ci
+
+      # 数据门禁：有 error 直接失败，避免坏数据上线
+      - name: Validate phone data
+        run: npm run data:validate
+
       - run: npm run build
       
       - uses: actions/upload-pages-artifact@v3

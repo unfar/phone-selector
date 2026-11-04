@@ -559,7 +559,7 @@
   "weight_g": 218,
   "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 60MP前置",
   "detailed_camera": "主摄: 思特威SC555XS 50MP 1/1.56\" f/1.8 23mm RYYB OIS| 超广: 8MP f/2.2 16mm | 前置: 60MP f/2.4",
-  "has_tele": false,
+  "has_tele": true,
   "has_ultrawide": true,
   "os": "HarmonyOS 6.1",
   "screen_form": "直屏",
@@ -575,6 +575,7 @@
    "DP"
   ],
   "tags": [
+   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "NFC",
@@ -1119,7 +1120,6 @@
   "has_nfc": true,
   "has_ir": true,
   "tags": [
-   "潜望长焦",
    "6500mAh+",
    "≤200g",
    "NFC",
@@ -1294,7 +1294,6 @@
   "has_ir": true,
   "tags": [
    "天玑9500",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "NFC",
@@ -1544,7 +1543,6 @@
   "screen_form": "直屏",
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "6500mAh+",
    "USB3.0",
    "NFC",
@@ -1627,7 +1625,6 @@
   "screen_form": "直屏",
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "USB3.0",
@@ -2172,7 +2169,6 @@
   ],
   "tags": [
    "天玑9500",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "USB3.0",
@@ -2674,7 +2670,6 @@
    "NFC"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "NFC",
    "防尘抗水"
@@ -2755,7 +2750,6 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -2845,7 +2839,6 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -3708,7 +3701,6 @@
    "红外"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "NFC",
    "红外",
@@ -5495,7 +5487,6 @@
   ],
   "tags": [
    "天玑9500",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -5946,7 +5937,6 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "≤200g",
@@ -6834,7 +6824,6 @@
    "红外"
   ],
   "tags": [
-   "潜望长焦",
    "无线充电",
    "NFC",
    "红外",
@@ -6974,7 +6963,6 @@
   "id": 90,
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "USB3.0",
@@ -8270,7 +8258,6 @@
    "红外"
   ],
   "tags": [
-   "潜望长焦",
    "6500mAh+",
    "≤200g",
    "NFC",
@@ -8349,7 +8336,6 @@
    "红外"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "NFC",
    "红外",
@@ -8502,7 +8488,6 @@
    "红外遥控"
   ],
   "tags": [
-   "潜望长焦",
    "无线充电",
    "NFC",
    "红外",
@@ -8582,7 +8567,6 @@
   "id": 110,
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "6500mAh+",
    "USB3.0",
    "NFC",
@@ -9028,7 +9012,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -9122,7 +9105,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -9656,7 +9638,6 @@
    "X轴线性马达"
   ],
   "tags": [
-   "潜望长焦",
    "6500mAh+",
    "≤200g",
    "NFC",
@@ -10295,7 +10276,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -10919,12 +10899,12 @@
  },
  {
   "model": "Galaxy A56 5G",
-  "processor": "骁龙7s Gen3",
+  "processor": "Exynos 1580",
   "screen_size": 6.7,
   "screen_type": "Super AMOLED",
   "screen_form": "直屏",
   "battery_mah": 5000,
-  "charging_w": 25,
+  "charging_w": 45,
   "wireless_charging_w": 0,
   "weight_g": 198,
   "os": "One UI 7 / Android 15",
@@ -10932,12 +10912,10 @@
   "has_tele": true,
   "usb_version": "USB 2.0",
   "features": [
-   "IP6X",
-   "IPX7",
+   "IP67",
    "NFC"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "NFC",
    "防尘抗水"
@@ -10986,79 +10964,6 @@
    "refresh_rate": "120Hz"
   },
   "price_note": "待定"
- },
- {
-  "id": 143,
-  "brand": "Samsung",
-  "model": "Galaxy A56",
-  "price": 2999,
-  "processor": "Exynos 1580",
-  "ram": "12+256",
-  "storage": "8",
-  "screen_size": 6.7,
-  "screen_type": "Super AMOLED",
-  "resolution": "2340×1080",
-  "refresh_hz": 120,
-  "battery_mah": 5000,
-  "charging_w": 45,
-  "wireless_charging_w": 0,
-  "usb_version": "USB 3.2",
-  "weight_g": 195,
-  "os": "One UI 6.1 / Android 14",
-  "camera_desc": "50MP主摄 | 12MP超广 | 5MP长焦 | 32MP前置",
-  "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 OIS| 超广: 12MP f/2.2 | 长焦: 5MP | 前置: 32MP",
-  "has_tele": true,
-  "has_nfc": true,
-  "has_ir": false,
-  "tags": [
-   "潜望长焦",
-   "≤200g",
-   "USB3.0",
-   "NFC",
-   "防尘抗水"
-  ],
-  "features": [
-   "IP67",
-   "NFC"
-  ],
-  "screen_form": "直屏",
-  "release_date": "2025-03-01",
-  "date_precision": "month",
-  "completeness_score": 100,
-  "charge_protocols": [
-   "PPS",
-   "PD"
-  ],
-  "charge_protocols_source": "ecosystem-samsung-pd",
-  "charge_protocols_confidence": "medium",
-  "os_source": "series-default",
-  "usb_version_source": "series-default",
-  "screen_detail": "6.7\" 2340×1080 Super AMOLED 120Hz",
-  "ip_rating": "IP67",
-  "dimensions": "162.2×77.5×7.4mm",
-  "network_model": "SM-A5660",
-  "wifi": "WiFi 6",
-  "bluetooth": "Bluetooth 5.3",
-  "fingerprint": "屏下光学指纹",
-  "esim": false,
-  "sim_type": "双 nano-SIM",
-  "reverse_charging_w": 0,
-  "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-  "camera_front": "32MP",
-  "camera_main_sensor": "三星GN5",
-  "camera_main_size": "1/1.57\"",
-  "camera_main_aperture": "f/1.8",
-  "camera_main_mp": 50,
-  "camera_uw_aperture": "f/2.2",
-  "source_url": "https://example.com/Galaxy A56",
-  "verified_at": "2026-08-20",
-  "display": {
-   "screen_size": "6.1英寸",
-   "resolution": "2400×1080",
-   "refresh_rate": "120Hz"
-  },
-  "price_note": "待定",
-  "nfc": true
  },
  {
   "brand": "Huawei",
@@ -11277,7 +11182,6 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -11447,7 +11351,6 @@
    "红外遥控"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "红外",
    "防尘抗水"
@@ -11593,7 +11496,7 @@
   "charging_w": 100,
   "weight_g": 179,
   "camera_desc": "潜望长焦 50MP主摄 | 50MP超广 | 50MP前置",
-  "has_tele": false,
+  "has_tele": true,
   "os": "OriginOS",
   "features": [
    "IP6X",
@@ -11602,6 +11505,7 @@
    "红外遥控"
   ],
   "tags": [
+   "潜望长焦",
    "≤200g",
    "红外",
    "防尘抗水"
@@ -12068,7 +11972,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -12151,7 +12054,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -12945,7 +12847,6 @@
    "红外"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "NFC",
    "红外"
@@ -13081,7 +12982,7 @@
   "charging_w": 100,
   "weight_g": 213,
   "camera_desc": "潜望长焦 5000万索尼IMX906主摄",
-  "has_tele": false,
+  "has_tele": true,
   "os": "ColorOS 15",
   "features": [
    "IP6X",
@@ -13092,6 +12993,7 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
+   "潜望长焦",
    "NFC",
    "红外",
    "防尘抗水"
@@ -14348,7 +14250,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -14592,7 +14493,6 @@
   ],
   "tags": [
    "天玑9400",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "NFC",
@@ -14678,7 +14578,6 @@
   ],
   "tags": [
    "天玑9400",
-   "潜望长焦",
    "无线充电",
    "NFC",
    "红外",
@@ -14926,7 +14825,6 @@
   ],
   "tags": [
    "天玑9400",
-   "潜望长焦",
    "无线充电",
    "NFC",
    "红外",
@@ -15013,7 +14911,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "NFC",
@@ -15174,7 +15071,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -15259,7 +15155,6 @@
   ],
   "tags": [
    "天玑9400",
-   "潜望长焦",
    "无线充电",
    "NFC",
    "红外",
@@ -15933,7 +15828,6 @@
   "id": 205,
   "tags": [
    "A18",
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -16019,7 +15913,6 @@
   "id": 206,
   "tags": [
    "A18",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -16524,8 +16417,8 @@
   "model": "X70 Pro",
   "price": 2599,
   "processor": "麒麟9010",
-  "ram": "512",
-  "storage": "12+256",
+  "ram": "12GB",
+  "storage": "256GB",
   "screen_size": 6.78,
   "screen_type": "AMOLED",
   "resolution": "2700×1224",
@@ -16538,10 +16431,11 @@
   "os": "MagicOS",
   "camera_desc": "潜望长焦 5000万(RYYB)",
   "detailed_camera": "主摄: 豪威OV64B 64MP f/1.8 | 5000万(RYYB)",
-  "has_tele": false,
+  "has_tele": true,
   "has_nfc": true,
   "has_ir": true,
   "tags": [
+   "潜望长焦",
    "≤200g",
    "USB3.0",
    "NFC",
@@ -17260,7 +17154,6 @@
    "红外遥控"
   ],
   "tags": [
-   "潜望长焦",
    "无线充电",
    "≤200g",
    "USB3.0",
@@ -17629,7 +17522,6 @@
    "DP"
   ],
   "tags": [
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -17844,8 +17736,8 @@
   "model": "S21",
   "price": 2299,
   "processor": "天玑8300",
-  "ram": "12+256",
-  "storage": "8",
+  "ram": "12GB",
+  "storage": "256GB",
   "screen_size": 6.67,
   "screen_type": "AMOLED",
   "resolution": "2800×1260",
@@ -18154,8 +18046,8 @@
   "model": "14 Pro+",
   "price": 2399,
   "processor": "骁龙7 Gen 3",
-  "ram": "512",
-  "storage": "12+256",
+  "ram": "12GB",
+  "storage": "256GB",
   "screen_size": 6.7,
   "screen_type": "AMOLED",
   "resolution": "2780×1264",
@@ -18236,7 +18128,7 @@
  },
  {
   "model": "Galaxy A55 5G",
-  "processor": "骁龙7 Gen1",
+  "processor": "Exynos 1480",
   "screen_size": 6.6,
   "screen_type": "Super AMOLED",
   "screen_form": "直屏",
@@ -18249,12 +18141,10 @@
   "has_tele": true,
   "usb_version": "USB 2.0",
   "features": [
-   "IP6X",
-   "IPX7",
+   "IP67",
    "NFC"
   ],
   "tags": [
-   "潜望长焦",
    "NFC",
    "防尘抗水"
   ],
@@ -18303,79 +18193,6 @@
    "refresh_rate": "120Hz"
   },
   "price_note": "待定"
- },
- {
-  "id": 235,
-  "brand": "Samsung",
-  "model": "Galaxy A55",
-  "price": 2599,
-  "processor": "Exynos 1480",
-  "ram": "8GB/12GB",
-  "storage": "128GB/256GB",
-  "screen_size": 6.6,
-  "screen_type": "Super AMOLED",
-  "resolution": "2340×1080",
-  "refresh_hz": 120,
-  "battery_mah": 5000,
-  "charging_w": 25,
-  "wireless_charging_w": 0,
-  "usb_version": "USB 3.2",
-  "weight_g": 195,
-  "os": "One UI 6.1 / Android 14",
-  "camera_desc": "50MP主摄 | 12MP超广 | 5MP长焦 | 32MP前置",
-  "detailed_camera": "主摄: 三星GN5 50MP 1/1.57\" f/1.8 OIS| 超广: 12MP f/2.2 | 长焦: 5MP | 前置: 32MP",
-  "has_tele": true,
-  "has_nfc": true,
-  "has_ir": false,
-  "tags": [
-   "潜望长焦",
-   "≤200g",
-   "USB3.0",
-   "NFC",
-   "防尘抗水"
-  ],
-  "features": [
-   "IP67",
-   "NFC"
-  ],
-  "screen_form": "直屏",
-  "release_date": "2024-03-01",
-  "network_model": "SM-A5560",
-  "date_precision": "month",
-  "completeness_score": 100,
-  "charge_protocols": [
-   "PPS",
-   "PD"
-  ],
-  "charge_protocols_source": "ecosystem-samsung-pd",
-  "charge_protocols_confidence": "medium",
-  "os_source": "series-default",
-  "usb_version_source": "series-default",
-  "screen_detail": "6.6\" 2340×1080 Super AMOLED 120Hz",
-  "ip_rating": "IP67",
-  "dimensions": "161.1×77.4×8.2mm",
-  "wifi": "WiFi 6",
-  "bluetooth": "Bluetooth 5.3",
-  "fingerprint": "屏下光学指纹",
-  "esim": false,
-  "sim_type": "双 nano-SIM",
-  "reverse_charging_w": 0,
-  "camera_rear": "三星GN5 50MP 1/1.57\" f/1.8 OIS | 12MP f/2.2 | 5MP",
-  "camera_front": "32MP",
-  "camera_main_sensor": "三星GN5",
-  "camera_main_size": "1/1.57\"",
-  "camera_main_aperture": "f/1.8",
-  "camera_main_mp": 50,
-  "camera_uw_aperture": "f/2.2",
-  "source_url": "https://example.com/Galaxy A55",
-  "verified_at": "2026-08-20",
-  "display": {
-   "screen_size": "6.1英寸",
-   "resolution": "2400×1080",
-   "refresh_rate": "120Hz"
-  },
-  "price_note": "待定",
-  "nfc": true
  },
  {
   "id": 236,
@@ -19020,7 +18837,6 @@
    "NFC"
   ],
   "tags": [
-   "潜望长焦",
    "≤200g",
    "NFC",
    "红外",
@@ -19178,7 +18994,6 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
@@ -19892,7 +19707,7 @@
   "wireless_charging_w": 0,
   "weight_g": 227,
   "camera_desc": "潜望长焦 50MP主摄 | 8MP超广 | 20MP前置",
-  "has_tele": false,
+  "has_tele": true,
   "os": "HyperOS 3",
   "features": [
    "IP6X",
@@ -19907,6 +19722,7 @@
   ],
   "tags": [
    "骁龙8 Elite 1",
+   "潜望长焦",
    "6500mAh+",
    "USB3.0",
    "NFC",
@@ -20506,6 +20322,7 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
+   "潜望长焦",
    "无线充电",
    "USB3.0",
    "防尘抗水"
@@ -20574,7 +20391,8 @@
   "screen_size_inner": 7.6,
   "screen_size_outer": 6.2,
   "charge_wireless": "20W",
-  "camera_main_size": "1/1.3\""
+  "camera_main_size": "1/1.3\"",
+  "has_tele": true
  },
  {
   "id": 265,
@@ -20979,7 +20797,6 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "NFC",
@@ -21443,6 +21260,7 @@
   ],
   "tags": [
    "骁龙8 Elite 5",
+   "潜望长焦",
    "6500mAh+",
    "≤200g",
    "NFC",
@@ -21481,7 +21299,8 @@
   },
   "price_note": "待定",
   "colors": "月光白|日光橙|辰夜黑",
-  "ir": true
+  "ir": true,
+  "has_tele": true
  },
  {
   "id": "huawei-mate-90",
@@ -21876,38 +21695,6 @@
   "screen_resolution": "2232x3184",
   "price_min": 19999,
   "price_max": 29999
- },
- {
-  "id": 334,
-  "brand": "Huawei",
-  "model": "Pocket 70 Pro",
-  "price": 6999,
-  "processor": "麒麟9010",
-  "ram": "12",
-  "storage": "256",
-  "screen_size": 6.9,
-  "screen_type": null,
-  "resolution": null,
-  "refresh_hz": 120,
-  "battery_mah": 4720,
-  "charging_w": 66,
-  "wireless_charging_w": 0,
-  "usb_version": null,
-  "weight_g": 195,
-  "os": "HarmonyOS 6.1",
-  "camera_desc": "5000万(RYYB)",
-  "detailed_camera": null,
-  "has_tele": false,
-  "has_nfc": false,
-  "has_ir": false,
-  "tags": [
-   "≤200g"
-  ],
-  "features": [],
-  "screen_form": null,
-  "release_date": "2024-11-01",
-  "completeness_score": 56,
-  "date_precision": "month"
  },
  {
   "id": 370,
@@ -22604,7 +22391,6 @@
   ],
   "tags": [
    "A20 Pro",
-   "潜望长焦",
    "无线充电",
    "NFC",
    "防尘抗水"
@@ -22984,7 +22770,6 @@
   ],
   "tags": [
    "天玑9600M",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "NFC",
@@ -23179,7 +22964,6 @@
   ],
   "tags": [
    "天玑9600 Pro",
-   "潜望长焦",
    "无线充电",
    "6500mAh+",
    "NFC",
@@ -23528,7 +23312,7 @@
   "charging_w": 100,
   "wireless_charging_w": 50,
   "reverse_charging_w": 0,
-  "weight_g": 0,
+  "weight_g": null,
   "os": "澎湃OS 4",
   "camera_desc": "2亿主摄 1/1.28\" | 2亿 3x潜望长焦 | 5000万超广角",
   "detailed_camera": "主摄: 2亿 1/1.28\" OIS | 潜望长焦: 2亿 3x OIS 支持微距 | 超广: 5000万",
@@ -24703,7 +24487,6 @@
   "price_ref": "https://www.vmall.com/product/comdetail/index.html?prdId=10086663062178",
   "verified_at": "2026-10-28",
   "tags": [
-   "潜望长焦",
    "无线充电",
    "USB3.0",
    "NFC",
