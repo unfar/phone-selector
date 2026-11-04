@@ -33,7 +33,7 @@
         <!-- 已选机型条 -->
         <div class="compare-phones-bar">
           <div v-for="p in comparePhones" :key="p.id" class="compare-phone-chip">
-            <div class="chip-brand" :style="{ background: brandColor(p.brand) }">{{ p.brand }}</div>
+            <div class="chip-brand" :style="{ background: brandColor(p.brand), color: brandTextColor(p.brand) }">{{ p.brand }}</div>
             <div class="chip-name">{{ cardBrief(p).name }}</div>
             <div class="chip-price">{{ priceText(p) }}</div>
             <div class="chip-actions">
@@ -50,7 +50,7 @@
               <tr>
                 <th style="width:120px">参数</th>
                 <th v-for="p in comparePhones" :key="p.id">
-                  <div class="chip-brand" :style="{ background: brandColor(p.brand) }" style="display:inline-block;padding:3px 10px;border-radius:999px;color:#fff;font-size:.7rem">{{ p.brand }}</div>
+                  <div class="chip-brand" :style="{ background: brandColor(p.brand), color: brandTextColor(p.brand), display: 'inline-block', padding: '3px 10px', borderRadius: '999px', fontSize: '.7rem' }">{{ p.brand }}</div>
                   <div style="margin-top:4px">{{ cardBrief(p).name }}</div>
                   <div style="color:var(--accent);font-size:.86rem">{{ priceText(p) }}</div>
                 </th>
@@ -103,7 +103,7 @@
 
 <script setup>
 import {
-  comparePhones, cardBrief, priceText, brandColor,
+  comparePhones, cardBrief, priceText, brandColor, brandTextColor,
   openList, openDetail, toggleCompare, clearCompare,
 } from '../composables/useApp.js'
 import { compareDiffOnly, visibleCompareRows, diffCount } from '../composables/useCompare.js'

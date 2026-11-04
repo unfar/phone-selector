@@ -1,5 +1,5 @@
 import { ref, computed, nextTick } from 'vue'
-import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges, normalizeScreenForm, normalizeScreenFormValue, screenFormLabel } from '../utils.js'
+import { normDate, getSeriesName, featureTags, brandAccentColors, getDisplayName, getIpRating, getCameraSpecs, getCameraModules, simplifyCapacity, getFoldableScreenDisplay, protocolTags, normalizeProcessor, screenTypes, screenSizeRanges, normalizeScreenForm, normalizeScreenFormValue, screenFormLabel, getContrastText, normalizeProtocols } from '../utils.js'
 import { PINNED_CPU, EXCLUDE_CPU_RE, EXCLUDE_CPU_EXACT, CPU_VENDORS, cpuVendorOrder, buildCpuTagOrder } from '../cpuTags.config.js'
 
 export const phones = ref([])
@@ -35,6 +35,8 @@ export const brandList = ref([])
 export const compareList = ref([])
 /** 处理器筛选标签：由 setPhones() 从数据动态生成（按出现次数取前 15 个） */
 export const cpuTags = ref([])
+/** 数据截止日（库内最新 verified_at）：在 setPhones() 里算一次并缓存，避免每次渲染全库重算 */
+export const dataDate = ref('—')
 
 // ===== 收藏（localStorage 持久化）=====
 const FAV_KEY = 'ps_favorites'
@@ -72,6 +74,13 @@ export function setPhones(data) {
   // 所以这里一次性归一,之后所有比较(detailPhone / isCompared / 收藏)都用字符串。
   phones.value = data.map(p => (typeof p.id === 'string' ? p : { ...p, id: String(p.id) }))
   loading.value = false
+  // 数据截止日：只在数据加载时算一次（之前是 App.vue 里的 computed，每次 phones 变化都 map+sort 全库）
+  let latest = ''
+  for (const p of data) {
+    const d = p.verified_at
+    if (d && d > latest) latest = d
+  }
+  dataDate.value = latest || '—'
   brandList.value = [...new Set(data.map(p => p.brand))].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
   // 动态生成处理器标签:同一系列归一成一个标签(变体看页面细则)
   // 排序:① 按厂商分组 —— Apple A 系 → 华为麒麟 → 高通骁龙 → 联发科天玑 → 三星猎户座 → 其它
@@ -97,6 +106,11 @@ export function setPhones(data) {
 
 export function brandColor(brand) {
   return brandAccentColors[brand] || '#4f8cff'
+}
+
+/** 品牌胶囊文字色：按品牌底色亮度自动选深/浅文字，保证 WCAG AA 对比度 */
+export function brandTextColor(brand) {
+  return getContrastText(brandColor(brand))
 }
 
 // 滚动位置记录（详情→列表）+ 视图来源(返回时按原路退回)
@@ -355,8 +369,10 @@ export function matchesFilters(p) {
     if (!ok) return false
   }
   if (selectedProtocols.value.size) {
-    const protos = p.charge_protocols || []
-    for (const t of selectedProtocols.value) if (!protos.includes(t)) return false
+    // 数据里协议可能是 PD3.0 / PD 3.0 / Qi2 / 80W UFCS / 55W PPS 等自由文本，
+    // 先归一成协议标签集合再判断，避免精确 includes 漏筛（不改数据）
+    const protos = normalizeProtocols(p.charge_protocols)
+    for (const t of selectedProtocols.value) if (!protos.has(t)) return false
   }
   return true
 }
@@ -519,7 +535,7 @@ export function updateHash(mode = 'replace') {
     if (mode === 'push') history.pushState(null, '', url)
     else history.replaceState(null, '', url)
   }
-  syncDocumentTitle()
+  syncDocumentMeta()
 }
 
 export function restoreStateFromHash() {
@@ -539,7 +555,7 @@ export function restoreStateFromHash() {
   if (!hash) {
     view.value = 'list'
     detailId.value = null
-    syncDocumentTitle()
+    syncDocumentMeta()
     restoreListScrollIfReturning(prevView)
     return
   }
@@ -580,7 +596,7 @@ export function restoreStateFromHash() {
     detailId.value = null
     updateHash()
   }
-  syncDocumentTitle()
+  syncDocumentMeta()
   restoreListScrollIfReturning(prevView)
 }
 
@@ -604,22 +620,46 @@ function toast(msg) {
   setTimeout(() => el.remove(), 2200)
 }
 
+const SITE_URL = 'https://unfar.github.io/phone-selector/'
+const SITE_TITLE = '机选 · 智能手机选购助手'
+const SITE_DESC = '国行智能手机参数筛选、影像对比与选购决策助手。'
+
+function setMetaContent(selector, content) {
+  const el = document.querySelector(selector)
+  if (el && el.getAttribute('content') !== content) el.setAttribute('content', content)
+}
+
 /**
- * 浏览器标签页 / 分享标题随视图变化。
- * 之前 document.title 永远是 index.html 里的站点名，详情页分享出去看不到机型名。
- * 依赖 detailPhone / view，只在浏览器运行时调用（无 SSR）。
+ * 浏览器标签页 / 分享元信息随视图变化：document.title + og:title/description/url + twitter。
+ * 静态 HTML 里的 og 只描述首页；详情/对比页分享出去应该带机型名与差异信息。
+ * 依赖 detailPhone / comparePhones / view，只在浏览器运行时调用（无 SSR）。
  */
-function syncDocumentTitle() {
-  if (typeof document === 'undefined') return
-  let title = '机选 · 智能手机选购助手'
+function syncDocumentMeta() {
+  if (typeof document === 'undefined' || typeof location === 'undefined') return
+  let title = SITE_TITLE
+  let desc = SITE_DESC
+  const url = SITE_URL + (location.hash || '')
   if (view.value === 'detail' && detailPhone.value) {
-    title = `${getDisplayName(detailPhone.value)} · 机选`
+    const p = detailPhone.value
+    const name = getDisplayName(p)
+    title = `${name} · 机选`
+    const specs = [p.processor, cardBrief(p).screen, priceText(p)].filter(Boolean).join(' · ')
+    desc = `${name} 参数与选购参考：${specs}。同价位竞品与影像规格见详情页。`
   } else if (view.value === 'compare') {
     title = '规格对比 · 机选'
+    const names = comparePhones.value.map(p => getDisplayName(p))
+    if (names.length) desc = `已选 ${names.length} 款机型规格对比：${names.join('、')}。`
   } else if (view.value === 'favorites') {
     title = '我的收藏 · 机选'
+    desc = '我收藏的国行手机机型与参数速览。'
   }
   if (document.title !== title) document.title = title
+  setMetaContent('meta[property="og:title"]', title)
+  setMetaContent('meta[property="og:description"]', desc)
+  setMetaContent('meta[property="og:url"]', url)
+  setMetaContent('meta[name="twitter:title"]', title)
+  setMetaContent('meta[name="twitter:description"]', desc)
+  setMetaContent('meta[name="twitter:image"]', SITE_URL + 'og-image.png')
 }
 
 /**

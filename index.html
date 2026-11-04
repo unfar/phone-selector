@@ -2,19 +2,48 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
+  <!-- 暗色主题预置：必须在任何 CSS/JS 之前执行，避免首帧先渲染浅色再跳深色（FOUC）。
+       与 App.vue 的 applyTheme 逻辑一致：手动选择优先，否则跟随系统。 -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('ps-theme')
+        var dark = saved
+          ? saved === 'dark'
+          : !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light')
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light')
+      }
+    })()
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="机选 — 国行智能手机参数筛选、影像对比与选购助手。覆盖华为、小米、OPPO、vivo、三星、荣耀等品牌国行手机，支持多维度参数筛选、规格对比与同价位竞品推荐。">
-  <meta name="theme-color" content="#0f766e">
+  <!-- theme-color 分亮度两条：JS 首帧前只会改 data-theme，这里先按系统偏好给浏览器 UI 上色；
+       用户手动切换主题后，App.vue 的 applyTheme 会同步覆盖。 -->
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1119" media="(prefers-color-scheme: dark)">
   <meta name="keywords" content="手机选购,手机对比,国行手机,参数筛选,智能手机,影像对比">
   <title>机选 · 智能手机选购助手</title>
+  <link rel="canonical" href="https://unfar.github.io/phone-selector/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" href="/logo.svg">
   <link rel="manifest" href="/manifest.webmanifest">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="机选">
   <meta property="og:title" content="机选 · 智能手机选购助手">
   <meta property="og:description" content="国行智能手机参数筛选、影像对比与选购决策助手。">
   <meta property="og:url" content="https://unfar.github.io/phone-selector/">
+  <meta property="og:image" content="https://unfar.github.io/phone-selector/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="机选 — 国行智能手机参数筛选与对比">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="机选 · 智能手机选购助手">
+  <meta name="twitter:description" content="国行智能手机参数筛选、影像对比与选购决策助手。">
+  <meta name="twitter:image" content="https://unfar.github.io/phone-selector/og-image.png">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",

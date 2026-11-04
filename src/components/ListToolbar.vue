@@ -1,7 +1,10 @@
 <template>
   <div class="panel toolbar">
     <div class="stats">
-      <template v-if="hasFilters">筛选后 <b>{{ resultCount }}</b> / {{ phones.length }} 款</template>
+      <!-- 加载/错误时不要显示「共 0 款机型」，会与骨架屏/错误提示自相矛盾 -->
+      <template v-if="loading">正在加载机型…</template>
+      <template v-else-if="error">数据未加载</template>
+      <template v-else-if="hasFilters">筛选后 <b>{{ resultCount }}</b> / {{ phones.length }} 款</template>
       <template v-else>共 <b>{{ resultCount }}</b> 款机型</template>
     </div>
     <div class="toolbar-right">
@@ -55,7 +58,7 @@
 import { computed } from 'vue'
 import {
   phones, viewMode, sortKeys, resultCount, setViewMode, clearAllFilters,
-  favorites, openFavorites,
+  favorites, openFavorites, loading, error,
 } from '../composables/useApp.js'
 import {
   hasFilters, activePills, setSort, removeSort, resetSort, onMoreSort, moreSortValue,

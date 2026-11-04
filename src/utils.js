@@ -50,6 +50,36 @@ export const featureTags = ["潜望长焦","≤200g","防尘抗水","NFC","红�
 // 充电协议筛选（来自充电头网实测 charge_protocols 字段）
 export const protocolTags = ["5A PPS","UFCS","PPS","PD","QC","SCP","FCP","VFCP","Qi"]
 
+/**
+ * 充电协议归一化：数据里既有标准枚举（PD / PPS / UFCS …），也有自由文本
+ * （PD3.0、PD 3.0、Qi2、80W UFCS、55W PPS、13.5W PD、90W有线快充…）。
+ * 之前筛选用 protos.includes(t) 精确相等，导致选「PD」漏掉 PD3.0、选「Qi」漏 Qi2。
+ * 这里把每条协议转成协议标签集合，筛选时按集合包含判断；不改数据。
+ */
+export function normalizeProtocols(raw) {
+  const list = Array.isArray(raw) ? raw : (raw ? [raw] : [])
+  const out = new Set()
+  for (const item of list) {
+    // 统一大写并去空格/连字符，便于关键字归类（Qi 需要在最后按小写处理）
+    const s = String(item || '').toUpperCase().replace(/[\s\-_]/g, '')
+    if (!s) continue
+    if (s === '5APPS') { out.add('5A PPS'); out.add('PPS'); continue }
+    // 去掉功率前缀与有线/无线前缀：80WUFCS → UFCS、13.5WPD → PD、90W有线快充 → 快充
+    const rest = s.replace(/^\d+(?:\.\d+)?W/, '').replace(/^(有线|无线)/, '')
+    if (!rest) continue
+    // ⚠️ VFCP 含 FCP 子串，必须先判 VFCP；5A PPS 已在上面单独处理
+    if (/VFCP/.test(rest)) out.add('VFCP')
+    else if (/UFCS/.test(rest)) out.add('UFCS')
+    else if (/PPS/.test(rest)) out.add('PPS')
+    else if (/QC/.test(rest)) out.add('QC')
+    else if (/FCP/.test(rest)) out.add('FCP')
+    else if (/SCP|SUPERCHARGE/.test(rest)) out.add('SCP')
+    else if (/QI/.test(rest)) out.add('Qi')
+    else if (/USBPD|PD/.test(rest)) out.add('PD')
+  }
+  return out
+}
+
 export const screenSizeRanges = [
   { name: "6.1-6.4英寸", min: 6.0, max: 6.449 },
   { name: "6.5-6.7英寸", min: 6.45, max: 6.749 },
@@ -116,8 +146,50 @@ export const brandAccentColors = {
   'Apple':'#1a1a2e','Huawei':'#BC2D32','Xiaomi':'#FF4800',
   'OPPO':'#6DFB73','vivo':'#7C3AED','Samsung':'#2563eb',
   'HONOR':'#222222','REDMI':'#D82F44','iQOO':'#FFD700',
-  'OnePlus':'#E73421','realme':'#EAB51D','RedMagic':'#b91c1c',
-  'Motorola':'#D43D2D','Lenovo':'#D43D2D'
+  'OnePlus':'#E73421','realme':'#EAB51D','Motorola':'#D43D2D',
+  'Lenovo':'#D43D2D',
+  // 数据里努比亚/红魔机型的 brand 是 NUBIA（15 台），之前漏配 → 全部回退成通用蓝
+  'NUBIA':'#b91c1c','RedMagic':'#b91c1c',
+}
+
+// ===== 颜色对比度（WCAG）=====
+function hexToRgb(hex) {
+  const h = String(hex || '').replace('#', '').trim()
+  const full = h.length === 3 ? h.split('').map(c => c + c).join('') : h
+  if (full.length !== 6 || !/^[0-9a-f]{6}$/i.test(full)) return null
+  const num = parseInt(full, 16)
+  return [(num >> 16) & 255, (num >> 8) & 255, num & 255]
+}
+
+function channelLuminance(c) {
+  const v = c / 255
+  return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)
+}
+
+/** 相对亮度（WCAG 2.x 定义） */
+export function relativeLuminance(hex) {
+  const rgb = hexToRgb(hex)
+  if (!rgb) return 1
+  const [r, g, b] = rgb.map(channelLuminance)
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b
+}
+
+/** 两色对比度（1~21） */
+export function contrastRatio(hexA, hexB) {
+  const la = relativeLuminance(hexA)
+  const lb = relativeLuminance(hexB)
+  const hi = Math.max(la, lb)
+  const lo = Math.min(la, lb)
+  return (hi + 0.05) / (lo + 0.05)
+}
+
+/**
+ * 品牌胶囊文字色：按背景色亮度在深/浅两种文字色里取对比度更高的那个，
+ * 保证 WCAG AA（正常文字 ≥ 4.5:1）。白字在 OPPO/iQOO/realme 这类亮色底上只有 1.4~1.9:1，
+ * 暗色模式下深底（HONOR/Apple）配深字又几乎看不见，所以必须按底色动态选。
+ */
+export function getContrastText(bgHex, light = '#ffffff', dark = '#111827') {
+  return contrastRatio(bgHex, dark) >= contrastRatio(bgHex, light) ? dark : light
 }
 
 // ===== Helper functions =====
