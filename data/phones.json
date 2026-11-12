@@ -24853,12 +24853,7 @@
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
-    "detailed_camera": {
-      "main": "2亿像素, 1/1.4英寸, OIS+EIS",
-      "ultrawide": "1200万像素, f/2.2",
-      "telephoto": "无",
-      "front": "5000万像素"
-    },
+    "detailed_camera": "2亿像素, 1/1.4英寸, OIS+EIS|1200万像素, f/2.2|无|5000万像素",
     "release_date": "2026-10-21",
     "price": null,
     "price_min": null,
@@ -24905,12 +24900,7 @@
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
-    "detailed_camera": {
-      "main": "2亿像素, 1/1.55英寸, OIS",
-      "ultrawide": "1200万像素",
-      "telephoto": "无",
-      "front": "5000万像素"
-    },
+    "detailed_camera": "2亿像素, 1/1.55英寸, OIS|1200万像素|无|5000万像素",
     "release_date": "2026-10-21",
     "price": null,
     "price_min": null,
@@ -24952,12 +24942,7 @@
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
-    "detailed_camera": {
-      "main": "2亿像素",
-      "ultrawide": "超广角",
-      "telephoto": "无",
-      "front": "5000万像素"
-    },
+    "detailed_camera": "2亿像素|超广角|无|5000万像素",
     "release_date": "2026-10-30",
     "price": null,
     "price_min": null,
@@ -25001,12 +24986,7 @@
     ],
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
-    "detailed_camera": {
-      "main": "5000万像素, f/1.9",
-      "ultrawide": "5000万像素, 122°",
-      "telephoto": "无",
-      "front": "1600万像素"
-    },
+    "detailed_camera": "5000万像素, f/1.9|5000万像素, 122°|无|1600万像素",
     "release_date": "2026-11-06",
     "price": null,
     "price_min": null,
@@ -25050,12 +25030,7 @@
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
-    "detailed_camera": {
-      "main": "5000万像素, f/1.68",
-      "ultrawide": "5000万像素, 122°",
-      "telephoto": "5000万像素, 3.5x 光学变焦",
-      "front": "1600万像素"
-    },
+    "detailed_camera": "5000万像素, f/1.68|5000万像素, 122°|5000万像素, 3.5x 光学变焦|1600万像素",
     "release_date": "2026-11-06",
     "price": null,
     "price_min": null,
@@ -25097,12 +25072,7 @@
     ],
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
-    "detailed_camera": {
-      "main": "5000万像素, f/1.9",
-      "ultrawide": "5000万像素, 122°",
-      "telephoto": "无",
-      "front": "1600万像素"
-    },
+    "detailed_camera": "5000万像素, f/1.9|5000万像素, 122°|无|1600万像素",
     "release_date": "2026-11-06",
     "price": null,
     "price_min": null,
