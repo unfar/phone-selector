@@ -1,81 +1,62 @@
 <template>
-  <article
-    class="card" :class="{ selected: isCompared(phone.id) }"
-    :style="{ '--bcolor': brandColor(phone.brand) }"
-  >
+  <article class="phone-card" @click="open">
     <div class="card-top">
-      <div class="card-top-row">
-        <span class="brand">{{ phone.brand }}</span>
-        <span class="price" :class="{ future: isFuture(phone) }">{{ priceText(phone) }}</span>
-      </div>
-      <div class="name">{{ b.name }}</div>
-      <div class="meta" v-if="phone.release_date">{{ metaText }}</div>
-      <div class="future-badge" v-if="isFuture(phone)">未发布</div>
+      <span class="brand-pill">{{ phone.brand }}</span>
+      <span class="price" :class="{ tbd: !phone.price }">
+        <template v-if="phone.price"><span class="cur">¥</span>{{ phone.price }}</template>
+        <template v-else>待公布</template>
+      </span>
     </div>
-    <div class="card-body">
-      <div class="metrics">
-        <div class="metric"><div class="k">芯片</div><div class="v">{{ phone.processor || '—' }}</div></div>
-        <div class="metric"><div class="k">电池</div><div class="v">{{ phone.battery_mah ? phone.battery_mah + 'mAh' : '—' }}</div></div>
-        <div class="metric"><div class="k">充电</div><div class="v">{{ b.charge }}</div></div>
-        <div class="metric"><div class="k">重量</div><div class="v">{{ phone.weight_g ? phone.weight_g + 'g' : '—' }}</div></div>
-        <div class="metric"><div class="k">屏幕</div><div class="v">{{ b.screen }}</div></div>
-        <div class="metric"><div class="k">防水</div><div class="v">{{ b.ip }}</div></div>
-      </div>
-      <div class="cam">📸 {{ b.cam }}</div>
-      <div class="score-bar" v-if="b.score > 0">
-        <div class="score-fill" :style="{ width: b.score + '%' }"></div>
-        <span class="score-label">数据完整度 {{ b.score }}%</span>
-      </div>
-      <div class="card-actions">
-        <button
-          class="btn fav-btn" :class="{ on: isFavorite(phone.id) }"
-          @click="toggleFavorite(phone.id)"
-          :aria-pressed="isFavorite(phone.id)"
-          :aria-label="isFavorite(phone.id) ? '取消收藏' : '收藏'"
-          :title="isFavorite(phone.id) ? '取消收藏' : '收藏'"
-        >
-          {{ isFavorite(phone.id) ? '★' : '☆' }}
-        </button>
-        <button class="btn" @click="openDetail(phone.id)">详情</button>
-        <!-- 已选满 4 款时禁用并改文案：此前按钮照常可点，点了只弹 toast，用户以为没反应 -->
-        <button
-          class="btn primary" :disabled="compareFull" @click="toggleCompare(phone.id)"
-          :aria-pressed="isCompared(phone.id)"
-          :title="compareFull ? '对比栏已满 4 款，请先移除一款' : (isCompared(phone.id) ? '从对比中移除' : '加入对比')"
-        >{{ compareBtnText }}</button>
-      </div>
+
+    <div class="card-name">{{ displayName(phone) }}</div>
+    <p class="card-verdict">{{ verdict(phone, score) }}</p>
+
+    <dl class="card-specs">
+      <div class="spec-item"><dt>性能</dt><dd>{{ shortChip(phone) }}</dd></div>
+      <div class="spec-item"><dt>电池</dt><dd>{{ fmtBattery(phone) }}</dd></div>
+      <div class="spec-item"><dt>影像</dt><dd>{{ cameraBrief(phone) }}</dd></div>
+      <div class="spec-item"><dt>重量</dt><dd>{{ fmtWeight(phone) }}</dd></div>
+    </dl>
+
+    <div class="card-tags">
+      <span v-for="t in tags" :key="t" class="mini-tag">{{ t }}</span>
+    </div>
+
+    <div class="card-foot">
+      <span v-if="match !== undefined" class="match-badge">匹配 {{ match }}%</span>
+      <button class="btn btn-sm" :class="{ 'btn-primary': isComparing(phone.id) }" @click.stop="toggleCompare(phone.id)">
+        {{ isComparing(phone.id) ? '已选' : '+ 对比' }}
+      </button>
+      <button class="btn btn-sm" @click.stop="open">详情</button>
     </div>
   </article>
 </template>
 
 <script setup>
 import { computed } from 'vue'
+import { navigate } from '../lib/router.js'
+import { isComparing, toggleCompare } from '../lib/store.js'
 import {
-  cardBrief, priceText, isFuturePhone as isFuture, isUnreleased, TODAY, brandColor, compareList,
-  openDetail, toggleCompare, isCompared, toggleFavorite, isFavorite,
-} from '../composables/useApp.js'
+  displayName, verdict, cameraBrief, fmtBattery, fmtWeight, shortChip,
+} from '../lib/derive.js'
 
-const props = defineProps({ phone: { type: Object, required: true } })
-// cardBrief 内部有 WeakMap 缓存，重复取字段不会重复解析影像串
-const b = computed(() => cardBrief(props.phone))
-
-/**
- * 发布日期文案：
- *  - 未发布且日期未到 → 「预计 YYYY-MM-DD 发布」
- *  - 未发布但日期已过（延期发布）→ 「官宣 YYYY-MM-DD」，避免出现「预计」过去的日期
- *  - 已发布 → 「YYYY-MM-DD 发布」
- */
-const metaText = computed(() => {
-  const d = props.phone.release_date
-  if (isUnreleased(props.phone)) {
-    return d > TODAY ? `预计 ${d} 发布` : `官宣 ${d}`
-  }
-  return `${isFuture(props.phone) ? '预计 ' : ''}${d} 发布`
+const props = defineProps({
+  phone: { type: Object, required: true },
+  score: { type: Object, default: null },
+  match: { type: Number, default: undefined },
 })
 
-const compareFull = computed(() => compareList.value.length >= 4 && !isCompared(props.phone.id))
-const compareBtnText = computed(() => {
-  if (isCompared(props.phone.id)) return '已加入'
-  return compareFull.value ? '已满' : '+ 对比'
+const tags = computed(() => {
+  const out = []
+  const p = props.phone
+  if ((p.tags || []).includes('潜望长焦')) out.push('潜望长焦')
+  if (Number(p.wireless_charging_w || 0) > 0) out.push(p.wireless_charging_w + 'W 无线')
+  if (p.weight_g && p.weight_g <= 200) out.push('≤200g')
+  if (/IP6[89]/.test(p.ip_rating || '')) out.push(p.ip_rating)
+  return out.slice(0, 3)
 })
+
+function open() {
+  navigate('/phone/' + encodeURIComponent(props.phone.id))
+}
 </script>

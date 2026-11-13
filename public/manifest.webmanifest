@@ -1,7 +1,7 @@
 {
-  "name": "机选 · 智能手机选购助手",
+  "name": "机选 · 3 步找到适合你的手机",
   "short_name": "机选",
-  "description": "国行智能手机参数筛选、影像对比与选购决策助手",
+  "description": "3 步找到适合你的国行手机：预算、在意项、必须条件，给出带理由的候选",
   "lang": "zh-CN",
   "start_url": "/phone-selector/",
   "scope": "/phone-selector/",

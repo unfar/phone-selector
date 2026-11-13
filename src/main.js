@@ -1,10 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import '../style.css'
+import './styles/tokens.css'
+import './styles/app.css'
+import { startRouter } from './lib/router.js'
+import { loadPhones, state } from './lib/store.js'
 
-const app = createApp(App)
-// 生产环境静默 Vue 运行时警告（如模板中的未定义字段），开发环境保留以便排查
-if (import.meta.env.PROD) {
-  app.config.warnHandler = () => {}
-}
-app.mount('#app')
+document.documentElement.setAttribute('data-mode', state.mode)
+startRouter()
+loadPhones()
+createApp(App).mount('#app')

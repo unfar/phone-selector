@@ -1,455 +1,51 @@
 <template>
   <div class="app">
-    <header class="top">
-      <div class="logo" @click="openList" style="cursor:pointer" title="机选 · 返回列表">
-        <div class="logo-badge" aria-hidden="true">
-          <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
-            <rect x="18" y="12" width="28" height="40" rx="6" fill="#fff" fill-opacity=".96"/>
-            <rect x="21.5" y="17" width="21" height="26" rx="2.5" fill="#ccfbf1"/>
-            <circle cx="32" cy="14.8" r="1.1" fill="#0f766e" fill-opacity=".35"/>
-            <rect x="27" y="46.5" width="10" height="2.2" rx="1.1" fill="#0f766e" fill-opacity=".28"/>
-            <circle cx="44.5" cy="43.5" r="9.2" fill="#c2410c"/>
-            <path d="M40.2 43.5l2.6 2.6 5.5-5.5" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+    <AppHeader />
+    <main class="page">
+      <div class="container">
+        <div v-if="state.loading" class="grid-cards">
+          <div v-for="i in 6" :key="i" class="skeleton-card"></div>
         </div>
-        <div>
-          <h1>机选</h1>
-          <p>国行选购 · 参数对比</p>
+        <div v-else-if="state.error" class="error-wrap">
+          <p>⚠ {{ state.error }}</p>
+          <button class="btn btn-primary" style="margin-top:14px" @click="reload">重新加载</button>
         </div>
+        <template v-else>
+          <HomeView v-if="route.name === 'home'" />
+          <WizardView v-else-if="route.name === 'wizard'" />
+          <ListView v-else-if="route.name === 'list'" />
+          <DetailView v-else-if="route.name === 'detail'" :id="route.id" />
+          <CompareView v-else-if="route.name === 'compare'" />
+          <FavoritesView v-else-if="route.name === 'favorites'" />
+        </template>
       </div>
-
-      <div class="search" v-if="view === 'list'">
-        <span class="ico">🔍</span>
-        <!--
-          用 inputText 而非 searchQuery 做受控值：searchQuery 有 300ms 防抖，
-          若拿它绑定 :value，中文输入法组合期间会被 Vue 回写成旧值而吞字。
-          组合事件保证拼音上屏后才触发筛选。详见 useFilterUI.js。
-        -->
-        <input
-          :value="inputText"
-          @input="onSearchInput"
-          @compositionstart="onCompositionStart"
-          @compositionend="onCompositionEnd"
-          @keydown.enter="onSearchEnter"
-          placeholder="搜索机型 / 品牌 / 处理器"
-          aria-label="搜索机型"
-        />
-        <span class="x" v-if="inputText" @click="clearSearch" role="button" tabindex="0" @keydown.enter="clearSearch" aria-label="清除搜索">✕</span>
-      </div>
-
-      <div class="top-actions">
-        <button v-if="view === 'list' && !isNarrow" class="btn ghost filter-entry" @click="toggleFilterPanel" :aria-pressed="filterPinned" :title="filterPinned ? '收起筛选 · ' + activeFilterCount + ' 项' : '展开筛选 · ' + activeFilterCount + ' 项'">
-          ⚙ 筛选<span v-if="activeFilterCount" class="fab-badge-static">{{ activeFilterCount }}</span>
-        </button>
-        <button class="btn ghost theme-toggle" @click="toggleTheme" :aria-pressed="theme === 'dark'" :aria-label="theme === 'dark' ? '切换浅色' : '切换暗色'" :title="theme === 'dark' ? '切换浅色' : '切换暗色'">
-          {{ theme === 'dark' ? '☀️' : '🌙' }}
-        </button>
-        <button v-if="view !== 'list'" class="btn ghost" @click="openList" title="返回上一层视图">← 返回</button>
-      </div>
-    </header>
-
-    <!-- LIST -->
-    <div v-if="view === 'list'" class="shell" :class="{ 'has-sidebar': !isNarrow && filterPinned }">
-      <FilterDrawer />
-
-      <!-- 浮动筛选按钮（可拖动，仅窄屏） -->
-      <button
-        v-show="isNarrow"
-        class="filter-fab"
-        ref="fabRef"
-        @click="onFabClick"
-      >
-        <span v-if="hasFilters" class="fab-badge">{{ activeFilterCount }}</span>
-        🔍 筛选
-      </button>
-
-      <main class="main">
-        <ListToolbar />
-
-        <!-- 加载骨架屏：以前只有一行「加载中…」，首屏看起来像卡住 -->
-        <div v-if="loading" class="grid skeleton-grid" aria-busy="true" aria-live="polite">
-          <span class="sr-only">正在加载机型数据…</span>
-          <div v-for="i in 6" :key="i" class="skeleton-card" aria-hidden="true">
-            <div class="skeleton-top">
-              <span class="skeleton-line w-30"></span>
-              <span class="skeleton-line w-20"></span>
-            </div>
-            <span class="skeleton-line w-70 lg"></span>
-            <span class="skeleton-line w-40"></span>
-            <div class="skeleton-metrics">
-              <span v-for="j in 6" :key="j" class="skeleton-metric"></span>
-            </div>
-            <span class="skeleton-line w-60"></span>
-            <div class="skeleton-actions">
-              <span class="skeleton-pill"></span>
-              <span class="skeleton-pill"></span>
-              <span class="skeleton-pill"></span>
-            </div>
-          </div>
-        </div>
-        <div v-else-if="error" class="empty error-state" role="alert">
-          <div class="big">📡</div>
-          <div class="error-title">{{ error }}</div>
-          <div class="error-hint">请检查网络连接后重试；若持续失败，可能是数据文件暂时不可用。</div>
-          <div style="margin-top:12px"><button class="btn primary" @click="reloadData">重新加载</button></div>
-        </div>
-        <div v-else-if="!sortedPhones.length" class="empty">
-          <div class="big">😕</div>
-          没有符合条件的机型
-        </div>
-
-        <!-- cards -->
-        <div v-else-if="viewMode === 'cards'" class="grid">
-          <PhoneCard v-for="p in sortedPhones" :key="p.id" :phone="p" />
-        </div>
-
-        <!-- table -->
-        <PhoneTable v-else :phones="sortedPhones" />
-      </main>
-    </div>
-
-    <!-- DETAIL -->
-    <PhoneDetail v-else-if="view === 'detail' && detailPhone" />
-
-    <!-- COMPARE -->
-    <CompareView v-else-if="view === 'compare'" />
-
-    <!-- FAVORITES：独立收藏页（不再是列表上的筛选维度） -->
-    <div v-else-if="view === 'favorites'" class="shell">
-      <main class="main">
-        <div class="panel toolbar">
-          <div class="stats">
-            ⭐ 我的收藏 · <b>{{ favoritePhones.length }}</b> 款
-            <span v-if="favorites.length > favoritePhones.length" style="color:var(--muted);font-size:.85rem">
-              （{{ favorites.length - favoritePhones.length }} 款已下线）
-            </span>
-          </div>
-          <div class="toolbar-right">
-            <button
-              v-if="favoritePhones.length"
-              class="btn ghost"
-              :class="{ danger: favClearArmed }"
-              @click="onClearFavorites"
-            >{{ favClearArmed ? '再点一次确认清空' : '清空收藏' }}</button>
-            <button class="btn ghost" @click="openList">去列表看看</button>
-          </div>
-        </div>
-
-        <div v-if="!favoritePhones.length" class="empty">
-          <div class="big">⭐</div>
-          还没有收藏任何机型
-          <div style="margin-top:10px;font-size:.85rem;color:var(--muted)">在卡片或详情页点击 ☆ 即可收藏心仪机型</div>
-          <div style="margin-top:12px"><button class="btn primary" @click="openList">去列表看看</button></div>
-        </div>
-        <div v-else class="grid">
-          <PhoneCard v-for="p in favoritePhones" :key="p.id" :phone="p" />
-        </div>
-      </main>
-    </div>
-
-    <!-- 兜底：view 指向详情但机型不存在时，不要白屏（正常流程已由 restoreStateFromHash 回落） -->
-    <div v-else class="empty">
-      <div class="big">😕</div>该机型不存在或已下线
-      <div style="margin-top:12px"><button class="btn primary" @click="openList">返回列表</button></div>
-    </div>
-
-    <!-- 底部对比入口（全端） -->
-    <div class="compare-dock" v-if="(view === 'list' || view === 'detail' || view === 'favorites') && compareList.length">
-      <div class="dock-info">
-        <strong>已选 {{ compareList.length }} 款</strong>
-        <span>最多 4 款</span>
-      </div>
-      <div class="dock-actions">
-        <button class="btn ghost" @click="clearCompare">清空</button>
-        <!-- 不用 disabled：禁用按钮点了毫无反馈。改成可点击，由 openCompare 弹提示引导 -->
-        <button
-          class="btn primary" :class="{ off: compareList.length < 2 }" @click="openCompare"
-          :title="compareList.length < 2 ? '至少选 2 款才能对比' : '查看对比'"
-        >
-          {{ compareList.length < 2 ? '再选一款' : '查看对比' }}
-        </button>
-      </div>
-    </div>
-
-    <!-- 返回顶部（滚动超出一屏时显示） -->
-    <button v-show="showBackTop" class="back-top" @click="scrollToTop" aria-label="返回顶部">↑</button>
-
-    <footer>
-      机选 · 浅色通透目录风 · 列表 / 详情 / 对比<br>
-      数据来源：各品牌官网 · 截至 {{ dataDate }} · 库内 {{ phones.length }} 款，当前显示 {{ resultCount }} 款<br>
-      Made with ❤️ by Lumi
+    </main>
+    <footer class="site-footer">
+      <div class="container">机选 V2 · 数据来自品牌官网人工整理（{{ state.phones.length }} 款）· 评分为规则推导，仅供参考</div>
     </footer>
+    <BottomNav />
+    <Toast />
   </div>
 </template>
 
 <script setup>
-/**
- * App.vue 只保留应用外壳：页头、视图路由、常驻浮层（FAB / 对比条 / 返回顶部）与生命周期。
- * 四个视图各自拆到 components/，共享状态走 composables/，不再塞在一个 979 行的文件里。
- */
-import { onMounted, onUnmounted, ref } from 'vue'
-import FilterDrawer from './components/FilterDrawer.vue'
-import ListToolbar from './components/ListToolbar.vue'
-import PhoneCard from './components/PhoneCard.vue'
-import PhoneTable from './components/PhoneTable.vue'
-import PhoneDetail from './components/PhoneDetail.vue'
-import CompareView from './components/CompareView.vue'
-import {
-  phones, loading, error, setPhones, view, viewMode, searchQuery,
-  sortedPhones, resultCount, detailPhone, compareList, openList, openCompare,
-  clearCompare, restoreStateFromHash, updateHash, favorites, favoritePhones,
-  clearFavorites, dataDate,
-} from './composables/useApp.js'
-import {
-  showFilterDrawer, activeFilterCount, hasFilters, clearSearch,
-  isNarrow, filterPinned, toggleFilterPinned,
-  inputText, onSearchInput, onCompositionStart, onCompositionEnd,
-} from './composables/useFilterUI.js'
-
-/** 页头筛选入口：窄屏开抽屉，宽展开合常驻侧栏 */
-function toggleFilterPanel() {
-  if (isNarrow.value) showFilterDrawer.value = true
-  else toggleFilterPinned()
-}
-/** 回车立即提交搜索，不必等防抖 */
-function onSearchEnter() {
-  searchQuery.value = inputText.value
-  updateHash()
-}
-
-// ===== 收藏页：清空需二次确认（收藏是用户手工攒的，一次误点就全没了）=====
-const favClearArmed = ref(false)
-let favClearTimer = null
-function onClearFavorites() {
-  if (!favClearArmed.value) {
-    favClearArmed.value = true
-    clearTimeout(favClearTimer)
-    favClearTimer = setTimeout(() => { favClearArmed.value = false }, 3000)
-    return
-  }
-  clearTimeout(favClearTimer)
-  favClearArmed.value = false
-  clearFavorites()
-}
-
-// （dataDate 已移到 useApp.js：setPhones 时算一次并缓存，避免每次渲染全库 map+sort）
-
-// ===== 主题：优先用用户手动选择，否则跟随系统偏好 =====
-// 首帧主题已在 index.html 的 <head> 内联脚本里按同一规则预置，这里只负责运行时切换与同步 theme-color。
-const systemDark = window.matchMedia?.('(prefers-color-scheme: dark)')
-const theme = ref(localStorage.getItem('ps-theme') || (systemDark?.matches ? 'dark' : 'light'))
-/** 主题对应的浏览器 UI 颜色（与 index.html 两条 media theme-color 保持一致） */
-const THEME_COLORS = { light: '#f4f1ea', dark: '#0f1119' }
-function applyTheme(t) {
-  document.documentElement.setAttribute('data-theme', t)
-  // 手动/JS 应用主题后以当前主题为准：把两条 media 版本的 theme-color 收敛成一条确定值
-  const color = THEME_COLORS[t] || THEME_COLORS.light
-  document.querySelectorAll('meta[name="theme-color"]').forEach(meta => {
-    meta.setAttribute('content', color)
-    meta.removeAttribute('media')
-  })
-}
-function toggleTheme() {
-  theme.value = theme.value === 'dark' ? 'light' : 'dark'
-  localStorage.setItem('ps-theme', theme.value)
-  applyTheme(theme.value)
-}
-
-// ===== 返回顶部 =====
-const showBackTop = ref(false)
-function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }) }
-function onScroll() { showBackTop.value = window.scrollY > 600 }
-
-// ===== 移动端 FAB（可拖动，位置持久化） =====
-const fabRef = ref(null)
-const fabDragging = ref(false)
-let fabDragStart = null
-let fabMoved = false
-let fabMouseActive = false
-let suppressNextFabClick = false
-
-function onFabClick() {
-  // onEnd() 每次都会置 suppressNextFabClick：轻点时它已开过抽屉，
-  // 拖动时它什么都没开 —— 两种情况都不该再由 click 打开一次。
-  if (suppressNextFabClick) { suppressNextFabClick = false; return }
-  showFilterDrawer.value = true
-}
-
-/**
- * 数据加载失败时给用户看的文案：
- *  - HTTP 状态码单独映射（404/403/5xx 等）；
- *  - 网络错误 / JSON 解析失败等统一中文提示，不再把 "Failed to fetch" 原样抛给用户。
- */
-function friendlyLoadError(e) {
-  if (e?.friendlyMessage) return e.friendlyMessage
-  const status = e?.httpStatus
-  if (status === 404) return '数据文件不存在（404），请稍后重试'
-  if (status === 403) return '没有权限读取数据（403），请稍后重试'
-  if (status === 429) return '请求过于频繁（429），请稍后再试'
-  if (status >= 500) return `服务器暂时不可用（HTTP ${status}），请稍后重试`
-  if (status) return `数据加载失败（HTTP ${status}），请点击重试`
-  return '数据加载失败，请检查网络后点击重试'
-}
-
-/** 加载/重新加载数据（错误态"重新加载"按钮复用） */
-async function reloadData() {
-  loading.value = true
-  error.value = null
-  try {
-    // 注：曾试过 <link rel=preload as=fetch> 预加载，但 Chrome 匹配不上 credentials/mode
-    //（anonymous+omit、use-credentials+include、无 crossorigin 三种都实测二次下载或告警），
-    // 按任务要求「若重复则去掉」，这里保持普通 fetch；预加载留作下一批用 modulepreload/SSR 方案。
-    const resp = await fetch(import.meta.env.BASE_URL + 'data/phones.json')
-    if (!resp.ok) {
-      const err = new Error('HTTP ' + resp.status)
-      err.httpStatus = resp.status
-      throw err
-    }
-    const phonesData = await resp.json()
-    if (!Array.isArray(phonesData)) {
-      const err = new Error('数据格式异常')
-      err.friendlyMessage = '数据格式异常，请稍后重试'
-      throw err
-    }
-    // ⚠️ 不再按 price 过滤：未发布 / 官方未公布价格的机型（如 iQOO16、小米18 标准版）
-    //    对用户同样有参考价值，应在列表里以「未发布」角标展示，而不是被彻底丢弃。
-    //    仅过滤缺 processor 的脏数据。
-    setPhones(phonesData.filter(p => p.processor))
-    restoreStateFromHash()
-    // 还原后再写一次，把 URL 规范化（例如缺省排序、价格上限被数据实际最大值收窄）
-    updateHash()
-  } catch (e) {
-    error.value = friendlyLoadError(e)
-  } finally {
-    loading.value = false
-  }
-}
-
-// 保存需要清理的 listener 引用，在 onUnmounted 里统一清理
-const _cleanup = []
-function trackCleanup(remove) { _cleanup.push(remove) }
+import { onMounted } from 'vue'
+import { route } from './lib/router.js'
+import { state, loadPhones } from './lib/store.js'
+import AppHeader from './components/AppHeader.vue'
+import BottomNav from './components/BottomNav.vue'
+import Toast from './components/Toast.vue'
+import HomeView from './views/HomeView.vue'
+import WizardView from './views/WizardView.vue'
+import ListView from './views/ListView.vue'
+import DetailView from './views/DetailView.vue'
+import CompareView from './views/CompareView.vue'
+import FavoritesView from './views/FavoritesView.vue'
 
 onMounted(() => {
-  applyTheme(theme.value)
-  // 手动接管滚动恢复:Chrome 默认按历史条目记录的位置恢复,
-  // 而进详情前应用已把列表滚到顶部 → 浏览器返回时它会把列表也恢复到 0,
-  // 覆盖我们在 restoreStateFromHash 里的恢复逻辑。交给应用自己管,两条返回路径才一致。
-  if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
-  // 用户未手动选择时，跟随系统明暗切换
-  const onSystemThemeChange = (e) => {
-    if (!localStorage.getItem('ps-theme')) {
-      theme.value = e.matches ? 'dark' : 'light'
-      applyTheme(theme.value)
-    }
-  }
-  systemDark?.addEventListener?.('change', onSystemThemeChange)
-  trackCleanup(() => systemDark?.removeEventListener?.('change', onSystemThemeChange))
-
-  reloadData()
-
-  // 浏览器返回/前进 — popstate 恢复状态
-  const onPopstate = () => restoreStateFromHash()
-  window.addEventListener('popstate', onPopstate)
-  trackCleanup(() => window.removeEventListener('popstate', onPopstate))
-
-  // 手动改地址栏 hash / 点站内锚点会触发 hashchange 而非 popstate。
-  // 应用自身的 updateHash() 走 history.replaceState/pushState，不会触发 hashchange，
-  // 所以这里不会和自己打架。
-  const onHashChange = () => restoreStateFromHash()
-  window.addEventListener('hashchange', onHashChange)
-  trackCleanup(() => window.removeEventListener('hashchange', onHashChange))
-
-  // Esc 关闭抽屉
-  const onKeydown = (e) => {
-    if (e.key === 'Escape' && showFilterDrawer.value) showFilterDrawer.value = false
-  }
-  window.addEventListener('keydown', onKeydown)
-  trackCleanup(() => window.removeEventListener('keydown', onKeydown))
-
-  // 返回顶部按钮显隐
-  window.addEventListener('scroll', onScroll, { passive: true })
-  trackCleanup(() => window.removeEventListener('scroll', onScroll))
-
-  // FAB 拖动（阈值 10px 防误触，位置 localStorage 持久化）
-  const el = fabRef.value
-  if (!el) return
-  const FAB_POS_KEY = 'ps_fab_pos'
-  let savedPos = null
-  try { savedPos = JSON.parse(localStorage.getItem(FAB_POS_KEY) || 'null') } catch {}
-  // 初始定位：优先用记忆位置，否则右侧屏幕 1/4 高度
-  if (savedPos && savedPos.side) {
-    el.style.top = savedPos.top + 'px'
-    if (savedPos.side === 'left') { el.style.left = '8px'; el.style.right = 'auto' }
-    else { el.style.right = '8px'; el.style.left = 'auto' }
-  } else {
-    el.style.top = window.innerHeight * 0.25 + 'px'
-    el.style.right = '16px'
-  }
-  function saveFabPos(side) {
-    try { localStorage.setItem(FAB_POS_KEY, JSON.stringify({ top: el.offsetTop, side })) } catch {}
-  }
-
-  function onStart(e) {
-    fabMoved = false
-    fabMouseActive = true
-    if (e.type === 'touchstart') e.preventDefault()
-    const touch = e.touches ? e.touches[0] : e
-    fabDragStart = { x: touch.clientX, y: touch.clientY }
-    fabDragging.value = true
-    el.style.transition = 'none'
-  }
-  function onMove(e) {
-    if (!fabDragging.value) return
-    const touch = e.touches ? e.touches[0] : e
-    const dx = touch.clientX - fabDragStart.x
-    const dy = touch.clientY - fabDragStart.y
-    fabDragStart = { x: touch.clientX, y: touch.clientY }
-    if (Math.abs(dx) > 10 || Math.abs(dy) > 10) fabMoved = true
-    const top = Math.max(10, Math.min(el.offsetTop + dy, window.innerHeight - el.offsetHeight - 100))
-    const left = Math.max(0, Math.min(el.offsetLeft + dx, window.innerWidth - el.offsetWidth - 10))
-    el.style.top = top + 'px'
-    el.style.left = left + 'px'
-    el.style.right = 'auto'
-  }
-  function onEnd() {
-    if (!fabDragging.value) return
-    fabDragging.value = false
-    fabMouseActive = false
-    // ⚠️ 无论是否拖动都要吞掉随后的 click：
-    //   ① 轻点 → 这里直接开抽屉，click 不能再开一次（否则闪烁）
-    //   ② 拖动 → 拖动结束不应弹抽屉，click 必须被吞掉（此前漏了这条，
-    //      导致拖完 FAB 会莫名弹出筛选抽屉）
-    suppressNextFabClick = true
-    if (!fabMoved) showFilterDrawer.value = true
-    el.style.transition = 'transform .2s ease'
-    const cx = el.offsetLeft + el.offsetWidth / 2
-    if (cx < window.innerWidth / 2) {
-      el.style.left = '8px'
-      el.style.right = 'auto'
-      saveFabPos('left')
-    } else {
-      el.style.left = 'auto'
-      el.style.right = '8px'
-      saveFabPos('right')
-    }
-  }
-  function onGlobalMouseUp() {
-    // 只有鼠标操作起始于 FAB 时才处理
-    if (!fabMouseActive) return
-    onEnd()
-  }
-  el.addEventListener('touchstart', onStart, { passive: false })
-  el.addEventListener('touchmove', onMove, { passive: false })
-  el.addEventListener('touchend', onEnd)
-  el.addEventListener('mousedown', onStart)
-  window.addEventListener('mousemove', onMove)
-  window.addEventListener('mouseup', onGlobalMouseUp)
-  trackCleanup(() => el.removeEventListener('mousedown', onStart))
-  trackCleanup(() => window.removeEventListener('mousemove', onMove))
-  trackCleanup(() => window.removeEventListener('mouseup', onGlobalMouseUp))
+  if (!state.phones.length) loadPhones()
 })
-
-onUnmounted(() => {
-  _cleanup.forEach(fn => fn())
-})
+function reload() {
+  loadPhones()
+}
 </script>

@@ -2,7 +2,29 @@ import { reactive } from 'vue'
 
 export const route = reactive({ name: 'home', id: null, query: {} })
 
+/** 兼容旧版（V1）分享链接：#view=detail&id=1 → #/phone/1；返回 true 表示已发起跳转 */
+function handleLegacyHash() {
+  const legacy = location.hash
+  if (!legacy.startsWith('#view=')) return false
+  const params = new URLSearchParams(legacy.slice(1))
+  const view = params.get('view')
+  if (view === 'detail' && params.get('id')) {
+    location.replace('#/phone/' + encodeURIComponent(params.get('id')))
+    return true
+  }
+  if (view === 'compare' && params.get('cmp')) {
+    location.replace('#/compare?ids=' + params.get('cmp'))
+    return true
+  }
+  if (view === 'favorites') {
+    location.replace('#/favorites')
+    return true
+  }
+  return false
+}
+
 function parse() {
+  if (handleLegacyHash()) return
   const hash = location.hash.replace(/^#/, '') || '/'
   const [path, qs] = hash.split('?')
   const query = Object.fromEntries(new URLSearchParams(qs || ''))
@@ -48,10 +70,11 @@ export function replaceRoute(path, query) {
 }
 
 export function startRouter() {
-  if (!location.hash) location.replace('#/')
-  parse()
   window.addEventListener('hashchange', parse)
   window.addEventListener('popstate', parse)
+
+  if (!location.hash) location.replace('#/')
+  parse()
 }
 
 export function scrollTop() {
