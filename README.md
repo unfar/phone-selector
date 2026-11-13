@@ -65,10 +65,16 @@ npm run data:all        # 先校验再标准化
 
 ## 部署
 
-**正式部署走 GitHub Actions**：push 到 `main` → 自动校验数据 → `npm ci` → `npm run build` → 发布到 GitHub Pages
-（`.github/workflows/deploy.yml`；Pages 的 Source 需为 **GitHub Actions**）。
+**正式部署走 GitHub Actions（发布到 gh-pages 分支）**：
 
-本地一键发布（校验 + 构建 + 推送，推送后由 CI 部署）：
+1. push 到 `main`（`./deploy.sh "..."` 或直接 `git push`）
+2. `.github/workflows/deploy.yml` 自动执行：`npm ci` → 数据校验 → `npm run build`
+3. 把 `dist/` 强制推送到 `gh-pages` 分支（Pages 的 Source 是 **gh-pages 分支**，路径 `/`）
+
+> ⚠️ Pages 的 Source 必须是「Deploy from a branch → gh-pages / (root)」。
+> 不要改回「GitHub Actions」，否则 `deploy-pages` 与 branch build 会互相覆盖，导致线上空白页。
+
+本地一键发布（校验 + 构建 + 推送 main，推送后由 CI 部署）：
 
 ```bash
 ./deploy.sh "feat(data): 新增 XXX（2026-XX-XX 发布）"

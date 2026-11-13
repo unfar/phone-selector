@@ -4,10 +4,11 @@ on:
   push:
     branches: [main]
 
+# Pages 站点的 Source 是「gh-pages 分支」（旧式 branch 部署）。
+# 因此这里不再用 actions/deploy-pages，而是构建完成后把 dist 强制推送到 gh-pages 分支，
+# 由 GitHub Pages 的 branch build 自动发布。
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -16,17 +17,14 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-          
+
       - run: npm ci
 
       # 数据门禁：有 error 直接失败，避免坏数据上线
@@ -34,10 +32,18 @@ jobs:
         run: npm run data:validate
 
       - run: npm run build
-      
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-          
-      - id: deployment
-        uses: actions/deploy-pages@v4
+
+      # 把构建产物发布到 gh-pages 分支（Pages Source = gh-pages，路径 /）
+      - name: Deploy dist to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd dist
+          git init -q
+          git checkout -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "deploy: ${GITHUB_SHA::7} ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages

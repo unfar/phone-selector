@@ -71,10 +71,9 @@ def load_phones(path: Path = DATA) -> list:
 def save_phones(phones: list, path: Path):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
-        # 与仓库现有 phones.json 的缩进风格保持一致（indent=1），
+        # 与仓库现有 phones.json 的格式保持一致（indent=2、文件末尾无换行），
         # 否则每次 normalize 都会把整个文件重排，产生淹没真实改动的巨型 diff。
-        json.dump(phones, f, ensure_ascii=False, indent=1)
-        f.write("\n")
+        json.dump(phones, f, ensure_ascii=False, indent=2)
 
 
 def backup(path: Path = DATA) -> Path:
