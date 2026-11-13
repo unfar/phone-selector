@@ -8,6 +8,8 @@
       <h1 class="detail-title">{{ displayName(phone) }}</h1>
       <div class="detail-sub">{{ phone.processor }} · {{ fmtScreen(phone) }} · {{ fmtBattery(phone) }}</div>
       <div class="detail-price">{{ fmtPrice(phone) }}</div>
+      <div v-if="phone.price && phone.verified_at" class="price-meta">参考价 · 数据更新于 {{ phone.verified_at }}</div>
+      <div v-else-if="!phone.price && phone.price_note" class="price-meta">⚠ {{ phone.price_note }}</div>
       <div class="detail-actions">
         <button class="btn btn-sm" :class="{ 'btn-primary': isFavorite(phone.id) }" @click="toggleFavorite(phone.id)">
           {{ isFavorite(phone.id) ? '★ 已收藏' : '☆ 收藏' }}

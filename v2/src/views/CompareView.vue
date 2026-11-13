@@ -43,7 +43,7 @@
         :aria-busy="generating"
         :style="generating ? { opacity: 0.65, cursor: 'progress' } : null"
         @click="downloadImage"
-      >{{ generating ? '生成中…' : '下载对比图' }}</button>
+      >{{ generating ? '生成中…' : '生成对比图' }}</button>
       <button class="btn btn-sm btn-primary" @click="share">复制对比链接</button>
       <a class="btn btn-sm" href="#/list">继续挑选</a>
       <button class="btn btn-sm btn-ghost" style="margin-left:auto" @click="clear">清空对比</button>
@@ -55,13 +55,28 @@
     <p style="margin-top:8px;font-size:13px">在参数库或详情页点「+ 对比」即可加入。</p>
     <div style="margin-top:16px"><a class="btn btn-primary" href="#/list">去参数库挑选 →</a></div>
   </div>
+
+  <div v-if="preview" class="share-modal" role="dialog" aria-modal="true" aria-label="对比图预览" @click.self="preview = ''">
+    <div class="share-panel">
+      <div class="share-panel-head">
+        <h3>对比图已生成</h3>
+        <button class="icon-btn" aria-label="关闭预览" @click="preview = ''">×</button>
+      </div>
+      <p class="share-hint">手机端可长按图片保存；电脑端点击「下载图片」。</p>
+      <img class="share-preview-img" :src="preview" alt="机型对比图预览">
+      <div class="share-actions">
+        <button class="btn btn-primary" @click="doDownload">下载图片</button>
+        <button class="btn" @click="preview = ''">关闭</button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import { route } from '../lib/router.js'
 import { state, toggleCompare, clearCompare, flash } from '../lib/store.js'
-import { downloadCompareImage } from '../lib/shareImage.js'
+import { renderCompareImage, downloadCompareImage } from '../lib/shareImage.js'
 import {
   COMPARE_ROWS, compareConclusion, displayName, scoreOf,
 } from '../lib/derive.js'
@@ -116,6 +131,7 @@ async function share() {
 }
 
 const generating = ref(false)
+const preview = ref('')
 
 async function downloadImage() {
   if (generating.value) return
@@ -125,13 +141,23 @@ async function downloadImage() {
   }
   generating.value = true
   try {
-    await downloadCompareImage(items.value)
-    flash('对比图已开始下载')
+    const canvas = renderCompareImage(items.value)
+    preview.value = canvas.toDataURL('image/png')
   } catch (e) {
     console.error('[compare] 生成对比图失败', e)
     flash(e && e.message ? '生成对比图失败：' + e.message : '生成对比图失败，请重试')
   } finally {
     generating.value = false
+  }
+}
+
+async function doDownload() {
+  try {
+    await downloadCompareImage(items.value)
+    flash('对比图已开始下载')
+  } catch (e) {
+    console.error('[compare] 下载对比图失败', e)
+    flash('下载失败，可长按预览图保存')
   }
 }
 

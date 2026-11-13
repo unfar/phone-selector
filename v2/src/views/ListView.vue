@@ -8,8 +8,10 @@
     <div class="list-layout">
       <aside class="filters" :class="{ open: filtersOpen }">
         <div class="filter-group">
-          <div class="filter-title">场景</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('scene') }" @click="toggleGroup('scene')" :aria-expanded="openGroups.has('scene')">
+            场景<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('scene')" class="chips">
             <button v-for="s in SCENES" :key="s.id" class="chip" :class="{ on: scene === s.id }" @click="pickScene(s.id)">
               {{ s.label }}
             </button>
@@ -17,8 +19,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">价格</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('price') }" @click="toggleGroup('price')" :aria-expanded="openGroups.has('price')">
+            价格<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('price')" class="chips">
             <button v-for="b in BUDGETS" :key="b.id" class="chip" :class="{ on: priceBand === b.id }" @click="pickPrice(b.id)">
               {{ b.label }}
             </button>
@@ -26,8 +30,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">屏幕形态</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('form') }" @click="toggleGroup('form')" :aria-expanded="openGroups.has('form')">
+            屏幕形态<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('form')" class="chips">
             <button class="chip" :class="{ on: form === 'flat' }" @click="pickForm('flat')">直屏</button>
             <button class="chip" :class="{ on: form === 'curved' }" @click="pickForm('curved')">曲面</button>
             <button class="chip" :class="{ on: form === 'fold' }" @click="pickForm('fold')">折叠</button>
@@ -35,8 +41,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">屏幕尺寸</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('size') }" @click="toggleGroup('size')" :aria-expanded="openGroups.has('size')">
+            屏幕尺寸<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('size')" class="chips">
             <button v-for="b in SCREEN_SIZE_BANDS" :key="b.id" class="chip" :class="{ on: sizes.includes(b.id) }" @click="pickSize(b.id)">
               {{ b.label }}
             </button>
@@ -44,8 +52,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">特性</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('feature') }" @click="toggleGroup('feature')" :aria-expanded="openGroups.has('feature')">
+            特性<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('feature')" class="chips">
             <button v-for="f in FEATURE_FILTERS" :key="f.id" class="chip" :class="{ on: features.includes(f.id) }" @click="pickFeature(f.id)">
               {{ f.label }}
             </button>
@@ -53,8 +63,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">处理器</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('chip') }" @click="toggleGroup('chip')" :aria-expanded="openGroups.has('chip')">
+            处理器<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('chip')" class="chips">
             <button v-for="c in CHIP_FAMILIES" :key="c.id" class="chip" :class="{ on: chips.includes(c.id) }" @click="pickChip(c.id)">
               {{ c.label }}
             </button>
@@ -63,8 +75,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">充电协议</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('protocol') }" @click="toggleGroup('protocol')" :aria-expanded="openGroups.has('protocol')">
+            充电协议<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('protocol')" class="chips">
             <button v-for="p in PROTOCOL_OPTIONS" :key="p" class="chip" :class="{ on: protocols.includes(p) }" @click="pickProtocol(p)">
               {{ p }}
             </button>
@@ -72,8 +86,10 @@
         </div>
 
         <div class="filter-group">
-          <div class="filter-title">品牌</div>
-          <div class="chips">
+          <button class="filter-title" :class="{ open: openGroups.has('brand') }" @click="toggleGroup('brand')" :aria-expanded="openGroups.has('brand')">
+            品牌<span class="caret">▾</span>
+          </button>
+          <div v-show="openGroups.has('brand')" class="chips">
             <button v-for="b in brandList" :key="b" class="chip" :class="{ on: brands.includes(b) }" @click="pickBrand(b)">
               {{ b }}
             </button>
@@ -81,6 +97,8 @@
         </div>
 
         <div class="filter-actions">
+          <button class="btn btn-sm" @click="expandAll">展开全部</button>
+          <button class="btn btn-sm" @click="collapseAll">收起全部</button>
           <button class="btn btn-sm" @click="clearAll">清空条件</button>
         </div>
       </aside>
@@ -186,6 +204,15 @@ const priceBand = ref('')
 const form = ref('')
 const sort = ref('recommend')
 const filtersOpen = ref(false)
+const openGroups = ref(new Set(['scene', 'price', 'form', 'size', 'feature']))
+function toggleGroup(id) {
+  const s = new Set(openGroups.value)
+  if (s.has(id)) s.delete(id)
+  else s.add(id)
+  openGroups.value = s
+}
+function expandAll() { openGroups.value = new Set(['scene', 'price', 'form', 'size', 'feature', 'chip', 'protocol', 'brand']) }
+function collapseAll() { openGroups.value = new Set() }
 const visibleCount = ref(PAGE_SIZE)
 
 const brandList = computed(() => {
