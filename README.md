@@ -4,7 +4,10 @@
 
 ## 在线访问
 
-**https://unfar.github.io/phone-selector/**
+- 旧版（参数库）：**https://unfar.github.io/phone-selector/**
+- V2 导购版（预览）：**https://unfar.github.io/phone-selector/v2/**
+
+> V2 与旧版同仓并行：源码在 `v2/`，复用同一份 `data/phones.json`，详见 [v2/README.md](v2/README.md)。
 
 ## 架构
 
