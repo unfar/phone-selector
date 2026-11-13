@@ -94,10 +94,10 @@
       </div>
     </section>
 
-    <section v-if="state.mode === 'pro'" class="section-card">
-      <h3>完整规格（专业模式）</h3>
+    <details class="section-card full-specs">
+      <summary><h3 style="display:inline">完整规格</h3><span class="detail-sub" style="margin-left:8px">点击展开全部参数</span></summary>
       <div v-for="g in specGroups" :key="g.title" class="filter-group" style="border-bottom:1px dashed var(--line);padding-top:10px">
-        <div class="filter-title">{{ g.title }}</div>
+        <div class="filter-title" style="cursor:default">{{ g.title }}</div>
         <div class="spec-grid">
           <div v-for="s in g.items" :key="s.k" class="spec-cell">
             <div class="k">{{ s.k }}</div>
@@ -105,7 +105,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </details>
 
     <p class="meta-line">
       数据来源：{{ phone.source_url && !phone.source_url.includes('example.com') ? '品牌官网' : '人工整理（部分待补来源）' }}

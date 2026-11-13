@@ -5,7 +5,7 @@
       <h1>3 步找到<em>适合你</em>的手机</h1>
       <p class="hero-sub">
         不用懂参数。告诉它预算和你在意什么，从 {{ state.phones.length }} 款国行机型里拿到带理由的候选；
-        在意细节就切到「专业」模式看全量规格。
+        在意细节可以切表格视图、在详情页展开完整规格。
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#/wizard">开始 3 步选机</a>

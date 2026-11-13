@@ -2,7 +2,7 @@
   <div class="section" style="margin-top: 4px">
     <div class="section-head">
       <h2 class="section-title">参数库</h2>
-      <span class="section-desc">按参数精确筛选；切「专业」模式可看表格与全量规格</span>
+      <span class="section-desc">按参数精确筛选；可切换卡片 / 表格视图</span>
     </div>
 
     <div class="list-layout">
@@ -108,6 +108,10 @@
           <button class="btn btn-sm filter-toggle" @click="filtersOpen = !filtersOpen">
             {{ filtersOpen ? '收起筛选' : '筛选' }}
           </button>
+          <div class="mode-switch view-switch" role="group" aria-label="视图">
+            <button :class="{ on: viewMode === 'cards' }" :aria-pressed="viewMode === 'cards'" @click="setView('cards')">卡片</button>
+            <button :class="{ on: viewMode === 'table' }" :aria-pressed="viewMode === 'table'" @click="setView('table')">表格</button>
+          </div>
           <span class="results-count">共 <b>{{ filtered.length }}</b> 款</span>
           <span v-if="q" class="results-count">搜索「{{ q }}」</span>
           <select v-model="sort" aria-label="排序" @change="commit">
@@ -120,7 +124,7 @@
           <div style="margin-top:14px"><button class="btn btn-sm" @click="clearAll">清空条件</button></div>
         </div>
 
-        <template v-else-if="state.mode === 'pro'">
+        <template v-else-if="viewMode === 'table'">
           <div class="pro-table-wrap">
             <table class="pro-table">
               <thead>
@@ -166,13 +170,14 @@
           </button>
           <span>已显示 {{ visibleList.length }} / {{ filtered.length }}</span>
         </div>
+        <div ref="sentinel" class="scroll-sentinel" aria-hidden="true"></div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import PhoneCard from '../components/PhoneCard.vue'
 import { route, replaceRoute } from '../lib/router.js'
 import { state, isComparing, toggleCompare } from '../lib/store.js'
@@ -204,6 +209,11 @@ const priceBand = ref('')
 const form = ref('')
 const sort = ref('recommend')
 const filtersOpen = ref(false)
+const viewMode = ref(localStorage.getItem('ps2-view') === 'table' ? 'table' : 'cards')
+function setView(v) {
+  viewMode.value = v === 'table' ? 'table' : 'cards'
+  localStorage.setItem('ps2-view', viewMode.value)
+}
 const openGroups = ref(new Set(['scene', 'price', 'form', 'size', 'feature']))
 function toggleGroup(id) {
   const s = new Set(openGroups.value)
@@ -320,4 +330,17 @@ const filtered = computed(() => {
 })
 
 const visibleList = computed(() => filtered.value.slice(0, visibleCount.value))
+
+// 自动加载：滚动到底部时自动追加一页（保留「加载更多」按钮作为兜底）
+const sentinel = ref(null)
+let observer = null
+onMounted(() => {
+  if (typeof IntersectionObserver === 'undefined') return
+  observer = new IntersectionObserver((entries) => {
+    if (!entries[0].isIntersecting) return
+    if (filtered.value.length > visibleCount.value) visibleCount.value += PAGE_SIZE
+  }, { rootMargin: '240px' })
+  if (sentinel.value) observer.observe(sentinel.value)
+})
+onBeforeUnmount(() => observer && observer.disconnect())
 </script>

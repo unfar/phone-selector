@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-mode="guide">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <!-- 主题预置：在任何 CSS/JS 之前设置主题，避免首帧闪烁 -->
   <script>
     (function () {
       try {
-        var mode = localStorage.getItem('ps2-mode') || 'guide'
-        document.documentElement.setAttribute('data-mode', mode)
+        var saved = localStorage.getItem('ps2-theme')
+        var theme = (saved === 'dark' || saved === 'light') ? saved
+          : (localStorage.getItem('ps2-mode') === 'pro' ? 'dark' : 'light')
+        document.documentElement.setAttribute('data-theme', theme)
       } catch (e) {}
     })()
   </script>
@@ -19,11 +21,13 @@
   <title>机选 · 3 步找到适合你的手机</title>
   <link rel="canonical" href="https://unfar.github.io/phone-selector/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.webmanifest">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="机选">
   <meta property="og:title" content="机选 · 3 步找到适合你的手机">
-  <meta property="og:description" content="告诉它预算和你在意什么，3 步给出带理由的候选；参数党可切专业模式看全量规格。">
+  <meta property="og:description" content="告诉它预算和你在意什么，3 步给出带理由的候选；参数党可切表格视图、展开完整规格。">
   <meta property="og:url" content="https://unfar.github.io/phone-selector/">
   <meta property="og:image" content="https://unfar.github.io/phone-selector/og-image.png">
   <meta property="og:image:type" content="image/png">

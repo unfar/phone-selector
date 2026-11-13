@@ -29,9 +29,9 @@
         >
       </label>
 
-      <div class="mode-switch" role="group" aria-label="显示模式">
-        <button :class="{ on: state.mode === 'guide' }" @click="setMode('guide')">导购</button>
-        <button :class="{ on: state.mode === 'pro' }" @click="setMode('pro')">专业</button>
+      <div class="mode-switch" role="group" aria-label="配色">
+        <button :class="{ on: state.theme === 'light' }" :aria-pressed="state.theme === 'light'" @click="setTheme('light')">☀ <span class="theme-label">浅色</span></button>
+        <button :class="{ on: state.theme === 'dark' }" :aria-pressed="state.theme === 'dark'" @click="setTheme('dark')">☾ <span class="theme-label">深色</span></button>
       </div>
     </div>
   </header>
@@ -40,7 +40,7 @@
 <script setup>
 import { ref } from 'vue'
 import { route, navigate } from '../lib/router.js'
-import { state, setMode } from '../lib/store.js'
+import { state, setTheme } from '../lib/store.js'
 
 const q = ref('')
 function submitSearch() {

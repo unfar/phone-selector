@@ -6,7 +6,11 @@ export const state = reactive({
   profiles: new Map(),
   loading: true,
   error: null,
-  mode: localStorage.getItem('ps2-mode') || 'guide',
+  theme: (() => {
+    const saved = localStorage.getItem('ps2-theme')
+    if (saved === 'light' || saved === 'dark') return saved
+    return localStorage.getItem('ps2-mode') === 'pro' ? 'dark' : 'light'
+  })(),
   favorites: new Set(JSON.parse(localStorage.getItem('ps2-fav') || '[]')),
   compare: JSON.parse(localStorage.getItem('ps2-compare') || '[]'),
   dataDate: '',
@@ -30,12 +34,12 @@ export async function loadPhones() {
   }
 }
 
-export function setMode(mode) {
-  state.mode = mode === 'pro' ? 'pro' : 'guide'
-  localStorage.setItem('ps2-mode', state.mode)
-  document.documentElement.setAttribute('data-mode', state.mode)
+export function setTheme(theme) {
+  state.theme = theme === 'dark' ? 'dark' : 'light'
+  localStorage.setItem('ps2-theme', state.theme)
+  document.documentElement.setAttribute('data-theme', state.theme)
   const meta = document.querySelector('meta[name="theme-color"]')
-  if (meta) meta.setAttribute('content', state.mode === 'guide' ? '#f6f2e9' : '#0d1017')
+  if (meta) meta.setAttribute('content', state.theme === 'dark' ? '#0d1017' : '#f6f2e9')
 }
 
 export function toggleFavorite(id) {

@@ -467,6 +467,7 @@ export const SORTS = [
   { id: 'camera', label: '拍照优先' },
   { id: 'battery', label: '续航优先' },
   { id: 'newest', label: '最新发布' },
+  { id: 'weight-asc', label: '轻盈优先' },
   { id: 'price-asc', label: '价格从低到高' },
   { id: 'price-desc', label: '价格从高到低' },
 ]
@@ -479,6 +480,7 @@ export function sortPhones(list, sort, profiles) {
     case 'camera': return arr.sort((a, c) => sc(c).camera - sc(a).camera)
     case 'battery': return arr.sort((a, c) => sc(c).battery - sc(a).battery)
     case 'newest': return arr.sort((a, c) => String(c.release_date || '').localeCompare(String(a.release_date || '')))
+    case 'weight-asc': return arr.sort((a, c) => (a.weight_g || 999) - (c.weight_g || 999))
     case 'price-asc': return arr.sort((a, c) => (a.price || 1e9) - (c.price || 1e9))
     case 'price-desc': return arr.sort((a, c) => (c.price || 0) - (a.price || 0))
     default: return arr.sort((a, c) => sc(c).overall - sc(a).overall)

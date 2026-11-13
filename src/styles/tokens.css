@@ -1,6 +1,6 @@
-/* V2 设计令牌：默认「导购模式」= 暖白编辑风；data-mode="pro" = 深色专业模式 */
+/* V2 设计令牌：data-theme="light" 暖白编辑风；data-theme="dark" 深色专业风 */
 :root,
-html[data-mode="guide"] {
+html[data-theme="light"] {
   --bg: #f6f2e9;
   --bg-grad: radial-gradient(1200px 600px at 15% -10%, #fffdf7 0%, transparent 60%),
              radial-gradient(900px 500px at 100% 0%, #e7f3ee 0%, transparent 55%);
@@ -32,7 +32,7 @@ html[data-mode="guide"] {
   --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
 }
 
-html[data-mode="pro"] {
+html[data-theme="dark"] {
   --bg: #0c0f16;
   --bg-grad: radial-gradient(1000px 500px at 20% -10%, #14202a 0%, transparent 60%),
              radial-gradient(800px 480px at 100% 0%, #101b2c 0%, transparent 55%);
