@@ -2,7 +2,7 @@
   <div class="section" style="margin-top: 4px">
     <div class="section-head">
       <h2 class="section-title">参数库</h2>
-      <span class="section-desc">按参数精确筛选；想要全量规格就切「专业」模式</span>
+      <span class="section-desc">按参数精确筛选；切「专业」模式可看表格与全量规格</span>
     </div>
 
     <div class="list-layout">
@@ -35,6 +35,43 @@
         </div>
 
         <div class="filter-group">
+          <div class="filter-title">屏幕尺寸</div>
+          <div class="chips">
+            <button v-for="b in SCREEN_SIZE_BANDS" :key="b.id" class="chip" :class="{ on: sizes.includes(b.id) }" @click="pickSize(b.id)">
+              {{ b.label }}
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">特性</div>
+          <div class="chips">
+            <button v-for="f in FEATURE_FILTERS" :key="f.id" class="chip" :class="{ on: features.includes(f.id) }" @click="pickFeature(f.id)">
+              {{ f.label }}
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">处理器</div>
+          <div class="chips">
+            <button v-for="c in CHIP_FAMILIES" :key="c.id" class="chip" :class="{ on: chips.includes(c.id) }" @click="pickChip(c.id)">
+              {{ c.label }}
+            </button>
+            <button class="chip" :class="{ on: chips.includes('other') }" @click="pickChip('other')">其他</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">充电协议</div>
+          <div class="chips">
+            <button v-for="p in PROTOCOL_OPTIONS" :key="p" class="chip" :class="{ on: protocols.includes(p) }" @click="pickProtocol(p)">
+              {{ p }}
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-group">
           <div class="filter-title">品牌</div>
           <div class="chips">
             <button v-for="b in brandList" :key="b" class="chip" :class="{ on: brands.includes(b) }" @click="pickBrand(b)">
@@ -60,12 +97,56 @@
           </select>
         </div>
 
-        <div v-if="filtered.length" class="grid-cards">
-          <PhoneCard v-for="p in filtered" :key="p.id" :phone="p" :score="profile(p)" />
-        </div>
-        <div v-else class="empty-state">
+        <div v-if="!filtered.length" class="empty-state">
           没有符合条件的机型，试着放宽一个条件。
           <div style="margin-top:14px"><button class="btn btn-sm" @click="clearAll">清空条件</button></div>
+        </div>
+
+        <template v-else-if="state.mode === 'pro'">
+          <div class="pro-table-wrap">
+            <table class="pro-table">
+              <thead>
+                <tr>
+                  <th>机型</th><th>价格</th><th>综合</th><th>芯片</th><th>电池</th><th>充电</th>
+                  <th>屏幕</th><th>重量</th><th>主摄</th><th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="p in visibleList" :key="p.id">
+                  <td>
+                    <a class="pro-name" :href="'#/phone/' + encodeURIComponent(p.id)">{{ displayName(p) }}</a>
+                    <div class="pro-brand">{{ p.brand }}</div>
+                  </td>
+                  <td class="num">{{ fmtPrice(p) }}</td>
+                  <td class="num"><b>{{ profile(p).overall }}</b></td>
+                  <td>{{ shortChip(p) }}</td>
+                  <td class="num">{{ fmtBattery(p) }}</td>
+                  <td class="num">{{ p.charging_w ? p.charging_w + 'W' : '—' }}</td>
+                  <td>{{ fmtScreen(p) }}</td>
+                  <td class="num">{{ fmtWeight(p) }}</td>
+                  <td>{{ cameraBrief(p) }}</td>
+                  <td>
+                    <button class="btn btn-sm" :class="{ 'btn-primary': isComparing(p.id) }" @click="toggleCompare(p.id)">
+                      {{ isComparing(p.id) ? '已选' : '+ 对比' }}
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </template>
+
+        <template v-else>
+          <div class="grid-cards">
+            <PhoneCard v-for="p in visibleList" :key="p.id" :phone="p" :score="profile(p)" />
+          </div>
+        </template>
+
+        <div v-if="filtered.length > visibleCount" class="load-more">
+          <button class="btn" @click="visibleCount += PAGE_SIZE">
+            加载更多（还有 {{ filtered.length - visibleCount }} 款）
+          </button>
+          <span>已显示 {{ visibleList.length }} / {{ filtered.length }}</span>
         </div>
       </div>
     </div>
@@ -76,9 +157,12 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import PhoneCard from '../components/PhoneCard.vue'
 import { route, replaceRoute } from '../lib/router.js'
-import { state } from '../lib/store.js'
+import { state, isComparing, toggleCompare } from '../lib/store.js'
 import {
   BUDGETS, SORTS, scoreOf, sortPhones,
+  SCREEN_SIZE_BANDS, FEATURE_FILTERS, CHIP_FAMILIES, PROTOCOL_OPTIONS,
+  chipFamily, normalizeProtocols,
+  displayName, fmtPrice, fmtBattery, fmtScreen, fmtWeight, shortChip, cameraBrief,
 } from '../lib/derive.js'
 
 const SCENES = [
@@ -90,13 +174,19 @@ const SCENES = [
   { id: 'small', label: '小屏 ≤6.4″' },
 ]
 
+const PAGE_SIZE = 24
 const q = ref('')
 const scene = ref('')
 const brands = ref([])
+const sizes = ref([])
+const features = ref([])
+const chips = ref([])
+const protocols = ref([])
 const priceBand = ref('')
 const form = ref('')
 const sort = ref('recommend')
 const filtersOpen = ref(false)
+const visibleCount = ref(PAGE_SIZE)
 
 const brandList = computed(() => {
   const counts = new Map()
@@ -109,9 +199,14 @@ function readUrl() {
   q.value = qq.q || ''
   scene.value = qq.scene || ''
   brands.value = (qq.brand || '').split(',').filter(Boolean)
+  sizes.value = (qq.size || '').split(',').filter(Boolean)
+  features.value = (qq.feature || '').split(',').filter(Boolean)
+  chips.value = (qq.chip || '').split(',').filter(Boolean)
+  protocols.value = (qq.proto || '').split(',').filter(Boolean)
   priceBand.value = qq.price || ''
   form.value = qq.form || ''
   sort.value = qq.sort || 'recommend'
+  visibleCount.value = PAGE_SIZE
 }
 onMounted(readUrl)
 watch(() => route.query, readUrl)
@@ -119,21 +214,33 @@ watch(() => route.query, readUrl)
 function commit() {
   replaceRoute('/list', {
     q: q.value, scene: scene.value, brand: brands.value.join(','),
+    size: sizes.value.join(','), feature: features.value.join(','),
+    chip: chips.value.join(','), proto: protocols.value.join(','),
     price: priceBand.value, form: form.value, sort: sort.value,
   })
+  visibleCount.value = PAGE_SIZE
 }
 
 function pickScene(id) { scene.value = scene.value === id ? '' : id; commit() }
 function pickPrice(id) { priceBand.value = priceBand.value === id ? '' : id; commit() }
 function pickForm(id) { form.value = form.value === id ? '' : id; commit() }
-function pickBrand(b) {
-  const i = brands.value.indexOf(b)
-  if (i >= 0) brands.value.splice(i, 1)
-  else brands.value.push(b)
+function toggleIn(arrRef, id) {
+  const arr = arrRef.value
+  const i = arr.indexOf(id)
+  if (i >= 0) arr.splice(i, 1)
+  else arr.push(id)
   commit()
 }
+function pickSize(id) { toggleIn(sizes, id) }
+function pickFeature(id) { toggleIn(features, id) }
+function pickChip(id) { toggleIn(chips, id) }
+function pickProtocol(id) { toggleIn(protocols, id) }
+function pickBrand(id) { toggleIn(brands, id) }
 function clearAll() {
-  q.value = ''; scene.value = ''; brands.value = []; priceBand.value = ''; form.value = ''; sort.value = 'recommend'
+  q.value = ''; scene.value = ''; brands.value = []; sizes.value = []
+  features.value = []; chips.value = []; protocols.value = []
+  priceBand.value = ''; form.value = ''
+  sort.value = 'recommend'
   commit()
 }
 
@@ -151,13 +258,29 @@ const filtered = computed(() => {
   if (brands.value.length) list = list.filter(p => brands.value.includes(p.brand))
   const band = BUDGETS.find(b => b.id === priceBand.value)
   if (band) list = list.filter(p => p.price && p.price >= band.min && p.price <= band.max)
+
   if (form.value === 'fold') list = list.filter(p => /折叠/.test(p.screen_form || ''))
   if (form.value === 'curved') list = list.filter(p => /曲面|微曲/.test(p.screen_form || ''))
   if (form.value === 'flat') list = list.filter(p => !/折叠|曲面|微曲/.test(p.screen_form || ''))
-
   if (scene.value === 'fold') list = list.filter(p => /折叠/.test(p.screen_form || ''))
   if (scene.value === 'small') list = list.filter(p => Number(p.screen_size || 99) <= 6.4)
   if (scene.value === 'light') list = list.filter(p => p.weight_g && p.weight_g <= 200)
+
+  if (sizes.value.length) {
+    const bands = SCREEN_SIZE_BANDS.filter(b => sizes.value.includes(b.id))
+    list = list.filter(p => bands.some(b => Number(p.screen_size || 0) >= b.min && Number(p.screen_size || 0) < b.max))
+  }
+  if (features.value.length) {
+    const tests = FEATURE_FILTERS.filter(f => features.value.includes(f.id))
+    list = list.filter(p => tests.every(f => f.test(p)))
+  }
+  if (chips.value.length) list = list.filter(p => chips.value.includes(chipFamily(p)))
+  if (protocols.value.length) {
+    list = list.filter(p => {
+      const has = normalizeProtocols(p)
+      return protocols.value.every(x => has.has(x))
+    })
+  }
 
   if (sort.value === 'recommend') {
     const sceneDef = SCENES.find(s => s.id === scene.value)
@@ -168,4 +291,6 @@ const filtered = computed(() => {
   }
   return sortPhones(list, sort.value, state.profiles)
 })
+
+const visibleList = computed(() => filtered.value.slice(0, visibleCount.value))
 </script>

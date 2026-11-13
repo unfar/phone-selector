@@ -37,6 +37,13 @@
     </div>
 
     <div class="compare-foot">
+      <button
+        class="btn btn-sm btn-primary"
+        :disabled="generating"
+        :aria-busy="generating"
+        :style="generating ? { opacity: 0.65, cursor: 'progress' } : null"
+        @click="downloadImage"
+      >{{ generating ? '生成中…' : '下载对比图' }}</button>
       <button class="btn btn-sm btn-primary" @click="share">复制对比链接</button>
       <a class="btn btn-sm" href="#/list">继续挑选</a>
       <button class="btn btn-sm btn-ghost" style="margin-left:auto" @click="clear">清空对比</button>
@@ -51,9 +58,10 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { route } from '../lib/router.js'
 import { state, toggleCompare, clearCompare, flash } from '../lib/store.js'
+import { downloadCompareImage } from '../lib/shareImage.js'
 import {
   COMPARE_ROWS, compareConclusion, displayName, scoreOf,
 } from '../lib/derive.js'
@@ -105,6 +113,26 @@ function barWidth(row, it) {
 async function share() {
   const url = location.origin + location.pathname + '#/compare?ids=' + state.compare.join(',')
   try { await navigator.clipboard.writeText(url); flash('对比链接已复制') } catch (e) { flash('复制失败，请手动复制地址') }
+}
+
+const generating = ref(false)
+
+async function downloadImage() {
+  if (generating.value) return
+  if (items.value.length < 2) {
+    flash('至少选择 2 台机型才能生成对比图')
+    return
+  }
+  generating.value = true
+  try {
+    await downloadCompareImage(items.value)
+    flash('对比图已开始下载')
+  } catch (e) {
+    console.error('[compare] 生成对比图失败', e)
+    flash(e && e.message ? '生成对比图失败：' + e.message : '生成对比图失败，请重试')
+  } finally {
+    generating.value = false
+  }
 }
 
 function clear() {

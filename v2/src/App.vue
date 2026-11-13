@@ -16,6 +16,7 @@
           <ListView v-else-if="route.name === 'list'" />
           <DetailView v-else-if="route.name === 'detail'" :id="route.id" />
           <CompareView v-else-if="route.name === 'compare'" />
+          <FavoritesView v-else-if="route.name === 'favorites'" />
         </template>
       </div>
     </main>
@@ -39,6 +40,7 @@ import WizardView from './views/WizardView.vue'
 import ListView from './views/ListView.vue'
 import DetailView from './views/DetailView.vue'
 import CompareView from './views/CompareView.vue'
+import FavoritesView from './views/FavoritesView.vue'
 
 onMounted(() => {
   if (!state.phones.length) loadPhones()

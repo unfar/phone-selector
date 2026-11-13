@@ -80,6 +80,11 @@ export function flash(msg) {
   window.dispatchEvent(new CustomEvent('ps2-toast', { detail: msg }))
 }
 
+export function clearFavorites() {
+  state.favorites.clear()
+  localStorage.setItem('ps2-fav', '[]')
+}
+
 export function favList() {
   return state.phones.filter(p => state.favorites.has(p.id))
 }

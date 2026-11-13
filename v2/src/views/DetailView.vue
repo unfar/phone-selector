@@ -21,7 +21,7 @@
     </div>
 
     <section class="conclusion">
-      <h3>一句话结论</h3>
+      <h3>一句话结论 <span v-if="isCurated" class="curated-badge">编辑点评</span></h3>
       <p class="verdict">{{ verdictText }}</p>
       <div class="audience-line">
         <span>适合：<b>{{ aud.fit }}</b></span>
@@ -51,6 +51,18 @@
     </section>
 
     <section class="section-card">
+      <h3>五维评分</h3>
+      <div class="score-bars">
+        <div v-for="d in DIM_ITEMS" :key="d.id" class="score-bar">
+          <span class="name">{{ d.label }}</span>
+          <span class="track"><i :style="{ width: s[d.id] + '%' }"></i></span>
+          <span class="val">{{ s[d.id] }}</span>
+        </div>
+      </div>
+      <p class="detail-sub" style="margin-top:10px">规则评分仅供横向比较，不代表实际体验。</p>
+    </section>
+
+    <section class="section-card">
       <h3>影像系统</h3>
       <div v-if="modules.length" class="camera-list">
         <div v-for="(m, i) in modules" :key="i" class="camera-item">
@@ -64,13 +76,19 @@
     <section v-if="sims.length" class="section-card">
       <h3>同价位还可以看</h3>
       <div class="similar-list">
-        <a v-for="x in sims" :key="x.p.id" class="similar-row" :href="'#/phone/' + encodeURIComponent(x.p.id)">
+        <div v-for="x in sims" :key="x.p.id" class="similar-row">
           <div>
-            <div class="nm">{{ displayName(x.p) }}</div>
-            <div class="df">{{ diffText(x) }}</div>
+            <a class="nm" :href="'#/phone/' + encodeURIComponent(x.p.id)">{{ displayName(x.p) }}</a>
+            <div class="df">{{ fmtPrice(x.p) }} · {{ shortChip(x.p) }} · {{ fmtWeight(x.p) }}</div>
+            <div class="diff-chips">
+              <span v-for="c in diffChips(x)" :key="c.text" class="diff-chip" :class="{ good: c.good, bad: !c.good }">{{ c.text }}</span>
+            </div>
           </div>
-          <span class="pr">{{ fmtPrice(x.p) }}</span>
-        </a>
+          <div class="similar-actions">
+            <span class="pr">{{ fmtPrice(x.p) }}</span>
+            <button class="btn btn-sm" @click="addPair(x.p.id)">和它对比</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -105,7 +123,7 @@ import { computed } from 'vue'
 import { state, isFavorite, toggleFavorite, isComparing, toggleCompare, flash } from '../lib/store.js'
 import {
   displayName, fmtPrice, fmtBattery, fmtScreen, fmtWeight, shortChip, cameraBrief,
-  scoreOf, verdict, prosCons, audience, cameraModules, similarPhones,
+  scoreOf, verdict, prosCons, audience, cameraModules, similarPhones, curatedFor,
 } from '../lib/derive.js'
 
 const props = defineProps({ id: { type: [String, Number], required: true } })
@@ -113,6 +131,7 @@ const props = defineProps({ id: { type: [String, Number], required: true } })
 const phone = computed(() => state.phones.find(p => String(p.id) === String(props.id)))
 const s = computed(() => phone.value ? scoreOf(state.profiles, phone.value) : null)
 const verdictText = computed(() => phone.value ? verdict(phone.value, s.value) : '')
+const isCurated = computed(() => !!(phone.value && curatedFor(phone.value)))
 const pc = computed(() => phone.value ? prosCons(phone.value, s.value) : { pros: [], cons: [] })
 const aud = computed(() => phone.value ? audience(phone.value, s.value) : { fit: '—', notFit: '—' })
 const modules = computed(() => phone.value ? cameraModules(phone.value) : [])
@@ -167,20 +186,44 @@ const specGroups = computed(() => {
   ]
 })
 
-function diffText(x) {
+const DIM_ITEMS = [
+  { id: 'camera', label: '影像' },
+  { id: 'performance', label: '性能' },
+  { id: 'battery', label: '续航' },
+  { id: 'display', label: '屏幕' },
+  { id: 'portability', label: '手感' },
+]
+
+function diffChips(x) {
   const p = phone.value
   const out = []
+  if (x.p.price && p.price) {
+    const d = x.p.price - p.price
+    if (Math.abs(d) >= 200) out.push({ text: (d > 0 ? '贵 ' : '便宜 ') + '¥' + Math.abs(d).toLocaleString('zh-CN'), good: d < 0 })
+  }
   if (x.p.battery_mah && p.battery_mah) {
     const d = x.p.battery_mah - p.battery_mah
-    if (Math.abs(d) >= 300) out.push(`电池 ${d > 0 ? '+' : ''}${d}mAh`)
+    if (Math.abs(d) >= 300) out.push({ text: `电池 ${d > 0 ? '+' : ''}${d}mAh`, good: d > 0 })
   }
   if (x.p.weight_g && p.weight_g) {
     const d = x.p.weight_g - p.weight_g
-    if (Math.abs(d) >= 8) out.push(`重量 ${d > 0 ? '+' : ''}${d}g`)
+    if (Math.abs(d) >= 10) out.push({ text: `重量 ${d > 0 ? '+' : ''}${d}g`, good: d < 0 })
+  }
+  if (x.p.charging_w && p.charging_w) {
+    const d = x.p.charging_w - p.charging_w
+    if (Math.abs(d) >= 20) out.push({ text: `充电 ${d > 0 ? '+' : ''}${d}W`, good: d > 0 })
   }
   const dc = x.s.camera - s.value.camera
-  if (Math.abs(dc) >= 8) out.push(dc > 0 ? '影像更强' : '影像更弱')
-  return out.join(' · ') || '配置接近'
+  if (Math.abs(dc) >= 8) out.push({ text: dc > 0 ? '影像更强' : '影像更弱', good: dc > 0 })
+  const dp = x.s.performance - s.value.performance
+  if (Math.abs(dp) >= 8) out.push({ text: dp > 0 ? '性能更强' : '性能更弱', good: dp > 0 })
+  return out.slice(0, 4)
+}
+
+function addPair(id) {
+  if (!isComparing(phone.value.id)) toggleCompare(phone.value.id)
+  if (!isComparing(id)) toggleCompare(id)
+  flash('已加入对比，可去「对比」查看')
 }
 
 async function share() {

@@ -1,3 +1,5 @@
+import verdicts from '../data/verdicts.json'
+
 /* ------------------------------------------------------------------
  * V2 派生数据层：把原始参数（官网手工录入）转成「决策语言」
  *  - 五个维度评分：影像 / 性能 / 续航 / 屏幕 / 手感
@@ -241,7 +243,13 @@ function weakText(p, dim) {
   return s[dim] ? s[dim]() : ''
 }
 
+export function curatedFor(p) {
+  return verdicts[String(p?.id)] || null
+}
+
 export function verdict(p, s) {
+  const c = curatedFor(p)
+  if (c) return c.verdict
   if (!s) return ''
   const desc = [...DIMS].sort((a, b) => s[b] - s[a])
   const top = desc[0]
@@ -254,6 +262,8 @@ export function verdict(p, s) {
 }
 
 export function prosCons(p, s) {
+  const c = curatedFor(p)
+  if (c) return { pros: c.pros, cons: c.cons, curated: true }
   const pros = []
   DIMS.forEach(d => { if (s[d] >= 76) pros.push(strongText(p, d)) })
   if ((p.tags || []).includes('潜望长焦')) pros.push('潜望长焦，远景更实用')
@@ -267,10 +277,12 @@ export function prosCons(p, s) {
   if (!Number(p.wireless_charging_w || 0)) cons.push('无无线充电')
   if (!p.price) cons.push('价格尚未公布')
 
-  return { pros: [...new Set(pros)].slice(0, 3), cons: [...new Set(cons)].slice(0, 2) }
+  return { pros: [...new Set(pros)].slice(0, 3), cons: [...new Set(cons)].slice(0, 2), curated: false }
 }
 
 export function audience(p, s) {
+  const c = curatedFor(p)
+  if (c) return { fit: c.audience.fit, notFit: c.audience.notFit, curated: true }
   const desc = [...DIMS].sort((a, b) => s[b] - s[a])
   const weak = [...DIMS].sort((a, b) => s[a] - s[b])[0]
   return {
@@ -391,6 +403,62 @@ export function compareConclusion(items) {
   if (!parts.length) return '几台机型各有取舍，按下面的差异逐项看即可。'
   return parts.slice(0, 2).join('；') + '。'
 }
+
+/* ---------------- M2：筛选维度 ---------------- */
+
+export const CHIP_FAMILIES = [
+  { id: 'snap8', label: '骁龙 8 系', re: /骁龙8/ },
+  { id: 'snap7', label: '骁龙 7 系', re: /骁龙7/ },
+  { id: 'snap6', label: '骁龙 6/4 系', re: /骁龙6|骁龙4/ },
+  { id: 'dim9', label: '天玑 9 系', re: /天玑9/ },
+  { id: 'dim8', label: '天玑 8 系', re: /天玑8/ },
+  { id: 'dim7', label: '天玑 7/6 系', re: /天玑7|天玑6/ },
+  { id: 'kirin9', label: '麒麟 9 系', re: /麒麟9/ },
+  { id: 'kirin8', label: '麒麟 8/7 系', re: /麒麟8|麒麟7/ },
+  { id: 'apple', label: 'A 系列', re: /^A1\d/ },
+  { id: 'exynos', label: 'Exynos', re: /Exynos/i },
+]
+export function chipFamily(p) {
+  const proc = String(p.processor || '')
+  for (const f of CHIP_FAMILIES) if (f.re.test(proc)) return f.id
+  return 'other'
+}
+
+const PROTOCOL_MATCHERS = [
+  [/PD\s*3\.0|PD3\.0|PD|[0-9.]+W\s*PD/i, 'PD'],
+  [/PPS/i, 'PPS'],
+  [/UFCS/i, 'UFCS'],
+  [/QC/i, 'QC'],
+  [/SCP|FCP|SuperCharge/i, 'SCP'],
+  [/VFCP/i, 'VFCP'],
+  [/Qi/, 'Qi'],
+]
+export const PROTOCOL_OPTIONS = ['PD', 'PPS', 'UFCS', 'QC', 'SCP', 'FCP', 'VFCP', 'Qi']
+
+export function normalizeProtocols(p) {
+  const out = new Set()
+  for (const raw of p.charge_protocols || []) {
+    const s = String(raw)
+    for (const [re, id] of PROTOCOL_MATCHERS) if (re.test(s)) out.add(id)
+  }
+  return out
+}
+
+export const FEATURE_FILTERS = [
+  { id: 'periscope', label: '潜望长焦', test: p => (p.tags || []).includes('潜望长焦') || /潜望/.test(p.detailed_camera || '') },
+  { id: 'wireless', label: '无线充电', test: p => Number(p.wireless_charging_w || 0) > 0 },
+  { id: 'ip68', label: 'IP68 防水', test: p => /IP6[89]|IP69/.test(`${p.ip_rating || ''} ${(p.features || []).join(' ')}`) },
+  { id: 'light', label: '≤200g', test: p => p.weight_g && p.weight_g <= 200 },
+  { id: 'nfc', label: 'NFC', test: p => p.has_nfc || (p.tags || []).includes('NFC') || (p.features || []).some(f => /NFC/i.test(f)) },
+  { id: 'ir', label: '红外遥控', test: p => p.has_ir || (p.tags || []).includes('红外') || (p.features || []).some(f => /红外/.test(f)) },
+  { id: 'usb3', label: 'USB 3.x', test: p => /3\.[012]|USB3/i.test(p.usb_version || '') },
+]
+
+export const SCREEN_SIZE_BANDS = [
+  { id: 'small', label: '6.4″ 以下', min: 0, max: 6.4 },
+  { id: 'mid', label: '6.4–6.7″', min: 6.4, max: 6.7 },
+  { id: 'large', label: '6.7″ 以上', min: 6.7, max: 99 },
+]
 
 /* 排序 */
 export const SORTS = [

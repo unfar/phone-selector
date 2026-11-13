@@ -19,6 +19,9 @@ function parse() {
   } else if (segs[0] === 'compare') {
     route.name = 'compare'
     route.id = null
+  } else if (segs[0] === 'favorites') {
+    route.name = 'favorites'
+    route.id = null
   } else if (segs[0] === 'phone' && segs[1]) {
     route.name = 'detail'
     route.id = decodeURIComponent(segs[1])

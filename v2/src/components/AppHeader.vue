@@ -13,6 +13,7 @@
         <a href="#/" :class="{ on: route.name === 'home' }">首页</a>
         <a href="#/list" :class="{ on: route.name === 'list' }">参数库</a>
         <a href="#/compare" :class="{ on: route.name === 'compare' }">对比{{ state.compare.length ? '(' + state.compare.length + ')' : '' }}</a>
+        <a href="#/favorites" :class="{ on: route.name === 'favorites' }">收藏{{ state.favorites.size ? '(' + state.favorites.size + ')' : '' }}</a>
       </nav>
 
       <span class="header-spacer"></span>
