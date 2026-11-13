@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 说明：本站是 hash 路由的 Vue SPA（详情/对比地址形如 /#view=detail&id=...），
+     爬虫无法把 hash 当作独立 URL 抓取，因此 sitemap 仅收录首页；
+     列表数据由 JS 运行时加载渲染。 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://unfar.github.io/phone-selector/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <!-- 主题预置：在任何 CSS/JS 之前设置主题，避免首帧闪烁 -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('ps2-theme')
+        var theme = (saved === 'dark' || saved === 'light') ? saved
+          : (localStorage.getItem('ps2-mode') === 'pro' ? 'dark' : 'light')
+        document.documentElement.setAttribute('data-theme', theme)
+      } catch (e) {}
+    })()
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="机选 — 3 步找到适合你的手机。国行手机参数筛选、影像对比与选购决策，兼顾普通用户与参数党。">
+  <meta name="theme-color" content="#f6f2e9">
+  <meta name="keywords" content="手机选购,手机对比,国行手机,参数筛选,智能手机,影像对比,购机推荐">
+  <title>机选 · 3 步找到适合你的手机</title>
+  <link rel="canonical" href="https://unfar.github.io/phone-selector/">
+  <link rel="icon" type="image/svg+xml" href="/phone-selector/favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="/phone-selector/icon-192.png">
+  <link rel="apple-touch-icon" href="/phone-selector/apple-touch-icon.png">
+  <link rel="manifest" href="/phone-selector/manifest.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="机选">
+  <meta property="og:title" content="机选 · 3 步找到适合你的手机">
+  <meta property="og:description" content="告诉它预算和你在意什么，3 步给出带理由的候选；参数党可切表格视图、展开完整规格。">
+  <meta property="og:url" content="https://unfar.github.io/phone-selector/">
+  <meta property="og:image" content="https://unfar.github.io/phone-selector/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="机选 — 3 步找到适合你的手机">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="机选 · 3 步找到适合你的手机">
+  <meta name="twitter:description" content="3 步找到适合你的手机：预算 + 在意项 + 必须条件，给你带理由的候选。">
+  <meta name="twitter:image" content="https://unfar.github.io/phone-selector/og-image.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "机选",
+    "alternateName": "PickPhone",
+    "url": "https://unfar.github.io/phone-selector/",
+    "description": "3 步找到适合你的国行手机：预算、在意项、必须条件，给出带理由的候选。",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+  <script type="module" crossorigin src="/phone-selector/assets/index-BknmAaGM.js"></script>
+  <link rel="stylesheet" crossorigin href="/phone-selector/assets/index--GvireZ_.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
