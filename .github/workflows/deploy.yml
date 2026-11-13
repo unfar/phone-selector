@@ -31,6 +31,10 @@ jobs:
       - name: Validate phone data
         run: npm run data:validate
 
+      # data/ 是权威源，public/data/ 是站点运行时 fetch 的副本，不一致会上线旧数据
+      - name: Check data sync
+        run: cmp -s data/phones.json public/data/phones.json
+
       - run: npm run build
 
       # 把构建产物发布到 gh-pages 分支（Pages Source = gh-pages，路径 /）

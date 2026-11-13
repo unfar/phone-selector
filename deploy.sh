@@ -17,12 +17,17 @@ cd "$PROJECT_ROOT"
 COMMIT_MSG="${1:-feat: update phone data and rebuild site $(date +'%Y-%m-%d')}"
 
 echo -e "${YELLOW}📦 步骤 1/3: 数据校验...${NC}"
-# 注意：编辑数据后请先跑 npm run sync，把 data/phones.json 同步到 public/data/phones.json
 if ! python3 scripts/data_quality.py validate; then
     echo -e "${RED}❌ 数据校验未通过，终止发布${NC}"
     exit 1
 fi
-echo -e "${GREEN}✅ 数据校验通过${NC}"
+# data/ 是权威源，public/data/ 是运行时实际拉取的副本；两者不一致会让线上显示旧数据
+if ! cmp -s data/phones.json public/data/phones.json; then
+    echo -e "${RED}❌ data/phones.json 与 public/data/phones.json 不一致${NC}"
+    echo -e "${YELLOW}   请先运行 npm run sync 同步数据，再重新发布${NC}"
+    exit 1
+fi
+echo -e "${GREEN}✅ 数据校验通过（data 与 public 已同步）${NC}"
 
 echo -e "${YELLOW}📦 步骤 2/3: 前端构建...${NC}"
 if ! npm run build; then
