@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# 站点为 Vue SPA + hash 路由（#view=detail&id=...），hash 部分不会被爬虫单独抓取，
+# 因此 sitemap 只收录首页；数据由 JS 在运行时 fetch 渲染。
+Sitemap: https://unfar.github.io/phone-selector/sitemap.xml
