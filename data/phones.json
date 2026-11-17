@@ -1,170 +1,5 @@
 [
   {
-    "brand": "OPPO",
-    "model": "OPPO Reno17",
-    "name": "Reno17",
-    "release_date": "2026-11-16",
-    "verified_at": "2026-11-17",
-    "network_model": [
-      "5G",
-      "4G",
-      "3G",
-      "2G"
-    ],
-    "os": "ColorOS 17",
-    "cpu": "骁龙7 Gen 4",
-    "cpu_brand": "高通",
-    "cpu_cores": 8,
-    "ram_option": [
-      "8GB",
-      "12GB",
-      "16GB"
-    ],
-    "storage_option": [
-      "256GB",
-      "512GB",
-      "1TB"
-    ],
-    "battery_mah": 8000,
-    "charging_wattage": 80,
-    "screen_size_inch": 6.56,
-    "screen_resolution": "2772x1280",
-    "screen_refresh_rate_hz": 120,
-    "screen_type": "AMOLED",
-    "weight_g": 210,
-    "thickness_mm": 8.2,
-    "rear_camera": "5000万像素 OIS 主摄 + 5000万像素 超广角 + 5000万像素 潜望长焦",
-    "front_camera": "5000万像素",
-    "detailed_camera": "5000万像素 OIS 主摄 | 5000万像素 超广角 | 5000万像素 潜望长焦",
-    "video_recording": "8K@30fps, 4K@60fps, 1080p@240fps",
-    "nfc": true,
-    "ir": false,
-    "stereo_speakers": true,
-    "headphone_jack": false,
-    "ip_rating": "IP68",
-    "fingerprint": "屏下光学",
-    "features": [
-      "3D 悬浮奇遇喵",
-      "星闪设计",
-      "星瞳镜组",
-      "灵犀触控芯",
-      "山海通信增强芯N1",
-      "6s超长实况",
-      "10米无线预览",
-      "后置超清自拍屏"
-    ],
-    "tags": [
-      "5G",
-      "OIS",
-      "NFC",
-      "IP68",
-      "8K视频",
-      "快充",
-      "大电池",
-      "潜望长焦"
-    ],
-    "price_min": 3799,
-    "price_max": 4499,
-    "price_note": "官方售价待确认",
-    "color": [
-      "奇遇喵",
-      "星夜黑",
-      "月影白",
-      "星河蓝"
-    ],
-    "soc": "Snapdragon 7 Gen 4",
-    "gpu": "Adreno 820",
-    "connectivity": {
-      "wifi": "Wi-Fi 7",
-      "bluetooth": "5.4",
-      "usb": "USB-C 3.2",
-      "gps": "双频GPS"
-    }
-  },
-  {
-    "brand": "OPPO",
-    "model": "OPPO Reno17 Pro",
-    "name": "Reno17 Pro",
-    "release_date": "2026-11-16",
-    "verified_at": "2026-11-17",
-    "network_model": [
-      "5G",
-      "4G",
-      "3G",
-      "2G"
-    ],
-    "os": "ColorOS 17",
-    "cpu": "天玑8550 SUPER",
-    "cpu_brand": "联发科",
-    "cpu_cores": 8,
-    "ram_option": [
-      "12GB",
-      "16GB",
-      "24GB"
-    ],
-    "storage_option": [
-      "256GB",
-      "512GB",
-      "1TB"
-    ],
-    "battery_mah": 7200,
-    "charging_wattage": 80,
-    "screen_size_inch": 6.32,
-    "screen_resolution": "2640x1200",
-    "screen_refresh_rate_hz": 120,
-    "screen_type": "AMOLED",
-    "weight_g": 205,
-    "thickness_mm": 7.9,
-    "rear_camera": "2亿像素 OIS 主摄 + 5000万像素 超广角 + 5000万像素 潜望长焦",
-    "front_camera": "5000万像素",
-    "detailed_camera": "2亿像素 OIS 主摄 | 5000万像素 超广角 | 5000万像素 潜望长焦",
-    "video_recording": "8K@30fps, 4K@60fps, 1080p@240fps",
-    "nfc": true,
-    "ir": false,
-    "stereo_speakers": true,
-    "headphone_jack": false,
-    "ip_rating": "IP68",
-    "fingerprint": "屏下光学",
-    "features": [
-      "3D 悬浮奇遇喵",
-      "星闪设计",
-      "星瞳镜组",
-      "超灵敏触控芯",
-      "山海通信增强双芯",
-      "6s超长实况",
-      "10米无线预览",
-      "后置超清自拍屏"
-    ],
-    "tags": [
-      "5G",
-      "OIS",
-      "NFC",
-      "IP68",
-      "8K视频",
-      "快充",
-      "大电池",
-      "潜望长焦",
-      "2亿像素"
-    ],
-    "price_min": 4499,
-    "price_max": 5299,
-    "price_note": "官方售价待确认",
-    "color": [
-      "奇遇喵",
-      "星夜黑",
-      "月影白",
-      "星河蓝"
-    ],
-    "soc": "Mediatek Dimensity 8550 SUPER",
-    "gpu": "Mali-G720",
-    "connectivity": {
-      "wifi": "Wi-Fi 7",
-      "bluetooth": "5.4",
-      "usb": "USB-C 3.2",
-      "gps": "双频GPS"
-    }
-  },
-  {
     "id": 307,
     "brand": "HONOR",
     "model": "荣耀700",
@@ -178,7 +13,7 @@
     "storage": "128GB/256GB/512GB",
     "battery_mah": 5200,
     "charging_w": 66,
-    "wireless_charging_w": null,
+    "wireless_charging_w": 0,
     "weight_g": 187,
     "camera_desc": "5000万像素主摄 + 5000万像素超广角 + 200万像素微距",
     "has_tele": false,
@@ -192,10 +27,8 @@
       "四网协同技术"
     ],
     "tags": [
-      "中端",
-      "5G",
-      "大电池",
-      "护眼屏"
+      "≤200g",
+      "NFC"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
@@ -206,7 +39,8 @@
     "price_max": null,
     "price_note": "待官方公布",
     "source_url": "https://www.honor.com/cn/m/product/10086037656193.html",
-    "verified_at": "2026-11-12"
+    "verified_at": "2026-11-12",
+    "completeness_score": 75
   },
   {
     "id": 308,
@@ -222,7 +56,7 @@
     "storage": "256GB/512GB/1TB",
     "battery_mah": 5500,
     "charging_w": 100,
-    "wireless_charging_w": null,
+    "wireless_charging_w": 0,
     "weight_g": 192,
     "camera_desc": "5000万像素主摄 + 5000万像素超广角 + 5000万像素长焦",
     "has_tele": true,
@@ -236,10 +70,9 @@
       "NFC 超级智能门禁卡"
     ],
     "tags": [
-      "中高端",
-      "5G",
-      "长焦",
-      "快充"
+      "≤200g",
+      "USB3.0",
+      "NFC"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
@@ -250,7 +83,8 @@
     "price_max": null,
     "price_note": "待官方公布",
     "source_url": "https://www.honor.com/cn/m/product/10086174036076.html",
-    "verified_at": "2026-11-12"
+    "verified_at": "2026-11-12",
+    "completeness_score": 75
   },
   {
     "id": 309,
@@ -266,7 +100,7 @@
     "storage": "128GB/256GB/512GB",
     "battery_mah": 5200,
     "charging_w": 66,
-    "wireless_charging_w": null,
+    "wireless_charging_w": 0,
     "weight_g": 185,
     "camera_desc": "5000万像素主摄 + 5000万像素超广角",
     "has_tele": false,
@@ -279,9 +113,8 @@
       "NFC 超级智能门禁卡"
     ],
     "tags": [
-      "中端",
-      "5G",
-      "性价比"
+      "≤200g",
+      "NFC"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 2.0",
@@ -292,7 +125,8 @@
     "price_max": null,
     "price_note": "待官方公布",
     "source_url": "https://www.honor.com/cn/m/product/10086037656193.html",
-    "verified_at": "2026-11-12"
+    "verified_at": "2026-11-12",
+    "completeness_score": 75
   },
   {
     "id": 306,
@@ -308,22 +142,24 @@
     "storage": "256GB/512GB/1TB",
     "battery_mah": 12070,
     "charging_w": 90,
-    "wireless_charging_w": null,
+    "wireless_charging_w": 0,
     "weight_g": null,
     "camera_desc": "2亿像素主摄 + 超广角 + 5000万前置",
     "has_tele": false,
     "os": "MagicOS 11",
     "features": [
+      "IP68",
+      "IP69",
+      "IP69K",
       "东风涡轮散热",
       "12070mAh 巨无霸青海湖电池",
       "90W 有线超级快充",
-      "2亿像素影像",
-      "IP68+IP69+IP69K 防尘防水"
+      "2亿像素影像"
     ],
     "tags": [
-      "电竞",
-      "性价比",
-      "超大电池"
+      "6500mAh+",
+      "USB3.0",
+      "防尘抗水"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
@@ -334,7 +170,8 @@
     "price_max": null,
     "price_note": "国补到手价 2251.65 元起",
     "source_url": "https://www.honor.com/cn/phones/",
-    "verified_at": "2026-11-12"
+    "verified_at": "2026-11-12",
+    "completeness_score": 62
   },
   {
     "id": 463,
@@ -767,22 +604,24 @@
     "has_tele": false,
     "os": "MagicOS 11",
     "features": [
+      "IP68",
+      "IP69",
+      "IP69K",
       "2K 185Hz 双芯绿洲屏",
       "第六代骁龙 8 超级至尊版",
       "荣耀东风双子星涡轮散热",
       "10100mAh 巨无霸青海湖电池",
       "100W 有线超级快充 + 80W 无线快充",
       "2亿像素旗舰级影像",
-      "IP68+IP69+IP69K 防尘防水",
       "WIN 键 + WIN 能量环",
       "超大音腔双 1216 环绕低音炮",
       "荣耀鸿燕七芯通信架构"
     ],
     "tags": [
-      "电竞",
-      "旗舰",
-      "2K高刷",
-      "超大电池"
+      "无线充电",
+      "6500mAh+",
+      "USB3.0",
+      "防尘抗水"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
@@ -793,7 +632,8 @@
     "price_max": null,
     "price_note": "国补到手价 4999 元起",
     "source_url": "https://www.honor.com/cn/phones/honor-win2/",
-    "verified_at": "2026-11-12"
+    "verified_at": "2026-11-12",
+    "completeness_score": 81
   },
   {
     "id": 305,
@@ -809,27 +649,28 @@
     "storage": "256GB/512GB/1TB",
     "battery_mah": 12070,
     "charging_w": 90,
-    "wireless_charging_w": null,
+    "wireless_charging_w": 0,
     "weight_g": 235,
     "camera_desc": "2亿像素主摄（1/1.55英寸，OIS） + 1200万超广角 + 5000万前置",
     "has_tele": false,
     "os": "MagicOS 11",
     "features": [
+      "IP68",
+      "IP69",
+      "IP69K",
       "2K 185Hz 双芯绿洲屏",
       "第五代骁龙 8 至尊版",
       "第二代东风涡轮散热",
       "12070mAh 巨无霸青海湖电池",
       "90W 有线超级快充",
       "2亿像素超清影像",
-      "IP68+IP69+IP69K 防尘防水",
       "超大音腔双 1216 环绕低音炮",
       "荣耀鸿燕通信"
     ],
     "tags": [
-      "电竞",
-      "旗舰",
-      "2K高刷",
-      "超大电池"
+      "6500mAh+",
+      "USB3.0",
+      "防尘抗水"
     ],
     "screen_form": "直屏",
     "usb_version": "USB 3.2",
@@ -840,7 +681,8 @@
     "price_max": null,
     "price_note": "国补到手价 3149 元起",
     "source_url": "https://www.honor.com/cn/phones/honor-win-rt2/",
-    "verified_at": "2026-11-12"
+    "verified_at": "2026-11-12",
+    "completeness_score": 81
   },
   {
     "id": 462,
@@ -25245,5 +25087,134 @@
     },
     "price_note": "待定",
     "ir": true
+  },
+  {
+    "brand": "OPPO",
+    "model": "OPPO Reno17",
+    "processor": "骁龙7 Gen 4",
+    "screen_size": 6.56,
+    "screen_type": "1.5K LTPS 直屏",
+    "screen_form": "直屏",
+    "refresh_hz": 120,
+    "resolution": "2772×1280",
+    "screen_detail": "6.56英寸 2772×1280 120Hz 直面屏",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB/1TB",
+    "battery_mah": 8000,
+    "charging_w": 80,
+    "wireless_charging_w": 0,
+    "reverse_charging_w": 0,
+    "weight_g": null,
+    "os": "ColorOS 17",
+    "camera_desc": "5000万主摄 + 5000万超广角 + 5000万 3.5x潜望长焦",
+    "detailed_camera": "主摄: 5000万 OIS | 超广: 5000万 | 潜望长焦: 5000万 3.5x",
+    "camera_rear": "5000万主摄 + 5000万超广角 + 5000万 3.5x潜望长焦",
+    "camera_front": "5000万",
+    "camera_main_mp": 50,
+    "has_tele": true,
+    "has_ultrawide": true,
+    "has_nfc": true,
+    "has_ir": false,
+    "ip_rating": "IP69K",
+    "fingerprint": "屏下光学",
+    "features": [
+      "IP66",
+      "IP68",
+      "IP69",
+      "IP69K",
+      "NFC",
+      "金属中框",
+      "全焦段4K 6秒长实况",
+      "实况调色盘",
+      "80W超级闪充"
+    ],
+    "tags": [
+      "骁龙7 Gen 4",
+      "潜望长焦",
+      "6500mAh+",
+      "NFC",
+      "防尘抗水"
+    ],
+    "price": 3599,
+    "price_note": "8GB+256GB 3599 元起（国补后 3099 元）",
+    "release_date": "2026-11-16",
+    "source_url": "https://www.oppo.com/cn/smartphones/series-reno/",
+    "verified_at": "2026-11-17",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "",
+    "usb_version": "USB 2.0",
+    "sim_type": "双 nano-SIM",
+    "esim": false,
+    "network_model": "",
+    "colors": "奇遇喵、冰月白、可可棕",
+    "charge_protocols": [],
+    "status": "published",
+    "id": 464,
+    "completeness_score": 81
+  },
+  {
+    "brand": "OPPO",
+    "model": "OPPO Reno17 Pro",
+    "processor": "天玑8550 SUPER",
+    "screen_size": 6.32,
+    "screen_type": "1.5K LTPS 直屏",
+    "screen_form": "直屏",
+    "refresh_hz": 120,
+    "resolution": "2640×1216",
+    "screen_detail": "6.32英寸 2640×1216 120Hz 直面屏",
+    "ram": "8GB/12GB",
+    "storage": "256GB/512GB",
+    "battery_mah": 7250,
+    "charging_w": 80,
+    "wireless_charging_w": 0,
+    "reverse_charging_w": 0,
+    "weight_g": 192,
+    "os": "ColorOS 17",
+    "camera_desc": "2亿主摄 + 5000万超广角 + 5000万 3.5x潜望长焦",
+    "detailed_camera": "主摄: 2亿 OIS | 超广: 5000万 | 潜望长焦: 5000万 3.5x",
+    "camera_rear": "2亿主摄 + 5000万超广角 + 5000万 3.5x潜望长焦",
+    "camera_front": "5000万",
+    "camera_main_mp": 200,
+    "has_tele": true,
+    "has_ultrawide": true,
+    "has_nfc": true,
+    "has_ir": false,
+    "ip_rating": "IP69K",
+    "fingerprint": "屏下光学",
+    "features": [
+      "IP66",
+      "IP68",
+      "IP69",
+      "IP69K",
+      "NFC",
+      "金属中框",
+      "全焦段4K 6秒长实况",
+      "实况调色盘",
+      "80W超级闪充"
+    ],
+    "tags": [
+      "天玑8550 SUPER",
+      "潜望长焦",
+      "6500mAh+",
+      "≤200g",
+      "NFC",
+      "防尘抗水"
+    ],
+    "price": 4199,
+    "price_note": "8GB+256GB 4199 元起（国补后 3699 元）",
+    "release_date": "2026-11-16",
+    "source_url": "https://www.opposhop.cn/cn/web/products/58365.html",
+    "verified_at": "2026-11-17",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "",
+    "usb_version": "USB 2.0",
+    "sim_type": "双 nano-SIM",
+    "esim": false,
+    "network_model": "PND110",
+    "colors": "奇遇喵、初雪白、可可棕",
+    "charge_protocols": [],
+    "status": "published",
+    "id": 465,
+    "completeness_score": 94
   }
 ]

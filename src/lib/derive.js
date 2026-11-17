@@ -238,7 +238,7 @@ function weakText(p, dim) {
     performance: () => `性能一般（${shortChip(p)}）`,
     battery: () => `续航一般（${fmtBattery(p)}）`,
     display: () => `屏幕一般（${fmtScreen(p)}）`,
-    portability: () => `机身偏重（${fmtWeight(p)}）`,
+    portability: () => (p.weight_g ? `机身偏重（${fmtWeight(p)}）` : '重量未公布'),
   }
   return s[dim] ? s[dim]() : ''
 }
