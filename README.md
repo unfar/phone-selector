@@ -87,7 +87,7 @@ GitHub Pages 的 Source 必须保持「Deploy from a branch → gh-pages / (root
 
 ## 数据来源
 
-Apple / 华为 / 荣耀 / 小米 / 红米 / OPPO / 一加 / 真我 / vivo / iQOO / 三星 / 努比亚 / 摩托罗拉 / 联想 等**品牌官网**为主，人工整理；官方不公布的字段（如 CMOS 型号）依赖拆解与产业链爆料，多源一致才写入。
+Apple / 华为 / 荣耀 / 小米 / 红米 / OPPO / 一加 / 真我 / vivo / iQOO / 三星 / 努比亚 / 摩托罗拉 / 联想 / OSTA（星芒，华为子品牌） 等**品牌官网**为主，人工整理；官方不公布的字段（如 CMOS 型号）依赖拆解与产业链爆料，多源一致才写入。
 
 ## License
 
