@@ -53,23 +53,23 @@
 
   <section class="section">
     <div class="section-head">
-      <h2 class="section-title">编辑推荐</h2>
-      <span class="section-desc">综合影像、性能、续航、屏幕与手感</span>
-      <a class="section-link" href="#/list">全部 {{ state.phones.length }} 款 →</a>
-    </div>
-    <div class="grid-cards">
-      <PhoneCard v-for="p in picks" :key="p.id" :phone="p" :score="profile(p)" />
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-head">
       <h2 class="section-title">最新发布</h2>
       <span class="section-desc">先看新机，再看参数</span>
       <a class="section-link" href="#/list?sort=newest">按时间排序 →</a>
     </div>
     <div class="grid-cards">
       <PhoneCard v-for="p in newest" :key="p.id" :phone="p" :score="profile(p)" />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">编辑推荐</h2>
+      <span class="section-desc">综合影像、性能、续航、屏幕与手感</span>
+      <a class="section-link" href="#/list">全部 {{ state.phones.length }} 款 →</a>
+    </div>
+    <div class="grid-cards">
+      <PhoneCard v-for="p in picks" :key="p.id" :phone="p" :score="profile(p)" />
     </div>
   </section>
 </template>
