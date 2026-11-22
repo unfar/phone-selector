@@ -374,17 +374,47 @@ export function similarPhones(p, phones, profiles, n = 3) {
   return cands.slice(0, n)
 }
 
+export function cameraSegment(p, keywords) {
+  const text = String(p.detailed_camera || p.camera_desc || p.camera_rear || '')
+  for (const seg of text.split('|')) {
+    const t = seg.trim()
+    if (t && keywords.some((k) => t.includes(k))) return t
+  }
+  return ''
+}
+
+const yesNo = (v) => (v ? '支持' : '—')
+
 export const COMPARE_ROWS = [
   { key: 'price', label: '参考价', get: p => p.price, fmt: p => fmtPrice(p), better: 'low' },
+  { key: 'overall', label: '综合评分', get: (p, s) => s.overall, fmt: (p, s) => String(s.overall), better: 'high' },
   { key: 'performance', label: '性能', get: (p, s) => s.performance, fmt: p => shortChip(p), better: 'high' },
   { key: 'camera', label: '影像', get: (p, s) => s.camera, fmt: p => cameraBrief(p), better: 'high' },
+  { key: 'main_camera', label: '主摄', fmt: p => cameraSegment(p, ['主摄']) || cameraBrief(p) },
+  { key: 'ultrawide', label: '超广角', fmt: p => cameraSegment(p, ['超广', '超广角']) || '—' },
+  { key: 'telephoto', label: '长焦', fmt: p => cameraSegment(p, ['潜望', '长焦']) || (p.has_tele ? '有长焦' : '—') },
+  { key: 'front_camera', label: '前置', fmt: p => p.camera_front || '—' },
   { key: 'battery', label: '电池', get: p => p.battery_mah, fmt: p => fmtBattery(p), better: 'high', bar: true },
-  { key: 'charge', label: '充电', get: p => p.charging_w, fmt: p => (p.charging_w ? p.charging_w + 'W' : '—'), better: 'high', bar: true },
-  { key: 'screen', label: '屏幕', get: (p, s) => s.display, fmt: p => fmtScreen(p), better: 'high' },
+  { key: 'charge', label: '有线充', get: p => p.charging_w, fmt: p => (p.charging_w ? p.charging_w + 'W' : '—'), better: 'high', bar: true },
+  { key: 'wireless', label: '无线充', get: p => Number(p.wireless_charging_w || 0), fmt: p => (p.wireless_charging_w ? p.wireless_charging_w + 'W' : '—'), better: 'high', bar: true },
+  { key: 'reverse', label: '反向充', get: p => Number(p.reverse_charging_w || 0), fmt: p => (p.reverse_charging_w ? p.reverse_charging_w + 'W' : '—'), better: 'high' },
+  { key: 'screen', label: '屏幕尺寸', get: (p, s) => s.display, fmt: p => fmtScreen(p), better: 'high' },
+  { key: 'resolution', label: '分辨率', fmt: p => p.resolution || '—' },
+  { key: 'refresh', label: '刷新率', get: p => p.refresh_hz, fmt: p => (p.refresh_hz ? p.refresh_hz + 'Hz' : '—'), better: 'high' },
   { key: 'weight', label: '重量', get: p => p.weight_g, fmt: p => fmtWeight(p), better: 'low', bar: true },
-  { key: 'wireless', label: '无线充', get: p => Number(p.wireless_charging_w || 0), fmt: p => (p.wireless_charging_w ? p.wireless_charging_w + 'W' : '—'), better: 'high' },
-  { key: 'ip', label: '防水', get: p => (p.ip_rating || ''), fmt: p => p.ip_rating || ((p.features || []).some(f => /IP6[89]|IP69/.test(f)) ? '支持' : '—'), better: null },
-  { key: 'storage', label: '存储', get: () => null, fmt: p => p.storage || '—', better: null },
+  { key: 'ram', label: '内存', fmt: p => p.ram || '—' },
+  { key: 'storage', label: '存储', fmt: p => p.storage || '—' },
+  { key: 'ip', label: '防水', fmt: p => p.ip_rating || ((p.features || []).some(f => /IP6[89]|IP69/.test(f)) ? '支持' : '—') },
+  { key: 'usb', label: 'USB', fmt: p => p.usb_version || '—' },
+  { key: 'wifi', label: 'WiFi', fmt: p => p.wifi || '—' },
+  { key: 'bluetooth', label: '蓝牙', fmt: p => p.bluetooth || '—' },
+  { key: 'nfc', label: 'NFC', fmt: p => yesNo(p.has_nfc || (p.tags || []).includes('NFC') || (p.features || []).some(f => /NFC/i.test(f))) },
+  { key: 'ir', label: '红外', fmt: p => yesNo(p.has_ir || (p.tags || []).includes('红外') || (p.features || []).some(f => /红外/.test(f))) },
+  { key: 'fingerprint', label: '指纹', fmt: p => p.fingerprint || '—' },
+  { key: 'os', label: '系统', fmt: p => p.os || '—' },
+  { key: 'release', label: '发布', fmt: p => p.release_date || '—' },
+  { key: 'colors', label: '配色', fmt: p => p.colors || '—' },
+  { key: 'protocols', label: '充电协议', fmt: p => (p.charge_protocols || []).join(' / ') || '—' },
 ]
 
 export function compareConclusion(items) {

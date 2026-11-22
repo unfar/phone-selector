@@ -2,7 +2,10 @@
   <div v-if="items.length >= 2">
     <div class="section-head">
       <h2 class="section-title">规格对比</h2>
-      <span class="section-desc">已选 {{ items.length }} / 4 · 高亮项为该项更优</span>
+      <span class="section-desc">已选 {{ items.length }} / 4 · 仅高亮唯一更优项</span>
+      <button class="btn btn-sm" :class="{ 'btn-primary': diffOnly }" @click="diffOnly = !diffOnly">
+        {{ diffOnly ? '显示全部' : '仅看差异' }}
+      </button>
       <a class="section-link" href="#/list">+ 继续添加</a>
     </div>
 
@@ -25,7 +28,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="row in rows" :key="row.key">
+          <tr v-if="diffOnly && !rowsToShow.length">
+            <td :colspan="items.length + 1" style="text-align:center;color:var(--muted);padding:24px">
+              所选机型在这 {{ rows.length }} 项参数上完全一致。
+            </td>
+          </tr>
+          <tr v-for="row in rowsToShow" :key="row.key">
             <td>{{ row.label }}</td>
             <td v-for="(it, i) in items" :key="it.p.id" :class="{ win: winner[row.key] === i }">
               <div>{{ row.fmt(it.p, it.s) }}</div>
@@ -87,6 +95,14 @@ const items = computed(() => state.compare
   .map(p => ({ p, s: scoreOf(state.profiles, p) })))
 
 const rows = COMPARE_ROWS
+const diffOnly = ref(false)
+const rowsToShow = computed(() => {
+  if (!diffOnly.value) return rows
+  return rows.filter((row) => {
+    const vals = items.value.map((it) => String(row.fmt(it.p, it.s)))
+    return new Set(vals).size > 1
+  })
+})
 
 onMounted(() => {
   const ids = route.query.ids
@@ -101,12 +117,24 @@ onMounted(() => {
 
 const winner = computed(() => {
   const out = {}
+  if (items.value.length < 2) return out
   for (const row of rows) {
-    if (!row.better) continue
-    const vals = items.value.map(it => row.get(it.p, it.s)).filter(v => typeof v === 'number' && !Number.isNaN(v))
-    if (!vals.length) continue
-    const target = row.better === 'high' ? Math.max(...vals) : Math.min(...vals)
-    out[row.key] = items.value.findIndex(it => row.get(it.p, it.s) === target)
+    if (!row.better || !row.get) continue
+    const nums = items.value.map((it) => {
+      const v = row.get(it.p, it.s)
+      return typeof v === 'number' && !Number.isNaN(v) ? v : null
+    })
+    const valid = nums.filter((v) => v !== null)
+    if (valid.length < 2) continue
+    const best = row.better === 'high' ? Math.max(...valid) : Math.min(...valid)
+    const candidates = nums.map((v, i) => (v === best ? i : -1)).filter((i) => i >= 0)
+    // 只有唯一最优才高亮；并列（含数值相同）不标
+    if (candidates.length !== 1) continue
+    const idx = candidates[0]
+    // 显示文案完全一致时不高亮，避免「同样的内容被标成更优」
+    const texts = items.value.map((it) => String(row.fmt(it.p, it.s)))
+    if (texts.every((t) => t === texts[idx])) continue
+    out[row.key] = idx
   }
   return out
 })
