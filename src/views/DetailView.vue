@@ -65,6 +65,39 @@
     </section>
 
     <section class="section-card">
+      <h3>
+        电商参考价
+        <span v-if="state.priceUpdatedAt" class="detail-sub">采集于 {{ shortDate(state.priceUpdatedAt) }}</span>
+      </h3>
+      <div v-if="ecomRows.length" class="ecom-list">
+        <a
+          v-for="r in ecomRows" :key="r.key" class="ecom-row"
+          :href="r.url || searchUrl(state.prices, r.key, displayName(phone))"
+          target="_blank" rel="noopener noreferrer"
+        >
+          <div class="ecom-main">
+            <span class="ecom-platform">{{ r.platform }}</span>
+            <span class="ecom-shop">{{ r.shop || '自营 / 旗舰店' }}</span>
+            <span v-if="r.note" class="ecom-plan">{{ r.note }}</span>
+          </div>
+          <div class="ecom-price">¥{{ Number(r.price).toLocaleString('zh-CN') }}</div>
+          <div class="ecom-delta" :class="{ good: priceDelta(r.price, phone.price) < 0, high: priceDelta(r.price, phone.price) > 0 }">
+            {{ deltaText(priceDelta(r.price, phone.price)) }}
+          </div>
+          <div class="ecom-time">{{ shortDate(r.captured_at) }}</div>
+          <div class="ecom-go">去购买 →</div>
+        </a>
+      </div>
+      <div v-else class="ecom-empty">
+        <p>暂无电商价格采集。先去平台查实时价：</p>
+        <div class="ecom-links">
+          <a v-for="l in ecomLinks" :key="l.key" class="btn btn-sm" :href="l.url" target="_blank" rel="noopener noreferrer">{{ l.name }}比价 →</a>
+        </div>
+      </div>
+      <p class="ecom-note">电商价为人工 / 接口采集的参考价，可能含优惠券、国补或版本差异；实际以平台结算页为准。</p>
+    </section>
+
+    <section class="section-card">
       <h3>影像系统</h3>
       <div v-if="modules.length" class="camera-list">
         <div v-for="(m, i) in modules" :key="i" class="camera-item">
@@ -127,6 +160,9 @@ import {
   displayName, fmtPrice, fmtBattery, fmtScreen, fmtWeight, shortChip, cameraBrief,
   scoreOf, verdict, prosCons, audience, cameraModules, similarPhones, curatedFor,
 } from '../lib/derive.js'
+import {
+  priceRows, priceDelta, deltaText, searchUrl, shortDate, platformName, PLATFORM_ORDER,
+} from '../lib/prices.js'
 
 const props = defineProps({ id: { type: [String, Number], required: true } })
 
@@ -137,6 +173,16 @@ const isCurated = computed(() => !!(phone.value && curatedFor(phone.value)))
 const pc = computed(() => phone.value ? prosCons(phone.value, s.value) : { pros: [], cons: [] })
 const aud = computed(() => phone.value ? audience(phone.value, s.value) : { fit: '—', notFit: '—' })
 const modules = computed(() => phone.value ? cameraModules(phone.value) : [])
+const ecomRows = computed(() => (phone.value ? priceRows(phone.value, state.prices) : []))
+const ecomLinks = computed(() => {
+  if (!phone.value) return []
+  const name = displayName(phone.value)
+  return PLATFORM_ORDER.map((k) => ({
+    key: k,
+    name: platformName(state.prices, k),
+    url: searchUrl(state.prices, k, name),
+  }))
+})
 
 const sims = computed(() => {
   if (!phone.value) return []

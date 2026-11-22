@@ -408,6 +408,30 @@ h1, h2, h3, h4, p { margin: 0; }
 .full-specs[open] summary::after { transform: rotate(180deg); }
 .full-specs summary h3 { margin: 0; }
 
+/* ---------------- 电商参考价 ---------------- */
+.ecom-list { display: grid; gap: 8px; }
+.ecom-row {
+  display: grid; grid-template-columns: 1.5fr .75fr .95fr .65fr auto;
+  gap: 12px; align-items: center;
+  background: var(--surface-2); border: 1px solid transparent; border-radius: 12px;
+  padding: 11px 14px; font-size: 13px;
+}
+.ecom-row:hover { border-color: var(--line-strong); background: var(--surface-3); }
+.ecom-main { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.ecom-platform { font-weight: 800; }
+.ecom-shop { color: var(--muted); font-size: 11.5px; }
+.ecom-plan { color: var(--accent-ink); background: var(--accent-soft); font-size: 10.5px; border-radius: 6px; padding: 1px 6px; }
+.ecom-price { font-weight: 850; font-size: 16px; color: var(--accent-2); font-variant-numeric: tabular-nums; }
+.ecom-delta { color: var(--muted); font-size: 11.5px; }
+.ecom-delta.good { color: var(--good); font-weight: 800; }
+.ecom-delta.high { color: var(--bad); font-weight: 700; }
+.ecom-time { color: var(--faint); font-size: 11px; }
+.ecom-go { color: var(--accent-ink); font-weight: 800; font-size: 12px; text-align: right; }
+.ecom-empty { color: var(--muted); font-size: 13px; }
+.ecom-links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.ecom-note { color: var(--faint); font-size: 11.5px; margin-top: 10px; line-height: 1.6; }
+.mini-tag.ecom { background: var(--accent); color: #fff; }
+
 /* ---------------- 分享图预览弹层 ---------------- */
 .share-modal {
   position: fixed; inset: 0; z-index: 90; background: rgba(12, 15, 22, .55);
@@ -498,6 +522,11 @@ html[data-theme="dark"] .spec-item dd { font-family: var(--mono); }
   .result-row { grid-template-columns: 52px 1fr; }
   .result-actions { grid-column: 1 / -1; justify-content: flex-end; }
   .pros-cons { grid-template-columns: 1fr; }
+  .ecom-row { grid-template-columns: 1fr 1fr; }
+  .ecom-row .ecom-main { grid-column: 1 / -1; }
+  .ecom-delta { text-align: right; }
+  .ecom-time { display: none; }
+  .ecom-go { text-align: left; }
   .detail-hero { padding: 20px; }
   .detail-title { font-size: 26px; }
   .compare-grid { overflow-x: auto; }

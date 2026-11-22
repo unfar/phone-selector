@@ -57,6 +57,23 @@ npm run sync          # 标准化 + 同步 public/data
 npm run data:validate # 数据门禁
 ```
 
+## 电商参考价（人工 / 接口采集）
+
+官网价是指导价，电商实际成交价会随促销、国补、版本变化。站点现在支持展示**电商参考价**：
+
+- 数据：`data/prices.json`（当前快照）+ `data/prices/history.jsonl`（历史快照，后续做走势图用）
+- 详情页：京东/天猫/拼多多 各平台参考价、店铺类型、采集日期、与官价的差额、去购买链接；无数据时展示「去平台比价」入口
+- 卡片：有电商价时显示「电商 ¥xxxx」徽标
+- 录入/维护（人工或 CSV）：
+  ```bash
+  python3 scripts/prices.py set --id 466 --platform jd --price 5499 --shop "京东自营"       --url "https://item.jd.com/xxx.html" --note "首销价" --source-url "https://..."
+  python3 scripts/prices.py import --file prices.csv   # 表头: phone_id,platform,price[,shop,url,note,list_price,source_url,captured_at]
+  npm run prices:validate   # 校验
+  npm run prices:report     # 覆盖率 / 30 天未更新统计
+  npm run prices:sync       # data -> public（prebuild 也会自动执行）
+  ```
+- 说明：**不爬取**电商页面（反爬 + 条款风险）。自动更新预留了 `fetch` 命令，接入京东联盟 / 淘宝联盟 / 多多进宝的 API key 后可扩展；当前为人工采集，页面会标注采集日期，实际以下单页为准。
+
 ## 开发 / 构建
 
 ```bash

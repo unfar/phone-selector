@@ -10,7 +10,11 @@
     "sync": "python3 scripts/data_quality.py normalize",
     "data:validate": "python3 scripts/data_quality.py validate",
     "data:normalize": "python3 scripts/data_quality.py normalize",
-    "data:all": "python3 scripts/data_quality.py all"
+    "data:all": "python3 scripts/data_quality.py all",
+    "prices:validate": "python3 scripts/prices.py validate",
+    "prices:sync": "python3 scripts/prices.py sync",
+    "prices:report": "python3 scripts/prices.py report",
+    "prebuild": "python3 scripts/prices.py sync"
   },
   "dependencies": {
     "vue": "^3.5.0"

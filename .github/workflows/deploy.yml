@@ -35,6 +35,10 @@ jobs:
       - name: Check data sync
         run: cmp -s data/phones.json public/data/phones.json
 
+      # 电商参考价数据校验（允许为空）
+      - name: Validate e-commerce prices
+        run: npm run prices:validate
+
       - run: npm run build
 
       # 把构建产物发布到 gh-pages 分支（Pages Source = gh-pages，路径 /）

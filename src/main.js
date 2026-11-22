@@ -3,11 +3,12 @@ import App from './App.vue'
 import './styles/tokens.css'
 import './styles/app.css'
 import { startRouter } from './lib/router.js'
-import { loadPhones, state } from './lib/store.js'
+import { loadPhones, loadPrices, state } from './lib/store.js'
 
 document.documentElement.setAttribute('data-theme', state.theme)
 startRouter()
 loadPhones()
+loadPrices()
 createApp(App).mount('#app')
 
 // PWA：生产环境注册 Service Worker（离线壳 + 数据缓存）

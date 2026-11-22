@@ -19,6 +19,7 @@
     </dl>
 
     <div class="card-tags">
+      <span v-if="ecom" class="mini-tag ecom">电商 ¥{{ Number(ecom.price).toLocaleString('zh-CN') }}</span>
       <span v-for="t in tags" :key="t" class="mini-tag">{{ t }}</span>
     </div>
 
@@ -35,16 +36,19 @@
 <script setup>
 import { computed } from 'vue'
 import { navigate } from '../lib/router.js'
-import { isComparing, toggleCompare } from '../lib/store.js'
+import { isComparing, toggleCompare, state } from '../lib/store.js'
 import {
   displayName, verdict, cameraBrief, fmtBattery, fmtWeight, shortChip,
 } from '../lib/derive.js'
+import { lowestEcom } from '../lib/prices.js'
 
 const props = defineProps({
   phone: { type: Object, required: true },
   score: { type: Object, default: null },
   match: { type: Number, default: undefined },
 })
+
+const ecom = computed(() => lowestEcom(props.phone, state.prices))
 
 const tags = computed(() => {
   const out = []

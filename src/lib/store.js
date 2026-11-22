@@ -14,6 +14,8 @@ export const state = reactive({
   favorites: new Set(JSON.parse(localStorage.getItem('ps2-fav') || '[]')),
   compare: JSON.parse(localStorage.getItem('ps2-compare') || '[]'),
   dataDate: '',
+  prices: null,
+  priceUpdatedAt: '',
 })
 
 export async function loadPhones() {
@@ -31,6 +33,18 @@ export async function loadPhones() {
     state.error = e && e.message ? e.message : '数据加载失败'
   } finally {
     state.loading = false
+  }
+}
+
+export async function loadPrices() {
+  try {
+    const resp = await fetch(import.meta.env.BASE_URL + 'data/prices.json')
+    if (!resp.ok) return
+    const data = await resp.json()
+    state.prices = data
+    state.priceUpdatedAt = data.updated_at || ''
+  } catch (e) {
+    /* 电商价是增强信息，失败不影响主流程 */
   }
 }
 
