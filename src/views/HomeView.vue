@@ -86,6 +86,8 @@ const scenes = [
   { id: 'battery', ico: '🔋', title: '长续航', desc: '大电池 / 快充' },
   { id: 'light', ico: '🪶', title: '轻薄手感', desc: '200g 以内' },
   { id: 'fold', ico: '📐', title: '折叠屏', desc: '横向 / 竖向折叠' },
+  { id: 'wide', ico: '▭', title: '阔直板', desc: '16:9.5 阔屏' },
+  { id: 'widefold', ico: '📖', title: '阔折叠', desc: '阔比例折叠' },
   { id: 'small', ico: '🤏', title: '小屏党', desc: '6.4 英寸以内' },
 ]
 

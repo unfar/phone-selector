@@ -36,7 +36,9 @@
           <div v-show="openGroups.has('form')" class="chips">
             <button class="chip" :class="{ on: form === 'flat' }" @click="pickForm('flat')">直屏</button>
             <button class="chip" :class="{ on: form === 'curved' }" @click="pickForm('curved')">曲面</button>
+            <button class="chip" :class="{ on: form === 'wide' }" @click="pickForm('wide')">阔直板</button>
             <button class="chip" :class="{ on: form === 'fold' }" @click="pickForm('fold')">折叠</button>
+            <button class="chip" :class="{ on: form === 'widefold' }" @click="pickForm('widefold')">阔折叠</button>
           </div>
         </div>
 
@@ -288,7 +290,7 @@ const filtered = computed(() => {
   if (q.value.trim()) {
     const needle = q.value.toLowerCase().replace(/\s+/g, '')
     list = list.filter(p => {
-      const hay = [p.model, p.brand, p.processor, ...(p.tags || [])].join(' ').toLowerCase().replace(/\s+/g, '')
+      const hay = [p.model, p.brand, p.processor, p.screen_form, ...(p.tags || [])].join(' ').toLowerCase().replace(/\s+/g, '')
       return hay.includes(needle)
     })
   }
@@ -297,9 +299,13 @@ const filtered = computed(() => {
   if (band) list = list.filter(p => p.price && p.price >= band.min && p.price <= band.max)
 
   if (form.value === 'fold') list = list.filter(p => /折叠/.test(p.screen_form || ''))
+  if (form.value === 'wide') list = list.filter(p => p.screen_form === '阔直板')
+  if (form.value === 'widefold') list = list.filter(p => p.screen_form === '阔折叠')
   if (form.value === 'curved') list = list.filter(p => /曲面|微曲/.test(p.screen_form || ''))
-  if (form.value === 'flat') list = list.filter(p => !/折叠|曲面|微曲/.test(p.screen_form || ''))
+  if (form.value === 'flat') list = list.filter(p => p.screen_form === '直屏' || !/折叠|曲面|微曲|阔直板/.test(p.screen_form || ''))
   if (scene.value === 'fold') list = list.filter(p => /折叠/.test(p.screen_form || ''))
+  if (scene.value === 'wide') list = list.filter(p => p.screen_form === '阔直板')
+  if (scene.value === 'widefold') list = list.filter(p => p.screen_form === '阔折叠')
   if (scene.value === 'small') list = list.filter(p => Number(p.screen_size || 99) <= 6.4)
   if (scene.value === 'light') list = list.filter(p => p.weight_g && p.weight_g <= 200)
 

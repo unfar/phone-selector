@@ -19,6 +19,7 @@
     </dl>
 
     <div class="card-tags">
+      <span v-if="formTag" class="mini-tag form-tag">{{ formTag }}</span>
       <span v-if="ecom" class="mini-tag ecom">电商 ¥{{ Number(ecom.price).toLocaleString('zh-CN') }}</span>
       <span v-for="t in tags" :key="t" class="mini-tag">{{ t }}</span>
     </div>
@@ -49,6 +50,10 @@ const props = defineProps({
 })
 
 const ecom = computed(() => lowestEcom(props.phone, state.prices))
+const formTag = computed(() => {
+  const f = props.phone?.screen_form
+  return f === '阔直板' || f === '阔折叠' ? f : ''
+})
 
 const tags = computed(() => {
   const out = []

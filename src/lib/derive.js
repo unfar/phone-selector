@@ -329,7 +329,9 @@ export const MUST_HAVES = [
   { id: 'light', label: '≤ 200g', test: p => p.weight_g && p.weight_g <= 200 },
   { id: 'tele', label: '潜望长焦', test: p => (p.tags || []).includes('潜望长焦') || /潜望/.test(p.detailed_camera || '') },
   { id: 'fold', label: '折叠屏', test: p => /折叠/.test(p.screen_form || '') },
-  { id: 'flat', label: '直屏', test: p => !/折叠|曲面|微曲/.test(p.screen_form || '') },
+  { id: 'wide', label: '阔直板', test: p => p.screen_form === '阔直板' },
+  { id: 'widefold', label: '阔折叠', test: p => p.screen_form === '阔折叠' },
+  { id: 'flat', label: '直屏', test: p => p.screen_form === '直屏' || !/折叠|曲面|微曲|阔直板/.test(p.screen_form || '') },
   { id: 'nfc', label: 'NFC', test: p => p.has_nfc || (p.tags || []).includes('NFC') || (p.features || []).some(f => /NFC/i.test(f)) },
 ]
 
@@ -398,6 +400,7 @@ export const COMPARE_ROWS = [
   { key: 'charge', label: '有线充', get: p => p.charging_w, fmt: p => (p.charging_w ? p.charging_w + 'W' : '—'), better: 'high', bar: true },
   { key: 'wireless', label: '无线充', get: p => Number(p.wireless_charging_w || 0), fmt: p => (p.wireless_charging_w ? p.wireless_charging_w + 'W' : '—'), better: 'high', bar: true },
   { key: 'reverse', label: '反向充', get: p => Number(p.reverse_charging_w || 0), fmt: p => (p.reverse_charging_w ? p.reverse_charging_w + 'W' : '—'), better: 'high' },
+  { key: 'screen_form', label: '屏幕形态', fmt: p => p.screen_form || '—' },
   { key: 'screen', label: '屏幕尺寸', get: (p, s) => s.display, fmt: p => fmtScreen(p), better: 'high' },
   { key: 'resolution', label: '分辨率', fmt: p => p.resolution || '—' },
   { key: 'refresh', label: '刷新率', get: p => p.refresh_hz, fmt: p => (p.refresh_hz ? p.refresh_hz + 'Hz' : '—'), better: 'high' },

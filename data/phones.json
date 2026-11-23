@@ -6,7 +6,7 @@
     "processor": "麒麟9030S",
     "screen_size": 6.39,
     "screen_type": "1.5K LTPS 直屏（16:9.5）",
-    "screen_form": "直屏",
+    "screen_form": "阔直板",
     "ram": "12GB/16GB",
     "storage": "256GB/512GB/1TB",
     "battery_mah": 7000,
@@ -3333,7 +3333,7 @@
     "camera_front": "50MP f/2.4",
     "has_tele": true,
     "os": "HarmonyOS 7",
-    "screen_form": "直屏",
+    "screen_form": "阔直板",
     "features": [
       "IP69",
       "IP68",
@@ -7807,9 +7807,10 @@
       "IP68",
       "DP",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "阔折叠"
     ],
-    "screen_form": "折叠屏",
+    "screen_form": "阔折叠",
     "id": 138,
     "tags": [
       "麒麟9030",
@@ -17191,9 +17192,10 @@
       "IPX8",
       "DP",
       "NFC",
-      "红外遥控"
+      "红外遥控",
+      "阔折叠"
     ],
-    "screen_form": "折叠屏",
+    "screen_form": "阔折叠",
     "id": 144,
     "tags": [
       "麒麟9020",

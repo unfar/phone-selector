@@ -3,6 +3,7 @@
     <div class="detail-hero">
       <div class="top">
         <span class="brand-pill">{{ phone.brand }}</span>
+        <span v-if="phone.screen_form === '阔直板' || phone.screen_form === '阔折叠'" class="form-pill">{{ phone.screen_form }}</span>
         <span v-if="phone.release_date" class="detail-sub">{{ phone.release_date }} 发布</span>
       </div>
       <h1 class="detail-title">{{ displayName(phone) }}</h1>
